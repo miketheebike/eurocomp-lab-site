@@ -1,7 +1,7 @@
 ---
 title: "Why and When"
 ---
-ff
+
 > **Placeholder.** Structure only. Content to be added.
 
 Program design first, method second. This page answers whether an evaluation
