@@ -171,9 +171,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><strong>Placeholder.</strong> Structure only. Content to be added.</p>
-</blockquote>
+<p>ff &gt; <strong>Placeholder.</strong> Structure only. Content to be added.</p>
 <p>Program design first, method second. This page answers whether an evaluation makes sense at all, and at what moment it has to be decided.</p>
 <section id="program-design" class="level2">
 <h2 class="anchored" data-anchor-id="program-design">Program design</h2>
@@ -332,7 +330,7 @@ Warning
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/miketheebike\.github\.io\/eurocomp-lab-site\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
