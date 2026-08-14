@@ -2,3 +2,4 @@
 /.quarto/
 /index_files/
 .DS_Store
+**/*.quarto_ipynb
