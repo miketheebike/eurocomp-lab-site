@@ -2,9 +2,10 @@
 title: "Templates and Downloads"
 ---
 
-> **Placeholder.** Structure only. Content to be added.
+[Placeholder page]{.placeholder}
 
-::: {.callout-warning}
+::: {.team-note}
+**Open question**
 This page is still a brainstorm in the outline. Expect the list to change.
 :::
 
@@ -34,7 +35,8 @@ The library. Everything here is a file someone can take away and use.
 
 **Build-your-own questionnaire tool.** Pick modules, get a questionnaire out.
 
-::: {.callout-warning}
+::: {.team-note}
+**Open question**
 Scope warning: the single largest build on the site. Worth deciding early whether
 it ships in version one or later.
 :::
@@ -49,7 +51,8 @@ it ships in version one or later.
 - **Evaluation report templates.** What a final report should include.
 - **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
 
-::: {.callout-note}
+::: {.team-note}
+**Note**
 Three decks built and polished: How, Advanced How, and the wanted posters.
 Decks for Why and When and Requirements not started.
 :::

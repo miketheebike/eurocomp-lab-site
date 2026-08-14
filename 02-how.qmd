@@ -2,7 +2,7 @@
 title: "How"
 ---
 
-> **Placeholder.** Structure only. Content to be added.
+[Placeholder page]{.placeholder}
 
 The mechanics, told through one program from start to finish, then generalised.
 
@@ -11,7 +11,8 @@ The mechanics, told through one program from start to finish, then generalised.
 Where an RCT can be introduced into a competitive scheme, illustrated with case
 studies.
 
-::: {.callout-important}
+::: {.team-note}
+**Key message**
 **Key message.** RCTs need to be planned from the very beginning. This should be
 the loudest line on the page.
 :::
@@ -37,7 +38,7 @@ programs, Croatia/Scinergy.*
 
 *Deck to be added to `assets/` and linked here.*
 
-::: {.callout-tip}
+::: {.soft-panel}
 **Running example.** Romania: 519 firms selected against 519 not selected, drawn
 by computerised lottery witnessed by a notary.
 :::

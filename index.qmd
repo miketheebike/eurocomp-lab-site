@@ -1,46 +1,192 @@
 ---
-title: "EuroCOMP Lab"
+title: "Join a growing community of practice for impact evaluation in Europe"
+toc: false
 ---
 
-> **Placeholder.** Structure only. Content to be added.
-
-Would you like to be part of a growing community of practice in Europe?
-
-::: {.callout-note}
-Wording still open: needs to imply pooling of resources and knowledge sharing
-with the community that already exists (consultants, national labs), not replacing it.
+::: {.lede}
+EuroCOMP Lab pools knowledge and resources across the people and organizations
+already advancing impact evaluation, so Managing Authorities do not have to start
+from scratch.
 :::
 
-## Introducing the EuroCOMP Lab
+::: {.team-note}
+**Open question**
+Wording needs to be inclusive. A community of practice already exists (consultants,
+national labs), so the framing should imply pooling of resources and knowledge
+sharing rather than replacing it.
+:::
 
-Short info video. Who the Lab is, who it serves, what a Managing Authority gets
-out of working with it.
+::: {.eyebrow}
+Intro video
+:::
 
-*Video material to be embedded.*
+## See it in action
 
-## Why evaluate?
+A short introduction to the EuroCOMP Lab, how impact evaluations can make public
+support more efficient and effective, and how it is already being used to improve
+programs across Europe.
 
-The case for policymakers. Outputs versus outcomes, introduced broadly here as
-the way into Theory of Change. Detail lands on [Requirements](04-requirements.qmd).
+::: {.video-ph}
+::: {.play}
+&#9654;
+:::
+Video placeholder
+:::
 
-- Keep to one idea: spending is not the same as impact
-- No method names on this block
-- Links forward to [Why and When](01-why-and-when.qmd)
+::: {.team-note}
+**Open question**
+Placement. The video currently sits after the hook. It may work better further down,
+once the case for evaluation has been made.
+:::
 
-## What is an impact evaluation?
+::: {.eyebrow}
+Why evaluate
+:::
 
-Plain definition. Ideally one diagram carrying most of the explanation.
+## In a world of scarce resources, you need evidence on what is actually worth funding
 
-## Managing Authority voices
+The EU is one of the world's largest investors in innovation, yet significant regional
+disparities in innovation outcomes are limiting its overall competitiveness. To remain
+on par with global counterparts, every euro invested needs to yield greater returns and
+have a more substantial impact on growth.
 
-How teams benefited, what they learned, what value they see in running RCTs.
+The processes behind these investments often lack mechanisms for continuous learning,
+even as policy needs to keep adapting to evolving circumstances. This calls for
+identifying challenges, testing solutions, and refining approaches.
 
-*Video material exists. Needs selecting, clipping, and clearance.*
+::: {.gold-panel}
+This is what we call **science-based adaptive delivery**: testing, learning, and
+adjusting as you go.
+:::
 
-## Map of labs that can support impact evaluation
+::: {.team-note}
+**Open question**
+Voice: "you", "we", or avoiding direct address altogether? Needs to be settled once and
+applied across the whole site. Content is mainly based on the report introduction.
+:::
 
-Optional. Plots J-PAL and other organisations able to support an evaluation.
+## Testing and learning only works if you know what to look for
 
-::: {.callout-warning}
-Decision needed: landing page or [Examples](07-examples.qmd)?
+When evaluating projects, we often only assess outputs, because they are the easiest
+thing to count. Impact evaluation is what lets you move from measuring outputs to
+proving outcomes.
+
+::: {.cards}
+::: {.card-e}
+#### Outputs
+What a program delivers: grants disbursed, firms enrolled, trainings run.
+:::
+::: {.card-e}
+#### Outcomes
+What changes because of it: growth, jobs, innovation, resilience.
+:::
+:::
+
+To understand in advance why each step should lead to the next, you need to map out,
+before implementation, how a program's activities are expected to change the problem
+you are addressing. That causal logic, the how and why behind each step, explains a
+program's reason for existing, and tells you what to measure to test whether the
+expected change is actually happening.
+
+::: {.chain}
+::: {.step}
+**Inputs**
+:::
+::: {.step}
+**Activities**
+:::
+::: {.step}
+**Outputs**
+:::
+::: {.on}
+**Outcomes**
+:::
+:::
+
+This chain is the foundation of a Theory of Change, and having thought it through helps
+in designing a strong impact evaluation. There is more on this in
+[Why and When](01-why-and-when.qmd).
+
+::: {.team-note}
+**Open question**
+Is this slide too abrupt for the landing page? The outcome versus output point and the
+introduction to Theory of Change were agreed with Alex, but the transition may need
+softening. Also unclear whether "inputs" and "activities" are the right terms in this context.
+:::
+
+::: {.eyebrow}
+What is an impact evaluation
+:::
+
+## But what is impact evaluation exactly?
+
+::: {.gold-panel}
+It allows us to answer the questions: what impact did this intervention have on regional
+development, and how did different approaches change the outcome? For whom did it work
+best, and under which conditions?
+:::
+
+To answer that, an impact evaluation isolates a program's actual effect from everything
+else going on (economic trends, other policies, or the kinds of firms likely to apply in
+the first place), rather than just describing what happened. It compares what actually
+happened after introducing a program to what would have happened without it, the
+counterfactual.
+
+::: {.cards}
+::: {.card-e}
+#### Not the same as M&E
+M&E tracks whether a program is implemented as planned. Impact evaluation tests whether
+it caused a real difference, compared to what would have happened without it.
+:::
+::: {.card-e}
+#### Built in from day one
+The comparison group, sample size, and data collection all depend on decisions made
+before a program launches, not added on afterward.
+:::
+::: {.card-e}
+#### Each one builds on the last
+Each evaluation answers some questions and raises new ones, helping you understand your
+regional market and design more impactful programs next time.
+:::
+:::
+
+::: {.team-note}
+**Open question**
+Do the three cards belong here, or would they sit better on Why and When?
+:::
+
+::: {.dark-panel}
+::: {.eyebrow}
+Voices from Managing Authorities
+:::
+
+### You want to introduce experimentation for evidence-based policy design? You are not alone.
+
+::: {.quote-e}
+Seeing results already obtained in other countries is very inspiring for us and it gives
+us the idea that we can do this too.
+[Daniela Ferrara, role and country to confirm]{.attrib}
+:::
+
+::: {.quote-e}
+We always need to look to the impact, to do things good with impact and better. We need
+to have the courage to be more brave, more stubborn, more responsible, to work every day
+harder for a bigger purpose.
+[Vasile Asandei, role and country to confirm]{.attrib}
+:::
+:::
+
+::: {.eyebrow}
+Optional
+:::
+
+## Who can help
+
+Map of labs and organizations able to support an impact evaluation, including J-PAL and
+others.
+
+::: {.team-note}
+**Decision needed**
+Marked optional in the outline. Confirm whether this belongs on the landing page or on
+[Examples](07-examples.qmd).
 :::

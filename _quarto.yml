@@ -6,6 +6,7 @@ website:
   title: "EuroCOMP Lab"
   description: "Impact evaluation for competitive business support programs"
   navbar:
+    background: dark
     left:
       - href: index.qmd
         text: Home
@@ -24,10 +25,13 @@ website:
       - href: 07-examples.qmd
         text: Examples
   page-footer:
-    center: "Draft site shell. Not for circulation outside the team."
+    center: "Draft site. Structure and content still under review by the team."
 
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, theme.scss]
     toc: true
     toc-title: "On this page"
+    toc-depth: 2
+    anchor-sections: true
+    link-external-newwindow: true

@@ -2,7 +2,7 @@
 title: "Examples"
 ---
 
-> **Placeholder.** Structure only. Content to be added.
+[Placeholder page]{.placeholder}
 
 Where the whole thing lands: real evaluations, from the Lab and beyond.
 
@@ -11,7 +11,7 @@ Where the whole thing lands: real evaluations, from the Lab and beyond.
 Full case studies for each project, deeper than the wanted posters on
 [How](02-how.qmd).
 
-::: {.callout-tip}
+::: {.soft-panel}
 **Running example.** Romania runs through every page of the site. This is where
 the full story sits, with the baseline report attached.
 :::
@@ -21,7 +21,8 @@ the full story sits, with the baseline report attached.
 Comparable trials from other institutions, to show the approach is not unique to
 this program.
 
-::: {.callout-warning}
+::: {.team-note}
+**Open question**
 Decision needed: agree the inclusion criteria before anyone starts collecting.
 Business support only, or wider?
 :::

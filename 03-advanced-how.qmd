@@ -2,7 +2,7 @@
 title: "Advanced How"
 ---
 
-> **Placeholder.** Structure only. Content to be added.
+[Placeholder page]{.placeholder}
 
 Sample size and power, built up from intuition rather than formulas.
 
@@ -11,7 +11,8 @@ Sample size and power, built up from intuition rather than formulas.
 Starts from a rule-of-thumb intuition using standard deviation, then adds
 complexity in steps.
 
-::: {.callout-important}
+::: {.team-note}
+**Key message**
 **Constraint.** No formulas on the page. Intuition and visuals only, with links
 out for anyone who wants the maths.
 :::
@@ -25,7 +26,8 @@ for everything else on this page.
 
 Link out to an existing calculator rather than building one.
 
-::: {.callout-warning}
+::: {.team-note}
+**Open question**
 To do: Jakob shared the link by email. Needs adding here and to the deck.
 :::
 
@@ -34,7 +36,8 @@ To do: Jakob shared the link by email. Needs adding here and to the deck.
 Covers the four credibility pillars: enough firms, comparable groups, reliable
 outcomes, right design.
 
-::: {.callout-warning}
+::: {.team-note}
+**Open question**
 Data gap: balance bar figures in the deck are still illustrative placeholders.
 Replace before publication.
 :::

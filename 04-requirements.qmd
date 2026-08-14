@@ -2,7 +2,7 @@
 title: "Requirements"
 ---
 
-> **Placeholder.** Structure only. Content to be added.
+[Placeholder page]{.placeholder}
 
 The groundwork a Managing Authority needs before fieldwork can start.
 
@@ -20,7 +20,8 @@ question.
 What a Theory of Change is and how to define one. Picks up the outputs versus
 outcomes thread from the [home page](index.qmd).
 
-::: {.callout-note}
+::: {.team-note}
+**Note**
 Cross-link: templates live on [Templates](06-templates.qmd). Keep this page
 explanatory and send people there to download.
 :::
