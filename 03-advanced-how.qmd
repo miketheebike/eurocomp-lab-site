@@ -1,0 +1,40 @@
+---
+title: "Advanced How"
+---
+
+> **Placeholder.** Structure only. Content to be added.
+
+Sample size and power, built up from intuition rather than formulas.
+
+## Samples and power calculations
+
+Starts from a rule-of-thumb intuition using standard deviation, then adds
+complexity in steps.
+
+::: {.callout-important}
+**Constraint.** No formulas on the page. Intuition and visuals only, with links
+out for anyone who wants the maths.
+:::
+
+## Why enough applicants is essential
+
+A sufficiently large number of applicants or beneficiaries is the precondition
+for everything else on this page.
+
+## Power calculator
+
+Link out to an existing calculator rather than building one.
+
+::: {.callout-warning}
+To do: Jakob shared the link by email. Needs adding here and to the deck.
+:::
+
+## Companion slide deck
+
+Covers the four credibility pillars: enough firms, comparable groups, reliable
+outcomes, right design.
+
+::: {.callout-warning}
+Data gap: balance bar figures in the deck are still illustrative placeholders.
+Replace before publication.
+:::

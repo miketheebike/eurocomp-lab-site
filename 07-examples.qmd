@@ -1,0 +1,27 @@
+---
+title: "Examples"
+---
+
+> **Placeholder.** Structure only. Content to be added.
+
+Where the whole thing lands: real evaluations, from the Lab and beyond.
+
+## EuroCOMP Lab evaluations
+
+Full case studies for each project, deeper than the wanted posters on
+[How](02-how.qmd).
+
+::: {.callout-tip}
+**Running example.** Romania runs through every page of the site. This is where
+the full story sits, with the baseline report attached.
+:::
+
+## Examples from beyond the Lab
+
+Comparable trials from other institutions, to show the approach is not unique to
+this program.
+
+::: {.callout-warning}
+Decision needed: agree the inclusion criteria before anyone starts collecting.
+Business support only, or wider?
+:::

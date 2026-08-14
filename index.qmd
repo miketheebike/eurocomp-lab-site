@@ -1,0 +1,46 @@
+---
+title: "EuroCOMP Lab"
+---
+
+> **Placeholder.** Structure only. Content to be added.
+
+Would you like to be part of a growing community of practice in Europe?
+
+::: {.callout-note}
+Wording still open: needs to imply pooling of resources and knowledge sharing
+with the community that already exists (consultants, national labs), not replacing it.
+:::
+
+## Introducing the EuroCOMP Lab
+
+Short info video. Who the Lab is, who it serves, what a Managing Authority gets
+out of working with it.
+
+*Video material to be embedded.*
+
+## Why evaluate?
+
+The case for policymakers. Outputs versus outcomes, introduced broadly here as
+the way into Theory of Change. Detail lands on [Requirements](04-requirements.qmd).
+
+- Keep to one idea: spending is not the same as impact
+- No method names on this block
+- Links forward to [Why and When](01-why-and-when.qmd)
+
+## What is an impact evaluation?
+
+Plain definition. Ideally one diagram carrying most of the explanation.
+
+## Managing Authority voices
+
+How teams benefited, what they learned, what value they see in running RCTs.
+
+*Video material exists. Needs selecting, clipping, and clearance.*
+
+## Map of labs that can support impact evaluation
+
+Optional. Plots J-PAL and other organisations able to support an evaluation.
+
+::: {.callout-warning}
+Decision needed: landing page or [Examples](07-examples.qmd)?
+:::

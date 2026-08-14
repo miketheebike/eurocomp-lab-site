@@ -1,0 +1,55 @@
+---
+title: "Templates and Downloads"
+---
+
+> **Placeholder.** Structure only. Content to be added.
+
+::: {.callout-warning}
+This page is still a brainstorm in the outline. Expect the list to change.
+:::
+
+The library. Everything here is a file someone can take away and use.
+
+## Evidence and legal
+
+- **Benchmark reports.** Published reports used as reference points.
+- **Replicable do-files for randomisation.** Working scripts a team can adapt.
+- **Legal text for national legislation.** Model wording enabling RCTs within competitive calls.
+- **GDPR-compliant consent forms.** Consent templates cleared for use in EU member states.
+
+## Questionnaires
+
+**Questionnaire modules library.** Modular blocks a team can assemble, covering:
+
+- Firm background
+- Digitalization
+- Innovation
+- R&D
+- Collaboration
+- CEO traits: Big Five
+- Management capacities
+- Technology adoption
+- Behavior
+- Skills
+
+**Build-your-own questionnaire tool.** Pick modules, get a questionnaire out.
+
+::: {.callout-warning}
+Scope warning: the single largest build on the site. Worth deciding early whether
+it ships in version one or later.
+:::
+
+**Prior surveys.** Instruments already used in past evaluations.
+
+## Templates
+
+- **Terms of Reference templates.** For consultants and for data collection firms.
+- **Theory of Change templates.** Blank and worked versions.
+- **Monitoring framework templates.** Structures for tracking take-up, attrition and balance.
+- **Evaluation report templates.** What a final report should include.
+- **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
+
+::: {.callout-note}
+Three decks built and polished: How, Advanced How, and the wanted posters.
+Decks for Why and When and Requirements not started.
+:::

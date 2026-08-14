@@ -1,0 +1,43 @@
+---
+title: "How"
+---
+
+> **Placeholder.** Structure only. Content to be added.
+
+The mechanics, told through one program from start to finish, then generalised.
+
+## Feasibility and entry points
+
+Where an RCT can be introduced into a competitive scheme, illustrated with case
+studies.
+
+::: {.callout-important}
+**Key message.** RCTs need to be planned from the very beginning. This should be
+the loudest line on the page.
+:::
+
+## Different ways to randomise
+
+Lottery among eligible applicants, phase-in, threshold designs, and what each buys.
+
+## Case studies as wanted posters
+
+One standardised card per project, each showing:
+
+- Sample size, treatment versus control
+- Outcomes measured
+- RCT design
+- Effect sizes
+- Link through to the full case study or report
+
+*Five wanted poster slides already built: SMART Romania, Extremadura, two Czechia
+programs, Croatia/Scinergy.*
+
+## Companion slide deck
+
+*Deck to be added to `assets/` and linked here.*
+
+::: {.callout-tip}
+**Running example.** Romania: 519 firms selected against 519 not selected, drawn
+by computerised lottery witnessed by a notary.
+:::

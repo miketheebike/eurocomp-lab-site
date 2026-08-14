@@ -1,0 +1,54 @@
+---
+title: "Why and When"
+---
+
+> **Placeholder.** Structure only. Content to be added.
+
+Program design first, method second. This page answers whether an evaluation
+makes sense at all, and at what moment it has to be decided.
+
+## Program design
+
+When, why and where to introduce an evaluation.
+
+- Evidence-based policy making
+- Learning
+- Return on investment: what it is and how to measure it
+- Scarce resources: where to invest, who benefits most
+- Policy instruments with competition: more applicants than can be funded
+
+::: {.callout-note}
+Source: return on investment section draws on Alex's slides.
+:::
+
+::: {.callout-tip}
+**Running example.** Romania: more eligible applicants than available grants
+makes the competition point concrete.
+:::
+
+## Ethics: why randomising is ethical
+
+Addresses the objection head on. Oversubscription means someone is turned away
+regardless, so the question is how, not whether.
+
+::: {.callout-warning}
+Open question: the point that large grants to already-successful firms do not
+necessarily create the most impact needs a home. Landing page or here?
+:::
+
+## Choosing the right evaluation design
+
+- Randomised controlled trials
+- Ex-post evaluation and quasi-experimental designs
+- Why timing matters for choosing an RCT
+- Impact evaluation versus monitoring and evaluation
+
+## Risks and pitfalls
+
+Non-compliance and take-up, attrition, other pitfalls.
+
+::: {.callout-warning}
+Open question: flagged in the outline as possibly belonging elsewhere.
+Candidate homes: end of [How](02-how.qmd), or
+[Data Collection](05-data-collection.qmd) alongside monitoring.
+:::
