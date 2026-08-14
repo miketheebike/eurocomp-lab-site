@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2d9c6f5db8bc0ac69323a12fef4b0370.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
+  <ul class="collapse">
   <li><a href="#samples-and-power-calculations" id="toc-samples-and-power-calculations" class="nav-link active" data-scroll-target="#samples-and-power-calculations">Samples and power calculations</a></li>
   <li><a href="#why-enough-applicants-is-essential" id="toc-why-enough-applicants-is-essential" class="nav-link" data-scroll-target="#why-enough-applicants-is-essential">Why enough applicants is essential</a></li>
   <li><a href="#power-calculator" id="toc-power-calculator" class="nav-link" data-scroll-target="#power-calculator">Power calculator</a></li>
@@ -171,25 +171,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><strong>Placeholder.</strong> Structure only. Content to be added.</p>
-</blockquote>
+<p><span class="placeholder">Placeholder page</span></p>
 <p>Sample size and power, built up from intuition rather than formulas.</p>
 <section id="samples-and-power-calculations" class="level2">
 <h2 class="anchored" data-anchor-id="samples-and-power-calculations">Samples and power calculations</h2>
 <p>Starts from a rule-of-thumb intuition using standard deviation, then adds complexity in steps.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Constraint.</strong> No formulas on the page. Intuition and visuals only, with links out for anyone who wants the maths.</p>
-</div>
+<div class="team-note">
+<p><strong>Key message</strong> <strong>Constraint.</strong> No formulas on the page. Intuition and visuals only, with links out for anyone who wants the maths.</p>
 </div>
 </section>
 <section id="why-enough-applicants-is-essential" class="level2">
@@ -199,35 +187,15 @@ Important
 <section id="power-calculator" class="level2">
 <h2 class="anchored" data-anchor-id="power-calculator">Power calculator</h2>
 <p>Link out to an existing calculator rather than building one.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>To do: Jakob shared the link by email. Needs adding here and to the deck.</p>
-</div>
+<div class="team-note">
+<p><strong>Open question</strong> To do: Jakob shared the link by email. Needs adding here and to the deck.</p>
 </div>
 </section>
 <section id="companion-slide-deck" class="level2">
 <h2 class="anchored" data-anchor-id="companion-slide-deck">Companion slide deck</h2>
 <p>Covers the four credibility pillars: enough firms, comparable groups, reliable outcomes, right design.</p>
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warning
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Data gap: balance bar figures in the deck are still illustrative placeholders. Replace before publication.</p>
-</div>
+<div class="team-note">
+<p><strong>Open question</strong> Data gap: balance bar figures in the deck are still illustrative placeholders. Replace before publication.</p>
 </div>
 
 
@@ -321,6 +289,11 @@ Warning
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -641,7 +614,7 @@ Warning
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Draft site shell. Not for circulation outside the team.</p>
+<p>Draft site. Structure and content still under review by the team.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2d9c6f5db8bc0ac69323a12fef4b0370.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
+  <ul class="collapse">
   <li><a href="#feasibility-and-entry-points" id="toc-feasibility-and-entry-points" class="nav-link active" data-scroll-target="#feasibility-and-entry-points">Feasibility and entry points</a></li>
   <li><a href="#different-ways-to-randomise" id="toc-different-ways-to-randomise" class="nav-link" data-scroll-target="#different-ways-to-randomise">Different ways to randomise</a></li>
   <li><a href="#case-studies-as-wanted-posters" id="toc-case-studies-as-wanted-posters" class="nav-link" data-scroll-target="#case-studies-as-wanted-posters">Case studies as wanted posters</a></li>
@@ -171,25 +171,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><strong>Placeholder.</strong> Structure only. Content to be added.</p>
-</blockquote>
+<p><span class="placeholder">Placeholder page</span></p>
 <p>The mechanics, told through one program from start to finish, then generalised.</p>
 <section id="feasibility-and-entry-points" class="level2">
 <h2 class="anchored" data-anchor-id="feasibility-and-entry-points">Feasibility and entry points</h2>
 <p>Where an RCT can be introduced into a competitive scheme, illustrated with case studies.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Key message.</strong> RCTs need to be planned from the very beginning. This should be the loudest line on the page.</p>
-</div>
+<div class="team-note">
+<p><strong>Key message</strong> <strong>Key message.</strong> RCTs need to be planned from the very beginning. This should be the loudest line on the page.</p>
 </div>
 </section>
 <section id="different-ways-to-randomise" class="level2">
@@ -211,18 +199,8 @@ Important
 <section id="companion-slide-deck" class="level2">
 <h2 class="anchored" data-anchor-id="companion-slide-deck">Companion slide deck</h2>
 <p><em>Deck to be added to <code>assets/</code> and linked here.</em></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<div class="soft-panel">
 <p><strong>Running example.</strong> Romania: 519 firms selected against 519 not selected, drawn by computerised lottery witnessed by a notary.</p>
-</div>
 </div>
 
 
@@ -316,6 +294,11 @@ Tip
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -636,7 +619,7 @@ Tip
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Draft site shell. Not for circulation outside the team.</p>
+<p>Draft site. Structure and content still under review by the team.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;

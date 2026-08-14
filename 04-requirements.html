@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-445b8638c3d06994fee0907d791121c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-2d9c6f5db8bc0ac69323a12fef4b0370.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul>
+  <ul class="collapse">
   <li><a href="#data-access-and-questionnaire-design" id="toc-data-access-and-questionnaire-design" class="nav-link active" data-scroll-target="#data-access-and-questionnaire-design">Data access and questionnaire design</a></li>
   <li><a href="#evaluation-questions" id="toc-evaluation-questions" class="nav-link" data-scroll-target="#evaluation-questions">Evaluation questions</a></li>
   <li><a href="#theory-of-change" id="toc-theory-of-change" class="nav-link" data-scroll-target="#theory-of-change">Theory of Change</a></li>
@@ -172,9 +172,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<blockquote class="blockquote">
-<p><strong>Placeholder.</strong> Structure only. Content to be added.</p>
-</blockquote>
+<p><span class="placeholder">Placeholder page</span></p>
 <p>The groundwork a Managing Authority needs before fieldwork can start.</p>
 <section id="data-access-and-questionnaire-design" class="level2">
 <h2 class="anchored" data-anchor-id="data-access-and-questionnaire-design">Data access and questionnaire design</h2>
@@ -187,18 +185,8 @@ ul.task-list li input[type="checkbox"] {
 <section id="theory-of-change" class="level2">
 <h2 class="anchored" data-anchor-id="theory-of-change">Theory of Change</h2>
 <p>What a Theory of Change is and how to define one. Picks up the outputs versus outcomes thread from the <a href="./index.html">home page</a>.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Cross-link: templates live on <a href="./06-templates.html">Templates</a>. Keep this page explanatory and send people there to download.</p>
-</div>
+<div class="team-note">
+<p><strong>Note</strong> Cross-link: templates live on <a href="./06-templates.html">Templates</a>. Keep this page explanatory and send people there to download.</p>
 </div>
 </section>
 <section id="building-good-indicators" class="level2">
@@ -305,6 +293,11 @@ Note
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -625,7 +618,7 @@ Note
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Draft site shell. Not for circulation outside the team.</p>
+<p>Draft site. Structure and content still under review by the team.</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
