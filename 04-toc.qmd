@@ -6,10 +6,50 @@ title: "Theory of Change and Measurement"
 
 The groundwork a Managing Authority needs before fieldwork can start.
 
-## Theory of Change
+## Overview
 
-What a Theory of Change is and how to define one. Picks up the outputs versus
-outcomes thread from the [home page](index.qmd).
+This page outlines a structured approach to developing requirements for evaluating interventions, organized in three steps:
+
+1. **Step 1:** Define a Theory of Change (ToC) for your Impact Evaluation
+2. **Step 2:** Build relevant indicators
+3. **Step 3:** Select appropriate data
+
+---
+
+## Step 1: Define a Theory of Change (ToC) for your IE
+
+### What is a Theory of Change?
+
+A Theory of Change is a causal chain between inputs, activities, outputs, outcomes, and goals of an instrument or policy. It provides a clear understanding of the mechanisms through which policy makers intend an instrument or policy to generate desired outcomes or long-term goals.
+
+### Components of a Theory of Change
+
+The ToC follows a linear causal chain, with assumptions sitting between each step:
+
+```{mermaid}
+flowchart LR
+    subgraph MAIN[" "]
+        direction LR
+        A[INPUTS] --> B[ACTIVITIES] --> C[OUTPUTS] --> D[SHORT-TERM OUTCOMES] --> E[MEDIUM-TERM OUTCOMES] --> F[GOALS]
+    end
+
+    A2[Assumptions] -.-> B
+    A3[Assumptions] -.-> C
+    A4[Assumptions] -.-> D
+    A5[Assumptions] -.-> E
+
+    style MAIN fill:none,stroke:none
+    style A fill:#cfe2ff,stroke:#0d6efd
+    style B fill:#cfe2ff,stroke:#0d6efd
+    style C fill:#d1e7dd,stroke:#198754
+    style D fill:#fff3cd,stroke:#ffc107
+    style E fill:#fff3cd,stroke:#ffc107
+    style F fill:#f8d7da,stroke:#dc3545
+    style A2 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+    style A3 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+    style A4 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+    style A5 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+```
 
 ::: {.team-note}
 **Note**
