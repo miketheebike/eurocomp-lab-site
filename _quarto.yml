@@ -16,7 +16,7 @@ website:
         text: How
       - href: 03-advanced-how.qmd
         text: Advanced How
-      - href: 04-requirements.qmd
+      - href: 04-toc.qmd
         text: Requirements
       - href: 05-data-collection.qmd
         text: Data Collection
