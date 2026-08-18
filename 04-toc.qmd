@@ -51,25 +51,67 @@ flowchart LR
     style A5 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
 ```
 
-::: {.team-note}
-**Note**
-Cross-link: templates live on [Templates](06-templates.qmd). Keep this page
-explanatory and send people there to download.
-:::
+#### Inputs
+Resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, training programs, etc.
 
-## Evaluation questions
+#### Activities
+Actions and tasks undertaken using the inputs to deliver the intended outputs. The concrete work of the policy or instrument — e.g., running grant calls, delivering training, disbursing subsidies, providing advisory services.
 
-What question will the RCT answer? Turning a policy interest into one answerable
-question.
+#### Outputs
+Direct and immediate results of the activities conducted within a policy. Tangible and observable products or deliverables that demonstrate the completion of specific tasks.
 
-## Building good indicators
+#### Short-Term Outcomes
+Immediate changes that occur as a direct result of the outputs. Often related to changes in knowledge, attitudes, skills, and behaviors among the target population. They play a crucial role in achieving the larger objectives.
 
-What makes an indicator usable: measurable, attributable, available on a workable
-timescale.
+#### Medium-Term Outcomes
+Intermediate changes that occur due to sustained efforts and progress from short-term outcomes. Indicate progress toward the overall goal and often involve shifts in social norms, policies, or organizational practices.
 
-## Primary versus secondary data
+#### Goals
+The policy's broad, long-term aspirations or objectives. Describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.
 
-- Surveys: good practice for phone, web and face to face
-- Business registries and admin data: baseline characteristics and long-term outcome tracking
-- Other secondary data
-- The added value of including qualitative data
+#### Assumptions
+Assumptions are the conditions that must hold for each link in the causal chain to lead to the next. They sit between every step and represent the risks to the logic. An impact evaluation exists to test these assumptions; making them explicit tells you what to measure and where the logic is most likely to break.
+
+---
+
+
+### Why Invest Time in Developing a ToC?
+
+**1. It sharpens the design of your evaluation**
+- Generates clear research questions and defines which outcomes to measure and what data to collect
+- Can be built participatorily by starting from the final outcomes and working backwards
+- Prompts a credibility check: is there evidence to support each step in the causal chain?
+
+**2. It produces richer, more transferable policy lessons**
+- Measuring the right intermediate outcomes reveals how and why an instrument works, not just whether it works
+- Opening this "black box" turns results into actionable insight rather than a single verdict
+- The resulting knowledge generalises better to other contexts, settings, and instruments
+
+---
+
+## Step 2: Build Relevant Indicators
+
+### From ToC to Indicators
+
+A ToC plays a vital role as a foundation for developing relevant indicators to assess the impacts of a policy. The elements of a ToC reflect constructs that need further definition to be measurable. Indicators should be defined for each pillar of the ToC (inputs, activities, outputs, outcomes, goals, and assumptions) to enable the measurement and verification of change.
+
+### Well-Defined Indicators (SMART)
+
+| Criterion | Description |
+|-----------|-------------|
+| **Specific** | To measure the information required as closely as possible |
+| **Measurable** | To ensure that the information can be readily obtained (usually in numerical form) |
+| **Attributable** | To ensure that each measure is linked to the project's efforts |
+| **Realistic** | To ensure that the data can be obtained in a timely fashion, with reasonable frequency, and at a reasonable cost |
+| **Targeted** | To the objective population |
+
+### From Indicators to Data
+
+- Indicators rarely need to be built from scratch — reuse existing, well-tested ones
+- Draw on similar studies, evidence gap maps, and validated frameworks (e.g., CIS, WB Enterprise Surveys)
+- Once defined, every indicator needs a data source behind it
+- Step 3 answers, for each indicator: what to collect, what type (primary or secondary), how, from whom, and when
+- These decisions must be made **early** — before randomization begins
+
+---
+
