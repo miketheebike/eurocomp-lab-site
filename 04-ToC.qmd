@@ -1,5 +1,5 @@
 ---
-title: "Requirements"
+title: "Theory of Change and Measurement"
 ---
 
 [Placeholder page]{.placeholder}
@@ -17,14 +17,10 @@ Cross-link: templates live on [Templates](06-templates.qmd). Keep this page
 explanatory and send people there to download.
 :::
 
-
-
 ## Evaluation questions
 
 What question will the RCT answer? Turning a policy interest into one answerable
 question.
-
-
 
 ## Building good indicators
 
