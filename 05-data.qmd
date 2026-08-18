@@ -1,5 +1,5 @@
 ---
-title: "Data Collection and Monitoring"
+title: "Data"
 ---
 
 [Placeholder page]{.placeholder}
