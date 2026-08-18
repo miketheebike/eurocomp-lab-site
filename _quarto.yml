@@ -18,7 +18,7 @@ website:
         text: Advanced How
       - href: 04-toc.qmd
         text: Requirements
-      - href: 05-data-collection.qmd
+      - href: 05-data.qmd
         text: Data Collection
       - href: 06-templates.qmd
         text: Templates
