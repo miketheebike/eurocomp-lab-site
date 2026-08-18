@@ -6,15 +6,6 @@ title: "Requirements"
 
 The groundwork a Managing Authority needs before fieldwork can start.
 
-## Data access and questionnaire design
-
-What data the evaluation needs, who holds it, and what has to be agreed to get at it.
-
-## Evaluation questions
-
-What question will the RCT answer? Turning a policy interest into one answerable
-question.
-
 ## Theory of Change
 
 What a Theory of Change is and how to define one. Picks up the outputs versus
@@ -25,6 +16,15 @@ outcomes thread from the [home page](index.qmd).
 Cross-link: templates live on [Templates](06-templates.qmd). Keep this page
 explanatory and send people there to download.
 :::
+
+
+
+## Evaluation questions
+
+What question will the RCT answer? Turning a policy interest into one answerable
+question.
+
+
 
 ## Building good indicators
 
