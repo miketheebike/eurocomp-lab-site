@@ -35,41 +35,6 @@
     "text": "Companion slide deck\nDeck to be added to assets/ and linked here.\n\nRunning example. Romania: 519 firms selected against 519 not selected, drawn by computerised lottery witnessed by a notary."
   },
   {
-    "objectID": "05-data-collection.html",
-    "href": "05-data-collection.html",
-    "title": "Data Collection and Monitoring",
-    "section": "",
-    "text": "Placeholder page\nThe operational page. Written for the person who has to commission and supervise the work."
-  },
-  {
-    "objectID": "05-data-collection.html#data-collection-timeline",
-    "href": "05-data-collection.html#data-collection-timeline",
-    "title": "Data Collection and Monitoring",
-    "section": "Data collection timeline",
-    "text": "Data collection timeline\nBaseline, midline, endline. What each round is for and when it has to happen relative to the program."
-  },
-  {
-    "objectID": "05-data-collection.html#fieldwork-mode",
-    "href": "05-data-collection.html#fieldwork-mode",
-    "title": "Data Collection and Monitoring",
-    "section": "Fieldwork mode",
-    "text": "Fieldwork mode\nCAPI and CATI: cost, reach, response quality, and what drives the choice."
-  },
-  {
-    "objectID": "05-data-collection.html#monitoring-attrition-take-up-and-balance",
-    "href": "05-data-collection.html#monitoring-attrition-take-up-and-balance",
-    "title": "Data Collection and Monitoring",
-    "section": "Monitoring attrition, take-up and balance",
-    "text": "Monitoring attrition, take-up and balance\nWhat to watch during fieldwork and what a warning sign looks like.\n\nNote Cross-link: Advanced How links forward to this section. Keep the terminology identical across both."
-  },
-  {
-    "objectID": "05-data-collection.html#writing-a-terms-of-reference",
-    "href": "05-data-collection.html#writing-a-terms-of-reference",
-    "title": "Data Collection and Monitoring",
-    "section": "Writing a Terms of Reference",
-    "text": "Writing a Terms of Reference\nFor Managing Authority staff: what is needed, what skills to ask for, and what to monitor while a contractor is in the field.\n\nNote Cross-link: ToR templates sit on Templates."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Join a growing community of practice for impact evaluation in Europe",
@@ -110,55 +75,6 @@
     "title": "Join a growing community of practice for impact evaluation in Europe",
     "section": "Who can help",
     "text": "Who can help\nMap of labs and organizations able to support an impact evaluation, including J-PAL and others.\n\nDecision needed Marked optional in the outline. Confirm whether this belongs on the landing page or on Examples."
-  },
-  {
-    "objectID": "06-templates.html",
-    "href": "06-templates.html",
-    "title": "Templates and Downloads",
-    "section": "",
-    "text": "Placeholder page\nThe library. Everything here is a file someone can take away and use."
-  },
-  {
-    "objectID": "06-templates.html#evidence-and-legal",
-    "href": "06-templates.html#evidence-and-legal",
-    "title": "Templates and Downloads",
-    "section": "Evidence and legal",
-    "text": "Evidence and legal\n\nBenchmark reports. Published reports used as reference points.\nReplicable do-files for randomisation. Working scripts a team can adapt.\nLegal text for national legislation. Model wording enabling RCTs within competitive calls.\nGDPR-compliant consent forms. Consent templates cleared for use in EU member states."
-  },
-  {
-    "objectID": "06-templates.html#questionnaires",
-    "href": "06-templates.html#questionnaires",
-    "title": "Templates and Downloads",
-    "section": "Questionnaires",
-    "text": "Questionnaires\nQuestionnaire modules library. Modular blocks a team can assemble, covering:\n\nFirm background\nDigitalization\nInnovation\nR&D\nCollaboration\nCEO traits: Big Five\nManagement capacities\nTechnology adoption\nBehavior\nSkills\n\nBuild-your-own questionnaire tool. Pick modules, get a questionnaire out.\n\nOpen question Scope warning: the single largest build on the site. Worth deciding early whether it ships in version one or later.\n\nPrior surveys. Instruments already used in past evaluations."
-  },
-  {
-    "objectID": "06-templates.html#templates",
-    "href": "06-templates.html#templates",
-    "title": "Templates and Downloads",
-    "section": "Templates",
-    "text": "Templates\n\nTerms of Reference templates. For consultants and for data collection firms.\nTheory of Change templates. Blank and worked versions.\nMonitoring framework templates. Structures for tracking take-up, attrition and balance.\nEvaluation report templates. What a final report should include.\nSlide decks. Presentation versions of the site content, for teams briefing their own colleagues.\n\n\nNote Three decks built and polished: How, Advanced How, and the wanted posters. Decks for Why and When and Requirements not started."
-  },
-  {
-    "objectID": "07-examples.html",
-    "href": "07-examples.html",
-    "title": "Examples",
-    "section": "",
-    "text": "Placeholder page\nWhere the whole thing lands: real evaluations, from the Lab and beyond."
-  },
-  {
-    "objectID": "07-examples.html#eurocomp-lab-evaluations",
-    "href": "07-examples.html#eurocomp-lab-evaluations",
-    "title": "Examples",
-    "section": "EuroCOMP Lab evaluations",
-    "text": "EuroCOMP Lab evaluations\nFull case studies for each project, deeper than the wanted posters on How.\n\nRunning example. Romania runs through every page of the site. This is where the full story sits, with the baseline report attached."
-  },
-  {
-    "objectID": "07-examples.html#examples-from-beyond-the-lab",
-    "href": "07-examples.html#examples-from-beyond-the-lab",
-    "title": "Examples",
-    "section": "Examples from beyond the Lab",
-    "text": "Examples from beyond the Lab\nComparable trials from other institutions, to show the approach is not unique to this program.\n\nOpen question Decision needed: agree the inclusion criteria before anyone starts collecting. Business support only, or wider?"
   },
   {
     "objectID": "01-why-and-when.html",
@@ -259,46 +175,123 @@
     "text": "I have excess demand and a well designed RCT. What can go wrong?\n\n\n01\n\nNon-compliance and take-up\nNot every firm assigned to a programme ends up participating. Comparing everyone as originally assigned (the intention-to-treat effect) stays unbiased, since assignment was random, but it understates the effect on those who actually participated.\n\n\n\n02\n\nAttrition\nParticipants may drop out before outcomes can be measured, or stop responding to follow-up data collection. The risk is that dropout is not random: if struggling firms are the ones most likely to disappear, the firms you do measure make the programme look better than it is.\n\n\n\n03\n\nSpillovers and contamination\nThe comparison group is not always as isolated as it looks. Know-how from a business training programme can spread by word of mouth to non-participating competitors or suppliers, so the comparison group partly benefits too, understating the true effect.\n\n\n\n\nOpen question Flagged in the outline as possibly belonging elsewhere. Candidate homes: How, or Data Collection alongside monitoring."
   },
   {
-    "objectID": "04-requirements.html",
-    "href": "04-requirements.html",
-    "title": "Requirements",
+    "objectID": "04-toc.html",
+    "href": "04-toc.html",
+    "title": "Theory of Change and Measurement",
     "section": "",
     "text": "Placeholder page\nThe groundwork a Managing Authority needs before fieldwork can start."
   },
   {
-    "objectID": "04-requirements.html#data-access-and-questionnaire-design",
-    "href": "04-requirements.html#data-access-and-questionnaire-design",
-    "title": "Requirements",
+    "objectID": "04-toc.html#overview",
+    "href": "04-toc.html#overview",
+    "title": "Theory of Change and Measurement",
+    "section": "Overview",
+    "text": "Overview\nThis page outlines a structured approach to developing requirements for evaluating interventions, organized in three steps:\n\nStep 1: Define a Theory of Change (ToC) for your Impact Evaluation\nStep 2: Build relevant indicators\nStep 3: Select appropriate data"
+  },
+  {
+    "objectID": "04-toc.html#step-1-define-a-theory-of-change-toc-for-your-ie",
+    "href": "04-toc.html#step-1-define-a-theory-of-change-toc-for-your-ie",
+    "title": "Theory of Change and Measurement",
+    "section": "Step 1: Define a Theory of Change (ToC) for your IE",
+    "text": "Step 1: Define a Theory of Change (ToC) for your IE\n\nWhat is a Theory of Change?\nA Theory of Change is a causal chain between inputs, activities, outputs, outcomes, and goals of an instrument or policy. It provides a clear understanding of the mechanisms through which policy makers intend an instrument or policy to generate desired outcomes or long-term goals.\n\n\nComponents of a Theory of Change\nThe ToC follows a linear causal chain, with assumptions sitting between each step:\n\n\n\n\n\nflowchart LR\n    subgraph MAIN[\" \"]\n        direction LR\n        A[INPUTS] --&gt; B[ACTIVITIES] --&gt; C[OUTPUTS] --&gt; D[SHORT-TERM OUTCOMES] --&gt; E[MEDIUM-TERM OUTCOMES] --&gt; F[GOALS]\n    end\n\n    A2[Assumptions] -.-&gt; B\n    A3[Assumptions] -.-&gt; C\n    A4[Assumptions] -.-&gt; D\n    A5[Assumptions] -.-&gt; E\n\n    style MAIN fill:none,stroke:none\n    style A fill:#cfe2ff,stroke:#0d6efd\n    style B fill:#cfe2ff,stroke:#0d6efd\n    style C fill:#d1e7dd,stroke:#198754\n    style D fill:#fff3cd,stroke:#ffc107\n    style E fill:#fff3cd,stroke:#ffc107\n    style F fill:#f8d7da,stroke:#dc3545\n    style A2 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5\n    style A3 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5\n    style A4 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5\n    style A5 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5\n\n\n\n\n\n\n\nInputs\nResources, efforts, and actions invested in a policy — financial resources, personnel, equipment, training programs, etc.\n\n\nActivities\nActions and tasks undertaken using the inputs to deliver the intended outputs. The concrete work of the policy or instrument — e.g., running grant calls, delivering training, disbursing subsidies, providing advisory services.\n\n\nOutputs\nDirect and immediate results of the activities conducted within a policy. Tangible and observable products or deliverables that demonstrate the completion of specific tasks.\n\n\nShort-Term Outcomes\nImmediate changes that occur as a direct result of the outputs. Often related to changes in knowledge, attitudes, skills, and behaviors among the target population. They play a crucial role in achieving the larger objectives.\n\n\nMedium-Term Outcomes\nIntermediate changes that occur due to sustained efforts and progress from short-term outcomes. Indicate progress toward the overall goal and often involve shifts in social norms, policies, or organizational practices.\n\n\nGoals\nThe policy’s broad, long-term aspirations or objectives. Describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.\n\n\nAssumptions\nAssumptions are the conditions that must hold for each link in the causal chain to lead to the next. They sit between every step and represent the risks to the logic. An impact evaluation exists to test these assumptions; making them explicit tells you what to measure and where the logic is most likely to break.\n\n\n\n\nWhy Invest Time in Developing a ToC?\n1. It sharpens the design of your evaluation - Generates clear research questions and defines which outcomes to measure and what data to collect - Can be built participatorily by starting from the final outcomes and working backwards - Prompts a credibility check: is there evidence to support each step in the causal chain?\n2. It produces richer, more transferable policy lessons - Measuring the right intermediate outcomes reveals how and why an instrument works, not just whether it works - Opening this “black box” turns results into actionable insight rather than a single verdict - The resulting knowledge generalises better to other contexts, settings, and instruments"
+  },
+  {
+    "objectID": "04-toc.html#step-2-build-relevant-indicators",
+    "href": "04-toc.html#step-2-build-relevant-indicators",
+    "title": "Theory of Change and Measurement",
+    "section": "Step 2: Build Relevant Indicators",
+    "text": "Step 2: Build Relevant Indicators\n\nFrom ToC to Indicators\nA ToC plays a vital role as a foundation for developing relevant indicators to assess the impacts of a policy. The elements of a ToC reflect constructs that need further definition to be measurable. Indicators should be defined for each pillar of the ToC (inputs, activities, outputs, outcomes, goals, and assumptions) to enable the measurement and verification of change.\n\n\nWell-Defined Indicators (SMART)\n\n\n\n\n\n\n\nCriterion\nDescription\n\n\n\n\nSpecific\nTo measure the information required as closely as possible\n\n\nMeasurable\nTo ensure that the information can be readily obtained (usually in numerical form)\n\n\nAttributable\nTo ensure that each measure is linked to the project’s efforts\n\n\nRealistic\nTo ensure that the data can be obtained in a timely fashion, with reasonable frequency, and at a reasonable cost\n\n\nTargeted\nTo the objective population\n\n\n\n\n\nFrom Indicators to Data\n\nIndicators rarely need to be built from scratch — reuse existing, well-tested ones\nDraw on similar studies, evidence gap maps, and validated frameworks (e.g., CIS, WB Enterprise Surveys)\nOnce defined, every indicator needs a data source behind it\nStep 3 answers, for each indicator: what to collect, what type (primary or secondary), how, from whom, and when\nThese decisions must be made early — before randomization begins"
+  },
+  {
+    "objectID": "07-examples.html",
+    "href": "07-examples.html",
+    "title": "Examples",
+    "section": "",
+    "text": "Placeholder page\nWhere the whole thing lands: real evaluations, from the Lab and beyond."
+  },
+  {
+    "objectID": "07-examples.html#eurocomp-lab-evaluations",
+    "href": "07-examples.html#eurocomp-lab-evaluations",
+    "title": "Examples",
+    "section": "EuroCOMP Lab evaluations",
+    "text": "EuroCOMP Lab evaluations\nFull case studies for each project, deeper than the wanted posters on How.\n\nRunning example. Romania runs through every page of the site. This is where the full story sits, with the baseline report attached.\n\n\nFinancial support to digitalize: Romania’s program provides non-refundable grants to SMEs for digitalization, aiming to boost productivity in the North-East region, with a focus on key digital performance indicators. Digitalization has the potential to transform industries, particularly SMEs, which in Romania lag behind the EU average in digital performance. Key barriers to digital transformation include lack of financing, awareness, and capacity to capitalize on digital investments. In North-East Romania, digitalization grants are awarded to eligible SMEs under the de minimis aid scheme, with a total allocation ofA C31,000,000 in the first call (A C26,350,000 ERDF andA C4,650,000 from the state budget). Firms can receive grants ranging fromA C15,000 toA C100,000, covering 90% of eligible project costs. The World Bank studies the impact of digitalization on SME performance. The hypothesis is that financial support will boost productivity by enabling the acquisition of knowledge, services, and soft/hardware. As part of the study, the World Bank conducted a pre-assessment using DESI indicators, as defined by the Regional Development Agency (RDA): The most common technology was “20+ percent of employees using connected mobile devices” (681 businesses, 66% of the sample), followed by “Internet connection of at least 30 Megabits per second” (620 businesses, 60%) and “50+ percent of employees with Internet access” (604 businesses, 58%).\n\n\nFinancial support to innovate: Spain’s matching grant program awards up toA C250k per firm to boost R&D investment in small and medium companies, primarily in agriculture and ecological transition.  To address market failures that keep regional R&D investment at suboptimal levels, the La Junta de Extremadura, the Regional Government of Extremadura (JUNTA) and Foundation for the Development of Science and Technology and the Extremadura Science and Technology Park Foundation (FUNDECYT-PCTEx) have developed a matching grant program funded by the EU, offering large R&D grants to small and medium firms in Extremadura. Each cycle plans to awardA C3.5 million in grants (up to C250k per company), financing 35% to 80% of proposed R&D investments. Applicants are primarily small and medium companies, mainly in the agricultural or ecological transition sectors, with most grants supporting industrial research and experimental development. The World Bank is collaborating with JUNTA to offer technical support aimed at generating valuable insights from this investment. In this process, the evaluation team, working with regional authorities, has revised operational manuals to enhance the institutional framework by incorporating international best practices in the design, implementation, and evaluation of this public instrument.\n\n\nAdd-Ons to make financial support more impactful: In Czechia, the World Bank evaluates whether enhancing entrepreneurial skills improves the effectiveness of a voucher scheme supporting business development, innovation, and digital transformation in regions affected by the coal industry’s decline.  Several Czech regions are focused on economic diversification, prioritizing private sector growth, but entrepreneurial activity remains low. A new program, approved by the European Commission in September 2022, targets regions affected by the decline of the coal mining industry. It emphasizes business R&D, post-mining area regeneration, skills development, clean energy, and the circular economy, with a total allocation ofA C1.641 billion. A key component of the Just Transition Programme (JTP) is the voucher scheme for entrepreneurs in Czech coal regions, offering different types of financial support. These vouchers are available in the Moravian-Silesian, Ustí, and Karlovy Vary regions, with a focus on diversifying local economies reliant on carbon intensive industries. The impact evaluation includes complementary activities to strengthen the JTP outcomes. One such initiative is the ‘Smart Start’ project, launched with World Bank’s support since 2022. In the Ustí and Karlovy Vary regions, this program focuses on innovation vouchers, incorporating a ‘networking’ approach, where firms receive expert advisory support and are encouraged to share knowledge and network to enhance innovation. In the Moravian-Silesian region, the program emphasizes mindset training for innovation, offering ‘smart training’ that promotes a scientific approach to decision-making under uncertainty. This training, aimed at firms selected for entrepreneurial vouchers (and others), teaches participants to make informed decisions in uncertain environments, covering topics such as understanding innovation, risk vs. uncertainty, hypothesis testing, and A/B testing, culminating in participant presentations.\n\n\nAMatchmaking support to connect: The Scinergy pilot in Croatia connects businesses and scientists to foster collaborations, support innovation, and drive R&D through matchmaking events and ongoing guidance.  A World Bank survey revealed that 47% of companies lacked information about relevant scientists, highlighting the need for improved collaboration to drive innovation and technology transfer. To strengthen science-business collaboration, Croatia is piloting a business-science matchmaking support program. For this purpose, the World Bank, in partnership with the Innovation Center Nikola Tesla and the Ministry of Science, Education, and Youth, designed the “Scinergy” pilot to facilitate science-business collaboration. Scinergy aims to help connect businesses and scientists based on their needs and expertise, supporting product development, joint funding applications, and public-private partnerships. Participating firms are offered targeted connections with scientists across fields like AI, energy, and biotechnology, and are offered legal and communication support. Matched researchers and businesses first participated in a two-day matchmaking event in February 2024. The first day involved “speed-dating” sessions between firms and scientists, while the second day featured workshops for pairs interested in collaboration. These sessions encouraged ideation, with exercises like explaining potential solutions in simple terms and visualizing them through drawings. In March and April 2024, these pairs explored concrete R&D ideas, leading to detailed discussions and joint project planning. Pilot monitoring revealed that newly established interactions between firms and scientists continued in this period, with discussions on collaboration details, intellectual property, legal frameworks, and project financing. Firms attended specialized lectures on these topics, which deepened their understanding and aimed to facilitate cooperation. Qualitative insights and feedback surveys from participants indicated that the main collaboration goals were joint R&D projects, technological consultations, and prototype development. Companies reported challenges such as financial constraints, legal issues, and aligning goals."
+  },
+  {
+    "objectID": "07-examples.html#examples-from-beyond-the-lab",
+    "href": "07-examples.html#examples-from-beyond-the-lab",
+    "title": "Examples",
+    "section": "Examples from beyond the Lab",
+    "text": "Examples from beyond the Lab\nComparable trials from other institutions, to show the approach is not unique to this program.\n\nOpen question Decision needed: agree the inclusion criteria before anyone starts collecting. Business support only, or wider?"
+  },
+  {
+    "objectID": "06-templates.html",
+    "href": "06-templates.html",
+    "title": "Templates and Downloads",
+    "section": "",
+    "text": "Placeholder page\nThe library. Everything here is a file someone can take away and use."
+  },
+  {
+    "objectID": "06-templates.html#evidence-and-legal",
+    "href": "06-templates.html#evidence-and-legal",
+    "title": "Templates and Downloads",
+    "section": "Evidence and legal",
+    "text": "Evidence and legal\n\nBenchmark reports. Published reports used as reference points.\nReplicable do-files for randomisation. Working scripts a team can adapt.\nLegal text for national legislation. Model wording enabling RCTs within competitive calls.\nGDPR-compliant consent forms. Consent templates cleared for use in EU member states."
+  },
+  {
+    "objectID": "06-templates.html#questionnaires",
+    "href": "06-templates.html#questionnaires",
+    "title": "Templates and Downloads",
+    "section": "Questionnaires",
+    "text": "Questionnaires\nQuestionnaire modules library. Modular blocks a team can assemble, covering:\n\nFirm background\nDigitalization\nInnovation\nR&D\nCollaboration\nCEO traits: Big Five\nManagement capacities\nTechnology adoption\nBehavior\nSkills\n\nBuild-your-own questionnaire tool. Pick modules, get a questionnaire out.\n\nOpen question Scope warning: the single largest build on the site. Worth deciding early whether it ships in version one or later.\n\nPrior surveys. Instruments already used in past evaluations."
+  },
+  {
+    "objectID": "06-templates.html#templates",
+    "href": "06-templates.html#templates",
+    "title": "Templates and Downloads",
+    "section": "Templates",
+    "text": "Templates\n\nTerms of Reference templates. For consultants and for data collection firms.\nTheory of Change templates. Blank and worked versions.\nMonitoring framework templates. Structures for tracking take-up, attrition and balance.\nEvaluation report templates. What a final report should include.\nSlide decks. Presentation versions of the site content, for teams briefing their own colleagues.\n\n\nNote Three decks built and polished: How, Advanced How, and the wanted posters. Decks for Why and When and Requirements not started."
+  },
+  {
+    "objectID": "05-data.html",
+    "href": "05-data.html",
+    "title": "Data",
+    "section": "",
+    "text": "Placeholder page\nThe operational page. Written for the person who has to commission and supervise the work."
+  },
+  {
+    "objectID": "05-data.html#data-access-and-questionnaire-design",
+    "href": "05-data.html#data-access-and-questionnaire-design",
+    "title": "Data",
     "section": "Data access and questionnaire design",
     "text": "Data access and questionnaire design\nWhat data the evaluation needs, who holds it, and what has to be agreed to get at it."
   },
   {
-    "objectID": "04-requirements.html#evaluation-questions",
-    "href": "04-requirements.html#evaluation-questions",
-    "title": "Requirements",
-    "section": "Evaluation questions",
-    "text": "Evaluation questions\nWhat question will the RCT answer? Turning a policy interest into one answerable question."
+    "objectID": "05-data.html#data-collection-timeline",
+    "href": "05-data.html#data-collection-timeline",
+    "title": "Data",
+    "section": "Data collection timeline",
+    "text": "Data collection timeline\nBaseline, midline, endline. What each round is for and when it has to happen relative to the program."
   },
   {
-    "objectID": "04-requirements.html#theory-of-change",
-    "href": "04-requirements.html#theory-of-change",
-    "title": "Requirements",
-    "section": "Theory of Change",
-    "text": "Theory of Change\nWhat a Theory of Change is and how to define one. Picks up the outputs versus outcomes thread from the home page.\n\nNote Cross-link: templates live on Templates. Keep this page explanatory and send people there to download."
+    "objectID": "05-data.html#fieldwork-mode",
+    "href": "05-data.html#fieldwork-mode",
+    "title": "Data",
+    "section": "Fieldwork mode",
+    "text": "Fieldwork mode\nCAPI and CATI: cost, reach, response quality, and what drives the choice."
   },
   {
-    "objectID": "04-requirements.html#building-good-indicators",
-    "href": "04-requirements.html#building-good-indicators",
-    "title": "Requirements",
-    "section": "Building good indicators",
-    "text": "Building good indicators\nWhat makes an indicator usable: measurable, attributable, available on a workable timescale."
+    "objectID": "05-data.html#monitoring-attrition-take-up-and-balance",
+    "href": "05-data.html#monitoring-attrition-take-up-and-balance",
+    "title": "Data",
+    "section": "Monitoring attrition, take-up and balance",
+    "text": "Monitoring attrition, take-up and balance\nWhat to watch during fieldwork and what a warning sign looks like.\n\nNote Cross-link: Advanced How links forward to this section. Keep the terminology identical across both."
   },
   {
-    "objectID": "04-requirements.html#primary-versus-secondary-data",
-    "href": "04-requirements.html#primary-versus-secondary-data",
-    "title": "Requirements",
-    "section": "Primary versus secondary data",
-    "text": "Primary versus secondary data\n\nSurveys: good practice for phone, web and face to face\nBusiness registries and admin data: baseline characteristics and long-term outcome tracking\nOther secondary data\nThe added value of including qualitative data"
+    "objectID": "05-data.html#writing-a-terms-of-reference",
+    "href": "05-data.html#writing-a-terms-of-reference",
+    "title": "Data",
+    "section": "Writing a Terms of Reference",
+    "text": "Writing a Terms of Reference\nFor Managing Authority staff: what is needed, what skills to ask for, and what to monitor while a contractor is in the field.\n\nNote Cross-link: ToR templates sit on Templates."
   },
   {
     "objectID": "03-advanced-how.html",

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Templates and Downloads – EuroCOMP Lab</title>
+<title>Theory of Change and Measurement – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -73,6 +73,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -111,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Advanced How</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./04-toc.html"> 
+    <a class="nav-link active" href="./04-toc.html" aria-current="page"> 
 <span class="menu-text">Requirements</span></a>
   </li>  
   <li class="nav-item">
@@ -119,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Data Collection</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./06-templates.html" aria-current="page"> 
+    <a class="nav-link" href="./06-templates.html"> 
 <span class="menu-text">Templates</span></a>
   </li>  
   <li class="nav-item">
@@ -142,9 +145,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul class="collapse">
-  <li><a href="#evidence-and-legal" id="toc-evidence-and-legal" class="nav-link active" data-scroll-target="#evidence-and-legal">Evidence and legal</a></li>
-  <li><a href="#questionnaires" id="toc-questionnaires" class="nav-link" data-scroll-target="#questionnaires">Questionnaires</a></li>
-  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates">Templates</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#step-1-define-a-theory-of-change-toc-for-your-ie" id="toc-step-1-define-a-theory-of-change-toc-for-your-ie" class="nav-link" data-scroll-target="#step-1-define-a-theory-of-change-toc-for-your-ie">Step 1: Define a Theory of Change (ToC) for your IE</a></li>
+  <li><a href="#step-2-build-relevant-indicators" id="toc-step-2-build-relevant-indicators" class="nav-link" data-scroll-target="#step-2-build-relevant-indicators">Step 2: Build Relevant Indicators</a></li>
   </ul>
 </nav>
     </div>
@@ -153,7 +156,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Templates and Downloads</h1>
+<h1 class="title">Theory of Change and Measurement</h1>
 </div>
 
 
@@ -171,54 +174,152 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p><span class="placeholder">Placeholder page</span></p>
-<div class="team-note">
-<p><strong>Open question</strong> This page is still a brainstorm in the outline. Expect the list to change.</p>
-</div>
-<p>The library. Everything here is a file someone can take away and use.</p>
-<section id="evidence-and-legal" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-and-legal">Evidence and legal</h2>
-<ul>
-<li><strong>Benchmark reports.</strong> Published reports used as reference points.</li>
-<li><strong>Replicable do-files for randomisation.</strong> Working scripts a team can adapt.</li>
-<li><strong>Legal text for national legislation.</strong> Model wording enabling RCTs within competitive calls.</li>
-<li><strong>GDPR-compliant consent forms.</strong> Consent templates cleared for use in EU member states.</li>
-</ul>
+<p>The groundwork a Managing Authority needs before fieldwork can start.</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This page outlines a structured approach to developing requirements for evaluating interventions, organized in three steps:</p>
+<ol type="1">
+<li><strong>Step 1:</strong> Define a Theory of Change (ToC) for your Impact Evaluation</li>
+<li><strong>Step 2:</strong> Build relevant indicators</li>
+<li><strong>Step 3:</strong> Select appropriate data</li>
+</ol>
+<hr>
 </section>
-<section id="questionnaires" class="level2">
-<h2 class="anchored" data-anchor-id="questionnaires">Questionnaires</h2>
-<p><strong>Questionnaire modules library.</strong> Modular blocks a team can assemble, covering:</p>
-<ul>
-<li>Firm background</li>
-<li>Digitalization</li>
-<li>Innovation</li>
-<li>R&amp;D</li>
-<li>Collaboration</li>
-<li>CEO traits: Big Five</li>
-<li>Management capacities</li>
-<li>Technology adoption</li>
-<li>Behavior</li>
-<li>Skills</li>
-</ul>
-<p><strong>Build-your-own questionnaire tool.</strong> Pick modules, get a questionnaire out.</p>
-<div class="team-note">
-<p><strong>Open question</strong> Scope warning: the single largest build on the site. Worth deciding early whether it ships in version one or later.</p>
-</div>
-<p><strong>Prior surveys.</strong> Instruments already used in past evaluations.</p>
+<section id="step-1-define-a-theory-of-change-toc-for-your-ie" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-define-a-theory-of-change-toc-for-your-ie">Step 1: Define a Theory of Change (ToC) for your IE</h2>
+<section id="what-is-a-theory-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-theory-of-change">What is a Theory of Change?</h3>
+<p>A Theory of Change is a causal chain between inputs, activities, outputs, outcomes, and goals of an instrument or policy. It provides a clear understanding of the mechanisms through which policy makers intend an instrument or policy to generate desired outcomes or long-term goals.</p>
 </section>
-<section id="templates" class="level2">
-<h2 class="anchored" data-anchor-id="templates">Templates</h2>
-<ul>
-<li><strong>Terms of Reference templates.</strong> For consultants and for data collection firms.</li>
-<li><strong>Theory of Change templates.</strong> Blank and worked versions.</li>
-<li><strong>Monitoring framework templates.</strong> Structures for tracking take-up, attrition and balance.</li>
-<li><strong>Evaluation report templates.</strong> What a final report should include.</li>
-<li><strong>Slide decks.</strong> Presentation versions of the site content, for teams briefing their own colleagues.</li>
-</ul>
-<div class="team-note">
-<p><strong>Note</strong> Three decks built and polished: How, Advanced How, and the wanted posters. Decks for Why and When and Requirements not started.</p>
+<section id="components-of-a-theory-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="components-of-a-theory-of-change">Components of a Theory of Change</h3>
+<p>The ToC follows a linear causal chain, with assumptions sitting between each step:</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    subgraph MAIN[" "]
+        direction LR
+        A[INPUTS] --&gt; B[ACTIVITIES] --&gt; C[OUTPUTS] --&gt; D[SHORT-TERM OUTCOMES] --&gt; E[MEDIUM-TERM OUTCOMES] --&gt; F[GOALS]
+    end
+
+    A2[Assumptions] -.-&gt; B
+    A3[Assumptions] -.-&gt; C
+    A4[Assumptions] -.-&gt; D
+    A5[Assumptions] -.-&gt; E
+
+    style MAIN fill:none,stroke:none
+    style A fill:#cfe2ff,stroke:#0d6efd
+    style B fill:#cfe2ff,stroke:#0d6efd
+    style C fill:#d1e7dd,stroke:#198754
+    style D fill:#fff3cd,stroke:#ffc107
+    style E fill:#fff3cd,stroke:#ffc107
+    style F fill:#f8d7da,stroke:#dc3545
+    style A2 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+    style A3 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+    style A4 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+    style A5 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
+</pre>
 </div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<section id="inputs" class="level4">
+<h4 class="anchored" data-anchor-id="inputs">Inputs</h4>
+<p>Resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, training programs, etc.</p>
+</section>
+<section id="activities" class="level4">
+<h4 class="anchored" data-anchor-id="activities">Activities</h4>
+<p>Actions and tasks undertaken using the inputs to deliver the intended outputs. The concrete work of the policy or instrument — e.g., running grant calls, delivering training, disbursing subsidies, providing advisory services.</p>
+</section>
+<section id="outputs" class="level4">
+<h4 class="anchored" data-anchor-id="outputs">Outputs</h4>
+<p>Direct and immediate results of the activities conducted within a policy. Tangible and observable products or deliverables that demonstrate the completion of specific tasks.</p>
+</section>
+<section id="short-term-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="short-term-outcomes">Short-Term Outcomes</h4>
+<p>Immediate changes that occur as a direct result of the outputs. Often related to changes in knowledge, attitudes, skills, and behaviors among the target population. They play a crucial role in achieving the larger objectives.</p>
+</section>
+<section id="medium-term-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="medium-term-outcomes">Medium-Term Outcomes</h4>
+<p>Intermediate changes that occur due to sustained efforts and progress from short-term outcomes. Indicate progress toward the overall goal and often involve shifts in social norms, policies, or organizational practices.</p>
+</section>
+<section id="goals" class="level4">
+<h4 class="anchored" data-anchor-id="goals">Goals</h4>
+<p>The policy’s broad, long-term aspirations or objectives. Describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.</p>
+</section>
+<section id="assumptions" class="level4">
+<h4 class="anchored" data-anchor-id="assumptions">Assumptions</h4>
+<p>Assumptions are the conditions that must hold for each link in the causal chain to lead to the next. They sit between every step and represent the risks to the logic. An impact evaluation exists to test these assumptions; making them explicit tells you what to measure and where the logic is most likely to break.</p>
+<hr>
+</section>
+</section>
+<section id="why-invest-time-in-developing-a-toc" class="level3">
+<h3 class="anchored" data-anchor-id="why-invest-time-in-developing-a-toc">Why Invest Time in Developing a ToC?</h3>
+<p><strong>1. It sharpens the design of your evaluation</strong> - Generates clear research questions and defines which outcomes to measure and what data to collect - Can be built participatorily by starting from the final outcomes and working backwards - Prompts a credibility check: is there evidence to support each step in the causal chain?</p>
+<p><strong>2. It produces richer, more transferable policy lessons</strong> - Measuring the right intermediate outcomes reveals how and why an instrument works, not just whether it works - Opening this “black box” turns results into actionable insight rather than a single verdict - The resulting knowledge generalises better to other contexts, settings, and instruments</p>
+<hr>
+</section>
+</section>
+<section id="step-2-build-relevant-indicators" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-build-relevant-indicators">Step 2: Build Relevant Indicators</h2>
+<section id="from-toc-to-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="from-toc-to-indicators">From ToC to Indicators</h3>
+<p>A ToC plays a vital role as a foundation for developing relevant indicators to assess the impacts of a policy. The elements of a ToC reflect constructs that need further definition to be measurable. Indicators should be defined for each pillar of the ToC (inputs, activities, outputs, outcomes, goals, and assumptions) to enable the measurement and verification of change.</p>
+</section>
+<section id="well-defined-indicators-smart" class="level3">
+<h3 class="anchored" data-anchor-id="well-defined-indicators-smart">Well-Defined Indicators (SMART)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Specific</strong></td>
+<td>To measure the information required as closely as possible</td>
+</tr>
+<tr class="even">
+<td><strong>Measurable</strong></td>
+<td>To ensure that the information can be readily obtained (usually in numerical form)</td>
+</tr>
+<tr class="odd">
+<td><strong>Attributable</strong></td>
+<td>To ensure that each measure is linked to the project’s efforts</td>
+</tr>
+<tr class="even">
+<td><strong>Realistic</strong></td>
+<td>To ensure that the data can be obtained in a timely fashion, with reasonable frequency, and at a reasonable cost</td>
+</tr>
+<tr class="odd">
+<td><strong>Targeted</strong></td>
+<td>To the objective population</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="from-indicators-to-data" class="level3">
+<h3 class="anchored" data-anchor-id="from-indicators-to-data">From Indicators to Data</h3>
+<ul>
+<li>Indicators rarely need to be built from scratch — reuse existing, well-tested ones</li>
+<li>Draw on similar studies, evidence gap maps, and validated frameworks (e.g., CIS, WB Enterprise Surveys)</li>
+<li>Once defined, every indicator needs a data source behind it</li>
+<li>Step 3 answers, for each indicator: what to collect, what type (primary or secondary), how, from whom, and when</li>
+<li>These decisions must be made <strong>early</strong> — before randomization begins</li>
+</ul>
+<hr>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
