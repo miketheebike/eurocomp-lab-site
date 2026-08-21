@@ -1,7 +1,6 @@
 
 ---
 title: "Topic: Firm Performance and Growth"
----
 
 *These are the most commonly used outcome indicators in EU firm-level impact evaluations. Where possible, use administrative data (business registries, tax records) rather than self-reported figures to reduce measurement error.*
 
