@@ -4,22 +4,13 @@ title: "Topic 4: Company Financial Performance"
 
 *Use at baseline and endline. These questions mirror standard balance sheet items. Where administrative data is available (e.g. from a business registry or tax authority), consider using it instead of self-reported financial data.*
 
+How many full-time paid employees work in the business as of the end of 2025?
+
 **What was your company's total annual turnover in the last financial year?**
-*(Open numeric field, in €)*
-
-*Source: CIS / WBES. Use at: Baseline and endline.*
-
----
-
-**4.2 What was your company's total value added in the last financial year?**
-*(Open numeric field, in €)*
-
-*Source: CIS. Use at: Baseline and endline.*
-
----
+*(Open numeric field, in [currency])*
 
 **4.3 What was your company's total wage bill (gross salaries and social contributions) in the last financial year?**
-*(Open numeric field, in €)*
+*(Open numeric field, in [currency])*
 
 *Source: CIS. Use at: Baseline and endline.*
 
@@ -43,15 +34,8 @@ title: "Topic 4: Company Financial Performance"
 
 ---
 
-**4.6 Did your company make a profit in the last financial year?**
-- Yes, a significant profit
-- Yes, a modest profit
-- Approximately broke even
-- No, we made a loss
-
-*Source: WBES. Use at: Baseline and endline.*
-
----
+**What was your company's total annual profit or loss in the last financial year?**
+*(Open numeric field, in [currency]; enter positive number for profits and negative number for losses)*
 
 **4.7 How would you describe your company's current financial situation?**
 - Very healthy — no financial constraints
@@ -75,79 +59,6 @@ title: "Topic 4: Company Financial Performance"
 
 ---
 
-## Topic 4: Company Financial Performance
-
-*Use at baseline and endline. These questions mirror standard balance sheet items. Where administrative data is available (e.g. from a business registry or tax authority), consider using it instead of self-reported financial data.*
-
----
-
-**4.1 What was your company's total annual turnover in the last financial year?**
-*(Open numeric field, in €)*
-
-*Source: CIS / WBES. Use at: Baseline and endline.*
-
----
-
-**4.2 What was your company's total value added in the last financial year?**
-*(Open numeric field, in €)*
-
-*Source: CIS. Use at: Baseline and endline.*
-
----
-
-**4.3 What was your company's total wage bill (gross salaries and social contributions) in the last financial year?**
-*(Open numeric field, in €)*
-
-*Source: CIS. Use at: Baseline and endline.*
-
----
-
-**4.4 What was your company's total investment in tangible assets (machinery, equipment, buildings) in the last financial year?**
-*(Open numeric field, in €)*
-
-*Source: CIS / WBES. Use at: Baseline and endline.*
-
----
-
-**4.5 What share of your company's total sales came from exports in the last financial year?**
-- None (0%)
-- Less than 10%
-- 10–24%
-- 25–49%
-- 50% or more
-
-*Source: CIS / WBES. Use at: Baseline and endline.*
-
----
-
-**4.6 Did your company make a profit in the last financial year?**
-- Yes, a significant profit
-- Yes, a modest profit
-- Approximately broke even
-- No, we made a loss
-
-*Source: WBES. Use at: Baseline and endline.*
-
----
-
-**4.7 How would you describe your company's current financial situation?**
-- Very healthy — no financial constraints
-- Adequate — minor constraints
-- Tight — we face some financial pressure
-- Severe — we face significant financial difficulties
-
-*Source: ECB SAFE Survey. Use at: Baseline and endline.*
-
----
-
-**4.8 What was your company's total outstanding debt at the end of the last financial year?**
-*(Open numeric field, in €, or select a range)*
-- No debt
-- Less than €100,000
-- €100,000–€500,000
-- €500,000–€2 million
-- More than €2 million
-
-*Source: WBES / ECB SAFE. Use at: Baseline.*
-
----
+Total debts in 2025 (in RON):
+Total equity in 2025 (in RON):
+Total assets in 2025 (in RON):
