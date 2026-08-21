@@ -1,5 +1,6 @@
-
-## Topic 9: Innovation
+---
+title: "Topic 9: Innovation"
+---
 
 *Use at baseline and endline. Drawn from the Community Innovation Survey (CIS), the standard EU instrument for measuring firm-level innovation.*
 
