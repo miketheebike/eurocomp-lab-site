@@ -2,40 +2,82 @@
 title: "Data"
 ---
 
-[Placeholder page]{.placeholder}
+# Primary Data Collection: Surveys
 
-The operational page. Written for the person who has to commission and supervise
-the work.
+## Why Surveys Matter for Evaluation
 
-## Data access and questionnaire design
+Surveys are one of the most important tools available for collecting primary data in the context of impact evaluations. They make it possible to gather structured information directly from the people and organisations that an intervention is designed to help — whether that means understanding the needs of potential beneficiaries, uncovering barriers to take-up, or shedding light on how and why a programme is producing the results it does.
 
-What data the evaluation needs, who holds it, and what has to be agreed to get at it.
+A key strength of surveys is their efficiency. Rather than collecting information from every single person or organisation in a target population, surveys can be conducted on a carefully selected subset — known as a sample. Provided that sample is representative of the wider population, the findings can be generalised with confidence to all beneficiaries of a given instrument. For Managing Authorities overseeing large-scale programmes with thousands of beneficiaries, this makes surveys a practical and cost-effective way to generate credible evidence without the need for exhaustive data collection.
 
-## Data collection timeline
+For EU Managing Authorities in particular, surveys are also a valuable tool for meeting monitoring and evaluation obligations under EU Structural and Investment Fund regulations. They can complement administrative data — such as records held in programme management systems — by capturing information on outcomes and experiences that administrative sources simply do not record.
 
-Baseline, midline, endline. What each round is for and when it has to happen
-relative to the program.
+---
 
-## Fieldwork mode
+## Paper vs. Electronic Surveys
 
-CAPI and CATI: cost, reach, response quality, and what drives the choice.
+Surveys can be conducted on paper or in electronic form. While paper-based surveys may be familiar and accessible in some contexts, electronic surveys offer significant advantages that make them the preferred choice in most evaluation settings today.
 
-## Monitoring attrition, take-up and balance
+Digital surveys allow for built-in data validation, such as mandatory fields, range checks, and logical constraints, which help ensure that only valid data is captured from the outset. This greatly reduces the risk of human errors that typically arise during manual data entry or when transferring information from paper forms into a database. Electronic data collection is also faster: responses can be recorded and processed in real time, eliminating the need for transcription. Once collected, digital data can be directly imported into statistical analysis software or monitoring platforms, making analysis and reporting considerably more straightforward.
 
-What to watch during fieldwork and what a warning sign looks like.
+For Managing Authorities working within tight programme timelines and reporting deadlines, the efficiency gains from digital data collection are particularly valuable.
 
-::: {.team-note}
-**Note**
-Cross-link: [Advanced How](03-advanced-how.qmd) links forward to this section.
-Keep the terminology identical across both.
-:::
+---
 
-## Writing a Terms of Reference
+## Methods of Electronic Data Collection
 
-For Managing Authority staff: what is needed, what skills to ask for, and what to
-monitor while a contractor is in the field.
+There are three main methods of electronic data collection, each suited to different contexts and target groups.
 
-::: {.team-note}
-**Note**
-Cross-link: ToR templates sit on [Templates](06-templates.qmd).
-:::
+**Computer-Assisted Telephone Interviewing (CATI)** involves interviewers conducting surveys over the phone using a digital questionnaire displayed on their screen. This approach can reach respondents from a wide range of demographic groups and geographic locations relatively quickly, making it well-suited to large-scale data collection efforts. It is also an effective way to monitor how a policy is being implemented and to identify emerging issues in close to real time. For Managing Authorities seeking timely feedback on programme roll-out, CATI can be a practical option.
+
+**Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with the support of a tablet, laptop, or smartphone loaded with survey software. The main advantage of this method is the quality of the information it yields: the personal interaction between interviewer and respondent tends to produce more nuanced and accurate answers, particularly on complex or sensitive topics. The trade-offs are cost and the potential for interviewer influence — the presence of an interviewer can, in some cases, affect how respondents answer questions. CAPI is best reserved for situations where data quality is paramount and the budget allows for it.
+
+**Web surveys** are questionnaires sent to respondents via the internet, inviting them to complete the survey at a time and pace that suits them. They are the most cost-effective option and can reach large numbers of people quickly. However, they carry a risk of response bias: individuals without reliable internet access, or those less comfortable with online tools, may be systematically excluded. Respondents with less time may also be less likely to complete the questionnaire. For EU programmes targeting specific business communities or research organisations — groups typically comfortable with online tools — web surveys are often a strong choice, but care should be taken to monitor response rates and the characteristics of those who do and do not respond.
+
+Choosing the right method is not simply a technical decision. It should be guided by who the target respondents are, what resources are available, and how sensitive or complex the questions being asked are.
+
+---
+
+## How to Design Surveys
+
+### Timing of Surveys
+
+The timing of a survey has a significant bearing on the quality and completeness of the data collected. At the most basic level, surveys should be scheduled to reach respondents when they are most likely to be available and willing to engage. For surveys targeting firm employees, standard working hours — broadly between 9am and 5pm — are generally the most effective window. Phone or in-person surveys conducted outside working hours are less likely to reach the right contacts and may achieve lower response rates.
+
+The time of year matters just as much. In many European countries, August is a period of reduced business activity due to summer holidays, making it a poor time to conduct surveys with firms or public organisations. Similarly, the end of the financial year is often a particularly busy period for companies, which can make it difficult to secure the attention of senior staff. For Managing Authorities, it is also worth aligning survey timing with key milestones in the programme cycle — for example, conducting a baseline survey before an intervention begins and an endline survey after it has concluded — so that changes in outcomes can be properly attributed to the programme.
+
+### Who to Collect Data From
+
+Identifying the right respondent is just as important as asking the right questions. The ideal respondent is someone who is well-informed about the behaviour or outcome the evaluation is trying to measure, has a reliable incentive to answer honestly, and can be reached without undue difficulty.
+
+For surveys targeting businesses — a common scenario in EU competitiveness and innovation programmes — this typically means seeking out a senior decision-maker, such as a CEO, CFO, or another member of the executive team. Senior managers are generally the most knowledgeable about strategic decisions, investment choices, and the overall performance of the firm. They also tend to have a more complete view of how the organisation has benefited from an intervention.
+
+It is also important to think carefully about who within an organisation is most directly affected by the programme being evaluated. If an intervention targeted a specific group — such as researchers in an R&D department, or employees who received training — then those individuals may be better placed to answer certain questions than a general manager. The choice of respondent should ultimately be guided by the unit of analysis and the specific outcomes being measured.
+
+### Survey Design
+
+Good survey design balances thoroughness with brevity. Completing a survey takes time and effort on the part of the respondent, and overly long or complex questionnaires lead to lower response rates, higher drop-off mid-survey, and less reliable answers. The goal is to collect exactly the information needed — no more, no less — in a way that is as clear and engaging as possible.
+
+Evaluators should focus on digital data collection as the default approach and give careful thought to the types of questions used, the overall length of the questionnaire, and the sequencing of topics. It is also important to decide early on whether the evaluation requires only an endline survey or a baseline survey conducted before the intervention begins as well. Baseline and endline surveys serve different purposes and differ in structure: the baseline captures the situation before the intervention and establishes a point of comparison, while the endline measures what has changed. For Managing Authorities aiming to demonstrate programme impact, having a well-designed baseline is particularly valuable, as it makes it far easier to attribute observed changes to the intervention itself rather than to external factors.
+
+### Questionnaire Design: Good Practice
+
+The starting point for questionnaire design should always be existing, validated instruments. Drawing on questions that have already been tested and used in similar evaluations — such as those found in the Community Innovation Survey (CIS) or the World Bank Enterprise Surveys — saves time and improves comparability with other studies. Where possible, Managing Authorities should consult an evidence base of existing survey tools before developing new questions from scratch.
+
+Questions should be clear, specific, and neutral in their wording. Each question should address only one idea at a time — so-called "double-barrelled" questions, which ask about two things simultaneously, make it impossible for respondents to give an accurate answer and should always be avoided. Leading questions, which subtly steer the respondent towards a particular answer, undermine the reliability of the data and should be eliminated during the review process.
+
+Response scales — such as Likert scales or rating systems — should be consistent throughout the questionnaire and clearly labelled so that respondents understand exactly what each option means. Questions should be ordered in a logical flow that feels natural to the respondent, moving from general to specific topics. Sensitive questions, such as those about financial performance or employment decisions, are best placed towards the end of the questionnaire, once some rapport has been established.
+
+Where the survey is to be conducted in multiple languages — a common situation for EU programmes operating across different member states or regions — the questionnaire should be professionally translated and then back-translated into the original language to verify that the meaning has been preserved accurately.
+
+Finally, no questionnaire should go into the field without first being piloted with a small group of respondents who are representative of the target population. A pilot test reveals ambiguous wording, poorly calibrated response options, technical issues in digital forms, and questions that take too long to answer. The questionnaire should be revised based on the results of the pilot before full deployment begins.
+
+---
+
+## Data Protection and Ethical Considerations
+
+For EU Managing Authorities, data protection is not optional — it is a legal obligation. Any survey that collects personal data from individuals or information that could be used to identify specific organisations must comply with the General Data Protection Regulation (GDPR). This means that respondents must be clearly informed about how their data will be used, stored, and protected, and must give their consent before participating. Survey responses should be anonymised or pseudonymised wherever possible, and access to identifiable data should be restricted to authorised personnel only.
+
+Beyond legal compliance, ethical data collection also builds trust with respondents. Beneficiaries who feel their information is being handled responsibly are more likely to participate and to answer honestly, which ultimately improves the quality of the evaluation.
+
+---
