@@ -1,5 +1,6 @@
-
-## Topic 7: Technology Adoption
+---
+title: "Topic 7: Technology Adoption"
+---
 
 *Use at baseline and endline. Drawn primarily from the Firms Adoption of Technology (FAT) Survey.*
 
