@@ -1,5 +1,5 @@
 ---
-title: "Topic 4: Company Financial Performance"
+title: "Topic: Company Financial Performance"
 ---
 
 *Use at baseline and endline. These questions mirror standard balance sheet items. Where administrative data is available (e.g. from a business registry or tax authority), consider using it instead of self-reported financial data.*
