@@ -18,29 +18,6 @@ The library. Everything here is a file someone can take away and use.
 - **Legal text for national legislation.** Model wording enabling RCTs within competitive calls.
 - **GDPR-compliant consent forms.** Consent templates cleared for use in EU member states.
 
-## Questionnaires
-
-**Questionnaire modules library.** Modular blocks a team can assemble, covering:
-
-- Firm background
-- Digitalization
-- Innovation
-- R&D
-- Collaboration
-- CEO traits: Big Five
-- Management capacities
-- Technology adoption
-- Behavior
-- Skills
-
-**Build-your-own questionnaire tool.** Pick modules, get a questionnaire out.
-
-::: {.team-note}
-**Open question**
-Scope warning: the single largest build on the site. Worth deciding early whether
-it ships in version one or later.
-:::
-
 **Prior surveys.** Instruments already used in past evaluations.
 
 ## Templates
