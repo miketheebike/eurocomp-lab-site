@@ -72,8 +72,11 @@ The policy's broad, long-term aspirations or objectives. Describe the ultimate i
 #### Assumptions
 Assumptions are the conditions that must hold for each link in the causal chain to lead to the next. They sit between every step and represent the risks to the logic. An impact evaluation exists to test these assumptions; making them explicit tells you what to measure and where the logic is most likely to break.
 
----
+::: {.soft-panel}
+**Running example.** TO BE ADDED BY MIKE: Theory of Change from the North-East
+:::
 
+---
 
 ### Why Invest Time in Developing a ToC?
 
@@ -86,6 +89,14 @@ Assumptions are the conditions that must hold for each link in the causal chain 
 - Measuring the right intermediate outcomes reveals how and why an instrument works, not just whether it works
 - Opening this "black box" turns results into actionable insight rather than a single verdict
 - The resulting knowledge generalises better to other contexts, settings, and instruments
+
+### Defining Evaluation Questions
+
+Defining clear evaluation questions is the starting point of any rigorous impact evaluation. A well-formulated evaluation question specifies what the intervention is, who it targets, what outcome is expected to change, and over what time horizon. Questions should be grounded in the Theory of Change — each one should correspond to a link in the causal chain that the evaluation seeks to test. In practice, it helps to distinguish between the primary evaluation question, which typically concerns the overall effect of the intervention on a key outcome, and secondary questions, which probe mechanisms, heterogeneous effects across subgroups, or the role of specific assumptions. Evaluation questions should also be realistic: they must be answerable with the data and methods available, and scoped to what the evaluation can credibly attribute to the intervention rather than to external factors.
+
+::: {.soft-panel}
+**Running example.** TO BE ADDED BY MIKE: Evaluation questions from the North-East
+:::
 
 ---
 
@@ -105,13 +116,86 @@ A ToC plays a vital role as a foundation for developing relevant indicators to a
 | **Realistic** | To ensure that the data can be obtained in a timely fashion, with reasonable frequency, and at a reasonable cost |
 | **Targeted** | To the objective population |
 
+::: {.soft-panel}
+**Running example.** TO BE ADDED BY MIKE: Indicators from the North-East
+:::
+
 ### From Indicators to Data
 
-- Indicators rarely need to be built from scratch — reuse existing, well-tested ones
-- Draw on similar studies, evidence gap maps, and validated frameworks (e.g., CIS, WB Enterprise Surveys)
-- Once defined, every indicator needs a data source behind it
-- Step 3 answers, for each indicator: what to collect, what type (primary or secondary), how, from whom, and when
-- These decisions must be made **early** — before randomization begins
+Indicators rarely need to be built from scratch. Where possible, practitioners should draw on existing, well-tested measures from similar studies, evidence gap maps, and validated frameworks such as the CIS or WB Enterprise Surveys. Once indicators are defined, each one requires a concrete data source to back it up. Step 3 addresses this by answering, for every indicator, what needs to be collected, what type of data is appropriate (primary or secondary), how it should be gathered, from whom, and at what point in time. Crucially, these decisions must be made early — before randomization begins — to ensure the evaluation is properly set up to measure what it intends to.
 
 ---
 
+## Step 3: Collect Appropriate Data
+
+### First-Order Decisions
+
+Before any data collection begins, five fundamental questions need to be answered:
+
+1. What do you need to measure?
+2. What type of data is needed to measure this?
+3. How should it be collected?
+4. Who should you collect it from?
+5. When should you collect it?
+
+> Critically, these decisions must be made before the project starts — not after — as choices made too late can compromise the entire evaluation.
+
+---
+
+### What Do You Need to Measure?
+
+The main purpose of data collection is to test the assumptions embedded in the Theory of Change — which means gathering information at every step where the causal logic could break down. Beyond outcomes, it is important to capture covariates: background characteristics such as gender, location, or firm size that may explain why an intervention works differently for different groups. Decisions about how to account for these differences, through stratification for instance, should be made upfront. Compliance also needs to be tracked — understanding who actually took up the intervention, and why, is essential for interpreting results. Finally, the timing of data collection must reflect the different purposes it serves: baseline data, take-up information, and both intermediate and final outcome measures all require separate planning before the intervention begins.
+
+---
+
+
+### What Type of Data Is Needed?
+
+There are two broad types of data available to evaluators. Primary data is information collected directly from target respondents — such as individuals, research organizations, or firms — either by the organization itself or through contracted intermediaries. Secondary data, by contrast, draws on existing sources, particularly administrative records and data gathered by other organizations or government agencies. Both have distinct strengths and limitations, and the right choice depends on the specific needs of the evaluation.
+
+#### Comparison of Primary vs. Secondary Data
+
+| Column_1 | Primary Data | Secondary Data (Administrative) |
+|---|---|---|
+| Reporting bias | Less subject to reporting bias (potentially more accurate and reliable) | May be subject to reporting bias |
+| Sample size | Smaller | Larger |
+| Timeliness | Recently collected | May have delays |
+| Cost | More expensive | Cheaper |
+| Relevance | Tailored precisely to the outcome of interest | General purpose |
+| Pre-intervention history | Limited | History of pre-intervention data available |
+| Depth | Richer understanding of mechanisms | Less granular |
+| Long-term impacts | Harder to capture | Measuring longer-term impacts is possible |
+| Access | Generally easier | May require data-sharing agreements |
+| Privacy | Can be anonymized | Personal data may not be anonymized |
+
+---
+
+### How Should Data Be Collected?
+
+When collecting primary data, the method should be chosen based on what works best for the respondents and the context — whether that is an in-person survey, a phone interview, or an online questionnaire. Digital collection tools are preferable where possible, as they reduce errors and speed up processing. The instrument should always be piloted before full deployment, and quality controls should be built in throughout the process.
+
+For secondary and administrative data, the key is to identify the data owner as early as possible, since access negotiations and data-sharing agreements can take considerable time. Before committing to a source, its quality should be carefully assessed — checking for completeness, consistency, and clear variable definitions. GDPR compliance must also be confirmed before any data is transferred.
+
+Regardless of the data type, collection choices should be matched to the indicators and the Theory of Change. It is also worth noting that primary and secondary data can be combined — for example, using administrative records as a baseline and primary survey data for follow-up. Before investing in new data collection, teams should thoroughly assess what data already exists and whether it can serve the evaluation's needs at lower cost.
+
+---
+
+### Who Should You Collect Data From?
+
+For primary data, the goal is to reach respondents who are knowledgeable about the outcome of interest and have little reason to misreport. The choice of respondent should also match the unit of analysis: for firm-level interventions, for instance, a senior decision-maker such as a C-suite executive is typically the most appropriate source. It is also worth thinking carefully about who within an organisation actually benefits from the intervention — the firm as a whole, or a specific group such as R&D staff — as this shapes who should be surveyed.
+
+For secondary and administrative data, the starting point is identifying which organisation or agency holds the most relevant records — whether that is a business registry, tax authority, customs office, or patent office. Where multiple sources are available, linking them through a common identifier such as a VAT number can produce a much richer picture.
+
+In both cases, the unit of data collection should align with the unit of randomization, and data should be collected from the same respondent or source at both baseline and endline to ensure results are comparable over time.
+
+---
+
+### When Should You Collect Data?
+
+For primary data, baseline information must be collected before randomization and before the intervention begins. The timing of the endline should reflect when effects can realistically be expected to have materialised — collecting too early risks missing impacts that take time to emerge. Depending on the intervention, intermediate rounds of data collection may also be needed to track progress along the Theory of Change.
+
+For secondary and administrative data, pre-intervention records should be requested as early as possible to establish baseline trends. The frequency and timing of data transfers should be agreed with the data owner in advance, and reporting lags must be factored in — administrative data is often published with a delay. It is also important to be aware of the release calendar of administrative sources, as availability may be annual, quarterly, or irregular, which directly affects when meaningful analysis can be conducted.
+
+Across both data types, survey fatigue should be avoided by spacing out collection rounds and keeping each one as concise as possible. Teams should also be mindful of seasonality, steering clear of periods that could distort results such as fiscal year-ends or holiday periods. Finally, the timing of every data collection round should be documented to ensure transparency and reproducibility.
+
+---
