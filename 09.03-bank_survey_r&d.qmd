@@ -1,0 +1,41 @@
+---
+title: "Topic: R&D Activity"
+
+*R&D outcomes are relevant for evaluations of R&D grants, Horizon Europe co-financing, and tax incentives. The key evaluation question is often additionality: does public support increase R&D spending, or does it substitute for private investment?*
+
+---
+
+**3.1 R&D engagement**
+- **Definition:** Whether the firm conducts research and experimental development activities
+- **Metric:** Binary indicator (yes/no); frequency (continuous / occasional)
+- **Data source:** Primary survey or administrative (R&D tax credit records)
+
+---
+
+**3.2 R&D expenditure**
+- **Definition:** Total spending on in-house and contracted-out R&D activities
+- **Metric:** Total R&D expenditure in €; share of turnover spent on R&D (%)
+- **Data source:** Primary survey or administrative (R&D tax credit records, national R&D surveys)
+
+---
+
+**3.3 R&D employment**
+- **Definition:** Number of staff engaged in R&D activities
+- **Metric:** Full-time equivalent (FTE) R&D staff; share of total employees in R&D roles (%)
+- **Data source:** Primary survey or administrative
+
+---
+
+**3.4 R&D additionality**
+- **Definition:** Whether public support leads to an increase in total R&D spending (input additionality) or new products and processes (output additionality), rather than substituting for private investment
+- **Metric:** Difference in R&D expenditure or innovation output between treatment and control groups at endline, controlling for baseline
+- **Data source:** Primary survey or administrative; requires treatment/control comparison
+
+---
+
+**3.5 Patent applications**
+- **Definition:** Whether the firm has applied for or obtained patents as a result of its R&D activities
+- **Metric:** Number of patent applications filed; number of patents granted; binary indicator
+- **Data source:** Administrative (EPO PATSTAT, national patent office records) or primary survey
+
+---
