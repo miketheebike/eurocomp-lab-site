@@ -6,38 +6,31 @@ title: "Topic: Innovation"
 
 ---
 
-### 9A. Product Innovation
+### Product Innovation
 
-**9.1 During the last three years, did your company introduce any new or significantly improved goods or services?**
+**During the last three years, did your company introduce any new or significantly improved goods or services?**
 - Yes
 - No
 
-*Source: CIS. Use at: Baseline and endline.*
+**If yes: How many?**
 
----
 
-**9.2 Were any of these new or improved goods or services:**
+**Were any of these new or improved goods or services:**
 *(Select all that apply)*
 - New to your firm, but already available in your market
 - New to your market (your firm was first to introduce them)
 - New to the world
 
-*Source: CIS. Use at: Baseline and endline.*
 
----
-
-**9.3 What share of your company's total turnover in the last financial year came from goods or services that were new or significantly improved in the last three years?**
+**What share of your company's total turnover in the last financial year came from goods or services that were new or significantly improved in the last three years?**
 - None
 - Less than 5%
 - 5–19%
 - 20–49%
 - 50% or more
 
-*Source: CIS. Use at: Endline.*
 
----
-
-### 9B. Process Innovation
+### Process Innovation
 
 **9.4 During the last three years, did your company introduce any new or significantly improved processes?**
 *(Select all that apply)*
@@ -46,9 +39,8 @@ title: "Topic: Innovation"
 - Supporting activities (e.g. accounting, IT, purchasing, maintenance)
 - None
 
-*Source: CIS. Use at: Baseline and endline.*
+**If yes: How many?**
 
----
 
 **9.5 Who developed these process innovations?**
 - Mainly your company
