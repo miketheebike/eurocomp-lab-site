@@ -6,7 +6,7 @@ title: "Topic: Technology Adoption"
 
 ---
 
-**7.1 Which of the following general-purpose technologies does your company currently use in its operations?**
+**Which of the following general-purpose technologies does your company currently use in its operations?**
 *(Select all that apply)*
 - Computer Numerical Control (CNC) machines
 - Industrial robots or automated production systems
@@ -17,11 +17,9 @@ title: "Topic: Technology Adoption"
 - Supply chain management software
 - None of the above
 
-*Source: FAT. Use at: Baseline and endline.*
-
 ---
 
-**7.2 How did your company acquire the technologies it currently uses?**
+** How did your company acquire the technologies it currently uses?**
 *(Select all that apply)*
 - Purchased off-the-shelf from a supplier
 - Customised by a supplier to our specifications
@@ -29,19 +27,15 @@ title: "Topic: Technology Adoption"
 - Acquired through a partnership or joint venture
 - Licensed from another company or institution
 
-*Source: FAT. Use at: Baseline and endline.*
-
 ---
 
-**7.3 In the last three years, did your company adopt any technologies that were new to your firm (even if not new to the market)?**
+**In the last three years, did your company adopt any technologies that were new to your firm (even if not new to the market)?**
 - Yes
 - No
 
-*Source: FAT / CIS. Use at: Baseline and endline.*
-
 ---
 
-**7.4 What was the main driver of your company's most recent technology adoption?**
+**What was the main driver of your company's most recent technology adoption?**
 - To reduce production costs
 - To improve product or service quality
 - To enter new markets
@@ -51,11 +45,9 @@ title: "Topic: Technology Adoption"
 - Access to a public support programme or grant
 - Other (please specify)
 
-*Source: FAT. Use at: Baseline and endline.*
-
 ---
 
-**7.5 What were the main barriers to technology adoption your company faced in the last three years?**
+**What were the main barriers to technology adoption your company faced in the last three years?**
 *(Select all that apply)*
 - High upfront cost of technologies
 - Lack of access to finance
@@ -66,22 +58,27 @@ title: "Topic: Technology Adoption"
 - No suitable technology available for our needs
 - No barriers
 
-*Source: FAT. Use at: Baseline.*
-
 ---
 
-**7.6 How much did your company spend on purchasing or licensing technologies (hardware and software combined) in the last financial year?**
+**How much did your company spend on purchasing or licensing technologies (hardware and software combined) in the last financial year?**
 *(Open numeric field, in €)*
 
-*Source: FAT / WBES. Use at: Baseline and endline.*
-
 ---
 
-**7.7 Did your company receive any external support (advice, training, subsidies) to help adopt new technologies in the last three years?**
+**Did your company receive any external support (advice, training, subsidies) to help adopt new technologies in the last three years?**
 - Yes — from a public programme
 - Yes — from a private consultant or supplier
 - Yes — from a business association or cluster
 - No
 
-*Source: FAT. Use at: Baseline.*
+**Does your company use Generative Artificial Intelligence (GenAI)?**
+- Yes
+- No
+
+** If yes: Why does your company use Generative Artificial Intelligence (GenAI)?**
+- Customer acquisition
+- Simplifying internal org processes
+- Hiring decisions
+- Producing or improving products and services
+- Market research
 
