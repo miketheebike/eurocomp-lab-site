@@ -48,10 +48,10 @@ title: "Topic: Respondent Details"
 -99	Other, please specify
 
 **What is your gender?**
-1.	Female
-0.	Male
--99.	Other
--88.	Prefer not to say
+1. Female
+0. Male
+-99. Other
+-88. Prefer not to say
 
 **What is your year of birth?**
 *(Open numeric field)*
@@ -61,7 +61,7 @@ title: "Topic: Respondent Details"
 2.	Primary
 3.	Lower Secondary
 4.	Upper Secondary
-5.	 Started undergraduate education but do not have a degree
+5.	Started undergraduate education but do not have a degree
 6.	Bachelor's
 7.	Master's
 8.	Doctorate
