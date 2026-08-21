@@ -4,3 +4,66 @@ title: "Topic: Respondent Details"
 
 *Use at baseline. Identifies the survey respondent and their role within the firm.*
 
+**What is your first name?**
+*(Open text field)*
+
+**What is your last name?**
+*(Open text field)*
+
+**What is (are) your role(s) in the business?**
+1. Owner / co-owner
+2. Chief Executive Officer (CEO) or Managing Director
+3. Chief Financial Officer (CFO)
+4. Chief Technology Officer (CTO) or Head of R&D
+5. Head of Operations
+6. Head of HR / Training
+7. Other senior manager (please specify)
+8. Other (please specify)
+
+**What is your email address?**
+*(Open text field)*
+
+**What is your phone number?**
+*(Open text field)*
+
+**Is this person the best contact for follow-up surveys?**
+- Yes
+- No — please provide the best contact below:
+  - Name: *(open text)*
+  - Role: *(open text)*
+  - Email: *(open text)*
+
+**Where did you hear about the program?**
+1.	Search engine (Google, Yahoo, etc.)
+2.	Recommended by a friend or colleague
+3.	Facebook/Instagram
+4.	LinkedIn
+5.	Other social media
+6.	Newspapers
+7.	Radio
+8.	Attended an event from [agency/organization]
+9.	I talked with a consultant.
+10.	[agency/organization] newsletter
+11.	[agency/organization] podcast
+-99	Other, please specify
+
+**What is your gender?**
+1.	Female
+0.	Male
+-99.	Other
+-88.	Prefer not to say
+
+**What is your year of birth?**
+*(Open numeric field)*
+
+**What is the highest degree or level of school you have completed?**
+1.	No schooling
+2.	Primary
+3.	Lower Secondary
+4.	Upper Secondary
+5.	 Started undergraduate education but do not have a degree
+6.	Bachelor's
+7.	Master's
+8.	Doctorate
+-99.	Other
+
