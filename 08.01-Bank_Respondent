@@ -1,1 +1,71 @@
+---
+title: "Topic: Company Details"
+---
 
+*Use at baseline. Establishes the firm profile for balance checks, stratification, and heterogeneity analysis.*
+
+**What is the name of your company?**
+*(Open text field)*
+
+**What is your company's registration number?**
+*(Open text field — e.g. VAT number, national business registry ID)*
+
+**What is the primary sector of activity of your company?**
+*(Select one — NACE Level 1 "Sector")*
+A. Agriculture, forestry and fishing
+B. Mining and quarrying
+C. Manufacturing
+D. Electricity, gas, steam and air conditioning supply
+E. Water supply; sewerage; waste managment and remediation activities
+F. Construction
+G. Wholesale and retail trade; repair of motor vehicles and motorcycles
+H. Transporting and storage
+I. Accommodation and food service activities
+J. Information and communication
+K. Financial and insurance activities
+L. Real estate activities
+M. Professional, scientific and technical activities
+N. Administrative and support service activities
+O. Public administration and defence; compulsory social security
+P. Education
+Q. Human health and social work activities
+R. Arts, entertainment and recreation
+S. Other services activities
+T. Activities of households as employers; undifferentiated goods - and services - producing activities of households for own use
+U. Activities of extraterritorial organisations and bodies
+
+**What is your company's primary NACE?**
+*(Open text field - 4-digits)
+
+**What is the main product or service your company provides?**
+*(Open text field)*
+
+**Please select the type of products, goods, and/or services your company sells.**
+1. Physical products/goods (e.g., handbags, crafts)
+2. Non-physical products/goods (e.g., software, multimedia)
+3. Services (e.g., advertising, design, maintenance of machines, repairs)
+
+**How do you categorize your business in terms of the primary customer?**
+1. B2B (Business-to-Business)
+2. B2C (Business-to-Consumer)
+3. B2G (Business-to-Government)
+
+**In which year was your company established?**
+*(Open numeric field)*
+
+**In which year was your company formally registered?**
+*(Open numeric field)*
+
+**In which country and region is your company's main operating location?**
+- Country: *(dropdown)*
+- Region/NUTS2: *(dropdown)*
+
+**What is the address of your company?**
+- Street name and number
+- Postal code and city
+
+**What is the business website link?**
+
+**What is the Facebook link?**
+
+**What is the LinkedIn link?**
