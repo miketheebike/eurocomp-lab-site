@@ -17,7 +17,7 @@ website:
       - href: 03-advanced-how.qmd
         text: Advanced How
       - href: 04-toc.qmd
-        text: Requirements
+        text: Theory of Change, Indicators, and Data
       - href: 05-data.qmd
         text: Data Collection
       - href: 06-templates.qmd
