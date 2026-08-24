@@ -6,19 +6,38 @@ title: "Topic: Intellectual Property"
 
 ---
 
-**10.1 During the last three years, did your company apply for or obtain any of the following forms of intellectual property protection?**
+**Please select all types of intellectual property protection your company currently has.**
 *(Select all that apply)*
-- Patents
-- Utility models
-- Trademarks
+- Patent
+- Industrial design right
+- Trademark
+- Copyright
+- Trade secrets
+- None of the above
+
+**For each selected: How many?**
+*(Open numeric field)*
+
+**During the last three years, did your company:**
+*(Select all that apply)*
+- Apply for a patent 
+- Register an industrial design right 
+- Register a trademark
 - Registered designs
-- Copyrights
-- Geographical indications
-- None
+- Claim a copyright
+- Use trade secrets
+- None of the above
 
-*Source: CIS. Use at: Baseline and endline.*
+**For each selected: How many?**
+*(Open numeric field)*
 
----
+**If "None of the above" was selected for both questions: Why does your firm not have any IP and has not applied for it recently?**
+- Do not have an innovation (product, process) for it
+- Do not know how to apply for it 
+- Do not have the resources to apply for it
+- Previous applications have been rejected
+- Not a priority
+- Other (please specify)
 
 **10.2 During the last three years, did your company use any of the following informal methods to protect innovations or competitive advantages?**
 *(Select all that apply)*
