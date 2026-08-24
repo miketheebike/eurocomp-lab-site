@@ -4,40 +4,35 @@ title: "Topic: Collaboration"
 
 *Use at baseline and endline. Captures knowledge flows and partnerships — a key mechanism for innovation support instruments.*
 
-**During the last three years, did your company cooperate with any other enterprises or organisations on innovation, technology, or business development activities?**
+**In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?**
+- Yes, on R&D
+- Yes, on other innovation activities (excluding R&D)
+- Yes, on any other business activities
+- No
 
+**During the last three years, did your company co-operate with any other enterprises or organisations on innovation, technology, or business development activities?**
 - Yes
 - No
 
-
-**What types of partners did your company cooperate with?**
+**If yes: Please indicate the type of innovation co-operation partner.**
 *(Select all that apply)*
-- Other enterprises within your group
-- Suppliers of equipment, materials, or software
-- Clients or customers
-- Competitors or other firms in your sector
-- Consultants or commercial laboratories
+*The public sector includes government owned organisations such as local, regional and national administrations and agencies, schools, hospitals, and government providers of services such as security, transport, housing, energy, etc.*
+- Private business enterprises outside your enterprise group
+- Enterprises within your enterprise group
 - Universities or other higher education institutions
-- Public research institutes or technology centres
-- Government agencies
-- None
+- Government or public research institutes 
+- Clients or customers from the public sector*
+- Non-profit organisations
+- None of the above
 
-*Source: CIS. Use at: Baseline and endline.*
-
----
-
-**6.3 Where were your most important cooperation partners located?**
+**Where were your most important cooperation partners located?**
 *(Select all that apply)*
 - Same region
 - Same country (different region)
 - Other EU countries
 - Rest of the world
 
-*Source: CIS. Use at: Baseline and endline.*
-
----
-
-**6.4 How important were the following as sources of knowledge or information for your company's activities in the last three years?**
+**How important were the following as sources of knowledge or information for your company's activities in the last three years?**
 *Rate each: 1 = Not used, 2 = Low, 3 = Medium, 4 = High*
 - Internal sources (within the firm or group)
 - Suppliers
@@ -50,11 +45,7 @@ title: "Topic: Collaboration"
 - Technical standards, norms, or regulations
 - Internet or online communities
 
-*Source: CIS. Use at: Baseline and endline.*
-
----
-
-**6.5 Did your company participate in any of the following in the last three years?**
+**Did your company participate in any of the following in the last three years?**
 *(Select all that apply)*
 - An innovation cluster or competitiveness pole
 - An industry or sectoral association
@@ -62,11 +53,7 @@ title: "Topic: Collaboration"
 - A joint venture or formal consortium
 - None of the above
 
-*Source: CIS / EuroComp-adapted. Use at: Baseline and endline.*
-
----
-
-**6.6 What were the main barriers to collaboration your company faced in the last three years?**
+**What were the main barriers to collaboration your company faced in the last three years?**
 *(Select all that apply)*
 - Difficulty finding suitable partners
 - Concerns about protecting intellectual property
@@ -75,6 +62,4 @@ title: "Topic: Collaboration"
 - Geographical distance
 - No barriers — we collaborated as much as we wanted
 - We did not seek to collaborate
-
-*Source: CIS / FAT. Use at: Baseline and endline.*
 
