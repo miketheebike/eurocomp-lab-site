@@ -2,13 +2,12 @@
 title: "Topic: Employment and Human Capital"
 ---
 
-*Employment outcomes are particularly relevant for evaluations co-financed by the European Social Fund (ESF+) and for instruments targeting skills, training, or labour market integration.*
 
 ### 10.1 Employment growth
 
 - **Definition:** Net change in the number of people employed by the firm
 - **Metric:** % change in FTE employment from baseline to endline; log of employment
-- **Data source:** Administrative (social security records) or primary survey
+- **Data source:** Administrative or primary survey
 
 ### 10.2 High-skilled employment
 
