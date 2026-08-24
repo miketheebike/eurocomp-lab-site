@@ -71,6 +71,16 @@ title: "Topic: Technology Adoption"
 - Yes — from a business association or cluster
 - No
 
+**Please select the MOST important obstacle faced by this establishment to adopt new equipment, machine, software, or process.**
+- Depreciation or replacement
+- Competition
+- Other firms adopted
+- Produce new products
+- Access new markets
+- Reduce costs
+- Adjust to regulations
+- Other (please specify)
+
 **Does your company use Generative Artificial Intelligence (GenAI)?**
 - Yes
 - No
