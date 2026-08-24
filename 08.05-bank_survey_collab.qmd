@@ -5,18 +5,21 @@ title: "Topic: Collaboration"
 *Use at baseline and endline. Captures knowledge flows and partnerships — a key mechanism for innovation support instruments.*
 
 **In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?**
+
 - Yes, on R&D
 - Yes, on other innovation activities (excluding R&D)
 - Yes, on any other business activities
 - No
 
 **During the last three years, did your company co-operate with any other enterprises or organisations on innovation, technology, or business development activities?**
+
 - Yes
 - No
 
 **If yes: Please indicate the type of innovation co-operation partner.**
 *(Select all that apply)*
 *The public sector includes government owned organisations such as local, regional and national administrations and agencies, schools, hospitals, and government providers of services such as security, transport, housing, energy, etc.*
+
 - Private business enterprises outside your enterprise group
 - Enterprises within your enterprise group
 - Universities or other higher education institutions
@@ -27,6 +30,7 @@ title: "Topic: Collaboration"
 
 **Where were your most important cooperation partners located?**
 *(Select all that apply)*
+
 - Same region
 - Same country (different region)
 - Other EU countries
@@ -34,6 +38,7 @@ title: "Topic: Collaboration"
 
 **How important were the following as sources of knowledge or information for your company's activities in the last three years?**
 *Rate each: 1 = Not used, 2 = Low, 3 = Medium, 4 = High*
+
 - Internal sources (within the firm or group)
 - Suppliers
 - Clients or customers
@@ -47,6 +52,7 @@ title: "Topic: Collaboration"
 
 **Did your company participate in any of the following in the last three years?**
 *(Select all that apply)*
+
 - An innovation cluster or competitiveness pole
 - An industry or sectoral association
 - A public-private partnership
@@ -55,6 +61,7 @@ title: "Topic: Collaboration"
 
 **What were the main barriers to collaboration your company faced in the last three years?**
 *(Select all that apply)*
+
 - Difficulty finding suitable partners
 - Concerns about protecting intellectual property
 - Lack of trust
@@ -62,4 +69,3 @@ title: "Topic: Collaboration"
 - Geographical distance
 - No barriers — we collaborated as much as we wanted
 - We did not seek to collaborate
-

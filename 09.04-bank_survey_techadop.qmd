@@ -4,30 +4,26 @@ title "Topic: Technology Adoption"
 
 *Technology adoption outcomes are particularly relevant for evaluations of digitalisation support, technology transfer programmes, and investment subsidies.*
 
----
+### 4.1 Technology adoption rate
 
-**4.1 Technology adoption rate**
 - **Definition:** Whether the firm has adopted new technologies during the evaluation period
 - **Metric:** Binary indicator (yes/no); number of new technologies adopted; type of technology
 - **Data source:** Primary survey (FAT-based questions)
 
----
+### 4.2 Technology spending
 
-**4.2 Technology spending**
 - **Definition:** Investment in purchasing or licensing hardware and software
 - **Metric:** Total technology investment in €; % change from baseline
 - **Data source:** Primary survey or administrative (investment tax records)
 
----
+### 4.3 Technology sophistication
 
-**4.3 Technology sophistication**
 - **Definition:** The complexity and frontier-proximity of the technologies adopted by the firm
 - **Metric:** Categorical scale from basic to advanced technology types; self-reported
 - **Data source:** Primary survey
 
----
+### 4.4 Technology-driven productivity gains
 
-**4.4 Technology-driven productivity gains**
 - **Definition:** Whether technology adoption has led to measurable improvements in efficiency or output
 - **Metric:** Self-reported impact on production capacity, unit costs, or quality; combined with administrative productivity data
 - **Data source:** Primary survey and administrative

@@ -8,6 +8,7 @@ title: "Topic: Digitalization"
 
 **Which of the following digital technologies does your company currently use?**
 *(Select all that apply)*
+
 - Cloud computing services (e.g. data storage, software as a service)
 - Big data analytics
 - Artificial intelligence (AI) or machine learning
@@ -18,8 +19,8 @@ title: "Topic: Digitalization"
 - Augmented or virtual reality (AR/VR)
 - None of the above
 
-
 **What share of your company's total sales were made online (via website, app, or digital platform) in the last financial year?**
+
 - None
 - Less than 10%
 - 10–24%
@@ -69,16 +70,14 @@ What is the online shop link?
 **In a scale from 1 to 10, where 10 means that the establishment is using the most advanced production processes available in its sector, where do you think this establishment stands with respect to most advanced firms in the world?**
 
 **Did your company invest in digital technologies or software in the last financial year?**
+
 - Yes
 - No
 
 *If yes: What was the approximate total investment? (Open numeric field, in €)*
 
+### 8.8 Did your company provide digital skills training to employees in the last financial year?
 
-
-
-**8.8 Did your company provide digital skills training to employees in the last financial year?**
 - Yes, to most or all employees
 - Yes, to some employees
 - No
-

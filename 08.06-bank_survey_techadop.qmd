@@ -8,6 +8,7 @@ title: "Topic: Technology Adoption"
 
 **Which of the following general-purpose technologies does your company currently use in its operations?**
 *(Select all that apply)*
+
 - Computer Numerical Control (CNC) machines
 - Industrial robots or automated production systems
 - 3D printing / additive manufacturing
@@ -21,6 +22,7 @@ title: "Topic: Technology Adoption"
 
 ** How did your company acquire the technologies it currently uses?**
 *(Select all that apply)*
+
 - Purchased off-the-shelf from a supplier
 - Customised by a supplier to our specifications
 - Developed in-house
@@ -30,12 +32,14 @@ title: "Topic: Technology Adoption"
 ---
 
 **In the last three years, did your company adopt any technologies that were new to your firm (even if not new to the market)?**
+
 - Yes
 - No
 
 ---
 
 **What was the main driver of your company's most recent technology adoption?**
+
 - To reduce production costs
 - To improve product or service quality
 - To enter new markets
@@ -49,6 +53,7 @@ title: "Topic: Technology Adoption"
 
 **What were the main barriers to technology adoption your company faced in the last three years?**
 *(Select all that apply)*
+
 - High upfront cost of technologies
 - Lack of access to finance
 - Lack of technical skills within the firm
@@ -66,12 +71,14 @@ title: "Topic: Technology Adoption"
 ---
 
 **Did your company receive any external support (advice, training, subsidies) to help adopt new technologies in the last three years?**
+
 - Yes — from a public programme
 - Yes — from a private consultant or supplier
 - Yes — from a business association or cluster
 - No
 
 **Please select the MOST important obstacle faced by this establishment to adopt new equipment, machine, software, or process.**
+
 - Depreciation or replacement
 - Competition
 - Other firms adopted
@@ -82,13 +89,14 @@ title: "Topic: Technology Adoption"
 - Other (please specify)
 
 **Does your company use Generative Artificial Intelligence (GenAI)?**
+
 - Yes
 - No
 
 ** If yes: Why does your company use Generative Artificial Intelligence (GenAI)?**
+
 - Customer acquisition
 - Simplifying internal org processes
 - Hiring decisions
 - Producing or improving products and services
 - Market research
-

@@ -41,11 +41,13 @@ U. Activities of extraterritorial organisations and bodies
 *(Open text field)*
 
 **Please select the type of products, goods, and/or services your company sells.**
+
 - Physical products/goods (e.g., handbags, crafts)
 - Non-physical products/goods (e.g., software, multimedia)
 - Services (e.g., advertising, design, maintenance of machines, repairs)
 
 **How do you categorize your business in terms of the primary customer?**
+
 - B2B (Business-to-Business)
 - B2C (Business-to-Consumer)
 - B2G (Business-to-Government)
@@ -57,10 +59,12 @@ U. Activities of extraterritorial organisations and bodies
 *(Open numeric field)*
 
 **In which country and region is your company's main operating location?**
+
 - Country: *(dropdown)*
 - Region/NUTS2: *(dropdown)*
 
 **What is the address of your company?**
+
 - Street name and number
 - Postal code and city
 

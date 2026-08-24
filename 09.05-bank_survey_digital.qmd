@@ -4,37 +4,32 @@ title: "Topic: Digitalization"
 
 *Digitalization outcomes are increasingly central to EU Cohesion Policy and the Digital Decade targets. They are relevant for evaluations of SME digitalisation funds, broadband investments, and digital advisory services.*
 
----
+### 5.1 Digital technology adoption
 
-**5.1 Digital technology adoption**
 - **Definition:** Whether and which digital technologies the firm uses (cloud, AI, IoT, big data, etc.)
 - **Metric:** Number of digital technologies in use; binary indicators per technology type
 - **Data source:** Primary survey
 
----
+### 5.2 Online sales share
 
-**5.2 Online sales share**
 - **Definition:** Share of total sales conducted through digital channels
 - **Metric:** % of total turnover from online sales
 - **Data source:** Primary survey or administrative (VAT e-commerce records)
 
----
+### 5.3 Digital investment
 
-**5.3 Digital investment**
 - **Definition:** Spending on digital technologies and software
 - **Metric:** Total digital investment in €; % change from baseline
 - **Data source:** Primary survey or administrative
 
----
+### 5.4 Digital skills of the workforce
 
-**5.4 Digital skills of the workforce**
 - **Definition:** Improvement in the digital capabilities of the firm's employees
 - **Metric:** Share of employees with intermediate or advanced digital skills (%); binary indicator for digital training provision
 - **Data source:** Primary survey
 
----
+### 5.5 Digital maturity score
 
-**5.5 Digital maturity score**
 - **Definition:** Overall level of digitalisation across the firm's strategy, processes, skills, and security
 - **Metric:** Composite index score based on standardised questions; % change from baseline
 - **Data source:** Primary survey

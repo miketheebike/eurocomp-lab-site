@@ -11,6 +11,7 @@ title: "Topic: Respondent Details"
 *(Open text field)*
 
 **What is (are) your role(s) in the business?**
+
 - Owner / co-owner
 - Chief Executive Officer (CEO) or Managing Director
 - Chief Financial Officer (CFO)
@@ -27,6 +28,7 @@ title: "Topic: Respondent Details"
 *(Open text field)*
 
 **Is this person the best contact for follow-up surveys?**
+
 - Yes
 - No — please provide the best contact below:
   - Name: *(open text)*
@@ -34,6 +36,7 @@ title: "Topic: Respondent Details"
   - Email: *(open text)*
 
 **Where did you hear about the program?**
+
 - Search engine (Google, Yahoo, etc.)
 - Recommended by a friend or colleague
 - Facebook/Instagram
@@ -48,6 +51,7 @@ title: "Topic: Respondent Details"
 - Other (please specify)
 
 **What is your gender?**
+
 - Female
 - Male
 - Other
@@ -57,6 +61,7 @@ title: "Topic: Respondent Details"
 *(Open numeric field)*
 
 **What is the highest degree or level of school you have completed?**
+
 - No schooling
 - Primary
 - Lower Secondary
@@ -66,4 +71,3 @@ title: "Topic: Respondent Details"
 - Master's
 - Doctorate
 - Other
-

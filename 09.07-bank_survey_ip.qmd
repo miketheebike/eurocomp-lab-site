@@ -4,30 +4,26 @@ title: "Topic: Intellectual Property"
 
 *IPR outcomes are relevant for evaluations of R&D grants, innovation support, and technology transfer programmes.*
 
----
+### 9.1 Patent applications and grants
 
-**9.1 Patent applications and grants**
 - **Definition:** Whether the firm filed for or obtained patents as a result of its innovation activities
 - **Metric:** Number of patent applications; number of patents granted; binary indicator
 - **Data source:** Administrative (EPO PATSTAT, national patent offices) or primary survey
 
----
+### 9.2 Trademark and design registration
 
-**9.2 Trademark and design registration**
 - **Definition:** Whether the firm registered trademarks or designs to protect its market position
 - **Metric:** Number of trademarks or registered designs; binary indicator
 - **Data source:** Administrative (EUIPO records) or primary survey
 
----
+### 9.3 Technology licensing
 
-**9.3 Technology licensing**
 - **Definition:** Whether the firm licenses technology to or from other companies — a measure of knowledge commercialisation
 - **Metric:** Binary indicator (licensor / licensee); value of licensing agreements (€)
 - **Data source:** Primary survey
 
----
+### 9.4 Use of informal IP protection
 
-**9.4 Use of informal IP protection**
 - **Definition:** Whether the firm uses informal methods (secrecy, lead time, design complexity) to protect its innovations
 - **Metric:** Binary indicators per method; number of informal protection methods used
 - **Data source:** Primary survey

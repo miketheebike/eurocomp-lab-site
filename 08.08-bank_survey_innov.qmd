@@ -11,11 +11,12 @@ title: "Topic: Innovation and Research Development Activities"
 **A product innovation is a new or improved good or service that differs significantly from the firm’s previous goods or services and which has been implemented on the market.
 
 Include:
+
 - significant changes to the design of a good
 - digital goods or services
 
-
 **During the last three years, did your company introduce any new or significantly improved goods?**
+
 - Yes
 - No
 
@@ -23,6 +24,7 @@ Include:
 *(Open numeric field)*
 
 **During the last [number] years, did your company introduce any new or significantly improved services?**
+
 - Yes
 - No
 
@@ -30,30 +32,33 @@ Include:
 *(Open numeric field)*
 
 **Since [year], did your enterprise introduce any new or improved products (goods or services) that were:**
+
 - Not previously offered by any of your competitors
 - Identical or very similar to products already offered by your competitors
 - None of the above
 
 **Who developed these product innovations?**
 **(Select all that apply)*
+
 - Your enterprise by itself
 - Your enterprise together with other enterprises or organisations*
 - Your enterprise by adapting or modifying products originally developed by other enterprises or organisations*
 - Other enterprises or organisations*
 
 **What share of your company's total turnover in the last financial year came from goods or services that were new or significantly improved in the last three years?**
+
 - None
 - Less than 5%
 - 5–19%
 - 20–49%
 - 50% or more
 
-
 ### Process Innovation
 
 A business process innovation is a new or improved business process for one or more business functions that differs significantly from the firm’s previous business processes and which has been implemented within the firm.
 
 **During the last three years, did your company introduce any new or significantly improved processes?**
+
 - Yes
 - No
 
@@ -62,6 +67,7 @@ A business process innovation is a new or improved business process for one or m
 
 **Since 2024, did your enterprise introduce any of the following types of new or improved processes that differ significantly from your previous processes?**
 *(Select all that apply)*
+
 - Methods for producing goods or providing services (including methods for developing goods or services)
 - Logistics, delivery or distribution methods 
 - Methods for information processing or communication
@@ -73,11 +79,11 @@ A business process innovation is a new or improved business process for one or m
 
 **Who developed these process innovations?**
 *(Select all that apply)*
+
 - Your enterprise by itself
 - Your enterprise together with other enterprises or organisations
 - Your enterprise by adapting or modifying processes originally developed by other enterprises or organisations
 - Other enterprises or organisations
-
 
 ### Innovation and R&D activities
 
@@ -88,6 +94,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 
 **Since [year], has your enterprise had any of the following types of innovation activities? (Activities leading to expenditures)**
 *(Select all that apply)*
+
 - Completed activities on product or process innovation
 - Ongoing innovation activities at the end of 2025
 - Abandoned innovation activities
@@ -96,11 +103,13 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 - None of the above
 
 **Since [year], has your firm performed in-house R&D continuously or occasionally?**
+
 - Continuously (your firm had permanent R&D staff)
 - Occasionally (as needed only)
 
 **How much did your enterprise spend on innovation and R&D in [year] on each of the following items?**
 *(Open numeric field, in [currency])*
+
 - R&D performed in-house
 - R&D contracted out to others
 - All other innovation expenditures (i.e., excluding R&D)
@@ -113,6 +122,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 *(Open numeric field, in [currency])*
 
 **Which of the following best describes why your enterprise did not have more innovation activities during the three years from [year] to [year]:**
+
 - A lack of resources prevented us from having more innovation activities. (e.g., lack of finance, qualified personnel, material)
 - We decided not to innovate due to other reasons than a lack of resources. (e.g., strategic reasons; not the right time to innovate; other priorities; risks too high; low expected returns)
 - We had no innovation activities because there was no need for innovation.
@@ -121,6 +131,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 *(Open numeric field)*
 
 **Do you have a R&D department or a unit equivalent to it?**
+
 - Yes
 - No
 
@@ -128,6 +139,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 
 **During 2025, how important were the following factors in hampering your enterprises’ decision to start innovation activities*, or its execution of innovation activities?**
 *(Answer options: High, Medium, Low, Not a constraint)*
+
 - Lack of internal finance for innovation
 - Lack of credit or private equity
 - Difficulties in obtaining public grants or subsidies 
@@ -140,9 +152,9 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 - Different priorities within your enterprise
 - Not guaranteed to capture returns to innovation because easy for competitors to imitate
 
-
 **Did your company receive any public funding for R&D activities in the last three years?**
 *(Select all that apply)*
+
 - Local or regional government grant
 - National government grant
 - EU funding (e.g. Horizon Europe, ERDF, ESF+)

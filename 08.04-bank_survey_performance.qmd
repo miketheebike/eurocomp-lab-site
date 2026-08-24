@@ -27,6 +27,7 @@ title: "Topic: Company Financial Performance"
 *Enter positive number for profits and negative number for losses*
 
 **How would you describe your company's current financial situation?**
+
 - Very healthy — no financial constraints
 - Adequate — minor constraints
 - Tight — we face some financial pressure

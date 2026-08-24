@@ -4,37 +4,32 @@ title: "Topic: Collaboration and Knowledge Transfer"
 
 *Collaboration outcomes are central to evaluations of cluster programmes, innovation networks, and public-private partnership instruments.*
 
----
+### 7.1 Collaboration incidence
 
-**7.1 Collaboration incidence**
 - **Definition:** Whether the firm cooperates with other firms or organisations on innovation or business activities
 - **Metric:** Binary indicator (yes/no); number of active partnerships
 - **Data source:** Primary survey
 
----
+### 7.2 Partner diversity
 
-**7.2 Partner diversity**
 - **Definition:** The range of partner types the firm collaborates with (suppliers, universities, competitors, etc.)
 - **Metric:** Number of distinct partner types; diversity index
 - **Data source:** Primary survey
 
----
+### 7.3 University-industry linkages
 
-**7.3 University-industry linkages**
 - **Definition:** Whether the firm has formal collaboration with universities or public research institutes
 - **Metric:** Binary indicator; number of joint projects; value of contracted research (€)
 - **Data source:** Primary survey or administrative (research funding records)
 
----
+### 7.4 Knowledge sourcing breadth
 
-**7.4 Knowledge sourcing breadth**
 - **Definition:** The variety of external knowledge sources the firm draws on for its activities
 - **Metric:** Number of knowledge sources rated as important (based on CIS battery); composite score
 - **Data source:** Primary survey
 
----
+### 7.5 Cluster or network participation
 
-**7.5 Cluster or network participation**
 - **Definition:** Whether the firm participates in an innovation cluster, industry network, or competitiveness pole
 - **Metric:** Binary indicator (yes/no); number of networks participated in
 - **Data source:** Primary survey or administrative (cluster membership records)
