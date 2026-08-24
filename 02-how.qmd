@@ -2,43 +2,651 @@
 title: "How"
 ---
 
-[Placeholder page]{.placeholder}
+::: {.lede}
+Setting up an RCT, told through one real project. When demand exceeds available funding,
+the selection process becomes an opportunity to learn.
+:::
 
-The mechanics, told through one program from start to finish, then generalised.
+```{=html}
+<div class="tracker"><span class="on">Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
 
-## Feasibility and entry points
+## The running example: SMART Romania
 
-Where an RCT can be introduced into a competitive scheme, illustrated with case
-studies.
+EU-funded grants of EUR 15,000 to 100,000 for digital tools, equipment, and services.
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Digitalization grants for micro, small and medium enterprises</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania, run by the regional development agency with World Bank support</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Application survey</div>
+  <div>Lottery</div>
+  <div>Digitalization grants</div>
+  <div>Follow-up surveys</div>
+  <div>Impact evaluation</div>
+</div>
+```
 
 ::: {.team-note}
-**Key message**
-**Key message.** RCTs need to be planned from the very beginning. This should be
-the loudest line on the page.
+**Source**
+All facts from the baseline report, "Foundational Digital Market Transformation: An RCT in
+North-East Romania" (World Bank, 2024). Still to confirm: the treatment and control split,
+and the follow-up survey timeline.
 :::
 
-## Different ways to randomise
+## Randomization has to be designed into your programme from the start
 
-Lottery among eligible applicants, phase-in, threshold designs, and what each buys.
+An RCT is not something that can be added to a programme after launch. The comparison
+group, the eligibility rules, and the baseline data all have to be settled before the
+first grant is awarded.
 
-## Case studies as wanted posters
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Timeline showing programme areas, eligibility, random selection, monitoring and impact measurement across ex-ante and ex-post periods">
+  <rect x="20" y="46" width="300" height="252" rx="6" fill="rgba(242,201,76,.10)"/>
+  <text x="170" y="316" text-anchor="middle" fill="#6B6455" font-size="11.5" font-style="italic">Ex-ante</text>
+  <text x="500" y="316" text-anchor="middle" fill="#6B6455" font-size="11.5" font-style="italic">Ex-post</text>
+  <line x1="20" y1="300" x2="660" y2="300" stroke="#B9AF95" stroke-width="1.5"/>
+  <text x="640" y="316" text-anchor="end" fill="#6B6455" font-size="11.5">Time</text>
 
-One standardised card per project, each showing:
+  <rect x="30" y="20" width="130" height="24" rx="4" fill="#2B2724"/>
+  <text x="95" y="37" text-anchor="middle" fill="#FAF6EC" font-size="10.5" font-weight="bold">T0: Target areas</text>
+  <rect x="176" y="20" width="130" height="24" rx="4" fill="#2B2724"/>
+  <text x="241" y="37" text-anchor="middle" fill="#FAF6EC" font-size="11" font-weight="bold">T1: Eligibility</text>
+  <rect x="360" y="20" width="130" height="24" rx="4" fill="#2B2724"/>
+  <text x="425" y="37" text-anchor="middle" fill="#FAF6EC" font-size="11" font-weight="bold">T2: Monitoring</text>
+  <rect x="520" y="20" width="130" height="24" rx="4" fill="#2B2724"/>
+  <text x="585" y="37" text-anchor="middle" fill="#FAF6EC" font-size="11" font-weight="bold">T3: Impacts</text>
 
-- Sample size, treatment versus control
-- Outcomes measured
-- RCT design
-- Effect sizes
-- Link through to the full case study or report
+  <rect x="30" y="70" width="130" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="42" y="90" fill="#2B2724" font-size="10.5" font-weight="bold">1. Secondary data</text>
+  <text x="42" y="104" fill="#6B6455" font-size="10.5">Identify which areas</text>
+  <text x="42" y="117" fill="#6B6455" font-size="10.5">and groups need support</text>
 
-*Five wanted poster slides already built: SMART Romania, Extremadura, two Czechia
-programs, Croatia/Scinergy.*
+  <rect x="176" y="70" width="130" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="188" y="90" fill="#2B2724" font-size="10.5" font-weight="bold">2. Eligibility check</text>
+  <text x="188" y="104" fill="#6B6455" font-size="10.5">Refine the selection</text>
+  <text x="188" y="117" fill="#6B6455" font-size="10.5">criteria, collect baseline</text>
 
-## Companion slide deck
+  <rect x="176" y="146" width="130" height="42" rx="5" fill="#F2C94C"/>
+  <text x="241" y="164" text-anchor="middle" fill="#2B2724" font-size="11" font-weight="bold">3. Random selection</text>
+  <text x="241" y="179" text-anchor="middle" fill="#2B2724" font-size="10.5">within the eligible pool</text>
 
-*Deck to be added to `assets/` and linked here.*
+  <path d="M306 167 H350" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M306 167 H330 V232 H350" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
 
-::: {.soft-panel}
-**Running example.** Romania: 519 firms selected against 519 not selected, drawn
-by computerised lottery witnessed by a notary.
+  <rect x="350" y="148" width="230" height="38" rx="5" fill="#F2C94C"/>
+  <text x="465" y="172" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Treatment firms</text>
+
+  <rect x="350" y="212" width="230" height="42" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="465" y="230" text-anchor="middle" fill="#2B2724" font-size="11.5" font-weight="bold">Pure control group</text>
+  <text x="465" y="245" text-anchor="middle" fill="#6B6455" font-size="10.5">comparison firms without any support</text>
+
+  <text x="336" y="120" text-anchor="middle" fill="#6B6455" font-size="11" transform="rotate(-90 336 120)">Outcome</text>
+
+  <rect x="520" y="70" width="130" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="532" y="90" fill="#2B2724" font-size="10.5" font-weight="bold">4. Endline assessment</text>
+  <text x="532" y="104" fill="#6B6455" font-size="10.5">Measure the gap between</text>
+  <text x="532" y="117" fill="#6B6455" font-size="10.5">the two groups</text>
+
+  <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="#2B2724" stroke-width="1.5" fill="none"/>
+  <text x="626" y="204" fill="#2B2724" font-size="11.5" font-weight="bold">Impact</text>
+</svg>
+<figcaption>Everything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.</figcaption>
+</figure>
+```
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span class="on">Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+## Building the eligible pool
+
+```{=html}
+<div class="flow">
+  <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
+  <div>Online applications<br><span style="font-weight:400;color:#6B6455">About one hour to complete</span></div>
+  <div>Automatic screening<br><span style="font-weight:400;color:#6B6455">Stops as soon as a criterion fails</span></div>
+  <div style="background:#F2C94C;border-color:#F2C94C">1,038<br><span style="font-weight:400">eligible MSMEs</span></div>
+</div>
+```
+
+::: {.takeaway}
+In SMART Romania, one survey did three jobs: application, eligibility check, and baseline
+data collection, all in a single step.
 :::
+
+## How many firms do I need?
+
+Once you know who is eligible, the next question is whether enough firms are available to
+measure an impact. Three things determine the answer.
+
+::: {.cards}
+::: {.card-e}
+#### Expected impact
+
+The smaller the effect you expect, the more firms you need to detect it.
+:::
+::: {.card-e}
+#### Desired precision
+
+More certainty about the answer requires more observations.
+:::
+::: {.card-e}
+#### Budget and capacity
+
+Every firm in the study needs support, monitoring, and surveys.
+:::
+:::
+
+::: {.takeaway}
+Pool too small? Loosen the eligibility bar, or widen the ranking bins.
+:::
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; 1,038 eligible firms in the pool</span><span>&check; Built through outreach in 20+ cities</span></div>
+```
+
+Rules of thumb and power calculations are covered in
+[Advanced How](03-advanced-how.qmd).
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span class="on">Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+## How the lottery worked
+
+With 1,038 firms in the pool and grants for only some, SMART Romania needed a fair way to
+choose.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
+  <rect x="10" y="76" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="105" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="85" y="124" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M160 109 H210" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="210" y="76" width="160" height="66" rx="6" fill="#F2C94C"/>
+  <text x="290" y="102" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="290" y="121" text-anchor="middle" fill="#2B2724" font-size="11">every firm, the same chance</text>
+
+  <path d="M370 109 H400 V44 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M370 109 H400 V174 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="430" y="20" width="240" height="50" rx="6" fill="#F2C94C"/>
+  <text x="446" y="41" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group</text>
+  <text x="446" y="58" fill="#2B2724" font-size="11">Grants of EUR 15,000 to 100,000</text>
+
+  <rect x="430" y="150" width="240" height="50" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="446" y="171" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group</text>
+  <text x="446" y="188" fill="#6B6455" font-size="11">No grant; surveyed the same way</text>
+</svg>
+</figure>
+```
+
+::: {.takeaway}
+In SMART Romania, the draw, and nothing else, decided which firms received support.
+:::
+
+::: {.team-note}
+**To confirm**
+Exact treatment and control split, and whether the draw was public or computerized.
+:::
+
+## Public draw or private draw?
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Public lottery
+:::
+::: {.body}
+A public draw, for example pulling names from a hat.
+
+**Advantage:** transparent and fair.
+
+**Disadvantage:** the comparison group may change its behaviour once it knows the result.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Private lottery
+:::
+::: {.body}
+A lottery run behind the scenes.
+
+**Advantage:** avoids the comparison group reacting to a public result.
+
+**Disadvantage:** less visibly fair.
+:::
+:::
+:::
+
+::: {.takeaway}
+In practice, many World Bank-supported evaluations run the draw as a secure, documented,
+computerized procedure that can be re-checked afterwards.
+:::
+
+## Narrowing the pool: a lottery around a cutoff
+
+Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom
+outright, and randomize only the firms in between.
+
+**Best when:** eligibility criteria are clear and the programme is oversubscribed, with
+limited resources.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomized">
+  <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
+
+  <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
+  <text x="230" y="60" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Accept all</text>
+  <text x="230" y="78" text-anchor="middle" fill="#2B2724" font-size="11">top scorers funded outright</text>
+  <text x="72" y="42" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">100</text>
+  <text x="72" y="96" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">60</text>
+
+  <rect x="90" y="100" width="280" height="76" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Randomize this band</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">85% treatment, 15% comparison</text>
+  <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
+  <text x="72" y="182" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">45</text>
+
+  <rect x="90" y="186" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="230" y="210" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Reject all</text>
+  <text x="230" y="228" text-anchor="middle" fill="#6B6455" font-size="11">below the eligibility bar</text>
+
+  <path d="M382 138 H410" stroke="#B9AF95" stroke-width="1.5"/>
+  <rect x="410" y="106" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"/>
+  <text x="425" y="128" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomized</text>
+  <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
+  <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+
+  <text x="20" y="270" fill="#6B6455" font-size="11.5">Example: credit scoring in the Philippines</text>
+</svg>
+</figure>
+```
+
+::: {.caution}
+Keep selection rules-based. Subjective rankings, even by judges or expert panels, have
+been shown to introduce hidden bias that a lottery or scored cutoff avoids.
+:::
+
+## Why a lottery?
+
+::: {.cards}
+::: {.card-e}
+#### Fair
+
+In SMART Romania, every eligible firm had the same chance of receiving a grant. Selection
+could not be influenced by connections or favouritism.
+:::
+::: {.card-e}
+#### Defensible
+
+Rules reduce bias. Across several studies, even expert judges struggle to predict which
+firms will succeed.
+:::
+::: {.card-e}
+#### Efficient
+
+One online survey serves as application, eligibility check, and baseline data collection.
+:::
+:::
+
+::: {.team-note}
+**Citations**
+For the "defensible" card: Chen et al. (2022) on judicial favouritism in Kenya;
+Fafchamps and Woodruff (2017), Identifying gazelles, World Bank Economic Review 31(3);
+McKenzie and Sansone (2019), Predicting entrepreneurial success is hard, JDE 141.
+Decide whether these belong on the page or in a references section.
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span class="on">Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+## What happens after the lottery?
+
+The evaluation now steps back and lets the programme do its work.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Treatment firms
+:::
+::: {.body}
+Receive the digitalization grants and put them to work: equipment, software, services.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Comparison firms
+:::
+::: {.body}
+Continue business as usual, without a grant.
+:::
+:::
+:::
+
+::: {.takeaway}
+Same markets, same conditions, same surveys. The only difference between SMART Romania's
+groups is the grant.
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span class="on">Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+## Measuring the programme's impact
+
+While the programme runs, identical surveys continue for treatment and comparison firms
+alike: same questions, same timing.
+
+::: {.cards}
+::: {.card-e}
+#### Digital adoption
+
+Measured with the DESI framework.
+:::
+::: {.card-e}
+#### Revenue
+
+Turnover and growth over the period.
+:::
+::: {.card-e}
+#### Employment
+
+Headcount and job creation.
+:::
+::: {.card-e}
+#### Productivity
+
+Output relative to inputs.
+:::
+:::
+
+::: {.takeaway}
+Differences between SMART Romania's firms can now be traced to one cause: the programme.
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span class="on">Impact</span></div>
+```
+
+## Why randomize?
+
+Now that both groups have been followed over time, the final question is how to attribute
+any differences to the programme.
+
+::: {.gold-panel}
+**"What would have happened without the programme?"** Randomization makes it possible to
+answer this question.
+:::
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Firms drawn in the lottery
+:::
+::: {.body}
+Received digitalization grants.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Firms not drawn
+:::
+::: {.body}
+No grants; surveyed identically.
+:::
+:::
+:::
+
+Because the lottery created two comparable groups, the difference between them is the
+true impact of the programme.
+
+## Five practical ways to randomize your programme
+
+SMART Romania used one approach: the lottery. Many programmes need a different design.
+
+```{=html}
+<div class="designs">
+  <div class="d"><div>
+    <h4>Lottery</h4>
+    <p><span class="lab">How:</span> randomly select who gets the programme, by public or private lottery.</p>
+    <p><span class="lab">Best when:</span> eligibility is clear and the programme is oversubscribed.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Multiple treatment arms</h4>
+    <p><span class="lab">How:</span> randomly assign different versions of the programme, with or without a control group.</p>
+    <p><span class="lab">Best when:</span> you want to know which design works best, not just whether it works.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Randomized phase-in</h4>
+    <p><span class="lab">How:</span> everyone gets the programme eventually, in a random order. Those still waiting are the comparison group.</p>
+    <p><span class="lab">Best when:</span> budget or capacity cannot cover everyone at once.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Randomized intensities</h4>
+    <p><span class="lab">How:</span> vary how much of the programme a firm gets, for example 100%, 50%, or 0% of eligible employees.</p>
+    <p><span class="lab">Best when:</span> spillovers within or between firms are a concern.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Encouragement design</h4>
+    <p><span class="lab">How:</span> randomize who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
+    <p><span class="lab">Best when:</span> take-up is voluntary and the programme itself cannot be withheld.</p>
+  </div></div>
+</div>
+```
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; Used a lottery (design 1)</span><span>&check; Oversubscribed programme</span><span>&check; 1,038 eligible firms</span></div>
+```
+
+### Multiple treatment arms
+
+Randomly assign firms to different versions of the programme, plus a comparison group.
+
+**Best when:** you want to know which version works best, not just whether the programme
+works. **Trade-off:** the sample is split across more groups, so you need more firms.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three programme versions">
+  <line x1="90" y1="190" x2="620" y2="190" stroke="#B9AF95" stroke-width="1.5"/>
+  <text x="72" y="100" text-anchor="middle" fill="#6B6455" font-size="11.5" transform="rotate(-90 72 100)">Outcome</text>
+
+  <rect x="120" y="120" width="90" height="70" fill="#2B2724"/>
+  <text x="165" y="112" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">2.0</text>
+  <text x="165" y="210" text-anchor="middle" fill="#6B6455" font-size="11.5">Comparison</text>
+  <text x="165" y="224" text-anchor="middle" fill="#6B6455" font-size="11.5">group</text>
+
+  <rect x="255" y="82" width="90" height="108" fill="#F2C94C"/>
+  <text x="300" y="74" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">3.1</text>
+  <text x="300" y="210" text-anchor="middle" fill="#6B6455" font-size="11.5">Version 1</text>
+
+  <rect x="390" y="64" width="90" height="126" fill="#F2C94C"/>
+  <text x="435" y="56" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">3.6</text>
+  <text x="435" y="210" text-anchor="middle" fill="#6B6455" font-size="11.5">Version 2</text>
+
+  <rect x="525" y="33" width="90" height="157" fill="#F2C94C"/>
+  <text x="570" y="25" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">4.5</text>
+  <text x="570" y="210" text-anchor="middle" fill="#6B6455" font-size="11.5">Version 3</text>
+</svg>
+<figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme performs best.</figcaption>
+</figure>
+```
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; One treatment group versus one comparison group</span></div>
+```
+
+### Randomized phase-in
+
+Everyone receives the programme eventually, in a random order. Firms still waiting form
+the comparison group.
+
+**Best when:** budget or capacity cannot cover everyone at once.
+**Trade-off:** long-term impacts cannot be observed.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Staggered rollout: wave one treated first, wave two later, wave three last, each acting as comparison until treated">
+  <text x="20" y="46" fill="#2B2724" font-size="12" font-weight="bold">Wave 1</text>
+  <rect x="110" y="30" width="510" height="26" fill="#F2C94C"/>
+
+  <text x="20" y="90" fill="#2B2724" font-size="12" font-weight="bold">Wave 2</text>
+  <rect x="110" y="74" width="170" height="26" fill="#DDD5C0"/>
+  <rect x="280" y="74" width="340" height="26" fill="#F2C94C"/>
+
+  <text x="20" y="134" fill="#2B2724" font-size="12" font-weight="bold">Wave 3</text>
+  <rect x="110" y="118" width="340" height="26" fill="#DDD5C0"/>
+  <rect x="450" y="118" width="170" height="26" fill="#F2C94C"/>
+
+  <line x1="110" y1="160" x2="620" y2="160" stroke="#B9AF95" stroke-width="1.5"/>
+  <text x="620" y="178" text-anchor="end" fill="#6B6455" font-size="11.5">Time</text>
+
+  <rect x="110" y="182" width="11" height="11" fill="#F2C94C"/>
+  <text x="128" y="192" fill="#6B6455" font-size="11.5">Treated</text>
+  <rect x="210" y="182" width="11" height="11" fill="#DDD5C0"/>
+  <text x="228" y="192" fill="#6B6455" font-size="11.5">Waiting, acts as comparison</text>
+</svg>
+</figure>
+```
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; Not used: a one-time lottery with a lasting comparison group</span></div>
+```
+
+### Randomized intensities
+
+Randomly vary how much of the programme each firm gets, for example 100%, 50%, or none of
+eligible employees.
+
+**Best when:** spillovers are likely, for example information spreading between treated
+and untreated employees. **Trade-off:** detecting effects at each level needs a bigger sample.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the programme at 100 percent, 50 percent and zero percent of eligible employees">
+  <line x1="120" y1="165" x2="600" y2="165" stroke="#B9AF95" stroke-width="1.5"/>
+  <rect x="150" y="35" width="110" height="130" fill="#F2C94C"/>
+  <text x="205" y="106" text-anchor="middle" fill="#2B2724" font-size="15" font-weight="bold">100%</text>
+  <text x="205" y="185" text-anchor="middle" fill="#6B6455" font-size="12">Firm A</text>
+
+  <rect x="300" y="100" width="110" height="65" fill="#F2C94C"/>
+  <text x="355" y="138" text-anchor="middle" fill="#2B2724" font-size="15" font-weight="bold">50%</text>
+  <text x="355" y="185" text-anchor="middle" fill="#6B6455" font-size="12">Firm B</text>
+
+  <rect x="450" y="140" width="110" height="25" fill="#DDD5C0"/>
+  <text x="505" y="132" text-anchor="middle" fill="#2B2724" font-size="15" font-weight="bold">0%</text>
+  <text x="505" y="185" text-anchor="middle" fill="#6B6455" font-size="12">Firm C</text>
+
+  <text x="120" y="22" fill="#6B6455" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
+</svg>
+</figure>
+```
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; Not used: one level of support was compared with none</span></div>
+```
+
+### Encouragement design
+
+Low take-up is common even for free programmes. Randomize who gets extra encouragement,
+then compare the whole encouraged group with the whole not-encouraged group.
+
+::: {.caution}
+Compliance is never perfect. Some encouraged firms never take the programme up, and some
+others do anyway. Compare the full groups regardless.
+:::
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; Not needed: the grants were oversubscribed, so a lottery was possible</span></div>
+```
+
+## Case studies
+
+One standardised card per project, each showing sample size, outcomes measured, RCT
+design, effect sizes, and a link through to the full case study or report.
+
+::: {.team-note}
+**Have material**
+Five wanted poster slides already built: SMART Romania, Extremadura, two Czechia
+programmes, Croatia and Scinergy. The deck can be lifted straight onto this page.
+:::
+
+## The whole thing, end to end
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 410" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Full RCT timeline: outreach and application, eligibility screening, lottery splitting firms into treatment and comparison groups, identical follow-up surveys for both, and the measured impact at the end">
+  <rect x="14" y="34" width="282" height="318" rx="8" fill="rgba(242,201,76,.09)"/>
+  <text x="20" y="24" fill="#6B6455" font-size="10" letter-spacing="1.4" font-weight="bold">BEFORE LAUNCH</text>
+  <text x="330" y="24" fill="#6B6455" font-size="10" letter-spacing="1.4" font-weight="bold">PROGRAMME PERIOD</text>
+
+  <line x1="20" y1="372" x2="680" y2="372" stroke="#B9AF95" stroke-width="1.5"/>
+  <text x="680" y="390" text-anchor="end" fill="#6B6455" font-size="11">Time</text>
+
+  <rect x="26" y="155" width="118" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="178" text-anchor="middle" fill="#2B2724" font-size="11.5" font-weight="bold">Outreach and</text>
+  <text x="85" y="193" text-anchor="middle" fill="#2B2724" font-size="11.5" font-weight="bold">application</text>
+  <text x="85" y="208" text-anchor="middle" fill="#6B6455" font-size="10">one survey, three jobs</text>
+
+  <path d="M144 185 H162" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="162" y="155" width="118" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="221" y="178" text-anchor="middle" fill="#2B2724" font-size="11.5" font-weight="bold">Eligibility</text>
+  <text x="221" y="193" text-anchor="middle" fill="#2B2724" font-size="11.5" font-weight="bold">screening</text>
+  <text x="221" y="208" text-anchor="middle" fill="#6B6455" font-size="10">1,038 firms qualify</text>
+
+  <path d="M280 185 H304" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="304" y="152" width="72" height="66" rx="6" fill="#F2C94C"/>
+  <text x="340" y="180" text-anchor="middle" fill="#2B2724" font-size="11.5" font-weight="bold">LOTTERY</text>
+  <text x="340" y="196" text-anchor="middle" fill="#2B2724" font-size="10">same chance</text>
+  <text x="340" y="208" text-anchor="middle" fill="#2B2724" font-size="10">for everyone</text>
+
+  <path d="M376 185 H398 V93 H418" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M376 185 H398 V285 H418" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="418" y="70" width="196" height="46" rx="6" fill="#F2C94C"/>
+  <text x="432" y="90" fill="#2B2724" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="432" y="106" fill="#2B2724" font-size="10.5">receives digitalization grants</text>
+
+  <line x1="432" y1="142" x2="600" y2="142" stroke="#B9AF95" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="460" cy="142" r="5" fill="#2B2724"/><circle cx="516" cy="142" r="5" fill="#2B2724"/><circle cx="572" cy="142" r="5" fill="#2B2724"/>
+  <text x="432" y="163" fill="#6B6455" font-size="10">Identical follow-up surveys</text>
+
+  <rect x="418" y="176" width="196" height="42" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="516" y="194" text-anchor="middle" fill="#2B2724" font-size="10.5" font-weight="bold">Digital adoption &middot; Revenue</text>
+  <text x="516" y="209" text-anchor="middle" fill="#2B2724" font-size="10.5" font-weight="bold">Employment &middot; Productivity</text>
+
+  <line x1="432" y1="244" x2="600" y2="244" stroke="#B9AF95" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="460" cy="244" r="5" fill="#2B2724"/><circle cx="516" cy="244" r="5" fill="#2B2724"/><circle cx="572" cy="244" r="5" fill="#2B2724"/>
+  <text x="432" y="238" fill="#6B6455" font-size="10">Identical follow-up surveys</text>
+
+  <rect x="418" y="262" width="196" height="46" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="432" y="282" fill="#2B2724" font-size="12" font-weight="bold">Comparison group</text>
+  <text x="432" y="298" fill="#6B6455" font-size="10.5">business as usual, no grant</text>
+
+  <path d="M630 93 H642 M630 285 H642 M636 93 V285" stroke="#2B2724" stroke-width="1.5" fill="none"/>
+  <text x="660" y="189" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold" transform="rotate(-90 660 189)">IMPACT</text>
+</svg>
+<figcaption>The whole design in one view. Everything left of the lottery has to be settled before launch; everything right of it is measurement. The gap between the two tracks at the end is the impact.</figcaption>
+</figure>
+```
