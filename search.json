@@ -11,35 +11,105 @@
     "href": "02-how.html",
     "title": "How",
     "section": "",
-    "text": "Placeholder page\nThe mechanics, told through one program from start to finish, then generalised."
+    "text": "Setting up an RCT, told through one real project. When demand exceeds available funding, the selection process becomes an opportunity to learn."
   },
   {
-    "objectID": "02-how.html#feasibility-and-entry-points",
-    "href": "02-how.html#feasibility-and-entry-points",
+    "objectID": "02-how.html#the-running-example-smart-romania",
+    "href": "02-how.html#the-running-example-smart-romania",
     "title": "How",
-    "section": "Feasibility and entry points",
-    "text": "Feasibility and entry points\nWhere an RCT can be introduced into a competitive scheme, illustrated with case studies.\n\nKey message Key message. RCTs need to be planned from the very beginning. This should be the loudest line on the page."
+    "section": "The running example: SMART Romania",
+    "text": "The running example: SMART Romania\nEU-funded grants of EUR 15,000 to 100,000 for digital tools, equipment, and services.\n\n  The programmeDigitalization grants for micro, small and medium enterprises\n  WhereNorth-East Romania, run by the regional development agency with World Bank support\n  Who is randomized1,038 eligible MSMEs, pre-screened via an online application survey\n  The designLottery into a treatment group (grants) and a comparison group\n  Outcomes trackedDigital adoption (DESI), revenues, profits, employment, productivity\n  Starting pointAverage DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle\n\n\nFrom application to evidence\n\n  Application survey\n  Lottery\n  Digitalization grants\n  Follow-up surveys\n  Impact evaluation\n\n\nSource All facts from the baseline report, “Foundational Digital Market Transformation: An RCT in North-East Romania” (World Bank, 2024). Still to confirm: the treatment and control split, and the follow-up survey timeline."
   },
   {
-    "objectID": "02-how.html#different-ways-to-randomise",
-    "href": "02-how.html#different-ways-to-randomise",
+    "objectID": "02-how.html#randomization-has-to-be-designed-into-your-programme-from-the-start",
+    "href": "02-how.html#randomization-has-to-be-designed-into-your-programme-from-the-start",
     "title": "How",
-    "section": "Different ways to randomise",
-    "text": "Different ways to randomise\nLottery among eligible applicants, phase-in, threshold designs, and what each buys."
+    "section": "Randomization has to be designed into your programme from the start",
+    "text": "Randomization has to be designed into your programme from the start\nAn RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.\n\n\n  \n  Ex-ante\n  Ex-post\n  \n  Time\n\n  \n  T0: Target areas\n  \n  T1: Eligibility\n  \n  T2: Monitoring\n  \n  T3: Impacts\n\n  \n  1. Secondary data\n  Identify which areas\n  and groups need support\n\n  \n  2. Eligibility check\n  Refine the selection\n  criteria, collect baseline\n\n  \n  3. Random selection\n  within the eligible pool\n\n  \n  \n\n  \n  Treatment firms\n\n  \n  Pure control group\n  comparison firms without any support\n\n  Outcome\n\n  \n  4. Endline assessment\n  Measure the gap between\n  the two groups\n\n  \n  Impact\n\nEverything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.\n\nPolicy question›Eligibility›Lottery›Program›Follow-up›Impact"
   },
   {
-    "objectID": "02-how.html#case-studies-as-wanted-posters",
-    "href": "02-how.html#case-studies-as-wanted-posters",
+    "objectID": "02-how.html#building-the-eligible-pool",
+    "href": "02-how.html#building-the-eligible-pool",
     "title": "How",
-    "section": "Case studies as wanted posters",
-    "text": "Case studies as wanted posters\nOne standardised card per project, each showing:\n\nSample size, treatment versus control\nOutcomes measured\nRCT design\nEffect sizes\nLink through to the full case study or report\n\nFive wanted poster slides already built: SMART Romania, Extremadura, two Czechia programs, Croatia/Scinergy."
+    "section": "Building the eligible pool",
+    "text": "Building the eligible pool\n\n  OutreachSocial media, radio, and events in 20+ cities\n  Online applicationsAbout one hour to complete\n  Automatic screeningStops as soon as a criterion fails\n  1,038eligible MSMEs\n\n\nIn SMART Romania, one survey did three jobs: application, eligibility check, and baseline data collection, all in a single step."
   },
   {
-    "objectID": "02-how.html#companion-slide-deck",
-    "href": "02-how.html#companion-slide-deck",
+    "objectID": "02-how.html#how-many-firms-do-i-need",
+    "href": "02-how.html#how-many-firms-do-i-need",
     "title": "How",
-    "section": "Companion slide deck",
-    "text": "Companion slide deck\nDeck to be added to assets/ and linked here.\n\nRunning example. Romania: 519 firms selected against 519 not selected, drawn by computerised lottery witnessed by a notary."
+    "section": "How many firms do I need?",
+    "text": "How many firms do I need?\nOnce you know who is eligible, the next question is whether enough firms are available to measure an impact. Three things determine the answer.\n\n\nExpected impact\nThe smaller the effect you expect, the more firms you need to detect it.\n\n\nDesired precision\nMore certainty about the answer requires more observations.\n\n\nBudget and capacity\nEvery firm in the study needs support, monitoring, and surveys.\n\n\n\nPool too small? Loosen the eligibility bar, or widen the ranking bins.\n\nSMART Romania✓ 1,038 eligible firms in the pool✓ Built through outreach in 20+ cities\nRules of thumb and power calculations are covered in Advanced How.\nPolicy question›Eligibility›Lottery›Program›Follow-up›Impact"
+  },
+  {
+    "objectID": "02-how.html#how-the-lottery-worked",
+    "href": "02-how.html#how-the-lottery-worked",
+    "title": "How",
+    "section": "How the lottery worked",
+    "text": "How the lottery worked\nWith 1,038 firms in the pool and grants for only some, SMART Romania needed a fair way to choose.\n\n\n  \n  1,038\n  eligible firms\n\n  \n\n  \n  RANDOM DRAW\n  every firm, the same chance\n\n  \n  \n\n  \n  Treatment group\n  Grants of EUR 15,000 to 100,000\n\n  \n  Comparison group\n  No grant; surveyed the same way\n\n\n\nIn SMART Romania, the draw, and nothing else, decided which firms received support.\n\n\nTo confirm Exact treatment and control split, and whether the draw was public or computerized."
+  },
+  {
+    "objectID": "02-how.html#public-draw-or-private-draw",
+    "href": "02-how.html#public-draw-or-private-draw",
+    "title": "How",
+    "section": "Public draw or private draw?",
+    "text": "Public draw or private draw?\n\n\n\nPublic lottery\n\n\nA public draw, for example pulling names from a hat.\nAdvantage: transparent and fair.\nDisadvantage: the comparison group may change its behaviour once it knows the result.\n\n\n\n\nPrivate lottery\n\n\nA lottery run behind the scenes.\nAdvantage: avoids the comparison group reacting to a public result.\nDisadvantage: less visibly fair.\n\n\n\n\nIn practice, many World Bank-supported evaluations run the draw as a secure, documented, computerized procedure that can be re-checked afterwards."
+  },
+  {
+    "objectID": "02-how.html#narrowing-the-pool-a-lottery-around-a-cutoff",
+    "href": "02-how.html#narrowing-the-pool-a-lottery-around-a-cutoff",
+    "title": "How",
+    "section": "Narrowing the pool: a lottery around a cutoff",
+    "text": "Narrowing the pool: a lottery around a cutoff\nScore firms on eligibility criteria. Accept the top scorers outright, reject the bottom outright, and randomize only the firms in between.\nBest when: eligibility criteria are clear and the programme is oversubscribed, with limited resources.\n\n\n  Score\n\n  \n  Accept all\n  top scorers funded outright\n  100\n  60\n\n  \n  Randomize this band\n  85% treatment, 15% comparison\n  this band is the sample for study\n  45\n\n  \n  Reject all\n  below the eligibility bar\n\n  \n  \n  Only the middle band is randomized\n  The strongest and weakest applicants\n  are handled by the score, not the draw\n\n  Example: credit scoring in the Philippines\n\n\n\nKeep selection rules-based. Subjective rankings, even by judges or expert panels, have been shown to introduce hidden bias that a lottery or scored cutoff avoids."
+  },
+  {
+    "objectID": "02-how.html#why-a-lottery",
+    "href": "02-how.html#why-a-lottery",
+    "title": "How",
+    "section": "Why a lottery?",
+    "text": "Why a lottery?\n\n\nFair\nIn SMART Romania, every eligible firm had the same chance of receiving a grant. Selection could not be influenced by connections or favouritism.\n\n\nDefensible\nRules reduce bias. Across several studies, even expert judges struggle to predict which firms will succeed.\n\n\nEfficient\nOne online survey serves as application, eligibility check, and baseline data collection.\n\n\n\nCitations For the “defensible” card: Chen et al. (2022) on judicial favouritism in Kenya; Fafchamps and Woodruff (2017), Identifying gazelles, World Bank Economic Review 31(3); McKenzie and Sansone (2019), Predicting entrepreneurial success is hard, JDE 141. Decide whether these belong on the page or in a references section.\n\nPolicy question›Eligibility›Lottery›Program›Follow-up›Impact"
+  },
+  {
+    "objectID": "02-how.html#what-happens-after-the-lottery",
+    "href": "02-how.html#what-happens-after-the-lottery",
+    "title": "How",
+    "section": "What happens after the lottery?",
+    "text": "What happens after the lottery?\nThe evaluation now steps back and lets the programme do its work.\n\n\n\nTreatment firms\n\n\nReceive the digitalization grants and put them to work: equipment, software, services.\n\n\n\n\nComparison firms\n\n\nContinue business as usual, without a grant.\n\n\n\n\nSame markets, same conditions, same surveys. The only difference between SMART Romania’s groups is the grant.\n\nPolicy question›Eligibility›Lottery›Program›Follow-up›Impact"
+  },
+  {
+    "objectID": "02-how.html#measuring-the-programmes-impact",
+    "href": "02-how.html#measuring-the-programmes-impact",
+    "title": "How",
+    "section": "Measuring the programme’s impact",
+    "text": "Measuring the programme’s impact\nWhile the programme runs, identical surveys continue for treatment and comparison firms alike: same questions, same timing.\n\n\nDigital adoption\nMeasured with the DESI framework.\n\n\nRevenue\nTurnover and growth over the period.\n\n\nEmployment\nHeadcount and job creation.\n\n\nProductivity\nOutput relative to inputs.\n\n\n\nDifferences between SMART Romania’s firms can now be traced to one cause: the programme.\n\nPolicy question›Eligibility›Lottery›Program›Follow-up›Impact"
+  },
+  {
+    "objectID": "02-how.html#why-randomize",
+    "href": "02-how.html#why-randomize",
+    "title": "How",
+    "section": "Why randomize?",
+    "text": "Why randomize?\nNow that both groups have been followed over time, the final question is how to attribute any differences to the programme.\n\n“What would have happened without the programme?” Randomization makes it possible to answer this question.\n\n\n\n\nFirms drawn in the lottery\n\n\nReceived digitalization grants.\n\n\n\n\nFirms not drawn\n\n\nNo grants; surveyed identically.\n\n\n\nBecause the lottery created two comparable groups, the difference between them is the true impact of the programme."
+  },
+  {
+    "objectID": "02-how.html#five-practical-ways-to-randomize-your-programme",
+    "href": "02-how.html#five-practical-ways-to-randomize-your-programme",
+    "title": "How",
+    "section": "Five practical ways to randomize your programme",
+    "text": "Five practical ways to randomize your programme\nSMART Romania used one approach: the lottery. Many programmes need a different design.\n\n  \n    Lottery\n    How: randomly select who gets the programme, by public or private lottery.\n    Best when: eligibility is clear and the programme is oversubscribed.\n  \n  \n    Multiple treatment arms\n    How: randomly assign different versions of the programme, with or without a control group.\n    Best when: you want to know which design works best, not just whether it works.\n  \n  \n    Randomized phase-in\n    How: everyone gets the programme eventually, in a random order. Those still waiting are the comparison group.\n    Best when: budget or capacity cannot cover everyone at once.\n  \n  \n    Randomized intensities\n    How: vary how much of the programme a firm gets, for example 100%, 50%, or 0% of eligible employees.\n    Best when: spillovers within or between firms are a concern.\n  \n  \n    Encouragement design\n    How: randomize who gets extra outreach to take up the programme, since it cannot be denied to anyone.\n    Best when: take-up is voluntary and the programme itself cannot be withheld.\n  \n\nSMART Romania✓ Used a lottery (design 1)✓ Oversubscribed programme✓ 1,038 eligible firms\n\nMultiple treatment arms\nRandomly assign firms to different versions of the programme, plus a comparison group.\nBest when: you want to know which version works best, not just whether the programme works. Trade-off: the sample is split across more groups, so you need more firms.\n\n\n  \n  Outcome\n\n  \n  2.0\n  Comparison\n  group\n\n  \n  3.1\n  Version 1\n\n  \n  3.6\n  Version 2\n\n  \n  4.5\n  Version 3\n\nIllustrative figures. Comparing outcomes across arms shows which version of a programme performs best.\n\nSMART Romania✓ One treatment group versus one comparison group\n\n\nRandomized phase-in\nEveryone receives the programme eventually, in a random order. Firms still waiting form the comparison group.\nBest when: budget or capacity cannot cover everyone at once. Trade-off: long-term impacts cannot be observed.\n\n\n  Wave 1\n  \n\n  Wave 2\n  \n  \n\n  Wave 3\n  \n  \n\n  \n  Time\n\n  \n  Treated\n  \n  Waiting, acts as comparison\n\n\nSMART Romania✓ Not used: a one-time lottery with a lasting comparison group\n\n\nRandomized intensities\nRandomly vary how much of the programme each firm gets, for example 100%, 50%, or none of eligible employees.\nBest when: spillovers are likely, for example information spreading between treated and untreated employees. Trade-off: detecting effects at each level needs a bigger sample.\n\n\n  \n  \n  100%\n  Firm A\n\n  \n  50%\n  Firm B\n\n  \n  0%\n  Firm C\n\n  Share of eligible employees within each firm who receive the programme\n\n\nSMART Romania✓ Not used: one level of support was compared with none\n\n\nEncouragement design\nLow take-up is common even for free programmes. Randomize who gets extra encouragement, then compare the whole encouraged group with the whole not-encouraged group.\n\nCompliance is never perfect. Some encouraged firms never take the programme up, and some others do anyway. Compare the full groups regardless.\n\nSMART Romania✓ Not needed: the grants were oversubscribed, so a lottery was possible"
+  },
+  {
+    "objectID": "02-how.html#case-studies",
+    "href": "02-how.html#case-studies",
+    "title": "How",
+    "section": "Case studies",
+    "text": "Case studies\nOne standardised card per project, each showing sample size, outcomes measured, RCT design, effect sizes, and a link through to the full case study or report.\n\nHave material Five wanted poster slides already built: SMART Romania, Extremadura, two Czechia programmes, Croatia and Scinergy. The deck can be lifted straight onto this page."
+  },
+  {
+    "objectID": "02-how.html#the-whole-thing-end-to-end",
+    "href": "02-how.html#the-whole-thing-end-to-end",
+    "title": "How",
+    "section": "The whole thing, end to end",
+    "text": "The whole thing, end to end\n\n\n  \n  BEFORE LAUNCH\n  PROGRAMME PERIOD\n\n  \n  Time\n\n  \n  Outreach and\n  application\n  one survey, three jobs\n\n  \n\n  \n  Eligibility\n  screening\n  1,038 firms qualify\n\n  \n\n  \n  LOTTERY\n  same chance\n  for everyone\n\n  \n  \n\n  \n  Treatment group\n  receives digitalization grants\n\n  \n  \n  Identical follow-up surveys\n\n  \n  Digital adoption · Revenue\n  Employment · Productivity\n\n  \n  \n  Identical follow-up surveys\n\n  \n  Comparison group\n  business as usual, no grant\n\n  \n  IMPACT\n\nThe whole design in one view. Everything left of the lottery has to be settled before launch; everything right of it is measurement. The gap between the two tracks at the end is the impact."
   },
   {
     "objectID": "08.06-bank_survey_techadop.html",
