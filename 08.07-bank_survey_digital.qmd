@@ -6,7 +6,7 @@ title: "Topic: Digitalization"
 
 ---
 
-**8.1 Which of the following digital technologies does your company currently use?**
+**Which of the following digital technologies does your company currently use?**
 *(Select all that apply)*
 - Cloud computing services (e.g. data storage, software as a service)
 - Big data analytics
@@ -18,81 +18,67 @@ title: "Topic: Digitalization"
 - Augmented or virtual reality (AR/VR)
 - None of the above
 
-*Source: Flash Eurobarometer / CIS digital module. Use at: Baseline and endline.*
 
----
-
-**8.2 What share of your company's total sales were made online (via website, app, or digital platform) in the last financial year?**
+**What share of your company's total sales were made online (via website, app, or digital platform) in the last financial year?**
 - None
 - Less than 10%
 - 10–24%
 - 25–49%
 - 50% or more
 
-*Source: Flash Eurobarometer. Use at: Baseline and endline.*
+**Which software technologies is the business currently using?**
 
----
+**Which digital marketing tools is the business currently using?**
 
-**8.3 Does your company have its own website?**
-- Yes, with basic information only
-- Yes, including e-commerce functionality
-- No
+**Which is your main marketing channel to promote your products or services and reach customers?**
 
-*Source: Flash Eurobarometer. Use at: Baseline and endline.*
+What is the Facebook link?
+What is the Instagram link?
+What is the Youtube link?
+What is the Twitter link?
+What is the TikTok link?
+What is the business website link?
+What is the online shop link?
 
----
+**Which digitized e-Payments tools is the business currently using?**
 
-**8.4 Does your company use social media or digital platforms for business purposes?**
-*(Select all that apply)*
-- Marketing and customer communication
-- Sales (e.g. marketplace platforms)
-- Recruitment
-- Supplier or partner engagement
-- We do not use social media or digital platforms for business
+**Which digital record management tools is the business currently using?**
 
-*Source: Flash Eurobarometer. Use at: Baseline and endline.*
+**Which digitized e-Government tools (online platforms that electronically provide government services and information to citizens) is the business currently using?
 
----
+**Which financial data management tools is the business using? These tools are related to obtaining, storing and reviewing the business financial data.**
 
-**8.5 How would you rate the overall level of digitalisation of your company's internal processes?**
-- Not digitalised (paper-based processes)
-- Slightly digitalised (some processes are digital)
-- Moderately digitalised (many processes are digital)
-- Highly digitalised (most processes are digital)
-- Fully digitalised
+**Which human resources mangement tools is the business using? These tools are related to streamlining communication and company-employee relations.**
 
-*Source: Flash Eurobarometer. Use at: Baseline and endline.*
+**Which customer relationship management tools is the business using? These tools are related to obtaining the order history for each customer, collaboration with customers is done using a digital system.**
 
----
+**Which resources management tools is the business using? These tools are related to the access of data about asset management (raw materials, inventory, financial resources, etc.)  from current digital systems.**
 
-**8.6 Did your company invest in digital technologies or software in the last financial year?**
+**Which communication and customer relations tools is the business using? These tools are related to the access of online data based on keywords entered into search engines.**
+
+**Which processess digitalization tools is the business using? These tools are related to the digitalization of the processes within the business.**
+
+**Which security policy tools is the business using? These tools are related to the ability to quickly recover access to data in the event of its loss.**
+
+**Which production digitalization tools is the business using? These tools are related to the automation/informatization/digitalization of the business production (does not apply to non-manufacturing applicants).**
+
+**Please select the MOST important business tool in which the business should invest.**
+
+**In a scale from 1 to 10, where 10 means that the establishment is using the most advanced production processes available in its sector, where do you think this establishment stands with respect to other firms in Romania?**
+
+**In a scale from 1 to 10, where 10 means that the establishment is using the most advanced production processes available in its sector, where do you think this establishment stands with respect to most advanced firms in the world?**
+
+**Did your company invest in digital technologies or software in the last financial year?**
 - Yes
 - No
 
 *If yes: What was the approximate total investment? (Open numeric field, in €)*
 
-*Source: Flash Eurobarometer / WBES. Use at: Baseline and endline.*
 
----
 
-**8.7 What are the main barriers preventing your company from further digitalising?**
-*(Select all that apply)*
-- Lack of financial resources
-- Lack of staff with digital skills
-- Lack of awareness of available technologies or support
-- Concerns about cybersecurity or data privacy
-- Uncertain return on investment
-- Insufficient digital infrastructure (e.g. broadband connectivity)
-- Difficulty integrating digital tools with existing systems
-- No barriers — we are digitalised to the level we need
-
-*Source: Flash Eurobarometer. Use at: Baseline.*
-
----
 
 **8.8 Did your company provide digital skills training to employees in the last financial year?**
 - Yes, to most or all employees
 - Yes, to some employees
 - No
 
-*Source: Flash Eurobarometer / WBES. Use at: Baseline and endline.*
