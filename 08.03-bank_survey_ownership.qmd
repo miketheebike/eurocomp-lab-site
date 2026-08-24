@@ -5,8 +5,8 @@ title: "Topic 3: Company Structure and Ownership"
 *Use at baseline. Captures governance, group membership, and ownership structure — important covariates for heterogeneity analysis.*
 
 **Is your company part of a larger enterprise group?**
-1. Yes
-0. No
+- Yes
+- No
 
 **If yes, what is your company's role within the group?**
 - Head office / parent company
@@ -28,18 +28,15 @@ title: "Topic 3: Company Structure and Ownership"
 - Majority foreign-owned
 - Other (please specify)
 
-
 **What share of your company's equity is owned by foreign investors?**
 - None (0%)
 - Less than 10%
 - 10–49%
 - 50% or more (majority foreign-owned)
 
-
 **Does your company have a formal board of directors or supervisory board?**
 - Yes
 - No
-
 
 **How many sites or locations does your company operate from?**
 - One location only
