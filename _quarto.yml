@@ -24,6 +24,10 @@ website:
         text: Templates
       - href: 07-examples.qmd
         text: Examples
+      - href: 08-bank_survey.qmd
+        text: Bank of Survey Question
+      - href: 09-bank_outcomes.qmd
+        text: Bank of Outcomes
   page-footer:
     center: "Draft site. Structure and content still under review by the team."
 
