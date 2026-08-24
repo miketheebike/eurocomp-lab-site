@@ -149,3 +149,6 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 - R&D tax credit or tax incentive
 - Subsidised loan for R&D
 - None
+
+**If yes: How much?**
+*(Open numeric field, in [currency])*
