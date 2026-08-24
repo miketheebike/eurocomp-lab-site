@@ -30,9 +30,10 @@ Questions are drawn from validated instruments including the **Community Innovat
 - Topic 8 - Innovation: [Link to survey questions](08.08-bank_survey_innov.qmd)
 - Topic 9 - Intellectual Property Rights: [Link to survey questions](08.09-bank_survey_ipr.qmd)
 - Topic 10 - Research & Development: [Link to survey questions](08.10-bank_survey_r&d.qmd)
+- Topic 11 - Technology Readiness Level: 
 
 ::: {.soft-panel}
-TO BE ADDED BY JAKOB: TRL assessment, Big five traits for CEO?
+TO BE ADDED BY JAKOB: Big five traits for CEO?
 :::
 
 
