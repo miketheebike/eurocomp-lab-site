@@ -1,5 +1,6 @@
 ---
 title: "Topic: R&D Activity"
+---
 
 *R&D outcomes are relevant for evaluations of R&D grants, Horizon Europe co-financing, and tax incentives. The key evaluation question is often additionality: does public support increase R&D spending, or does it substitute for private investment?*
 

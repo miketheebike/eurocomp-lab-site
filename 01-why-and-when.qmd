@@ -808,5 +808,5 @@ suppliers, so the comparison group partly benefits too, understating the true ef
 ::: {.team-note}
 **Open question**
 Flagged in the outline as possibly belonging elsewhere. Candidate homes:
-[How](02-how.qmd), or [Data Collection](05-data-collection.qmd) alongside monitoring.
+[How](02-how.qmd), or [Data Collection](05-data.qmd) alongside monitoring.
 :::

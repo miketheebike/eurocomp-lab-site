@@ -1,5 +1,6 @@
 ---
 title: "Topic: Innovation Outputs"
+---
 
 *Innovation outcomes are central to evaluations of R&D grants, technology support, and competitiveness programmes. Distinguish carefully between inputs (R&D spending) and outputs (patents, new products).*
 

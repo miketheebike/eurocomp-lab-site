@@ -14,7 +14,7 @@ This outcomes bank is organised by topic and maps directly onto the topics cover
 
 ---
 
-- Topic 1 - Firm Performance and Growth: [Link to outcomes](09.01-bank_survey_company.qmd)
+- Topic 1 - Firm Performance and Growth: [Link to outcomes](09.01-bank_outcomes_performance.qmd)
 - Topic 2 - Innovation Outputs: [Link to outcomes](09.02-bank_survey_innov.qmd)
 - Topic 3 - R&D Activity: [Link to outcomes](09.03-bank_survey_r&d.qmd)
 - Topic 4 - Technology Adoption: [Link to outcomes](09.04-bank_survey_techadop.qmd)

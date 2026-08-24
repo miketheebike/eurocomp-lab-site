@@ -1,5 +1,6 @@
 ---
 title "Topic: Technology Adoption"
+---
 
 *Technology adoption outcomes are particularly relevant for evaluations of digitalisation support, technology transfer programmes, and investment subsidies.*
 
