@@ -2,32 +2,29 @@
 title: "Topic: Employment and Human Capital"
 ---
 
-*Employment outcomes are particularly relevant for evaluations co-financed by the European Social Fund (ESF+) and for instruments targeting skills, training, or labour market integration.*
 
----
-
-**10.1 Employment growth**
+**Employment growth**
 - **Definition:** Net change in the number of people employed by the firm
 - **Metric:** % change in FTE employment from baseline to endline; log of employment
-- **Data source:** Administrative (social security records) or primary survey
+- **Data source:** Administrative or primary survey
 
 ---
 
-**10.2 High-skilled employment**
+**High-skilled employment**
 - **Definition:** Whether the firm increased the share of high-skilled or knowledge-intensive workers
 - **Metric:** Share of employees with tertiary education (%); share of STEM employees (%); number of researchers hired
 - **Data source:** Administrative (linked employer-employee data) or primary survey
 
 ---
 
-**10.3 Training provision**
+**Training provision**
 - **Definition:** Whether the firm provided formal training to employees as a result of the intervention
 - **Metric:** Binary indicator; number of employees trained; training hours per employee; training expenditure (€)
 - **Data source:** Primary survey or administrative (training fund records)
 
 ---
 
-**10.4 Wage growth**
+**Wage growth**
 - **Definition:** Whether the intervention led to higher wages, reflecting improved worker productivity or firm profitability
 - **Metric:** % change in average gross wage per employee from baseline to endline
 - **Data source:** Administrative (social security or tax records)
