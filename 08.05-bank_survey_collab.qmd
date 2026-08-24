@@ -4,12 +4,13 @@ title: "Topic: Collaboration"
 
 *Use at baseline and endline. Captures knowledge flows and partnerships — a key mechanism for innovation support instruments.*
 
-**6.1 During the last three years, did your company cooperate with any other enterprises or organisations on innovation, technology, or business development activities?**
+**During the last three years, did your company cooperate with any other enterprises or organisations on innovation, technology, or business development activities?**
+
 - Yes
 - No
 
 
-**6.2 What types of partners did your company cooperate with?**
+**What types of partners did your company cooperate with?**
 *(Select all that apply)*
 - Other enterprises within your group
 - Suppliers of equipment, materials, or software
