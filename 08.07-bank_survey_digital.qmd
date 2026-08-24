@@ -27,56 +27,183 @@ title: "Topic: Digitalization"
 - 25–49%
 - 50% or more
 
+**Which of the following technological practices apply to the business?**
+- More than 50% of employed people use computers with Internet access in their professional activity
+- Call on services provided by ICT specialists (as own employees or outsourced services)
+- Internet connection with guaranteed download speed of at least 30 Mbps
+- More than 20% of employed people use mobile devices with internet connection
+- Own a website or a web page
+- It has a website with complex functions
+- Use a social media network
+- Pay for internet advertising
+- It uses CC (Cloud Computing) services of high or at least medium complexity,
+- Issue electronic invoices that allow automatic processing
+- Sales from e-Commerce activity exceed 1% of total turnover
+- Business-to-consumer (B2C) web sales exceed 10% of total online sales
+- None of the above
+
+**Which hardware technologies is the business currently using?**
+- Desktop computers
+  - How many?
+- Laptops
+  - How many?
+- Smartphones
+  - How many?
+- Tablets
+  - How many?
+- Electronic point of sale
+- Others
+- None
+
 **Which software technologies is the business currently using?**
+- Office software such as Microsof Office, Microsof Office for Mac or Google Workspace (or G Suite)
+- Customer Relationship Management (CRM) software such as Salesforce or HubSpot CRM.
+- Enterprise Resource Planning (ERP) software such as SAP or Sage.
+- Social media management such as Hootsuite or Buffer.
+- Communication software such as Slack or Microsoft Teams.
+- Others
 
 **Which digital marketing tools is the business currently using?**
+- Facebook
+  - What is the Facebook link?
+- Instagram
+  - What is the Instagram link?
+- Youtube
+  - What is the Youtube link?
+- Twitter
+  - What is the Twitter link?
+- TikTok
+  - What is the TikTok link?
+- Business website
+  - What is the business website link?
+- Functional online shop
+  - What is the online shop link?
+- Onlines sales via e-commerce platform
+- Whatsapp
+- Google My Business
+- Others
 
 **Which is your main marketing channel to promote your products or services and reach customers?**
-
-What is the Facebook link?
-What is the Instagram link?
-What is the Youtube link?
-What is the Twitter link?
-What is the TikTok link?
-What is the business website link?
-What is the online shop link?
+- Facebook
+- Instagram
+- Youtube
+- Twitter
+- TikTok
+- Business website
+- Functional online shop
+- Onlines sales via e-commerce platform
+- Whatsapp
+- Google My Business
+- Others
 
 **Which digitized e-Payments tools is the business currently using?**
+- PayU
+- MobilPay
+- Others
+- None
 
 **Which digital record management tools is the business currently using?**
+- SAP
+- Sage
+- Microsoft Excel
+- Others
+- None
 
 **Which digitized e-Government tools (online platforms that electronically provide government services and information to citizens) is the business currently using?
+- E-Government tools for business name
+- E-Government tools for business registration
+- E-Government tools for payment of licenses
+- E-Government tools for land registration
+- Others
+- None
 
 **Which financial data management tools is the business using? These tools are related to obtaining, storing and reviewing the business financial data.**
+- The business accounting is kept using appropriate software
+- Invoices and other primary accounting documents are issued and received electronically
+- Accounting functions are performed using a computer application (processing invoices and payments, generating reports, performing audits, completing/submitting tax forms, etc.)
+- Obtain information regarding billing, invoice confirmation, payment status
+- Others
+- None
 
 **Which human resources mangement tools is the business using? These tools are related to streamlining communication and company-employee relations.**
+- Salary calculation using appropriate software
+- Management of holidays and days off using software connected to the financial accounting system
+- Online tools that facilitate remote working
+- Assigning tasks and tracking their fulfillment remotely using a computer system
+- Track personal development/training and assess well-being and workplace atmosphere using a digital platform
+- Others
+- None
 
 **Which customer relationship management tools is the business using? These tools are related to obtaining the order history for each customer, collaboration with customers is done using a digital system.**
+- Identification/selection of customers according to specific parameters in the database
+- Automatic updating of customer data (name, address, etc.) in the IT system
+- Online purchase of the applicant's products/services
+- Estimating sales volumes, analyzing buying habits, organizing discount campaigns, using customer data history analysis software
+- Customers have online access to transaction status/history
+- Others
+- None
 
 **Which resources management tools is the business using? These tools are related to the access of data about asset management (raw materials, inventory, financial resources, etc.)  from current digital systems.**
+- The inventory of fixed assets is carried out through the scanning function with digital devices
+- Automating/scheduling orders to prevent resource exhaustion or overstocking in advance using a software application
+- Automatic calculation of transport and logistics costs (maintenance, fuel costs, routes, hours)
+- Automatic calculation of the costs of goods/services
+- Others
+- None
 
 **Which communication and customer relations tools is the business using? These tools are related to the access of online data based on keywords entered into search engines.**
+- Defined keywords found in Internet search engines; web pages of the applicant adapted for this purpose
+- Digital system for tracking customer interaction
+- Online customer support system
+- The number of customers attracted through the online environment
+- Availability of information online for potential customers
+- Others
+- None
 
 **Which processess digitalization tools is the business using? These tools are related to the digitalization of the processes within the business.**
+- Digital approval/signature (using e.g. electronic signature) of documents, contracts, etc.
+- Easy interconnection and exploitation of the various digital solutions implemented
+- Assessment and monitoring of supplier/customer risks through IT systems
+- Management of joint projects of employees from different departments using IT applications
+- Others
+- None
 
 **Which security policy tools is the business using? These tools are related to the ability to quickly recover access to data in the event of its loss.**
+- Identifying and analyzing potential threats regarding data alteration or loss; prevention, detection, response and recovery measures
+- Systematic training and education of employees regarding data security and IT security
+- Measures against security breaches in telecommuting conditions
+- Securing communications in the process of transmitting/storing commercial documents/data
+- Others
+- None
 
 **Which production digitalization tools is the business using? These tools are related to the automation/informatization/digitalization of the business production (does not apply to non-manufacturing applicants).**
+- The production process includes measurement sensors that transmit data to servers in order to optimize production
+- Real-time tracking of production processes by managers using computer systems
+- Using RFI (Radio Frequency Identification) or other similar digital functionality to track parts and subassemblies or finished products in the manufacturing process
+- Collaborative robots ( cobots ) in manufacturing
+- Using systems that use virtual reality/augmented reality to train production/maintenance personnel or in other applications
+- Others
 
 **Please select the MOST important business tool in which the business should invest.**
+- Digital tools and technologies
+- Marketing and customer relationship tools
+- e-Payments tools
+- Record and financial management tools
+- Human resources managament tools
+- Production digitization tools
+- Other
 
 **In a scale from 1 to 10, where 10 means that the establishment is using the most advanced production processes available in its sector, where do you think this establishment stands with respect to other firms in Romania?**
 
 **In a scale from 1 to 10, where 10 means that the establishment is using the most advanced production processes available in its sector, where do you think this establishment stands with respect to most advanced firms in the world?**
 
 **Did your company invest in digital technologies or software in the last financial year?**
-
 - Yes
 - No
 
-*If yes: What was the approximate total investment? (Open numeric field, in €)*
+**If yes: What was the approximate total investment? (Open numeric field, in [currency])**
 
-### 8.8 Did your company provide digital skills training to employees in the last financial year?
+**Did your company provide digital skills training to employees in the last financial year?**
 
 - Yes, to most or all employees
 - Yes, to some employees
