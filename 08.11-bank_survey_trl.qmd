@@ -1,0 +1,27 @@
+---
+title: "Topic: Technology Readiness Level"
+---
+
+*Use at baseline and endline. TRLs are the standard scale used by the European Commission — including in Horizon Europe and ERDF-funded R&D programmes — to assess the maturity of a technology or innovation. Measuring TRL at baseline and endline captures whether the intervention has helped firms advance their technologies along the development path from concept to market.*
+
+
+**What is the current Technology Readiness Level (TRL) of your firm's main technology or product under development?**
+
+*Please select the description that best matches the current state of your technology:*
+
+- **TRL 1 — Basic principles observed:** Scientific research has begun; basic properties of the technology have been observed and reported
+- **TRL 2 — Technology concept formulated:** Application of the technology has been conceived; no experimental proof yet
+- **TRL 3 — Experimental proof of concept:** Active research and development has begun; first laboratory studies completed
+- **TRL 4 — Technology validated in laboratory:** The technology has been validated in a laboratory environment
+- **TRL 5 — Technology validated in relevant environment:** The technology has been validated in an environment relevant to its intended application (e.g. industrial simulation)
+- **TRL 6 — Technology demonstrated in relevant environment:** A prototype or pilot system has been demonstrated in a relevant environment
+- **TRL 7 — System prototype demonstration in operational environment:** The prototype is close to the planned operational system and has been demonstrated in an operational environment
+- **TRL 8 — System complete and qualified:** The technology has been proven to work in its final form and under expected conditions
+- **TRL 9 — Actual system proven in operational environment:** The technology is fully mature and has been proven in its final form through successful operation
+
+
+**What is the target TRL your firm aims to reach for this technology within the next [two / three] years?**
+*(Select from the same TRL 1–9 scale above)*
+
+
+> **A note on TRL for Managing Authorities:** The TRL scale was originally developed by NASA and adapted by the European Commission for use across all Horizon Europe and ERDF R&D instruments. TRL 1–3 corresponds to basic and applied research; TRL 4–6 to technology development and validation; TRL 7–9 to demonstration and market deployment. Many EU grant schemes specify a minimum entry TRL (e.g. TRL 4 or above) and a target exit TRL, making TRL advancement a natural primary outcome for R&D support evaluations. Self-reported TRL should ideally be validated against objective evidence (e.g. prototype documentation, test reports) where possible.
