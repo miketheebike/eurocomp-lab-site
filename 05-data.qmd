@@ -54,10 +54,15 @@ In practice, methods can be combined. A common approach is to begin with a web s
 
 Before writing a single question, Managing Authorities and their evaluation teams should review existing, validated survey instruments. Using questions that have already been tested and used in comparable evaluations saves time, improves data quality, and — critically — makes findings comparable with evidence from other programs and regions. Relevant reference sources include:
 
-- The **Community Innovation Survey (CIS)**, which provides the standard EU framework for measuring innovation activity in firms and is used across all member states
-- The **World Bank Enterprise Surveys**, which cover a wide range of firm-level outcomes including investment, productivity, and the business environment
+- The **[Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey)**, which provides the standard EU framework for measuring innovation activity in firms and is used across all member states
+- The **[Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat)**, a World Bank instrument covering how firms adopt, use, and benefit from technologies across sectors
+- The **[World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys)**, which cover a wide range of firm-level outcomes including investment, productivity, and the business environment
+- The **[World Management Survey (WMS)](https://worldmanagementsurvey.org/)**, which measures the quality of management practices across firms and countries and has been shown to be a strong predictor of firm productivity and innovation
+- The **[Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442)**, which tracks digital technology adoption, online sales, and digital skills across EU member states
+- The **[ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)**, which monitors financing conditions and constraints for SMEs across the euro area
 - The **OECD Oslo Manual**, which defines innovation concepts and measurement approaches in a way that is consistent across countries
-- Survey instruments used in published evaluations of comparable ERDF or ESF+ programmes in other regions or member states
+- Survey instruments used in published evaluations of comparable ERDF or ESF+ programs in other regions or member states
+
 
 
 ---
