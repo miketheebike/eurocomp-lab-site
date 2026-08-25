@@ -30,9 +30,9 @@ If your program already has a well-developed intervention logic in its program d
 
 A ToC follows a causal chain from resources invested to long-term change achieved, with assumptions sitting at every junction:
 
-**Inputs** are the resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, and training program. For a Regional Operational Programme, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
+**Inputs** are the resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, and training program. For ERDF programs, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
 
-**Activities** are the concrete actions undertaken to deliver the program — running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the programme actually *does*.
+**Activities** are the concrete actions undertaken to deliver the program — running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the program actually *does*.
 
 **Outputs** are the direct, countable results of those activities — the number of firms supported, grants awarded, training hours delivered, or innovation projects launched. Outputs are what the program *produces*. For ERDF programs, these correspond closely to the **common output indicators** (COIs) that Managing Authorities are already required to report to the European Commission.
 
@@ -155,5 +155,5 @@ Once the data strategy is set, detailed planning for each data collection activi
 
 **When to collect** must align with the evaluation timeline. Baseline data must be collected before the intervention begins. Endline data should be timed to when effects can realistically be expected to have materialised — too early, and real impacts may not yet be visible. Intermediate rounds may be needed to track progress along the Theory of Change.
 
-For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: [**Data Collection: Surveys**].
+For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: **[Data Collection: Surveys](05-data.qmd)**.
 ---
