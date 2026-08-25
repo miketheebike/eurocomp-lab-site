@@ -26,11 +26,11 @@ For programs evaluating competitiveness and innovation outcomes — such as chan
 
 ## Paper vs. Electronic Surveys
 
-Surveys can be conducted on paper or in electronic form. While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for programme evaluations today and should be the default choice for Managing Authorities.
+Surveys can be conducted on paper or in electronic form. While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for program evaluations today and should be the default choice for Managing Authorities.
 
 Digital surveys offer substantial practical advantages. They allow for built-in data validation — mandatory fields, range checks, and logical skip patterns — which means that errors and inconsistencies are caught at the point of entry rather than discovered during analysis. They eliminate the transcription step entirely: responses flow directly into a dataset, ready for processing. They are faster to deploy, easier to monitor in real time, and considerably simpler to adapt if pilot testing reveals problems with specific questions.
 
-For Managing Authorities working within tight programme timelines and reporting deadlines — particularly in the run-up to Annual Performance Reviews — the efficiency gains from digital collection are significant.
+For Managing Authorities working within tight program timelines and reporting deadlines, the efficiency gains from digital collection are significant.
 
 ---
 
@@ -38,11 +38,11 @@ For Managing Authorities working within tight programme timelines and reporting 
 
 There is no single best method for electronic data collection. The right choice depends on who the respondents are, what the questions require, and what budget is available. Three methods are in common use:
 
-**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone, guided by a digital questionnaire on their screen. CATI can reach a broad range of respondents relatively quickly and is well-suited to situations where response rates need to be actively managed — interviewers can follow up with non-respondents and clarify questions in real time. It is also a practical option when beneficiary contact details (phone numbers) are already held in programme management systems. The main limitations are cost, the need to recruit and train interviewers, and the constraint that surveys must be kept short enough to hold a respondent's attention on the phone.
+**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone, guided by a digital questionnaire on their screen. CATI can reach a broad range of respondents relatively quickly and is well-suited to situations where response rates need to be actively managed — interviewers can follow up with non-respondents and clarify questions in real time. It is also a practical option when beneficiary contact details (phone numbers) are already held in program management systems. The main limitations are cost, the need to recruit and train interviewers, and the constraint that surveys must be kept short enough to hold a respondent's attention on the phone.
 
 **Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with the support of a tablet or laptop loaded with survey software. The key advantage is the quality of responses: the personal interaction between interviewer and respondent tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances, employment decisions, or the perceived impact of public support. CAPI is also effective when the questionnaire is long or complex. The trade-offs are cost — travel and interviewer time make CAPI the most expensive method — and the risk that the interviewer's presence influences how respondents answer. This method is best reserved for situations where data quality is the overriding priority and the sample is relatively small and geographically concentrated.
 
-**Web surveys** are questionnaires sent to respondents via email or embedded in an online platform, inviting them to complete the survey at a time and pace that suits them. They are the least expensive method and can be deployed quickly to large samples. For programmes targeting SMEs, research organisations, or technology firms — populations that are generally comfortable with online tools — web surveys are often the most practical choice. The main risk is response bias: firms or individuals without reliable internet access, or those with less time available, may be less likely to respond, potentially skewing results. Response rates for unsolicited web surveys are also often low, so active follow-up is typically needed.
+**Web surveys** are questionnaires sent to respondents via email or embedded in an online platform, inviting them to complete the survey at a time and pace that suits them. They are the least expensive method and can be deployed quickly to large samples. For programs targeting SMEs, research organisations, or technology firms — populations that are generally comfortable with online tools — web surveys are often the most practical choice. The main risk is response bias: firms or individuals without reliable internet access, or those with less time available, may be less likely to respond, potentially skewing results. Response rates for unsolicited web surveys are also often low, so active follow-up is typically needed.
 
 In practice, methods can be combined. A common approach is to begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for specific subgroups where richer qualitative detail is needed.
 
@@ -52,7 +52,7 @@ In practice, methods can be combined. A common approach is to begin with a web s
 
 ### Start with What Already Exists
 
-Before writing a single question, Managing Authorities and their evaluation teams should review existing, validated survey instruments. Using questions that have already been tested and used in comparable evaluations saves time, improves data quality, and — critically — makes findings comparable with evidence from other programmes and regions. Relevant reference sources include:
+Before writing a single question, Managing Authorities and their evaluation teams should review existing, validated survey instruments. Using questions that have already been tested and used in comparable evaluations saves time, improves data quality, and — critically — makes findings comparable with evidence from other programs and regions. Relevant reference sources include:
 
 - The **Community Innovation Survey (CIS)**, which provides the standard EU framework for measuring innovation activity in firms and is used across all member states
 - The **World Bank Enterprise Surveys**, which cover a wide range of firm-level outcomes including investment, productivity, and the business environment
