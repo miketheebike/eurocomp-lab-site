@@ -2,19 +2,150 @@
 title: "Theory of Change and Measurement"
 ---
 
-[Placeholder page]{.placeholder}
+*The groundwork a Managing Authority needs before fieldwork can start.*
 
-The groundwork a Managing Authority needs before fieldwork can start.
+---
 
 ## Overview
 
-This page outlines a structured approach to developing requirements for evaluating interventions, organized in three steps:
+Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about three things: what the program is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. This page walks through those three steps in sequence.
 
-1. **Step 1:** Define a Theory of Change (ToC) for your Impact Evaluation
+1. **Step 1:** Define a Theory of Change for your evaluation
 2. **Step 2:** Build relevant indicators
-3. **Step 3:** Select appropriate data
+3. **Step 3:** Choose your data strategy
 
 ---
+
+## Step 1: Define a Theory of Change
+
+### What is a Theory of Change — and how does it relate to your intervention logic?
+
+Managing Authorities preparing ERDF or ESF+ programmes are already required to articulate an **intervention logic** — a structured account of how a policy instrument is expected to produce its intended results. A Theory of Change (ToC) builds on this familiar concept and makes it more explicit and evaluation-ready.
+
+Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the **assumptions** that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information an impact evaluation is designed to test.
+
+If your program already has a well-developed intervention logic in its program document or partnership agreement, you have a strong starting point. The task of building a ToC is largely one of making that logic more precise — defining each step clearly enough that it can be measured.
+
+### Components of a Theory of Change
+
+A ToC follows a causal chain from resources invested to long-term change achieved, with assumptions sitting at every junction:
+
+**Inputs** are the resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, and training program. For a Regional Operational Programme, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
+
+**Activities** are the concrete actions undertaken to deliver the program — running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the programme actually *does*.
+
+**Outputs** are the direct, countable results of those activities — the number of firms supported, grants awarded, training hours delivered, or innovation projects launched. Outputs are what the program *produces*. For ERDF programs, these correspond closely to the **common output indicators** (COIs) that Managing Authorities are already required to report to the European Commission.
+
+**Short-term outcomes** are the immediate changes that occur as a direct result of the outputs — for example, a supported firm adopting a new technology, or a researcher filing a patent application. These changes typically occur within one to two years of support and are often related to shifts in knowledge, behaviour, or capacity among beneficiaries.
+
+**Medium-term outcomes** are the broader changes that emerge as short-term outcomes accumulate — for example, increases in firm-level productivity, growth in exports, or improvements in the regional innovation ecosystem. These correspond closely to the **common result indicators** (CRIs) that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the programme and the result.
+
+**Goals** are the long-term aspirations of the policy — for a competitiveness programme, this might mean a more innovative regional economy, higher wages, or greater resilience to economic shocks. Goals typically require years to materialise and reflect the broader objectives of the Smart Specialisation Strategy or the national reform agenda.
+
+**Assumptions** are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the programme may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.
+
+### Why Invest Time in Developing a ToC?
+
+Developing a Theory of Change is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively — by starting from the desired final outcomes and working backwards through the chain of events needed to get there — and this process is particularly useful in a programme partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable programmes in other regions or member states, to support each step in the logic?
+
+Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better — findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.
+
+### Defining Evaluation Questions
+
+Defining clear evaluation questions is the starting point of any rigorous impact evaluation, and they should follow directly from the Theory of Change. A well-formulated evaluation question specifies what the intervention is, who it targets, what outcome is expected to change, and over what time horizon. For a Managing Authority running a grant scheme for SME innovation under RSO1.3, an example primary question might be: *Does receiving an innovation grant increase the likelihood that a supported SME introduces a new product or process within three years?* Secondary questions might then probe whether effects differ by firm size or sector, or whether the grant primarily supports firms that would not have innovated without public support.
+
+Evaluation questions should be realistic: they must be answerable with the data and methods available, and scoped to what the evaluation can credibly attribute to the programme rather than to external factors such as macroeconomic trends or parallel national schemes. Setting these questions before the programme launches — ideally before the first call for applications — is essential, because many of the data collection decisions that follow depend on them.
+
+---
+
+## Step 2: Build Relevant Indicators
+
+### From Theory of Change to Indicators
+
+Once the Theory of Change is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.
+
+For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an impact evaluation. Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what *changed* as a result, and to do so in a way that allows for comparison with a counterfactual (i.e., what would have happened without the programme).
+
+Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the Theory of Change.
+
+### Well-Defined Indicators
+
+Good indicators share five characteristics, often summarised as SMART:
+
+| Criterion | Description |
+|-----------|-------------|
+| **Specific** | The indicator measures exactly the construct it is supposed to measure — not a proxy that is merely convenient |
+| **Measurable** | The information can be reliably obtained, ideally in a numerical form that allows for comparison over time and across groups |
+| **Attributable** | The indicator is sensitive to the programme's efforts and not so heavily influenced by external factors that changes cannot be attributed to the intervention |
+| **Realistic** | The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline |
+| **Targeted** | The indicator reflects outcomes for the specific population the programme is designed to serve |
+
+For competitiveness programmes targeting SMEs and innovation, relevant outcome indicators might include: share of supported firms that introduced a product or process innovation (CIS-compatible); growth in turnover, employment, or labour productivity among beneficiaries; R&D expenditure as a share of turnover; patent applications; and digital technology adoption rates. These map closely onto the TIDES framework — Trade, Investment, Digitalization, Efficiency, and Skills — which the World Bank has identified as the key drivers of productivity growth in Europe and Central Asia.
+
+### From Indicators to Data
+
+Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
+
+Once indicators are defined, each one requires a concrete data source. The next step answers — for every indicator — what needs to be collected, what type of data is appropriate, how it should be gathered, from whom, and when. Crucially, all of these decisions must be made before the programme launches and before randomisation begins. Data collected as an afterthought rarely has the properties needed for a credible evaluation.
+
+---
+
+## Step 3: Choose Your Data Strategy
+
+### The Fundamental Decision
+
+Before any fieldwork begins, the most consequential data decision is a strategic one: for each indicator in your evaluation framework, will you rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**?
+
+This is not primarily a technical question — it is a practical and resource question that the Managing Authority and its evaluation team must answer together, ideally before the programme is designed.
+
+**Primary data** is information collected directly from target respondents — firms, individuals, or organisations — through surveys or interviews conducted specifically for the evaluation. It gives you control over exactly what is measured, but it takes time and money to collect, and it places a burden on beneficiaries.
+
+**Secondary data** draws on records that already exist — national business registries, tax authority data, customs records, patent office databases, or the programme's own management information system. For Managing Authorities, this often includes the monitoring data already entered into national programme management systems and reported through SFC2021. Secondary data is generally cheaper and covers larger samples, but it may not include the specific outcome variables needed for an evaluation and often comes with reporting lags or access restrictions.
+
+In practice, the most robust evaluations combine both: secondary administrative data provides the baseline and ensures broad coverage, while primary survey data captures the outcomes and mechanisms that administrative records do not contain. Deciding early which data sources will fill which role in the evaluation is essential — and it shapes every subsequent design choice.
+
+#### Comparison of Primary vs. Secondary Data
+
+| Column_1 | Primary Data | Secondary Data (Administrative) |
+|---|---|---|
+| Reporting bias | Less subject to reporting bias | May be subject to reporting bias |
+| Sample size | Smaller | Larger |
+| Timeliness | Collected when needed | Often published with a delay |
+| Cost | More expensive | Cheaper |
+| Relevance | Tailored precisely to the outcome of interest | General purpose |
+| Pre-intervention history | Limited | History of pre-intervention data available |
+| Depth | Richer understanding of mechanisms | Less granular |
+| Long-term impacts | Harder to capture | Measuring longer-term impacts is possible |
+| Access | Generally straightforward | May require data-sharing agreements |
+| Privacy | Can be anonymised | Personal data may not be anonymised |
+
+### Assessing What You Already Have
+
+Before commissioning a new survey, Managing Authorities should take stock of the administrative data they already hold or can access. Programme management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.
+
+The key question is whether these sources contain — or can be linked to contain — the specific outcome variables in the evaluation framework. If a firm's VAT number or national registration number is collected at application stage, it may be possible to link programme records to tax or registry data using that identifier, enabling outcome measurement without any additional data collection burden on beneficiaries.
+
+### Planning Data Collection
+
+Once the data strategy is set, detailed planning for each data collection activity should address the following:
+
+**What to collect** should be driven strictly by the indicators in the Theory of Change. Data collected for its own sake — without a clear link to an evaluation question — adds cost and respondent burden without adding analytical value.
+
+**Who to collect from** should match the unit of analysis. For firm-level programmes, this typically means the firm itself, represented by a senior decision-maker who can speak reliably to strategic and financial outcomes. Where the programme targets a specific group within the firm — such as R&D staff or recently hired employees — those individuals may be the more appropriate respondents for certain questions.
+
+**When to collect** must align with the evaluation timeline. Baseline data must be collected before the intervention begins. Endline data should be timed to when effects can realistically be expected to have materialised — too early, and real impacts may not yet be visible. Intermediate rounds may be needed to track progress along the Theory of Change.
+
+For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: [**Data Collection: Surveys**].
+
+---
+
+## A Note on the Regulatory Context
+
+Under Article 44 of the Common Provisions Regulation (EU) 2021/1060, Managing Authorities are required to carry out evaluations to assess the effectiveness, efficiency, relevance, coherence, and EU added value of their programmes. This page, and the evaluation approach it describes, is designed to help Managing Authorities meet that obligation in a way that produces genuinely useful evidence — not just compliance documentation. A well-designed Theory of Change, a robust set of indicators, and a credible data strategy are the foundations on which any evaluation that can answer the "did it work, and why?" question must be built.
+
+---
+
+
 
 ## Step 1: Define a Theory of Change (ToC) for your IE
 
