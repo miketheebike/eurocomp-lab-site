@@ -59,6 +59,39 @@ Before writing a single question, Managing Authorities and their evaluation team
 - The **OECD Oslo Manual**, which defines innovation concepts and measurement approaches in a way that is consistent across countries
 - Survey instruments used in published evaluations of comparable ERDF or ESF+ programmes in other regions or member states
 
+
+---
+
+### Survey Question Bank
+
+To make this process as practical as possible, the EuroComp Lab has compiled a **Survey Question Bank** — a ready-to-use library of validated questions drawn from the Community Innovation Survey (CIS), the World Bank Firms Adoption of Technology (FAT) Survey, the World Bank Enterprise Surveys, the World Management Survey (WMS), and the Flash Eurobarometer on SME Digitalisation, among others.
+
+Questions are organised into thirteen topics:
+
+| Topic | Content |
+|---|---|
+| 1. Company details | Sector, size, turnover, location, year of establishment |
+| 2. Respondent contact details | Role, seniority, contact information |
+| 3. Company structure and ownership | Group membership, ownership type, governance |
+| 4. Financial performance | Turnover, value added, investment, export share |
+| 5. Management capacities | Strategic planning, performance monitoring, training |
+| 6. Collaboration | Partners, knowledge sources, network participation |
+| 7. Technology adoption | Technologies in use, adoption drivers and barriers |
+| 8. Digitalisation | Digital tools, online sales, digital skills, investment |
+| 9. Innovation | Product, process, organisational and marketing innovation |
+| 10. Intellectual property | Patents, trademarks, licensing, informal protection |
+| 11. Digital maturity | Strategy, processes, skills, cybersecurity |
+| 12. R&D | Engagement, expenditure, staffing, outputs |
+| 13. Technology Readiness Level | TRL self-assessment, barriers to advancement, support received |
+
+For each question the bank provides the question text ready to copy-paste, the response options, and the source survey it is drawn from.
+
+> 📋 **[Browse the Survey Question Bank →]**
+
+---
+
+
+
 Where programme-specific questions need to be developed — for example, to capture the specific features of a regional grant scheme — they should be designed to complement rather than replace validated instruments.
 
 ### Questionnaire Design
