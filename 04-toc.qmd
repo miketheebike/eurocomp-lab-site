@@ -94,9 +94,7 @@ Indicators rarely need to be built from scratch. Managing Authorities should dra
 
 Once indicators are defined, each one requires a concrete data source. The next step answers — for every indicator — what needs to be collected, what type of data is appropriate, how it should be gathered, from whom, and when. Crucially, all of these decisions must be made before the program launches and before randomization begins. Data collected as an afterthought rarely has the properties needed for a credible evaluation.
 
-
-### Outcomes Bank
-
+::: {.gold-panel}
 Selecting the right indicators is easier when you can draw on a curated list of outcomes that have already been used in comparable firm-level impact evaluations. The **EuroComp Lab Outcomes Bank** provides a searchable reference of outcome indicators organised by topic — covering firm performance, innovation, R&D, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability.
 
 For each outcome, the bank specifies:
@@ -109,11 +107,8 @@ For each outcome, the bank specifies:
 The bank is organised to mirror the topics covered in the Survey Question Bank 
 on the companion page, making it straightforward to move from selecting an outcome 
 to identifying the survey question that measures it.
+:::
 
----
-
-
----
 
 ## Step 3: Choose Your Data Strategy
 
