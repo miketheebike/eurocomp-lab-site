@@ -91,7 +91,7 @@ Questions are organised into thirteen topics:
 
 For each question the bank provides the question text ready to copy-paste, the response options, and the source survey it is drawn from.
 
-> 📋 **[Browse the Survey Question Bank →]**
+> 📋 **[Browse the Survey Question Bank →](08-bank_survey.qmd)**
 
 ---
 
