@@ -102,7 +102,7 @@ For each outcome, the bank specifies:
 - The metric and unit of measurement
 - Whether primary survey data or administrative data is the most appropriate source
 
-> 📋 **[Browse the Outcomes Bank →]**
+> 📋 **[Browse the Outcomes Bank →](09-bank_outcomes.qmd)** 
 
 The bank is organised to mirror the topics covered in the Survey Question Bank 
 on the companion page, making it straightforward to move from selecting an outcome 
@@ -116,11 +116,11 @@ to identifying the survey question that measures it.
 
 Before any fieldwork begins, the most consequential data decision is a strategic one: for each indicator in your evaluation framework, will you rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**?
 
-This is not primarily a technical question — it is a practical and resource question that the Managing Authority and its evaluation team must answer together, ideally before the programme is designed.
+This is not primarily a technical question — it is a practical and resource question that the Managing Authority and its evaluation team must answer together, ideally before the program is designed.
 
 **Primary data** is information collected directly from target respondents — firms, individuals, or organisations — through surveys or interviews conducted specifically for the evaluation. It gives you control over exactly what is measured, but it takes time and money to collect, and it places a burden on beneficiaries.
 
-**Secondary data** draws on records that already exist — national business registries, tax authority data, customs records, patent office databases, or the programme's own management information system. For Managing Authorities, this often includes the monitoring data already entered into national programme management systems and reported through SFC2021. Secondary data is generally cheaper and covers larger samples, but it may not include the specific outcome variables needed for an evaluation and often comes with reporting lags or access restrictions.
+**Secondary data** draws on records that already exist — national business registries, tax authority data, customs records, patent office databases, or the program's own management information system. Secondary data is generally cheaper and covers larger samples, but it may not include the specific outcome variables needed for an evaluation and often comes with reporting lags or access restrictions.
 
 In practice, the most robust evaluations combine both: secondary administrative data provides the baseline and ensures broad coverage, while primary survey data captures the outcomes and mechanisms that administrative records do not contain. Deciding early which data sources will fill which role in the evaluation is essential — and it shapes every subsequent design choice.
 
@@ -141,26 +141,19 @@ In practice, the most robust evaluations combine both: secondary administrative 
 
 ### Assessing What You Already Have
 
-Before commissioning a new survey, Managing Authorities should take stock of the administrative data they already hold or can access. Programme management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.
+Before commissioning a new survey, Managing Authorities should take stock of the administrative data they already hold or can access. Program management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.
 
-The key question is whether these sources contain — or can be linked to contain — the specific outcome variables in the evaluation framework. If a firm's VAT number or national registration number is collected at application stage, it may be possible to link programme records to tax or registry data using that identifier, enabling outcome measurement without any additional data collection burden on beneficiaries.
+The key question is whether these sources contain — or can be linked to contain — the specific outcome variables in the evaluation framework. If a firm's VAT number or national registration number is collected at application stage, it may be possible to link program records to tax or registry data using that identifier, enabling outcome measurement without any additional data collection burden on beneficiaries.
 
 ### Planning Data Collection
 
 Once the data strategy is set, detailed planning for each data collection activity should address the following:
 
-**What to collect** should be driven strictly by the indicators in the Theory of Change. Data collected for its own sake — without a clear link to an evaluation question — adds cost and respondent burden without adding analytical value.
+**What to collect** should be driven strictly by the indicators in the ToC. Data collected for its own sake — without a clear link to an evaluation question — adds cost and respondent burden without adding analytical value.
 
-**Who to collect from** should match the unit of analysis. For firm-level programmes, this typically means the firm itself, represented by a senior decision-maker who can speak reliably to strategic and financial outcomes. Where the programme targets a specific group within the firm — such as R&D staff or recently hired employees — those individuals may be the more appropriate respondents for certain questions.
+**Who to collect from** should match the unit of analysis. For firm-level program, this typically means the firm itself, represented by a senior decision-maker who can speak reliably to strategic and financial outcomes. Where the program targets a specific group within the firm — such as R&D staff or recently hired employees — those individuals may be the more appropriate respondents for certain questions.
 
 **When to collect** must align with the evaluation timeline. Baseline data must be collected before the intervention begins. Endline data should be timed to when effects can realistically be expected to have materialised — too early, and real impacts may not yet be visible. Intermediate rounds may be needed to track progress along the Theory of Change.
 
 For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: [**Data Collection: Surveys**].
-
----
-
-## A Note on the Regulatory Context
-
-Under Article 44 of the Common Provisions Regulation (EU) 2021/1060, Managing Authorities are required to carry out evaluations to assess the effectiveness, efficiency, relevance, coherence, and EU added value of their programmes. This page, and the evaluation approach it describes, is designed to help Managing Authorities meet that obligation in a way that produces genuinely useful evidence — not just compliance documentation. A well-designed Theory of Change, a robust set of indicators, and a credible data strategy are the foundations on which any evaluation that can answer the "did it work, and why?" question must be built.
-
 ---
