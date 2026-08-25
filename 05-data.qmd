@@ -67,7 +67,7 @@ Before writing a single question, Managing Authorities and their evaluation team
 
 ---
 
-### Survey Question Bank
+::: {.gold-panel}
 
 To make this process as practical as possible, the EuroComp Lab has compiled a **Survey Question Bank** — a ready-to-use library of validated questions drawn from the Community Innovation Survey (CIS), the World Bank Firms Adoption of Technology (FAT) Survey, the World Bank Enterprise Surveys, the World Management Survey (WMS), and the Flash Eurobarometer on SME Digitalisation, among others.
 
@@ -92,22 +92,22 @@ Questions are organised into thirteen topics:
 For each question the bank provides the question text ready to copy-paste, the response options, and the source survey it is drawn from.
 
 > 📋 **[Browse the Survey Question Bank →](08-bank_survey.qmd)**
-
----
-
+:::
 
 
-Where programme-specific questions need to be developed — for example, to capture the specific features of a regional grant scheme — they should be designed to complement rather than replace validated instruments.
+Where program-specific questions need to be developed — for example, to capture the specific features of a regional grant scheme — they should be designed to complement rather than replace validated instruments.
 
 ### Questionnaire Design
 
-A good questionnaire is clear, concise, and purposeful. Every question should have a direct link to an indicator in the Theory of Change. Questions included for general interest, or because the data might be useful someday, add burden for respondents without adding analytical value and should be removed.
+A good questionnaire is clear, concise, and purposeful. Every question should have a direct link to an indicator in the ToC. Questions included for general interest, or because the data might be useful someday, add burden for respondents without adding analytical value and should be removed.
 
 Questions should address only one idea at a time. So-called double-barrelled questions — which ask about two things simultaneously, such as "Did the grant improve your firm's R&D capacity and export performance?" — make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions that steer respondents towards a particular answer undermine the reliability of the data and should be eliminated during the review process.
 
 Response scales — such as Likert scales or numerical ratings — should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions — such as those about turnover, profitability, or employment figures — are best placed towards the end, once some rapport has been established with the respondent.
 
-Where surveys are to be conducted in multiple languages — a common situation for programmes operating across linguistically diverse regions, or for evaluations coordinated across member states — the questionnaire should be professionally translated and then back-translated into the original language to verify that meaning has been preserved accurately.
+Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly. Ambiguity about whether turnover should be reported in thousands or millions of euros, whether employment refers to full-time equivalents or headcount, or whether "last year" means the calendar year or the most recent financial year leads to inconsistent responses that are difficult to clean and compare. Each such question should state the currency (e.g., €), the unit of magnitude (e.g., full-time equivalents, thousands of euros), and the exact time reference (e.g., "in the last financial year, ending [month]") directly in the question text or as a visible instruction above the response field.
+
+Where surveys are to be conducted in multiple languages — a common situation for programs operating across linguistically diverse regions, or for evaluations coordinated across member states — the questionnaire should be professionally translated and then back-translated into the original language to verify that meaning has been preserved accurately.
 
 ### Piloting the Questionnaire
 
@@ -121,7 +121,7 @@ No questionnaire should go into the field without first being tested. A **pilot 
 
 The reliability of survey data depends heavily on asking the right person. The ideal respondent is someone who is knowledgeable about the outcome of interest, has little incentive to misreport, and can be reached without excessive difficulty.
 
-For surveys targeting businesses — the most common scenario in competitiveness and innovation programmes — this typically means a **senior decision-maker**: a CEO, CFO, or equivalent executive who has oversight of the firm's strategic and financial decisions. Senior managers are best placed to speak to questions about investment, employment, and innovation strategy. They are also more likely to be aware of how and whether the programme has influenced the firm's trajectory.
+For surveys targeting businesses — the most common scenario in competitiveness and innovation programs — this typically means a **senior decision-maker**: a CEO, CFO, or equivalent executive who has oversight of the firm's strategic and financial decisions. Senior managers are best placed to speak to questions about investment, employment, and innovation strategy. They are also more likely to be aware of how and whether the program has influenced the firm's trajectory.
 
 That said, the right respondent depends on what is being measured. If the evaluation is focused on the experience of R&D personnel, or on the take-up of training by specific staff groups, those individuals may be better placed to answer certain questions than a general manager. Where possible, the respondent should be the same person at baseline and endline, to ensure that differences in answers reflect real changes rather than differences between respondents.
 
@@ -129,7 +129,7 @@ That said, the right respondent depends on what is being measured. If the evalua
 
 The timing of a survey significantly affects the quality of data collected. At the operational level, surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries, due to summer holidays. The end of the financial year is also problematic, as finance teams are typically occupied with closing accounts and reporting obligations.
 
-At the evaluation design level, the timing of surveys must be tied to the programme timeline. A **baseline survey** must be completed before the intervention begins — and, where possible, before firms even know whether they will receive support — to avoid any contamination of pre-intervention data. The **endline survey** should be timed to when effects can realistically be expected to have materialised: too soon after the intervention ends, and genuine impacts may not yet be visible. Depending on the intervention, one or more **intermediate surveys** may also be needed to track progress along the Theory of Change and to monitor compliance and take-up.
+At the evaluation design level, the timing of surveys must be tied to the program timeline. A **baseline survey** must be completed before the intervention begins — and, where possible, before firms even know whether they will receive support — to avoid any contamination of pre-intervention data. The **endline survey** should be timed to when effects can realistically be expected to have materialised: too soon after the intervention ends, and genuine impacts may not yet be visible. Depending on the intervention, one or more **intermediate surveys** may also be needed to track progress along the ToC and to monitor compliance and take-up.
 
 Managing Authorities should also be mindful of **survey fatigue**. Beneficiaries who are contacted repeatedly for monitoring and evaluation purposes may become less willing to participate, reducing response rates and data quality over time. Coordinating across different data collection exercises — and keeping each survey as concise as the evaluation objectives allow — helps manage this risk.
 
@@ -152,5 +152,3 @@ Managing Authorities should involve their data protection officer early in the e
 Beyond legal compliance, handling data responsibly also builds trust with beneficiaries. Firms and individuals who feel their information is being treated with care are more likely to participate in surveys and to answer honestly — which directly improves the quality of the evidence the evaluation produces.
 
 ---
-
-*This document was generated by mAI.*
