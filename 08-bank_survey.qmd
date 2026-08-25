@@ -18,10 +18,9 @@ This question bank is organised by topic. Navigate to the theme most relevant to
 - Topic 5 - Collaboration: [Link to survey questions](08.05-bank_survey_collab.qmd)
 - Topic 6 - Technology Adoption: [Link to survey questions](08.06-bank_survey_techadop.qmd)
 - Topic 7 - Digitalization: [Link to survey questions](08.07-bank_survey_digital.qmd)
-- Topic 8 - Innovation: [Link to survey questions](08.08-bank_survey_innov.qmd)
+- Topic 8 - Innovation and R&D activities: [Link to survey questions](08.08-bank_survey_innov.qmd)
 - Topic 9 - Intellectual Property Rights: [Link to survey questions](08.09-bank_survey_ip.qmd)
-- Topic 10 - Research & Development: [Link to survey questions](08.10-bank_survey_r&d.qmd)
-- Topic 11 - Technology Readiness Level: [Link to survey questions](08.11-bank_survey_trl.qmd)
+- Topic 10 - Technology Readiness Level: [Link to survey questions](08.11-bank_survey_trl.qmd)
 
 ::: {.soft-panel}
 TO BE ADDED BY JAKOB: Big five traits for CEO?
