@@ -21,10 +21,6 @@ This question bank is organised by topic. Navigate to the theme most relevant to
 - Topic 8 - Innovation and R&D activities: [Link to survey questions](08.08-bank_survey_innov.qmd)
 - Topic 9 - Intellectual Property Rights: [Link to survey questions](08.09-bank_survey_ip.qmd)
 - Topic 10 - Technology Readiness Level: [Link to survey questions](08.11-bank_survey_trl.qmd)
-
-::: {.soft-panel}
-TO BE ADDED BY JAKOB: Big five traits for CEO?
-:::
-
+- Topic 11 - Energy Efficiency: [Link to survey questions](08.12-bank_survey_energy.qmd)
 
 ---
