@@ -29,6 +29,7 @@ website:
       - href: 09-bank_outcomes.qmd
         text: Bank of Outcomes
   page-footer:
+    left: "EuroCOMP Lab powered by the World Bank Group"
     center: "Draft site. Structure and content still under review by the team."
 
 format:
