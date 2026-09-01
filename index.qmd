@@ -1,20 +1,97 @@
 ---
-title: "Join a growing community of practice for impact evaluation in Europe"
+title: "Join a growing community of practice for experimental evaluation in Europe"
 toc: false
 ---
 
 ::: {.lede}
-EuroCOMP Lab pools knowledge and resources across the people and organizations
-already advancing impact evaluation, so Managing Authorities do not have to start
+EuroCOMP Lab pools knowledge and resources across the people and organisations
+already advancing impact evaluation, so managing authorities do not have to start
 from scratch.
 :::
 
-::: {.team-note}
-**Open question**
-Wording needs to be inclusive. A community of practice already exists (consultants,
-national labs), so the framing should imply pooling of resources and knowledge
-sharing rather than replacing it.
+::: {.eyebrow}
+Why introduce experimental evaluations?
 :::
+
+## You need evidence on what is actually worth funding
+
+The EU is one of the world’s largest investors in innovation. Research and innovation got roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional gaps in innovation outcomes are holding back the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to deliver more.
+
+Cohesion policy programmes often do not learn as they go. But policies need to adapt as circumstances change. That means identifying challenges, testing solutions, and refining approaches.
+
+::: {.gold-panel}
+This is what we call **science-based adaptive delivery**: testing, learning, and
+adjusting as you go.
+:::
+
+## Randomised controlled trials show what works and why
+
+By comparing what happens with support to what would have happened without it, a randomised controlled trial shows whether a cohesion policy programme is really the reason things improved. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
+
+Piloting a new idea at small scale is the best way to test it. For this, the evaluation needs to be designed ex-ante, before the call for proposals launches.
+
+## Think you already know what program works and whom to fund?
+
+But…
+
+Would they have succeeded without you?
+
+Would someone else have gained more from the same euro?
+
+If the answer is not a clear yes, you should consider introducing experimentation. 
+
+::: {.eyebrow}
+Getting started
+:::
+ 
+## How to start
+ 
+### Explore the site
+ 
+:::: {.cards}
+::: {.card-e}
+#### [Why and when](01-why-and-when.qmd)
+The case for evaluation, and how to tell if it fits your programme.
+:::
+::: {.card-e}
+#### [How](02-how.qmd)
+Different ways to design and randomise a trial, illustrated with real case studies — plan this from day one.
+:::
+::: {.card-e}
+#### [Advanced how](03-advanced-how.qmd)
+Sample size and power calculations, from rule-of-thumb intuition to the full method.
+::: {.card-e}
+#### [Templates](06-templates.qmd)
+Benchmark reports, do-files for randomisation, questionnaire modules, and Terms of Reference templates, ready to use.
+:::
+::: {.card-e}
+#### [Examples](07-examples.qmd)
+Experience from projects already partnering with EuroCOMP Lab.
+:::
+::::
+ 
+### Connect with reseachers and labs specialised in experimentation
+ 
+:::: {.cards}
+::: {.card-e}
+#### [J-PAL](https://www.povertyactionlab.org/)
+The Abdul Latif Jameel Poverty Action Lab specialises in impact evaluation design.
+:::
+::: {.card-e}
+#### [IPA](https://poverty-action.org/)
+Innovations for Poverty Action designs and rigorously evaluates solutions to poverty.
+:::
+::: {.card-e}
+#### [World Bank DIME](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation/about)
+The World Bank's Development Impact Evaluation group.
+:::
+::::
+ 
+Or talk to someone who's done it: contacts at managing authorities already running experimental evaluations:
+
+
+
+
 
 ::: {.eyebrow}
 Intro video
@@ -33,86 +110,8 @@ programs across Europe.
 Video placeholder
 :::
 
-::: {.team-note}
-**Open question**
-Placement. The video currently sits after the hook. It may work better further down,
-once the case for evaluation has been made.
-:::
 
-::: {.eyebrow}
-Why evaluate
-:::
 
-## In a world of scarce resources, you need evidence on what is actually worth funding
-
-The EU is one of the world's largest investors in innovation, yet significant regional
-disparities in innovation outcomes are limiting its overall competitiveness. To remain
-on par with global counterparts, every euro invested needs to yield greater returns and
-have a more substantial impact on growth.
-
-The processes behind these investments often lack mechanisms for continuous learning,
-even as policy needs to keep adapting to evolving circumstances. This calls for
-identifying challenges, testing solutions, and refining approaches.
-
-::: {.gold-panel}
-This is what we call **science-based adaptive delivery**: testing, learning, and
-adjusting as you go.
-:::
-
-::: {.team-note}
-**Open question**
-Voice: "you", "we", or avoiding direct address altogether? Needs to be settled once and
-applied across the whole site. Content is mainly based on the report introduction.
-:::
-
-## Testing and learning only works if you know what to look for
-
-When evaluating projects, we often only assess outputs, because they are the easiest
-thing to count. Impact evaluation is what lets you move from measuring outputs to
-proving outcomes.
-
-::: {.cards}
-::: {.card-e}
-#### Outputs
-What a program delivers: grants disbursed, firms enrolled, trainings run.
-:::
-::: {.card-e}
-#### Outcomes
-What changes because of it: growth, jobs, innovation, resilience.
-:::
-:::
-
-To understand in advance why each step should lead to the next, you need to map out,
-before implementation, how a program's activities are expected to change the problem
-you are addressing. That causal logic, the how and why behind each step, explains a
-program's reason for existing, and tells you what to measure to test whether the
-expected change is actually happening.
-
-::: {.chain}
-::: {.step}
-**Inputs**
-:::
-::: {.step}
-**Activities**
-:::
-::: {.step}
-**Outputs**
-:::
-::: {.on}
-**Outcomes**
-:::
-:::
-
-This chain is the foundation of a Theory of Change, and having thought it through helps
-in designing a strong impact evaluation. There is more on this in
-[Why and When](01-why-and-when.qmd).
-
-::: {.team-note}
-**Open question**
-Is this slide too abrupt for the landing page? The outcome versus output point and the
-introduction to Theory of Change were agreed with Alex, but the transition may need
-softening. Also unclear whether "inputs" and "activities" are the right terms in this context.
-:::
 
 ::: {.eyebrow}
 What is an impact evaluation
@@ -150,10 +149,6 @@ regional market and design more impactful programs next time.
 :::
 :::
 
-::: {.team-note}
-**Open question**
-Do the three cards belong here, or would they sit better on Why and When?
-:::
 
 ::: {.dark-panel}
 ::: {.eyebrow}
@@ -176,17 +171,5 @@ harder for a bigger purpose.
 :::
 :::
 
-::: {.eyebrow}
-Optional
-:::
 
-## Who can help
 
-Map of labs and organizations able to support an impact evaluation, including J-PAL and
-others.
-
-::: {.team-note}
-**Decision needed**
-Marked optional in the outline. Confirm whether this belongs on the landing page or on
-[Examples](07-examples.qmd).
-:::
