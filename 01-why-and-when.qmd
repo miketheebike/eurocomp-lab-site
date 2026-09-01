@@ -3,7 +3,7 @@ title: "Why and When"
 ---
 
 ::: {.lede}
-Program design first, method second. This page covers why evaluation is worth doing,
+Programme design first, method second. This page covers why evaluation is worth doing,
 when it has to be decided, and how to choose between the available designs.
 :::
 
@@ -11,7 +11,7 @@ when it has to be decided, and how to choose between the available designs.
 Two purposes
 :::
 
-## Impact evaluation has two purposes: policy learning and accountability
+## What is impact evaluation for?
 
 ```{=html}
 <figure class="fig-e">
@@ -47,11 +47,50 @@ Two purposes
 </figure>
 ```
 
+## Testing and learning only works if you know what to look for
+
+When evaluating projects, we often only assess outputs, because they are the easiest
+thing to count. Impact evaluation is what lets you move from measuring outputs to
+proving outcomes.
+
+::: {.cards}
+::: {.card-e}
+#### Outputs
+What a programme delivers: grants disbursed, firms enrolled, trainings run.
+:::
+::: {.card-e}
+#### Outcomes
+What changes because of it: growth, jobs, innovation, resilience.
+:::
+:::
+
+Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what to measure to test whether the
+expected change is actually happening.
+
+::: {.chain}
+::: {.step}
+**Inputs**
+:::
+::: {.step}
+**Activities**
+:::
+::: {.step}
+**Outputs**
+:::
+::: {.on}
+**Outcomes**
+:::
+:::
+
+This chain is the foundation of a Theory of Change, and having thought it through helps
+in designing a strong impact evaluation. There is more on this in
+[Theory of Change, Indicators and Data](04-toc.qmd).
+
 ## Learning through impact evaluation is a continuous process
 
 Every evaluation raises new questions along with the ones it answers, each round building
 on the last. That is how we expand our knowledge of what works, for whom, and under what
-conditions, and use it to design better programs. Exchange within a community of practice
+conditions, and use it to design better programmes. Exchange within a community of practice
 matters, so we can learn from each other, not just from our own results.
 
 ```{=html}
@@ -104,10 +143,6 @@ Scale up based on evidence.
 :::
 :::
 
-::: {.team-note}
-**Source**
-Copied over from Alex's Bucharest slide set. Design needs adjusting if kept.
-:::
 
 ::: {.eyebrow}
 Is it relevant for you
@@ -125,7 +160,7 @@ question is whether the programme is working as well as it could be.
 You want to learn who to target and how to design it
 :::
 ::: {.body}
-**Too many applicants?** Consider introducing randomization in the middle ranks.
+**Too many applicants?** Consider introducing randomisation in the middle ranks.
 
 **Too few applicants?** Consider simplifying access and using an encouragement design.
 :::
@@ -147,17 +182,11 @@ for your target group and region, and there is no interest in learning about dif
 ways of implementing the programme for the same beneficiaries.
 :::
 
-::: {.team-note}
-**Open question**
-From Alex's Bucharest slides. There is a more complex decision tree in the original,
-broken down here. Is this too technical for this position on the site?
-:::
-
 ::: {.eyebrow}
 M&E versus impact evaluation
 :::
 
-## What is the difference between monitoring and evaluation and impact evaluation?
+## Monitoring and evaluation (M&E) vs impact evaluation
 
 ::: {.compare}
 ::: {.col-e}
@@ -165,7 +194,7 @@ M&E versus impact evaluation
 Monitoring
 :::
 ::: {.body}
-Collect data on inputs, outputs, outcomes and participants to:
+Collect data on inputs, outputs, outcomes and participants to
 
 - Improve day-to-day management and decisions
 - Make descriptive before and after comparisons
@@ -179,7 +208,7 @@ Describes what is happening, but not whether it is because of the intervention.
 Impact evaluation
 :::
 ::: {.body}
-Collect data on participants and control groups to:
+Collect data on participants and control groups to
 
 - Assess the difference between participating and not
 - Establish causality
@@ -266,8 +295,7 @@ Actually causes more impact: 35 caused.
 ::: {.cards}
 ::: {.card-e}
 #### Deadweight: low additionality
-Top performers would likely have invested anyway. Public funds substitute for private
-money they would have spent regardless, generating little truly additional activity per euro.
+Additionality' is the share of activity that wouldn't have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they'd have spent regardless — generating little that's truly additional per euro.
 :::
 ::: {.card-e}
 #### Selection bias in measurement
@@ -281,16 +309,6 @@ that could not otherwise get funded.
 :::
 :::
 
-::: {.team-note}
-**Open question**
-From Alex's Bucharest slides. Flagged as possibly too technical for this position.
-:::
-
-::: {.team-note}
-**Placeholder**
-Two sections still to be written: return on investment (with Jakob), and policy
-instruments with competition (check with Jakob what was meant).
-:::
 
 ::: {.eyebrow}
 The counterfactual
@@ -304,7 +322,7 @@ have happened in its absence, the counterfactual.
 **The dilemma.** The counterfactual is a "what if" and is unknown to us.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
-This can be done in different ways. The methods below show why randomized controlled
+This can be done in different ways. The methods below show why randomised controlled
 trials are considered the gold standard.
 
 ```{=html}
@@ -340,11 +358,11 @@ looked in the absence of the programme. This group is the comparison group.
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-Randomized controlled trials
+Randomised controlled trials
 :::
 ::: {.body}
 Create the comparison group up front, by randomly assigning who receives the programme.
-Randomization is what guarantees the two groups look the same on average.
+Randomisation is what guarantees the two groups look the same on average.
 :::
 :::
 ::: {.col-e}
@@ -364,10 +382,10 @@ treatment group on average. If that assumption is wrong, the impact estimate is 
 :::
 
 ::: {.eyebrow}
-Randomized controlled trials
+Randomised controlled trials
 :::
 
-## What is a randomized controlled trial?
+## What is a randomised controlled trial?
 
 **Intuition.** Randomly assign the programme so one group receives it (the treatment
 group) and one does not (the control or comparison group). Because the two groups start
@@ -407,21 +425,16 @@ group without the programme.
 because:
 
 - No assumptions about outcome levels or trends between groups are necessary, if
-  randomized within groups
+  randomised within groups
 - They deliver strong evidence
 - They are easy to interpret
 
-::: {.team-note}
-**To add**
-A worked example immediately after this section would help. SMART Romania is the obvious
-candidate.
-:::
 
-## Randomization can improve legitimacy and trust in programmes
+## Randomisation can improve legitimacy and trust in programmes
 
 Randomly selecting beneficiaries among eligible applicants is fair. When more eligible
 firms apply than there is budget to fund, a lottery is a transparent way to decide who
-gets in, treating every eligible applicant the same rather than relying on favouritism or
+gets in. It treats every eligible applicant the same rather than relying on favouritism or
 timing.
 
 ::: {.soft-panel}
@@ -454,10 +467,11 @@ does not.
 When you cannot randomize
 :::
 
-## What if you cannot randomize?
+## What if you cannot randomise?
 
 An RCT only works if randomization is built in from day one, integrated at design stage
-before the programme launches, not added afterward. When that is not possible,
+before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions.
+When that is not possible,
 quasi-experimental methods are the alternative.
 
 ::: {.caution}
@@ -610,11 +624,6 @@ ambition or management quality, both of which would likely affect outcomes.
 :::
 :::
 
-::: {.team-note}
-**To confirm**
-Someone should check the phrasing of the identifying assumption here.
-:::
-
 ### Regression discontinuity design
 
 ::: {.method}
@@ -625,9 +634,12 @@ the result is called a local average treatment effect. The advantage is that uno
 characteristics stop being a concern.
 
 Identifying assumption
-: The programme is administered following pre-defined cut-off rules, the criteria
-determining who falls above or below are not manipulated, a large number of units sit
-around the cut-off, and nothing else changes suddenly at the cut-off.
+: This design assumes that
+
+    - the programme is administered following pre-defined cut-off rules
+    - the criteria determining who falls above or below are not manipulated
+    - a large number of units sit around the cut-off
+    - nothing else changes suddenly at the cut-off
 
 ::: {.eg}
 For example, if firms know grants are awarded below a certain revenue threshold, some
@@ -776,7 +788,7 @@ piece on ten reasons not to measure impact. Confirm how to credit it.
 Risks
 :::
 
-## I have excess demand and a well designed RCT. What can go wrong?
+## What can go wrong with a well-designed RCT?
 
 ::: {.cards}
 ::: {.card-e}
@@ -805,8 +817,3 @@ suppliers, so the comparison group partly benefits too, understating the true ef
 :::
 :::
 
-::: {.team-note}
-**Open question**
-Flagged in the outline as possibly belonging elsewhere. Candidate homes:
-[How](02-how.qmd), or [Data Collection](05-data.qmd) alongside monitoring.
-:::
