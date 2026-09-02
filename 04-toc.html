@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3f92d4712ab331a54f0877bdc929348a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4ecfd830e885132b5cacfdba077f588c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,9 +73,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -115,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./04-toc.html" aria-current="page"> 
-<span class="menu-text">Theory of Change</span></a>
+<span class="menu-text">Theory of Change and Measurement</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./05-data.html"> 
@@ -128,6 +125,14 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./07-examples.html"> 
 <span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./08-bank_survey.html"> 
+<span class="menu-text">Bank of Survey Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./09-bank_outcomes.html"> 
+<span class="menu-text">Bank of Outcomes</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -146,28 +151,26 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#step-1-define-a-theory-of-change-toc-for-your-ie" id="toc-step-1-define-a-theory-of-change-toc-for-your-ie" class="nav-link" data-scroll-target="#step-1-define-a-theory-of-change-toc-for-your-ie">Step 1: Define a Theory of Change (ToC) for your IE</a>
+  <li><a href="#step-1-define-a-theory-of-change" id="toc-step-1-define-a-theory-of-change" class="nav-link" data-scroll-target="#step-1-define-a-theory-of-change">Step 1: Define a Theory of Change</a>
   <ul class="collapse">
-  <li><a href="#what-is-a-theory-of-change" id="toc-what-is-a-theory-of-change" class="nav-link" data-scroll-target="#what-is-a-theory-of-change">What is a Theory of Change?</a></li>
+  <li><a href="#what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic" id="toc-what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic" class="nav-link" data-scroll-target="#what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic">What is a Theory of Change — and how does it relate to your intervention logic?</a></li>
   <li><a href="#components-of-a-theory-of-change" id="toc-components-of-a-theory-of-change" class="nav-link" data-scroll-target="#components-of-a-theory-of-change">Components of a Theory of Change</a></li>
-  <li><a href="#why-invest-time-in-developing-a-toc" id="toc-why-invest-time-in-developing-a-toc" class="nav-link" data-scroll-target="#why-invest-time-in-developing-a-toc">Why Invest Time in Developing a ToC?</a></li>
+  <li><a href="#why-invest-time-in-developing-a-theory-of-change" id="toc-why-invest-time-in-developing-a-theory-of-change" class="nav-link" data-scroll-target="#why-invest-time-in-developing-a-theory-of-change">Why Invest Time in Developing a Theory of Change?</a></li>
   <li><a href="#defining-evaluation-questions" id="toc-defining-evaluation-questions" class="nav-link" data-scroll-target="#defining-evaluation-questions">Defining Evaluation Questions</a></li>
   </ul></li>
   <li><a href="#step-2-build-relevant-indicators" id="toc-step-2-build-relevant-indicators" class="nav-link" data-scroll-target="#step-2-build-relevant-indicators">Step 2: Build Relevant Indicators</a>
   <ul class="collapse">
-  <li><a href="#from-toc-to-indicators" id="toc-from-toc-to-indicators" class="nav-link" data-scroll-target="#from-toc-to-indicators">From ToC to Indicators</a></li>
-  <li><a href="#well-defined-indicators-smart" id="toc-well-defined-indicators-smart" class="nav-link" data-scroll-target="#well-defined-indicators-smart">Well-Defined Indicators (SMART)</a></li>
+  <li><a href="#from-theory-of-change-to-indicators" id="toc-from-theory-of-change-to-indicators" class="nav-link" data-scroll-target="#from-theory-of-change-to-indicators">From Theory of Change to Indicators</a></li>
+  <li><a href="#well-defined-indicators" id="toc-well-defined-indicators" class="nav-link" data-scroll-target="#well-defined-indicators">Well-Defined Indicators</a></li>
   <li><a href="#from-indicators-to-data" id="toc-from-indicators-to-data" class="nav-link" data-scroll-target="#from-indicators-to-data">From Indicators to Data</a></li>
   </ul></li>
-  <li><a href="#step-3-collect-appropriate-data" id="toc-step-3-collect-appropriate-data" class="nav-link" data-scroll-target="#step-3-collect-appropriate-data">Step 3: Collect Appropriate Data</a>
+  <li><a href="#step-3-choose-your-data-strategy" id="toc-step-3-choose-your-data-strategy" class="nav-link" data-scroll-target="#step-3-choose-your-data-strategy">Step 3: Choose Your Data Strategy</a>
   <ul class="collapse">
-  <li><a href="#first-order-decisions" id="toc-first-order-decisions" class="nav-link" data-scroll-target="#first-order-decisions">First-Order Decisions</a></li>
-  <li><a href="#what-do-you-need-to-measure" id="toc-what-do-you-need-to-measure" class="nav-link" data-scroll-target="#what-do-you-need-to-measure">What Do You Need to Measure?</a></li>
-  <li><a href="#what-type-of-data-is-needed" id="toc-what-type-of-data-is-needed" class="nav-link" data-scroll-target="#what-type-of-data-is-needed">What Type of Data Is Needed?</a></li>
-  <li><a href="#how-should-data-be-collected" id="toc-how-should-data-be-collected" class="nav-link" data-scroll-target="#how-should-data-be-collected">How Should Data Be Collected?</a></li>
-  <li><a href="#who-should-you-collect-data-from" id="toc-who-should-you-collect-data-from" class="nav-link" data-scroll-target="#who-should-you-collect-data-from">Who Should You Collect Data From?</a></li>
-  <li><a href="#when-should-you-collect-data" id="toc-when-should-you-collect-data" class="nav-link" data-scroll-target="#when-should-you-collect-data">When Should You Collect Data?</a></li>
+  <li><a href="#the-fundamental-decision" id="toc-the-fundamental-decision" class="nav-link" data-scroll-target="#the-fundamental-decision">The Fundamental Decision</a></li>
+  <li><a href="#assessing-what-you-already-have" id="toc-assessing-what-you-already-have" class="nav-link" data-scroll-target="#assessing-what-you-already-have">Assessing What You Already Have</a></li>
+  <li><a href="#planning-data-collection" id="toc-planning-data-collection" class="nav-link" data-scroll-target="#planning-data-collection">Planning Data Collection</a></li>
   </ul></li>
+  <li><a href="#for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys." id="toc-for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys." class="nav-link" data-scroll-target="#for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys.">For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: <strong>Data Collection: Surveys</strong>.</a></li>
   </ul>
 </nav>
     </div>
@@ -193,101 +196,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><span class="placeholder">Placeholder page</span></p>
-<p>The groundwork a Managing Authority needs before fieldwork can start.</p>
+<p><em>The groundwork a Managing Authority needs before fieldwork can start.</em></p>
+<hr>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This page outlines a structured approach to developing requirements for evaluating interventions, organized in three steps:</p>
+<p>Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about three things: what the program is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. This page walks through those three steps in sequence.</p>
 <ol type="1">
-<li><strong>Step 1:</strong> Define a Theory of Change (ToC) for your Impact Evaluation</li>
+<li><strong>Step 1:</strong> Define a Theory of Change for your evaluation</li>
 <li><strong>Step 2:</strong> Build relevant indicators</li>
-<li><strong>Step 3:</strong> Select appropriate data</li>
+<li><strong>Step 3:</strong> Choose your data strategy</li>
 </ol>
 <hr>
 </section>
-<section id="step-1-define-a-theory-of-change-toc-for-your-ie" class="level2">
-<h2 class="anchored" data-anchor-id="step-1-define-a-theory-of-change-toc-for-your-ie">Step 1: Define a Theory of Change (ToC) for your IE</h2>
-<section id="what-is-a-theory-of-change" class="level3">
-<h3 class="anchored" data-anchor-id="what-is-a-theory-of-change">What is a Theory of Change?</h3>
-<p>A Theory of Change is a causal chain between inputs, activities, outputs, outcomes, and goals of an instrument or policy. It provides a clear understanding of the mechanisms through which policy makers intend an instrument or policy to generate desired outcomes or long-term goals.</p>
+<section id="step-1-define-a-theory-of-change" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-define-a-theory-of-change">Step 1: Define a Theory of Change</h2>
+<section id="what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic">What is a Theory of Change — and how does it relate to your intervention logic?</h3>
+<p>Managing Authorities preparing ERDF or ESF+ programmes are already required to articulate an <strong>intervention logic</strong> — a structured account of how a policy instrument is expected to produce its intended results. A Theory of Change (ToC) builds on this familiar concept and makes it more explicit and evaluation-ready.</p>
+<p>Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the <strong>assumptions</strong> that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information an impact evaluation is designed to test.</p>
+<p>If your program already has a well-developed intervention logic in its program document or partnership agreement, you have a strong starting point. The task of building a ToC is largely one of making that logic more precise — defining each step clearly enough that it can be measured.</p>
 </section>
 <section id="components-of-a-theory-of-change" class="level3">
 <h3 class="anchored" data-anchor-id="components-of-a-theory-of-change">Components of a Theory of Change</h3>
-<p>The ToC follows a linear causal chain, with assumptions sitting between each step:</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-    subgraph MAIN[" "]
-        direction LR
-        A[INPUTS] --&gt; B[ACTIVITIES] --&gt; C[OUTPUTS] --&gt; D[SHORT-TERM OUTCOMES] --&gt; E[MEDIUM-TERM OUTCOMES] --&gt; F[GOALS]
-    end
-
-    A2[Assumptions] -.-&gt; B
-    A3[Assumptions] -.-&gt; C
-    A4[Assumptions] -.-&gt; D
-    A5[Assumptions] -.-&gt; E
-
-    style MAIN fill:none,stroke:none
-    style A fill:#cfe2ff,stroke:#0d6efd
-    style B fill:#cfe2ff,stroke:#0d6efd
-    style C fill:#d1e7dd,stroke:#198754
-    style D fill:#fff3cd,stroke:#ffc107
-    style E fill:#fff3cd,stroke:#ffc107
-    style F fill:#f8d7da,stroke:#dc3545
-    style A2 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
-    style A3 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
-    style A4 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
-    style A5 fill:#f8f9fa,stroke:#adb5bd,stroke-dasharray: 5 5
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<section id="inputs" class="level4">
-<h4 class="anchored" data-anchor-id="inputs">Inputs</h4>
-<p>Resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, training programs, etc.</p>
+<p>A ToC follows a causal chain from resources invested to long-term change achieved, with assumptions sitting at every junction:</p>
+<p><strong>Inputs</strong> are the resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, and training program. For ERDF programs, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.</p>
+<p><strong>Activities</strong> are the concrete actions undertaken to deliver the program — running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the program actually <em>does</em>.</p>
+<p><strong>Outputs</strong> are the direct, countable results of those activities — the number of firms supported, grants awarded, training hours delivered, or innovation projects launched. Outputs are what the program <em>produces</em>. For ERDF programs, these correspond closely to the <strong>common output indicators</strong> (COIs) that Managing Authorities are already required to report to the European Commission.</p>
+<p><strong>Short-term outcomes</strong> are the immediate changes that occur as a direct result of the outputs — for example, a supported firm adopting a new technology, or a researcher filing a patent application. These changes typically occur within one to two years of support and are often related to shifts in knowledge, behaviour, or capacity among beneficiaries.</p>
+<p><strong>Medium-term outcomes</strong> are the broader changes that emerge as short-term outcomes accumulate — for example, increases in firm-level productivity, growth in exports, or improvements in the regional innovation ecosystem. These correspond closely to the <strong>common result indicators</strong> (CRIs) that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the program and the result.</p>
+<p><strong>Goals</strong> are the long-term aspirations of the policy — for a competitiveness programme, this might mean a more innovative regional economy, higher wages, or greater resilience to economic shocks. Goals typically require years to materialise and reflect the broader objectives of the Smart Specialisation Strategy or the national reform agenda.</p>
+<p><strong>Assumptions</strong> are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the program may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.</p>
 </section>
-<section id="activities" class="level4">
-<h4 class="anchored" data-anchor-id="activities">Activities</h4>
-<p>Actions and tasks undertaken using the inputs to deliver the intended outputs. The concrete work of the policy or instrument — e.g., running grant calls, delivering training, disbursing subsidies, providing advisory services.</p>
-</section>
-<section id="outputs" class="level4">
-<h4 class="anchored" data-anchor-id="outputs">Outputs</h4>
-<p>Direct and immediate results of the activities conducted within a policy. Tangible and observable products or deliverables that demonstrate the completion of specific tasks.</p>
-</section>
-<section id="short-term-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="short-term-outcomes">Short-Term Outcomes</h4>
-<p>Immediate changes that occur as a direct result of the outputs. Often related to changes in knowledge, attitudes, skills, and behaviors among the target population. They play a crucial role in achieving the larger objectives.</p>
-</section>
-<section id="medium-term-outcomes" class="level4">
-<h4 class="anchored" data-anchor-id="medium-term-outcomes">Medium-Term Outcomes</h4>
-<p>Intermediate changes that occur due to sustained efforts and progress from short-term outcomes. Indicate progress toward the overall goal and often involve shifts in social norms, policies, or organizational practices.</p>
-</section>
-<section id="goals" class="level4">
-<h4 class="anchored" data-anchor-id="goals">Goals</h4>
-<p>The policy’s broad, long-term aspirations or objectives. Describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.</p>
-</section>
-<section id="assumptions" class="level4">
-<h4 class="anchored" data-anchor-id="assumptions">Assumptions</h4>
-<p>Assumptions are the conditions that must hold for each link in the causal chain to lead to the next. They sit between every step and represent the risks to the logic. An impact evaluation exists to test these assumptions; making them explicit tells you what to measure and where the logic is most likely to break.</p>
-<div class="soft-panel">
-<p><strong>Running example.</strong> TO BE ADDED BY MIKE: Theory of Change from the North-East</p>
-</div>
-<hr>
-</section>
-</section>
-<section id="why-invest-time-in-developing-a-toc" class="level3">
-<h3 class="anchored" data-anchor-id="why-invest-time-in-developing-a-toc">Why Invest Time in Developing a ToC?</h3>
-<p><strong>1. It sharpens the design of your evaluation</strong> - Generates clear research questions and defines which outcomes to measure and what data to collect - Can be built participatorily by starting from the final outcomes and working backwards - Prompts a credibility check: is there evidence to support each step in the causal chain?</p>
-<p><strong>2. It produces richer, more transferable policy lessons</strong> - Measuring the right intermediate outcomes reveals how and why an instrument works, not just whether it works - Opening this “black box” turns results into actionable insight rather than a single verdict - The resulting knowledge generalises better to other contexts, settings, and instruments</p>
+<section id="why-invest-time-in-developing-a-theory-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="why-invest-time-in-developing-a-theory-of-change">Why Invest Time in Developing a Theory of Change?</h3>
+<p>Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively — by starting from the desired final outcomes and working backwards through the chain of events needed to get there — and this process is particularly useful in a program partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable programs in other regions or member states, to support each step in the logic?</p>
+<p>Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this “black box” transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better — findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.</p>
 </section>
 <section id="defining-evaluation-questions" class="level3">
 <h3 class="anchored" data-anchor-id="defining-evaluation-questions">Defining Evaluation Questions</h3>
-<p>Defining clear evaluation questions is the starting point of any rigorous impact evaluation. A well-formulated evaluation question specifies what the intervention is, who it targets, what outcome is expected to change, and over what time horizon. Questions should be grounded in the Theory of Change — each one should correspond to a link in the causal chain that the evaluation seeks to test. In practice, it helps to distinguish between the primary evaluation question, which typically concerns the overall effect of the intervention on a key outcome, and secondary questions, which probe mechanisms, heterogeneous effects across subgroups, or the role of specific assumptions. Evaluation questions should also be realistic: they must be answerable with the data and methods available, and scoped to what the evaluation can credibly attribute to the intervention rather than to external factors.</p>
+<p>Defining clear evaluation questions is the starting point of any rigorous impact evaluation, and they should follow directly from the ToC. A well-formulated evaluation question specifies what the intervention is, who it targets, what outcome is expected to change, and over what time horizon.</p>
+<p>Evaluation questions should be realistic: they must be answerable with the data and methods available, and scoped to what the evaluation can credibly attribute to the program rather than to external factors such as macroeconomic trends or parallel national schemes. Setting these questions before the program launches — ideally before the first call for applications — is essential, because many of the data collection decisions that follow depend on them.</p>
 <div class="soft-panel">
 <p><strong>Running example.</strong> TO BE ADDED BY MIKE: Evaluation questions from the North-East</p>
 </div>
@@ -296,12 +244,15 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="step-2-build-relevant-indicators" class="level2">
 <h2 class="anchored" data-anchor-id="step-2-build-relevant-indicators">Step 2: Build Relevant Indicators</h2>
-<section id="from-toc-to-indicators" class="level3">
-<h3 class="anchored" data-anchor-id="from-toc-to-indicators">From ToC to Indicators</h3>
-<p>A ToC plays a vital role as a foundation for developing relevant indicators to assess the impacts of a policy. The elements of a ToC reflect constructs that need further definition to be measurable. Indicators should be defined for each pillar of the ToC (inputs, activities, outputs, outcomes, goals, and assumptions) to enable the measurement and verification of change.</p>
+<section id="from-theory-of-change-to-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="from-theory-of-change-to-indicators">From Theory of Change to Indicators</h3>
+<p>Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.</p>
+<p>For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an impact evaluation. Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what <em>changed</em> as a result, and to do so in a way that allows for comparison with a counterfactual (i.e., what would have happened without the program).</p>
+<p>Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.</p>
 </section>
-<section id="well-defined-indicators-smart" class="level3">
-<h3 class="anchored" data-anchor-id="well-defined-indicators-smart">Well-Defined Indicators (SMART)</h3>
+<section id="well-defined-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="well-defined-indicators">Well-Defined Indicators</h3>
+<p>Good indicators share five characteristics, often summarised as SMART:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 45%">
@@ -316,23 +267,23 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td><strong>Specific</strong></td>
-<td>To measure the information required as closely as possible</td>
+<td>The indicator measures exactly the construct it is supposed to measure — not a proxy that is merely convenient</td>
 </tr>
 <tr class="even">
 <td><strong>Measurable</strong></td>
-<td>To ensure that the information can be readily obtained (usually in numerical form)</td>
+<td>The information can be reliably obtained, ideally in a numerical form that allows for comparison over time and across groups</td>
 </tr>
 <tr class="odd">
 <td><strong>Attributable</strong></td>
-<td>To ensure that each measure is linked to the project’s efforts</td>
+<td>The indicator is sensitive to the program’s efforts and not so heavily influenced by external factors that changes cannot be attributed to the intervention</td>
 </tr>
 <tr class="even">
 <td><strong>Realistic</strong></td>
-<td>To ensure that the data can be obtained in a timely fashion, with reasonable frequency, and at a reasonable cost</td>
+<td>The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline</td>
 </tr>
 <tr class="odd">
 <td><strong>Targeted</strong></td>
-<td>To the objective population</td>
+<td>The indicator reflects outcomes for the specific population the program is designed to serve</td>
 </tr>
 </tbody>
 </table>
@@ -342,35 +293,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="from-indicators-to-data" class="level3">
 <h3 class="anchored" data-anchor-id="from-indicators-to-data">From Indicators to Data</h3>
-<p>Indicators rarely need to be built from scratch. Where possible, practitioners should draw on existing, well-tested measures from similar studies, evidence gap maps, and validated frameworks such as the CIS or WB Enterprise Surveys. Once indicators are defined, each one requires a concrete data source to back it up. Step 3 addresses this by answering, for every indicator, what needs to be collected, what type of data is appropriate (primary or secondary), how it should be gathered, from whom, and at what point in time. Crucially, these decisions must be made early — before randomization begins — to ensure the evaluation is properly set up to measure what it intends to.</p>
-<hr>
-</section>
-</section>
-<section id="step-3-collect-appropriate-data" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-collect-appropriate-data">Step 3: Collect Appropriate Data</h2>
-<section id="first-order-decisions" class="level3">
-<h3 class="anchored" data-anchor-id="first-order-decisions">First-Order Decisions</h3>
-<p>Before any data collection begins, five fundamental questions need to be answered:</p>
-<ol type="1">
-<li>What do you need to measure?</li>
-<li>What type of data is needed to measure this?</li>
-<li>How should it be collected?</li>
-<li>Who should you collect it from?</li>
-<li>When should you collect it?</li>
-</ol>
+<p>Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programs and regions.</p>
+<p>Once indicators are defined, each one requires a concrete data source. The next step answers — for every indicator — what needs to be collected, what type of data is appropriate, how it should be gathered, from whom, and when. Crucially, all of these decisions must be made before the program launches and before randomization begins. Data collected as an afterthought rarely has the properties needed for a credible evaluation.</p>
+<div class="gold-panel">
+<p>Selecting the right indicators is easier when you can draw on a curated list of outcomes that have already been used in comparable firm-level impact evaluations. The <strong>EuroComp Lab Outcomes Bank</strong> provides a searchable reference of outcome indicators organised by topic — covering firm performance, innovation, R&amp;D, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability.</p>
+<p>For each outcome, the bank specifies: - A plain-language definition - The metric and unit of measurement - Whether primary survey data or administrative data is the most appropriate source</p>
 <blockquote class="blockquote">
-<p>Critically, these decisions must be made before the project starts — not after — as choices made too late can compromise the entire evaluation.</p>
+<p>📋 <strong><a href="./09-bank_outcomes.html">Browse the Outcomes Bank →</a></strong></p>
 </blockquote>
-<hr>
+<p>The bank is organised to mirror the topics covered in the Survey Question Bank on the companion page, making it straightforward to move from selecting an outcome to identifying the survey question that measures it.</p>
+</div>
 </section>
-<section id="what-do-you-need-to-measure" class="level3">
-<h3 class="anchored" data-anchor-id="what-do-you-need-to-measure">What Do You Need to Measure?</h3>
-<p>The main purpose of data collection is to test the assumptions embedded in the Theory of Change — which means gathering information at every step where the causal logic could break down. Beyond outcomes, it is important to capture covariates: background characteristics such as gender, location, or firm size that may explain why an intervention works differently for different groups. Decisions about how to account for these differences, through stratification for instance, should be made upfront. Compliance also needs to be tracked — understanding who actually took up the intervention, and why, is essential for interpreting results. Finally, the timing of data collection must reflect the different purposes it serves: baseline data, take-up information, and both intermediate and final outcome measures all require separate planning before the intervention begins.</p>
-<hr>
 </section>
-<section id="what-type-of-data-is-needed" class="level3">
-<h3 class="anchored" data-anchor-id="what-type-of-data-is-needed">What Type of Data Is Needed?</h3>
-<p>There are two broad types of data available to evaluators. Primary data is information collected directly from target respondents — such as individuals, research organizations, or firms — either by the organization itself or through contracted intermediaries. Secondary data, by contrast, draws on existing sources, particularly administrative records and data gathered by other organizations or government agencies. Both have distinct strengths and limitations, and the right choice depends on the specific needs of the evaluation.</p>
+<section id="step-3-choose-your-data-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-choose-your-data-strategy">Step 3: Choose Your Data Strategy</h2>
+<section id="the-fundamental-decision" class="level3">
+<h3 class="anchored" data-anchor-id="the-fundamental-decision">The Fundamental Decision</h3>
+<p>Before any fieldwork begins, the most consequential data decision is a strategic one: for each indicator in your evaluation framework, will you rely on <strong>primary data</strong> collected specifically for the evaluation, <strong>secondary data</strong> that already exists in administrative records, or a <strong>combination of both</strong>?</p>
+<p>This is not primarily a technical question — it is a practical and resource question that the Managing Authority and its evaluation team must answer together, ideally before the program is designed.</p>
+<p><strong>Primary data</strong> is information collected directly from target respondents — firms, individuals, or organisations — through surveys or interviews conducted specifically for the evaluation. It gives you control over exactly what is measured, but it takes time and money to collect, and it places a burden on beneficiaries.</p>
+<p><strong>Secondary data</strong> draws on records that already exist — national business registries, tax authority data, customs records, patent office databases, or the program’s own management information system. Secondary data is generally cheaper and covers larger samples, but it may not include the specific outcome variables needed for an evaluation and often comes with reporting lags or access restrictions.</p>
+<p>In practice, the most robust evaluations combine both: secondary administrative data provides the baseline and ensures broad coverage, while primary survey data captures the outcomes and mechanisms that administrative records do not contain. Deciding early which data sources will fill which role in the evaluation is essential — and it shapes every subsequent design choice.</p>
 <section id="comparison-of-primary-vs.-secondary-data" class="level4">
 <h4 class="anchored" data-anchor-id="comparison-of-primary-vs.-secondary-data">Comparison of Primary vs.&nbsp;Secondary Data</h4>
 <table class="caption-top table">
@@ -389,7 +332,7 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Reporting bias</td>
-<td>Less subject to reporting bias (potentially more accurate and reliable)</td>
+<td>Less subject to reporting bias</td>
 <td>May be subject to reporting bias</td>
 </tr>
 <tr class="even">
@@ -399,8 +342,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Timeliness</td>
-<td>Recently collected</td>
-<td>May have delays</td>
+<td>Collected when needed</td>
+<td>Often published with a delay</td>
 </tr>
 <tr class="even">
 <td>Cost</td>
@@ -429,42 +372,35 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="odd">
 <td>Access</td>
-<td>Generally easier</td>
+<td>Generally straightforward</td>
 <td>May require data-sharing agreements</td>
 </tr>
 <tr class="even">
 <td>Privacy</td>
-<td>Can be anonymized</td>
-<td>Personal data may not be anonymized</td>
+<td>Can be anonymised</td>
+<td>Personal data may not be anonymised</td>
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
 </section>
-<section id="how-should-data-be-collected" class="level3">
-<h3 class="anchored" data-anchor-id="how-should-data-be-collected">How Should Data Be Collected?</h3>
-<p>When collecting primary data, the method should be chosen based on what works best for the respondents and the context — whether that is an in-person survey, a phone interview, or an online questionnaire. Digital collection tools are preferable where possible, as they reduce errors and speed up processing. The instrument should always be piloted before full deployment, and quality controls should be built in throughout the process.</p>
-<p>For secondary and administrative data, the key is to identify the data owner as early as possible, since access negotiations and data-sharing agreements can take considerable time. Before committing to a source, its quality should be carefully assessed — checking for completeness, consistency, and clear variable definitions. GDPR compliance must also be confirmed before any data is transferred.</p>
-<p>Regardless of the data type, collection choices should be matched to the indicators and the Theory of Change. It is also worth noting that primary and secondary data can be combined — for example, using administrative records as a baseline and primary survey data for follow-up. Before investing in new data collection, teams should thoroughly assess what data already exists and whether it can serve the evaluation’s needs at lower cost.</p>
-<hr>
+<section id="assessing-what-you-already-have" class="level3">
+<h3 class="anchored" data-anchor-id="assessing-what-you-already-have">Assessing What You Already Have</h3>
+<p>Before commissioning a new survey, Managing Authorities should take stock of the administrative data they already hold or can access. Program management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.</p>
+<p>The key question is whether these sources contain — or can be linked to contain — the specific outcome variables in the evaluation framework. If a firm’s VAT number or national registration number is collected at application stage, it may be possible to link program records to tax or registry data using that identifier, enabling outcome measurement without any additional data collection burden on beneficiaries.</p>
 </section>
-<section id="who-should-you-collect-data-from" class="level3">
-<h3 class="anchored" data-anchor-id="who-should-you-collect-data-from">Who Should You Collect Data From?</h3>
-<p>For primary data, the goal is to reach respondents who are knowledgeable about the outcome of interest and have little reason to misreport. The choice of respondent should also match the unit of analysis: for firm-level interventions, for instance, a senior decision-maker such as a C-suite executive is typically the most appropriate source. It is also worth thinking carefully about who within an organisation actually benefits from the intervention — the firm as a whole, or a specific group such as R&amp;D staff — as this shapes who should be surveyed.</p>
-<p>For secondary and administrative data, the starting point is identifying which organisation or agency holds the most relevant records — whether that is a business registry, tax authority, customs office, or patent office. Where multiple sources are available, linking them through a common identifier such as a VAT number can produce a much richer picture.</p>
-<p>In both cases, the unit of data collection should align with the unit of randomization, and data should be collected from the same respondent or source at both baseline and endline to ensure results are comparable over time.</p>
-<hr>
+<section id="planning-data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="planning-data-collection">Planning Data Collection</h3>
+<p>Once the data strategy is set, detailed planning for each data collection activity should address the following:</p>
+<p><strong>What to collect</strong> should be driven strictly by the indicators in the ToC. Data collected for its own sake — without a clear link to an evaluation question — adds cost and respondent burden without adding analytical value.</p>
+<p><strong>Who to collect from</strong> should match the unit of analysis. For firm-level program, this typically means the firm itself, represented by a senior decision-maker who can speak reliably to strategic and financial outcomes. Where the program targets a specific group within the firm — such as R&amp;D staff or recently hired employees — those individuals may be the more appropriate respondents for certain questions.</p>
+<p><strong>When to collect</strong> must align with the evaluation timeline. Baseline data must be collected before the intervention begins. Endline data should be timed to when effects can realistically be expected to have materialised — too early, and real impacts may not yet be visible. Intermediate rounds may be needed to track progress along the Theory of Change.</p>
 </section>
-<section id="when-should-you-collect-data" class="level3">
-<h3 class="anchored" data-anchor-id="when-should-you-collect-data">When Should You Collect Data?</h3>
-<p>For primary data, baseline information must be collected before randomization and before the intervention begins. The timing of the endline should reflect when effects can realistically be expected to have materialised — collecting too early risks missing impacts that take time to emerge. Depending on the intervention, intermediate rounds of data collection may also be needed to track progress along the Theory of Change.</p>
-<p>For secondary and administrative data, pre-intervention records should be requested as early as possible to establish baseline trends. The frequency and timing of data transfers should be agreed with the data owner in advance, and reporting lags must be factored in — administrative data is often published with a delay. It is also important to be aware of the release calendar of administrative sources, as availability may be annual, quarterly, or irregular, which directly affects when meaningful analysis can be conducted.</p>
-<p>Across both data types, survey fatigue should be avoided by spacing out collection rounds and keeping each one as concise as possible. Teams should also be mindful of seasonality, steering clear of periods that could distort results such as fiscal year-ends or holiday periods. Finally, the timing of every data collection round should be documented to ensure transparency and reproducibility.</p>
-<hr>
+</section>
+<section id="for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys." class="level2">
+<h2 class="anchored" data-anchor-id="for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys.">For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: <strong><a href="./05-data.html">Data Collection: Surveys</a></strong>.</h2>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -877,25 +813,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><strong>EuroCOMP Lab</strong><br> Impact evaluation for competitive business support programmes<br> <span class="foot-note">Implemented with World Bank support</span></p>
-<!--
-  FUNDING STATEMENT: resolve before publishing.
-  If the Lab receives EU funding, the emblem and statement are required here.
-  Rules: emblem at least as prominent as any other logo, placed at a distance
-  from partner logos, statement set in Arial, minimum emblem height 1cm.
-  If the Lab does NOT receive EU funding, delete this block entirely.
-  Download the emblem from the Commission's visual identity page, save to
-  assets/eu-emblem.svg, then replace the placeholder below with:
-  ![Funded by the European Union](assets/eu-emblem.svg){.eu-mark}
--->
-<p><span class="mark-placeholder">EU emblem<br>placeholder</span></p>
+<p>EuroCOMP Lab powered by the World Bank Group</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="./legal-notice.html">Legal notice</a> &nbsp;·&nbsp; <a href="./privacy.html">Privacy statement</a> &nbsp;·&nbsp; <a href="./accessibility.html">Accessibility statement</a></p>
+<p>Draft site. Structure and content still under review by the team.</p>
 </div>
     <div class="nav-footer-right">
-<p>Last reviewed: August 2026</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

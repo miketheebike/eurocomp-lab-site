@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data – EuroCOMP Lab</title>
+<title>Data Collection: Surveys – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3f92d4712ab331a54f0877bdc929348a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4ecfd830e885132b5cacfdba077f588c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./04-toc.html"> 
-<span class="menu-text">Theory of Change</span></a>
+<span class="menu-text">Theory of Change and Measurement</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./05-data.html" aria-current="page"> 
@@ -125,6 +125,14 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./07-examples.html"> 
 <span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./08-bank_survey.html"> 
+<span class="menu-text">Bank of Survey Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./09-bank_outcomes.html"> 
+<span class="menu-text">Bank of Outcomes</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -142,20 +150,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#primary-data-collection-surveys" id="toc-primary-data-collection-surveys" class="nav-link active" data-scroll-target="#primary-data-collection-surveys">Primary Data Collection: Surveys</a>
-  <ul class="collapse">
-  <li><a href="#why-surveys-matter-for-evaluation" id="toc-why-surveys-matter-for-evaluation" class="nav-link" data-scroll-target="#why-surveys-matter-for-evaluation">Why Surveys Matter for Evaluation</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#why-surveys" id="toc-why-surveys" class="nav-link" data-scroll-target="#why-surveys">Why Surveys?</a></li>
   <li><a href="#paper-vs.-electronic-surveys" id="toc-paper-vs.-electronic-surveys" class="nav-link" data-scroll-target="#paper-vs.-electronic-surveys">Paper vs.&nbsp;Electronic Surveys</a></li>
-  <li><a href="#methods-of-electronic-data-collection" id="toc-methods-of-electronic-data-collection" class="nav-link" data-scroll-target="#methods-of-electronic-data-collection">Methods of Electronic Data Collection</a></li>
-  <li><a href="#how-to-design-surveys" id="toc-how-to-design-surveys" class="nav-link" data-scroll-target="#how-to-design-surveys">How to Design Surveys</a>
+  <li><a href="#choosing-a-collection-method" id="toc-choosing-a-collection-method" class="nav-link" data-scroll-target="#choosing-a-collection-method">Choosing a Collection Method</a></li>
+  <li><a href="#designing-the-survey" id="toc-designing-the-survey" class="nav-link" data-scroll-target="#designing-the-survey">Designing the Survey</a>
   <ul class="collapse">
-  <li><a href="#timing-of-surveys" id="toc-timing-of-surveys" class="nav-link" data-scroll-target="#timing-of-surveys">Timing of Surveys</a></li>
-  <li><a href="#who-to-collect-data-from" id="toc-who-to-collect-data-from" class="nav-link" data-scroll-target="#who-to-collect-data-from">Who to Collect Data From</a></li>
-  <li><a href="#survey-design" id="toc-survey-design" class="nav-link" data-scroll-target="#survey-design">Survey Design</a></li>
-  <li><a href="#questionnaire-design-good-practice" id="toc-questionnaire-design-good-practice" class="nav-link" data-scroll-target="#questionnaire-design-good-practice">Questionnaire Design: Good Practice</a></li>
+  <li><a href="#start-with-what-already-exists" id="toc-start-with-what-already-exists" class="nav-link" data-scroll-target="#start-with-what-already-exists">Start with What Already Exists</a></li>
+  <li><a href="#questionnaire-design" id="toc-questionnaire-design" class="nav-link" data-scroll-target="#questionnaire-design">Questionnaire Design</a></li>
+  <li><a href="#piloting-the-questionnaire" id="toc-piloting-the-questionnaire" class="nav-link" data-scroll-target="#piloting-the-questionnaire">Piloting the Questionnaire</a></li>
   </ul></li>
-  <li><a href="#data-protection-and-ethical-considerations" id="toc-data-protection-and-ethical-considerations" class="nav-link" data-scroll-target="#data-protection-and-ethical-considerations">Data Protection and Ethical Considerations</a></li>
+  <li><a href="#who-to-survey-and-when" id="toc-who-to-survey-and-when" class="nav-link" data-scroll-target="#who-to-survey-and-when">Who to Survey and When</a>
+  <ul class="collapse">
+  <li><a href="#choosing-the-right-respondent" id="toc-choosing-the-right-respondent" class="nav-link" data-scroll-target="#choosing-the-right-respondent">Choosing the Right Respondent</a></li>
+  <li><a href="#timing" id="toc-timing" class="nav-link" data-scroll-target="#timing">Timing</a></li>
   </ul></li>
+  <li><a href="#data-protection-and-gdpr-compliance" id="toc-data-protection-and-gdpr-compliance" class="nav-link" data-scroll-target="#data-protection-and-gdpr-compliance">Data Protection and GDPR Compliance</a></li>
   </ul>
 </nav>
     </div>
@@ -164,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data</h1>
+<h1 class="title">Data Collection: Surveys</h1>
 </div>
 
 
@@ -181,67 +191,163 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="primary-data-collection-surveys" class="level1">
-<h1>Primary Data Collection: Surveys</h1>
-<section id="why-surveys-matter-for-evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="why-surveys-matter-for-evaluation">Why Surveys Matter for Evaluation</h2>
-<p>Surveys are one of the most important tools available for collecting primary data in the context of impact evaluations. They make it possible to gather structured information directly from the people and organisations that an intervention is designed to help — whether that means understanding the needs of potential beneficiaries, uncovering barriers to take-up, or shedding light on how and why a programme is producing the results it does.</p>
-<p>A key strength of surveys is their efficiency. Rather than collecting information from every single person or organisation in a target population, surveys can be conducted on a carefully selected subset — known as a sample. Provided that sample is representative of the wider population, the findings can be generalised with confidence to all beneficiaries of a given instrument. For Managing Authorities overseeing large-scale programmes with thousands of beneficiaries, this makes surveys a practical and cost-effective way to generate credible evidence without the need for exhaustive data collection.</p>
-<p>For EU Managing Authorities in particular, surveys are also a valuable tool for meeting monitoring and evaluation obligations under EU Structural and Investment Fund regulations. They can complement administrative data — such as records held in programme management systems — by capturing information on outcomes and experiences that administrative sources simply do not record.</p>
+<p><em>How to design and implement a primary data collection exercise once your evaluation framework is in place.</em></p>
+<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This page picks up where the [<strong>Theory of Change and Measurement</strong>] page leaves off. Once a Managing Authority has defined its Theory of Change (ToC), selected its outcome indicators, and decided that primary data collection is needed, the practical question becomes: how do you actually go out and collect it?</p>
+<p>The answer, in most evaluation contexts, is a survey. This page explains what surveys are, why they are well-suited to the evaluation needs, and — most importantly — how to design and implement one well. It covers the choice of collection method, the design of the questionnaire, respondent selection, timing, and the legal obligations that apply under EU data protection law.</p>
+<hr>
+</section>
+<section id="why-surveys" class="level2">
+<h2 class="anchored" data-anchor-id="why-surveys">Why Surveys?</h2>
+<p>Surveys are the most widely used tool for collecting primary data in impact evaluations of public support programs. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that a program is designed to benefit — capturing precisely the outcomes and mechanisms that administrative records do not contain.</p>
+<p>A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset — known as a <strong>sample</strong> — and, provided that sample is representative, the findings can be generalised with confidence to the full population. For Managing Authorities overseeing programs with hundreds or thousands of beneficiaries, this makes surveys a practical and cost-effective route to credible evidence.</p>
+<p>For programs evaluating competitiveness and innovation outcomes — such as changes in firm-level R&amp;D investment, technology adoption, or export performance — surveys are often the only way to capture the intermediate outcomes that sit between a grant payment (recorded in program management systems) and a long-term productivity gain (visible, eventually, in national statistics). They are also essential for understanding <em>why</em> an intervention worked or did not, by measuring the mechanisms — changes in knowledge, capacity, or behaviour — that link the program’s activities to its results.</p>
 <hr>
 </section>
 <section id="paper-vs.-electronic-surveys" class="level2">
 <h2 class="anchored" data-anchor-id="paper-vs.-electronic-surveys">Paper vs.&nbsp;Electronic Surveys</h2>
-<p>Surveys can be conducted on paper or in electronic form. While paper-based surveys may be familiar and accessible in some contexts, electronic surveys offer significant advantages that make them the preferred choice in most evaluation settings today.</p>
-<p>Digital surveys allow for built-in data validation, such as mandatory fields, range checks, and logical constraints, which help ensure that only valid data is captured from the outset. This greatly reduces the risk of human errors that typically arise during manual data entry or when transferring information from paper forms into a database. Electronic data collection is also faster: responses can be recorded and processed in real time, eliminating the need for transcription. Once collected, digital data can be directly imported into statistical analysis software or monitoring platforms, making analysis and reporting considerably more straightforward.</p>
-<p>For Managing Authorities working within tight programme timelines and reporting deadlines, the efficiency gains from digital data collection are particularly valuable.</p>
+<p>Surveys can be conducted on paper or in electronic form. While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for program evaluations today and should be the default choice for Managing Authorities.</p>
+<p>Digital surveys offer substantial practical advantages. They allow for built-in data validation — mandatory fields, range checks, and logical skip patterns — which means that errors and inconsistencies are caught at the point of entry rather than discovered during analysis. They eliminate the transcription step entirely: responses flow directly into a dataset, ready for processing. They are faster to deploy, easier to monitor in real time, and considerably simpler to adapt if pilot testing reveals problems with specific questions.</p>
+<p>For Managing Authorities working within tight program timelines and reporting deadlines, the efficiency gains from digital collection are significant.</p>
 <hr>
 </section>
-<section id="methods-of-electronic-data-collection" class="level2">
-<h2 class="anchored" data-anchor-id="methods-of-electronic-data-collection">Methods of Electronic Data Collection</h2>
-<p>There are three main methods of electronic data collection, each suited to different contexts and target groups.</p>
-<p><strong>Computer-Assisted Telephone Interviewing (CATI)</strong> involves interviewers conducting surveys over the phone using a digital questionnaire displayed on their screen. This approach can reach respondents from a wide range of demographic groups and geographic locations relatively quickly, making it well-suited to large-scale data collection efforts. It is also an effective way to monitor how a policy is being implemented and to identify emerging issues in close to real time. For Managing Authorities seeking timely feedback on programme roll-out, CATI can be a practical option.</p>
-<p><strong>Computer-Assisted Personal Interviewing (CAPI)</strong> takes the form of face-to-face interviews conducted with the support of a tablet, laptop, or smartphone loaded with survey software. The main advantage of this method is the quality of the information it yields: the personal interaction between interviewer and respondent tends to produce more nuanced and accurate answers, particularly on complex or sensitive topics. The trade-offs are cost and the potential for interviewer influence — the presence of an interviewer can, in some cases, affect how respondents answer questions. CAPI is best reserved for situations where data quality is paramount and the budget allows for it.</p>
-<p><strong>Web surveys</strong> are questionnaires sent to respondents via the internet, inviting them to complete the survey at a time and pace that suits them. They are the most cost-effective option and can reach large numbers of people quickly. However, they carry a risk of response bias: individuals without reliable internet access, or those less comfortable with online tools, may be systematically excluded. Respondents with less time may also be less likely to complete the questionnaire. For EU programmes targeting specific business communities or research organisations — groups typically comfortable with online tools — web surveys are often a strong choice, but care should be taken to monitor response rates and the characteristics of those who do and do not respond.</p>
-<p>Choosing the right method is not simply a technical decision. It should be guided by who the target respondents are, what resources are available, and how sensitive or complex the questions being asked are.</p>
+<section id="choosing-a-collection-method" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-a-collection-method">Choosing a Collection Method</h2>
+<p>There is no single best method for electronic data collection. The right choice depends on who the respondents are, what the questions require, and what budget is available. Three methods are in common use:</p>
+<p><strong>Computer-Assisted Telephone Interviewing (CATI)</strong> involves trained interviewers conducting structured surveys over the phone, guided by a digital questionnaire on their screen. CATI can reach a broad range of respondents relatively quickly and is well-suited to situations where response rates need to be actively managed — interviewers can follow up with non-respondents and clarify questions in real time. It is also a practical option when beneficiary contact details (phone numbers) are already held in program management systems. The main limitations are cost, the need to recruit and train interviewers, and the constraint that surveys must be kept short enough to hold a respondent’s attention on the phone.</p>
+<p><strong>Computer-Assisted Personal Interviewing (CAPI)</strong> takes the form of face-to-face interviews conducted with the support of a tablet or laptop loaded with survey software. The key advantage is the quality of responses: the personal interaction between interviewer and respondent tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances, employment decisions, or the perceived impact of public support. CAPI is also effective when the questionnaire is long or complex. The trade-offs are cost — travel and interviewer time make CAPI the most expensive method — and the risk that the interviewer’s presence influences how respondents answer. This method is best reserved for situations where data quality is the overriding priority and the sample is relatively small and geographically concentrated.</p>
+<p><strong>Web surveys</strong> are questionnaires sent to respondents via email or embedded in an online platform, inviting them to complete the survey at a time and pace that suits them. They are the least expensive method and can be deployed quickly to large samples. For programs targeting SMEs, research organisations, or technology firms — populations that are generally comfortable with online tools — web surveys are often the most practical choice. The main risk is response bias: firms or individuals without reliable internet access, or those with less time available, may be less likely to respond, potentially skewing results. Response rates for unsolicited web surveys are also often low, so active follow-up is typically needed.</p>
+<p>In practice, methods can be combined. A common approach is to begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for specific subgroups where richer qualitative detail is needed.</p>
 <hr>
 </section>
-<section id="how-to-design-surveys" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-design-surveys">How to Design Surveys</h2>
-<section id="timing-of-surveys" class="level3">
-<h3 class="anchored" data-anchor-id="timing-of-surveys">Timing of Surveys</h3>
-<p>The timing of a survey has a significant bearing on the quality and completeness of the data collected. At the most basic level, surveys should be scheduled to reach respondents when they are most likely to be available and willing to engage. For surveys targeting firm employees, standard working hours — broadly between 9am and 5pm — are generally the most effective window. Phone or in-person surveys conducted outside working hours are less likely to reach the right contacts and may achieve lower response rates.</p>
-<p>The time of year matters just as much. In many European countries, August is a period of reduced business activity due to summer holidays, making it a poor time to conduct surveys with firms or public organisations. Similarly, the end of the financial year is often a particularly busy period for companies, which can make it difficult to secure the attention of senior staff. For Managing Authorities, it is also worth aligning survey timing with key milestones in the programme cycle — for example, conducting a baseline survey before an intervention begins and an endline survey after it has concluded — so that changes in outcomes can be properly attributed to the programme.</p>
+<section id="designing-the-survey" class="level2">
+<h2 class="anchored" data-anchor-id="designing-the-survey">Designing the Survey</h2>
+<section id="start-with-what-already-exists" class="level3">
+<h3 class="anchored" data-anchor-id="start-with-what-already-exists">Start with What Already Exists</h3>
+<p>Before writing a single question, Managing Authorities and their evaluation teams should review existing, validated survey instruments. Using questions that have already been tested and used in comparable evaluations saves time, improves data quality, and — critically — makes findings comparable with evidence from other programs and regions. Relevant reference sources include:</p>
+<ul>
+<li>The <strong><a href="https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey">Community Innovation Survey (CIS)</a></strong>, which provides the standard EU framework for measuring innovation activity in firms and is used across all member states</li>
+<li>The <strong><a href="https://microdata.worldbank.org/collections/fat">Firms Adoption of Technology Survey (FAT)</a></strong>, a World Bank instrument covering how firms adopt, use, and benefit from technologies across sectors</li>
+<li>The <strong><a href="https://espanol.enterprisesurveys.org/en/enterprisesurveys">World Bank Enterprise Surveys (WBES)</a></strong>, which cover a wide range of firm-level outcomes including investment, productivity, and the business environment</li>
+<li>The <strong><a href="https://worldmanagementsurvey.org/">World Management Survey (WMS)</a></strong>, which measures the quality of management practices across firms and countries and has been shown to be a strong predictor of firm productivity and innovation</li>
+<li>The <strong><a href="https://europa.eu/eurobarometer/surveys/detail/2442">Flash Eurobarometer on SME Digitalisation</a></strong>, which tracks digital technology adoption, online sales, and digital skills across EU member states</li>
+<li>The <strong><a href="https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html">ECB Survey on Access to Finance of Enterprises (SAFE)</a></strong>, which monitors financing conditions and constraints for SMEs across the euro area</li>
+<li>The <strong>OECD Oslo Manual</strong>, which defines innovation concepts and measurement approaches in a way that is consistent across countries</li>
+<li>Survey instruments used in published evaluations of comparable ERDF or ESF+ programs in other regions or member states</li>
+</ul>
+<hr>
+<div class="gold-panel">
+<p>To make this process as practical as possible, the EuroComp Lab has compiled a <strong>Survey Question Bank</strong> — a ready-to-use library of validated questions drawn from the Community Innovation Survey (CIS), the World Bank Firms Adoption of Technology (FAT) Survey, the World Bank Enterprise Surveys, the World Management Survey (WMS), and the Flash Eurobarometer on SME Digitalisation, among others.</p>
+<p>Questions are organised into ten topics:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Topic</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1. Company details</td>
+<td>Sector, size, turnover, location, year of establishment</td>
+</tr>
+<tr class="even">
+<td>2. Respondent contact details</td>
+<td>Role, seniority, contact information</td>
+</tr>
+<tr class="odd">
+<td>3. Company structure and ownership</td>
+<td>Group membership, ownership type, governance</td>
+</tr>
+<tr class="even">
+<td>4. Financial performance</td>
+<td>Turnover, value added, investment, export share</td>
+</tr>
+<tr class="odd">
+<td>5. Collaboration</td>
+<td>Partners, knowledge sources, network participation</td>
+</tr>
+<tr class="even">
+<td>6. Technology adoption</td>
+<td>Technologies in use, adoption drivers and barriers</td>
+</tr>
+<tr class="odd">
+<td>7. Digitalisation</td>
+<td>Digital tools, online sales, digital skills, investment</td>
+</tr>
+<tr class="even">
+<td>8. Innovation and R&amp;D activities</td>
+<td>Product, process, organisational and marketing innovation; R&amp;D engagement, expenditure, staffing, outputs</td>
+</tr>
+<tr class="odd">
+<td>9. Intellectual property</td>
+<td>Patents, trademarks, licensing, informal protection</td>
+</tr>
+<tr class="even">
+<td>10. Technology Readiness Level</td>
+<td>TRL self-assessment</td>
+</tr>
+</tbody>
+</table>
+<p>For each question the bank provides the question text ready to copy-paste, the response options, and the source survey it is drawn from.</p>
+<blockquote class="blockquote">
+<p>📋 <strong><a href="./08-bank_survey.html">Browse the Survey Question Bank →</a></strong></p>
+</blockquote>
+</div>
+<p>Where program-specific questions need to be developed — for example, to capture the specific features of a regional grant scheme — they should be designed to complement rather than replace validated instruments.</p>
 </section>
-<section id="who-to-collect-data-from" class="level3">
-<h3 class="anchored" data-anchor-id="who-to-collect-data-from">Who to Collect Data From</h3>
-<p>Identifying the right respondent is just as important as asking the right questions. The ideal respondent is someone who is well-informed about the behaviour or outcome the evaluation is trying to measure, has a reliable incentive to answer honestly, and can be reached without undue difficulty.</p>
-<p>For surveys targeting businesses — a common scenario in EU competitiveness and innovation programmes — this typically means seeking out a senior decision-maker, such as a CEO, CFO, or another member of the executive team. Senior managers are generally the most knowledgeable about strategic decisions, investment choices, and the overall performance of the firm. They also tend to have a more complete view of how the organisation has benefited from an intervention.</p>
-<p>It is also important to think carefully about who within an organisation is most directly affected by the programme being evaluated. If an intervention targeted a specific group — such as researchers in an R&amp;D department, or employees who received training — then those individuals may be better placed to answer certain questions than a general manager. The choice of respondent should ultimately be guided by the unit of analysis and the specific outcomes being measured.</p>
+<section id="questionnaire-design" class="level3">
+<h3 class="anchored" data-anchor-id="questionnaire-design">Questionnaire Design</h3>
+<p>A good questionnaire is clear, concise, and purposeful. Every question should have a direct link to an indicator in the ToC. Questions included for general interest, or because the data might be useful someday, add burden for respondents without adding analytical value and should be removed.</p>
+<p>Questions should address only one idea at a time. So-called double-barrelled questions — which ask about two things simultaneously, such as “Did the grant improve your firm’s R&amp;D capacity and export performance?” — make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions that steer respondents towards a particular answer undermine the reliability of the data and should be eliminated during the review process.</p>
+<p>Response scales — such as Likert scales or numerical ratings — should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions — such as those about turnover, profitability, or employment figures — are best placed towards the end, once some rapport has been established with the respondent.</p>
+<p>Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly. Ambiguity about whether turnover should be reported in thousands or millions of euros, whether employment refers to full-time equivalents or headcount, or whether “last year” means the calendar year or the most recent financial year leads to inconsistent responses that are difficult to clean and compare. Each such question should state the currency (e.g., €), the unit of magnitude (e.g., full-time equivalents, thousands of euros), and the exact time reference (e.g., “in the last financial year, ending [month]”) directly in the question text or as a visible instruction above the response field.</p>
+<p>Where surveys are to be conducted in multiple languages — a common situation for programs operating across linguistically diverse regions, or for evaluations coordinated across member states — the questionnaire should be professionally translated and then back-translated into the original language to verify that meaning has been preserved accurately.</p>
 </section>
-<section id="survey-design" class="level3">
-<h3 class="anchored" data-anchor-id="survey-design">Survey Design</h3>
-<p>Good survey design balances thoroughness with brevity. Completing a survey takes time and effort on the part of the respondent, and overly long or complex questionnaires lead to lower response rates, higher drop-off mid-survey, and less reliable answers. The goal is to collect exactly the information needed — no more, no less — in a way that is as clear and engaging as possible.</p>
-<p>Evaluators should focus on digital data collection as the default approach and give careful thought to the types of questions used, the overall length of the questionnaire, and the sequencing of topics. It is also important to decide early on whether the evaluation requires only an endline survey or a baseline survey conducted before the intervention begins as well. Baseline and endline surveys serve different purposes and differ in structure: the baseline captures the situation before the intervention and establishes a point of comparison, while the endline measures what has changed. For Managing Authorities aiming to demonstrate programme impact, having a well-designed baseline is particularly valuable, as it makes it far easier to attribute observed changes to the intervention itself rather than to external factors.</p>
-</section>
-<section id="questionnaire-design-good-practice" class="level3">
-<h3 class="anchored" data-anchor-id="questionnaire-design-good-practice">Questionnaire Design: Good Practice</h3>
-<p>The starting point for questionnaire design should always be existing, validated instruments. Drawing on questions that have already been tested and used in similar evaluations — such as those found in the Community Innovation Survey (CIS) or the World Bank Enterprise Surveys — saves time and improves comparability with other studies. Where possible, Managing Authorities should consult an evidence base of existing survey tools before developing new questions from scratch.</p>
-<p>Questions should be clear, specific, and neutral in their wording. Each question should address only one idea at a time — so-called “double-barrelled” questions, which ask about two things simultaneously, make it impossible for respondents to give an accurate answer and should always be avoided. Leading questions, which subtly steer the respondent towards a particular answer, undermine the reliability of the data and should be eliminated during the review process.</p>
-<p>Response scales — such as Likert scales or rating systems — should be consistent throughout the questionnaire and clearly labelled so that respondents understand exactly what each option means. Questions should be ordered in a logical flow that feels natural to the respondent, moving from general to specific topics. Sensitive questions, such as those about financial performance or employment decisions, are best placed towards the end of the questionnaire, once some rapport has been established.</p>
-<p>Where the survey is to be conducted in multiple languages — a common situation for EU programmes operating across different member states or regions — the questionnaire should be professionally translated and then back-translated into the original language to verify that the meaning has been preserved accurately.</p>
-<p>Finally, no questionnaire should go into the field without first being piloted with a small group of respondents who are representative of the target population. A pilot test reveals ambiguous wording, poorly calibrated response options, technical issues in digital forms, and questions that take too long to answer. The questionnaire should be revised based on the results of the pilot before full deployment begins.</p>
+<section id="piloting-the-questionnaire" class="level3">
+<h3 class="anchored" data-anchor-id="piloting-the-questionnaire">Piloting the Questionnaire</h3>
+<p>No questionnaire should go into the field without first being tested. A <strong>pilot survey</strong> — conducted with a small group of respondents representative of the target population — reveals problems that are not visible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment begins. Skipping the pilot to save time almost always costs more in the long run, through lower data quality and the need for analytical workarounds.</p>
 <hr>
 </section>
 </section>
-<section id="data-protection-and-ethical-considerations" class="level2">
-<h2 class="anchored" data-anchor-id="data-protection-and-ethical-considerations">Data Protection and Ethical Considerations</h2>
-<p>For EU Managing Authorities, data protection is not optional — it is a legal obligation. Any survey that collects personal data from individuals or information that could be used to identify specific organisations must comply with the General Data Protection Regulation (GDPR). This means that respondents must be clearly informed about how their data will be used, stored, and protected, and must give their consent before participating. Survey responses should be anonymised or pseudonymised wherever possible, and access to identifiable data should be restricted to authorised personnel only.</p>
-<p>Beyond legal compliance, ethical data collection also builds trust with respondents. Beneficiaries who feel their information is being handled responsibly are more likely to participate and to answer honestly, which ultimately improves the quality of the evaluation.</p>
+<section id="who-to-survey-and-when" class="level2">
+<h2 class="anchored" data-anchor-id="who-to-survey-and-when">Who to Survey and When</h2>
+<section id="choosing-the-right-respondent" class="level3">
+<h3 class="anchored" data-anchor-id="choosing-the-right-respondent">Choosing the Right Respondent</h3>
+<p>The reliability of survey data depends heavily on asking the right person. The ideal respondent is someone who is knowledgeable about the outcome of interest, has little incentive to misreport, and can be reached without excessive difficulty.</p>
+<p>For surveys targeting businesses — the most common scenario in competitiveness and innovation programs — this typically means a <strong>senior decision-maker</strong>: a CEO, CFO, or equivalent executive who has oversight of the firm’s strategic and financial decisions. Senior managers are best placed to speak to questions about investment, employment, and innovation strategy. They are also more likely to be aware of how and whether the program has influenced the firm’s trajectory.</p>
+<p>That said, the right respondent depends on what is being measured. If the evaluation is focused on the experience of R&amp;D personnel, or on the take-up of training by specific staff groups, those individuals may be better placed to answer certain questions than a general manager. Where possible, the respondent should be the same person at baseline and endline, to ensure that differences in answers reflect real changes rather than differences between respondents.</p>
+</section>
+<section id="timing" class="level3">
+<h3 class="anchored" data-anchor-id="timing">Timing</h3>
+<p>The timing of a survey significantly affects the quality of data collected. At the operational level, surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries, due to summer holidays. The end of the financial year is also problematic, as finance teams are typically occupied with closing accounts and reporting obligations.</p>
+<p>At the evaluation design level, the timing of surveys must be tied to the program timeline. A <strong>baseline survey</strong> must be completed before the intervention begins — and, where possible, before firms even know whether they will receive support — to avoid any contamination of pre-intervention data. The <strong>endline survey</strong> should be timed to when effects can realistically be expected to have materialised: too soon after the intervention ends, and genuine impacts may not yet be visible. Depending on the intervention, one or more <strong>intermediate surveys</strong> may also be needed to track progress along the ToC and to monitor compliance and take-up.</p>
+<p>Managing Authorities should also be mindful of <strong>survey fatigue</strong>. Beneficiaries who are contacted repeatedly for monitoring and evaluation purposes may become less willing to participate, reducing response rates and data quality over time. Coordinating across different data collection exercises — and keeping each survey as concise as the evaluation objectives allow — helps manage this risk.</p>
+<hr>
+</section>
+</section>
+<section id="data-protection-and-gdpr-compliance" class="level2">
+<h2 class="anchored" data-anchor-id="data-protection-and-gdpr-compliance">Data Protection and GDPR Compliance</h2>
+<p>For EU Managing Authorities, compliance with the <strong>General Data Protection Regulation (GDPR)</strong> is not optional — it is a legal obligation that applies to any data collection exercise involving personal data or information that could be used to identify individual firms or persons.</p>
+<p>In practice, this means that before any survey goes into the field, the following must be in place:</p>
+<ul>
+<li>A clear <strong>legal basis</strong> for processing personal data (typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents)</li>
+<li>An <strong>informed consent</strong> process: respondents must be clearly told how their data will be used, how long it will be retained, and who will have access to it, before they agree to participate</li>
+<li><strong>Anonymisation or pseudonymisation</strong> of responses wherever possible, so that published results cannot be traced back to individual respondents or firms</li>
+<li>Appropriate <strong>data security measures</strong>, including restricted access to identifiable data</li>
+<li>A <strong>data protection impact assessment (DPIA)</strong>, where the scale or sensitivity of the data collection warrants it</li>
+</ul>
+<p>Managing Authorities should involve their data protection officer early in the evaluation design process — not as a final approval step, but as part of the initial planning. Data sharing agreements with third-party survey firms or external evaluators must also address GDPR requirements explicitly.</p>
+<p>Beyond legal compliance, handling data responsibly also builds trust with beneficiaries. Firms and individuals who feel their information is being treated with care are more likely to participate in surveys and to answer honestly — which directly improves the quality of the evidence the evaluation produces.</p>
 <hr>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -654,25 +760,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><strong>EuroCOMP Lab</strong><br> Impact evaluation for competitive business support programmes<br> <span class="foot-note">Implemented with World Bank support</span></p>
-<!--
-  FUNDING STATEMENT: resolve before publishing.
-  If the Lab receives EU funding, the emblem and statement are required here.
-  Rules: emblem at least as prominent as any other logo, placed at a distance
-  from partner logos, statement set in Arial, minimum emblem height 1cm.
-  If the Lab does NOT receive EU funding, delete this block entirely.
-  Download the emblem from the Commission's visual identity page, save to
-  assets/eu-emblem.svg, then replace the placeholder below with:
-  ![Funded by the European Union](assets/eu-emblem.svg){.eu-mark}
--->
-<p><span class="mark-placeholder">EU emblem<br>placeholder</span></p>
+<p>EuroCOMP Lab powered by the World Bank Group</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="./legal-notice.html">Legal notice</a> &nbsp;·&nbsp; <a href="./privacy.html">Privacy statement</a> &nbsp;·&nbsp; <a href="./accessibility.html">Accessibility statement</a></p>
+<p>Draft site. Structure and content still under review by the team.</p>
 </div>
     <div class="nav-footer-right">
-<p>Last reviewed: August 2026</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 

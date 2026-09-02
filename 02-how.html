@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3f92d4712ab331a54f0877bdc929348a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4ecfd830e885132b5cacfdba077f588c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./04-toc.html"> 
-<span class="menu-text">Theory of Change</span></a>
+<span class="menu-text">Theory of Change and Measurement</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./05-data.html"> 
@@ -125,6 +125,14 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="./07-examples.html"> 
 <span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./08-bank_survey.html"> 
+<span class="menu-text">Bank of Survey Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./09-bank_outcomes.html"> 
+<span class="menu-text">Bank of Outcomes</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -142,29 +150,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-running-example-smart-romania" id="toc-the-running-example-smart-romania" class="nav-link active" data-scroll-target="#the-running-example-smart-romania">The running example: SMART Romania</a>
+  <li><a href="#randomisation-must-be-designed-in-from-the-start" id="toc-randomisation-must-be-designed-in-from-the-start" class="nav-link active" data-scroll-target="#randomisation-must-be-designed-in-from-the-start">Randomisation must be designed in from the start</a></li>
+  <li><a href="#choosing-the-group-size" id="toc-choosing-the-group-size" class="nav-link" data-scroll-target="#choosing-the-group-size">Choosing the group size</a>
   <ul class="collapse">
-  <li><a href="#from-application-to-evidence" id="toc-from-application-to-evidence" class="nav-link" data-scroll-target="#from-application-to-evidence">From application to evidence</a></li>
+  <li><a href="#two-ways-to-increase-your-sample" id="toc-two-ways-to-increase-your-sample" class="nav-link" data-scroll-target="#two-ways-to-increase-your-sample">Two ways to increase your sample</a></li>
   </ul></li>
-  <li><a href="#randomization-has-to-be-designed-into-your-programme-from-the-start" id="toc-randomization-has-to-be-designed-into-your-programme-from-the-start" class="nav-link" data-scroll-target="#randomization-has-to-be-designed-into-your-programme-from-the-start">Randomization has to be designed into your programme from the start</a></li>
-  <li><a href="#building-the-eligible-pool" id="toc-building-the-eligible-pool" class="nav-link" data-scroll-target="#building-the-eligible-pool">Building the eligible pool</a></li>
-  <li><a href="#how-many-firms-do-i-need" id="toc-how-many-firms-do-i-need" class="nav-link" data-scroll-target="#how-many-firms-do-i-need">How many firms do I need?</a></li>
-  <li><a href="#how-the-lottery-worked" id="toc-how-the-lottery-worked" class="nav-link" data-scroll-target="#how-the-lottery-worked">How the lottery worked</a></li>
-  <li><a href="#public-draw-or-private-draw" id="toc-public-draw-or-private-draw" class="nav-link" data-scroll-target="#public-draw-or-private-draw">Public draw or private draw?</a></li>
+  <li><a href="#five-practical-ways-to-randomise-your-programme" id="toc-five-practical-ways-to-randomise-your-programme" class="nav-link" data-scroll-target="#five-practical-ways-to-randomise-your-programme">Five practical ways to randomise your programme</a></li>
+  <li><a href="#running-a-lottery-transparency-vs.-behavioural-responses" id="toc-running-a-lottery-transparency-vs.-behavioural-responses" class="nav-link" data-scroll-target="#running-a-lottery-transparency-vs.-behavioural-responses">Running a lottery: transparency vs.&nbsp;behavioural responses</a></li>
   <li><a href="#narrowing-the-pool-a-lottery-around-a-cutoff" id="toc-narrowing-the-pool-a-lottery-around-a-cutoff" class="nav-link" data-scroll-target="#narrowing-the-pool-a-lottery-around-a-cutoff">Narrowing the pool: a lottery around a cutoff</a></li>
-  <li><a href="#why-a-lottery" id="toc-why-a-lottery" class="nav-link" data-scroll-target="#why-a-lottery">Why a lottery?</a></li>
-  <li><a href="#what-happens-after-the-lottery" id="toc-what-happens-after-the-lottery" class="nav-link" data-scroll-target="#what-happens-after-the-lottery">What happens after the lottery?</a></li>
-  <li><a href="#measuring-the-programmes-impact" id="toc-measuring-the-programmes-impact" class="nav-link" data-scroll-target="#measuring-the-programmes-impact">Measuring the programme’s impact</a></li>
-  <li><a href="#why-randomize" id="toc-why-randomize" class="nav-link" data-scroll-target="#why-randomize">Why randomize?</a></li>
-  <li><a href="#five-practical-ways-to-randomize-your-programme" id="toc-five-practical-ways-to-randomize-your-programme" class="nav-link" data-scroll-target="#five-practical-ways-to-randomize-your-programme">Five practical ways to randomize your programme</a>
-  <ul class="collapse">
-  <li><a href="#multiple-treatment-arms" id="toc-multiple-treatment-arms" class="nav-link" data-scroll-target="#multiple-treatment-arms">Multiple treatment arms</a></li>
-  <li><a href="#randomized-phase-in" id="toc-randomized-phase-in" class="nav-link" data-scroll-target="#randomized-phase-in">Randomized phase-in</a></li>
-  <li><a href="#randomized-intensities" id="toc-randomized-intensities" class="nav-link" data-scroll-target="#randomized-intensities">Randomized intensities</a></li>
-  <li><a href="#encouragement-design" id="toc-encouragement-design" class="nav-link" data-scroll-target="#encouragement-design">Encouragement design</a></li>
-  </ul></li>
+  <li><a href="#rule-based-scoring-beats-judgment-based-scoring" id="toc-rule-based-scoring-beats-judgment-based-scoring" class="nav-link" data-scroll-target="#rule-based-scoring-beats-judgment-based-scoring">Rule-based scoring beats judgment-based scoring</a></li>
+  <li><a href="#multiple-treatment-arms-testing-programme-versions" id="toc-multiple-treatment-arms-testing-programme-versions" class="nav-link" data-scroll-target="#multiple-treatment-arms-testing-programme-versions">Multiple treatment arms: testing programme versions</a></li>
+  <li><a href="#randomised-phase-in-everyone-gets-it-just-not-at-once" id="toc-randomised-phase-in-everyone-gets-it-just-not-at-once" class="nav-link" data-scroll-target="#randomised-phase-in-everyone-gets-it-just-not-at-once">Randomised phase-in: everyone gets it, just not at once</a></li>
+  <li><a href="#randomised-intensities-varying-how-much-firms-get" id="toc-randomised-intensities-varying-how-much-firms-get" class="nav-link" data-scroll-target="#randomised-intensities-varying-how-much-firms-get">Randomised intensities: varying how much firms get</a></li>
+  <li><a href="#facing-low-take-up-randomise-the-encouragement" id="toc-facing-low-take-up-randomise-the-encouragement" class="nav-link" data-scroll-target="#facing-low-take-up-randomise-the-encouragement">Facing low take-up? Randomise the encouragement</a></li>
   <li><a href="#case-studies" id="toc-case-studies" class="nav-link" data-scroll-target="#case-studies">Case studies</a></li>
-  <li><a href="#the-whole-thing-end-to-end" id="toc-the-whole-thing-end-to-end" class="nav-link" data-scroll-target="#the-whole-thing-end-to-end">The whole thing, end to end</a></li>
+  <li><a href="#still-not-convinced-more-arguments-for-randomising" id="toc-still-not-convinced-more-arguments-for-randomising" class="nav-link" data-scroll-target="#still-not-convinced-more-arguments-for-randomising">Still not convinced? More arguments for randomising</a></li>
   </ul>
 </nav>
     </div>
@@ -190,37 +190,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="lede">
-<p>Setting up an RCT, told through one real project. When demand exceeds available funding, the selection process becomes an opportunity to learn.</p>
-</div>
-<div class="tracker"><span class="on">Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
-<section id="the-running-example-smart-romania" class="level2">
-<h2 class="anchored" data-anchor-id="the-running-example-smart-romania">The running example: SMART Romania</h2>
-<p>EU-funded grants of EUR 15,000 to 100,000 for digital tools, equipment, and services.</p>
-<div class="facts">
-  <div><div class="k">The programme</div><div class="v">Digitalization grants for micro, small and medium enterprises</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania, run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
-  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
-  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
-</div>
-<section id="from-application-to-evidence" class="level3">
-<h3 class="anchored" data-anchor-id="from-application-to-evidence">From application to evidence</h3>
-<div class="flow">
-  <div>Application survey</div>
-  <div>Lottery</div>
-  <div>Digitalization grants</div>
-  <div>Follow-up surveys</div>
-  <div>Impact evaluation</div>
-</div>
-<div class="team-note">
-<p><strong>Source</strong> All facts from the baseline report, “Foundational Digital Market Transformation: An RCT in North-East Romania” (World Bank, 2024). Still to confirm: the treatment and control split, and the follow-up survey timeline.</p>
-</div>
-</section>
-</section>
-<section id="randomization-has-to-be-designed-into-your-programme-from-the-start" class="level2">
-<h2 class="anchored" data-anchor-id="randomization-has-to-be-designed-into-your-programme-from-the-start">Randomization has to be designed into your programme from the start</h2>
+<section id="randomisation-must-be-designed-in-from-the-start" class="level2">
+<h2 class="anchored" data-anchor-id="randomisation-must-be-designed-in-from-the-start">Randomisation must be designed in from the start</h2>
 <p>An RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Timeline showing programme areas, eligibility, random selection, monitoring and impact measurement across ex-ante and ex-post periods">
@@ -275,245 +246,40 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 <figcaption>Everything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.</figcaption>
 </figure>
-<div class="tracker"><span>Policy question</span><span class="sep">›</span><span class="on">Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
-</section>
-<section id="building-the-eligible-pool" class="level2">
-<h2 class="anchored" data-anchor-id="building-the-eligible-pool">Building the eligible pool</h2>
+<div class="example romania">
+<p><span class="tag">SMART Romania: building the eligibility pool</span></p>
 <div class="flow">
-  <div>Outreach<br><span style="font-weight:400;color:var(--dg-ink-soft)">Social media, radio, and events in 20+ cities</span></div>
-  <div>Online applications<br><span style="font-weight:400;color:var(--dg-ink-soft)">About one hour to complete</span></div>
-  <div>Automatic screening<br><span style="font-weight:400;color:var(--dg-ink-soft)">Stops as soon as a criterion fails</span></div>
-  <div style="background:var(--dg-accent);border-color:var(--dg-accent)">1,038<br><span style="font-weight:400">eligible MSMEs</span></div>
+  <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
+  <div>Online applications<br><span style="font-weight:400;color:#6B6455">About one hour to complete</span></div>
+  <div>Automatic screening<br><span style="font-weight:400;color:#6B6455">Stops as soon as a criterion fails</span></div>
+  <div style="background:#F2C94C;border-color:#F2C94C">1&nbsp;038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
 </div>
-<div class="takeaway">
-<p>In SMART Romania, one survey did three jobs: application, eligibility check, and baseline data collection, all in a single step.</p>
+<p>In SMART Romania, one survey did three jobs: application, eligibility check, and baseline data collection, all in a single step. In October 2023, 519 of the eligible firms were then randomly selected for funding, and 519 were not.</p>
 </div>
 </section>
-<section id="how-many-firms-do-i-need" class="level2">
-<h2 class="anchored" data-anchor-id="how-many-firms-do-i-need">How many firms do I need?</h2>
-<p>Once you know who is eligible, the next question is whether enough firms are available to measure an impact. Three things determine the answer.</p>
+<section id="choosing-the-group-size" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-the-group-size">Choosing the group size</h2>
+<p>To detect the impact of a programme, you need enough firms in both the treatment and comparison groups to reliably tell a real effect apart from the ordinary differences between firms. Statisticians call this statistical power: with too few firms, even a programme that works can appear not to. The smaller the effect you want to detect, the more firms you need. Rules of thumb and power calculations are covered in <a href="./03-advanced-how.html">Advanced How</a>.</p>
+<section id="two-ways-to-increase-your-sample" class="level3">
+<h3 class="anchored" data-anchor-id="two-ways-to-increase-your-sample">Two ways to increase your sample</h3>
 <div class="cards">
-<section id="expected-impact" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="expected-impact">Expected impact</h4>
-<p>The smaller the effect you expect, the more firms you need to detect it.</p>
+<section id="loosen-the-eligibility-bar" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="loosen-the-eligibility-bar">Loosen the eligibility bar</h4>
+<p>If fewer firms qualify than you’d like, lowering the eligibility threshold lets more firms into the pool you randomise from.</p>
 </section>
-<section id="desired-precision" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="desired-precision">Desired precision</h4>
-<p>More certainty about the answer requires more observations.</p>
-</section>
-<section id="budget-and-capacity" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="budget-and-capacity">Budget and capacity</h4>
-<p>Every firm in the study needs support, monitoring, and surveys.</p>
+<section id="widen-the-ranking-bins" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="widen-the-ranking-bins">Widen the ranking bins</h4>
+<p>If you’re ranking firms by a score, don’t treat the ranking as exact. Group similarly-scored firms into bands, and treat everyone in a band as equally eligible, so more firms end up in the randomised pool rather than being decided by their exact rank.</p>
 </section>
 </div>
 <div class="takeaway">
-<p>Pool too small? Loosen the eligibility bar, or widen the ranking bins.</p>
-</div>
-<div class="case-band"><b>SMART Romania</b><span>✓ 1,038 eligible firms in the pool</span><span>✓ Built through outreach in 20+ cities</span></div>
-<p>Rules of thumb and power calculations are covered in <a href="./03-advanced-how.html">Advanced How</a>.</p>
-<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span class="on">Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
-</section>
-<section id="how-the-lottery-worked" class="level2">
-<h2 class="anchored" data-anchor-id="how-the-lottery-worked">How the lottery worked</h2>
-<p>With 1,038 firms in the pool and grants for only some, SMART Romania needed a fair way to choose.</p>
-<figure class="fig-e figure">
-<svg viewbox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
-  <rect x="10" y="76" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="85" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="20" font-weight="bold">1,038</text>
-  <text x="85" y="124" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">eligible firms</text>
-
-  <path d="M160 109 H210" stroke="var(--dg-line)" stroke-width="1.5"></path>
-
-  <rect x="210" y="76" width="160" height="66" rx="6" fill="var(--dg-accent)"></rect>
-  <text x="290" y="102" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
-  <text x="290" y="121" text-anchor="middle" fill="var(--dg-ink)" font-size="11">every firm, the same chance</text>
-
-  <path d="M370 109 H400 V44 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-  <path d="M370 109 H400 V174 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-
-  <rect x="430" y="20" width="240" height="50" rx="6" fill="var(--dg-accent)"></rect>
-  <text x="446" y="41" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Treatment group</text>
-  <text x="446" y="58" fill="var(--dg-ink)" font-size="11">Grants of EUR 15,000 to 100,000</text>
-
-  <rect x="430" y="150" width="240" height="50" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="446" y="171" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Comparison group</text>
-  <text x="446" y="188" fill="var(--dg-ink-soft)" font-size="11">No grant; surveyed the same way</text>
-</svg>
-</figure>
-<div class="takeaway">
-<p>In SMART Romania, the draw, and nothing else, decided which firms received support.</p>
-</div>
-<div class="team-note">
-<p><strong>To confirm</strong> Exact treatment and control split, and whether the draw was public or computerized.</p>
+<p>A bigger pool also gives you room to test more than one version of the programme at once – more on that under Multiple treatment arms, below.</p>
 </div>
 </section>
-<section id="public-draw-or-private-draw" class="level2">
-<h2 class="anchored" data-anchor-id="public-draw-or-private-draw">Public draw or private draw?</h2>
-<div class="compare">
-<div class="col-e">
-<div class="col-head">
-<p>Public lottery</p>
-</div>
-<div class="body">
-<p>A public draw, for example pulling names from a hat.</p>
-<p><strong>Advantage:</strong> transparent and fair.</p>
-<p><strong>Disadvantage:</strong> the comparison group may change its behaviour once it knows the result.</p>
-</div>
-</div>
-<div class="col-e">
-<div class="col-head">
-<p>Private lottery</p>
-</div>
-<div class="body">
-<p>A lottery run behind the scenes.</p>
-<p><strong>Advantage:</strong> avoids the comparison group reacting to a public result.</p>
-<p><strong>Disadvantage:</strong> less visibly fair.</p>
-</div>
-</div>
-</div>
-<div class="takeaway">
-<p>In practice, many World Bank-supported evaluations run the draw as a secure, documented, computerized procedure that can be re-checked afterwards.</p>
-</div>
 </section>
-<section id="narrowing-the-pool-a-lottery-around-a-cutoff" class="level2">
-<h2 class="anchored" data-anchor-id="narrowing-the-pool-a-lottery-around-a-cutoff">Narrowing the pool: a lottery around a cutoff</h2>
-<p>Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom outright, and randomize only the firms in between.</p>
-<p><strong>Best when:</strong> eligibility criteria are clear and the programme is oversubscribed, with limited resources.</p>
-<figure class="fig-e figure">
-<svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomized">
-  <text x="20" y="24" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Score</text>
-
-  <rect x="90" y="34" width="280" height="56" rx="5" fill="var(--dg-accent)"></rect>
-  <text x="230" y="60" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Accept all</text>
-  <text x="230" y="78" text-anchor="middle" fill="var(--dg-ink)" font-size="11">top scorers funded outright</text>
-  <text x="72" y="42" text-anchor="end" fill="var(--dg-ink)" font-size="12" font-weight="bold">100</text>
-  <text x="72" y="96" text-anchor="end" fill="var(--dg-ink)" font-size="12" font-weight="bold">60</text>
-
-  <rect x="90" y="100" width="280" height="76" rx="5" fill="var(--dg-panel)" stroke="var(--dg-accent)" stroke-width="2" stroke-dasharray="6 4"></rect>
-  <text x="230" y="126" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomize this band</text>
-  <text x="230" y="145" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">85% treatment, 15% comparison</text>
-  <text x="230" y="163" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">this band is the sample for study</text>
-  <text x="72" y="182" text-anchor="end" fill="var(--dg-ink)" font-size="12" font-weight="bold">45</text>
-
-  <rect x="90" y="186" width="280" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="230" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="13" font-weight="bold">Reject all</text>
-  <text x="230" y="228" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">below the eligibility bar</text>
-
-  <path d="M382 138 H410" stroke="var(--dg-line)" stroke-width="1.5"></path>
-  <rect x="410" y="106" width="230" height="64" rx="5" fill="var(--dg-accent-wash)"></rect>
-  <text x="425" y="128" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Only the middle band is randomized</text>
-  <text x="425" y="146" fill="var(--dg-ink-soft)" font-size="11">The strongest and weakest applicants</text>
-  <text x="425" y="160" fill="var(--dg-ink-soft)" font-size="11">are handled by the score, not the draw</text>
-
-  <text x="20" y="270" fill="var(--dg-ink-soft)" font-size="11.5">Example: credit scoring in the Philippines</text>
-</svg>
-</figure>
-<div class="caution">
-<p>Keep selection rules-based. Subjective rankings, even by judges or expert panels, have been shown to introduce hidden bias that a lottery or scored cutoff avoids.</p>
-</div>
-</section>
-<section id="why-a-lottery" class="level2">
-<h2 class="anchored" data-anchor-id="why-a-lottery">Why a lottery?</h2>
-<div class="cards">
-<section id="fair" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="fair">Fair</h4>
-<p>In SMART Romania, every eligible firm had the same chance of receiving a grant. Selection could not be influenced by connections or favouritism.</p>
-</section>
-<section id="defensible" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="defensible">Defensible</h4>
-<p>Rules reduce bias. Across several studies, even expert judges struggle to predict which firms will succeed.</p>
-</section>
-<section id="efficient" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="efficient">Efficient</h4>
-<p>One online survey serves as application, eligibility check, and baseline data collection.</p>
-</section>
-</div>
-<div class="team-note">
-<p><strong>Citations</strong> For the “defensible” card: Chen et al.&nbsp;(2022) on judicial favouritism in Kenya; Fafchamps and Woodruff (2017), Identifying gazelles, World Bank Economic Review 31(3); McKenzie and Sansone (2019), Predicting entrepreneurial success is hard, JDE 141. Decide whether these belong on the page or in a references section.</p>
-</div>
-<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span class="on">Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
-</section>
-<section id="what-happens-after-the-lottery" class="level2">
-<h2 class="anchored" data-anchor-id="what-happens-after-the-lottery">What happens after the lottery?</h2>
-<p>The evaluation now steps back and lets the programme do its work.</p>
-<div class="compare">
-<div class="col-e">
-<div class="col-head">
-<p>Treatment firms</p>
-</div>
-<div class="body">
-<p>Receive the digitalization grants and put them to work: equipment, software, services.</p>
-</div>
-</div>
-<div class="col-e">
-<div class="col-head">
-<p>Comparison firms</p>
-</div>
-<div class="body">
-<p>Continue business as usual, without a grant.</p>
-</div>
-</div>
-</div>
-<div class="takeaway">
-<p>Same markets, same conditions, same surveys. The only difference between SMART Romania’s groups is the grant.</p>
-</div>
-<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span class="on">Follow-up</span><span class="sep">›</span><span>Impact</span></div>
-</section>
-<section id="measuring-the-programmes-impact" class="level2">
-<h2 class="anchored" data-anchor-id="measuring-the-programmes-impact">Measuring the programme’s impact</h2>
-<p>While the programme runs, identical surveys continue for treatment and comparison firms alike: same questions, same timing.</p>
-<div class="cards">
-<section id="digital-adoption" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="digital-adoption">Digital adoption</h4>
-<p>Measured with the DESI framework.</p>
-</section>
-<section id="revenue" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="revenue">Revenue</h4>
-<p>Turnover and growth over the period.</p>
-</section>
-<section id="employment" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="employment">Employment</h4>
-<p>Headcount and job creation.</p>
-</section>
-<section id="productivity" class="level4 card-e">
-<h4 class="anchored" data-anchor-id="productivity">Productivity</h4>
-<p>Output relative to inputs.</p>
-</section>
-</div>
-<div class="takeaway">
-<p>Differences between SMART Romania’s firms can now be traced to one cause: the programme.</p>
-</div>
-<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span class="on">Impact</span></div>
-</section>
-<section id="why-randomize" class="level2">
-<h2 class="anchored" data-anchor-id="why-randomize">Why randomize?</h2>
-<p>Now that both groups have been followed over time, the final question is how to attribute any differences to the programme.</p>
-<div class="gold-panel">
-<p><strong>“What would have happened without the programme?”</strong> Randomization makes it possible to answer this question.</p>
-</div>
-<div class="compare">
-<div class="col-e">
-<div class="col-head">
-<p>Firms drawn in the lottery</p>
-</div>
-<div class="body">
-<p>Received digitalization grants.</p>
-</div>
-</div>
-<div class="col-e">
-<div class="col-head">
-<p>Firms not drawn</p>
-</div>
-<div class="body">
-<p>No grants; surveyed identically.</p>
-</div>
-</div>
-</div>
-<p>Because the lottery created two comparable groups, the difference between them is the true impact of the programme.</p>
-</section>
-<section id="five-practical-ways-to-randomize-your-programme" class="level2">
-<h2 class="anchored" data-anchor-id="five-practical-ways-to-randomize-your-programme">Five practical ways to randomize your programme</h2>
-<p>SMART Romania used one approach: the lottery. Many programmes need a different design.</p>
+<section id="five-practical-ways-to-randomise-your-programme" class="level2">
+<h2 class="anchored" data-anchor-id="five-practical-ways-to-randomise-your-programme">Five practical ways to randomise your programme</h2>
+<p>Not every programme fits the same shape. Here are five common ways to randomise one.</p>
 <div class="designs">
   <div class="d"><div>
     <h4 class="anchored">Lottery</h4>
@@ -526,26 +292,147 @@ ul.task-list li input[type="checkbox"] {
     <p><span class="lab">Best when:</span> you want to know which design works best, not just whether it works.</p>
   </div></div>
   <div class="d"><div>
-    <h4 class="anchored">Randomized phase-in</h4>
+    <h4 class="anchored">Randomised phase-in</h4>
     <p><span class="lab">How:</span> everyone gets the programme eventually, in a random order. Those still waiting are the comparison group.</p>
     <p><span class="lab">Best when:</span> budget or capacity cannot cover everyone at once.</p>
   </div></div>
   <div class="d"><div>
-    <h4 class="anchored">Randomized intensities</h4>
+    <h4 class="anchored">Randomised intensities</h4>
     <p><span class="lab">How:</span> vary how much of the programme a firm gets, for example 100%, 50%, or 0% of eligible employees.</p>
     <p><span class="lab">Best when:</span> spillovers within or between firms are a concern.</p>
   </div></div>
   <div class="d"><div>
     <h4 class="anchored">Encouragement design</h4>
-    <p><span class="lab">How:</span> randomize who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
+    <p><span class="lab">How:</span> randomise who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
     <p><span class="lab">Best when:</span> take-up is voluntary and the programme itself cannot be withheld.</p>
   </div></div>
 </div>
-<div class="case-band"><b>SMART Romania</b><span>✓ Used a lottery (design 1)</span><span>✓ Oversubscribed programme</span><span>✓ 1,038 eligible firms</span></div>
-<section id="multiple-treatment-arms" class="level3">
-<h3 class="anchored" data-anchor-id="multiple-treatment-arms">Multiple treatment arms</h3>
-<p>Randomly assign firms to different versions of the programme, plus a comparison group.</p>
-<p><strong>Best when:</strong> you want to know which version works best, not just whether the programme works. <strong>Trade-off:</strong> the sample is split across more groups, so you need more firms.</p>
+<div class="example romania">
+<p><span class="tag">SMART Romania used a lottery</span></p>
+<p>Of the five designs above, SMART Romania used a lottery: 1&nbsp;038 eligible firms were randomly split into a treatment group of 519, invited to apply for a grant, and a comparison group of 519, not invited.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
+  <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M160 120 H210" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="210" y="87" width="160" height="66" rx="6" fill="#F2C94C"></rect>
+  <text x="290" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="290" y="132" text-anchor="middle" fill="#2B2724" font-size="11">every firm, the same chance</text>
+
+  <path d="M370 120 H400 V50 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M370 120 H400 V190 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="430" y="20" width="240" height="60" rx="6" fill="#F2C94C"></rect>
+  <text x="446" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group</text>
+  <text x="446" y="59" fill="#2B2724" font-size="10.5">Grants of EUR 15,000–100,000, put to</text>
+  <text x="446" y="72" fill="#2B2724" font-size="10.5">work: equipment, software, services</text>
+
+  <rect x="430" y="160" width="240" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group</text>
+  <text x="446" y="199" fill="#6B6455" font-size="10.5">No grant; firms continue as usual,</text>
+  <text x="446" y="212" fill="#6B6455" font-size="10.5">surveyed the same way</text>
+</svg>
+</figure>
+</div>
+</section>
+<section id="running-a-lottery-transparency-vs.-behavioural-responses" class="level2">
+<h2 class="anchored" data-anchor-id="running-a-lottery-transparency-vs.-behavioural-responses">Running a lottery: transparency vs.&nbsp;behavioural responses</h2>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Public lottery</p>
+</div>
+<div class="body">
+<p>A public draw, for example pulling names from a hat.</p>
+<p>Advantage: transparent and fair.</p>
+<p>Disadvantage: the comparison group may change its behaviour once it knows the result.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Private lottery</p>
+</div>
+<div class="body">
+<p>A lottery run behind the scenes.</p>
+<p>Advantage: avoids the comparison group reacting to a public result.</p>
+<p>Disadvantage: less visibly fair.</p>
+</div>
+</div>
+</div>
+<div class="takeaway">
+<p>In practice, many World Bank-supported evaluations run the draw as a secure, documented, computerised procedure that can be re-checked afterwards.</p>
+</div>
+<p>Either kind of lottery can also be narrowed to just part of the pool: rather than randomising everyone who’s eligible, you can randomise only the firms near the eligibility cutoff, and decide the clear-cut cases directly.</p>
+</section>
+<section id="narrowing-the-pool-a-lottery-around-a-cutoff" class="level2">
+<h2 class="anchored" data-anchor-id="narrowing-the-pool-a-lottery-around-a-cutoff">Narrowing the pool: a lottery around a cutoff</h2>
+<p>Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom outright, and randomise only the firms in between.</p>
+<p>Best when: eligibility criteria are clear and the programme is oversubscribed, with limited resources.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
+  <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
+
+  <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"></rect>
+  <text x="230" y="60" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Accept all</text>
+  <text x="230" y="78" text-anchor="middle" fill="#2B2724" font-size="11">top scorers funded outright</text>
+  <text x="72" y="42" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">100</text>
+  <text x="72" y="96" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">60</text>
+
+  <rect x="90" y="100" width="280" height="76" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"></rect>
+  <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Randomise this band</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">85% treatment, 15% comparison</text>
+  <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
+  <text x="72" y="182" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">45</text>
+
+  <rect x="90" y="186" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="230" y="210" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Reject all</text>
+  <text x="230" y="228" text-anchor="middle" fill="#6B6455" font-size="11">below the eligibility bar</text>
+
+  <path d="M382 138 H410" stroke="#B9AF95" stroke-width="1.5"></path>
+  <rect x="410" y="106" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"></rect>
+  <text x="425" y="128" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomised</text>
+  <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
+  <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+
+  <text x="20" y="270" fill="#6B6455" font-size="11.5">Example: credit scoring in the Philippines</text>
+</svg>
+</figure>
+<div class="caution">
+<p>Keep selection rules-based. Subjective rankings, even by judges or expert panels, have been shown to introduce hidden bias that a lottery or scored cutoff avoids.</p>
+</div>
+</section>
+<section id="rule-based-scoring-beats-judgment-based-scoring" class="level2">
+<h2 class="anchored" data-anchor-id="rule-based-scoring-beats-judgment-based-scoring">Rule-based scoring beats judgment-based scoring</h2>
+<p>Across several studies, subjective judgment struggles to identify future winners.</p>
+<div class="cards">
+<section id="judges-favour-their-own-group" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="judges-favour-their-own-group">Judges favour their own group</h4>
+<p>A study of court rulings in Kenya found that defendants were more likely to win if they shared the judge’s ethnicity or gender.</p>
+<p>Chen, Daniel L., et al., “Do Judges Favour Their Own Ethnicity and Gender?” (2022).</p>
+</section>
+<section id="judges-do-not-beat-a-simple-survey" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="judges-do-not-beat-a-simple-survey">Judges do not beat a simple survey</h4>
+<p>In a business plan competition, a short applicant survey predicted future firm growth slightly better than expert judge panels did on their own.</p>
+<p>Fafchamps, Marcel, and Christopher Woodruff, “Identifying gazelles: Expert panels vs. surveys,” <em>World Bank Economic Review</em> 31(3) (2017).</p>
+</section>
+<section id="judges-and-algorithms-both-struggle" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="judges-and-algorithms-both-struggle">Judges, and algorithms, both struggle</h4>
+<p>Comparing judges’ scores, researcher prediction models, and machine learning in a Nigerian business competition, none of the three approaches predicted which firms actually survived, grew, or turned a profit three years later.</p>
+<p>McKenzie, David, and Dario Sansone, “Predicting entrepreneurial success is hard,” <em>Journal of Development Economics</em> 141 (2019).</p>
+</section>
+</div>
+<div class="takeaway">
+<p>Subjective judgment, even from experts, struggles to reliably pick future winners. This is part of why rules-based methods – lotteries or scored cutoffs – are often the fairer and more defensible way to allocate a programme, rather than discretionary picks.</p>
+</div>
+</section>
+<section id="multiple-treatment-arms-testing-programme-versions" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-treatment-arms-testing-programme-versions">Multiple treatment arms: testing programme versions</h2>
+<p>Randomly assign firms (or CEOs, employees) to different versions of the programme, and compare them against each other and against the comparison group. This also works without a comparison group at all, if you only want to compare versions.</p>
+<p>Best when: you’re uncertain which component or design actually drives results, and want to know which version works best, not just whether the programme works.</p>
+<p>Advantage: helps investigate the channels of impact. Trade-off: needs a larger sample size, since it’s split across more groups.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three programme versions">
   <line x1="90" y1="190" x2="620" y2="190" stroke="var(--dg-line)" stroke-width="1.5"></line>
@@ -570,12 +457,12 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 <figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme performs best.</figcaption>
 </figure>
-<div class="case-band"><b>SMART Romania</b><span>✓ One treatment group versus one comparison group</span></div>
 </section>
-<section id="randomized-phase-in" class="level3">
-<h3 class="anchored" data-anchor-id="randomized-phase-in">Randomized phase-in</h3>
-<p>Everyone receives the programme eventually, in a random order. Firms still waiting form the comparison group.</p>
-<p><strong>Best when:</strong> budget or capacity cannot cover everyone at once. <strong>Trade-off:</strong> long-term impacts cannot be observed.</p>
+<section id="randomised-phase-in-everyone-gets-it-just-not-at-once" class="level2">
+<h2 class="anchored" data-anchor-id="randomised-phase-in-everyone-gets-it-just-not-at-once">Randomised phase-in: everyone gets it, just not at once</h2>
+<p>Everybody eventually receives the programme, just at different, randomly assigned times. Whoever is scheduled last serves as the comparison group in the meantime. Leave enough time between waves for impacts to develop.</p>
+<p>Best when: budget, time, or capacity constraints mean you can’t roll the programme out to everyone at once.</p>
+<p>Advantages: everyone eventually receives the programme, which makes the decision transparent and easier to justify; it also lets you study how impact changes with different treatment durations. Trade-off: you can’t observe long-term impacts, since the comparison group eventually receives the programme too.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Staggered rollout: wave one treated first, wave two later, wave three last, each acting as comparison until treated">
   <text x="20" y="46" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 1</text>
@@ -598,12 +485,12 @@ ul.task-list li input[type="checkbox"] {
   <text x="228" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Waiting, acts as comparison</text>
 </svg>
 </figure>
-<div class="case-band"><b>SMART Romania</b><span>✓ Not used: a one-time lottery with a lasting comparison group</span></div>
 </section>
-<section id="randomized-intensities" class="level3">
-<h3 class="anchored" data-anchor-id="randomized-intensities">Randomized intensities</h3>
-<p>Randomly vary how much of the programme each firm gets, for example 100%, 50%, or none of eligible employees.</p>
-<p><strong>Best when:</strong> spillovers are likely, for example information spreading between treated and untreated employees. <strong>Trade-off:</strong> detecting effects at each level needs a bigger sample.</p>
+<section id="randomised-intensities-varying-how-much-firms-get" class="level2">
+<h2 class="anchored" data-anchor-id="randomised-intensities-varying-how-much-firms-get">Randomised intensities: varying how much firms get</h2>
+<p>Randomly vary how much of the programme each firm gets: for example, some firms get it for 100% of eligible employees, others for only part, e.g.&nbsp;50%, and others none at all (the comparison group).</p>
+<p>Best when: spillovers are likely – for example, information spreading between treated and untreated employees within the same firm.</p>
+<p>Advantage: lets you analyse possible spillovers, not just the direct effect. Trade-off: needs a bigger sample size to detect effects at each intensity level.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the programme at 100 percent, 50 percent and zero percent of eligible employees">
   <line x1="120" y1="165" x2="600" y2="165" stroke="var(--dg-line)" stroke-width="1.5"></line>
@@ -622,82 +509,39 @@ ul.task-list li input[type="checkbox"] {
   <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
 </svg>
 </figure>
-<div class="case-band"><b>SMART Romania</b><span>✓ Not used: one level of support was compared with none</span></div>
 </section>
-<section id="encouragement-design" class="level3">
-<h3 class="anchored" data-anchor-id="encouragement-design">Encouragement design</h3>
-<p>Low take-up is common even for free programmes. Randomize who gets extra encouragement, then compare the whole encouraged group with the whole not-encouraged group.</p>
+<section id="facing-low-take-up-randomise-the-encouragement" class="level2">
+<h2 class="anchored" data-anchor-id="facing-low-take-up-randomise-the-encouragement">Facing low take-up? Randomise the encouragement</h2>
+<p>The problem: low take-up. The firms who need a programme most can be the least likely to take it up – badly managed firms often don’t know they’re badly managed. Low take-up also makes it hard to tell whether a programme is working.</p>
+<p>Solution: encouragement design. When you can’t deny the programme to anyone – for example, an open voucher scheme – randomise who gets extra outreach or information encouraging them to take it up, then compare the encouraged group with the not-encouraged group.</p>
+<p>Advantage: works even when everyone must have access to the programme. Trade-off: only captures part of the impact, and can be biased if untargeted encouragement – TV or radio, for example – reaches the comparison group too.</p>
 <div class="caution">
-<p>Compliance is never perfect. Some encouraged firms never take the programme up, and some others do anyway. Compare the full groups regardless.</p>
+<p>Compliance is rarely perfect: some encouraged firms never take up the programme, and some not-encouraged firms take it up anyway. Compare the whole encouraged group with the whole not-encouraged group regardless.</p>
 </div>
-<div class="case-band"><b>SMART Romania</b><span>✓ Not needed: the grants were oversubscribed, so a lottery was possible</span></div>
-</section>
 </section>
 <section id="case-studies" class="level2">
 <h2 class="anchored" data-anchor-id="case-studies">Case studies</h2>
-<p>One standardised card per project, each showing sample size, outcomes measured, RCT design, effect sizes, and a link through to the full case study or report.</p>
+<p>Every EuroCOMP Lab project gets one standardised card: sample size, outcomes measured, RCT design, effect sizes, and a link through to the full case study or report.</p>
 <div class="team-note">
-<p><strong>Have material</strong> Five wanted poster slides already built: SMART Romania, Extremadura, two Czechia programmes, Croatia and Scinergy. The deck can be lifted straight onto this page.</p>
+<p>Status Cards for SMART Romania, Extremadura, two Czechia programmes, Croatia, and Scinergy are drafted (see the wanted-poster deck), but the dedicated Examples page they’ll live on isn’t built yet.</p>
 </div>
 </section>
-<section id="the-whole-thing-end-to-end" class="level2">
-<h2 class="anchored" data-anchor-id="the-whole-thing-end-to-end">The whole thing, end to end</h2>
-<figure class="fig-e figure">
-<svg viewbox="0 0 700 410" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Full RCT timeline: outreach and application, eligibility screening, lottery splitting firms into treatment and comparison groups, identical follow-up surveys for both, and the measured impact at the end">
-  <rect x="14" y="34" width="282" height="318" rx="8" fill="var(--dg-accent-wash-soft)"></rect>
-  <text x="20" y="24" fill="var(--dg-ink-soft)" font-size="10" letter-spacing="1.4" font-weight="bold">BEFORE LAUNCH</text>
-  <text x="330" y="24" fill="var(--dg-ink-soft)" font-size="10" letter-spacing="1.4" font-weight="bold">PROGRAMME PERIOD</text>
-
-  <line x1="20" y1="372" x2="680" y2="372" stroke="var(--dg-line)" stroke-width="1.5"></line>
-  <text x="680" y="390" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">Time</text>
-
-  <rect x="26" y="155" width="118" height="60" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="85" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Outreach and</text>
-  <text x="85" y="193" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">application</text>
-  <text x="85" y="208" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10">one survey, three jobs</text>
-
-  <path d="M144 185 H162" stroke="var(--dg-line)" stroke-width="1.5"></path>
-
-  <rect x="162" y="155" width="118" height="60" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="221" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Eligibility</text>
-  <text x="221" y="193" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">screening</text>
-  <text x="221" y="208" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10">1,038 firms qualify</text>
-
-  <path d="M280 185 H304" stroke="var(--dg-line)" stroke-width="1.5"></path>
-
-  <rect x="304" y="152" width="72" height="66" rx="6" fill="var(--dg-accent)"></rect>
-  <text x="340" y="180" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">LOTTERY</text>
-  <text x="340" y="196" text-anchor="middle" fill="var(--dg-ink)" font-size="10">same chance</text>
-  <text x="340" y="208" text-anchor="middle" fill="var(--dg-ink)" font-size="10">for everyone</text>
-
-  <path d="M376 185 H398 V93 H418" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-  <path d="M376 185 H398 V285 H418" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-
-  <rect x="418" y="70" width="196" height="46" rx="6" fill="var(--dg-accent)"></rect>
-  <text x="432" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
-  <text x="432" y="106" fill="var(--dg-ink)" font-size="10.5">receives digitalization grants</text>
-
-  <line x1="432" y1="142" x2="600" y2="142" stroke="var(--dg-line)" stroke-width="1" stroke-dasharray="4 4"></line>
-  <circle cx="460" cy="142" r="5" fill="var(--dg-ink)"></circle><circle cx="516" cy="142" r="5" fill="var(--dg-ink)"></circle><circle cx="572" cy="142" r="5" fill="var(--dg-ink)"></circle>
-  <text x="432" y="163" fill="var(--dg-ink-soft)" font-size="10">Identical follow-up surveys</text>
-
-  <rect x="418" y="176" width="196" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="516" y="194" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">Digital adoption · Revenue</text>
-  <text x="516" y="209" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">Employment · Productivity</text>
-
-  <line x1="432" y1="244" x2="600" y2="244" stroke="var(--dg-line)" stroke-width="1" stroke-dasharray="4 4"></line>
-  <circle cx="460" cy="244" r="5" fill="var(--dg-ink)"></circle><circle cx="516" cy="244" r="5" fill="var(--dg-ink)"></circle><circle cx="572" cy="244" r="5" fill="var(--dg-ink)"></circle>
-  <text x="432" y="238" fill="var(--dg-ink-soft)" font-size="10">Identical follow-up surveys</text>
-
-  <rect x="418" y="262" width="196" height="46" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="432" y="282" fill="var(--dg-ink)" font-size="12" font-weight="bold">Comparison group</text>
-  <text x="432" y="298" fill="var(--dg-ink-soft)" font-size="10.5">business as usual, no grant</text>
-
-  <path d="M630 93 H642 M630 285 H642 M636 93 V285" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
-  <text x="660" y="189" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold" transform="rotate(-90 660 189)">IMPACT</text>
-</svg>
-<figcaption>The whole design in one view. Everything left of the lottery has to be settled before launch; everything right of it is measurement. The gap between the two tracks at the end is the impact.</figcaption>
-</figure>
+<section id="still-not-convinced-more-arguments-for-randomising" class="level2">
+<h2 class="anchored" data-anchor-id="still-not-convinced-more-arguments-for-randomising">Still not convinced? More arguments for randomising</h2>
+<div class="cards">
+<section id="free-and-fair-competition" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="free-and-fair-competition">Free and fair competition</h4>
+<p>The researcher determines allocation, not personal connections or favouritism, so there’s no selection bias – no systematic difference between groups on average. It can be designed to answer precisely the question you need answered, especially when the effect of a policy is uncertain.</p>
+</section>
+<section id="equality-and-non-discrimination" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="equality-and-non-discrimination">Equality and non-discrimination</h4>
+<p>Often the outcome of a policy isn’t clear, and it could even be negative. Testing first, rather than rolling it out to everyone, protects people from that uncertainty. You can also make sure everyone still receives the core programme, and only randomise an add-on whose effect isn’t yet known.</p>
+</section>
+<section id="publicity-and-transparency" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="publicity-and-transparency">Publicity and transparency</h4>
+<p>A randomised design needs fewer additional assumptions than other evaluation methods. Because the analysis is less complex, it’s easier to explain and defend the findings to the people affected by them.</p>
+</section>
+</div>
 
 
 </section>
@@ -1112,25 +956,14 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><strong>EuroCOMP Lab</strong><br> Impact evaluation for competitive business support programmes<br> <span class="foot-note">Implemented with World Bank support</span></p>
-<!--
-  FUNDING STATEMENT: resolve before publishing.
-  If the Lab receives EU funding, the emblem and statement are required here.
-  Rules: emblem at least as prominent as any other logo, placed at a distance
-  from partner logos, statement set in Arial, minimum emblem height 1cm.
-  If the Lab does NOT receive EU funding, delete this block entirely.
-  Download the emblem from the Commission's visual identity page, save to
-  assets/eu-emblem.svg, then replace the placeholder below with:
-  ![Funded by the European Union](assets/eu-emblem.svg){.eu-mark}
--->
-<p><span class="mark-placeholder">EU emblem<br>placeholder</span></p>
+<p>EuroCOMP Lab powered by the World Bank Group</p>
 </div>   
     <div class="nav-footer-center">
-<p><a href="./legal-notice.html">Legal notice</a> &nbsp;·&nbsp; <a href="./privacy.html">Privacy statement</a> &nbsp;·&nbsp; <a href="./accessibility.html">Accessibility statement</a></p>
+<p>Draft site. Structure and content still under review by the team.</p>
 </div>
     <div class="nav-footer-right">
-<p>Last reviewed: August 2026</p>
-</div>
+      &nbsp;
+    </div>
   </div>
 </footer>
 
