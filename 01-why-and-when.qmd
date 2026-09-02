@@ -22,8 +22,10 @@ Two purposes
   <path d="M330 48 V72 H170 V96" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
   <path d="M330 48 V72 H490 V96" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
 
-  <rect x="60" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
+    <rect x="60" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
   <text x="170" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Policy learning</text>
+
+  <path d="M170 130 V176" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
 
   <rect x="380" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
   <text x="490" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Accountability</text>
@@ -143,6 +145,38 @@ Scale up based on evidence.
 :::
 :::
 
+
+::: {.example .romania}
+[The running example: SMART Romania]{.tag}
+
+Throughout this site, we come back to one programme developed as part of the EuroCOMP
+Lab to show these ideas in practice: SMART Romania, a digitalisation grant scheme for
+micro, small and medium enterprises in North-East Romania, run by the Regional
+Development Agency with World Bank support.
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Application survey</div>
+  <div>Lottery</div>
+  <div>Digitalization grants</div>
+  <div>Follow-up surveys</div>
+  <div>Impact evaluation</div>
+</div>
+```
+:::
 
 ::: {.eyebrow}
 Is it relevant for you
@@ -381,6 +415,19 @@ using natural variation in who received it and who did not.
 treatment group on average. If that assumption is wrong, the impact estimate is biased.
 :::
 
+::: {.example .romania}
+[SMART Romania: what is the counterfactual?]{.tag}
+
+In SMART Romania, the counterfactual is represented by the firms that completed the
+online survey and were deemed eligible but that did not receive the grant.
+
+Before any grants were awarded, the selected and non-selected groups looked
+statistically the same: identical average DESI score (4.3 of 12), similar firm size, no
+significant difference overall. That balance is what makes the non-selected group a
+credible stand-in for what the selected firms would have done without the programme.
+
+:::
+
 ::: {.eyebrow}
 Randomised controlled trials
 :::
@@ -429,6 +476,17 @@ because:
 - They deliver strong evidence
 - They are easy to interpret
 
+::: {.example .romania}
+[SMART Romania: randomised controlled trial]{.tag}
+
+Recap: firms first completed an online screening survey. Of the 1,038 found eligible,
+519 were then randomly assigned to the treatment group, invited to formally apply for a
+grant, and 519 to the comparison group, who received no invitation.
+
+Because the notary-witnessed draw was random, the gap between their outcomes over time —
+digital adoption, revenue, profits, employment, productivity — is the estimated impact of
+being offered the opportunity to apply: the intention-to-treat effect.
+:::
 
 ## Randomisation can improve legitimacy and trust in programmes
 
@@ -462,6 +520,14 @@ does not.
   </figure>
 </div>
 ```
+
+::: {.example .romania}
+[SMART Romania: additional measures to increase trust]{.tag}
+
+SMART Romania's draw was run in front of a notary: the random number seed drawn, the
+selection code run, and the resulting balance between groups reviewed, all on the
+record. This increased confidence with the firms that selection was fair.
+:::
 
 ::: {.eyebrow}
 When you cannot randomize
@@ -817,3 +883,13 @@ suppliers, so the comparison group partly benefits too, understating the true ef
 :::
 :::
 
+::: {.example .romania}
+[SMART Romania: the programme did not achieve full take-up]{.tag}
+
+Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding
+proposal, and 333 (64.2%) were eventually contracted.
+
+Because of limited take-up, it is safer to report the intention-to-treat effect,
+comparing everyone as originally assigned, even though it understates the effect on the
+firms that actually took up the grant.
+:::
