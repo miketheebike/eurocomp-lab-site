@@ -3,7 +3,7 @@ title: "Why and When"
 ---
 
 ::: {.lede}
-Programme design first, method second. This page covers why evaluation is worth doing,
+This page covers why evaluation is worth doing,
 when it has to be decided, and how to choose between the available designs.
 :::
 
@@ -384,6 +384,37 @@ trials are considered the gold standard.
 </figure>
 ```
 
+::: {.example .romania}
+[The impact in the SMART Romania programme]{.tag}
+
+For SMART Romania, the impact is the gap between treatment and comparison firms on
+four tracked outcomes: digital adoption, revenue, employment, and productivity.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for SMART Romania: digital adoption, revenue, employment and productivity">
+  <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
+  <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
+
+  <rect x="316" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="332" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
+  <text x="332" y="50" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
+
+  <rect x="10" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="26" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
+  <text x="26" y="116" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
+
+  <rect x="316" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="332" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
+  <text x="332" y="116" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
+</svg>
+</figure>
+```
+:::
+
+
+
 ## Finding the counterfactual
 
 **Strategy.** Find a group of firms that on average look like treated firms would have
@@ -476,16 +507,44 @@ because:
 - They deliver strong evidence
 - They are easy to interpret
 
+
 ::: {.example .romania}
 [SMART Romania: randomised controlled trial]{.tag}
 
-Recap: firms first completed an online screening survey. Of the 1,038 found eligible,
+Recap: firms first completed an online screening survey. Of the 1 038 found eligible,
 519 were then randomly assigned to the treatment group, invited to formally apply for a
 grant, and 519 to the comparison group, who received no invitation.
 
-Because the draw was random, the gap between their outcomes over time —
-digital adoption, revenue, profits, employment, productivity — is the estimated impact of
-being offered the opportunity to apply: the intention-to-treat effect.
+Because the lottery created two comparable groups, the difference between them over time is the impact ofbeing of the program.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
+  <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M160 120 H210" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="210" y="87" width="160" height="66" rx="6" fill="#F2C94C"/>
+  <text x="290" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="290" y="132" text-anchor="middle" fill="#2B2724" font-size="11">before a notary</text>
+
+  <path d="M370 120 H400 V50 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M370 120 H400 V190 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="430" y="20" width="240" height="60" rx="6" fill="#F2C94C"/>
+  <text x="446" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group &ndash; 519</text>
+  <text x="446" y="59" fill="#2B2724" font-size="10.5">Invited to apply for</text>
+  <text x="446" y="72" fill="#2B2724" font-size="10.5">a grant</text>
+
+  <rect x="430" y="160" width="240" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group &ndash; 519</text>
+  <text x="446" y="199" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
+  <text x="446" y="212" fill="#6B6455" font-size="10.5">the same way</text>
+</svg>
+</figure>
+```
 :::
 
 ## Randomisation can improve legitimacy and trust in programmes
