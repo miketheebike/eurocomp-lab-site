@@ -199,6 +199,41 @@ h3 { font-size: 1.15rem; margin-top: 2rem; }
   margin-bottom: .25rem;
 }
 
+/* ---- real-world example box: SMART Romania and other case studies ---- */
+.example {
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin: 1.8rem 0;
+}
+.example .tag {
+  display: block;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+.example p { margin: 0 0 .8rem; font-size: .95rem; line-height: 1.55; color: $ink; }
+.example p:last-of-type { margin-bottom: 0; }
+.example .cite {
+  display: block;
+  font-size: .78rem;
+  font-style: italic;
+  color: $ink-soft;
+  margin-top: .8rem;
+}
+
+/* ----  SMART Romania: the running example ---- */
+.example.romania { background: $pale-gold; }
+.example.romania .tag { color: #8A6A00; }
+
+/* ----  other SMART IE examples: secondary to Romania ---- */
+.example.other {
+  background: $paper;
+  border: 1px solid $rule;
+}
+.example.other .tag { color: $ink-soft; }
+
 /* ---- the inputs -> outcomes chain ---- */
 .chain {
   display: flex;
