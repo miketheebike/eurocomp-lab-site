@@ -1,0 +1,56 @@
+---
+title: "Accessibility statement"
+toc: false
+---
+
+[Draft. Requires a formal audit before the compliance claim below can be made.]{.placeholder}
+
+## Commitment
+
+The EuroCOMP Lab is committed to making this website accessible, in line with the
+principles of the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA and the
+European standard EN 301 549.
+
+## Current status
+
+::: {.team-note}
+**Not yet audited**
+The site has been built with accessibility in mind but has not been formally tested. The
+status below must be one of "fully compliant", "partially compliant", or "non-compliant",
+and that determination requires an audit. Do not publish a claim before testing.
+:::
+
+Measures taken during development:
+
+- Semantic heading structure on every page, so screen readers can navigate by section
+- Text alternatives on all diagrams, describing what each figure shows
+- Diagrams built as scalable vector graphics with real text rather than images of text
+- Layouts that reflow on small screens and at increased zoom
+- Colour contrast checked against WCAG AA thresholds for body text
+
+## Known limitations
+
+::: {.team-note}
+**To complete after audit**
+List anything that fails, with the reason and the planned remedy date. An honest list of
+known gaps is more credible than a blanket claim of compliance.
+:::
+
+## Feedback
+
+If you encounter an accessibility barrier on this site, please contact us so we can put
+it right.
+
+::: {.team-note}
+**To add**
+Contact point for accessibility feedback, and the escalation route if a response is not
+satisfactory.
+:::
+
+## Preparation of this statement
+
+::: {.team-note}
+**To complete**
+Date of preparation, method used (self-assessment or third-party audit), and date of last
+review.
+:::

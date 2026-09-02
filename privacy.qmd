@@ -1,0 +1,48 @@
+---
+title: "Privacy statement"
+toc: false
+---
+
+[Draft. Requires review by the responsible data protection function before publication.]{.placeholder}
+
+## Summary
+
+This website does not collect personal data. There are no forms, user accounts, logins,
+or comment functions, and no marketing or analytics trackers are installed.
+
+## Cookies
+
+This site sets no cookies of its own.
+
+::: {.team-note}
+**To verify before publication**
+Confirm that no embedded third-party content (video players, fonts, maps) sets cookies.
+If web fonts are loaded from an external provider, either self-host them or disclose the
+transfer here.
+:::
+
+## Server logs
+
+The site is hosted on GitHub Pages. As with any web host, the hosting infrastructure
+records technical request data, including IP addresses, for security and abuse
+prevention. This processing is carried out by the hosting provider and is not accessible
+to, or used by, the EuroCOMP Lab.
+
+## Contacting us
+
+If you contact the team by email, your message and address are used only to respond to
+your enquiry and are not used for any other purpose.
+
+## Your rights
+
+::: {.team-note}
+**To complete**
+Name the data controller, give a contact point for data protection questions, and state
+the applicable framework. For World Bank activities this differs from the GDPR position
+that applies to EU institutions, so this section needs a definitive answer rather than
+boilerplate.
+:::
+
+## Changes to this statement
+
+Any changes will be published on this page with a revised date.

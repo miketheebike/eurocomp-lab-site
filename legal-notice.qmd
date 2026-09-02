@@ -1,0 +1,67 @@
+---
+title: "Legal notice"
+toc: false
+---
+
+[Draft. Requires review by World Bank legal and communications before publication.]{.placeholder}
+
+## Purpose of this site
+
+This website provides guidance, templates, and case studies on impact evaluation of
+competitive business support programmes. It is intended for managing authorities,
+evaluators, and policymakers.
+
+## Responsibility for content
+
+The EuroCOMP Lab maintains this site to improve public access to information on impact
+evaluation methods. The aim is to keep this information accurate and up to date, and
+errors brought to attention will be corrected.
+
+The information on this site is general in nature and is not professional or legal
+advice. It does not necessarily reflect the views of the World Bank Group, its Board of
+Executive Directors, or the governments they represent, nor those of the European
+Commission or any of its services.
+
+::: {.team-note}
+**To confirm**
+The exact disclaimer wording should be checked against World Bank external communications
+policy, and against any funding agreement in force. This paragraph is a placeholder.
+:::
+
+## Links to other sites
+
+This site links to external websites over which it has no control and for which it
+accepts no responsibility. A link does not imply endorsement.
+
+## Copyright and reuse
+
+Unless otherwise stated, content on this site may be reused for non-commercial purposes
+provided the source is acknowledged and the original meaning is not distorted. Reuse of
+material identified as belonging to a third party requires permission from the copyright
+holder.
+
+Suggested citation for site content:
+
+> EuroCOMP Lab (2026). *[Page title]*. Available at: [URL]. Accessed [date].
+
+::: {.team-note}
+**To confirm**
+Whether a formal licence (for example CC BY 4.0) should be applied, and whether World
+Bank open access policy prescribes one.
+:::
+
+## Use of the EU emblem
+
+::: {.team-note}
+**Open question, must be resolved before publication**
+If the EuroCOMP Lab receives EU funding, the emblem and a funding statement are required,
+and specific placement rules apply. If it does not, the emblem must not be displayed.
+Confirm the funding position before adding anything to the footer.
+:::
+
+## Contact
+
+::: {.team-note}
+**To add**
+A named contact point and email address. A site without one reads as unmaintained.
+:::

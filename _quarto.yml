@@ -1,12 +1,16 @@
+# EU-register variant. To try it:
+#   mv _quarto.yml _quarto-warm.yml && mv _quarto-eu.yml _quarto.yml
+# To switch back, reverse it.
+
 project:
   type: website
   output-dir: _site
 
 website:
   title: "EuroCOMP Lab"
-  description: "Impact evaluation for competitive business support programs"
+  description: "Impact evaluation for competitive business support programmes"
   navbar:
-    background: dark
+    background: primary
     left:
       - href: index.qmd
         text: Home
@@ -17,7 +21,7 @@ website:
       - href: 03-advanced-how.qmd
         text: Advanced How
       - href: 04-toc.qmd
-        text: Theory of Change, Indicators, and Data
+        text: Theory of Change
       - href: 05-data.qmd
         text: Data Collection
       - href: 06-templates.qmd
@@ -25,13 +29,36 @@ website:
       - href: 07-examples.qmd
         text: Examples
   page-footer:
-    center: "Draft site. Structure and content still under review by the team."
+    border: true
+    left: |
+      **EuroCOMP Lab**<br>
+      Impact evaluation for competitive business support programmes<br>
+      <span class="foot-note">Implemented with World Bank support</span>
+
+      <!--
+        FUNDING STATEMENT: resolve before publishing.
+        If the Lab receives EU funding, the emblem and statement are required here.
+        Rules: emblem at least as prominent as any other logo, placed at a distance
+        from partner logos, statement set in Arial, minimum emblem height 1cm.
+        If the Lab does NOT receive EU funding, delete this block entirely.
+        Download the emblem from the Commission's visual identity page, save to
+        assets/eu-emblem.svg, then replace the placeholder below with:
+        ![Funded by the European Union](assets/eu-emblem.svg){.eu-mark}
+      -->
+      <span class="mark-placeholder">EU emblem<br>placeholder</span>
+    center: |
+      [Legal notice](legal-notice.qmd) &nbsp;·&nbsp;
+      [Privacy statement](privacy.qmd) &nbsp;·&nbsp;
+      [Accessibility statement](accessibility.qmd)
+    right: |
+      Last reviewed: August 2026
 
 format:
   html:
-    theme: [cosmo, theme.scss]
+    theme: [cosmo, theme-eu.scss]
     toc: true
     toc-title: "On this page"
-    toc-depth: 2
+    toc-depth: 3
     anchor-sections: true
     link-external-newwindow: true
+    date-format: "D MMMM YYYY"

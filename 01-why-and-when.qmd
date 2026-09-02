@@ -16,32 +16,32 @@ Two purposes
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
-  <rect x="200" y="14" width="260" height="34" rx="5" fill="#2B2724"/>
-  <text x="330" y="36" text-anchor="middle" fill="#FAF6EC" font-size="14" font-weight="bold">Impact evaluation</text>
+  <rect x="200" y="14" width="260" height="34" rx="5" fill="var(--dg-ink)"/>
+  <text x="330" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Impact evaluation</text>
 
-  <path d="M330 48 V72 H170 V96" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <path d="M330 48 V72 H490 V96" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M330 48 V72 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M330 48 V72 H490 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-  <rect x="60" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
-  <text x="170" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Policy learning</text>
+  <rect x="60" y="96" width="220" height="34" rx="5" fill="var(--dg-accent)"/>
+  <text x="170" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Policy learning</text>
 
-  <rect x="380" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
-  <text x="490" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Accountability</text>
+  <rect x="380" y="96" width="220" height="34" rx="5" fill="var(--dg-accent)"/>
+  <text x="490" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Accountability</text>
 
-  <path d="M490 130 V152 H400 V176" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <path d="M490 130 V152 H580 V176" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M490 130 V152 H400 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M490 130 V152 H580 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-  <rect x="60" y="176" width="220" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="170" y="197" text-anchor="middle" fill="#2B2724" font-size="12">What works, for whom,</text>
-  <text x="170" y="213" text-anchor="middle" fill="#2B2724" font-size="12">under what conditions</text>
+  <rect x="60" y="176" width="220" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="170" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">What works, for whom,</text>
+  <text x="170" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">under what conditions</text>
 
-  <rect x="310" y="176" width="180" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="400" y="197" text-anchor="middle" fill="#2B2724" font-size="12">Financial</text>
-  <text x="400" y="213" text-anchor="middle" fill="#2B2724" font-size="12">accountability</text>
+  <rect x="310" y="176" width="180" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="400" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Financial</text>
+  <text x="400" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">accountability</text>
 
-  <rect x="500" y="176" width="150" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="575" y="197" text-anchor="middle" fill="#2B2724" font-size="12">Performance</text>
-  <text x="575" y="213" text-anchor="middle" fill="#2B2724" font-size="12">and impact</text>
+  <rect x="500" y="176" width="150" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="575" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
+  <text x="575" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
 </svg>
 <figcaption>Learning feeds programme design. Accountability covers both what the money was spent on and what it achieved.</figcaption>
 </figure>
@@ -59,26 +59,26 @@ matters, so we can learn from each other, not just from our own results.
 <svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: design, test, review evidence and create learnings, adjust and invest">
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0 0 L10 5 L0 10 z" fill="#B9AF95"/>
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
     </marker>
   </defs>
-  <path d="M370 60 Q510 90 530 148" stroke="#B9AF95" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M530 200 Q505 258 380 240" stroke="#B9AF95" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M270 240 Q150 258 128 200" stroke="#B9AF95" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M128 148 Q150 90 275 62" stroke="#B9AF95" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
 
-  <rect x="255" y="30" width="150" height="42" rx="6" fill="#F2C94C"/>
-  <text x="330" y="56" text-anchor="middle" fill="#2B2724" font-size="14" font-weight="bold">Design</text>
+  <rect x="255" y="30" width="150" height="42" rx="6" fill="var(--dg-accent)"/>
+  <text x="330" y="56" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
 
-  <rect x="470" y="152" width="150" height="42" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="545" y="178" text-anchor="middle" fill="#2B2724" font-size="14" font-weight="bold">Test</text>
+  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
 
-  <rect x="255" y="228" width="150" height="52" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="330" y="249" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">Review evidence,</text>
-  <text x="330" y="266" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">create learnings</text>
+  <rect x="255" y="228" width="150" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="330" y="249" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
+  <text x="330" y="266" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
 
-  <rect x="40" y="152" width="150" height="42" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="115" y="178" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Adjust and invest</text>
+  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
 </svg>
 </figure>
 ```
@@ -237,27 +237,27 @@ Actually causes more impact: 35 caused.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing observed successes with successes caused by the grant for two strategies">
-  <line x1="70" y1="200" x2="620" y2="200" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="60" y="205" text-anchor="end" fill="#6B6455" font-size="11">0</text>
-  <text x="60" y="110" text-anchor="end" fill="#6B6455" font-size="11">50</text>
-  <line x1="70" y1="106" x2="620" y2="106" stroke="#E4DCC6" stroke-width="1"/>
+  <line x1="70" y1="200" x2="620" y2="200" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="60" y="205" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">0</text>
+  <text x="60" y="110" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">50</text>
+  <line x1="70" y1="106" x2="620" y2="106" stroke="var(--dg-rule)" stroke-width="1"/>
 
-  <rect x="140" y="56" width="70" height="144" fill="#2B2724"/>
-  <text x="175" y="48" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">80</text>
-  <rect x="220" y="173" width="70" height="27" fill="#F2C94C"/>
-  <text x="255" y="165" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">15</text>
-  <text x="215" y="222" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">Strategy A</text>
+  <rect x="140" y="56" width="70" height="144" fill="var(--dg-ink)"/>
+  <text x="175" y="48" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">80</text>
+  <rect x="220" y="173" width="70" height="27" fill="var(--dg-accent)"/>
+  <text x="255" y="165" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">15</text>
+  <text x="215" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Strategy A</text>
 
-  <rect x="390" y="101" width="70" height="99" fill="#2B2724"/>
-  <text x="425" y="93" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">55</text>
-  <rect x="470" y="137" width="70" height="63" fill="#F2C94C"/>
-  <text x="505" y="129" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">35</text>
-  <text x="465" y="222" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">Strategy B</text>
+  <rect x="390" y="101" width="70" height="99" fill="var(--dg-ink)"/>
+  <text x="425" y="93" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">55</text>
+  <rect x="470" y="137" width="70" height="63" fill="var(--dg-accent)"/>
+  <text x="505" y="129" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">35</text>
+  <text x="465" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Strategy B</text>
 
-  <rect x="140" y="236" width="11" height="11" fill="#2B2724"/>
-  <text x="158" y="246" fill="#6B6455" font-size="11.5">Observed successes</text>
-  <rect x="300" y="236" width="11" height="11" fill="#F2C94C"/>
-  <text x="318" y="246" fill="#6B6455" font-size="11.5">Caused by the grant</text>
+  <rect x="140" y="236" width="11" height="11" fill="var(--dg-ink)"/>
+  <text x="158" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Observed successes</text>
+  <rect x="300" y="236" width="11" height="11" fill="var(--dg-accent)"/>
+  <text x="318" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Caused by the grant</text>
 </svg>
 <figcaption>Raw success counts can be misleading. Programmes should be judged on impact, not on the raw success of hand-picked winners.</figcaption>
 </figure>
@@ -310,23 +310,23 @@ trials are considered the gold standard.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Line chart showing actual outcomes rising faster than the counterfactual after an intervention, with the gap labelled impact">
-  <line x1="80" y1="250" x2="620" y2="250" stroke="#B9AF95" stroke-width="1.5"/>
-  <line x1="80" y1="30" x2="80" y2="250" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="350" y="278" text-anchor="middle" fill="#6B6455" font-size="12">Time</text>
-  <text x="62" y="140" text-anchor="middle" fill="#6B6455" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+  <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
 
-  <line x1="300" y1="30" x2="300" y2="250" stroke="#6B6455" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="300" y="22" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Intervention</text>
+  <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
 
-  <polyline points="100,220 150,205 200,190 250,175 300,160" fill="none" stroke="#2B2724" stroke-width="2.5"/>
-  <polyline points="300,160 370,133 440,106 510,79 580,52" fill="none" stroke="#F2C94C" stroke-width="3.5"/>
-  <polyline points="300,160 370,150 440,140 510,130 580,120" fill="none" stroke="#2B2724" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <polyline points="100,220 150,205 200,190 250,175 300,160" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="300,160 370,133 440,106 510,79 580,52" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="300,160 370,150 440,140 510,130 580,120" fill="none" stroke="var(--dg-ink)" stroke-width="2.5" stroke-dasharray="6 5"/>
 
-  <path d="M598 52 H606 M598 120 H606 M602 52 V120" stroke="#2B2724" stroke-width="1.5" fill="none"/>
-  <text x="614" y="90" fill="#2B2724" font-size="13" font-weight="bold">Impact</text>
+  <path d="M598 52 H606 M598 120 H606 M602 52 V120" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="614" y="90" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
 
-  <text x="500" y="40" fill="#2B2724" font-size="12" font-weight="bold">Actual</text>
-  <text x="500" y="145" fill="#6B6455" font-size="12">Counterfactual</text>
+  <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
+  <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
 </svg>
 <figcaption>Impact is the causal effect of the programme: the gap between what happened and what would have happened.</figcaption>
 </figure>
@@ -377,28 +377,28 @@ group without the programme.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and control groups start at the same outcome level and diverge after the programme, with the gap labelled impact">
-  <line x1="80" y1="250" x2="620" y2="250" stroke="#B9AF95" stroke-width="1.5"/>
-  <line x1="80" y1="30" x2="80" y2="250" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="350" y="278" text-anchor="middle" fill="#6B6455" font-size="12">Time</text>
-  <text x="62" y="140" text-anchor="middle" fill="#6B6455" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+  <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
 
-  <line x1="300" y1="30" x2="300" y2="250" stroke="#6B6455" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="300" y="22" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Programme starts</text>
-  <text x="190" y="270" text-anchor="middle" fill="#6B6455" font-size="11.5">Pre</text>
-  <text x="450" y="270" text-anchor="middle" fill="#6B6455" font-size="11.5">Post</text>
+  <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Programme starts</text>
+  <text x="190" y="270" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Pre</text>
+  <text x="450" y="270" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Post</text>
 
-  <polyline points="110,200 200,195 300,190" fill="none" stroke="#2B2724" stroke-width="2.5"/>
-  <polyline points="300,190 390,155 480,120 570,85" fill="none" stroke="#F2C94C" stroke-width="3.5"/>
-  <polyline points="300,190 390,182 480,174 570,166" fill="none" stroke="#2B2724" stroke-width="2.5"/>
+  <polyline points="110,200 200,195 300,190" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="300,190 390,155 480,120 570,85" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="300,190 390,182 480,174 570,166" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
 
-  <circle cx="110" cy="200" r="5" fill="#2B2724"/>
-  <text x="122" y="192" fill="#6B6455" font-size="11.5">Same starting point</text>
+  <circle cx="110" cy="200" r="5" fill="var(--dg-ink)"/>
+  <text x="122" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Same starting point</text>
 
-  <path d="M588 85 H596 M588 166 H596 M592 85 V166" stroke="#2B2724" stroke-width="1.5" fill="none"/>
-  <text x="604" y="129" fill="#2B2724" font-size="13" font-weight="bold">Impact</text>
+  <path d="M588 85 H596 M588 166 H596 M592 85 V166" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="604" y="129" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
 
-  <text x="480" y="72" fill="#2B2724" font-size="12" font-weight="bold">Treatment group</text>
-  <text x="480" y="200" fill="#6B6455" font-size="12">Control group</text>
+  <text x="480" y="72" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Control group</text>
 </svg>
 </figure>
 ```
@@ -486,20 +486,20 @@ recovering at the same time, not because of the programme.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Pre-post design assumes a flat comparison line, so the whole rise is attributed to the programme">
-  <line x1="80" y1="215" x2="620" y2="215" stroke="#B9AF95" stroke-width="1.5"/>
-  <line x1="80" y1="25" x2="80" y2="215" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="350" y="243" text-anchor="middle" fill="#6B6455" font-size="12">Time</text>
-  <line x1="280" y1="25" x2="280" y2="215" stroke="#6B6455" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="280" y="18" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Intervention</text>
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <line x1="280" y1="25" x2="280" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="280" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
 
-  <polyline points="110,180 280,170" fill="none" stroke="#2B2724" stroke-width="2.5"/>
-  <polyline points="280,170 380,140 480,110 570,80" fill="none" stroke="#F2C94C" stroke-width="3.5"/>
-  <polyline points="280,170 570,170" fill="none" stroke="#6B6455" stroke-width="2" stroke-dasharray="6 5"/>
-  <text x="400" y="188" fill="#6B6455" font-size="11.5">Comparison assumed flat</text>
+  <polyline points="110,180 280,170" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="280,170 380,140 480,110 570,80" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="280,170 570,170" fill="none" stroke="var(--dg-ink-soft)" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="400" y="188" fill="var(--dg-ink-soft)" font-size="11.5">Comparison assumed flat</text>
 
-  <path d="M588 80 H596 M588 170 H596 M592 80 V170" stroke="#2B2724" stroke-width="1.5" fill="none"/>
-  <text x="604" y="120" fill="#2B2724" font-size="12" font-weight="bold">Pre-post</text>
-  <text x="604" y="136" fill="#2B2724" font-size="12" font-weight="bold">impact</text>
+  <path d="M588 80 H596 M588 170 H596 M592 80 V170" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
+  <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
 </svg>
 </figure>
 ```
@@ -524,25 +524,25 @@ those that do not, so they might grow faster regardless of the grant.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Participants show higher outcomes than non-participants, but part of the gap is pre-existing firm quality">
-  <line x1="90" y1="205" x2="600" y2="205" stroke="#B9AF95" stroke-width="1.5"/>
-  <line x1="90" y1="25" x2="90" y2="205" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="72" y="115" text-anchor="middle" fill="#6B6455" font-size="12" transform="rotate(-90 72 115)">Outcome</text>
+  <line x1="90" y1="205" x2="600" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="90" y1="25" x2="90" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="72" y="115" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 72 115)">Outcome</text>
 
-  <rect x="180" y="60" width="110" height="145" fill="#F2C94C"/>
-  <rect x="180" y="130" width="110" height="75" fill="#D9B23F"/>
-  <text x="235" y="225" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">Participants</text>
+  <rect x="180" y="60" width="110" height="145" fill="var(--dg-accent)"/>
+  <rect x="180" y="130" width="110" height="75" fill="var(--dg-accent-dark)"/>
+  <text x="235" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Participants</text>
 
-  <rect x="400" y="130" width="110" height="75" fill="#2B2724"/>
-  <text x="455" y="225" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">Non-participants</text>
+  <rect x="400" y="130" width="110" height="75" fill="var(--dg-ink)"/>
+  <text x="455" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Non-participants</text>
 
-  <line x1="290" y1="130" x2="400" y2="130" stroke="#6B6455" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="290" y1="130" x2="400" y2="130" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
 
-  <path d="M528 60 H536 M528 130 H536 M532 60 V130" stroke="#2B2724" stroke-width="1.5" fill="none"/>
-  <text x="544" y="90" fill="#2B2724" font-size="12" font-weight="bold">Simple</text>
-  <text x="544" y="106" fill="#2B2724" font-size="12" font-weight="bold">difference</text>
+  <path d="M528 60 H536 M528 130 H536 M532 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="544" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Simple</text>
+  <text x="544" y="106" fill="var(--dg-ink)" font-size="12" font-weight="bold">difference</text>
 
-  <text x="300" y="172" fill="#6B6455" font-size="11.5">Unobserved difference,</text>
-  <text x="300" y="188" fill="#6B6455" font-size="11.5">for example firm quality</text>
+  <text x="300" y="172" fill="var(--dg-ink-soft)" font-size="11.5">Unobserved difference,</text>
+  <text x="300" y="188" fill="var(--dg-ink-soft)" font-size="11.5">for example firm quality</text>
 </svg>
 <figcaption>The measured gap mixes the programme effect with differences that were there all along.</figcaption>
 </figure>
@@ -568,24 +568,24 @@ downturn than the comparison firms, their trends could diverge even without the 
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups both rise, but the treatment group rises further; the difference between the two changes is the estimate">
-  <line x1="80" y1="215" x2="620" y2="215" stroke="#B9AF95" stroke-width="1.5"/>
-  <line x1="80" y1="25" x2="80" y2="215" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="350" y="243" text-anchor="middle" fill="#6B6455" font-size="12">Time</text>
-  <line x1="290" y1="25" x2="290" y2="215" stroke="#6B6455" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="290" y="18" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Intervention</text>
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <line x1="290" y1="25" x2="290" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="290" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
 
-  <polyline points="120,150 290,130" fill="none" stroke="#F2C94C" stroke-width="3.5"/>
-  <polyline points="290,130 560,60" fill="none" stroke="#F2C94C" stroke-width="3.5"/>
-  <polyline points="120,190 290,175" fill="none" stroke="#2B2724" stroke-width="2.5"/>
-  <polyline points="290,175 560,145" fill="none" stroke="#2B2724" stroke-width="2.5"/>
+  <polyline points="120,150 290,130" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="290,130 560,60" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="120,190 290,175" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="290,175 560,145" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
 
-  <path d="M578 60 H586 M578 130 H586 M582 60 V130" stroke="#2B2724" stroke-width="1.5" fill="none"/>
-  <text x="594" y="99" fill="#2B2724" font-size="11.5" font-weight="bold">Diff 1</text>
-  <path d="M578 145 H586 M578 175 H586 M582 145 V175" stroke="#6B6455" stroke-width="1.5" fill="none"/>
-  <text x="594" y="164" fill="#6B6455" font-size="11.5">Diff 2</text>
+  <path d="M578 60 H586 M578 130 H586 M582 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="594" y="99" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Diff 1</text>
+  <path d="M578 145 H586 M578 175 H586 M582 145 V175" stroke="var(--dg-ink-soft)" stroke-width="1.5" fill="none"/>
+  <text x="594" y="164" fill="var(--dg-ink-soft)" font-size="11.5">Diff 2</text>
 
-  <text x="380" y="52" fill="#2B2724" font-size="12" font-weight="bold">Treatment group</text>
-  <text x="380" y="178" fill="#6B6455" font-size="12">Comparison group</text>
+  <text x="380" y="52" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="380" y="178" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
 <figcaption>The estimate is Diff 1 minus Diff 2: how much more the treatment group changed than the comparison group.</figcaption>
 </figure>
@@ -639,28 +639,28 @@ are no longer comparable to those just above.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Outcomes jump discontinuously at the eligibility cutoff">
-  <line x1="80" y1="215" x2="620" y2="215" stroke="#B9AF95" stroke-width="1.5"/>
-  <line x1="80" y1="25" x2="80" y2="215" stroke="#B9AF95" stroke-width="1.5"/>
-  <text x="350" y="243" text-anchor="middle" fill="#6B6455" font-size="12">Cut-off variable</text>
-  <text x="62" y="120" text-anchor="middle" fill="#6B6455" font-size="12" transform="rotate(-90 62 120)">Outcome</text>
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Cut-off variable</text>
+  <text x="62" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 120)">Outcome</text>
 
-  <line x1="350" y1="25" x2="350" y2="215" stroke="#6B6455" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="350" y="18" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Cut-off</text>
+  <line x1="350" y1="25" x2="350" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="350" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Cut-off</text>
 
-  <circle cx="130" cy="180" r="4" fill="#2B2724"/><circle cx="165" cy="172" r="4" fill="#2B2724"/>
-  <circle cx="200" cy="178" r="4" fill="#2B2724"/><circle cx="235" cy="163" r="4" fill="#2B2724"/>
-  <circle cx="270" cy="168" r="4" fill="#2B2724"/><circle cx="305" cy="156" r="4" fill="#2B2724"/>
-  <circle cx="335" cy="160" r="4" fill="#2B2724"/>
-  <polyline points="120,182 345,158" fill="none" stroke="#2B2724" stroke-width="2.5"/>
+  <circle cx="130" cy="180" r="4" fill="var(--dg-ink)"/><circle cx="165" cy="172" r="4" fill="var(--dg-ink)"/>
+  <circle cx="200" cy="178" r="4" fill="var(--dg-ink)"/><circle cx="235" cy="163" r="4" fill="var(--dg-ink)"/>
+  <circle cx="270" cy="168" r="4" fill="var(--dg-ink)"/><circle cx="305" cy="156" r="4" fill="var(--dg-ink)"/>
+  <circle cx="335" cy="160" r="4" fill="var(--dg-ink)"/>
+  <polyline points="120,182 345,158" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
 
-  <circle cx="365" cy="108" r="4" fill="#F2C94C"/><circle cx="400" cy="112" r="4" fill="#F2C94C"/>
-  <circle cx="435" cy="98" r="4" fill="#F2C94C"/><circle cx="470" cy="104" r="4" fill="#F2C94C"/>
-  <circle cx="505" cy="90" r="4" fill="#F2C94C"/><circle cx="540" cy="95" r="4" fill="#F2C94C"/>
-  <circle cx="575" cy="84" r="4" fill="#F2C94C"/>
-  <polyline points="355,110 585,86" fill="none" stroke="#F2C94C" stroke-width="3.5"/>
+  <circle cx="365" cy="108" r="4" fill="var(--dg-accent)"/><circle cx="400" cy="112" r="4" fill="var(--dg-accent)"/>
+  <circle cx="435" cy="98" r="4" fill="var(--dg-accent)"/><circle cx="470" cy="104" r="4" fill="var(--dg-accent)"/>
+  <circle cx="505" cy="90" r="4" fill="var(--dg-accent)"/><circle cx="540" cy="95" r="4" fill="var(--dg-accent)"/>
+  <circle cx="575" cy="84" r="4" fill="var(--dg-accent)"/>
+  <polyline points="355,110 585,86" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
 
-  <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="#2B2724" stroke-width="1.5" fill="none"/>
-  <text x="250" y="128" fill="#2B2724" font-size="12" font-weight="bold">RDD effect</text>
+  <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="250" y="128" fill="var(--dg-ink)" font-size="12" font-weight="bold">RDD effect</text>
 </svg>
 <figcaption>Many firms sit close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
 </figure>
@@ -681,48 +681,48 @@ Choosing a design
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Decision tree: if you can plan from the outset and have excess demand, use an RCT; otherwise use matching, difference in differences, or regression discontinuity">
-  <rect x="200" y="8" width="280" height="42" rx="5" fill="#2B2724"/>
-  <text x="340" y="26" text-anchor="middle" fill="#FAF6EC" font-size="12.5">Can you plan an evaluation</text>
-  <text x="340" y="42" text-anchor="middle" fill="#FAF6EC" font-size="12.5">from the outset?</text>
+  <rect x="200" y="8" width="280" height="42" rx="5" fill="var(--dg-ink)"/>
+  <text x="340" y="26" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5">Can you plan an evaluation</text>
+  <text x="340" y="42" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5">from the outset?</text>
 
-  <path d="M340 50 V70 H170 V96" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <text x="240" y="65" fill="#6B6455" font-size="11.5" font-weight="bold">No</text>
-  <path d="M340 50 V70 H510 V96" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <text x="425" y="65" fill="#6B6455" font-size="11.5" font-weight="bold">Yes</text>
+  <path d="M340 50 V70 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="240" y="65" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">No</text>
+  <path d="M340 50 V70 H510 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="425" y="65" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
 
-  <rect x="20" y="96" width="300" height="34" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="170" y="118" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
+  <rect x="20" y="96" width="300" height="34" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="170" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
 
-  <path d="M170 130 V330 M170 172 H36 M170 252 H36 M170 330 H36" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M170 130 V330 M170 172 H36 M170 252 H36 M170 330 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-  <rect x="36" y="146" width="284" height="58" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="52" y="167" fill="#2B2724" font-size="12.5" font-weight="bold">Matching</text>
-  <text x="52" y="186" fill="#6B6455" font-size="11">No unobserved differences between</text>
-  <text x="52" y="199" fill="#6B6455" font-size="11">matched groups</text>
+  <rect x="36" y="146" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="52" y="167" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Matching</text>
+  <text x="52" y="186" fill="var(--dg-ink-soft)" font-size="11">No unobserved differences between</text>
+  <text x="52" y="199" fill="var(--dg-ink-soft)" font-size="11">matched groups</text>
 
-  <rect x="36" y="226" width="284" height="58" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="52" y="247" fill="#2B2724" font-size="12.5" font-weight="bold">Difference in differences</text>
-  <text x="52" y="266" fill="#6B6455" font-size="11">Both groups would have trended the</text>
-  <text x="52" y="279" fill="#6B6455" font-size="11">same (parallel trends)</text>
+  <rect x="36" y="226" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="52" y="247" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Difference in differences</text>
+  <text x="52" y="266" fill="var(--dg-ink-soft)" font-size="11">Both groups would have trended the</text>
+  <text x="52" y="279" fill="var(--dg-ink-soft)" font-size="11">same (parallel trends)</text>
 
-  <rect x="36" y="304" width="284" height="58" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="52" y="325" fill="#2B2724" font-size="12.5" font-weight="bold">Regression discontinuity</text>
-  <text x="52" y="344" fill="#6B6455" font-size="11">No manipulation of who falls just</text>
-  <text x="52" y="357" fill="#6B6455" font-size="11">above or below the cut-off</text>
+  <rect x="36" y="304" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="52" y="325" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Regression discontinuity</text>
+  <text x="52" y="344" fill="var(--dg-ink-soft)" font-size="11">No manipulation of who falls just</text>
+  <text x="52" y="357" fill="var(--dg-ink-soft)" font-size="11">above or below the cut-off</text>
 
-  <rect x="360" y="96" width="300" height="44" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="510" y="115" text-anchor="middle" fill="#2B2724" font-size="12">Is there excess demand that lets</text>
-  <text x="510" y="131" text-anchor="middle" fill="#2B2724" font-size="12">you randomize participation?</text>
+  <rect x="360" y="96" width="300" height="44" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="510" y="115" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Is there excess demand that lets</text>
+  <text x="510" y="131" text-anchor="middle" fill="var(--dg-ink)" font-size="12">you randomize participation?</text>
 
-  <path d="M510 140 V166" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <text x="520" y="158" fill="#6B6455" font-size="11.5" font-weight="bold">Yes</text>
+  <path d="M510 140 V166" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="520" y="158" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
 
-  <rect x="380" y="166" width="260" height="44" rx="5" fill="#F2C94C"/>
-  <text x="510" y="184" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Randomized controlled</text>
-  <text x="510" y="200" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">trial</text>
+  <rect x="380" y="166" width="260" height="44" rx="5" fill="var(--dg-accent)"/>
+  <text x="510" y="184" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomized controlled</text>
+  <text x="510" y="200" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">trial</text>
 
-  <text x="380" y="240" fill="#6B6455" font-size="11">No assumptions about outcome levels or</text>
-  <text x="380" y="254" fill="#6B6455" font-size="11">trends between groups are needed</text>
+  <text x="380" y="240" fill="var(--dg-ink-soft)" font-size="11">No assumptions about outcome levels or</text>
+  <text x="380" y="254" fill="var(--dg-ink-soft)" font-size="11">trends between groups are needed</text>
 </svg>
 <figcaption>Each quasi-experimental branch carries its own identifying assumption, shown beneath the method name.</figcaption>
 </figure>

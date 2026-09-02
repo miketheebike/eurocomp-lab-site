@@ -1,47 +1,59 @@
 /*-- scss:defaults --*/
 
-// EuroCOMP Lab palette, taken from the slide deck
-$cream:        #FAF6EC;
-$paper:        #FFFDF7;
-$charcoal:     #2B2724;
-$gold:         #F2C94C;
-$pale-gold:    #FCEBC2;
-$ink:          #2B2724;
-$ink-soft:     #6B6455;
-$rule:         #E4DCC6;
+// EU institutional palette.
+// Blues from the Europa Component Library; yellow from the EU emblem.
+// Used as a design register, not as EU visual identity: the site is not an
+// EU institutional website and must not present itself as one.
 
-$body-bg:      $cream;
+$eu-blue:      #004494;   // ECL primary
+$eu-blue-dark: #003399;   // emblem blue
+$eu-blue-mid:  #3A6FB0;
+$eu-blue-pale: #E7EEF7;
+$eu-yellow:    #FFD617;   // emblem yellow, used sparingly
+$eu-yellow-pale:#FFF6D1;
+
+$cream:        #FFFFFF;
+$paper:        #FFFFFF;
+$charcoal:     $eu-blue;
+$gold:         $eu-yellow;
+$pale-gold:    $eu-yellow-pale;
+$ink:          #1A1A1A;
+$ink-soft:     #5B5B5B;
+$rule:         #D4D4D4;
+$page-bg:      #FFFFFF;
+$surface:      #F5F7FA;
+
+$body-bg:      $page-bg;
 $body-color:   $ink;
-$link-color:   #8A6A00;
+$link-color:   $eu-blue;
 
 $font-family-sans-serif: Arial, Helvetica, sans-serif;
 $font-size-root: 16px;
 $headings-font-weight: 700;
 
-$navbar-bg:    $charcoal;
-$navbar-fg:    $cream;
-$navbar-hl:    $gold;
+$navbar-bg:    $eu-blue;
+$navbar-fg:    #FFFFFF;
+$navbar-hl:    $eu-yellow;
 
 $toc-color:    $ink-soft;
-$code-block-bg: #F3EEDF;
+$code-block-bg: #F1F3F6;
 
 /*-- scss:rules --*/
 
 /* diagram colour tokens, consumed by the inline SVGs */
 :root {
-  --dg-ink:              #{$ink};
+  --dg-ink:              #{$eu-blue};
   --dg-ink-soft:         #{$ink-soft};
-  --dg-line:             #B9AF95;
-  --dg-accent:           #{$gold};
-  --dg-accent-dark:      #D9B23F;
-  --dg-accent-wash:      rgba(242,201,76,.16);
-  --dg-accent-wash-soft: rgba(242,201,76,.10);
-  --dg-panel:            #{$paper};
+  --dg-line:             #A8B8CC;
+  --dg-accent:           #{$eu-yellow};
+  --dg-accent-dark:      #E0B900;
+  --dg-accent-wash:      #{$eu-blue-pale};
+  --dg-accent-wash-soft: #F2F6FB;
+  --dg-panel:            #FFFFFF;
   --dg-rule:             #{$rule};
-  --dg-reverse:          #{$cream};
-  --dg-muted:            #DDD5C0;
+  --dg-reverse:          #FFFFFF;
+  --dg-muted:            #D4DCE6;
 }
-
 body { line-height: 1.6; }
 
 h1, h2, h3, h4 { letter-spacing: -0.01em; color: $ink; }
@@ -531,3 +543,127 @@ hr {
   border-top: 1px solid $rule;
   margin: 2.4rem 0;
 }
+
+
+/* ============================================================
+   EU register overrides
+   Squarer corners, cooler surfaces, blue instead of charcoal.
+   ============================================================ */
+
+.card-e, .compare > .col-e, .chain > div, .chain > .step,
+.flow > div, .designs > .d, .caution {
+  border-radius: 2px;
+}
+.gold-panel, .soft-panel, .takeaway, .case-band, .dark-panel, .video-ph {
+  border-radius: 2px;
+}
+
+.card-e, .flow > div, .chain > div, .chain > .step {
+  background: $surface;
+  border-color: $rule;
+}
+
+/* headline panels read as institutional blue, not warm gold */
+.gold-panel {
+  background: $eu-blue;
+  color: #FFFFFF;
+  border-left: 6px solid $eu-yellow;
+}
+.gold-panel strong { color: $eu-yellow; }
+
+.soft-panel, .takeaway {
+  background: $eu-blue-pale;
+  border-left: 4px solid $eu-blue;
+}
+
+.case-band {
+  background: $eu-blue-pale;
+  border-left: 4px solid $eu-blue;
+}
+.case-band b { color: $eu-blue; }
+
+.dark-panel { background: $eu-blue; }
+.dark-panel .eyebrow { color: rgba(255,255,255,.72); }
+.dark-panel a { color: $eu-yellow; }
+.quote-e { border-left-color: $eu-yellow; }
+.quote-e .attrib { color: rgba(255,255,255,.72); }
+
+.chain > div.on, .chain > .on { background: $eu-blue; border-color: $eu-blue; color: #FFFFFF; }
+.chain > div.on b, .chain > .on b, .chain > .on p { color: #FFFFFF; }
+
+.tracker span.on { background: $eu-blue; color: #FFFFFF; }
+.tracker span { color: $ink-soft; }
+.tracker span.sep { color: #A8B8CC; }
+
+.compare .col-head { background: $eu-blue; }
+
+.designs > .d:before { background: $eu-blue; color: #FFFFFF; }
+
+.caution:before { background: $eu-yellow; color: $ink; }
+
+.team-note {
+  border-left-color: $eu-blue;
+  background: $surface;
+}
+
+.head-rule { background: $eu-blue; }
+
+.placeholder { background: $eu-yellow-pale; color: #6B5200; }
+
+p > em:only-child { border-left-color: $eu-blue; }
+
+li > strong:first-child { color: $eu-blue; }
+
+.video-ph { background: $eu-blue; }
+.video-ph .play { background: $eu-yellow; color: $ink; }
+
+/* ---- institutional footer ---- */
+.site-foot {
+  border-top: 4px solid $eu-blue;
+  margin-top: 4rem;
+  padding-top: 1.6rem;
+  font-size: .85rem;
+  line-height: 1.6;
+  color: $ink-soft;
+}
+.site-foot .funding {
+  display: flex;
+  gap: 1.1rem;
+  align-items: flex-start;
+  padding: 1rem 0 1.2rem;
+}
+.site-foot .funding .mark {
+  flex: 0 0 88px;
+  min-height: 59px;
+  border: 1px dashed $rule;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center;
+  font-size: .6rem; letter-spacing: .06em; text-transform: uppercase;
+  color: $ink-soft; padding: .3rem;
+}
+.site-foot .meta { display: flex; flex-wrap: wrap; gap: .4rem 1.4rem; padding-top: 1rem; border-top: 1px solid $rule; }
+
+.updated {
+  font-size: .78rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: $ink-soft;
+  border-top: 1px solid $rule;
+  margin-top: 3rem;
+  padding-top: .9rem;
+}
+
+/* ---- footer detail ---- */
+.foot-note { color: $ink-soft; font-size: .82rem; }
+.mark-placeholder {
+  display: inline-flex;
+  align-items: center; justify-content: center;
+  text-align: center;
+  width: 92px; min-height: 62px;
+  margin-top: .7rem;
+  border: 1px dashed $rule;
+  font-size: .58rem; letter-spacing: .06em; text-transform: uppercase;
+  color: $ink-soft; line-height: 1.4; padding: .3rem;
+}
+.eu-mark { height: 62px; width: auto; margin-top: .7rem; }
+.nav-footer { font-size: .85rem; }

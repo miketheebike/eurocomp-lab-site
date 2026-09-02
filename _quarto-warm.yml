@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "EuroCOMP Lab"
+  description: "Impact evaluation for competitive business support programs"
+  navbar:
+    background: dark
+    left:
+      - href: index.qmd
+        text: Home
+      - href: 01-why-and-when.qmd
+        text: Why and When
+      - href: 02-how.qmd
+        text: How
+      - href: 03-advanced-how.qmd
+        text: Advanced How
+      - href: 04-toc.qmd
+        text: Theory of Change, Indicators, and Data
+      - href: 05-data.qmd
+        text: Data Collection
+      - href: 06-templates.qmd
+        text: Templates
+      - href: 07-examples.qmd
+        text: Examples
+  page-footer:
+    center: "Draft site. Structure and content still under review by the team."
+
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: true
+    toc-title: "On this page"
+    toc-depth: 2
+    anchor-sections: true
+    link-external-newwindow: true
