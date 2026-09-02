@@ -483,7 +483,7 @@ Recap: firms first completed an online screening survey. Of the 1,038 found elig
 519 were then randomly assigned to the treatment group, invited to formally apply for a
 grant, and 519 to the comparison group, who received no invitation.
 
-Because the notary-witnessed draw was random, the gap between their outcomes over time —
+Because the draw was random, the gap between their outcomes over time —
 digital adoption, revenue, profits, employment, productivity — is the estimated impact of
 being offered the opportunity to apply: the intention-to-treat effect.
 :::
