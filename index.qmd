@@ -60,6 +60,7 @@ Different ways to design and randomise a trial, illustrated with real case studi
 ::: {.card-e}
 #### [Advanced how](03-advanced-how.qmd)
 Sample size and power calculations, from rule-of-thumb intuition to the full method.
+:::
 ::: {.card-e}
 #### [Templates](06-templates.qmd)
 Benchmark reports, do-files for randomisation, questionnaire modules, and Terms of Reference templates, ready to use.
@@ -70,7 +71,7 @@ Experience from projects already partnering with EuroCOMP Lab.
 :::
 ::::
  
-### Connect with reseachers and labs specialised in experimentation
+### Connect with researchers and labs specialised in experimentation
  
 :::: {.cards}
 ::: {.card-e}
@@ -87,7 +88,11 @@ The World Bank's Development Impact Evaluation group.
 :::
 ::::
  
-Or talk to someone who's done it: contacts at managing authorities already running experimental evaluations:
+::: {.team-note}
+**To add**
+Contacts at managing authorities already running experimental evaluations, for teams that
+want to speak to a peer rather than read a page.
+:::
 
 
 
@@ -104,9 +109,11 @@ support more efficient and effective, and how it is already being used to improv
 programs across Europe.
 
 ::: {.video-frame}
-{{< video https://vimeo.com/347119375
-    title="Introducing the EuroCOMP Lab"
-    aspect-ratio="16x9" >}}
+{{< video https://vimeo.com/347119375 title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
+:::
+
+::: {.video-meta}
+Captions available in English. A full transcript is below.
 :::
 
 
