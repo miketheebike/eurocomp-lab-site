@@ -2,42 +2,419 @@
 title: "Advanced How"
 ---
 
-[Placeholder page]{.placeholder}
-
-Sample size and power, built up from intuition rather than formulas.
-
-## Samples and power calculations
-
-Starts from a rule-of-thumb intuition using standard deviation, then adds
-complexity in steps.
-
-::: {.team-note}
-**Key message**
-**Constraint.** No formulas on the page. Intuition and visuals only, with links
-out for anyone who wants the maths.
+::: {.lede}
+Designing an RCT that produces reliable evidence. Behind every successful RCT are design
+decisions made before the programme begins. Good randomization alone is not enough.
 :::
 
-## Why enough applicants is essential
+## What makes an RCT credible?
 
-A sufficiently large number of applicants or beneficiaries is the precondition
-for everything else on this page.
+[How](02-how.qmd) showed the process. This page shows what separates a strong RCT from a
+weak one.
 
-## Power calculator
+::: {.cards}
+::: {.card-e}
+[01]{.num}
 
-Link out to an existing calculator rather than building one.
+#### Enough firms
 
-::: {.team-note}
-**Open question**
-To do: Jakob shared the link by email. Needs adding here and to the deck.
+Groups large enough to detect real impacts.
+:::
+::: {.card-e}
+[02]{.num}
+
+#### Comparable groups
+
+A lottery that actually balanced the groups.
+:::
+::: {.card-e}
+[03]{.num}
+
+#### Reliable outcomes
+
+Measures that capture what matters.
+:::
+::: {.card-e}
+[04]{.num}
+
+#### The right design
+
+A setup matched to the policy question.
+:::
 :::
 
-## Companion slide deck
+::: {.takeaway}
+The sections below walk through each pillar, using SMART Romania as the test case.
+:::
 
-Covers the four credibility pillars: enough firms, comparable groups, reliable
-outcomes, right design.
+```{=html}
+<div class="tracker"><span class="on">Enough firms</span><span class="sep">&rsaquo;</span><span>Comparable groups</span><span class="sep">&rsaquo;</span><span>Outcomes</span><span class="sep">&rsaquo;</span><span>Right design</span></div>
+```
+
+## Do I have enough firms?
+
+Randomization only works if there are enough firms to detect meaningful differences.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Too few firms
+:::
+::: {.body}
+```{=html}
+<div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
+<span class="a"></span><span></span><span></span><span class="a"></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span class="a"></span><span></span><span></span><span></span><span class="a"></span><span></span>
+<span></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span>
+</div>
+```
+Real impacts may go undetected: ordinary differences between firms drown out the
+programme's effect.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Enough firms
+:::
+::: {.body}
+```{=html}
+<div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+</div>
+```
+Real impacts become measurable: averages settle and the difference stands out.
+:::
+:::
+:::
+
+::: {.takeaway}
+More firms do not make the lottery fairer; they make its answer visible.
+:::
+
+## Why sample size matters
+
+How many firms are enough depends on what needs to be detected.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+The size of the effect
+:::
+::: {.body}
+**Small effect:** more firms needed.
+
+**Large effect:** fewer firms needed.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+The variation between firms
+:::
+::: {.body}
+**High variation:** more firms needed.
+
+**Low variation:** fewer firms needed.
+:::
+:::
+:::
+
+::: {.gold-panel}
+Think of trying to hear a quiet voice in a noisy room: more background noise requires
+more observations.
+:::
+
+## How is the required sample calculated?
+
+Evaluators combine four ingredients into one required number, before the programme starts.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Expected effect, variation, confidence level and statistical power feed a power calculation, which returns the required sample size">
+  <rect x="20" y="20" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="120" y="46" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Expected effect</text>
+
+  <rect x="20" y="86" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="120" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Variation</text>
+  <text x="120" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">(standard deviation)</text>
+
+  <rect x="20" y="152" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="120" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Confidence level</text>
+
+  <rect x="20" y="218" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="120" y="244" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Statistical power</text>
+
+  <path d="M220 41 H250 V140 M220 107 H250 M220 173 H250 M220 239 H250 V140 M250 140 H272" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="272" y="110" width="176" height="60" rx="5" fill="var(--dg-accent)"/>
+  <text x="360" y="135" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">POWER CALCULATION</text>
+  <text x="360" y="153" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">standard software does the math</text>
+
+  <path d="M448 140 H478" stroke="var(--dg-line)" stroke-width="1.5"/>
+
+  <rect x="478" y="106" width="182" height="68" rx="5" fill="var(--dg-ink)"/>
+  <text x="569" y="131" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5" font-weight="bold">Required sample size</text>
+  <text x="569" y="150" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the minimum number of firms</text>
+  <text x="569" y="164" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the study needs</text>
+</svg>
+</figure>
+```
+
+::: {.takeaway}
+No formulas needed: calculators do this work. Links at the bottom of this page.
+:::
+
+## Was 1,038 enough?
+
+Back to the case: how do evaluators know whether the SMART Romania pool was big enough?
+Run the pool against the required sample from the power calculation, and do it before the
+draw. If the pool falls short, grow the pool first (next section).
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="The pool of 1038 firms is checked against the required sample produced by the power calculation">
+  <rect x="20" y="56" width="190" height="72" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="115" y="88" text-anchor="middle" fill="var(--dg-ink)" font-size="21" font-weight="bold">1,038</text>
+  <text x="115" y="110" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">firms in the pool</text>
+
+  <text x="278" y="97" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">checked</text>
+  <text x="278" y="113" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">against</text>
+
+  <path d="M338 92 H366" stroke="var(--dg-line)" stroke-width="1.5"/>
+
+  <rect x="366" y="56" width="294" height="72" rx="6" fill="var(--dg-accent-wash)"/>
+  <text x="513" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Required sample</text>
+  <text x="513" y="103" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">expected effect &rarr; power calculation &rarr; minimum firms</text>
+</svg>
+</figure>
+```
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; 1,038 eligible firms formed the randomized pool</span></div>
+```
 
 ::: {.team-note}
-**Open question**
-Data gap: balance bar figures in the deck are still illustrative placeholders.
-Replace before publication.
+**Data gap**
+The baseline report contains no power calculation figures, so this section shows the logic
+of the check without inventing numbers. Ask the evaluation team for the expected effect,
+assumptions, and required sample, then add them here.
+:::
+
+## What if there are not enough firms?
+
+The most common planning problem has practical fixes.
+
+```{=html}
+<div class="designs">
+  <div class="d"><div>
+    <h4>Increase outreach</h4>
+    <p>More applications mean a larger pool. SMART Romania ran events in more than 20 cities.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Expand eligibility</h4>
+    <p>Loosen the bar so more firms qualify.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Combine regions</h4>
+    <p>Pool similar programmes or areas into one study.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Run a phase-in</h4>
+    <p>Everyone participates; timing creates the comparison.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Target larger effects</h4>
+    <p>Focus the programme where impacts are biggest.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Collect better baseline data</h4>
+    <p>Good baselines reduce noise and cut the required sample.</p>
+  </div></div>
+</div>
+```
+
+Related on [How](02-how.qmd): the eligibility levers and phase-in designs.
+
+```{=html}
+<div class="tracker"><span>Enough firms</span><span class="sep">&rsaquo;</span><span class="on">Comparable groups</span><span class="sep">&rsaquo;</span><span>Outcomes</span><span class="sep">&rsaquo;</span><span>Right design</span></div>
+```
+
+## Did the lottery create comparable groups?
+
+A lottery should produce two groups that look alike before the programme starts. Check it.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Illustrative balance check: treatment and comparison bars of near-equal length for firm age, revenue, employees and sector mix">
+  <text x="20" y="26" fill="var(--dg-ink-soft)" font-size="10.5" letter-spacing="1.5" font-weight="bold">ILLUSTRATIVE, NOT REAL DATA</text>
+
+  <text x="20" y="66" fill="var(--dg-ink)" font-size="12" font-weight="bold">Firm age</text>
+  <rect x="150" y="52" width="300" height="14" fill="var(--dg-ink)"/>
+  <rect x="150" y="70" width="290" height="14" fill="var(--dg-accent)"/>
+
+  <text x="20" y="130" fill="var(--dg-ink)" font-size="12" font-weight="bold">Revenue</text>
+  <rect x="150" y="116" width="340" height="14" fill="var(--dg-ink)"/>
+  <rect x="150" y="134" width="352" height="14" fill="var(--dg-accent)"/>
+
+  <text x="20" y="194" fill="var(--dg-ink)" font-size="12" font-weight="bold">Employees</text>
+  <rect x="150" y="180" width="260" height="14" fill="var(--dg-ink)"/>
+  <rect x="150" y="198" width="268" height="14" fill="var(--dg-accent)"/>
+
+  <text x="20" y="258" fill="var(--dg-ink)" font-size="12" font-weight="bold">Sector mix</text>
+  <rect x="150" y="244" width="310" height="14" fill="var(--dg-ink)"/>
+  <rect x="150" y="262" width="302" height="14" fill="var(--dg-accent)"/>
+
+  <rect x="150" y="296" width="11" height="11" fill="var(--dg-ink)"/>
+  <text x="168" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Treatment</text>
+  <rect x="260" y="296" width="11" height="11" fill="var(--dg-accent)"/>
+  <text x="278" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
+</svg>
+<figcaption>If the groups look the same before the programme starts, the lottery probably worked. Small differences are normal; large systematic ones are a warning sign.</figcaption>
+</figure>
+```
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; The application survey collected the baseline data used for this check</span></div>
+```
+
+::: {.team-note}
+**Data gap**
+The balance bars are illustrative. The baseline report does not publish a treatment and
+control balance table. Once the team shares the actual balance results, replace the bars
+with the real characteristics and values, and remove the on-figure caveat.
+:::
+
+```{=html}
+<div class="tracker"><span>Enough firms</span><span class="sep">&rsaquo;</span><span>Comparable groups</span><span class="sep">&rsaquo;</span><span class="on">Outcomes</span><span class="sep">&rsaquo;</span><span>Right design</span></div>
+```
+
+## Which outcomes should be measured?
+
+An RCT is only as good as what it measures.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Good outcomes are
+:::
+::: {.body}
+- **Relevant:** tied to the policy objective
+- **Measurable:** data can actually be collected
+- **Objective:** not dependent on opinion
+- **Consistent:** collected the same way for every firm, every round
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Measured in SMART Romania
+:::
+::: {.body}
+- Digital adoption (DESI)
+- Revenue
+- Employment
+- Productivity
+:::
+:::
+:::
+
+::: {.takeaway}
+Fix the outcomes before the draw: choosing them afterwards invites cherry-picking.
+:::
+
+```{=html}
+<div class="tracker"><span>Enough firms</span><span class="sep">&rsaquo;</span><span>Comparable groups</span><span class="sep">&rsaquo;</span><span>Outcomes</span><span class="sep">&rsaquo;</span><span class="on">Right design</span></div>
+```
+
+## What can go wrong?
+
+Even a well-designed RCT must survive contact with reality.
+
+::: {.caution}
+**Attrition.** Firms drop out of surveys, and the groups stop matching.
+:::
+
+::: {.caution}
+**Spillovers.** Comparison firms benefit anyway, and the measured difference shrinks.
+:::
+
+::: {.caution}
+**Low take-up.** Treated firms never actually use the support.
+:::
+
+::: {.caution}
+**Implementation problems.** The programme is delivered unevenly across firms.
+:::
+
+Monitoring answers all four: [Data Collection](05-data.qmd).
+
+## When are the alternative designs worth it?
+
+[How](02-how.qmd) introduced four alternative designs. The advanced question is when they
+earn their extra sample and complexity.
+
+::: {.cards}
+::: {.card-e}
+#### Multiple treatment arms
+
+**Choose it when:** knowing which version works best matters more than sample size.
+:::
+::: {.card-e}
+#### Phase-in
+
+**Choose it when:** everyone must eventually receive the programme.
+:::
+::: {.card-e}
+#### Randomized intensities
+
+**Choose it when:** spillovers between firms or employees are the question.
+:::
+::: {.card-e}
+#### Encouragement
+
+**Choose it when:** access cannot be denied and take-up is the problem.
+:::
+:::
+
+```{=html}
+<div class="case-band"><b>SMART Romania</b><span>&check; A simple lottery was enough: one clear question, oversubscribed grants</span></div>
+```
+
+The mechanics of each design: [How](02-how.qmd).
+
+## Where to go deeper
+
+The mathematics is one click away, so this website stays practical.
+
+::: {.cards}
+::: {.card-e}
+#### Power calculators
+
+Online tools that turn the four inputs into a required sample.
+:::
+::: {.card-e}
+#### World Bank IE toolkit
+
+Step-by-step guidance for designing and running evaluations.
+:::
+::: {.card-e}
+#### J-PAL resources
+
+Research protocols, sample-size guides, and training material.
+:::
+::: {.card-e}
+#### IPA resources
+
+Practical implementation guidance from field evaluations.
+:::
+:::
+
+::: {.takeaway}
+Start with a calculator: an afternoon with one teaches more than a chapter of formulas.
+:::
+
+::: {.team-note}
+**To add**
+Resource links, including the power calculator Jakob shared by email. Shortlist per the
+outline: power calculators, World Bank toolkit, J-PAL, IPA.
 :::
