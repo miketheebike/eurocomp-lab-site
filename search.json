@@ -11,14 +11,14 @@
     "href": "02-how.html",
     "title": "How",
     "section": "",
-    "text": "An RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.\n\n\n  \n  Ex-ante\n  Ex-post\n  \n  Time\n\n  \n  T0: Target areas\n  \n  T1: Eligibility\n  \n  T2: Monitoring\n  \n  T3: Impacts\n\n  \n  1. Secondary data\n  Identify which areas\n  and groups need support\n\n  \n  2. Eligibility check\n  Refine the selection\n  criteria, collect baseline\n\n  \n  3. Random selection\n  within the eligible pool\n\n  \n  \n\n  \n  Treatment firms\n\n  \n  Pure control group\n  comparison firms without any support\n\n  Outcome\n\n  \n  4. Endline assessment\n  Measure the gap between\n  the two groups\n\n  \n  Impact\n\nEverything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.\n\n\nSMART Romania: building the eligibility pool\n\n  OutreachSocial media, radio, and events in 20+ cities\n  Online applicationsAbout one hour to complete\n  Automatic screeningStops as soon as a criterion fails\n  1 038 eligible MSMEsScreened from over 1,500 applicants by September 2023\n\nIn SMART Romania, one survey did three jobs: application, eligibility check, and baseline data collection, all in a single step. In October 2023, 519 of the eligible firms were then randomly selected for funding, and 519 were not."
+    "text": "This page explains the basics of how to design randomised controlled trials."
   },
   {
     "objectID": "02-how.html#randomisation-must-be-designed-in-from-the-start",
     "href": "02-how.html#randomisation-must-be-designed-in-from-the-start",
     "title": "How",
-    "section": "",
-    "text": "An RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.\n\n\n  \n  Ex-ante\n  Ex-post\n  \n  Time\n\n  \n  T0: Target areas\n  \n  T1: Eligibility\n  \n  T2: Monitoring\n  \n  T3: Impacts\n\n  \n  1. Secondary data\n  Identify which areas\n  and groups need support\n\n  \n  2. Eligibility check\n  Refine the selection\n  criteria, collect baseline\n\n  \n  3. Random selection\n  within the eligible pool\n\n  \n  \n\n  \n  Treatment firms\n\n  \n  Pure control group\n  comparison firms without any support\n\n  Outcome\n\n  \n  4. Endline assessment\n  Measure the gap between\n  the two groups\n\n  \n  Impact\n\nEverything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.\n\n\nSMART Romania: building the eligibility pool\n\n  OutreachSocial media, radio, and events in 20+ cities\n  Online applicationsAbout one hour to complete\n  Automatic screeningStops as soon as a criterion fails\n  1 038 eligible MSMEsScreened from over 1,500 applicants by September 2023\n\nIn SMART Romania, one survey did three jobs: application, eligibility check, and baseline data collection, all in a single step. In October 2023, 519 of the eligible firms were then randomly selected for funding, and 519 were not."
+    "section": "Randomisation must be designed in from the start",
+    "text": "Randomisation must be designed in from the start\nAn RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.\n\n\n  \n  Ex-ante\n  Ex-post\n  \n  Time\n\n  \n  T0: Target areas\n  \n  T1: Eligibility\n  \n  T2: Monitoring\n  \n  T3: Impacts\n\n  \n  1. Secondary data\n  Identify which areas\n  and groups need support\n\n  \n  2. Eligibility check\n  Refine the selection\n  criteria, collect baseline\n\n  \n  3. Random selection\n  within the eligible pool\n\n  \n  \n\n  \n  Treatment firms\n\n  \n  Pure control group\n  comparison firms without any support\n\n  Outcome\n\n  \n  4. Endline assessment\n  Measure the gap between\n  the two groups\n\n  \n  Impact\n\nEverything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.\n\n\nSMART Romania: building the eligibility pool\n\n  OutreachSocial media, radio, and events in 20+ cities\n  Online applicationsAbout one hour to complete\n  Automatic screeningStops as soon as a criterion fails\n  1 038 eligible MSMEsScreened from over 1,500 applicants by September 2023\n\nIn SMART Romania, one survey did three jobs: application, eligibility check, and baseline data collection, all in a single step. In October 2023, 519 of the eligible firms were then randomly selected for funding, and 519 were not."
   },
   {
     "objectID": "02-how.html#choosing-the-group-size",
@@ -473,7 +473,7 @@
     "href": "01-why-and-when.html",
     "title": "Why and When",
     "section": "",
-    "text": "This page covers why evaluation is worth doing, when it has to be decided, and how to choose between the available designs."
+    "text": "This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods."
   },
   {
     "objectID": "01-why-and-when.html#what-is-impact-evaluation-for",
