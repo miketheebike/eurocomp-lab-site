@@ -9,15 +9,6 @@ This question bank is organised by topic. Navigate to the theme most relevant to
 - **Response options** where applicable
 - The **source survey** it is drawn from
 
-Questions are drawn from validated instruments including the **Community Innovation Survey (CIS)**, the **Firms Adoption of Technology Survey (FAT)**, the **World Bank Enterprise Surveys (WBES)**, the **World Management Survey (WMS)**, the **Flash Eurobarometer on SME Digitalisation**, and the **ECB Survey on Access to Finance of Enterprises (SAFE)**. More information on these surveys can be found using the following links: 
-- CIS: <https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey>
-- FAT: <https://microdata.worldbank.org/collections/fat>
-- WBES: <https://espanol.enterprisesurveys.org/en/enterprisesurveys>
-- WMS: <https://worldmanagementsurvey.org/>
-- SAFE: <https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html>
-
-> **Tip:** Adapting a validated question is faster and more reliable than writing one from scratch — and it allows you to benchmark your results against other studies.
-
 ---
 
 - Topic 1 - Company details: [Link to survey questions](08.01-bank_survey_company.qmd)
@@ -27,14 +18,9 @@ Questions are drawn from validated instruments including the **Community Innovat
 - Topic 5 - Collaboration: [Link to survey questions](08.05-bank_survey_collab.qmd)
 - Topic 6 - Technology Adoption: [Link to survey questions](08.06-bank_survey_techadop.qmd)
 - Topic 7 - Digitalization: [Link to survey questions](08.07-bank_survey_digital.qmd)
-- Topic 8 - Innovation: [Link to survey questions](08.08-bank_survey_innov.qmd)
+- Topic 8 - Innovation and R&D activities: [Link to survey questions](08.08-bank_survey_innov.qmd)
 - Topic 9 - Intellectual Property Rights: [Link to survey questions](08.09-bank_survey_ip.qmd)
-- Topic 10 - Research & Development: [Link to survey questions](08.10-bank_survey_r&d.qmd)
-- Topic 11 - Technology Readiness Level: [Link to survey questions](08.11-bank_survey_trl.qmd)
-
-::: {.soft-panel}
-TO BE ADDED BY JAKOB: Big five traits for CEO?
-:::
-
+- Topic 10 - Technology Readiness Level: [Link to survey questions](08.11-bank_survey_trl.qmd)
+- Topic 11 - Energy Efficiency: [Link to survey questions](08.12-bank_survey_energy.qmd)
 
 ---

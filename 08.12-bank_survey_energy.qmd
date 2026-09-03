@@ -1,0 +1,171 @@
+---
+title: "Topic: Energy Efficiency"
+---
+
+
+*Use at baseline and endline. Where possible, complement self-reported data with energy bills or smart meter records.*
+
+---
+
+### Energy Consumption
+
+**What was your establishment's total energy consumption [year]?**
+*(All sources combined — electricity, gas, oil, solid fuels, renewables. Report in kWh. If in other units, please convert to kWh. Best approximations are accepted.)*
+
+*(Open numeric field — kWh)*
+
+
+**What was your establishment's total energy cost in [year]?**
+*(Open numeric field, in [currency]. Best approximations are accepted.)*
+
+---
+
+**What was your establishment's total grid electricity consumption in [year]?**
+*(Open numeric field — kWh or MWh, as reported on your electricity bill)*
+
+---
+
+**In addition to electricity from the grid, which of the following energy sources did your establishment use in [year]**
+*(Select all that apply)*
+- Natural gas
+- Oil (heating oil / fuel oil / diesel for stationary use)
+- Coal or other solid fuels
+- On-site solar PV (electricity from panels on your buildings or land)
+- Other on-site renewable electricity (e.g. wind, small hydro)
+- Other fuels (please specify)
+- None — grid electricity only
+
+
+---
+
+
+
+### Renewable Energy Production
+
+**Does your establishment have solar PV panels installed on its buildings or land?**
+- Yes
+- No
+
+*If yes:*
+- Year of first installation: *(open numeric field)*
+- Total installed capacity: *(open numeric field — kWp, as stated on contract or invoice)*
+- Total solar electricity generated in the last calendar year: *(open numeric field — kWh)*
+
+
+---
+
+**Did your establishment produce energy from any other renewable source (e.g. wind, small hydro) in [year]?**
+- Yes
+- No
+
+*If yes: How much did you produce? (open numeric field — kWh)*
+
+
+---
+
+### Energy Management and Sustainability Practices
+
+**In [year], did your establishment monitor its energy consumption?**
+- Yes
+- No
+- Not sure
+
+
+---
+
+**Has your establishment introduced any formal energy reduction goals?**
+- Yes
+- No
+- Not sure
+
+
+---
+
+**Did your establishment complete an external energy audit in [year]?**
+- Yes
+- No
+- Not sure
+
+---
+
+**Does your establishment have a dedicated energy manager?**
+- Yes
+- No
+
+---
+
+**Has your establishment obtained any energy-related certificates or labels?**
+*(e.g. ISO 50001, EU Energy Label, national energy efficiency certification)*
+- Yes
+- No
+
+---
+
+### Energy Efficiency Investments
+
+**Did your establishment invest in energy efficiency activities in the last calendar year?**
+- Yes
+- No
+- Not sure
+
+
+---
+
+**What types of energy efficiency investments did your establishment make or plan?**
+*(Select all that apply)*
+- Renewable energy sources (e.g. photovoltaic / solar PV panels, wind turbines)
+- Energy storage solutions (e.g. batteries, thermal storage)
+- LED lighting and efficient lighting systems
+- Replacement or upgrade of heating, ventilation, cooling, and heat recovery systems (HVAC)
+- Replacement or upgrade of building structure (e.g. insulation, doors, windows, roof)
+- Installation of control systems, smart meters, and sensors
+- Electric vehicles (EVs) and EV charging stations
+- Industrial or production machinery replacement or upgrade
+- Office equipment replacement or upgrade
+- Energy audit or consultancy
+- Employee training on energy efficiency
+- None
+
+---
+
+**What was your establishment's total expenditure on energy efficiency investments in [year]?**
+*(Open numeric field — in €. Report without VAT. Best approximations are accepted.)*
+
+
+---
+
+**Does your establishment plan to invest in energy efficiency improvements in the coming year?**
+- Yes
+- No
+- Not sure
+
+---
+
+### Energy Reduction Performance
+
+**1By what percentage has your establishment reduced its total energy consumption compared to the previous year (or a comparable reference period)?**
+*(Open numeric field — %. Report the net reduction as a positive number. Best approximations are accepted.)*
+
+---
+
+**Within which part of your establishment was the main energy efficiency investment implemented?**
+- The whole establishment
+- A specific department
+- One or more buildings
+- A specific production line
+- A specific piece of equipment
+- Other (please specify)
+
+
+---
+
+**Would your establishment be willing to share smart meter data to allow monitoring of energy consumption for evaluation purposes?**
+*(Smart meter data would be used solely for impact evaluation and would not be shared with third parties.)*
+- Yes, I give permission
+- Yes, but I would like more details first
+- No
+
+
+---
+
+> **A note on energy data for Managing Authorities:** Self-reported energy consumption data should be validated against energy bills wherever possible. The EENergy Programme requires firms to upload actual energy bills as supporting documentation — this approach is strongly recommended for any evaluation where energy consumption is a primary outcome. Smart meter data, where accessible, provides a more objective and continuous measure of energy use and eliminates recall bias. Data sharing agreements with energy providers may be needed to access this data and should be put in place at the program design stage.

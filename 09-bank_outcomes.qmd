@@ -24,3 +24,70 @@ This outcomes bank is organised by topic and maps directly onto the topics cover
 - Topic 8 - Employment and Human Capital: [Link to outcomes](09.08-bank_survey_employ.qmd)
 
 ---
+
+## Cross-reference: Outcomes and Survey Questions
+
+*This table shows, for each outcome in the bank, whether a corresponding survey question is available in the EuroComp Lab Survey Question Bank and which topic it falls under.*
+
+| Outcome | Outcomes bank ref. | Survey question available | Survey Bank topic |
+|---|---|---|---|
+| Turnover growth | 1.1 | Yes | Topic 4 — Financial performance |
+| Value added | 1.2 | Yes | Topic 4 — Financial performance |
+| Labour productivity | 1.3 | Partial | Topic 4 (turnover) + Topic 1 (employment) |
+| Total factor productivity | 1.4 | No — administrative data only | — |
+| Employment growth | 1.5 | Yes | Topic 1 — Company details |
+| Wage growth | 1.6 | No — administrative data only | — |
+| Export performance | 1.7 | Yes | Topic 4 — Financial performance |
+| Firm survival | 1.8 | No — administrative data only | — |
+| Product innovation | 2.1 | Yes | Topic 9 — Innovation |
+| Process innovation | 2.2 | Yes | Topic 9 — Innovation |
+| Organisational innovation | 2.3 | Yes | Topic 9 — Innovation |
+| Novelty of innovation | 2.4 | Yes | Topic 9 — Innovation |
+| Share of turnover from new products | 2.5 | Yes | Topic 9 — Innovation |
+| Innovation expenditure | 2.6 | Yes | Topic 9 — Innovation |
+| R&D engagement | 3.1 | Yes | Topic 12 — R&D |
+| R&D expenditure | 3.2 | Yes | Topic 12 — R&D |
+| R&D employment | 3.3 | Yes | Topic 12 — R&D |
+| R&D additionality | 3.4 | Yes | Topic 12 — R&D |
+| Patent applications | 3.5 | Yes | Topic 10 — Intellectual property |
+| Technology adoption rate | 4.1 | Yes | Topic 7 — Technology adoption |
+| Technology spending | 4.2 | Yes | Topic 7 — Technology adoption |
+| Technology sophistication | 4.3 | Yes | Topic 7 — Technology adoption |
+| Technology-driven productivity gains | 4.4 | Yes | Topic 7 — Technology adoption |
+| Digital technology adoption | 5.1 | Yes | Topic 8 — Digitalisation |
+| Online sales share | 5.2 | Yes | Topic 8 — Digitalisation |
+| Digital investment | 5.3 | Yes | Topic 8 — Digitalisation |
+| Digital skills of the workforce | 5.4 | Yes | Topic 8 — Digitalisation |
+| Digital maturity score | 5.5 | Yes | Topic 11 — Digital maturity |
+| Management practices score | 6.1 | Yes | Topic 5 — Management capacities |
+| Use of performance monitoring | 6.2 | Yes | Topic 5 — Management capacities |
+| Training investment | 6.3 | Yes | Topic 5 — Management capacities |
+| Strategic planning | 6.4 | Yes | Topic 5 — Management capacities |
+| Collaboration incidence | 7.1 | Yes | Topic 6 — Collaboration |
+| Partner diversity | 7.2 | Yes | Topic 6 — Collaboration |
+| University-industry linkages | 7.3 | Yes | Topic 6 — Collaboration |
+| Knowledge sourcing breadth | 7.4 | Yes | Topic 6 — Collaboration |
+| Cluster or network participation | 7.5 | Yes | Topic 6 — Collaboration |
+| Access to external finance | 8.1 | No — administrative or ECB SAFE | — |
+| Financial leverage | 8.2 | No — administrative data only | — |
+| Investment in fixed assets | 8.3 | Yes | Topic 4 — Financial performance |
+| Financing constraints | 8.4 | No — ECB SAFE Survey recommended | — |
+| Patent applications and grants | 9.1 | Yes | Topic 10 — Intellectual property |
+| Trademark and design registration | 9.2 | Yes | Topic 10 — Intellectual property |
+| Technology licensing | 9.3 | Yes | Topic 10 — Intellectual property |
+| Use of informal IP protection | 9.4 | Yes | Topic 10 — Intellectual property |
+| Employment growth | 10.1 | Yes | Topic 1 — Company details |
+| High-skilled employment | 10.2 | Partial | Topic 5 — Management capacities (training) |
+| Training provision | 10.3 | Yes | Topic 5 — Management capacities |
+| Wage growth | 10.4 | No — administrative data only | — |
+| Market share | 11.1 | No — not in survey bank | — |
+| Export market entry | 11.2 | Yes | Topic 4 — Financial performance |
+| Product quality improvement | 11.3 | No — not in survey bank | — |
+| Price-cost margin | 11.4 | No — administrative data only | — |
+| Energy consumption and efficiency | 12.1 | No — not in survey bank | — |
+| Carbon emissions | 12.2 | No — not in survey bank | — |
+| Green innovation | 12.3 | Partial | Topic 9 — Innovation (broad) |
+| Circular economy practices | 12.4 | No — not in survey bank | — |
+| Within-firm productivity growth | 13.1 | No — administrative data only | — |
+| Digital sophistication index | 13.2 | Yes | Topics 8 and 11 — Digitalisation and Digital maturity |
+| AI-related software adoption | 13.3 | Yes | Topic 8 — Digitalisation |

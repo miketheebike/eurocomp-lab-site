@@ -2,50 +2,8 @@
 title: "How"
 ---
 
-::: {.lede}
-Setting up an RCT, told through one real project. When demand exceeds available funding,
-the selection process becomes an opportunity to learn.
-:::
 
-```{=html}
-<div class="tracker"><span class="on">Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
-## The running example: SMART Romania
-
-EU-funded grants of EUR 15,000 to 100,000 for digital tools, equipment, and services.
-
-```{=html}
-<div class="facts">
-  <div><div class="k">The programme</div><div class="v">Digitalization grants for micro, small and medium enterprises</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania, run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
-  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
-  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
-</div>
-```
-
-### From application to evidence
-
-```{=html}
-<div class="flow">
-  <div>Application survey</div>
-  <div>Lottery</div>
-  <div>Digitalization grants</div>
-  <div>Follow-up surveys</div>
-  <div>Impact evaluation</div>
-</div>
-```
-
-::: {.team-note}
-**Source**
-All facts from the baseline report, "Foundational Digital Market Transformation: An RCT in
-North-East Romania" (World Bank, 2024). Still to confirm: the treatment and control split,
-and the follow-up survey timeline.
-:::
-
-## Randomization has to be designed into your programme from the start
+## Randomisation must be designed in from the start
 
 An RCT is not something that can be added to a programme after launch. The comparison
 group, the eligibility rules, and the baseline data all have to be settled before the
@@ -107,321 +65,58 @@ first grant is awarded.
 </figure>
 ```
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span class="on">Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
-## Building the eligible pool
+:::: {.example .romania}
+[SMART Romania: building the eligibility pool]{.tag}
 
 ```{=html}
 <div class="flow">
-  <div>Outreach<br><span style="font-weight:400;color:var(--dg-ink-soft)">Social media, radio, and events in 20+ cities</span></div>
-  <div>Online applications<br><span style="font-weight:400;color:var(--dg-ink-soft)">About one hour to complete</span></div>
-  <div>Automatic screening<br><span style="font-weight:400;color:var(--dg-ink-soft)">Stops as soon as a criterion fails</span></div>
-  <div style="background:var(--dg-accent);border-color:var(--dg-accent)">1,038<br><span style="font-weight:400">eligible MSMEs</span></div>
+  <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
+  <div>Online applications<br><span style="font-weight:400;color:#6B6455">About one hour to complete</span></div>
+  <div>Automatic screening<br><span style="font-weight:400;color:#6B6455">Stops as soon as a criterion fails</span></div>
+  <div style="background:#F2C94C;border-color:#F2C94C">1&nbsp;038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
 </div>
 ```
 
-::: {.takeaway}
-In SMART Romania, one survey did three jobs: application, eligibility check, and baseline
-data collection, all in a single step.
-:::
+In SMART Romania, one survey did three jobs: application, eligibility check, and
+baseline data collection, all in a single step. In October 2023, 519 of the eligible
+firms were then randomly selected for funding, and 519 were not.
+::::
 
-## How many firms do I need?
+## Choosing the group size
 
-Once you know who is eligible, the next question is whether enough firms are available to
-measure an impact. Three things determine the answer.
-
-::: {.cards}
-::: {.card-e}
-#### Expected impact
-
-The smaller the effect you expect, the more firms you need to detect it.
-:::
-::: {.card-e}
-#### Desired precision
-
-More certainty about the answer requires more observations.
-:::
-::: {.card-e}
-#### Budget and capacity
-
-Every firm in the study needs support, monitoring, and surveys.
-:::
-:::
-
-::: {.takeaway}
-Pool too small? Loosen the eligibility bar, or widen the ranking bins.
-:::
-
-```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; 1,038 eligible firms in the pool</span><span>&check; Built through outreach in 20+ cities</span></div>
-```
-
-Rules of thumb and power calculations are covered in
+To detect the impact of a programme, you need enough firms in both the treatment and
+comparison groups to reliably tell a real effect apart from the ordinary differences
+between firms. Statisticians call this statistical power: with too few firms, even a
+programme that works can appear not to. The smaller the effect you want to detect, the
+more firms you need. Rules of thumb and power calculations are covered in
 [Advanced How](03-advanced-how.qmd).
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span class="on">Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
-## How the lottery worked
-
-With 1,038 firms in the pool and grants for only some, SMART Romania needed a fair way to
-choose.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
-  <rect x="10" y="76" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="85" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="20" font-weight="bold">1,038</text>
-  <text x="85" y="124" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">eligible firms</text>
-
-  <path d="M160 109 H210" stroke="var(--dg-line)" stroke-width="1.5"/>
-
-  <rect x="210" y="76" width="160" height="66" rx="6" fill="var(--dg-accent)"/>
-  <text x="290" y="102" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
-  <text x="290" y="121" text-anchor="middle" fill="var(--dg-ink)" font-size="11">every firm, the same chance</text>
-
-  <path d="M370 109 H400 V44 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M370 109 H400 V174 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="430" y="20" width="240" height="50" rx="6" fill="var(--dg-accent)"/>
-  <text x="446" y="41" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Treatment group</text>
-  <text x="446" y="58" fill="var(--dg-ink)" font-size="11">Grants of EUR 15,000 to 100,000</text>
-
-  <rect x="430" y="150" width="240" height="50" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="446" y="171" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Comparison group</text>
-  <text x="446" y="188" fill="var(--dg-ink-soft)" font-size="11">No grant; surveyed the same way</text>
-</svg>
-</figure>
-```
-
-::: {.takeaway}
-In SMART Romania, the draw, and nothing else, decided which firms received support.
-:::
-
-::: {.team-note}
-**To confirm**
-Exact treatment and control split, and whether the draw was public or computerized.
-:::
-
-## Public draw or private draw?
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Public lottery
-:::
-::: {.body}
-A public draw, for example pulling names from a hat.
-
-**Advantage:** transparent and fair.
-
-**Disadvantage:** the comparison group may change its behaviour once it knows the result.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Private lottery
-:::
-::: {.body}
-A lottery run behind the scenes.
-
-**Advantage:** avoids the comparison group reacting to a public result.
-
-**Disadvantage:** less visibly fair.
-:::
-:::
-:::
-
-::: {.takeaway}
-In practice, many World Bank-supported evaluations run the draw as a secure, documented,
-computerized procedure that can be re-checked afterwards.
-:::
-
-## Narrowing the pool: a lottery around a cutoff
-
-Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom
-outright, and randomize only the firms in between.
-
-**Best when:** eligibility criteria are clear and the programme is oversubscribed, with
-limited resources.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomized">
-  <text x="20" y="24" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Score</text>
-
-  <rect x="90" y="34" width="280" height="56" rx="5" fill="var(--dg-accent)"/>
-  <text x="230" y="60" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Accept all</text>
-  <text x="230" y="78" text-anchor="middle" fill="var(--dg-ink)" font-size="11">top scorers funded outright</text>
-  <text x="72" y="42" text-anchor="end" fill="var(--dg-ink)" font-size="12" font-weight="bold">100</text>
-  <text x="72" y="96" text-anchor="end" fill="var(--dg-ink)" font-size="12" font-weight="bold">60</text>
-
-  <rect x="90" y="100" width="280" height="76" rx="5" fill="var(--dg-panel)" stroke="var(--dg-accent)" stroke-width="2" stroke-dasharray="6 4"/>
-  <text x="230" y="126" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomize this band</text>
-  <text x="230" y="145" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">85% treatment, 15% comparison</text>
-  <text x="230" y="163" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">this band is the sample for study</text>
-  <text x="72" y="182" text-anchor="end" fill="var(--dg-ink)" font-size="12" font-weight="bold">45</text>
-
-  <rect x="90" y="186" width="280" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="230" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="13" font-weight="bold">Reject all</text>
-  <text x="230" y="228" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">below the eligibility bar</text>
-
-  <path d="M382 138 H410" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <rect x="410" y="106" width="230" height="64" rx="5" fill="var(--dg-accent-wash)"/>
-  <text x="425" y="128" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Only the middle band is randomized</text>
-  <text x="425" y="146" fill="var(--dg-ink-soft)" font-size="11">The strongest and weakest applicants</text>
-  <text x="425" y="160" fill="var(--dg-ink-soft)" font-size="11">are handled by the score, not the draw</text>
-
-  <text x="20" y="270" fill="var(--dg-ink-soft)" font-size="11.5">Example: credit scoring in the Philippines</text>
-</svg>
-</figure>
-```
-
-::: {.caution}
-Keep selection rules-based. Subjective rankings, even by judges or expert panels, have
-been shown to introduce hidden bias that a lottery or scored cutoff avoids.
-:::
-
-## Why a lottery?
+### Two ways to increase your sample
 
 ::: {.cards}
 ::: {.card-e}
-#### Fair
+#### Loosen the eligibility bar
 
-In SMART Romania, every eligible firm had the same chance of receiving a grant. Selection
-could not be influenced by connections or favouritism.
+If fewer firms qualify than you'd like, lowering the eligibility threshold lets more
+firms into the pool you randomise from.
 :::
 ::: {.card-e}
-#### Defensible
+#### Widen the ranking bins
 
-Rules reduce bias. Across several studies, even expert judges struggle to predict which
-firms will succeed.
-:::
-::: {.card-e}
-#### Efficient
-
-One online survey serves as application, eligibility check, and baseline data collection.
-:::
-:::
-
-::: {.team-note}
-**Citations**
-For the "defensible" card: Chen et al. (2022) on judicial favouritism in Kenya;
-Fafchamps and Woodruff (2017), Identifying gazelles, World Bank Economic Review 31(3);
-McKenzie and Sansone (2019), Predicting entrepreneurial success is hard, JDE 141.
-Decide whether these belong on the page or in a references section.
-:::
-
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span class="on">Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
-## What happens after the lottery?
-
-The evaluation now steps back and lets the programme do its work.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Treatment firms
-:::
-::: {.body}
-Receive the digitalization grants and put them to work: equipment, software, services.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Comparison firms
-:::
-::: {.body}
-Continue business as usual, without a grant.
-:::
+If you're ranking firms by a score, don't treat the ranking as exact. Group
+similarly-scored firms into bands, and treat everyone in a band as equally eligible, so
+more firms end up in the randomised pool rather than being decided by their exact rank.
 :::
 :::
 
 ::: {.takeaway}
-Same markets, same conditions, same surveys. The only difference between SMART Romania's
-groups is the grant.
+A bigger pool also gives you room to test more than one version of the programme at
+once – more on that under Multiple treatment arms, below.
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span class="on">Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
+## Five practical ways to randomise your programme
 
-## Measuring the programme's impact
-
-While the programme runs, identical surveys continue for treatment and comparison firms
-alike: same questions, same timing.
-
-::: {.cards}
-::: {.card-e}
-#### Digital adoption
-
-Measured with the DESI framework.
-:::
-::: {.card-e}
-#### Revenue
-
-Turnover and growth over the period.
-:::
-::: {.card-e}
-#### Employment
-
-Headcount and job creation.
-:::
-::: {.card-e}
-#### Productivity
-
-Output relative to inputs.
-:::
-:::
-
-::: {.takeaway}
-Differences between SMART Romania's firms can now be traced to one cause: the programme.
-:::
-
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span class="on">Impact</span></div>
-```
-
-## Why randomize?
-
-Now that both groups have been followed over time, the final question is how to attribute
-any differences to the programme.
-
-::: {.gold-panel}
-**"What would have happened without the programme?"** Randomization makes it possible to
-answer this question.
-:::
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Firms drawn in the lottery
-:::
-::: {.body}
-Received digitalization grants.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Firms not drawn
-:::
-::: {.body}
-No grants; surveyed identically.
-:::
-:::
-:::
-
-Because the lottery created two comparable groups, the difference between them is the
-true impact of the programme.
-
-## Five practical ways to randomize your programme
-
-SMART Romania used one approach: the lottery. Many programmes need a different design.
+Not every programme fits the same shape. Here are five common ways to randomise one.
 
 ```{=html}
 <div class="designs">
@@ -436,33 +131,195 @@ SMART Romania used one approach: the lottery. Many programmes need a different d
     <p><span class="lab">Best when:</span> you want to know which design works best, not just whether it works.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Randomized phase-in</h4>
+    <h4>Randomised phase-in</h4>
     <p><span class="lab">How:</span> everyone gets the programme eventually, in a random order. Those still waiting are the comparison group.</p>
     <p><span class="lab">Best when:</span> budget or capacity cannot cover everyone at once.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Randomized intensities</h4>
+    <h4>Randomised intensities</h4>
     <p><span class="lab">How:</span> vary how much of the programme a firm gets, for example 100%, 50%, or 0% of eligible employees.</p>
     <p><span class="lab">Best when:</span> spillovers within or between firms are a concern.</p>
   </div></div>
   <div class="d"><div>
     <h4>Encouragement design</h4>
-    <p><span class="lab">How:</span> randomize who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
+    <p><span class="lab">How:</span> randomise who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
     <p><span class="lab">Best when:</span> take-up is voluntary and the programme itself cannot be withheld.</p>
   </div></div>
 </div>
 ```
 
+:::: {.example .romania}
+[SMART Romania used a lottery]{.tag}
+
+Of the five designs above, SMART Romania used a lottery: 1 038 eligible firms were
+randomly split into a treatment group of 519, invited to apply for a grant, and a
+comparison group of 519, not invited.
+
 ```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; Used a lottery (design 1)</span><span>&check; Oversubscribed programme</span><span>&check; 1,038 eligible firms</span></div>
+<figure class="fig-e">
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
+  <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M160 120 H210" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="210" y="87" width="160" height="66" rx="6" fill="#F2C94C"/>
+  <text x="290" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="290" y="132" text-anchor="middle" fill="#2B2724" font-size="11">every firm, the same chance</text>
+
+  <path d="M370 120 H400 V50 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M370 120 H400 V190 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="430" y="20" width="240" height="60" rx="6" fill="#F2C94C"/>
+  <text x="446" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group</text>
+  <text x="446" y="59" fill="#2B2724" font-size="10.5">Grants of EUR 15,000&#8211;100,000, put to</text>
+  <text x="446" y="72" fill="#2B2724" font-size="10.5">work: equipment, software, services</text>
+
+  <rect x="430" y="160" width="240" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group</text>
+  <text x="446" y="199" fill="#6B6455" font-size="10.5">No grant; firms continue as usual,</text>
+  <text x="446" y="212" fill="#6B6455" font-size="10.5">surveyed the same way</text>
+</svg>
+</figure>
 ```
 
-### Multiple treatment arms
+::::
 
-Randomly assign firms to different versions of the programme, plus a comparison group.
+## Running a lottery: transparency vs. behavioural responses
 
-**Best when:** you want to know which version works best, not just whether the programme
-works. **Trade-off:** the sample is split across more groups, so you need more firms.
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Public lottery
+:::
+::: {.body}
+A public draw, for example pulling names from a hat.
+
+Advantage: transparent and fair.
+
+Disadvantage: the comparison group may change its behaviour once it knows the result.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Private lottery
+:::
+::: {.body}
+A lottery run behind the scenes.
+
+Advantage: avoids the comparison group reacting to a public result.
+
+Disadvantage: less visibly fair.
+:::
+:::
+:::
+
+::: {.takeaway}
+In practice, many World Bank-supported evaluations run the draw as a secure, documented,
+computerised procedure that can be re-checked afterwards.
+:::
+
+Either kind of lottery can also be narrowed to just part of the pool: rather than
+randomising everyone who's eligible, you can randomise only the firms near the
+eligibility cutoff, and decide the clear-cut cases directly.
+
+## Narrowing the pool: a lottery around a cutoff
+
+Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom
+outright, and randomise only the firms in between.
+
+Best when: eligibility criteria are clear and the programme is oversubscribed, with
+limited resources.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
+  <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
+
+  <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
+  <text x="230" y="60" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Accept all</text>
+  <text x="230" y="78" text-anchor="middle" fill="#2B2724" font-size="11">top scorers funded outright</text>
+  <text x="72" y="42" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">100</text>
+  <text x="72" y="96" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">60</text>
+
+  <rect x="90" y="100" width="280" height="76" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Randomise this band</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">85% treatment, 15% comparison</text>
+  <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
+  <text x="72" y="182" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">45</text>
+
+  <rect x="90" y="186" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="230" y="210" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Reject all</text>
+  <text x="230" y="228" text-anchor="middle" fill="#6B6455" font-size="11">below the eligibility bar</text>
+
+  <path d="M382 138 H410" stroke="#B9AF95" stroke-width="1.5"/>
+  <rect x="410" y="106" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"/>
+  <text x="425" y="128" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomised</text>
+  <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
+  <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+
+  <text x="20" y="270" fill="#6B6455" font-size="11.5">Example: credit scoring in the Philippines</text>
+</svg>
+</figure>
+```
+
+::: {.caution}
+Keep selection rules-based. Subjective rankings, even by judges or expert panels, have
+been shown to introduce hidden bias that a lottery or scored cutoff avoids.
+:::
+
+## Rule-based scoring beats judgment-based scoring
+
+Across several studies, subjective judgment struggles to identify future winners.
+
+::: {.cards}
+::: {.card-e}
+#### Judges favour their own group
+
+A study of court rulings in Kenya found that defendants were more likely to win if they
+shared the judge's ethnicity or gender.
+
+Chen, Daniel L., et al., "Do Judges Favour Their Own Ethnicity and Gender?" (2022).
+:::
+::: {.card-e}
+#### Judges do not beat a simple survey
+
+In a business plan competition, a short applicant survey predicted future firm growth
+slightly better than expert judge panels did on their own.
+
+Fafchamps, Marcel, and Christopher Woodruff, "Identifying gazelles: Expert panels vs.
+surveys," *World Bank Economic Review* 31(3) (2017).
+:::
+::: {.card-e}
+#### Judges, and algorithms, both struggle
+
+Comparing judges' scores, researcher prediction models, and machine learning in a
+Nigerian business competition, none of the three approaches predicted which firms
+actually survived, grew, or turned a profit three years later.
+
+McKenzie, David, and Dario Sansone, "Predicting entrepreneurial success is hard,"
+*Journal of Development Economics* 141 (2019).
+:::
+:::
+
+::: {.takeaway}
+Subjective judgment, even from experts, struggles to reliably pick future winners. This
+is part of why rules-based methods – lotteries or scored cutoffs – are often the fairer
+and more defensible way to allocate a programme, rather than discretionary picks.
+:::
+
+## Multiple treatment arms: testing programme versions
+
+Randomly assign firms (or CEOs, employees) to different versions of the programme, and
+compare them against each other and against the comparison group. This also works
+without a comparison group at all, if you only want to compare versions.
+
+Best when: you're uncertain which component or design actually drives results, and
+want to know which version works best, not just whether the programme works.
+
+Advantage: helps investigate the channels of impact.
+Trade-off: needs a larger sample size, since it's split across more groups.
 
 ```{=html}
 <figure class="fig-e">
@@ -491,17 +348,20 @@ works. **Trade-off:** the sample is split across more groups, so you need more f
 </figure>
 ```
 
-```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; One treatment group versus one comparison group</span></div>
-```
+## Randomised phase-in: everyone gets it, just not at once
 
-### Randomized phase-in
+Everybody eventually receives the programme, just at different, randomly assigned
+times. Whoever is scheduled last serves as the comparison group in the meantime. Leave
+enough time between waves for impacts to develop.
 
-Everyone receives the programme eventually, in a random order. Firms still waiting form
-the comparison group.
+Best when: budget, time, or capacity constraints mean you can't roll the programme
+out to everyone at once.
 
-**Best when:** budget or capacity cannot cover everyone at once.
-**Trade-off:** long-term impacts cannot be observed.
+Advantages: everyone eventually receives the programme, which makes the decision
+transparent and easier to justify; it also lets you study how impact changes with
+different treatment durations.
+Trade-off: you can't observe long-term impacts, since the comparison group
+eventually receives the programme too.
 
 ```{=html}
 <figure class="fig-e">
@@ -528,17 +388,17 @@ the comparison group.
 </figure>
 ```
 
-```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; Not used: a one-time lottery with a lasting comparison group</span></div>
-```
+## Randomised intensities: varying how much firms get
 
-### Randomized intensities
+Randomly vary how much of the programme each firm gets: for example, some firms get it
+for 100% of eligible employees, others for only part, e.g. 50%, and others none at all
+(the comparison group).
 
-Randomly vary how much of the programme each firm gets, for example 100%, 50%, or none of
-eligible employees.
+Best when: spillovers are likely – for example, information spreading between
+treated and untreated employees within the same firm.
 
-**Best when:** spillovers are likely, for example information spreading between treated
-and untreated employees. **Trade-off:** detecting effects at each level needs a bigger sample.
+Advantage: lets you analyse possible spillovers, not just the direct effect.
+Trade-off: needs a bigger sample size to detect effects at each intensity level.
 
 ```{=html}
 <figure class="fig-e">
@@ -561,92 +421,63 @@ and untreated employees. **Trade-off:** detecting effects at each level needs a 
 </figure>
 ```
 
-```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; Not used: one level of support was compared with none</span></div>
-```
+## Facing low take-up? Randomise the encouragement
 
-### Encouragement design
+The problem: low take-up. The firms who need a programme most can be the least
+likely to take it up – badly managed firms often don't know they're badly managed. Low
+take-up also makes it hard to tell whether a programme is working.
 
-Low take-up is common even for free programmes. Randomize who gets extra encouragement,
-then compare the whole encouraged group with the whole not-encouraged group.
+Solution: encouragement design. When you can't deny the programme to anyone – for
+example, an open voucher scheme – randomise who gets extra outreach or information
+encouraging them to take it up, then compare the encouraged group with the
+not-encouraged group.
+
+Advantage: works even when everyone must have access to the programme.
+Trade-off: only captures part of the impact, and can be biased if untargeted
+encouragement – TV or radio, for example – reaches the comparison group too.
 
 ::: {.caution}
-Compliance is never perfect. Some encouraged firms never take the programme up, and some
-others do anyway. Compare the full groups regardless.
+Compliance is rarely perfect: some encouraged firms never take up the programme, and
+some not-encouraged firms take it up anyway. Compare the whole encouraged group with the
+whole not-encouraged group regardless.
 :::
-
-```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; Not needed: the grants were oversubscribed, so a lottery was possible</span></div>
-```
 
 ## Case studies
 
-One standardised card per project, each showing sample size, outcomes measured, RCT
-design, effect sizes, and a link through to the full case study or report.
+Every EuroCOMP Lab project gets one standardised card: sample size, outcomes measured,
+RCT design, effect sizes, and a link through to the full case study or report.
 
 ::: {.team-note}
-**Have material**
-Five wanted poster slides already built: SMART Romania, Extremadura, two Czechia
-programmes, Croatia and Scinergy. The deck can be lifted straight onto this page.
+Status
+Cards for SMART Romania, Extremadura, two Czechia programmes, Croatia, and Scinergy are
+drafted (see the wanted-poster deck), but the dedicated Examples page they'll live on
+isn't built yet.
 :::
 
-## The whole thing, end to end
+## Still not convinced? More arguments for randomising
 
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 700 410" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Full RCT timeline: outreach and application, eligibility screening, lottery splitting firms into treatment and comparison groups, identical follow-up surveys for both, and the measured impact at the end">
-  <rect x="14" y="34" width="282" height="318" rx="8" fill="var(--dg-accent-wash-soft)"/>
-  <text x="20" y="24" fill="var(--dg-ink-soft)" font-size="10" letter-spacing="1.4" font-weight="bold">BEFORE LAUNCH</text>
-  <text x="330" y="24" fill="var(--dg-ink-soft)" font-size="10" letter-spacing="1.4" font-weight="bold">PROGRAMME PERIOD</text>
+::: {.cards}
+::: {.card-e}
+#### Free and fair competition
 
-  <line x1="20" y1="372" x2="680" y2="372" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="680" y="390" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">Time</text>
+The researcher determines allocation, not personal connections or favouritism, so
+there's no selection bias – no systematic difference between groups on average. It can
+be designed to answer precisely the question you need answered, especially when the
+effect of a policy is uncertain.
+:::
+::: {.card-e}
+#### Equality and non-discrimination
 
-  <rect x="26" y="155" width="118" height="60" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="85" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Outreach and</text>
-  <text x="85" y="193" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">application</text>
-  <text x="85" y="208" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10">one survey, three jobs</text>
+Often the outcome of a policy isn't clear, and it could even be negative. Testing first,
+rather than rolling it out to everyone, protects people from that uncertainty. You can
+also make sure everyone still receives the core programme, and only randomise an add-on
+whose effect isn't yet known.
+:::
+::: {.card-e}
+#### Publicity and transparency
 
-  <path d="M144 185 H162" stroke="var(--dg-line)" stroke-width="1.5"/>
-
-  <rect x="162" y="155" width="118" height="60" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="221" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Eligibility</text>
-  <text x="221" y="193" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">screening</text>
-  <text x="221" y="208" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10">1,038 firms qualify</text>
-
-  <path d="M280 185 H304" stroke="var(--dg-line)" stroke-width="1.5"/>
-
-  <rect x="304" y="152" width="72" height="66" rx="6" fill="var(--dg-accent)"/>
-  <text x="340" y="180" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">LOTTERY</text>
-  <text x="340" y="196" text-anchor="middle" fill="var(--dg-ink)" font-size="10">same chance</text>
-  <text x="340" y="208" text-anchor="middle" fill="var(--dg-ink)" font-size="10">for everyone</text>
-
-  <path d="M376 185 H398 V93 H418" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M376 185 H398 V285 H418" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="418" y="70" width="196" height="46" rx="6" fill="var(--dg-accent)"/>
-  <text x="432" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
-  <text x="432" y="106" fill="var(--dg-ink)" font-size="10.5">receives digitalization grants</text>
-
-  <line x1="432" y1="142" x2="600" y2="142" stroke="var(--dg-line)" stroke-width="1" stroke-dasharray="4 4"/>
-  <circle cx="460" cy="142" r="5" fill="var(--dg-ink)"/><circle cx="516" cy="142" r="5" fill="var(--dg-ink)"/><circle cx="572" cy="142" r="5" fill="var(--dg-ink)"/>
-  <text x="432" y="163" fill="var(--dg-ink-soft)" font-size="10">Identical follow-up surveys</text>
-
-  <rect x="418" y="176" width="196" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="516" y="194" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">Digital adoption &middot; Revenue</text>
-  <text x="516" y="209" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">Employment &middot; Productivity</text>
-
-  <line x1="432" y1="244" x2="600" y2="244" stroke="var(--dg-line)" stroke-width="1" stroke-dasharray="4 4"/>
-  <circle cx="460" cy="244" r="5" fill="var(--dg-ink)"/><circle cx="516" cy="244" r="5" fill="var(--dg-ink)"/><circle cx="572" cy="244" r="5" fill="var(--dg-ink)"/>
-  <text x="432" y="238" fill="var(--dg-ink-soft)" font-size="10">Identical follow-up surveys</text>
-
-  <rect x="418" y="262" width="196" height="46" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="432" y="282" fill="var(--dg-ink)" font-size="12" font-weight="bold">Comparison group</text>
-  <text x="432" y="298" fill="var(--dg-ink-soft)" font-size="10.5">business as usual, no grant</text>
-
-  <path d="M630 93 H642 M630 285 H642 M636 93 V285" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="660" y="189" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold" transform="rotate(-90 660 189)">IMPACT</text>
-</svg>
-<figcaption>The whole design in one view. Everything left of the lottery has to be settled before launch; everything right of it is measurement. The gap between the two tracks at the end is the impact.</figcaption>
-</figure>
-```
+A randomised design needs fewer additional assumptions than other evaluation methods.
+Because the analysis is less complex, it's easier to explain and defend the findings to
+the people affected by them.
+:::
+:::

@@ -3,49 +3,49 @@ title: "Topic: Firm Performance and Growth"
 ---
 *These are the most commonly used outcome indicators in EU firm-level impact evaluations. Where possible, use administrative data (business registries, tax records) rather than self-reported figures to reduce measurement error.*
 
-### 1.1 Turnover growth
+###Turnover growth
 
 - **Definition:** Change in total annual sales revenue over the evaluation period
 - **Metric:** % change in turnover from baseline to endline; log of turnover
 - **Data source:** Administrative (tax records, business registry) or primary survey
 
-### 1.2 Value added
+###Value added
 
 - **Definition:** Value of output minus the value of intermediate inputs; a measure of the firm's contribution to GDP
 - **Metric:** Total value added in € (turnover minus purchases of goods and services); % change over evaluation period
 - **Data source:** Administrative (tax records) or primary survey
 
-### 1.3 Labour productivity
+###Labour productivity
 
 - **Definition:** Output produced per unit of labour input — a core competitiveness indicator
 - **Metric:** Value added per employee (€); % change over evaluation period
 - **Data source:** Administrative or primary survey (requires both value added and employment data)
 
-### 1.4 Total factor productivity (TFP)
+###Total factor productivity (TFP)
 
 - **Definition:** Output not explained by inputs — captures how efficiently a firm uses all its resources
 - **Metric:** Estimated using production function methods (e.g. Olley-Pakes, Levinsohn-Petrin); requires data on output, capital, labour, and materials
 - **Data source:** Administrative (requires linked firm-level panel data)
 
-### 1.5 Employment growth
+###Employment growth
 
 - **Definition:** Change in the number of people employed by the firm
 - **Metric:** % change in full-time equivalent (FTE) employees from baseline to endline; log of employment
 - **Data source:** Administrative (social security records, business registry) or primary survey
 
-### 1.6 Wage growth
+###Wage growth
 
 - **Definition:** Change in average wages paid by the firm, reflecting improvements in job quality and productivity
 - **Metric:** % change in average gross wage per employee; total wage bill growth
 - **Data source:** Administrative (social security or tax records)
 
-### 1.7 Export performance
+###Export performance
 
 - **Definition:** Whether and how much the firm sells in foreign markets
 - **Metric:** Export participation (yes/no); share of turnover from exports (%); log of export value
 - **Data source:** Administrative (customs data) or primary survey
 
-### 1.8 Firm survival
+###Firm survival
 
 - **Definition:** Whether the firm remains in operation over the evaluation period
 - **Metric:** Binary indicator (firm active / closed); survival rate across the sample
