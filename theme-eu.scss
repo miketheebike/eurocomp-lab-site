@@ -667,3 +667,21 @@ li > strong:first-child { color: $eu-blue; }
 }
 .eu-mark { height: 62px; width: auto; margin-top: .7rem; }
 .nav-footer { font-size: .85rem; }
+
+/* ---- embedded video ---- */
+.video-frame {
+  margin: 1.6rem 0 .6rem;
+  border-radius: 2px;
+  overflow: hidden;
+  background: $eu-blue;
+  line-height: 0;
+}
+.video-frame iframe,
+.video-frame .quarto-video,
+.video-frame .ratio { border: 0; display: block; width: 100%; }
+
+.video-meta {
+  font-size: .84rem;
+  color: $ink-soft;
+  margin-bottom: 1.6rem;
+}
