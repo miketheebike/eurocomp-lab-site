@@ -676,35 +676,84 @@
     "href": "03-advanced-how.html",
     "title": "Advanced How",
     "section": "",
-    "text": "Placeholder page\nSample size and power, built up from intuition rather than formulas."
+    "text": "Designing an RCT that produces reliable evidence. Behind every successful RCT are design decisions made before the programme begins. Good randomization alone is not enough."
   },
   {
-    "objectID": "03-advanced-how.html#samples-and-power-calculations",
-    "href": "03-advanced-how.html#samples-and-power-calculations",
+    "objectID": "03-advanced-how.html#what-makes-an-rct-credible",
+    "href": "03-advanced-how.html#what-makes-an-rct-credible",
     "title": "Advanced How",
-    "section": "Samples and power calculations",
-    "text": "Samples and power calculations\nStarts from a rule-of-thumb intuition using standard deviation, then adds complexity in steps.\n\nKey message Constraint. No formulas on the page. Intuition and visuals only, with links out for anyone who wants the maths."
+    "section": "What makes an RCT credible?",
+    "text": "What makes an RCT credible?\nHow showed the process. This page shows what separates a strong RCT from a weak one.\n\n\n01\n\nEnough firms\nGroups large enough to detect real impacts.\n\n\n\n02\n\nComparable groups\nA lottery that actually balanced the groups.\n\n\n\n03\n\nReliable outcomes\nMeasures that capture what matters.\n\n\n\n04\n\nThe right design\nA setup matched to the policy question.\n\n\n\n\nThe sections below walk through each pillar, using SMART Romania as the test case.\n\nEnough firms›Comparable groups›Outcomes›Right design"
   },
   {
-    "objectID": "03-advanced-how.html#why-enough-applicants-is-essential",
-    "href": "03-advanced-how.html#why-enough-applicants-is-essential",
+    "objectID": "03-advanced-how.html#do-i-have-enough-firms",
+    "href": "03-advanced-how.html#do-i-have-enough-firms",
     "title": "Advanced How",
-    "section": "Why enough applicants is essential",
-    "text": "Why enough applicants is essential\nA sufficiently large number of applicants or beneficiaries is the precondition for everything else on this page."
+    "section": "Do I have enough firms?",
+    "text": "Do I have enough firms?\nRandomization only works if there are enough firms to detect meaningful differences.\n\n\n\nToo few firms\n\n\n\n\n\n\n\nReal impacts may go undetected: ordinary differences between firms drown out the programme’s effect.\n\n\n\n\nEnough firms\n\n\n\n\n\n\n\nReal impacts become measurable: averages settle and the difference stands out.\n\n\n\n\nMore firms do not make the lottery fairer; they make its answer visible."
   },
   {
-    "objectID": "03-advanced-how.html#power-calculator",
-    "href": "03-advanced-how.html#power-calculator",
+    "objectID": "03-advanced-how.html#why-sample-size-matters",
+    "href": "03-advanced-how.html#why-sample-size-matters",
     "title": "Advanced How",
-    "section": "Power calculator",
-    "text": "Power calculator\nLink out to an existing calculator rather than building one.\n\nOpen question To do: Jakob shared the link by email. Needs adding here and to the deck."
+    "section": "Why sample size matters",
+    "text": "Why sample size matters\nHow many firms are enough depends on what needs to be detected.\n\n\n\nThe size of the effect\n\n\nSmall effect: more firms needed.\nLarge effect: fewer firms needed.\n\n\n\n\nThe variation between firms\n\n\nHigh variation: more firms needed.\nLow variation: fewer firms needed.\n\n\n\n\nThink of trying to hear a quiet voice in a noisy room: more background noise requires more observations."
   },
   {
-    "objectID": "03-advanced-how.html#companion-slide-deck",
-    "href": "03-advanced-how.html#companion-slide-deck",
+    "objectID": "03-advanced-how.html#how-is-the-required-sample-calculated",
+    "href": "03-advanced-how.html#how-is-the-required-sample-calculated",
     "title": "Advanced How",
-    "section": "Companion slide deck",
-    "text": "Companion slide deck\nCovers the four credibility pillars: enough firms, comparable groups, reliable outcomes, right design.\n\nOpen question Data gap: balance bar figures in the deck are still illustrative placeholders. Replace before publication."
+    "section": "How is the required sample calculated?",
+    "text": "How is the required sample calculated?\nEvaluators combine four ingredients into one required number, before the programme starts.\n\n\n  \n  Expected effect\n\n  \n  Variation\n  (standard deviation)\n\n  \n  Confidence level\n\n  \n  Statistical power\n\n  \n\n  \n  POWER CALCULATION\n  standard software does the math\n\n  \n\n  \n  Required sample size\n  the minimum number of firms\n  the study needs\n\n\n\nNo formulas needed: calculators do this work. Links at the bottom of this page."
+  },
+  {
+    "objectID": "03-advanced-how.html#was-1038-enough",
+    "href": "03-advanced-how.html#was-1038-enough",
+    "title": "Advanced How",
+    "section": "Was 1,038 enough?",
+    "text": "Was 1,038 enough?\nBack to the case: how do evaluators know whether the SMART Romania pool was big enough? Run the pool against the required sample from the power calculation, and do it before the draw. If the pool falls short, grow the pool first (next section).\n\n\n  \n  1,038\n  firms in the pool\n\n  checked\n  against\n\n  \n\n  \n  Required sample\n  expected effect → power calculation → minimum firms\n\n\nSMART Romania✓ 1,038 eligible firms formed the randomized pool\n\nData gap The baseline report contains no power calculation figures, so this section shows the logic of the check without inventing numbers. Ask the evaluation team for the expected effect, assumptions, and required sample, then add them here."
+  },
+  {
+    "objectID": "03-advanced-how.html#what-if-there-are-not-enough-firms",
+    "href": "03-advanced-how.html#what-if-there-are-not-enough-firms",
+    "title": "Advanced How",
+    "section": "What if there are not enough firms?",
+    "text": "What if there are not enough firms?\nThe most common planning problem has practical fixes.\n\n  \n    Increase outreach\n    More applications mean a larger pool. SMART Romania ran events in more than 20 cities.\n  \n  \n    Expand eligibility\n    Loosen the bar so more firms qualify.\n  \n  \n    Combine regions\n    Pool similar programmes or areas into one study.\n  \n  \n    Run a phase-in\n    Everyone participates; timing creates the comparison.\n  \n  \n    Target larger effects\n    Focus the programme where impacts are biggest.\n  \n  \n    Collect better baseline data\n    Good baselines reduce noise and cut the required sample.\n  \n\nRelated on How: the eligibility levers and phase-in designs.\nEnough firms›Comparable groups›Outcomes›Right design"
+  },
+  {
+    "objectID": "03-advanced-how.html#did-the-lottery-create-comparable-groups",
+    "href": "03-advanced-how.html#did-the-lottery-create-comparable-groups",
+    "title": "Advanced How",
+    "section": "Did the lottery create comparable groups?",
+    "text": "Did the lottery create comparable groups?\nA lottery should produce two groups that look alike before the programme starts. Check it.\n\n\n  ILLUSTRATIVE, NOT REAL DATA\n\n  Firm age\n  \n  \n\n  Revenue\n  \n  \n\n  Employees\n  \n  \n\n  Sector mix\n  \n  \n\n  \n  Treatment\n  \n  Comparison\n\nIf the groups look the same before the programme starts, the lottery probably worked. Small differences are normal; large systematic ones are a warning sign.\n\nSMART Romania✓ The application survey collected the baseline data used for this check\n\nData gap The balance bars are illustrative. The baseline report does not publish a treatment and control balance table. Once the team shares the actual balance results, replace the bars with the real characteristics and values, and remove the on-figure caveat.\n\nEnough firms›Comparable groups›Outcomes›Right design"
+  },
+  {
+    "objectID": "03-advanced-how.html#which-outcomes-should-be-measured",
+    "href": "03-advanced-how.html#which-outcomes-should-be-measured",
+    "title": "Advanced How",
+    "section": "Which outcomes should be measured?",
+    "text": "Which outcomes should be measured?\nAn RCT is only as good as what it measures.\n\n\n\nGood outcomes are\n\n\n\nRelevant: tied to the policy objective\nMeasurable: data can actually be collected\nObjective: not dependent on opinion\nConsistent: collected the same way for every firm, every round\n\n\n\n\n\nMeasured in SMART Romania\n\n\n\nDigital adoption (DESI)\nRevenue\nEmployment\nProductivity\n\n\n\n\n\nFix the outcomes before the draw: choosing them afterwards invites cherry-picking.\n\nEnough firms›Comparable groups›Outcomes›Right design"
+  },
+  {
+    "objectID": "03-advanced-how.html#what-can-go-wrong",
+    "href": "03-advanced-how.html#what-can-go-wrong",
+    "title": "Advanced How",
+    "section": "What can go wrong?",
+    "text": "What can go wrong?\nEven a well-designed RCT must survive contact with reality.\n\nAttrition. Firms drop out of surveys, and the groups stop matching.\n\n\nSpillovers. Comparison firms benefit anyway, and the measured difference shrinks.\n\n\nLow take-up. Treated firms never actually use the support.\n\n\nImplementation problems. The programme is delivered unevenly across firms.\n\nMonitoring answers all four: Data Collection."
+  },
+  {
+    "objectID": "03-advanced-how.html#when-are-the-alternative-designs-worth-it",
+    "href": "03-advanced-how.html#when-are-the-alternative-designs-worth-it",
+    "title": "Advanced How",
+    "section": "When are the alternative designs worth it?",
+    "text": "When are the alternative designs worth it?\nHow introduced four alternative designs. The advanced question is when they earn their extra sample and complexity.\n\n\nMultiple treatment arms\nChoose it when: knowing which version works best matters more than sample size.\n\n\nPhase-in\nChoose it when: everyone must eventually receive the programme.\n\n\nRandomized intensities\nChoose it when: spillovers between firms or employees are the question.\n\n\nEncouragement\nChoose it when: access cannot be denied and take-up is the problem.\n\n\nSMART Romania✓ A simple lottery was enough: one clear question, oversubscribed grants\nThe mechanics of each design: How."
+  },
+  {
+    "objectID": "03-advanced-how.html#where-to-go-deeper",
+    "href": "03-advanced-how.html#where-to-go-deeper",
+    "title": "Advanced How",
+    "section": "Where to go deeper",
+    "text": "Where to go deeper\nThe mathematics is one click away, so this website stays practical.\n\n\nPower calculators\nOnline tools that turn the four inputs into a required sample.\n\n\nWorld Bank IE toolkit\nStep-by-step guidance for designing and running evaluations.\n\n\nJ-PAL resources\nResearch protocols, sample-size guides, and training material.\n\n\nIPA resources\nPractical implementation guidance from field evaluations.\n\n\n\nStart with a calculator: an afternoon with one teaches more than a chapter of formulas.\n\n\nTo add Resource links, including the power calculator Jakob shared by email. Shortlist per the outline: power calculators, World Bank toolkit, J-PAL, IPA."
   },
   {
     "objectID": "privacy.html",
