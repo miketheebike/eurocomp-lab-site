@@ -68,10 +68,6 @@ What experimentation sought to answer
 </div>
 ```
 
-::: {.team-note}
-**Source**
-EuroCOMP Lab, *Short-Term Impacts of the First RCTs* (2026), Note 2: Spain.
-:::
 
 ## How the programme was tested
 
@@ -255,10 +251,6 @@ What experimentation sought to answer
 </div>
 ```
 
-::: {.team-note}
-**Source**
-EuroCOMP Lab, *Short-Term Impacts of the First RCTs* (2026), Note 3: Czechia.
-:::
 
 ## How the two pilots were tested
 
@@ -413,10 +405,6 @@ What experimentation sought to answer
 </div>
 ```
 
-::: {.team-note}
-**Source**
-EuroCOMP Lab, *Short-Term Impacts of the First RCTs* (2026), Note 4: Croatia.
-:::
 
 ## How the programme was tested
 
