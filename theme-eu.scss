@@ -544,6 +544,32 @@ hr {
   margin: 2.4rem 0;
 }
 
+/* ---- real-world example box: SMART Romania, the running example ---- */
+.example {
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin: 1.8rem 0;
+}
+.example .tag {
+  display: block;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
+}
+.example p { margin: 0 0 .8rem; font-size: .95rem; line-height: 1.55; color: $ink; }
+.example p:last-of-type { margin-bottom: 0; }
+.example .cite {
+  display: block;
+  font-size: .78rem;
+  font-style: italic;
+  color: $ink-soft;
+  margin-top: .8rem;
+}
+
+.example.romania { background: $pale-gold; }
+.example.romania .tag { color: #8A6A00; }
 
 /* ============================================================
    EU register overrides
