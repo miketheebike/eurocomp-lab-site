@@ -2,44 +2,482 @@
 title: "Examples"
 ---
 
-[Placeholder page]{.placeholder}
 
-Where the whole thing lands: real evaluations, from the Lab and beyond.
-
-## EuroCOMP Lab evaluations
-
-Full case studies for each project, deeper than the wanted posters on
-[How](02-how.qmd).
-
-::: {.soft-panel}
-**Running example.** Romania runs through every page of the site. This is where
-the full story sits, with the baseline report attached.
+::: {.lede}
+Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.
 :::
 
-::: {.soft-panel}
-**Financial support to digitalize: Romania’s program provides non-refundable grants to SMEs for digitalization, aiming to boost productivity in the North-East region, with a focus on key digital performance indicators.** Digitalization has the potential to transform industries, particularly SMEs, which in Romania lag behind the EU average in digital performance. Key barriers to digital transformation include lack of financing, awareness, and capacity to capitalize on digital investments. In North-East Romania, digitalization grants are awarded to eligible SMEs under the de minimis aid scheme, with a total allocation ofA C31,000,000 in the first call (A C26,350,000 ERDF andA C4,650,000 from the state budget). Firms can receive grants ranging fromA C15,000 toA C100,000, covering 90% of eligible project costs. The World Bank studies the impact of digitalization on SME performance. The hypothesis is that financial support will boost productivity by enabling the acquisition of knowledge, services, and soft/hardware. As part of the study, the World Bank conducted a pre-assessment using DESI indicators, as defined by the Regional Development Agency (RDA): The most common technology was “20+ percent of employees using connected mobile devices” (681 businesses, 66% of the sample), followed by “Internet connection of at least 30 Megabits per second” (620 businesses, 60%) and “50+ percent of employees with Internet access” (604 businesses, 58%).
+::: {.eyebrow}
+Spain
 :::
 
-::: {.soft-panel}
-**Financial support to innovate: Spain’s matching grant program awards up toA C250k per firm to boost R&D investment in small and medium companies, primarily in agriculture and ecological transition. ** To address market failures that keep regional R&D investment at suboptimal levels, the La Junta de Extremadura, the Regional Government of Extremadura (JUNTA) and Foundation for the Development of Science and Technology and the Extremadura Science and Technology Park Foundation (FUNDECYT-PCTEx) have developed a matching grant program funded by the EU, offering large R&D grants to small and medium firms in Extremadura. Each cycle plans to awardA C3.5 million in grants (up to C250k per company), financing 35% to 80% of proposed R&D investments. Applicants are primarily small and medium companies, mainly in the agricultural or ecological transition sectors, with most grants supporting industrial research and experimental development. The World Bank is collaborating with JUNTA to offer technical support aimed at generating valuable insights from this investment. In this process, the evaluation team, working with regional authorities, has revised operational manuals to enhance the institutional framework by incorporating international best practices in the design, implementation, and evaluation of this public instrument.
+## The problem, and the programme
+
+::: {.cards}
+::: {.card-e}
+#### The problem
+Market failures keep research and development (R&D) investment in Extremadura below
+its optimal level. Small and medium firms in the region under-invest in innovation,
+particularly in agriculture and the ecological transition.
+:::
+::: {.card-e}
+#### What was done
+The Regional Government of Extremadura (JUNTA) and the Extremadura Science and
+Technology Park Foundation (FUNDECYT-PCTEx) created an EU-funded matching grant
+programme for small and medium firms.
+
+Each cycle awards €3.5 million in grants, up to €250,000 per firm (€138,000 on
+average), financing 35% to 80% of a firm's proposed R&D investment.
+:::
 :::
 
-::: {.soft-panel}
-**Add-Ons to make financial support more impactful: In Czechia, the World Bank evaluates whether enhancing entrepreneurial skills improves the effectiveness of a voucher scheme supporting business development, innovation, and digital transformation in regions affected by the coal industry’s decline. ** Several Czech regions are focused on economic diversification, prioritizing private sector growth, but entrepreneurial activity remains low. A new program, approved by the European Commission in September 2022, targets regions affected by the decline of the coal mining industry. It emphasizes business R&D, post-mining area regeneration, skills development, clean energy, and the circular economy, with a total allocation ofA C1.641 billion. A key component of the Just Transition Programme (JTP) is the voucher scheme for entrepreneurs in Czech coal regions, offering different types of financial support. These vouchers are available in the Moravian-Silesian, Ustí, and Karlovy Vary regions, with a focus on diversifying local economies reliant on carbon intensive industries.
-The impact evaluation includes complementary activities to strengthen the JTP outcomes. One such initiative is the ‘Smart Start’ project, launched with World Bank’s support since 2022. In the Ustí and Karlovy Vary regions, this program focuses on innovation vouchers, incorporating a ‘networking’ approach, where firms receive expert advisory support and are encouraged to share knowledge and network to enhance innovation. In the Moravian-Silesian region, the program emphasizes mindset training for innovation, offering ‘smart training’ that promotes a scientific approach to decision-making under uncertainty. This training, aimed at firms selected for entrepreneurial vouchers (and others), teaches participants to make informed decisions in uncertain environments, covering topics such as understanding innovation, risk vs. uncertainty, hypothesis testing, and A/B testing, culminating in participant presentations.
+::: {.eyebrow}
+What experimentation sought to answer
 :::
 
-::: {.soft-panel}
-**AMatchmaking support to connect: The Scinergy pilot in Croatia connects businesses and scientists to foster collaborations, support innovation, and drive R&D through matchmaking events and ongoing guidance. ** A World Bank survey revealed that 47% of companies lacked information about relevant scientists, highlighting the need for improved collaboration to drive innovation and technology transfer. To strengthen science-business collaboration, Croatia is piloting a business-science matchmaking support program. For this purpose, the World Bank, in partnership with the Innovation Center Nikola Tesla and the Ministry of Science, Education, and Youth, designed the “Scinergy” pilot to facilitate science-business collaboration. Scinergy aims to help connect businesses and scientists based on their needs and expertise, supporting product development, joint funding applications, and public-private partnerships. Participating firms are offered targeted connections with scientists across fields like AI, energy, and biotechnology, and are offered legal and communication support. Matched researchers and businesses first participated in a two-day matchmaking event in February 2024. The first day involved “speed-dating” sessions between firms and scientists, while the second day featured workshops for pairs interested in collaboration. These sessions encouraged ideation, with exercises like explaining potential solutions in simple terms and visualizing them through drawings. In March and April 2024, these pairs explored concrete R&D ideas, leading to detailed discussions and joint project planning. Pilot monitoring revealed that newly established interactions between firms and scientists continued in this period, with discussions on collaboration details, intellectual property, legal frameworks, and project financing. Firms attended specialized lectures on these topics, which deepened their understanding and aimed to facilitate cooperation. Qualitative insights and feedback surveys from participants indicated that the main collaboration goals were joint R&D projects, technological consultations, and prototype development. Companies reported challenges such as financial constraints, legal issues, and aligning goals.
+::: {.quote-e}
+"What is the impact of R&D grants on SMEs' business performance?"
 :::
 
-## Examples from beyond the Lab
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
 
-Comparable trials from other institutions, to show the approach is not unique to
-this program.
+## Spain: financial support to innovate
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Matching grants of up to EUR 250,000 per firm (average EUR 138,000) for R&D projects</div></div>
+  <div><div class="k">Where</div><div class="v">Extremadura, Spain; regional government (JUNTA) with FUNDECYT-PCTEx, EU-funded</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">Firms: SME applicants, mainly agriculture and ecological transition, scored on 11 criteria</div></div>
+  <div><div class="k">The design</div><div class="v">Bin-ranking RCT: the middle bin randomized, 22 funded vs. 34 not funded</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Private R&D investment, implementation success, expected sales growth</div></div>
+  <div><div class="k">Starting point</div><div class="v">Market failures keep regional R&D investment below its optimal level</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Applications</div>
+  <div>External scoring</div>
+  <div>Middle-bin lottery</div>
+  <div>R&D grants</div>
+  <div>Follow-up survey</div>
+</div>
+```
 
 ::: {.team-note}
-**Open question**
-Decision needed: agree the inclusion criteria before anyone starts collecting.
-Business support only, or wider?
+**Source**
+EuroCOMP Lab, *Short-Term Impacts of the First RCTs* (2026), Note 2: Spain.
+:::
+
+## How the programme was tested
+
+Extremadura ran an advertising campaign to attract at least 100 applicants. External
+reviewers scored every application on 11 objective criteria and grouped proposals into
+low, medium and high quality.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Applications scored on 11 criteria; high scorers funded automatically, low scorers rejected automatically, and only the medium-quality middle band of 56 firms is randomized into 22 funded and 34 not funded">
+  <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Quality score</text>
+
+  <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
+  <text x="230" y="58" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">High quality</text>
+  <text x="230" y="76" text-anchor="middle" fill="#2B2724" font-size="11">accepted and funded automatically</text>
+
+  <rect x="90" y="100" width="280" height="96" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Medium quality: 56 firms</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">equally eligible, randomized by lottery</text>
+  <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">22 funded &middot; 34 not funded</text>
+  <text x="230" y="181" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
+
+  <rect x="90" y="206" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="230" y="230" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Low quality</text>
+  <text x="230" y="248" text-anchor="middle" fill="#6B6455" font-size="11">rejected automatically</text>
+
+  <path d="M382 148 H410" stroke="#B9AF95" stroke-width="1.5"/>
+  <rect x="410" y="116" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"/>
+  <text x="425" y="138" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomized</text>
+  <text x="425" y="156" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
+  <text x="425" y="170" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+
+  <text x="20" y="290" fill="#6B6455" font-size="11.5">This design works well when eligibility criteria are clear and resources are limited.</text>
+</svg>
+<figcaption>Extremadura's bin-ranking design: only medium-quality applicants, the band where expected returns are least certain, are randomized.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: it leverages investment-return uncertainty for
+applications with unclear returns. Limitation: it requires a large sample size in the
+middle range (bin).
+:::
+
+::: {.takeaway}
+Randomisation successfully balanced key firm characteristics: the comparison group and
+the treatment group looked the same on average. There was no evidence of firms with
+certain characteristics dropping out of the study more than others (selective
+attrition) in follow-up survey responses.
+:::
+
+## What the programme achieved
+
+Three months after receiving the grant, firms in the treatment group reported higher
+planned R&D investment and stronger confidence in their projects than the comparison
+group.
+
+::: {.cards}
+::: {.card-e}
+[+48%]{.num}
+
+#### More planned R&D investment for 2025
+€65,000 above the comparison-group average.
+:::
+::: {.card-e}
+[67%]{.num}
+
+#### Probability of successful implementation
+Up from 16% without funding, according to expert priors.
+:::
+::: {.card-e}
+[×2]{.num}
+
+#### Expected sales growth, conditional on success
+From 8% to 16% after receiving the grant, according to expert priors.
+:::
+:::
+
+::: {.caution}
+Over half of the comparison-group firms planned to continue their R&D projects using
+other funding or their own resources. Public R&D subsidies can significantly boost
+private investment, but careful targeting is needed to avoid simply displacing money
+firms would have spent anyway.
+:::
+
+::: {.eyebrow}
+Czechia
+:::
+
+## The problem, and two pilots to solve it
+
+::: {.cards}
+::: {.card-e}
+#### The problem
+Entrepreneurial activity remains low in Czech regions hit by the decline of the coal
+industry. These regions need to diversify away from carbon-intensive industries and
+grow their private sector.
+
+In September 2022, the European Commission approved the Just Transition Programme
+(JTP): €1.641 billion for business R&D, post-mining regeneration, skills, clean energy
+and the circular economy in the Moravian-Silesian, Ústí and Karlovy Vary regions.
+
+A key part of the JTP is a voucher scheme for entrepreneurs: up to €21,100 for business
+development, up to €42,200 for innovation, and up to €21,100 for digital transformation.
+:::
+::: {.card-e}
+#### What was done
+The World Bank tested two light-touch, complementary pilots that add skills support on
+top of the voucher scheme.
+
+**Smart Start** (Moravian-Silesian region): seven workshops teaching a scientific
+approach to decision-making under uncertainty, covering risk versus uncertainty,
+hypothesis testing and A/B testing, aimed at voucher recipients and other interested
+firms.
+
+**AI Klub** (Ústí and Karlovy Vary regions): five hands-on workshops on using AI for
+efficiency, marketing, sales, product development and financial management, with
+peer-to-peer exchange between firms.
+:::
+:::
+
+::: {.eyebrow}
+What experimentation sought to answer
+:::
+
+::: {.quote-e}
+"Does light-touch support to SMEs improve firm capabilities and performance?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+## Czechia: Smart Start entrepreneur training
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Smart Start: seven workshops on scientific decision-making and customer validation</div></div>
+  <div><div class="k">Where</div><div class="v">Ostrava, Moravian-Silesian region; Just Transition Programme with MSIC</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">246 interested firms, many of them entrepreneurial voucher applicants</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 163 invited to the training vs. 83 with no support</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Business changes, motivations for change, sales and firm performance</div></div>
+  <div><div class="k">Starting point</div><div class="v">Entrepreneurial activity remains low in regions hit by the coal industry's decline</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Interest sign-up</div>
+  <div>Random selection</div>
+  <div>Seven workshops</div>
+  <div>Presentations</div>
+  <div>Follow-up survey</div>
+</div>
+```
+
+## Czechia: AI adoption in post-coal regions
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">AI Klub: five hands-on workshops on AI for efficiency, marketing, sales, and finance</div></div>
+  <div><div class="k">Where</div><div class="v">Ústí and Karlovy Vary regions; Just Transition Programme with local partners</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">173 interested firms, including innovation voucher recipients</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 117 invited to the workshops vs. 56 with no support</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">AI adoption and use, innovation, business networking, sales and profits</div></div>
+  <div><div class="k">Starting point</div><div class="v">Local economies still rely on carbon-intensive industries and need diversification</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Interest sign-up</div>
+  <div>Random selection</div>
+  <div>Five AI workshops</div>
+  <div>Peer exchange</div>
+  <div>Follow-up survey</div>
+</div>
+```
+
+::: {.team-note}
+**Source**
+EuroCOMP Lab, *Short-Term Impacts of the First RCTs* (2026), Note 3: Czechia.
+:::
+
+## How the two pilots were tested
+
+Both pilots drew their sample from firms that had already shown interest, then invited
+roughly two in three of them by random selection, leaving the rest as a comparison
+group.
+
+### Smart Start &middot; Moravian-Silesian region
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 160" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="246 interested firms enter random selection; 163, about two thirds, are invited to Smart Start, and 83 receive no support">
+  <rect x="10" y="46" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="75" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">246</text>
+  <text x="85" y="94" text-anchor="middle" fill="#6B6455" font-size="11.5">interested firms</text>
+
+  <path d="M160 79 H210" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="210" y="46" width="160" height="66" rx="6" fill="#F2C94C"/>
+  <text x="290" y="72" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM SELECTION</text>
+  <text x="290" y="91" text-anchor="middle" fill="#2B2724" font-size="11">same chance for every firm</text>
+
+  <path d="M370 79 H400 V24 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M370 79 H400 V134 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="430" y="0" width="220" height="48" rx="6" fill="#F2C94C"/>
+  <text x="446" y="20" fill="#2B2724" font-size="12.5" font-weight="bold">163 invited (~2/3)</text>
+  <text x="446" y="37" fill="#2B2724" font-size="11">Smart Start workshops</text>
+
+  <rect x="430" y="110" width="220" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">83 no support (~1/3)</text>
+  <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
+</svg>
+</figure>
+```
+
+### AI Klub &middot; Ústí and Karlovy Vary regions
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 160" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="173 interested firms enter random selection; 117, about two thirds, are invited to AI Klub, and 56 receive no support">
+  <rect x="10" y="46" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="75" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">173</text>
+  <text x="85" y="94" text-anchor="middle" fill="#6B6455" font-size="11.5">interested firms</text>
+
+  <path d="M160 79 H210" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="210" y="46" width="160" height="66" rx="6" fill="#F2C94C"/>
+  <text x="290" y="72" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM SELECTION</text>
+  <text x="290" y="91" text-anchor="middle" fill="#2B2724" font-size="11">same chance for every firm</text>
+
+  <path d="M370 79 H400 V24 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M370 79 H400 V134 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="430" y="0" width="220" height="48" rx="6" fill="#F2C94C"/>
+  <text x="446" y="20" fill="#2B2724" font-size="12.5" font-weight="bold">117 invited (~2/3)</text>
+  <text x="446" y="37" fill="#2B2724" font-size="11">AI Klub workshops</text>
+
+  <rect x="430" y="110" width="220" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">56 no support (~1/3)</text>
+  <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
+</svg>
+</figure>
+```
+
+## What the two pilots achieved
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Smart Start
+:::
+::: {.body}
+- **+47%** go-to-market change intensity, versus the comparison group
+- **+64%** monthly sales, versus the comparison group (CZK 103,325 higher)
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+AI Klub
+:::
+::: {.body}
+- **+117%** monthly sales, versus the comparison group
+- **+66%** monthly profits, versus the comparison group
+:::
+:::
+:::
+
+::: {.eyebrow}
+Croatia
+:::
+
+## The problem, and the programme
+
+::: {.cards}
+::: {.card-e}
+#### The problem
+Firms and scientists in Croatia struggle to collaborate: information frictions,
+uncertain transaction costs and limited outreach budgets get in the way, especially for
+small and medium firms.
+
+Only 8% of Croatian firms collaborate with higher education institutions, far below the
+EU average. A World Bank survey found that 47% of firms lacked information about
+relevant scientists.
+:::
+::: {.card-e}
+#### What was done
+The World Bank, the Innovation Centre Nikola Tesla and the Ministry of Science,
+Education and Youth designed "Scinergy", a business-science matchmaking pilot
+targeting fields such as AI, energy and biotechnology.
+
+Matched firms and scientists took part in a two-day matchmaking event in February 2024:
+"speed-dating" sessions followed by joint workshops, plus legal and communication
+support to help pairs plan R&D projects together.
+:::
+:::
+
+::: {.eyebrow}
+What experimentation sought to answer
+:::
+
+::: {.quote-e}
+"Does connecting firms with scientists foster research partnerships and innovation?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+## Croatia: matching businesses with scientists
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Scinergy: matchmaking events, workshops, and ongoing support for firm-scientist pairs</div></div>
+  <div><div class="k">Where</div><div class="v">Croatia; Innovation Centre Nikola Tesla with the Ministry of Science, Education, and Youth</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">210 eligible firms, from over 250 applications, seeking scientific collaboration</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery: 100 firms invited to Scinergy vs. 110 not invited</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Collaboration attempts and partnerships, innovation, R&D employment</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 8% of Croatian firms collaborate with higher education, far below the EU average</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Applications</div>
+  <div>Lottery</div>
+  <div>Matchmaking event</div>
+  <div>Joint R&D planning</div>
+  <div>Follow-up survey</div>
+</div>
+```
+
+::: {.team-note}
+**Source**
+EuroCOMP Lab, *Short-Term Impacts of the First RCTs* (2026), Note 4: Croatia.
+:::
+
+## How the programme was tested
+
+Firms applied between November 2023 and January 2024. In February 2024, eligible firms
+were randomly assigned by lottery to receive matchmaking support or not.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="260 applications are screened down to 210 eligible firms, which enter a lottery splitting them into 100 firms invited to Scinergy and 110 not invited">
+  <rect x="10" y="66" width="130" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="75" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">260</text>
+  <text x="75" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">applications</text>
+
+  <path d="M140 99 H166" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="166" y="66" width="130" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="231" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">210</text>
+  <text x="231" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">eligible firms</text>
+
+  <path d="M296 99 H326" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="326" y="66" width="130" height="66" rx="6" fill="#F2C94C"/>
+  <text x="391" y="92" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="391" y="110" text-anchor="middle" fill="#2B2724" font-size="10.5">every firm, the same chance</text>
+
+  <path d="M456 99 H486 V34 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M456 99 H486 V164 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="516" y="10" width="180" height="48" rx="6" fill="#F2C94C"/>
+  <text x="530" y="30" fill="#2B2724" font-size="12.5" font-weight="bold">100 invited</text>
+  <text x="530" y="47" fill="#2B2724" font-size="11">matched with scientists</text>
+
+  <rect x="516" y="140" width="180" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="530" y="160" fill="#2B2724" font-size="12.5" font-weight="bold">110 not invited</text>
+  <text x="530" y="177" fill="#6B6455" font-size="11">comparison group</text>
+</svg>
+<figcaption>Only firms that cleared eligibility screening entered the lottery, so the comparison group is drawn from the same pool as the firms invited to Scinergy.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: a lottery among applicants ensures wide outreach,
+thanks to a simple application process. Limitation: firms may drop out after applying,
+which can reduce statistical power.
+:::
+
+## What the programme achieved
+
+::: {.cards}
+::: {.card-e}
+[+38%]{.num}
+
+#### Collaboration attempts with scientists
+Treated firms were more likely to attempt and to sustain collaborations with Croatian
+researchers.
+:::
+::: {.card-e}
+[+50%]{.num}
+
+#### Commercialisation of new products
+Among firms that originally requested support in AI, who benefited the most from the
+pilot.
+:::
 :::
