@@ -9,7 +9,9 @@ title: "Templates and Downloads"
 This page is still a brainstorm in the outline. Expect the list to change.
 :::
 
-The library. Everything here is a file someone can take away and use.
+## Glossary
+
+- **Defintions of key terms**
 
 ## Evidence and legal
 
