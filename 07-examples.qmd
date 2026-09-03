@@ -11,6 +11,8 @@ Discover examples from managing authorities that introduced experimentation into
 Spain
 :::
 
+# EuroCOMP Lab evaluations
+
 ## The problem, and the programme
 
 ::: {.cards}
@@ -469,3 +471,5 @@ Among firms that originally requested support in AI, who benefited the most from
 pilot.
 :::
 :::
+
+# Examples from beyond the Lab
