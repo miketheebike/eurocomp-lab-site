@@ -103,13 +103,11 @@ A short introduction to the EuroCOMP Lab, how impact evaluations can make public
 support more efficient and effective, and how it is already being used to improve
 programs across Europe.
 
-::: {.video-ph}
-::: {.play}
-&#9654;
+::: {.video-frame}
+{{< video https://vimeo.com/347119375
+    title="Introducing the EuroCOMP Lab"
+    aspect-ratio="16x9" >}}
 :::
-Video placeholder
-:::
-
 
 
 
