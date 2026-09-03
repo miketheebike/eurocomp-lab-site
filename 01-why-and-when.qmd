@@ -3,8 +3,7 @@ title: "Why and When"
 ---
 
 ::: {.lede}
-This page covers why evaluation is worth doing,
-when it has to be decided, and how to choose between the available designs.
+This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods.
 :::
 
 ::: {.eyebrow}
