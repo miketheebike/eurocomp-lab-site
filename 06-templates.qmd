@@ -9,9 +9,9 @@ title: "Templates and Downloads"
 This page is still a brainstorm in the outline. Expect the list to change.
 :::
 
-## Glossary
+## [Glossary](glossary.qmd)
 
-- **Defintions of key terms**
+- **Defintions of key terms** Definey key concepts used throughout the website.
 
 ## Evidence and legal
 
