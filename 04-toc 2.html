@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Theory of Change and Measurement – EuroCOMP Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4ea858091d408f308db95a62c62ba59c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">EuroCOMP Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./01-why-and-when.html"> 
+<span class="menu-text">Why and When</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02-how.html"> 
+<span class="menu-text">How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./03-advanced-how.html"> 
+<span class="menu-text">Advanced How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./04-toc.html" aria-current="page"> 
+<span class="menu-text">Theory of Change and Measurement</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./05-data.html"> 
+<span class="menu-text">Data Collection</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./06-templates.html"> 
+<span class="menu-text">Templates</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./07-examples.html"> 
+<span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./08-bank_survey.html"> 
+<span class="menu-text">Bank of Survey Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./09-bank_outcomes.html"> 
+<span class="menu-text">Bank of Outcomes</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#step-1-define-a-theory-of-change" id="toc-step-1-define-a-theory-of-change" class="nav-link" data-scroll-target="#step-1-define-a-theory-of-change">Step 1: Define a Theory of Change</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic" id="toc-what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic" class="nav-link" data-scroll-target="#what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic">What is a Theory of Change — and how does it relate to your intervention logic?</a></li>
+  <li><a href="#components-of-a-theory-of-change" id="toc-components-of-a-theory-of-change" class="nav-link" data-scroll-target="#components-of-a-theory-of-change">Components of a Theory of Change</a></li>
+  <li><a href="#why-invest-time-in-developing-a-theory-of-change" id="toc-why-invest-time-in-developing-a-theory-of-change" class="nav-link" data-scroll-target="#why-invest-time-in-developing-a-theory-of-change">Why Invest Time in Developing a Theory of Change?</a></li>
+  <li><a href="#defining-evaluation-questions" id="toc-defining-evaluation-questions" class="nav-link" data-scroll-target="#defining-evaluation-questions">Defining Evaluation Questions</a></li>
+  </ul></li>
+  <li><a href="#step-2-build-relevant-indicators" id="toc-step-2-build-relevant-indicators" class="nav-link" data-scroll-target="#step-2-build-relevant-indicators">Step 2: Build Relevant Indicators</a>
+  <ul class="collapse">
+  <li><a href="#from-theory-of-change-to-indicators" id="toc-from-theory-of-change-to-indicators" class="nav-link" data-scroll-target="#from-theory-of-change-to-indicators">From Theory of Change to Indicators</a></li>
+  <li><a href="#well-defined-indicators" id="toc-well-defined-indicators" class="nav-link" data-scroll-target="#well-defined-indicators">Well-Defined Indicators</a></li>
+  <li><a href="#from-indicators-to-data" id="toc-from-indicators-to-data" class="nav-link" data-scroll-target="#from-indicators-to-data">From Indicators to Data</a></li>
+  </ul></li>
+  <li><a href="#step-3-choose-your-data-strategy" id="toc-step-3-choose-your-data-strategy" class="nav-link" data-scroll-target="#step-3-choose-your-data-strategy">Step 3: Choose Your Data Strategy</a>
+  <ul class="collapse">
+  <li><a href="#the-fundamental-decision" id="toc-the-fundamental-decision" class="nav-link" data-scroll-target="#the-fundamental-decision">The Fundamental Decision</a></li>
+  <li><a href="#assessing-what-you-already-have" id="toc-assessing-what-you-already-have" class="nav-link" data-scroll-target="#assessing-what-you-already-have">Assessing What You Already Have</a></li>
+  <li><a href="#planning-data-collection" id="toc-planning-data-collection" class="nav-link" data-scroll-target="#planning-data-collection">Planning Data Collection</a></li>
+  </ul></li>
+  <li><a href="#for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys." id="toc-for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys." class="nav-link" data-scroll-target="#for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys.">For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: <strong>Data Collection: Surveys</strong>.</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Theory of Change and Measurement</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p><em>The groundwork a Managing Authority needs before fieldwork can start.</em></p>
+<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about three things: what the program is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. This page walks through those three steps in sequence.</p>
+<ol type="1">
+<li><strong>Step 1:</strong> Define a Theory of Change for your evaluation</li>
+<li><strong>Step 2:</strong> Build relevant indicators</li>
+<li><strong>Step 3:</strong> Choose your data strategy</li>
+</ol>
+<hr>
+</section>
+<section id="step-1-define-a-theory-of-change" class="level2">
+<h2 class="anchored" data-anchor-id="step-1-define-a-theory-of-change">Step 1: Define a Theory of Change</h2>
+<section id="what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-theory-of-change-and-how-does-it-relate-to-your-intervention-logic">What is a Theory of Change — and how does it relate to your intervention logic?</h3>
+<p>Managing Authorities preparing ERDF or ESF+ programmes are already required to articulate an <strong>intervention logic</strong> — a structured account of how a policy instrument is expected to produce its intended results. A Theory of Change (ToC) builds on this familiar concept and makes it more explicit and evaluation-ready.</p>
+<p>Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the <strong>assumptions</strong> that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information an impact evaluation is designed to test.</p>
+<p>If your program already has a well-developed intervention logic in its program document or partnership agreement, you have a strong starting point. The task of building a ToC is largely one of making that logic more precise — defining each step clearly enough that it can be measured.</p>
+</section>
+<section id="components-of-a-theory-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="components-of-a-theory-of-change">Components of a Theory of Change</h3>
+<p>A ToC follows a causal chain from resources invested to long-term change achieved, with assumptions sitting at every junction:</p>
+<p><strong>Inputs</strong> are the resources, efforts, and actions invested in a policy — financial resources, personnel, equipment, and training program. For ERDF programs, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.</p>
+<p><strong>Activities</strong> are the concrete actions undertaken to deliver the program — running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the program actually <em>does</em>.</p>
+<p><strong>Outputs</strong> are the direct, countable results of those activities — the number of firms supported, grants awarded, training hours delivered, or innovation projects launched. Outputs are what the program <em>produces</em>. For ERDF programs, these correspond closely to the <strong>common output indicators</strong> (COIs) that Managing Authorities are already required to report to the European Commission.</p>
+<p><strong>Short-term outcomes</strong> are the immediate changes that occur as a direct result of the outputs — for example, a supported firm adopting a new technology, or a researcher filing a patent application. These changes typically occur within one to two years of support and are often related to shifts in knowledge, behaviour, or capacity among beneficiaries.</p>
+<p><strong>Medium-term outcomes</strong> are the broader changes that emerge as short-term outcomes accumulate — for example, increases in firm-level productivity, growth in exports, or improvements in the regional innovation ecosystem. These correspond closely to the <strong>common result indicators</strong> (CRIs) that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the program and the result.</p>
+<p><strong>Goals</strong> are the long-term aspirations of the policy — for a competitiveness programme, this might mean a more innovative regional economy, higher wages, or greater resilience to economic shocks. Goals typically require years to materialise and reflect the broader objectives of the Smart Specialisation Strategy or the national reform agenda.</p>
+<p><strong>Assumptions</strong> are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the program may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.</p>
+</section>
+<section id="why-invest-time-in-developing-a-theory-of-change" class="level3">
+<h3 class="anchored" data-anchor-id="why-invest-time-in-developing-a-theory-of-change">Why Invest Time in Developing a Theory of Change?</h3>
+<p>Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively — by starting from the desired final outcomes and working backwards through the chain of events needed to get there — and this process is particularly useful in a program partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable programs in other regions or member states, to support each step in the logic?</p>
+<p>Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this “black box” transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better — findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.</p>
+</section>
+<section id="defining-evaluation-questions" class="level3">
+<h3 class="anchored" data-anchor-id="defining-evaluation-questions">Defining Evaluation Questions</h3>
+<p>Defining clear evaluation questions is the starting point of any rigorous impact evaluation, and they should follow directly from the ToC. A well-formulated evaluation question specifies what the intervention is, who it targets, what outcome is expected to change, and over what time horizon.</p>
+<p>Evaluation questions should be realistic: they must be answerable with the data and methods available, and scoped to what the evaluation can credibly attribute to the program rather than to external factors such as macroeconomic trends or parallel national schemes. Setting these questions before the program launches — ideally before the first call for applications — is essential, because many of the data collection decisions that follow depend on them.</p>
+<div class="soft-panel">
+<p><strong>Running example.</strong> TO BE ADDED BY MIKE: Evaluation questions from the North-East</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="step-2-build-relevant-indicators" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-build-relevant-indicators">Step 2: Build Relevant Indicators</h2>
+<section id="from-theory-of-change-to-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="from-theory-of-change-to-indicators">From Theory of Change to Indicators</h3>
+<p>Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.</p>
+<p>For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an impact evaluation. Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what <em>changed</em> as a result, and to do so in a way that allows for comparison with a counterfactual (i.e., what would have happened without the program).</p>
+<p>Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.</p>
+</section>
+<section id="well-defined-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="well-defined-indicators">Well-Defined Indicators</h3>
+<p>Good indicators share five characteristics, often summarised as SMART:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 54%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Criterion</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Specific</strong></td>
+<td>The indicator measures exactly the construct it is supposed to measure — not a proxy that is merely convenient</td>
+</tr>
+<tr class="even">
+<td><strong>Measurable</strong></td>
+<td>The information can be reliably obtained, ideally in a numerical form that allows for comparison over time and across groups</td>
+</tr>
+<tr class="odd">
+<td><strong>Attributable</strong></td>
+<td>The indicator is sensitive to the program’s efforts and not so heavily influenced by external factors that changes cannot be attributed to the intervention</td>
+</tr>
+<tr class="even">
+<td><strong>Realistic</strong></td>
+<td>The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline</td>
+</tr>
+<tr class="odd">
+<td><strong>Targeted</strong></td>
+<td>The indicator reflects outcomes for the specific population the program is designed to serve</td>
+</tr>
+</tbody>
+</table>
+<div class="soft-panel">
+<p><strong>Running example.</strong> TO BE ADDED BY MIKE: Indicators from the North-East</p>
+</div>
+</section>
+<section id="from-indicators-to-data" class="level3">
+<h3 class="anchored" data-anchor-id="from-indicators-to-data">From Indicators to Data</h3>
+<p>Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programs and regions.</p>
+<p>Once indicators are defined, each one requires a concrete data source. The next step answers — for every indicator — what needs to be collected, what type of data is appropriate, how it should be gathered, from whom, and when. Crucially, all of these decisions must be made before the program launches and before randomization begins. Data collected as an afterthought rarely has the properties needed for a credible evaluation.</p>
+<div class="gold-panel">
+<p>Selecting the right indicators is easier when you can draw on a curated list of outcomes that have already been used in comparable firm-level impact evaluations. The <strong>EuroComp Lab Outcomes Bank</strong> provides a searchable reference of outcome indicators organised by topic — covering firm performance, innovation, R&amp;D, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability.</p>
+<p>For each outcome, the bank specifies: - A plain-language definition - The metric and unit of measurement - Whether primary survey data or administrative data is the most appropriate source</p>
+<blockquote class="blockquote">
+<p>📋 <strong><a href="./09-bank_outcomes.html">Browse the Outcomes Bank →</a></strong></p>
+</blockquote>
+<p>The bank is organised to mirror the topics covered in the Survey Question Bank on the companion page, making it straightforward to move from selecting an outcome to identifying the survey question that measures it.</p>
+</div>
+</section>
+</section>
+<section id="step-3-choose-your-data-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-choose-your-data-strategy">Step 3: Choose Your Data Strategy</h2>
+<section id="the-fundamental-decision" class="level3">
+<h3 class="anchored" data-anchor-id="the-fundamental-decision">The Fundamental Decision</h3>
+<p>Before any fieldwork begins, the most consequential data decision is a strategic one: for each indicator in your evaluation framework, will you rely on <strong>primary data</strong> collected specifically for the evaluation, <strong>secondary data</strong> that already exists in administrative records, or a <strong>combination of both</strong>?</p>
+<p>This is not primarily a technical question — it is a practical and resource question that the Managing Authority and its evaluation team must answer together, ideally before the program is designed.</p>
+<p><strong>Primary data</strong> is information collected directly from target respondents — firms, individuals, or organisations — through surveys or interviews conducted specifically for the evaluation. It gives you control over exactly what is measured, but it takes time and money to collect, and it places a burden on beneficiaries.</p>
+<p><strong>Secondary data</strong> draws on records that already exist — national business registries, tax authority data, customs records, patent office databases, or the program’s own management information system. Secondary data is generally cheaper and covers larger samples, but it may not include the specific outcome variables needed for an evaluation and often comes with reporting lags or access restrictions.</p>
+<p>In practice, the most robust evaluations combine both: secondary administrative data provides the baseline and ensures broad coverage, while primary survey data captures the outcomes and mechanisms that administrative records do not contain. Deciding early which data sources will fill which role in the evaluation is essential — and it shapes every subsequent design choice.</p>
+<section id="comparison-of-primary-vs.-secondary-data" class="level4">
+<h4 class="anchored" data-anchor-id="comparison-of-primary-vs.-secondary-data">Comparison of Primary vs.&nbsp;Secondary Data</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Column_1</th>
+<th>Primary Data</th>
+<th>Secondary Data (Administrative)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Reporting bias</td>
+<td>Less subject to reporting bias</td>
+<td>May be subject to reporting bias</td>
+</tr>
+<tr class="even">
+<td>Sample size</td>
+<td>Smaller</td>
+<td>Larger</td>
+</tr>
+<tr class="odd">
+<td>Timeliness</td>
+<td>Collected when needed</td>
+<td>Often published with a delay</td>
+</tr>
+<tr class="even">
+<td>Cost</td>
+<td>More expensive</td>
+<td>Cheaper</td>
+</tr>
+<tr class="odd">
+<td>Relevance</td>
+<td>Tailored precisely to the outcome of interest</td>
+<td>General purpose</td>
+</tr>
+<tr class="even">
+<td>Pre-intervention history</td>
+<td>Limited</td>
+<td>History of pre-intervention data available</td>
+</tr>
+<tr class="odd">
+<td>Depth</td>
+<td>Richer understanding of mechanisms</td>
+<td>Less granular</td>
+</tr>
+<tr class="even">
+<td>Long-term impacts</td>
+<td>Harder to capture</td>
+<td>Measuring longer-term impacts is possible</td>
+</tr>
+<tr class="odd">
+<td>Access</td>
+<td>Generally straightforward</td>
+<td>May require data-sharing agreements</td>
+</tr>
+<tr class="even">
+<td>Privacy</td>
+<td>Can be anonymised</td>
+<td>Personal data may not be anonymised</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="assessing-what-you-already-have" class="level3">
+<h3 class="anchored" data-anchor-id="assessing-what-you-already-have">Assessing What You Already Have</h3>
+<p>Before commissioning a new survey, Managing Authorities should take stock of the administrative data they already hold or can access. Program management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.</p>
+<p>The key question is whether these sources contain — or can be linked to contain — the specific outcome variables in the evaluation framework. If a firm’s VAT number or national registration number is collected at application stage, it may be possible to link program records to tax or registry data using that identifier, enabling outcome measurement without any additional data collection burden on beneficiaries.</p>
+</section>
+<section id="planning-data-collection" class="level3">
+<h3 class="anchored" data-anchor-id="planning-data-collection">Planning Data Collection</h3>
+<p>Once the data strategy is set, detailed planning for each data collection activity should address the following:</p>
+<p><strong>What to collect</strong> should be driven strictly by the indicators in the ToC. Data collected for its own sake — without a clear link to an evaluation question — adds cost and respondent burden without adding analytical value.</p>
+<p><strong>Who to collect from</strong> should match the unit of analysis. For firm-level program, this typically means the firm itself, represented by a senior decision-maker who can speak reliably to strategic and financial outcomes. Where the program targets a specific group within the firm — such as R&amp;D staff or recently hired employees — those individuals may be the more appropriate respondents for certain questions.</p>
+<p><strong>When to collect</strong> must align with the evaluation timeline. Baseline data must be collected before the intervention begins. Endline data should be timed to when effects can realistically be expected to have materialised — too early, and real impacts may not yet be visible. Intermediate rounds may be needed to track progress along the Theory of Change.</p>
+</section>
+</section>
+<section id="for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys." class="level2">
+<h2 class="anchored" data-anchor-id="for-detailed-guidance-on-how-to-design-and-implement-primary-data-collection-through-surveys-including-choice-of-method-questionnaire-design-respondent-selection-and-gdpr-compliance-see-the-companion-page-data-collection-surveys.">For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: <strong><a href="./05-data.html">Data Collection: Surveys</a></strong>.</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>EuroCOMP Lab powered by the World Bank Group</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Draft site. Structure and content still under review by the team.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

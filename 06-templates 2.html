@@ -150,8 +150,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#glossary" id="toc-glossary" class="nav-link active" data-scroll-target="#glossary">Glossary</a></li>
-  <li><a href="#evidence-and-legal" id="toc-evidence-and-legal" class="nav-link" data-scroll-target="#evidence-and-legal">Evidence and legal</a></li>
+  <li><a href="#evidence-and-legal" id="toc-evidence-and-legal" class="nav-link active" data-scroll-target="#evidence-and-legal">Evidence and legal</a></li>
   <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates">Templates</a></li>
   </ul>
 </nav>
@@ -182,12 +181,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="team-note">
 <p><strong>Open question</strong> This page is still a brainstorm in the outline. Expect the list to change.</p>
 </div>
-<section id="glossary" class="level2">
-<h2 class="anchored" data-anchor-id="glossary"><a href="glossary.qmd">Glossary</a></h2>
-<ul>
-<li><strong>Defintions of key terms</strong> Definey key concepts used throughout the website.</li>
-</ul>
-</section>
+<p>The library. Everything here is a file someone can take away and use.</p>
 <section id="evidence-and-legal" class="level2">
 <h2 class="anchored" data-anchor-id="evidence-and-legal">Evidence and legal</h2>
 <ul>
@@ -288,7 +282,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/miketheebike\.github\.io\/eurocomp-lab-site\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
