@@ -7,11 +7,14 @@ title: "Examples"
 Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.
 :::
 
+
+# EuroCOMP Lab evaluations
+
 ::: {.eyebrow}
 Spain
 :::
 
-# EuroCOMP Lab evaluations
+
 
 ## The problem, and the programme
 
