@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Templates and Downloads – EuroCOMP Lab</title>
+<title>readme-eu-variant – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -119,7 +119,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Data Collection</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./06-templates.html" aria-current="page"> 
+    <a class="nav-link" href="./06-templates.html"> 
 <span class="menu-text">Templates</span></a>
   </li>  
   <li class="nav-item">
@@ -150,68 +150,102 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#glossary" id="toc-glossary" class="nav-link active" data-scroll-target="#glossary">Glossary</a></li>
-  <li><a href="#evidence-and-legal" id="toc-evidence-and-legal" class="nav-link" data-scroll-target="#evidence-and-legal">Evidence and legal</a></li>
-  <li><a href="#templates" id="toc-templates" class="nav-link" data-scroll-target="#templates">Templates</a></li>
+  <li><a href="#eu-register-variant" id="toc-eu-register-variant" class="nav-link active" data-scroll-target="#eu-register-variant">EU register variant</a>
+  <ul class="collapse">
+  <li><a href="#what-each-file-is" id="toc-what-each-file-is" class="nav-link" data-scroll-target="#what-each-file-is">What each file is</a></li>
+  <li><a href="#to-try-it" id="toc-to-try-it" class="nav-link" data-scroll-target="#to-try-it">To try it</a></li>
+  <li><a href="#before-publishing-the-legal-pages" id="toc-before-publishing-the-legal-pages" class="nav-link" data-scroll-target="#before-publishing-the-legal-pages">Before publishing the legal pages</a></li>
+  <li><a href="#navbar-note" id="toc-navbar-note" class="nav-link" data-scroll-target="#navbar-note">Navbar note</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Templates and Downloads</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p><span class="placeholder">Placeholder page</span></p>
-<div class="team-note">
-<p><strong>Open question</strong> This page is still a brainstorm in the outline. Expect the list to change.</p>
-</div>
-<section id="glossary" class="level2">
-<h2 class="anchored" data-anchor-id="glossary"><a href="./glossary.html">Glossary</a></h2>
+<section id="eu-register-variant" class="level1">
+<h1>EU register variant</h1>
+<p>Seven files. Nothing here overwrites your content pages except the diagram tokenisation in step 1, which is reversible via git.</p>
+<section id="what-each-file-is" class="level2">
+<h2 class="anchored" data-anchor-id="what-each-file-is">What each file is</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>File</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>tokenise-diagrams.py</code></td>
+<td>One-off. Converts hardcoded colours in the SVG diagrams to CSS variables so they follow whichever theme is active.</td>
+</tr>
+<tr class="even">
+<td><code>theme.scss</code></td>
+<td>Your existing warm theme, plus the variable definitions the diagrams now need. Replaces the current file.</td>
+</tr>
+<tr class="odd">
+<td><code>theme-eu.scss</code></td>
+<td>The EU-register variant. New file.</td>
+</tr>
+<tr class="even">
+<td><code>_quarto-eu.yml</code></td>
+<td>Config for the EU variant, including the legal page links and funding statement placeholder. New file.</td>
+</tr>
+<tr class="odd">
+<td><code>legal-notice.qmd</code></td>
+<td>Draft legal notice.</td>
+</tr>
+<tr class="even">
+<td><code>privacy.qmd</code></td>
+<td>Draft privacy statement.</td>
+</tr>
+<tr class="odd">
+<td><code>accessibility.qmd</code></td>
+<td>Draft accessibility statement.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="to-try-it" class="level2">
+<h2 class="anchored" data-anchor-id="to-try-it">To try it</h2>
+<ol type="1">
+<li><p>Commit current work first, so the switch is reversible.</p></li>
+<li><p>Copy all files into the repo folder, overwriting <code>theme.scss</code>.</p></li>
+<li><p>Make the diagrams theme-aware (run once):</p>
+<pre><code>python3 tokenise-diagrams.py
+rm tokenise-diagrams.py</code></pre>
+<p>Check the site still looks right in the warm theme:</p>
+<pre><code>quarto preview</code></pre></li>
+<li><p>Switch to the EU variant:</p>
+<pre><code>mv _quarto.yml _quarto-warm.yml
+mv _quarto-eu.yml _quarto.yml
+quarto preview</code></pre></li>
+<li><p>Switch back by reversing step 4.</p></li>
+</ol>
+</section>
+<section id="before-publishing-the-legal-pages" class="level2">
+<h2 class="anchored" data-anchor-id="before-publishing-the-legal-pages">Before publishing the legal pages</h2>
+<p>All three are drafts with open questions marked in the gold note boxes. In particular:</p>
 <ul>
-<li><strong>Defintions of key terms</strong> Definey key concepts used throughout the website.</li>
+<li><strong>Funding statement.</strong> Confirm whether the Lab itself receives EU funding. If it does, the emblem and statement are required in the footer and specific placement rules apply. If it does not, delete the placeholder block from <code>_quarto-eu.yml</code>. Displaying the emblem without the funding relationship would misrepresent the project.</li>
+<li><strong>Data controller and contact point.</strong> The privacy statement cannot be published without naming who is responsible.</li>
+<li><strong>Accessibility claim.</strong> Do not state a compliance level before the site has been tested. An honest list of known gaps is more credible than an untested claim.</li>
 </ul>
 </section>
-<section id="evidence-and-legal" class="level2">
-<h2 class="anchored" data-anchor-id="evidence-and-legal">Evidence and legal</h2>
-<ul>
-<li><strong>Benchmark reports.</strong> Published reports used as reference points.</li>
-<li><strong>Replicable do-files for randomisation.</strong> Working scripts a team can adapt.</li>
-<li><strong>Legal text for national legislation.</strong> Model wording enabling RCTs within competitive calls.</li>
-<li><strong>GDPR-compliant consent forms.</strong> Consent templates cleared for use in EU member states.</li>
-</ul>
-<p><strong>Prior surveys.</strong> Instruments already used in past evaluations.</p>
+<section id="navbar-note" class="level2">
+<h2 class="anchored" data-anchor-id="navbar-note">Navbar note</h2>
+<p><code>_quarto-eu.yml</code> uses the current page names (<code>04-toc.qmd</code>, <code>05-data.qmd</code>). If those change again, update both config files.</p>
+
+
 </section>
-<section id="templates" class="level2">
-<h2 class="anchored" data-anchor-id="templates">Templates</h2>
-<ul>
-<li><strong>Terms of Reference templates.</strong> For consultants and for data collection firms.</li>
-<li><strong>Theory of Change templates.</strong> Blank and worked versions.</li>
-<li><strong>Monitoring framework templates.</strong> Structures for tracking take-up, attrition and balance.</li>
-<li><strong>Evaluation report templates.</strong> What a final report should include.</li>
-<li><strong>Slide decks.</strong> Presentation versions of the site content, for teams briefing their own colleagues.</li>
-</ul>
-<div class="team-note">
-<p><strong>Note</strong> Three decks built and polished: How, Advanced How, and the wanted posters. Decks for Why and When and Requirements not started.</p>
-</div>
-
-
 </section>
 
 </main> <!-- /main -->

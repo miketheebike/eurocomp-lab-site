@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Why and When – EuroCOMP Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4ea858091d408f308db95a62c62ba59c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">EuroCOMP Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./01-why-and-when.html" aria-current="page"> 
+<span class="menu-text">Why and When</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02-how.html"> 
+<span class="menu-text">How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./03-advanced-how.html"> 
+<span class="menu-text">Advanced How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./04-toc.html"> 
+<span class="menu-text">Theory of Change and Measurement</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./05-data.html"> 
+<span class="menu-text">Data Collection</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./06-templates.html"> 
+<span class="menu-text">Templates</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./07-examples.html"> 
+<span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./08-bank_survey.html"> 
+<span class="menu-text">Bank of Survey Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./09-bank_outcomes.html"> 
+<span class="menu-text">Bank of Outcomes</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-impact-evaluation-for" id="toc-what-is-impact-evaluation-for" class="nav-link active" data-scroll-target="#what-is-impact-evaluation-for">What is impact evaluation for?</a></li>
+  <li><a href="#testing-and-learning-only-works-if-you-know-what-to-look-for" id="toc-testing-and-learning-only-works-if-you-know-what-to-look-for" class="nav-link" data-scroll-target="#testing-and-learning-only-works-if-you-know-what-to-look-for">Testing and learning only works if you know what to look for</a></li>
+  <li><a href="#learning-through-impact-evaluation-is-a-continuous-process" id="toc-learning-through-impact-evaluation-is-a-continuous-process" class="nav-link" data-scroll-target="#learning-through-impact-evaluation-is-a-continuous-process">Learning through impact evaluation is a continuous process</a></li>
+  <li><a href="#think-impact-evaluation-is-not-relevant-for-you" id="toc-think-impact-evaluation-is-not-relevant-for-you" class="nav-link" data-scroll-target="#think-impact-evaluation-is-not-relevant-for-you">Think impact evaluation is not relevant for you?</a></li>
+  <li><a href="#monitoring-and-evaluation-me-vs-impact-evaluation" id="toc-monitoring-and-evaluation-me-vs-impact-evaluation" class="nav-link" data-scroll-target="#monitoring-and-evaluation-me-vs-impact-evaluation">Monitoring and evaluation (M&amp;E) vs impact evaluation</a></li>
+  <li><a href="#what-does-good-allocation-of-public-resources-look-like" id="toc-what-does-good-allocation-of-public-resources-look-like" class="nav-link" data-scroll-target="#what-does-good-allocation-of-public-resources-look-like">What does good allocation of public resources look like?</a></li>
+  <li><a href="#what-exactly-is-the-impact-of-a-programme" id="toc-what-exactly-is-the-impact-of-a-programme" class="nav-link" data-scroll-target="#what-exactly-is-the-impact-of-a-programme">What exactly is the impact of a programme?</a></li>
+  <li><a href="#finding-the-counterfactual" id="toc-finding-the-counterfactual" class="nav-link" data-scroll-target="#finding-the-counterfactual">Finding the counterfactual</a></li>
+  <li><a href="#what-is-a-randomised-controlled-trial" id="toc-what-is-a-randomised-controlled-trial" class="nav-link" data-scroll-target="#what-is-a-randomised-controlled-trial">What is a randomised controlled trial?</a></li>
+  <li><a href="#randomisation-can-improve-legitimacy-and-trust-in-programmes" id="toc-randomisation-can-improve-legitimacy-and-trust-in-programmes" class="nav-link" data-scroll-target="#randomisation-can-improve-legitimacy-and-trust-in-programmes">Randomisation can improve legitimacy and trust in programmes</a></li>
+  <li><a href="#what-if-you-cannot-randomise" id="toc-what-if-you-cannot-randomise" class="nav-link" data-scroll-target="#what-if-you-cannot-randomise">What if you cannot randomise?</a>
+  <ul class="collapse">
+  <li><a href="#pre-post-before-and-after" id="toc-pre-post-before-and-after" class="nav-link" data-scroll-target="#pre-post-before-and-after">Pre-post (before and after)</a></li>
+  <li><a href="#simple-difference" id="toc-simple-difference" class="nav-link" data-scroll-target="#simple-difference">Simple difference</a></li>
+  <li><a href="#difference-in-differences" id="toc-difference-in-differences" class="nav-link" data-scroll-target="#difference-in-differences">Difference in differences</a></li>
+  <li><a href="#matching" id="toc-matching" class="nav-link" data-scroll-target="#matching">Matching</a></li>
+  <li><a href="#regression-discontinuity-design" id="toc-regression-discontinuity-design" class="nav-link" data-scroll-target="#regression-discontinuity-design">Regression discontinuity design</a></li>
+  </ul></li>
+  <li><a href="#choosing-the-right-evaluation-design" id="toc-choosing-the-right-evaluation-design" class="nav-link" data-scroll-target="#choosing-the-right-evaluation-design">Choosing the right evaluation design</a></li>
+  <li><a href="#reasons-not-to-measure-impact-via-policy-experimentation" id="toc-reasons-not-to-measure-impact-via-policy-experimentation" class="nav-link" data-scroll-target="#reasons-not-to-measure-impact-via-policy-experimentation">Reasons not to measure impact via policy experimentation</a></li>
+  <li><a href="#what-can-go-wrong-with-a-well-designed-rct" id="toc-what-can-go-wrong-with-a-well-designed-rct" class="nav-link" data-scroll-target="#what-can-go-wrong-with-a-well-designed-rct">What can go wrong with a well-designed RCT?</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Why and When</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="lede">
+<p>This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods.</p>
+</div>
+<div class="eyebrow">
+<p>Two purposes</p>
+</div>
+<section id="what-is-impact-evaluation-for" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-impact-evaluation-for">What is impact evaluation for?</h2>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
+  <rect x="200" y="14" width="260" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="330" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Impact evaluation</text>
+
+  <path d="M330 48 V72 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <path d="M330 48 V72 H490 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+
+    <rect x="60" y="96" width="220" height="34" rx="5" fill="#F2C94C"></rect>
+  <text x="170" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Policy learning</text>
+
+  <path d="M170 130 V176" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="380" y="96" width="220" height="34" rx="5" fill="#F2C94C"></rect>
+  <text x="490" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Accountability</text>
+
+  <path d="M490 130 V152 H400 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <path d="M490 130 V152 H580 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+
+  <rect x="60" y="176" width="220" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="170" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">What works, for whom,</text>
+  <text x="170" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">under what conditions</text>
+
+  <rect x="310" y="176" width="180" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="400" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Financial</text>
+  <text x="400" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">accountability</text>
+
+  <rect x="500" y="176" width="150" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="575" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
+  <text x="575" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
+</svg>
+<figcaption>Learning feeds programme design. Accountability covers both what the money was spent on and what it achieved.</figcaption>
+</figure>
+</section>
+<section id="testing-and-learning-only-works-if-you-know-what-to-look-for" class="level2">
+<h2 class="anchored" data-anchor-id="testing-and-learning-only-works-if-you-know-what-to-look-for">Testing and learning only works if you know what to look for</h2>
+<p>When evaluating projects, we often only assess outputs, because they are the easiest thing to count. Impact evaluation is what lets you move from measuring outputs to proving outcomes.</p>
+<div class="cards">
+<section id="outputs" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="outputs">Outputs</h4>
+<p>What a programme delivers: grants disbursed, firms enrolled, trainings run.</p>
+</section>
+<section id="outcomes" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="outcomes">Outcomes</h4>
+<p>What changes because of it: growth, jobs, innovation, resilience.</p>
+</section>
+</div>
+<p>Before implementation, map out how a programme’s activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program’s reason for existing. It also tells you what to measure to test whether the expected change is actually happening.</p>
+<div class="chain">
+<div class="step">
+<p><strong>Inputs</strong></p>
+</div>
+<div class="step">
+<p><strong>Activities</strong></p>
+</div>
+<div class="step">
+<p><strong>Outputs</strong></p>
+</div>
+<div class="on">
+<p><strong>Outcomes</strong></p>
+</div>
+</div>
+<p>This chain is the foundation of a Theory of Change, and having thought it through helps in designing a strong impact evaluation. There is more on this in <a href="./04-toc.html">Theory of Change, Indicators and Data</a>.</p>
+</section>
+<section id="learning-through-impact-evaluation-is-a-continuous-process" class="level2">
+<h2 class="anchored" data-anchor-id="learning-through-impact-evaluation-is-a-continuous-process">Learning through impact evaluation is a continuous process</h2>
+<p>Every evaluation raises new questions along with the ones it answers, each round building on the last. That is how we expand our knowledge of what works, for whom, and under what conditions, and use it to design better programmes. Exchange within a community of practice matters, so we can learn from each other, not just from our own results.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: design, test, review evidence and create learnings, adjust and invest">
+  <defs>
+    <marker id="ah" viewbox="0 0 10 10" refx="8" refy="5" markerwidth="7" markerheight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"></path>
+    </marker>
+  </defs>
+  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"></path>
+  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"></path>
+  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"></path>
+  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"></path>
+
+  <rect x="255" y="30" width="150" height="42" rx="6" fill="var(--dg-accent)"></rect>
+  <text x="330" y="56" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
+
+  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
+
+  <rect x="255" y="228" width="150" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="330" y="249" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
+  <text x="330" y="266" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
+
+  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
+</svg>
+</figure>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">Review</span> Review a programme’s theory of change, identify risks and learning opportunities. Review lessons from other settings and countries, adapt them, test them in a new context. Identify baseline needs of potential beneficiaries in your region.</p>
+</div>
+<div class="card-e">
+<p><span class="num">Test</span> Test different programme designs and delivery modes to identify what works best. Assess for whom the programme works best. Address take-up challenges, both over and undersubscription. Learn about mechanisms, unintended effects, and crowding out.</p>
+</div>
+<div class="card-e">
+<p><span class="num">Invest</span> Get a quantitative and credible impact estimate that can guide future investments. Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions. Scale up based on evidence.</p>
+</div>
+</div>
+<div class="example romania">
+<p><span class="tag">The running example: SMART Romania</span></p>
+<p>Throughout this site, we come back to one programme developed as part of the EuroCOMP Lab to show these ideas in practice: SMART Romania, a digitalisation grant scheme for micro, small and medium enterprises in North-East Romania, run by the Regional Development Agency with World Bank support.</p>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000–100,000 for digital tools, equipment, and services</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
+</div>
+<section id="from-application-to-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence">From application to evidence</h3>
+<div class="flow">
+  <div>Application survey</div>
+  <div>Lottery</div>
+  <div>Digitalization grants</div>
+  <div>Follow-up surveys</div>
+  <div>Impact evaluation</div>
+</div>
+</section>
+</div>
+<div class="eyebrow">
+<p>Is it relevant for you</p>
+</div>
+</section>
+<section id="think-impact-evaluation-is-not-relevant-for-you" class="level2">
+<h2 class="anchored" data-anchor-id="think-impact-evaluation-is-not-relevant-for-you">Think impact evaluation is not relevant for you?</h2>
+<p>Whether you have sufficient evidence that your programme works, or you are still working out who it reaches and how to design it, there is a case for evaluation. The starting question is whether the programme is working as well as it could be.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>You want to learn who to target and how to design it</p>
+</div>
+<div class="body">
+<p><strong>Too many applicants?</strong> Consider introducing randomisation in the middle ranks.</p>
+<p><strong>Too few applicants?</strong> Consider simplifying access and using an encouragement design.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>You know it is effective, but is it efficient?</p>
+</div>
+<div class="body">
+<p><strong>Test how you deliver it.</strong> Compare different ways of delivering the programme to the same beneficiaries, testing changes that improve efficiency and satisfaction.</p>
+</div>
+</div>
+</div>
+<div class="soft-panel">
+<p>An impact evaluation is not useful only if you already have enough evidence on returns for your target group and region, and there is no interest in learning about different ways of implementing the programme for the same beneficiaries.</p>
+</div>
+<div class="eyebrow">
+<p>M&amp;E versus impact evaluation</p>
+</div>
+</section>
+<section id="monitoring-and-evaluation-me-vs-impact-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="monitoring-and-evaluation-me-vs-impact-evaluation">Monitoring and evaluation (M&amp;E) vs impact evaluation</h2>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Monitoring</p>
+</div>
+<div class="body">
+<p>Collect data on inputs, outputs, outcomes and participants to</p>
+<ul>
+<li>Improve day-to-day management and decisions</li>
+<li>Make descriptive before and after comparisons</li>
+</ul>
+</div>
+<div class="verdict">
+<p>Describes what is happening, but not whether it is because of the intervention.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Impact evaluation</p>
+</div>
+<div class="body">
+<p>Collect data on participants and control groups to</p>
+<ul>
+<li>Assess the difference between participating and not</li>
+<li>Establish causality</li>
+<li>Support cost-benefit analysis</li>
+</ul>
+</div>
+<div class="verdict">
+<p>Determines impact in a way that can only be attributed to the programme, by establishing what would have happened without it.</p>
+</div>
+</div>
+</div>
+<div class="eyebrow">
+<p>Allocating public resources</p>
+</div>
+</section>
+<section id="what-does-good-allocation-of-public-resources-look-like" class="level2">
+<h2 class="anchored" data-anchor-id="what-does-good-allocation-of-public-resources-look-like">What does good allocation of public resources look like?</h2>
+<p>Not always what you would expect at first glance. Impact evaluation can help improve allocation.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Strategy A: fund the top performers</p>
+</div>
+<div class="body">
+<p>Firms that succeed: <strong>80 of 100</strong></p>
+<p>Would have succeeded anyway: 65</p>
+<p>Caused by the grant: <strong>15</strong></p>
+</div>
+<div class="verdict">
+<p>Looks stronger: 80 successes.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Strategy B: fund the marginal firm</p>
+</div>
+<div class="body">
+<p>Firms that succeed: <strong>55 of 100</strong></p>
+<p>Would have succeeded anyway: 20</p>
+<p>Caused by the grant: <strong>35</strong></p>
+</div>
+<div class="verdict">
+<p>Actually causes more impact: 35 caused.</p>
+</div>
+</div>
+</div>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing observed successes with successes caused by the grant for two strategies">
+  <line x1="70" y1="200" x2="620" y2="200" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="60" y="205" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">0</text>
+  <text x="60" y="110" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">50</text>
+  <line x1="70" y1="106" x2="620" y2="106" stroke="var(--dg-rule)" stroke-width="1"></line>
+
+  <rect x="140" y="56" width="70" height="144" fill="var(--dg-ink)"></rect>
+  <text x="175" y="48" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">80</text>
+  <rect x="220" y="173" width="70" height="27" fill="var(--dg-accent)"></rect>
+  <text x="255" y="165" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">15</text>
+  <text x="215" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Strategy A</text>
+
+  <rect x="390" y="101" width="70" height="99" fill="var(--dg-ink)"></rect>
+  <text x="425" y="93" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">55</text>
+  <rect x="470" y="137" width="70" height="63" fill="var(--dg-accent)"></rect>
+  <text x="505" y="129" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">35</text>
+  <text x="465" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Strategy B</text>
+
+  <rect x="140" y="236" width="11" height="11" fill="var(--dg-ink)"></rect>
+  <text x="158" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Observed successes</text>
+  <rect x="300" y="236" width="11" height="11" fill="var(--dg-accent)"></rect>
+  <text x="318" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Caused by the grant</text>
+</svg>
+<figcaption>Raw success counts can be misleading. Programmes should be judged on impact, not on the raw success of hand-picked winners.</figcaption>
+</figure>
+<div class="cards">
+<section id="deadweight-low-additionality" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="deadweight-low-additionality">Deadweight: low additionality</h4>
+<p>Additionality’ is the share of activity that wouldn’t have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they’d have spent regardless — generating little that’s truly additional per euro.</p>
+</section>
+<section id="selection-bias-in-measurement" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="selection-bias-in-measurement">Selection bias in measurement</h4>
+<p>Comparing funded, stronger firms with unfunded, weaker ones credits the programme with firms’ pre-existing quality, not with what the grant did.</p>
+</section>
+<section id="where-the-grant-buys-most" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="where-the-grant-buys-most">Where the grant buys most</h4>
+<p>Support actually changes behaviour for the marginal, constrained firm: the good project that could not otherwise get funded.</p>
+</section>
+</div>
+<div class="eyebrow">
+<p>The counterfactual</p>
+</div>
+</section>
+<section id="what-exactly-is-the-impact-of-a-programme" class="level2">
+<h2 class="anchored" data-anchor-id="what-exactly-is-the-impact-of-a-programme">What exactly is the impact of a programme?</h2>
+<p><strong>Definition.</strong> Impact is what happens after a programme is introduced, minus what would have happened in its absence, the counterfactual.</p>
+<p><strong>The dilemma.</strong> The counterfactual is a “what if” and is unknown to us.</p>
+<p><strong>The solution.</strong> Find a way to construct the counterfactual so impact can be measured. This can be done in different ways. The methods below show why randomised controlled trials are considered the gold standard.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Line chart showing actual outcomes rising faster than the counterfactual after an intervention, with the gap labelled impact">
+  <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+
+  <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"></line>
+  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
+
+  <polyline points="100,220 150,205 200,190 250,175 300,160" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+  <polyline points="300,160 370,133 440,106 510,79 580,52" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"></polyline>
+  <polyline points="300,160 370,150 440,140 510,130 580,120" fill="none" stroke="var(--dg-ink)" stroke-width="2.5" stroke-dasharray="6 5"></polyline>
+
+  <path d="M598 52 H606 M598 120 H606 M602 52 V120" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="614" y="90" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
+
+  <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
+  <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
+</svg>
+<figcaption>Impact is the causal effect of the programme: the gap between what happened and what would have happened.</figcaption>
+</figure>
+<div class="example romania">
+<p><span class="tag">The impact in the SMART Romania programme</span></p>
+<p>For SMART Romania, the impact is the gap between treatment and comparison firms on four tracked outcomes: digital adoption, revenue, employment, and productivity.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for SMART Romania: digital adoption, revenue, employment and productivity">
+  <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
+  <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
+
+  <rect x="316" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="332" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
+  <text x="332" y="50" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
+
+  <rect x="10" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="26" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
+  <text x="26" y="116" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
+
+  <rect x="316" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="332" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
+  <text x="332" y="116" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
+</svg>
+</figure>
+</div>
+</section>
+<section id="finding-the-counterfactual" class="level2">
+<h2 class="anchored" data-anchor-id="finding-the-counterfactual">Finding the counterfactual</h2>
+<p><strong>Strategy.</strong> Find a group of firms that on average look like treated firms would have looked in the absence of the programme. This group is the comparison group.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Randomised controlled trials</p>
+</div>
+<div class="body">
+<p>Create the comparison group up front, by randomly assigning who receives the programme. Randomisation is what guarantees the two groups look the same on average.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Ex-post and quasi-experimental designs</p>
+</div>
+<div class="body">
+<p>Look for a suitable comparison group after the programme has already been rolled out, using natural variation in who received it and who did not.</p>
+</div>
+</div>
+</div>
+<div class="caution">
+<p><strong>Selection bias</strong> is the risk that the comparison group does not actually look like the treatment group on average. If that assumption is wrong, the impact estimate is biased.</p>
+</div>
+<div class="example romania">
+<p><span class="tag">SMART Romania: what is the counterfactual?</span></p>
+<p>In SMART Romania, the counterfactual is represented by the firms that completed the online survey and were deemed eligible but that did not receive the grant.</p>
+<p>Before any grants were awarded, the selected and non-selected groups looked statistically the same: identical average DESI score (4.3 of 12), similar firm size, no significant difference overall. That balance is what makes the non-selected group a credible stand-in for what the selected firms would have done without the programme.</p>
+</div>
+<div class="eyebrow">
+<p>Randomised controlled trials</p>
+</div>
+</section>
+<section id="what-is-a-randomised-controlled-trial" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-randomised-controlled-trial">What is a randomised controlled trial?</h2>
+<p><strong>Intuition.</strong> Randomly assign the programme so one group receives it (the treatment group) and one does not (the control or comparison group). Because the two groups start out the same, the control group’s outcome shows what would have happened to the treatment group without the programme.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and control groups start at the same outcome level and diverge after the programme, with the gap labelled impact">
+  <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+
+  <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"></line>
+  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Programme starts</text>
+  <text x="190" y="270" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Pre</text>
+  <text x="450" y="270" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Post</text>
+
+  <polyline points="110,200 200,195 300,190" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+  <polyline points="300,190 390,155 480,120 570,85" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"></polyline>
+  <polyline points="300,190 390,182 480,174 570,166" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+
+  <circle cx="110" cy="200" r="5" fill="var(--dg-ink)"></circle>
+  <text x="122" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Same starting point</text>
+
+  <path d="M588 85 H596 M588 166 H596 M592 85 V166" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="604" y="129" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
+
+  <text x="480" y="72" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Control group</text>
+</svg>
+</figure>
+<p><strong>Advantage.</strong> RCTs are considered the gold standard of quantitative impact evaluation because:</p>
+<ul>
+<li>No assumptions about outcome levels or trends between groups are necessary, if randomised within groups</li>
+<li>They deliver strong evidence</li>
+<li>They are easy to interpret</li>
+</ul>
+<div class="example romania">
+<p><span class="tag">SMART Romania: randomised controlled trial</span></p>
+<p>Recap: firms first completed an online screening survey. Of the 1&nbsp;038 found eligible, 519 were then randomly assigned to the treatment group, invited to formally apply for a grant, and 519 to the comparison group, who received no invitation.</p>
+<p>Because the lottery created two comparable groups, the difference between them over time is the impact ofbeing of the program.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
+  <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M160 120 H210" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="210" y="87" width="160" height="66" rx="6" fill="#F2C94C"></rect>
+  <text x="290" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="290" y="132" text-anchor="middle" fill="#2B2724" font-size="11">before a notary</text>
+
+  <path d="M370 120 H400 V50 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M370 120 H400 V190 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="430" y="20" width="240" height="60" rx="6" fill="#F2C94C"></rect>
+  <text x="446" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group – 519</text>
+  <text x="446" y="59" fill="#2B2724" font-size="10.5">Invited to apply for</text>
+  <text x="446" y="72" fill="#2B2724" font-size="10.5">a grant</text>
+
+  <rect x="430" y="160" width="240" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group – 519</text>
+  <text x="446" y="199" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
+  <text x="446" y="212" fill="#6B6455" font-size="10.5">the same way</text>
+</svg>
+</figure>
+</div>
+</section>
+<section id="randomisation-can-improve-legitimacy-and-trust-in-programmes" class="level2">
+<h2 class="anchored" data-anchor-id="randomisation-can-improve-legitimacy-and-trust-in-programmes">Randomisation can improve legitimacy and trust in programmes</h2>
+<p>Randomly selecting beneficiaries among eligible applicants is fair. When more eligible firms apply than there is budget to fund, a lottery is a transparent way to decide who gets in. It treats every eligible applicant the same rather than relying on favouritism or timing.</p>
+<div class="soft-panel">
+<p><strong>What “random” means here.</strong> Not randomly sampling a sub-population to study, but randomly deciding, among firms that already qualify, who receives the programme and who does not.</p>
+</div>
+<div class="funnel">
+  <figure class="figure">
+    <figcaption>Firms that apply</figcaption>
+    <div class="n">24 firms apply</div>
+    <div class="dots"><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span></div>
+  </figure>
+  <figure class="figure">
+    <figcaption>Firms that are eligible</figcaption>
+    <div class="n">10 meet the threshold</div>
+    <div class="dots"><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  </figure>
+  <figure class="figure">
+    <figcaption>Firms selected</figcaption>
+    <div class="n">4 are randomly funded</div>
+    <div class="dots"><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  </figure>
+</div>
+<div class="example romania">
+<p><span class="tag">SMART Romania: additional measures to increase trust</span></p>
+<p>SMART Romania’s draw was run in front of a notary: the random number seed drawn, the selection code run, and the resulting balance between groups reviewed, all on the record. This increased confidence with the firms that selection was fair.</p>
+</div>
+<div class="eyebrow">
+<p>When you cannot randomize</p>
+</div>
+</section>
+<section id="what-if-you-cannot-randomise" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-you-cannot-randomise">What if you cannot randomise?</h2>
+<p>An RCT only works if randomization is built in from day one, integrated at design stage before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. When that is not possible, quasi-experimental methods are the alternative.</p>
+<div class="caution">
+<p>Quasi-experimental methods always rely on assumptions, some stronger than others. If those assumptions do not hold, the impact estimate is biased. Many of these assumptions are not testable. The credibility of the evaluation depends on the credibility of the assumptions made.</p>
+</div>
+<section id="pre-post-before-and-after" class="level3">
+<h3 class="anchored" data-anchor-id="pre-post-before-and-after">Pre-post (before and after)</h3>
+<div class="method">
+<dl>
+<dt>Method</dt>
+<dd>
+Compare programme participants before and after the programme.
+</dd>
+<dt>Identifying assumption</dt>
+<dd>
+In the absence of the programme, participants would have had the same measured outcomes as before. That means no other factors or events, for example economic shocks, affect the outcome besides the programme. This is a strong assumption that rarely holds in practice.
+</dd>
+</dl>
+<div class="eg">
+<p>For example, sales might rise after a grant simply because the whole regional economy is recovering at the same time, not because of the programme.</p>
+</div>
+</div>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Pre-post design assumes a flat comparison line, so the whole rise is attributed to the programme">
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <line x1="280" y1="25" x2="280" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"></line>
+  <text x="280" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
+
+  <polyline points="110,180 280,170" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+  <polyline points="280,170 380,140 480,110 570,80" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"></polyline>
+  <polyline points="280,170 570,170" fill="none" stroke="var(--dg-ink-soft)" stroke-width="2" stroke-dasharray="6 5"></polyline>
+  <text x="400" y="188" fill="var(--dg-ink-soft)" font-size="11.5">Comparison assumed flat</text>
+
+  <path d="M588 80 H596 M588 170 H596 M592 80 V170" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
+  <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
+</svg>
+</figure>
+</section>
+<section id="simple-difference" class="level3">
+<h3 class="anchored" data-anchor-id="simple-difference">Simple difference</h3>
+<div class="method">
+<dl>
+<dt>Method</dt>
+<dd>
+Compare programme participants with non-participants.
+</dd>
+<dt>Identifying assumption</dt>
+<dd>
+There is no difference between participants and non-participants besides programme participation. The reason for participation must be unrelated to outcomes. Again, this is unlikely to hold in practice.
+</dd>
+</dl>
+<div class="eg">
+<p>For example, firms that apply for a grant are often more ambitious or better managed than those that do not, so they might grow faster regardless of the grant.</p>
+</div>
+</div>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Participants show higher outcomes than non-participants, but part of the gap is pre-existing firm quality">
+  <line x1="90" y1="205" x2="600" y2="205" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <line x1="90" y1="25" x2="90" y2="205" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="72" y="115" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 72 115)">Outcome</text>
+
+  <rect x="180" y="60" width="110" height="145" fill="var(--dg-accent)"></rect>
+  <rect x="180" y="130" width="110" height="75" fill="var(--dg-accent-dark)"></rect>
+  <text x="235" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Participants</text>
+
+  <rect x="400" y="130" width="110" height="75" fill="var(--dg-ink)"></rect>
+  <text x="455" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Non-participants</text>
+
+  <line x1="290" y1="130" x2="400" y2="130" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"></line>
+
+  <path d="M528 60 H536 M528 130 H536 M532 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="544" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Simple</text>
+  <text x="544" y="106" fill="var(--dg-ink)" font-size="12" font-weight="bold">difference</text>
+
+  <text x="300" y="172" fill="var(--dg-ink-soft)" font-size="11.5">Unobserved difference,</text>
+  <text x="300" y="188" fill="var(--dg-ink-soft)" font-size="11.5">for example firm quality</text>
+</svg>
+<figcaption>The measured gap mixes the programme effect with differences that were there all along.</figcaption>
+</figure>
+</section>
+<section id="difference-in-differences" class="level3">
+<h3 class="anchored" data-anchor-id="difference-in-differences">Difference in differences</h3>
+<div class="method">
+<dl>
+<dt>Method</dt>
+<dd>
+Find a group with the same trend and compare differences over time.
+</dd>
+<dt>Identifying assumption</dt>
+<dd>
+Any other factors affecting participants over time are the same for non-participants, so both groups would follow the same trajectory in the absence of treatment. This is the parallel trends assumption, and it cannot be tested.
+</dd>
+</dl>
+<div class="eg">
+<p>For example, if grant recipients are concentrated in areas hit harder by a regional downturn than the comparison firms, their trends could diverge even without the programme.</p>
+</div>
+</div>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups both rise, but the treatment group rises further; the difference between the two changes is the estimate">
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <line x1="290" y1="25" x2="290" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"></line>
+  <text x="290" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
+
+  <polyline points="120,150 290,130" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"></polyline>
+  <polyline points="290,130 560,60" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"></polyline>
+  <polyline points="120,190 290,175" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+  <polyline points="290,175 560,145" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+
+  <path d="M578 60 H586 M578 130 H586 M582 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="594" y="99" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Diff 1</text>
+  <path d="M578 145 H586 M578 175 H586 M582 145 V175" stroke="var(--dg-ink-soft)" stroke-width="1.5" fill="none"></path>
+  <text x="594" y="164" fill="var(--dg-ink-soft)" font-size="11.5">Diff 2</text>
+
+  <text x="380" y="52" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="380" y="178" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
+</svg>
+<figcaption>The estimate is Diff 1 minus Diff 2: how much more the treatment group changed than the comparison group.</figcaption>
+</figure>
+</section>
+<section id="matching" class="level3">
+<h3 class="anchored" data-anchor-id="matching">Matching</h3>
+<div class="method">
+<dl>
+<dt>Method</dt>
+<dd>
+Participants are matched with non-participants who share the same observable characteristics. Matching tries to mimic an RCT. It can be done in different ways: a participant can be matched with one non-participant, or with a weighted average of all similar non-participants, where closer matches count more.
+</dd>
+<dt>Identifying assumption</dt>
+<dd>
+There are no differences between participants and matched non-participants in unobserved characteristics that affect the outcome.
+</dd>
+</dl>
+<div class="eg">
+<p>For example, two firms matched on size and sector might still differ in the owner’s ambition or management quality, both of which would likely affect outcomes.</p>
+</div>
+</div>
+</section>
+<section id="regression-discontinuity-design" class="level3">
+<h3 class="anchored" data-anchor-id="regression-discontinuity-design">Regression discontinuity design</h3>
+<div class="method">
+<dl>
+<dt>Method</dt>
+<dd>
+Compare participants who were just eligible with those who were just ineligible. This does not measure impact for all participants, only for those at the cut-off, which is why the result is called a local average treatment effect. The advantage is that unobservable characteristics stop being a concern.
+</dd>
+<dt>Identifying assumption</dt>
+<dd>
+This design assumes that
+<ul>
+<li>the programme is administered following pre-defined cut-off rules</li>
+<li>the criteria determining who falls above or below are not manipulated</li>
+<li>a large number of units sit around the cut-off</li>
+<li>nothing else changes suddenly at the cut-off</li>
+</ul>
+</dd>
+</dl>
+<div class="eg">
+<p>For example, if firms know grants are awarded below a certain revenue threshold, some might understate revenue slightly to stay just below it, so firms just below the cut-off are no longer comparable to those just above.</p>
+</div>
+</div>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Outcomes jump discontinuously at the eligibility cutoff">
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"></line>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Cut-off variable</text>
+  <text x="62" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 120)">Outcome</text>
+
+  <line x1="350" y1="25" x2="350" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"></line>
+  <text x="350" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Cut-off</text>
+
+  <circle cx="130" cy="180" r="4" fill="var(--dg-ink)"></circle><circle cx="165" cy="172" r="4" fill="var(--dg-ink)"></circle>
+  <circle cx="200" cy="178" r="4" fill="var(--dg-ink)"></circle><circle cx="235" cy="163" r="4" fill="var(--dg-ink)"></circle>
+  <circle cx="270" cy="168" r="4" fill="var(--dg-ink)"></circle><circle cx="305" cy="156" r="4" fill="var(--dg-ink)"></circle>
+  <circle cx="335" cy="160" r="4" fill="var(--dg-ink)"></circle>
+  <polyline points="120,182 345,158" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"></polyline>
+
+  <circle cx="365" cy="108" r="4" fill="var(--dg-accent)"></circle><circle cx="400" cy="112" r="4" fill="var(--dg-accent)"></circle>
+  <circle cx="435" cy="98" r="4" fill="var(--dg-accent)"></circle><circle cx="470" cy="104" r="4" fill="var(--dg-accent)"></circle>
+  <circle cx="505" cy="90" r="4" fill="var(--dg-accent)"></circle><circle cx="540" cy="95" r="4" fill="var(--dg-accent)"></circle>
+  <circle cx="575" cy="84" r="4" fill="var(--dg-accent)"></circle>
+  <polyline points="355,110 585,86" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"></polyline>
+
+  <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="250" y="128" fill="var(--dg-ink)" font-size="12" font-weight="bold">RDD effect</text>
+</svg>
+<figcaption>Many firms sit close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
+</figure>
+<div class="team-note">
+<p><strong>Source</strong> The quasi-experimental sections draw on the J-PAL Why and When to Randomize lecture. Decide whether a citation is needed, given how widely shared this material is.</p>
+</div>
+<div class="eyebrow">
+<p>Choosing a design</p>
+</div>
+</section>
+</section>
+<section id="choosing-the-right-evaluation-design" class="level2">
+<h2 class="anchored" data-anchor-id="choosing-the-right-evaluation-design">Choosing the right evaluation design</h2>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Decision tree: if you can plan from the outset and have excess demand, use an RCT; otherwise use matching, difference in differences, or regression discontinuity">
+  <rect x="200" y="8" width="280" height="42" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="340" y="26" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5">Can you plan an evaluation</text>
+  <text x="340" y="42" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5">from the outset?</text>
+
+  <path d="M340 50 V70 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <text x="240" y="65" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">No</text>
+  <path d="M340 50 V70 H510 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <text x="425" y="65" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
+
+  <rect x="20" y="96" width="300" height="34" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="170" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
+
+  <path d="M170 130 V330 M170 172 H36 M170 252 H36 M170 330 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+
+  <rect x="36" y="146" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="52" y="167" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Matching</text>
+  <text x="52" y="186" fill="var(--dg-ink-soft)" font-size="11">No unobserved differences between</text>
+  <text x="52" y="199" fill="var(--dg-ink-soft)" font-size="11">matched groups</text>
+
+  <rect x="36" y="226" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="52" y="247" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Difference in differences</text>
+  <text x="52" y="266" fill="var(--dg-ink-soft)" font-size="11">Both groups would have trended the</text>
+  <text x="52" y="279" fill="var(--dg-ink-soft)" font-size="11">same (parallel trends)</text>
+
+  <rect x="36" y="304" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="52" y="325" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Regression discontinuity</text>
+  <text x="52" y="344" fill="var(--dg-ink-soft)" font-size="11">No manipulation of who falls just</text>
+  <text x="52" y="357" fill="var(--dg-ink-soft)" font-size="11">above or below the cut-off</text>
+
+  <rect x="360" y="96" width="300" height="44" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="510" y="115" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Is there excess demand that lets</text>
+  <text x="510" y="131" text-anchor="middle" fill="var(--dg-ink)" font-size="12">you randomize participation?</text>
+
+  <path d="M510 140 V166" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <text x="520" y="158" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
+
+  <rect x="380" y="166" width="260" height="44" rx="5" fill="var(--dg-accent)"></rect>
+  <text x="510" y="184" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomized controlled</text>
+  <text x="510" y="200" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">trial</text>
+
+  <text x="380" y="240" fill="var(--dg-ink-soft)" font-size="11">No assumptions about outcome levels or</text>
+  <text x="380" y="254" fill="var(--dg-ink-soft)" font-size="11">trends between groups are needed</text>
+</svg>
+<figcaption>Each quasi-experimental branch carries its own identifying assumption, shown beneath the method name.</figcaption>
+</figure>
+<div class="eyebrow">
+<p>When not to evaluate</p>
+</div>
+</section>
+<section id="reasons-not-to-measure-impact-via-policy-experimentation" class="level2">
+<h2 class="anchored" data-anchor-id="reasons-not-to-measure-impact-via-policy-experimentation">Reasons not to measure impact via policy experimentation</h2>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">01</span></p>
+<section id="not-the-right-tool" class="level4">
+<h4 class="anchored" data-anchor-id="not-the-right-tool">Not the right tool</h4>
+<p>The question is excellent but is not about impact, for example satisfaction with services or cost per service. Monitoring and feedback data are easier and do not need a counterfactual.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">02</span></p>
+<section id="not-yet" class="level4">
+<h4 class="anchored" data-anchor-id="not-yet">Not yet</h4>
+<p>The theory of change is not clear, or implementation is unlikely to work because the markets to serve do not exist.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">03</span></p>
+<section id="statistically-not-feasible" class="level4">
+<h4 class="anchored" data-anchor-id="statistically-not-feasible">Statistically not feasible</h4>
+<p>Too few units or too little money. Large indirect or spillover effects you cannot measure. Setting too chaotic, for example disaster relief. Treatment assigned at too high a level, for example national policy.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">04</span></p>
+<section id="maybe-not-worth-it-for-learning" class="level4">
+<h4 class="anchored" data-anchor-id="maybe-not-worth-it-for-learning">Maybe not worth it for learning</h4>
+<p>The answer is already known from credible existing studies, or there is no generalizable “why” because the programme is one-off with little scale or replication potential.</p>
+</section>
+</div>
+</div>
+<div class="team-note">
+<p><strong>Citation needed</strong> Adapted from Alex’s Bucharest slide deck, which cites the Stanford Social Innovation Review piece on ten reasons not to measure impact. Confirm how to credit it.</p>
+</div>
+<div class="eyebrow">
+<p>Risks</p>
+</div>
+</section>
+<section id="what-can-go-wrong-with-a-well-designed-rct" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-go-wrong-with-a-well-designed-rct">What can go wrong with a well-designed RCT?</h2>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">01</span></p>
+<section id="non-compliance-and-take-up" class="level4">
+<h4 class="anchored" data-anchor-id="non-compliance-and-take-up">Non-compliance and take-up</h4>
+<p>Not every firm assigned to a programme ends up participating. Comparing everyone as originally assigned (the intention-to-treat effect) stays unbiased, since assignment was random, but it understates the effect on those who actually participated.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">02</span></p>
+<section id="attrition" class="level4">
+<h4 class="anchored" data-anchor-id="attrition">Attrition</h4>
+<p>Participants may drop out before outcomes can be measured, or stop responding to follow-up data collection. The risk is that dropout is not random: if struggling firms are the ones most likely to disappear, the firms you do measure make the programme look better than it is.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">03</span></p>
+<section id="spillovers-and-contamination" class="level4">
+<h4 class="anchored" data-anchor-id="spillovers-and-contamination">Spillovers and contamination</h4>
+<p>The comparison group is not always as isolated as it looks. Know-how from a business training programme can spread by word of mouth to non-participating competitors or suppliers, so the comparison group partly benefits too, understating the true effect.</p>
+</section>
+</div>
+</div>
+<div class="example romania">
+<p><span class="tag">SMART Romania: the programme did not achieve full take-up</span></p>
+<p>Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding proposal, and 333 (64.2%) were eventually contracted.</p>
+<p>Because of limited take-up, it is safer to report the intention-to-treat effect, comparing everyone as originally assigned, even though it understates the effect on the firms that actually took up the grant.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/miketheebike\.github\.io\/eurocomp-lab-site\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>EuroCOMP Lab powered by the World Bank Group</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Draft site. Structure and content still under review by the team.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
