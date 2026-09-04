@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Advanced How – EuroCOMP Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-4ea858091d408f308db95a62c62ba59c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">EuroCOMP Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./01-why-and-when.html"> 
+<span class="menu-text">Why and When</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02-how.html"> 
+<span class="menu-text">How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./03-advanced-how.html" aria-current="page"> 
+<span class="menu-text">Advanced How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./04-toc.html"> 
+<span class="menu-text">Theory of Change and Measurement</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./05-data.html"> 
+<span class="menu-text">Data Collection</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./06-templates.html"> 
+<span class="menu-text">Templates</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./07-examples.html"> 
+<span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./08-bank_survey.html"> 
+<span class="menu-text">Bank of Survey Question</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./09-bank_outcomes.html"> 
+<span class="menu-text">Bank of Outcomes</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-makes-an-rct-credible" id="toc-what-makes-an-rct-credible" class="nav-link active" data-scroll-target="#what-makes-an-rct-credible">What makes an RCT credible?</a></li>
+  <li><a href="#do-i-have-enough-firms" id="toc-do-i-have-enough-firms" class="nav-link" data-scroll-target="#do-i-have-enough-firms">Do I have enough firms?</a></li>
+  <li><a href="#why-sample-size-matters" id="toc-why-sample-size-matters" class="nav-link" data-scroll-target="#why-sample-size-matters">Why sample size matters</a></li>
+  <li><a href="#how-is-the-required-sample-calculated" id="toc-how-is-the-required-sample-calculated" class="nav-link" data-scroll-target="#how-is-the-required-sample-calculated">How is the required sample calculated?</a></li>
+  <li><a href="#was-1038-enough" id="toc-was-1038-enough" class="nav-link" data-scroll-target="#was-1038-enough">Was 1,038 enough?</a></li>
+  <li><a href="#what-if-there-are-not-enough-firms" id="toc-what-if-there-are-not-enough-firms" class="nav-link" data-scroll-target="#what-if-there-are-not-enough-firms">What if there are not enough firms?</a></li>
+  <li><a href="#did-the-lottery-create-comparable-groups" id="toc-did-the-lottery-create-comparable-groups" class="nav-link" data-scroll-target="#did-the-lottery-create-comparable-groups">Did the lottery create comparable groups?</a></li>
+  <li><a href="#which-outcomes-should-be-measured" id="toc-which-outcomes-should-be-measured" class="nav-link" data-scroll-target="#which-outcomes-should-be-measured">Which outcomes should be measured?</a></li>
+  <li><a href="#what-can-go-wrong" id="toc-what-can-go-wrong" class="nav-link" data-scroll-target="#what-can-go-wrong">What can go wrong?</a></li>
+  <li><a href="#when-are-the-alternative-designs-worth-it" id="toc-when-are-the-alternative-designs-worth-it" class="nav-link" data-scroll-target="#when-are-the-alternative-designs-worth-it">When are the alternative designs worth it?</a></li>
+  <li><a href="#where-to-go-deeper" id="toc-where-to-go-deeper" class="nav-link" data-scroll-target="#where-to-go-deeper">Where to go deeper</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Advanced How</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="lede">
+<p>Designing an RCT that produces reliable evidence. Behind every successful RCT are design decisions made before the programme begins. Good randomization alone is not enough.</p>
+</div>
+<section id="what-makes-an-rct-credible" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-an-rct-credible">What makes an RCT credible?</h2>
+<p><a href="./02-how.html">How</a> showed the process. This page shows what separates a strong RCT from a weak one.</p>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">01</span></p>
+<section id="enough-firms" class="level4">
+<h4 class="anchored" data-anchor-id="enough-firms">Enough firms</h4>
+<p>Groups large enough to detect real impacts.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">02</span></p>
+<section id="comparable-groups" class="level4">
+<h4 class="anchored" data-anchor-id="comparable-groups">Comparable groups</h4>
+<p>A lottery that actually balanced the groups.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">03</span></p>
+<section id="reliable-outcomes" class="level4">
+<h4 class="anchored" data-anchor-id="reliable-outcomes">Reliable outcomes</h4>
+<p>Measures that capture what matters.</p>
+</section>
+</div>
+<div class="card-e">
+<p><span class="num">04</span></p>
+<section id="the-right-design" class="level4">
+<h4 class="anchored" data-anchor-id="the-right-design">The right design</h4>
+<p>A setup matched to the policy question.</p>
+</section>
+</div>
+</div>
+<div class="takeaway">
+<p>The sections below walk through each pillar, using SMART Romania as the test case.</p>
+</div>
+<div class="tracker"><span class="on">Enough firms</span><span class="sep">›</span><span>Comparable groups</span><span class="sep">›</span><span>Outcomes</span><span class="sep">›</span><span>Right design</span></div>
+</section>
+<section id="do-i-have-enough-firms" class="level2">
+<h2 class="anchored" data-anchor-id="do-i-have-enough-firms">Do I have enough firms?</h2>
+<p>Randomization only works if there are enough firms to detect meaningful differences.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Too few firms</p>
+</div>
+<div class="body">
+<div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
+<span class="a"></span><span></span><span></span><span class="a"></span><span></span><span></span><span></span><span></span>
+<span></span><span></span><span class="a"></span><span></span><span></span><span></span><span class="a"></span><span></span>
+<span></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span>
+</div>
+<p>Real impacts may go undetected: ordinary differences between firms drown out the programme’s effect.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Enough firms</p>
+</div>
+<div class="body">
+<div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+</div>
+<p>Real impacts become measurable: averages settle and the difference stands out.</p>
+</div>
+</div>
+</div>
+<div class="takeaway">
+<p>More firms do not make the lottery fairer; they make its answer visible.</p>
+</div>
+</section>
+<section id="why-sample-size-matters" class="level2">
+<h2 class="anchored" data-anchor-id="why-sample-size-matters">Why sample size matters</h2>
+<p>How many firms are enough depends on what needs to be detected.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>The size of the effect</p>
+</div>
+<div class="body">
+<p><strong>Small effect:</strong> more firms needed.</p>
+<p><strong>Large effect:</strong> fewer firms needed.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>The variation between firms</p>
+</div>
+<div class="body">
+<p><strong>High variation:</strong> more firms needed.</p>
+<p><strong>Low variation:</strong> fewer firms needed.</p>
+</div>
+</div>
+</div>
+<div class="gold-panel">
+<p>Think of trying to hear a quiet voice in a noisy room: more background noise requires more observations.</p>
+</div>
+</section>
+<section id="how-is-the-required-sample-calculated" class="level2">
+<h2 class="anchored" data-anchor-id="how-is-the-required-sample-calculated">How is the required sample calculated?</h2>
+<p>Evaluators combine four ingredients into one required number, before the programme starts.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Expected effect, variation, confidence level and statistical power feed a power calculation, which returns the required sample size">
+  <rect x="20" y="20" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="46" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Expected effect</text>
+
+  <rect x="20" y="86" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Variation</text>
+  <text x="120" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">(standard deviation)</text>
+
+  <rect x="20" y="152" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Confidence level</text>
+
+  <rect x="20" y="218" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="244" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Statistical power</text>
+
+  <path d="M220 41 H250 V140 M220 107 H250 M220 173 H250 M220 239 H250 V140 M250 140 H272" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+
+  <rect x="272" y="110" width="176" height="60" rx="5" fill="var(--dg-accent)"></rect>
+  <text x="360" y="135" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">POWER CALCULATION</text>
+  <text x="360" y="153" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">standard software does the math</text>
+
+  <path d="M448 140 H478" stroke="var(--dg-line)" stroke-width="1.5"></path>
+
+  <rect x="478" y="106" width="182" height="68" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="569" y="131" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5" font-weight="bold">Required sample size</text>
+  <text x="569" y="150" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the minimum number of firms</text>
+  <text x="569" y="164" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the study needs</text>
+</svg>
+</figure>
+<div class="takeaway">
+<p>No formulas needed: calculators do this work. Links at the bottom of this page.</p>
+</div>
+</section>
+<section id="was-1038-enough" class="level2">
+<h2 class="anchored" data-anchor-id="was-1038-enough">Was 1,038 enough?</h2>
+<p>Back to the case: how do evaluators know whether the SMART Romania pool was big enough? Run the pool against the required sample from the power calculation, and do it before the draw. If the pool falls short, grow the pool first (next section).</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="The pool of 1038 firms is checked against the required sample produced by the power calculation">
+  <rect x="20" y="56" width="190" height="72" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="115" y="88" text-anchor="middle" fill="var(--dg-ink)" font-size="21" font-weight="bold">1,038</text>
+  <text x="115" y="110" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">firms in the pool</text>
+
+  <text x="278" y="97" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">checked</text>
+  <text x="278" y="113" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">against</text>
+
+  <path d="M338 92 H366" stroke="var(--dg-line)" stroke-width="1.5"></path>
+
+  <rect x="366" y="56" width="294" height="72" rx="6" fill="var(--dg-accent-wash)"></rect>
+  <text x="513" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Required sample</text>
+  <text x="513" y="103" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">expected effect → power calculation → minimum firms</text>
+</svg>
+</figure>
+<div class="case-band"><b>SMART Romania</b><span>✓ 1,038 eligible firms formed the randomized pool</span></div>
+<div class="team-note">
+<p><strong>Data gap</strong> The baseline report contains no power calculation figures, so this section shows the logic of the check without inventing numbers. Ask the evaluation team for the expected effect, assumptions, and required sample, then add them here.</p>
+</div>
+</section>
+<section id="what-if-there-are-not-enough-firms" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-there-are-not-enough-firms">What if there are not enough firms?</h2>
+<p>The most common planning problem has practical fixes.</p>
+<div class="designs">
+  <div class="d"><div>
+    <h4 class="anchored">Increase outreach</h4>
+    <p>More applications mean a larger pool. SMART Romania ran events in more than 20 cities.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4 class="anchored">Expand eligibility</h4>
+    <p>Loosen the bar so more firms qualify.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4 class="anchored">Combine regions</h4>
+    <p>Pool similar programmes or areas into one study.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4 class="anchored">Run a phase-in</h4>
+    <p>Everyone participates; timing creates the comparison.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4 class="anchored">Target larger effects</h4>
+    <p>Focus the programme where impacts are biggest.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4 class="anchored">Collect better baseline data</h4>
+    <p>Good baselines reduce noise and cut the required sample.</p>
+  </div></div>
+</div>
+<p>Related on <a href="./02-how.html">How</a>: the eligibility levers and phase-in designs.</p>
+<div class="tracker"><span>Enough firms</span><span class="sep">›</span><span class="on">Comparable groups</span><span class="sep">›</span><span>Outcomes</span><span class="sep">›</span><span>Right design</span></div>
+</section>
+<section id="did-the-lottery-create-comparable-groups" class="level2">
+<h2 class="anchored" data-anchor-id="did-the-lottery-create-comparable-groups">Did the lottery create comparable groups?</h2>
+<p>A lottery should produce two groups that look alike before the programme starts. Check it.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Illustrative balance check: treatment and comparison bars of near-equal length for firm age, revenue, employees and sector mix">
+  <text x="20" y="26" fill="var(--dg-ink-soft)" font-size="10.5" letter-spacing="1.5" font-weight="bold">ILLUSTRATIVE, NOT REAL DATA</text>
+
+  <text x="20" y="66" fill="var(--dg-ink)" font-size="12" font-weight="bold">Firm age</text>
+  <rect x="150" y="52" width="300" height="14" fill="var(--dg-ink)"></rect>
+  <rect x="150" y="70" width="290" height="14" fill="var(--dg-accent)"></rect>
+
+  <text x="20" y="130" fill="var(--dg-ink)" font-size="12" font-weight="bold">Revenue</text>
+  <rect x="150" y="116" width="340" height="14" fill="var(--dg-ink)"></rect>
+  <rect x="150" y="134" width="352" height="14" fill="var(--dg-accent)"></rect>
+
+  <text x="20" y="194" fill="var(--dg-ink)" font-size="12" font-weight="bold">Employees</text>
+  <rect x="150" y="180" width="260" height="14" fill="var(--dg-ink)"></rect>
+  <rect x="150" y="198" width="268" height="14" fill="var(--dg-accent)"></rect>
+
+  <text x="20" y="258" fill="var(--dg-ink)" font-size="12" font-weight="bold">Sector mix</text>
+  <rect x="150" y="244" width="310" height="14" fill="var(--dg-ink)"></rect>
+  <rect x="150" y="262" width="302" height="14" fill="var(--dg-accent)"></rect>
+
+  <rect x="150" y="296" width="11" height="11" fill="var(--dg-ink)"></rect>
+  <text x="168" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Treatment</text>
+  <rect x="260" y="296" width="11" height="11" fill="var(--dg-accent)"></rect>
+  <text x="278" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
+</svg>
+<figcaption>If the groups look the same before the programme starts, the lottery probably worked. Small differences are normal; large systematic ones are a warning sign.</figcaption>
+</figure>
+<div class="case-band"><b>SMART Romania</b><span>✓ The application survey collected the baseline data used for this check</span></div>
+<div class="team-note">
+<p><strong>Data gap</strong> The balance bars are illustrative. The baseline report does not publish a treatment and control balance table. Once the team shares the actual balance results, replace the bars with the real characteristics and values, and remove the on-figure caveat.</p>
+</div>
+<div class="tracker"><span>Enough firms</span><span class="sep">›</span><span>Comparable groups</span><span class="sep">›</span><span class="on">Outcomes</span><span class="sep">›</span><span>Right design</span></div>
+</section>
+<section id="which-outcomes-should-be-measured" class="level2">
+<h2 class="anchored" data-anchor-id="which-outcomes-should-be-measured">Which outcomes should be measured?</h2>
+<p>An RCT is only as good as what it measures.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Good outcomes are</p>
+</div>
+<div class="body">
+<ul>
+<li><strong>Relevant:</strong> tied to the policy objective</li>
+<li><strong>Measurable:</strong> data can actually be collected</li>
+<li><strong>Objective:</strong> not dependent on opinion</li>
+<li><strong>Consistent:</strong> collected the same way for every firm, every round</li>
+</ul>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Measured in SMART Romania</p>
+</div>
+<div class="body">
+<ul>
+<li>Digital adoption (DESI)</li>
+<li>Revenue</li>
+<li>Employment</li>
+<li>Productivity</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="takeaway">
+<p>Fix the outcomes before the draw: choosing them afterwards invites cherry-picking.</p>
+</div>
+<div class="tracker"><span>Enough firms</span><span class="sep">›</span><span>Comparable groups</span><span class="sep">›</span><span>Outcomes</span><span class="sep">›</span><span class="on">Right design</span></div>
+</section>
+<section id="what-can-go-wrong" class="level2">
+<h2 class="anchored" data-anchor-id="what-can-go-wrong">What can go wrong?</h2>
+<p>Even a well-designed RCT must survive contact with reality.</p>
+<div class="caution">
+<p><strong>Attrition.</strong> Firms drop out of surveys, and the groups stop matching.</p>
+</div>
+<div class="caution">
+<p><strong>Spillovers.</strong> Comparison firms benefit anyway, and the measured difference shrinks.</p>
+</div>
+<div class="caution">
+<p><strong>Low take-up.</strong> Treated firms never actually use the support.</p>
+</div>
+<div class="caution">
+<p><strong>Implementation problems.</strong> The programme is delivered unevenly across firms.</p>
+</div>
+<p>Monitoring answers all four: <a href="./05-data.html">Data Collection</a>.</p>
+</section>
+<section id="when-are-the-alternative-designs-worth-it" class="level2">
+<h2 class="anchored" data-anchor-id="when-are-the-alternative-designs-worth-it">When are the alternative designs worth it?</h2>
+<p><a href="./02-how.html">How</a> introduced four alternative designs. The advanced question is when they earn their extra sample and complexity.</p>
+<div class="cards">
+<section id="multiple-treatment-arms" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="multiple-treatment-arms">Multiple treatment arms</h4>
+<p><strong>Choose it when:</strong> knowing which version works best matters more than sample size.</p>
+</section>
+<section id="phase-in" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="phase-in">Phase-in</h4>
+<p><strong>Choose it when:</strong> everyone must eventually receive the programme.</p>
+</section>
+<section id="randomized-intensities" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="randomized-intensities">Randomized intensities</h4>
+<p><strong>Choose it when:</strong> spillovers between firms or employees are the question.</p>
+</section>
+<section id="encouragement" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="encouragement">Encouragement</h4>
+<p><strong>Choose it when:</strong> access cannot be denied and take-up is the problem.</p>
+</section>
+</div>
+<div class="case-band"><b>SMART Romania</b><span>✓ A simple lottery was enough: one clear question, oversubscribed grants</span></div>
+<p>The mechanics of each design: <a href="./02-how.html">How</a>.</p>
+</section>
+<section id="where-to-go-deeper" class="level2">
+<h2 class="anchored" data-anchor-id="where-to-go-deeper">Where to go deeper</h2>
+<p>The mathematics is one click away, so this website stays practical.</p>
+<div class="cards">
+<section id="power-calculators" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="power-calculators">Power calculators</h4>
+<p>Online tools that turn the four inputs into a required sample.</p>
+</section>
+<section id="world-bank-ie-toolkit" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="world-bank-ie-toolkit">World Bank IE toolkit</h4>
+<p>Step-by-step guidance for designing and running evaluations.</p>
+</section>
+<section id="j-pal-resources" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="j-pal-resources">J-PAL resources</h4>
+<p>Research protocols, sample-size guides, and training material.</p>
+</section>
+<section id="ipa-resources" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="ipa-resources">IPA resources</h4>
+<p>Practical implementation guidance from field evaluations.</p>
+</section>
+</div>
+<div class="takeaway">
+<p>Start with a calculator: an afternoon with one teaches more than a chapter of formulas.</p>
+</div>
+<div class="team-note">
+<p><strong>To add</strong> Resource links, including the power calculator Jakob shared by email. Shortlist per the outline: power calculators, World Bank toolkit, J-PAL, IPA.</p>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/miketheebike\.github\.io\/eurocomp-lab-site\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>EuroCOMP Lab powered by the World Bank Group</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Draft site. Structure and content still under review by the team.</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
