@@ -4,7 +4,7 @@ toc: false
 ---
 
 ::: {.lede}
-EuroCOMP Lab pools knowledge and resources across the people and organisations
+This website pools knowledge and resources across the people and organisations
 already advancing impact evaluation, so managing authorities do not have to start
 from scratch.
 :::
@@ -15,30 +15,30 @@ Why introduce experimental evaluations?
 
 ## You need evidence on what is actually worth funding
 
-The EU is one of the world’s largest investors in innovation. Research and innovation got roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional gaps in innovation outcomes are holding back the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to deliver more.
+The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation got roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional gaps in innovation outcomes are holding back the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to deliver more.
 
-Cohesion policy programmes often do not learn as they go. But policies need to adapt as circumstances change. That means identifying challenges, testing solutions, and refining approaches.
+Policies need to adapt as circumstances change. That means identifying challenges, testing solutions, and refining approaches.
 
 ::: {.gold-panel}
-This is what we call **science-based adaptive delivery**: testing, learning, and
+This is called science-based adaptive delivery: testing, learning, and
 adjusting as you go.
 :::
 
 ## Randomised controlled trials show what works and why
 
-By comparing what happens with support to what would have happened without it, a randomised controlled trial shows whether a cohesion policy programme is really the reason things improved. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
+By comparing what happens to programme participants to an on average identical group that does not receive the program, a randomised controlled trial can show whether a cohesion policy programme is the reason things improved. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
 
-Piloting a new idea at small scale is the best way to test it. For this, the evaluation needs to be designed ex-ante, before the call for proposals launches.
+Did you already evaluate a programme once it had already ended? A credible comparison isolates the impact of the programme from other changes happening at the same time, such as economic shocks. To be confident in the comparison group, the programme needs to be designed ex-ante, before the call for proposals launches. Piloting a new idea at small scale is the best way to test it. For this, the evaluation needs to be designed ex-ante, before the call for proposals launches.
 
 ## Think you already know what program works and whom to fund?
 
-But…
+But every euro you commit is a euro you cannot spend elsewhere. 
 
-Would they have succeeded without you?
+Would the beneficiaries have succeeded without your agency's support?
 
 Would someone else have gained more from the same euro?
 
-If the answer is not a clear yes, you should consider introducing experimentation. 
+If the answer is not a clear yes, consider testing it.  
 
 ::: {.eyebrow}
 Getting started
@@ -104,7 +104,7 @@ Intro video
 
 ## See it in action
 
-A short introduction to the EuroCOMP Lab, how impact evaluations can make public
+A short introduction to the European Regional Competitiveness Policy Lab (EuroCOMP Lab), how impact evaluations can make public
 support more efficient and effective, and how it is already being used to improve
 programs across Europe.
 
