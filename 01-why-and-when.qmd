@@ -159,11 +159,8 @@ in designing a strong impact evaluation. There is more on this in
 [Theory of Change, Indicators and Data](04-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
 
 ::: {.example .romania}
-[SMART Romania: grants alone vs. grants with advisory support]{.tag}
+[digitrans example]{.tag}
 
-Grants on their own and grants paired with advisory support rely on very different
-assumptions about whether firms can act on new resources unaided. Testing both variants
-shows which design assumption actually holds.
 :::
 
 ## Learning through impact evaluation is a continuous process
