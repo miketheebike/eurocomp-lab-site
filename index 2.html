@@ -194,6 +194,106 @@ ul.task-list li input[type="checkbox"] {
 <p>Would someone else have gained more from the same euro?</p>
 <p>If the answer is not a clear yes, consider testing it.</p>
 <div class="eyebrow">
+<p>Common objections</p>
+</div>
+</section>
+<section id="six-things-people-say-about-randomised-trials" class="level2">
+<h2 class="anchored" data-anchor-id="six-things-people-say-about-randomised-trials">Six things people say about randomised trials</h2>
+<p>Most objections to running a trial come up again and again. Here is the short answer to each, including the one that is actually right.</p>
+<div class="myths">
+
+<details class="myth">
+  <summary>
+    <span class="tag">Myth</span>
+    <p class="claim">Randomising public money is unfair to the firms that miss out.</p>
+    <span class="prompt">See the answer</span>
+  </summary>
+  <div class="answer">
+    <span class="verdict">Actually</span>
+    <p>When a call is oversubscribed, some applicants are turned away no matter what. The
+    question is not whether, but how.</p>
+    <p>A lottery among eligible applicants treats every qualifying firm identically, and
+    it can be documented and audited afterwards. Scoring panels cannot always say the same.</p>
+  </div>
+</details>
+
+<details class="myth">
+  <summary>
+    <span class="tag">Myth</span>
+    <p class="claim">We already know the programme works. We can see the results.</p>
+    <span class="prompt">See the answer</span>
+  </summary>
+  <div class="answer">
+    <span class="verdict">Actually</span>
+    <p>You can see outcomes. Impact is the difference between what happened and what would
+    have happened anyway, and that second half is invisible without a comparison group.</p>
+    <p>Firms that apply for support are often the ones already growing. Some of what looks
+    like programme impact was going to happen regardless.</p>
+  </div>
+</details>
+
+<details class="myth">
+  <summary>
+    <span class="tag">Myth</span>
+    <p class="claim">A trial would delay our call for proposals.</p>
+    <span class="prompt">See the answer</span>
+  </summary>
+  <div class="answer">
+    <span class="verdict">Actually</span>
+    <p>Designed from the start, the lottery is the selection step rather than an extra one.
+    The application form doubles as the baseline survey.</p>
+    <p>The delay comes from deciding late. An RCT cannot be added after a programme
+    launches, which is the real deadline to worry about.</p>
+  </div>
+</details>
+
+<details class="myth">
+  <summary>
+    <span class="tag">Myth</span>
+    <p class="claim">You need thousands of firms to run a trial.</p>
+    <span class="prompt">See the answer</span>
+  </summary>
+  <div class="answer">
+    <span class="verdict">Actually</span>
+    <p>The number depends on the size of the effect you expect and how much firms vary,
+    not on a fixed threshold. A calculator settles it in an afternoon.</p>
+    <p>SMART Romania randomised 1,038 firms. Plenty of trials run on fewer.</p>
+  </div>
+</details>
+
+<details class="myth">
+  <summary>
+    <span class="tag">Myth</span>
+    <p class="claim">Randomised trials are for medicine, not regional policy.</p>
+    <span class="prompt">See the answer</span>
+  </summary>
+  <div class="answer">
+    <span class="verdict">Actually</span>
+    <p>They are already running on business support across Europe: Romania, Spain, Czechia
+    and Croatia among them.</p>
+    <p>The logic is the same wherever it is applied. Compare like with like, and the
+    difference is the effect.</p>
+  </div>
+</details>
+
+<details class="myth fair">
+  <summary>
+    <span class="tag">Fair point</span>
+    <p class="claim">Results from one region will not automatically apply to mine.</p>
+    <span class="prompt">See the answer</span>
+  </summary>
+  <div class="answer">
+    <span class="verdict">Largely true</span>
+    <p>A trial measures impact in one context. Firm size, sector mix, and local conditions
+    all shape the result, and transferring findings takes judgement.</p>
+    <p>This is why a community of practice matters more than any single study. Evidence
+    accumulates across regions, and patterns that hold in several places can be trusted
+    further than any one result.</p>
+  </div>
+</details>
+
+</div>
+<div class="eyebrow">
 <p>Getting started</p>
 </div>
 </section>
@@ -373,7 +473,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/miketheebike\.github\.io\/eurocomp-lab-site\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
