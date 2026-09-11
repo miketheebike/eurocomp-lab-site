@@ -3,7 +3,7 @@ title: "Why and When"
 ---
 
 ::: {.lede}
-This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods.
+This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods. Experimentation — running a randomised controlled trial — is one way of doing impact evaluation, and the one this website is built around. This page also explains impact evaluation more broadly, and the alternative methods, to show why experimentation is usually the strongest choice.
 :::
 
 ::: {.eyebrow}
@@ -47,174 +47,6 @@ Two purposes
 <figcaption>Learning feeds programme design. Accountability covers both what the money was spent on and what it achieved.</figcaption>
 </figure>
 ```
-
-## Testing and learning only works if you know what to look for
-
-When evaluating projects, we often only assess outputs, because they are the easiest
-thing to count. Impact evaluation is what lets you move from measuring outputs to
-proving outcomes.
-
-::: {.cards}
-::: {.card-e}
-#### Outputs
-What a programme delivers: grants disbursed, firms enrolled, trainings run.
-:::
-::: {.card-e}
-#### Outcomes
-What changes because of it: growth, jobs, innovation, resilience.
-:::
-:::
-
-Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what to measure to test whether the
-expected change is actually happening.
-
-::: {.chain}
-::: {.step}
-**Inputs**
-:::
-::: {.step}
-**Activities**
-:::
-::: {.step}
-**Outputs**
-:::
-::: {.on}
-**Outcomes**
-:::
-:::
-
-This chain is the foundation of a Theory of Change, and having thought it through helps
-in designing a strong impact evaluation. There is more on this in
-[Theory of Change, Indicators and Data](04-toc.qmd).
-
-## Learning through impact evaluation is a continuous process
-
-Every evaluation raises new questions along with the ones it answers, each round building
-on the last. That is how we expand our knowledge of what works, for whom, and under what
-conditions, and use it to design better programmes. Exchange within a community of practice
-matters, so we can learn from each other, not just from our own results.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: design, test, review evidence and create learnings, adjust and invest">
-  <defs>
-    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
-    </marker>
-  </defs>
-  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-
-  <rect x="255" y="30" width="150" height="42" rx="6" fill="var(--dg-accent)"/>
-  <text x="330" y="56" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
-
-  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
-
-  <rect x="255" y="228" width="150" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="330" y="249" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
-  <text x="330" y="266" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
-
-  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
-</svg>
-</figure>
-```
-
-::: {.cards}
-::: {.card-e}
-[Review]{.num}
-Review a programme's theory of change, identify risks and learning opportunities.
-Review lessons from other settings and countries, adapt them, test them in a new context.
-Identify baseline needs of potential beneficiaries in your region.
-:::
-::: {.card-e}
-[Test]{.num}
-Test different programme designs and delivery modes to identify what works best.
-Assess for whom the programme works best. Address take-up challenges, both over and
-undersubscription. Learn about mechanisms, unintended effects, and crowding out.
-:::
-::: {.card-e}
-[Invest]{.num}
-Get a quantitative and credible impact estimate that can guide future investments.
-Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
-Scale up based on evidence.
-:::
-:::
-
-
-::: {.example .romania}
-[The running example: SMART Romania]{.tag}
-
-Throughout this site, we come back to one programme developed as part of the EuroCOMP
-Lab to show these ideas in practice: SMART Romania, a digitalisation grant scheme for
-micro, small and medium enterprises in North-East Romania, run by the Regional
-Development Agency with World Bank support.
-
-```{=html}
-<div class="facts">
-  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
-  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
-  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
-</div>
-```
-
-### From application to evidence
-
-```{=html}
-<div class="flow">
-  <div>Application survey</div>
-  <div>Lottery</div>
-  <div>Digitalization grants</div>
-  <div>Follow-up surveys</div>
-  <div>Impact evaluation</div>
-</div>
-```
-:::
-
-::: {.eyebrow}
-Is it relevant for you
-:::
-
-## Think impact evaluation is not relevant for you?
-
-Whether you have sufficient evidence that your programme works, or you are still working
-out who it reaches and how to design it, there is a case for evaluation. The starting
-question is whether the programme is working as well as it could be.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-You want to learn who to target and how to design it
-:::
-::: {.body}
-**Too many applicants?** Consider introducing randomisation in the middle ranks.
-
-**Too few applicants?** Consider simplifying access and using an encouragement design.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-You know it is effective, but is it efficient?
-:::
-::: {.body}
-**Test how you deliver it.** Compare different ways of delivering the programme to the
-same beneficiaries, testing changes that improve efficiency and satisfaction.
-:::
-:::
-:::
-
-::: {.soft-panel}
-An impact evaluation is not useful only if you already have enough evidence on returns
-for your target group and region, and there is no interest in learning about different
-ways of implementing the programme for the same beneficiaries.
-:::
-
 ::: {.eyebrow}
 M&E versus impact evaluation
 :::
@@ -252,6 +84,186 @@ Determines impact in a way that can only be attributed to the programme, by
 establishing what would have happened without it.
 :::
 :::
+:::
+
+::: {.example .romania}
+[The running example: SMART Romania]{.tag}
+
+Throughout this site, we come back to one programme developed as part of the EuroCOMP
+Lab to show these ideas in practice: SMART Romania, a digitalisation grant scheme for
+micro, small and medium enterprises in North-East Romania, run by the Regional
+Development Agency with World Bank support.
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Application survey</div>
+  <div>Lottery</div>
+  <div>Digitalisation grants</div>
+  <div>Follow-up surveys</div>
+  <div>Analysis</div>
+</div>
+```
+:::
+
+
+## Testing and learning only works if you know what to look for
+
+When evaluating projects, often only outputs are assessed, because they are the easiest
+thing to count. Impact evaluation is what lets you move from measuring outputs to
+proving outcomes.
+
+::: {.cards}
+::: {.card-e}
+#### Outputs
+What a programme delivers: grants disbursed, firms enrolled, training sessions run.
+:::
+::: {.card-e}
+#### Outcomes
+What changes because of it: growth, jobs, innovation, resilience.
+:::
+:::
+
+Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what to measure to test whether the
+expected change is actually happening.
+
+::: {.chain}
+::: {.step}
+**Inputs**
+:::
+::: {.step}
+**Activities**
+:::
+::: {.step}
+**Outputs**
+:::
+::: {.on}
+**Outcomes**
+:::
+:::
+
+This chain is the foundation of a Theory of Change, and having thought it through helps
+in designing a strong impact evaluation. There is more on this in
+[Theory of Change, Indicators and Data](04-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
+
+::: {.example .romania}
+[SMART Romania: grants alone vs. grants with advisory support]{.tag}
+
+Grants on their own and grants paired with advisory support rely on very different
+assumptions about whether firms can act on new resources unaided. Testing both variants
+shows which design assumption actually holds.
+:::
+
+## Learning through impact evaluation is a continuous process
+
+Every evaluation raises new questions along with the ones it answers, each round building
+on the last. That is how we expand our knowledge of what works, for whom, and under what
+conditions, and use it to design better programmes. Exchange within a community of practice
+matters, so we can learn from each other, not just from our own results. But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
+    </marker>
+  </defs>
+  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+
+  <rect x="255" y="30" width="150" height="52" rx="6" fill="var(--dg-accent)"/>
+  <text x="330" y="51" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
+  <text x="330" y="68" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
+
+  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
+
+  <rect x="255" y="228" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="330" y="254" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
+
+  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
+</svg>
+</figure>
+```
+
+::: {.cards}
+::: {.card-e}
+[Review]{.num}
+Before considering how to embed an impact evaluation, review a programme's theory of change, identify risks and the learning questions this round should answer, and the outcomes most likely to change (see [Bank of Outcomes](09-bank_outcomes.qmd)).
+Review lessons from other settings and countries, adapt them.
+Identify baseline needs of potential beneficiaries in your region.
+:::
+::: {.card-e}
+[Design]{.num}
+Choose a credible comparison group and set the sample size needed to detect a meaningful effect.
+Turn the outcomes identified in Review into measurable indicators, and set out the data collection plan, budget, and timeline in a Terms of Reference.
+:::
+::: {.card-e}
+[Test]{.num}
+Test different programme designs and delivery modes to identify what works best.
+Assess for whom the programme works best. Address take-up challenges. Learn about mechanisms, unintended effects, and crowding out.
+:::
+::: {.card-e}
+[Invest]{.num}
+Get a quantitative and credible impact estimate that can guide future investments.
+Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
+Scale up based on evidence.
+:::
+:::
+
+
+::: {.eyebrow}
+Is it relevant for you
+:::
+
+## Think experimentation is not relevant for you?
+
+Whether you have sufficient evidence that your programme works, or you are still working
+out who it reaches and how to design it, there is a case for experimentation. The starting
+question is whether the programme is working as well as it could be.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+You want to learn who to target and how to design it
+:::
+::: {.body}
+**Too many applicants?** Consider introducing randomisation in the middle ranks.
+
+**Too few applicants?** Consider simplifying access and using an encouragement design.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+You know it is effective, but is it efficient?
+:::
+::: {.body}
+**Test how you deliver it.** Compare different ways of delivering the programme to the
+same beneficiaries, testing changes that improve efficiency and satisfaction.
+:::
+:::
+:::
+
+::: {.soft-panel}
+Experimentation is not useful only if you already have enough evidence on returns
+for your target group and region, and there is no interest in learning about different
+ways of implementing the programme for the same beneficiaries.
 :::
 
 ::: {.eyebrow}
@@ -356,7 +368,7 @@ have happened in its absence, the counterfactual.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
 This can be done in different ways. The methods below show why randomised controlled
-trials are considered the gold standard.
+trials — experimentation — are considered the gold standard.
 
 ```{=html}
 <figure class="fig-e">
@@ -501,8 +513,7 @@ group without the programme.
 **Advantage.** RCTs are considered the gold standard of quantitative impact evaluation
 because:
 
-- No assumptions about outcome levels or trends between groups are necessary, if
-  randomised within groups
+- No assumptions about outcome levels or trends between groups are necessary, as long as randomisation is implemented correctly.
 - They deliver strong evidence
 - They are easy to interpret
 
@@ -510,11 +521,9 @@ because:
 ::: {.example .romania}
 [SMART Romania: randomised controlled trial]{.tag}
 
-Recap: firms first completed an online screening survey. Of the 1 038 found eligible,
-519 were then randomly assigned to the treatment group, invited to formally apply for a
-grant, and 519 to the comparison group, who received no invitation.
+Recap: firms first completed an online screening survey. Everyone who met the pre-set eligibility criteria (1 038 firms) qualified for the program. Because demand for the grant exceeded the funding available, a public lottery decided which 519 of these equally-eligible firms would be invited to formally apply now; the other 519 formed the comparison group and received no invitation.
 
-Because the lottery created two comparable groups, the difference between them over time is the impact ofbeing of the program.
+Because the lottery created two comparable groups, the difference between them over time is the impact of invited to the program.
 
 ```{=html}
 <figure class="fig-e">
@@ -593,7 +602,7 @@ When you cannot randomize
 
 ## What if you cannot randomise?
 
-An RCT only works if randomization is built in from day one, integrated at design stage
+An RCT only works if randomisation is built in from day one, integrated at design stage
 before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions.
 When that is not possible,
 quasi-experimental methods are the alternative.
@@ -868,7 +877,7 @@ Choosing a design
 When not to evaluate
 :::
 
-## Reasons not to measure impact via policy experimentation
+## Reasons not to measure impact
 
 ::: {.cards}
 ::: {.card-e}
