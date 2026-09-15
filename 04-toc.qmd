@@ -2,7 +2,8 @@
 title: "Theory of Change and Measurement"
 ---
 
-::: {.lede}
+::: {.team-note}
+#### Summary
 This page explains the Theory of Change, evaluation questions, and how to measure outcome variables.
 :::
 
