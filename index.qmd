@@ -10,11 +10,8 @@ already advancing impact evaluation, so managing authorities do not have to star
 from scratch.
 :::
 
-::: {.eyebrow}
-Why introduce experimental evaluations?
-:::
 
-## You need evidence on what is actually worth funding
+## Why introduce experimental evaluations?
 
 The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation got roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional gaps in innovation outcomes are holding back the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to deliver more.
 
@@ -41,9 +38,7 @@ Would someone else have gained more from the same euro?
 
 If the answer is not a clear yes, consider testing it.  
 
-::: {.eyebrow}
-Getting started
-:::
+
  
 ## How to start
  
@@ -92,9 +87,6 @@ want to speak to a peer rather than read a page.
 :::
 
 
-
-
-
 ## But what is impact evaluation exactly?
 
 ::: {.gold-panel}
@@ -127,27 +119,6 @@ regional market and design more impactful programs next time.
 :::
 :::
 
-
-::: {.dark-panel}
-::: {.eyebrow}
-Voices from Managing Authorities
-:::
-
-### You want to introduce experimentation for evidence-based policy design? You are not alone.
-
-::: {.quote-e}
-Seeing results already obtained in other countries is very inspiring for us and it gives
-us the idea that we can do this too.
-[Daniela Ferrara, role and country to confirm]{.attrib}
-:::
-
-::: {.quote-e}
-We always need to look to the impact, to do things good with impact and better. We need
-to have the courage to be more brave, more stubborn, more responsible, to work every day
-harder for a bigger purpose.
-[Vasile Asandei, role and country to confirm]{.attrib}
-:::
-:::
 
 
 
