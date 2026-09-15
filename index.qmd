@@ -22,13 +22,19 @@ This is called science-based adaptive delivery: testing, learning, and
 adjusting as you go.
 :::
 
+### Why experimentation matters in the European Commission's own words
+This video will be replaced through the video featuring the DG-Regio team.
+::: {.video-frame}
+{{< video https://youtu.be/yeEmFmDABIk title="The case for experimentation" aspect-ratio="16x9" >}}
+:::
+
 ## Randomised controlled trials show what works and why
 
 By comparing what happens to programme participants to an on average identical group that does not receive the program, a randomised controlled trial can show whether a cohesion policy programme is the reason things improved. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
 
 Did you already evaluate a programme once it had already ended? A credible comparison isolates the impact of the programme from other changes happening at the same time, such as economic shocks. To be confident in the comparison group, the programme needs to be designed ex-ante, before the call for proposals launches. Piloting a new idea at small scale is the best way to test it. For this, the evaluation needs to be designed ex-ante, before the call for proposals launches.
 
-## Think you already know what program works and whom to fund?
+### Think you already know what program works and whom to fund?
 
 But every euro you commit is a euro you cannot spend elsewhere. 
 
@@ -64,26 +70,28 @@ Glossary, templates etc.
 ::::
  
 ### Connect with researchers and labs specialised in experimentation
- 
+
+::: {.panel-tabset}
+
+#### EuroCOMP Lab
+
 :::: {.cards}
 ::: {.card-e}
-#### [J-PAL](https://www.povertyactionlab.org/)
-The Abdul Latif Jameel Poverty Action Lab specialises in impact evaluation design.
-:::
-::: {.card-e}
-#### [IPA](https://poverty-action.org/)
-Innovations for Poverty Action designs and rigorously evaluates solutions to poverty.
-:::
-::: {.card-e}
-#### [World Bank DIME](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation/about)
-The World Bank's Development Impact Evaluation group.
+#### [EuroCOMP Lab](eurocomp.qmd)
+The joint DG REGIO–World Bank initiative behind this site.
 :::
 ::::
- 
+
+#### Other partners
+
+:::: {.cards}
 ::: {.card-e}
-#### To add
-Contacts at managing authorities already running experimental evaluations, for teams that
-want to speak to a peer rather than read a page.
+#### [Other partners](research-partners.qmd)
+Other already established labs already running rigorous impact evaluations
+:::
+::::
+
+
 :::
 
 
