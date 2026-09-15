@@ -17,7 +17,7 @@ support more efficient and effective, and how it is already being used to improv
 programs across Europe.
 
 ::: {.video-frame}
-{{< video https://vimeo.com/347119375 title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/yeEmFmDABIk title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
 :::
 
 
