@@ -17,7 +17,7 @@ programs across Europe.
 :::
 
 
-## Why Europe needs it
+## A widening competitiveness gap
 
 To achieve greater productivity and to address a growing competitiveness gap with other leading economies, Europe must undergo a radical transformation. This gap, particularly compared with the United States and China, has been increasingly evident. In 2021, for instance, EU companies have spent about half as much on Research and Innovation (R&I) as a share of Gross Domestic Product (GDP) as US companies, around €270 billion. Increased funding alone will not close this gap.
 
@@ -49,7 +49,7 @@ A prime example of this challenge is the EU's inefficient use of funds, reflecte
 For the EU to compete globally, it must ensure that the funding invested by Member States reaches those in need while yielding substantial returns. This implies continuous policy improvements and their agile adaptation to changing circumstances. Evidence-based decision-making is essential for enhancing competition, economic growth, and social cohesion in the EU, with areas such as bureaucratic simplification and more effective public procurement serving as key examples.
 
 
-## What we don't know about Cohesion Policy's impact
+## What we do not know about Cohesion Policy's impact
 
 Despite large investments, little is known about the (causal) impacts of Cohesion Policy programmes and implementation approaches. Despite its long history of investments to improve regional competitiveness, and of Cohesion Policy evaluations, the EU's methodological toolkit for policy evaluation is dominated by qualitative and ex-post evaluations completed long after investments have been made. Recent systematic reviews point to the need for more objective evaluations of the considerable public investments made into the EU's Cohesion Policy.
 
