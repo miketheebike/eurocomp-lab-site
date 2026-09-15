@@ -3,7 +3,8 @@ title: "Examples"
 ---
 
 
-::: {.lede}
+::: {.team-note}
+#### Summary
 Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.
 :::
 
