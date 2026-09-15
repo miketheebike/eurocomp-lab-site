@@ -290,34 +290,8 @@ with the real characteristics and values, and remove the on-figure caveat.
 <div class="tracker"><span>Enough firms</span><span class="sep">&rsaquo;</span><span>Comparable groups</span><span class="sep">&rsaquo;</span><span class="on">Outcomes</span><span class="sep">&rsaquo;</span><span>Right design</span></div>
 ```
 
-## Which outcomes should be measured?
 
-An RCT is only as good as what it measures.
 
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Good outcomes are
-:::
-::: {.body}
-- **Relevant:** tied to the policy objective
-- **Measurable:** data can actually be collected
-- **Objective:** not dependent on opinion
-- **Consistent:** collected the same way for every firm, every round
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Measured in SMART Romania
-:::
-::: {.body}
-- Digital adoption (DESI)
-- Revenue
-- Employment
-- Productivity
-:::
-:::
-:::
 
 ::: {.takeaway}
 Fix the outcomes before the draw: choosing them afterwards invites cherry-picking.
