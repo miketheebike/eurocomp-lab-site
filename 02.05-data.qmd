@@ -3,6 +3,7 @@ title: "Data Collection: Surveys"
 ---
 
 ::: {.lede}
+#### Summary
 How to design and implement a primary data collection exercise once your evaluation framework is in place.
 :::
 
