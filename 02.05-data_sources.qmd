@@ -12,9 +12,6 @@ How to design and implement a primary data collection exercise once your evaluat
 :::
 
 
-
-## Step 3: Choose Your Data Strategy
-
 ### The Fundamental Decision
 
 Before any fieldwork begins, the most consequential data decision is a strategic one: for each indicator in your evaluation framework, will you rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**?
