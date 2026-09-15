@@ -29,7 +29,7 @@ Define evaluation questions
 
 #### [Step 3](02.03-assess.qmd)
 
-Assess feasibility to conduct an RCT
+Assess feasibility of conducting an RCT
 :::
 
 
