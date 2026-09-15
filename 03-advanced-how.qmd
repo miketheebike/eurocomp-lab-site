@@ -2,7 +2,8 @@
 title: "Advanced How"
 ---
 
-::: {.lede}
+::: {.team-note}
+#### Summary
 Designing an RCT that produces reliable evidence. Behind every successful RCT are design
 decisions made before the programme begins. Good randomization alone is not enough.
 :::
