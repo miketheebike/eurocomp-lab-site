@@ -1,13 +1,14 @@
 ---
-title: "Build Relevant Indicators"
+title: "Step 4: Determine Relevant Indicators"
 ---
+
+```{=html}
+<div class="tracker"><span class="sep">Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="on">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+```
 
 ::: {.lede}
 #### Summary
-How to design and implement a primary data collection exercise once your evaluation framework is in place.
 :::
-
-## Step 2: Build Relevant Indicators
 
 ### From Theory of Change to Indicators
 
@@ -31,17 +32,12 @@ Good indicators share five characteristics, often summarised as SMART:
 
 ::: {.soft-panel}
 **Running example.** TO BE ADDED BY MIKE: Indicators from the North-East
-:::
-
-:::
-::: {.body}
 - Digital adoption (DESI)
 - Revenue
 - Employment
 - Productivity
 :::
-:::
-:::
+
 
 
 ### From Indicators to Data
