@@ -8,41 +8,7 @@ Designing an RCT that produces reliable evidence. Behind every successful RCT ar
 decisions made before the programme begins. Good randomization alone is not enough.
 :::
 
-## What makes an RCT credible?
 
-[How](02-how.qmd) showed the process. This page shows what separates a strong RCT from a
-weak one.
-
-::: {.cards}
-::: {.card-e}
-[01]{.num}
-
-#### Enough firms
-
-Groups large enough to detect real impacts.
-:::
-::: {.card-e}
-[02]{.num}
-
-#### Comparable groups
-
-A lottery that actually balanced the groups.
-:::
-::: {.card-e}
-[03]{.num}
-
-#### Reliable outcomes
-
-Measures that capture what matters.
-:::
-::: {.card-e}
-[04]{.num}
-
-#### The right design
-
-A setup matched to the policy question.
-:::
-:::
 
 ::: {.takeaway}
 The sections below walk through each pillar, using SMART Romania as the test case.
