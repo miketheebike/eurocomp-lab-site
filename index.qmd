@@ -99,30 +99,6 @@ want to speak to a peer rather than read a page.
 
 
 
-::: {.eyebrow}
-Intro video
-:::
-
-## See it in action
-
-A short introduction to the European Regional Competitiveness Policy Lab (EuroCOMP Lab), how impact evaluations can make public
-support more efficient and effective, and how it is already being used to improve
-programs across Europe.
-
-::: {.video-frame}
-{{< video https://vimeo.com/347119375 title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
-:::
-
-::: {.video-meta}
-Captions available in English. A full transcript is below.
-:::
-
-
-
-::: {.eyebrow}
-What is an impact evaluation
-:::
-
 ## But what is impact evaluation exactly?
 
 ::: {.gold-panel}
