@@ -711,3 +711,45 @@ li > strong:first-child { color: $eu-blue; }
   color: $ink-soft;
   margin-bottom: 1.6rem;
 }
+
+
+/* ---- myths accordion, click-to-expand FAQ rows ---- */
+.myths-grid {
+  margin: 1.6rem 0;
+  border-top: 1px solid $rule;
+}
+.myth-box {
+  border-bottom: 1px solid $rule;
+  padding: 1rem 0;
+}
+.myth-box summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.35;
+  color: $ink;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+.myth-box summary::-webkit-details-marker { display: none; }
+.myth-box summary::after {
+  content: "+";
+  flex: 0 0 auto;
+  width: 1.35rem;
+  height: 1.35rem;
+  border-radius: 50%;
+  background: $eu-yellow;
+  color: $eu-blue;
+  font-weight: 700;
+  font-size: .85rem;
+  text-align: center;
+  line-height: 1.35rem;
+}
+.myth-box[open] summary::after { content: "–"; }
+.myth-box[open] summary { margin-bottom: .7rem; }
+.myth-box p { margin: 0 0 .6rem; font-size: .92rem; color: $ink-soft; line-height: 1.55; }
+.myth-box p:last-child { margin-bottom: 0; }
+.myth-box a { color: $eu-blue; }
