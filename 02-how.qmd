@@ -13,21 +13,21 @@ Process:
 ::: {.card-e}
 [01]{.num}
 
-#### Step 1
+#### [Step 1](02.01-toc.qmd)
 
 Develop a preliminary Theory of Change
 :::
 ::: {.card-e}
 [02]{.num}
 
-#### Step 2
+#### [Step 2](02.02-eval_questions.qmd)
 
 Define evaluation questions
 :::
 ::: {.card-e}
 [03]{.num}
 
-#### Step 3
+#### [Step 3](02.03-assess.qmd)
 
 Assess feasibility to conduct an RCT
 :::
@@ -36,7 +36,7 @@ Assess feasibility to conduct an RCT
 ::: {.card-e}
 [04]{.num}
 
-#### Step 4
+#### [Step 4](02.04-indicators.qmd)
 
 Determine relevant indicators
 :::
@@ -44,7 +44,7 @@ Determine relevant indicators
 ::: {.card-e}
 [05]{.num}
 
-#### Step 5
+#### [Step 5](02.05-data_sources.qmd)
 
 Identify available data sources
 :::
@@ -52,7 +52,7 @@ Identify available data sources
 ::: {.card-e}
 [06]{.num}
 
-#### Step 6
+#### [Step 6](02.06-data_collect.qmd)
 
 Collect data
 :::
@@ -60,9 +60,9 @@ Collect data
 ::: {.card-e}
 [07]{.num}
 
-#### Step 7
+#### [Step 7](02.07-data_quality.qmd)
 
-Assure high-quality data
+Ensure high-quality data
 :::
 
 :::
