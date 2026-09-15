@@ -1,17 +1,17 @@
 ---
-title: "Theory of Change and Measurement"
+title: "Step 1: Develop a Theory of Change"
 ---
+
+```{=html}
+<div class="tracker"><span class="on">Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+```
 
 ::: {.team-note}
 #### Summary
 This page explains the Theory of Change.
 :::
 
-```{=html}
-<div class="tracker"><span class="on">Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
-```
 
----
 
 ## Overview
 
