@@ -2,7 +2,9 @@
 title: "Theory of Change and Measurement"
 ---
 
-*The groundwork a Managing Authority needs before fieldwork can start.*
+::: {.lede}
+This page explains the Theory of Change, evaluation questions, and how to measure outcome variables.
+:::
 
 ---
 
