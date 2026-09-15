@@ -7,7 +7,7 @@ title: "How to design an RCT"
 This page explains the basics of how to design randomised controlled trials.
 :::
 
-Process: 
+A well-designed randomised controlled trial does not begin with randomisation — it begins with a clear understanding of what the programme is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing Authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
 
 ::: {.cards}
 ::: {.card-e}
