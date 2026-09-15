@@ -157,5 +157,5 @@ Once the data strategy is set, detailed planning for each data collection activi
 
 **When to collect** must align with the evaluation timeline. Baseline data must be collected before the intervention begins. Endline data should be timed to when effects can realistically be expected to have materialised — too early, and real impacts may not yet be visible. Intermediate rounds may be needed to track progress along the Theory of Change.
 
-For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: **[Data Collection: Surveys](05-data.qmd)**.
----
+For detailed guidance on how to design and implement primary data collection through surveys — including choice of method, questionnaire design, respondent selection, and GDPR compliance — see the companion page: [Data Collection: Surveys](05-data.qmd).
+
