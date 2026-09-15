@@ -1,0 +1,479 @@
+
+## Randomisation must be designed in from the start
+
+An RCT is not something that can be added to a programme after launch. The comparison
+group, the eligibility rules, and the baseline data all have to be settled before the
+first grant is awarded.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Timeline showing programme areas, eligibility, random selection, monitoring and impact measurement across ex-ante and ex-post periods">
+  <rect x="20" y="46" width="300" height="252" rx="6" fill="var(--dg-accent-wash-soft)"/>
+  <text x="170" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-ante</text>
+  <text x="500" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-post</text>
+  <line x1="20" y1="300" x2="660" y2="300" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="640" y="316" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
+
+  <rect x="30" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
+  <text x="95" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">T0: Target areas</text>
+  <rect x="176" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
+  <text x="241" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T1: Eligibility</text>
+  <rect x="360" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
+  <text x="425" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T2: Monitoring</text>
+  <rect x="520" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
+  <text x="585" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T3: Impacts</text>
+
+  <rect x="30" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="42" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">1. Secondary data</text>
+  <text x="42" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Identify which areas</text>
+  <text x="42" y="117" fill="var(--dg-ink-soft)" font-size="10.5">and groups need support</text>
+
+  <rect x="176" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="188" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">2. Eligibility check</text>
+  <text x="188" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Refine the selection</text>
+  <text x="188" y="117" fill="var(--dg-ink-soft)" font-size="10.5">criteria, collect baseline</text>
+
+  <rect x="176" y="146" width="130" height="42" rx="5" fill="var(--dg-accent)"/>
+  <text x="241" y="164" text-anchor="middle" fill="var(--dg-ink)" font-size="11" font-weight="bold">3. Random selection</text>
+  <text x="241" y="179" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">within the eligible pool</text>
+
+  <path d="M306 167 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M306 167 H330 V232 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="350" y="148" width="230" height="38" rx="5" fill="var(--dg-accent)"/>
+  <text x="465" y="172" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment firms</text>
+
+  <rect x="350" y="212" width="230" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="465" y="230" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Pure control group</text>
+  <text x="465" y="245" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">comparison firms without any support</text>
+
+  <text x="336" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11" transform="rotate(-90 336 120)">Outcome</text>
+
+  <rect x="520" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="532" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">4. Endline assessment</text>
+  <text x="532" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Measure the gap between</text>
+  <text x="532" y="117" fill="var(--dg-ink-soft)" font-size="10.5">the two groups</text>
+
+  <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
+</svg>
+<figcaption>Everything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.</figcaption>
+</figure>
+```
+
+:::: {.example .romania}
+[SMART Romania: building the eligibility pool]{.tag}
+
+```{=html}
+<div class="flow">
+  <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
+  <div>Online applications<br><span style="font-weight:400;color:#6B6455">About one hour to complete</span></div>
+  <div>Automatic screening<br><span style="font-weight:400;color:#6B6455">Stops as soon as a criterion fails</span></div>
+  <div style="background:#F2C94C;border-color:#F2C94C">1&nbsp;038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
+</div>
+```
+
+In SMART Romania, one survey did three jobs: application, eligibility check, and
+baseline data collection, all in a single step. In October 2023, 519 of the eligible
+firms were then randomly selected for funding, and 519 were not.
+::::
+
+## Choosing the group size
+
+To detect the impact of a programme, you need enough firms in both the treatment and
+comparison groups to reliably tell a real effect apart from the ordinary differences
+between firms. Statisticians call this statistical power: with too few firms, even a
+programme that works can appear not to. The smaller the effect you want to detect, the
+more firms you need. Rules of thumb and power calculations are covered in
+[Advanced How](03-advanced-how.qmd).
+
+### Two ways to increase your sample
+
+::: {.cards}
+::: {.card-e}
+#### Loosen the eligibility bar
+
+If fewer firms qualify than you'd like, lowering the eligibility threshold lets more
+firms into the pool you randomise from.
+:::
+::: {.card-e}
+#### Widen the ranking bins
+
+If you're ranking firms by a score, don't treat the ranking as exact. Group
+similarly-scored firms into bands, and treat everyone in a band as equally eligible, so
+more firms end up in the randomised pool rather than being decided by their exact rank.
+:::
+:::
+
+::: {.takeaway}
+A bigger pool also gives you room to test more than one version of the programme at
+once – more on that under Multiple treatment arms, below.
+:::
+
+## Five practical ways to randomise your programme
+
+Not every programme fits the same shape. Here are five common ways to randomise one.
+
+```{=html}
+<div class="designs">
+  <div class="d"><div>
+    <h4>Lottery</h4>
+    <p><span class="lab">How:</span> randomly select who gets the programme, by public or private lottery.</p>
+    <p><span class="lab">Best when:</span> eligibility is clear and the programme is oversubscribed.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Multiple treatment arms</h4>
+    <p><span class="lab">How:</span> randomly assign different versions of the programme, with or without a control group.</p>
+    <p><span class="lab">Best when:</span> you want to know which design works best, not just whether it works.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Randomised phase-in</h4>
+    <p><span class="lab">How:</span> everyone gets the programme eventually, in a random order. Those still waiting are the comparison group.</p>
+    <p><span class="lab">Best when:</span> budget or capacity cannot cover everyone at once.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Randomised intensities</h4>
+    <p><span class="lab">How:</span> vary how much of the programme a firm gets, for example 100%, 50%, or 0% of eligible employees.</p>
+    <p><span class="lab">Best when:</span> spillovers within or between firms are a concern.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Encouragement design</h4>
+    <p><span class="lab">How:</span> randomise who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
+    <p><span class="lab">Best when:</span> take-up is voluntary and the programme itself cannot be withheld.</p>
+  </div></div>
+</div>
+```
+
+:::: {.example .romania}
+[SMART Romania used a lottery]{.tag}
+
+Of the five designs above, SMART Romania used a lottery: 1 038 eligible firms were
+randomly split into a treatment group of 519, invited to apply for a grant, and a
+comparison group of 519, not invited.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
+  <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M160 120 H210" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="210" y="87" width="160" height="66" rx="6" fill="#F2C94C"/>
+  <text x="290" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="290" y="132" text-anchor="middle" fill="#2B2724" font-size="11">every firm, the same chance</text>
+
+  <path d="M370 120 H400 V50 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M370 120 H400 V190 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="430" y="20" width="240" height="60" rx="6" fill="#F2C94C"/>
+  <text x="446" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group</text>
+  <text x="446" y="59" fill="#2B2724" font-size="10.5">Grants of EUR 15,000&#8211;100,000, put to</text>
+  <text x="446" y="72" fill="#2B2724" font-size="10.5">work: equipment, software, services</text>
+
+  <rect x="430" y="160" width="240" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group</text>
+  <text x="446" y="199" fill="#6B6455" font-size="10.5">No grant; firms continue as usual,</text>
+  <text x="446" y="212" fill="#6B6455" font-size="10.5">surveyed the same way</text>
+</svg>
+</figure>
+```
+
+::::
+
+## Running a lottery: transparency vs. behavioural responses
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Public lottery
+:::
+::: {.body}
+A public draw, for example pulling names from a hat.
+
+Advantage: transparent and fair.
+
+Disadvantage: the comparison group may change its behaviour once it knows the result.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Private lottery
+:::
+::: {.body}
+A lottery run behind the scenes.
+
+Advantage: avoids the comparison group reacting to a public result.
+
+Disadvantage: less visibly fair.
+:::
+:::
+:::
+
+::: {.takeaway}
+In practice, many World Bank-supported evaluations run the draw as a secure, documented,
+computerised procedure that can be re-checked afterwards.
+:::
+
+Either kind of lottery can also be narrowed to just part of the pool: rather than
+randomising everyone who's eligible, you can randomise only the firms near the
+eligibility cutoff, and decide the clear-cut cases directly.
+
+## Narrowing the pool: a lottery around a cutoff
+
+Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom
+outright, and randomise only the firms in between.
+
+Best when: eligibility criteria are clear and the programme is oversubscribed, with
+limited resources.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
+  <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
+
+  <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
+  <text x="230" y="60" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Accept all</text>
+  <text x="230" y="78" text-anchor="middle" fill="#2B2724" font-size="11">top scorers funded outright</text>
+  <text x="72" y="42" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">100</text>
+  <text x="72" y="96" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">60</text>
+
+  <rect x="90" y="100" width="280" height="76" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Randomise this band</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">85% treatment, 15% comparison</text>
+  <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
+  <text x="72" y="182" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">45</text>
+
+  <rect x="90" y="186" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="230" y="210" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Reject all</text>
+  <text x="230" y="228" text-anchor="middle" fill="#6B6455" font-size="11">below the eligibility bar</text>
+
+  <path d="M382 138 H410" stroke="#B9AF95" stroke-width="1.5"/>
+  <rect x="410" y="106" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"/>
+  <text x="425" y="128" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomised</text>
+  <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
+  <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+
+  <text x="20" y="270" fill="#6B6455" font-size="11.5">Example: credit scoring in the Philippines</text>
+</svg>
+</figure>
+```
+
+::: {.caution}
+Keep selection rules-based. Subjective rankings, even by judges or expert panels, have
+been shown to introduce hidden bias that a lottery or scored cutoff avoids.
+:::
+
+## Rule-based scoring beats judgment-based scoring
+
+Across several studies, subjective judgment struggles to identify future winners.
+
+::: {.cards}
+::: {.card-e}
+#### Judges favour their own group
+
+A study of court rulings in Kenya found that defendants were more likely to win if they
+shared the judge's ethnicity or gender.
+
+Chen, Daniel L., et al., "Do Judges Favour Their Own Ethnicity and Gender?" (2022).
+:::
+::: {.card-e}
+#### Judges do not beat a simple survey
+
+In a business plan competition, a short applicant survey predicted future firm growth
+slightly better than expert judge panels did on their own.
+
+Fafchamps, Marcel, and Christopher Woodruff, "Identifying gazelles: Expert panels vs.
+surveys," *World Bank Economic Review* 31(3) (2017).
+:::
+::: {.card-e}
+#### Judges, and algorithms, both struggle
+
+Comparing judges' scores, researcher prediction models, and machine learning in a
+Nigerian business competition, none of the three approaches predicted which firms
+actually survived, grew, or turned a profit three years later.
+
+McKenzie, David, and Dario Sansone, "Predicting entrepreneurial success is hard,"
+*Journal of Development Economics* 141 (2019).
+:::
+:::
+
+::: {.takeaway}
+Subjective judgment, even from experts, struggles to reliably pick future winners. This
+is part of why rules-based methods – lotteries or scored cutoffs – are often the fairer
+and more defensible way to allocate a programme, rather than discretionary picks.
+:::
+
+## Multiple treatment arms: testing programme versions
+
+Randomly assign firms (or CEOs, employees) to different versions of the programme, and
+compare them against each other and against the comparison group. This also works
+without a comparison group at all, if you only want to compare versions.
+
+Best when: you're uncertain which component or design actually drives results, and
+want to know which version works best, not just whether the programme works.
+
+Advantage: helps investigate the channels of impact.
+Trade-off: needs a larger sample size, since it's split across more groups.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three programme versions">
+  <line x1="90" y1="190" x2="620" y2="190" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="72" y="100" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" transform="rotate(-90 72 100)">Outcome</text>
+
+  <rect x="120" y="120" width="90" height="70" fill="var(--dg-ink)"/>
+  <text x="165" y="112" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">2.0</text>
+  <text x="165" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
+  <text x="165" y="224" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">group</text>
+
+  <rect x="255" y="82" width="90" height="108" fill="var(--dg-accent)"/>
+  <text x="300" y="74" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">3.1</text>
+  <text x="300" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 1</text>
+
+  <rect x="390" y="64" width="90" height="126" fill="var(--dg-accent)"/>
+  <text x="435" y="56" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">3.6</text>
+  <text x="435" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 2</text>
+
+  <rect x="525" y="33" width="90" height="157" fill="var(--dg-accent)"/>
+  <text x="570" y="25" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">4.5</text>
+  <text x="570" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 3</text>
+</svg>
+<figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme performs best.</figcaption>
+</figure>
+```
+
+## Randomised phase-in: everyone gets it, just not at once
+
+Everybody eventually receives the programme, just at different, randomly assigned
+times. Whoever is scheduled last serves as the comparison group in the meantime. Leave
+enough time between waves for impacts to develop.
+
+Best when: budget, time, or capacity constraints mean you can't roll the programme
+out to everyone at once.
+
+Advantages: everyone eventually receives the programme, which makes the decision
+transparent and easier to justify; it also lets you study how impact changes with
+different treatment durations.
+Trade-off: you can't observe long-term impacts, since the comparison group
+eventually receives the programme too.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Staggered rollout: wave one treated first, wave two later, wave three last, each acting as comparison until treated">
+  <text x="20" y="46" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 1</text>
+  <rect x="110" y="30" width="510" height="26" fill="var(--dg-accent)"/>
+
+  <text x="20" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 2</text>
+  <rect x="110" y="74" width="170" height="26" fill="var(--dg-muted)"/>
+  <rect x="280" y="74" width="340" height="26" fill="var(--dg-accent)"/>
+
+  <text x="20" y="134" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 3</text>
+  <rect x="110" y="118" width="340" height="26" fill="var(--dg-muted)"/>
+  <rect x="450" y="118" width="170" height="26" fill="var(--dg-accent)"/>
+
+  <line x1="110" y1="160" x2="620" y2="160" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="620" y="178" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
+
+  <rect x="110" y="182" width="11" height="11" fill="var(--dg-accent)"/>
+  <text x="128" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Treated</text>
+  <rect x="210" y="182" width="11" height="11" fill="var(--dg-muted)"/>
+  <text x="228" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Waiting, acts as comparison</text>
+</svg>
+</figure>
+```
+
+## Randomised intensities: varying how much firms get
+
+Randomly vary how much of the programme each firm gets: for example, some firms get it
+for 100% of eligible employees, others for only part, e.g. 50%, and others none at all
+(the comparison group).
+
+Best when: spillovers are likely – for example, information spreading between
+treated and untreated employees within the same firm.
+
+Advantage: lets you analyse possible spillovers, not just the direct effect.
+Trade-off: needs a bigger sample size to detect effects at each intensity level.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the programme at 100 percent, 50 percent and zero percent of eligible employees">
+  <line x1="120" y1="165" x2="600" y2="165" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <rect x="150" y="35" width="110" height="130" fill="var(--dg-accent)"/>
+  <text x="205" y="106" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">100%</text>
+  <text x="205" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm A</text>
+
+  <rect x="300" y="100" width="110" height="65" fill="var(--dg-accent)"/>
+  <text x="355" y="138" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">50%</text>
+  <text x="355" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm B</text>
+
+  <rect x="450" y="140" width="110" height="25" fill="var(--dg-muted)"/>
+  <text x="505" y="132" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">0%</text>
+  <text x="505" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm C</text>
+
+  <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
+</svg>
+</figure>
+```
+
+## Facing low take-up? Randomise the encouragement
+
+The problem: low take-up. The firms who need a programme most can be the least
+likely to take it up – badly managed firms often don't know they're badly managed. Low
+take-up also makes it hard to tell whether a programme is working.
+
+Solution: encouragement design. When you can't deny the programme to anyone – for
+example, an open voucher scheme – randomise who gets extra outreach or information
+encouraging them to take it up, then compare the encouraged group with the
+not-encouraged group.
+
+Advantage: works even when everyone must have access to the programme.
+Trade-off: only captures part of the impact, and can be biased if untargeted
+encouragement – TV or radio, for example – reaches the comparison group too.
+
+::: {.caution}
+Compliance is rarely perfect: some encouraged firms never take up the programme, and
+some not-encouraged firms take it up anyway. Compare the whole encouraged group with the
+whole not-encouraged group regardless.
+:::
+
+## Case studies
+
+Every EuroCOMP Lab project gets one standardised card: sample size, outcomes measured,
+RCT design, effect sizes, and a link through to the full case study or report.
+
+::: {.team-note}
+Status
+Cards for SMART Romania, Extremadura, two Czechia programmes, Croatia, and Scinergy are
+drafted (see the wanted-poster deck), but the dedicated Examples page they'll live on
+isn't built yet.
+:::
+
+## Still not convinced? More arguments for randomising
+
+::: {.cards}
+::: {.card-e}
+#### Free and fair competition
+
+The researcher determines allocation, not personal connections or favouritism, so
+there's no selection bias – no systematic difference between groups on average. It can
+be designed to answer precisely the question you need answered, especially when the
+effect of a policy is uncertain.
+:::
+::: {.card-e}
+#### Equality and non-discrimination
+
+Often the outcome of a policy isn't clear, and it could even be negative. Testing first,
+rather than rolling it out to everyone, protects people from that uncertainty. You can
+also make sure everyone still receives the core programme, and only randomise an add-on
+whose effect isn't yet known.
+:::
+::: {.card-e}
+#### Publicity and transparency
+
+A randomised design needs fewer additional assumptions than other evaluation methods.
+Because the analysis is less complex, it's easier to explain and defend the findings to
+the people affected by them.
+:::
+:::
