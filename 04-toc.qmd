@@ -91,6 +91,17 @@ Good indicators share five characteristics, often summarised as SMART:
 **Running example.** TO BE ADDED BY MIKE: Indicators from the North-East
 :::
 
+:::
+::: {.body}
+- Digital adoption (DESI)
+- Revenue
+- Employment
+- Productivity
+:::
+:::
+:::
+
+
 ### From Indicators to Data
 
 Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
