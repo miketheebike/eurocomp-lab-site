@@ -56,19 +56,15 @@ The case for evaluation, and how to tell if it fits your programme.
 :::
 ::: {.card-e}
 #### [How](02-how.qmd)
-Different ways to design and randomise a trial, illustrated with real case studies — plan this from day one.
+How to plan and design a trial — plan this from day one.
 :::
 ::: {.card-e}
-#### [Advanced how](03-advanced-how.qmd)
-Sample size and power calculations, from rule-of-thumb intuition to the full method.
-:::
-::: {.card-e}
-#### [Templates](06-templates.qmd)
-Benchmark reports, do-files for randomisation, questionnaire modules, and Terms of Reference templates, ready to use.
-:::
-::: {.card-e}
-#### [Examples](07-examples.qmd)
+#### [Templates](03-examples.qmd)
 Experience from projects already partnering with EuroCOMP Lab.
+:::
+::: {.card-e}
+#### [Examples](04-templates.qmd)
+Glossary, templates etc.
 :::
 ::::
  
