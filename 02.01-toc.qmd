@@ -4,7 +4,7 @@ title: "Theory of Change and Measurement"
 
 ::: {.team-note}
 #### Summary
-This page explains the Theory of Change, evaluation questions, and how to measure outcome variables.
+This page explains the Theory of Change. , evaluation questions, and how to measure outcome variables.
 :::
 
 ```{=html}
