@@ -1,15 +1,15 @@
 ---
-title: "Data Collection: Surveys"
+title: "Step 5: Data Collection: Surveys"
 ---
+
+```{=html}
+<div class="tracker"><span class="sep">Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="on">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+```
 
 ::: {.lede}
 #### Summary
 How to design and implement a primary data collection exercise once your evaluation framework is in place.
 :::
-
----
-
-## Overview
 
 This page picks up where the [**Theory of Change and Measurement**] page leaves off. Once a Managing Authority has defined its Theory of Change (ToC), selected its outcome indicators, and decided that primary data collection is needed, the practical question becomes: how do you actually go out and collect it?
 
