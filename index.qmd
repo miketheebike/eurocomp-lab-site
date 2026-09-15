@@ -4,6 +4,7 @@ toc: false
 ---
 
 ::: {.team-note}
+#### Summary
 This website pools knowledge and resources across the people and organisations
 already advancing impact evaluation, so managing authorities do not have to start
 from scratch.
