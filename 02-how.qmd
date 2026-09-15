@@ -1,5 +1,5 @@
 ---
-title: "How"
+title: "How to plan an RCT"
 ---
 
 ::: {.team-note}
