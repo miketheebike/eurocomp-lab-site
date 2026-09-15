@@ -7,3 +7,62 @@ title: "How to design an RCT"
 This page explains the basics of how to design randomised controlled trials.
 :::
 
+Process: 
+
+::: {.cards}
+::: {.card-e}
+[01]{.num}
+
+#### Step 1
+
+Develop a preliminary Theory of Change
+:::
+::: {.card-e}
+[02]{.num}
+
+#### Step 2
+
+Define evaluation questions
+:::
+::: {.card-e}
+[03]{.num}
+
+#### Step 3
+
+Assess feasibility to conduct an RCT
+:::
+
+
+::: {.card-e}
+[04]{.num}
+
+#### Step 4
+
+Determine relevant indicators
+:::
+
+::: {.card-e}
+[05]{.num}
+
+#### Step 5
+
+Identify available data sources
+:::
+
+::: {.card-e}
+[06]{.num}
+
+#### Step 6
+
+Collect data
+:::
+
+::: {.card-e}
+[07]{.num}
+
+#### Step 7
+
+Assure high-quality data
+:::
+
+:::
