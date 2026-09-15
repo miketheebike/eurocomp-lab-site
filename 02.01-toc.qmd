@@ -11,15 +11,11 @@ title: "Step 1: Develop a Theory of Change"
 This page explains the Theory of Change.
 :::
 
+Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve. 
 
 
-## Overview
 
-Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about three things: what the programme is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. This page walks through those three steps in sequence.
-
-1. **Step 1:** Define a Theory of Change for your evaluation
-2. **Step 2:** Build relevant indicators
-3. **Step 3:** Choose your data strategy
+, how progress toward that goal will be measured, and what data will be needed to do so. This page walks through those three steps in sequence.
 
 ---
 
