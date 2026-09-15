@@ -2,7 +2,8 @@
 title: "How"
 ---
 
-::: {.lede}
+::: {.team-note}
+#### Summary
 This page explains the basics of how to design randomised controlled trials.
 :::
 
