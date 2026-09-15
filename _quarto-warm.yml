@@ -11,7 +11,7 @@ website:
       - href: index.qmd
         text: Home
       - href: 01-why-and-when.qmd
-        text: Why and When
+        text: Why and When to Apply an RCT
       - href: 02-how.qmd
         text: How
       - href: 03-advanced-how.qmd
