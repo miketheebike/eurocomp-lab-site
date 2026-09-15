@@ -3,7 +3,7 @@ title: "Join a growing community of practice for experimental evaluation in Euro
 toc: false
 ---
 
-::: {.lede}
+::: {.team-note}
 This website pools knowledge and resources across the people and organisations
 already advancing impact evaluation, so managing authorities do not have to start
 from scratch.
@@ -88,8 +88,8 @@ The World Bank's Development Impact Evaluation group.
 :::
 ::::
  
-::: {.team-note}
-**To add**
+::: {.card-e}
+#### To add
 Contacts at managing authorities already running experimental evaluations, for teams that
 want to speak to a peer rather than read a page.
 :::
