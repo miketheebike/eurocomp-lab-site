@@ -13,17 +13,11 @@ website:
       - href: 01-why-and-when.qmd
         text: Why and When to Apply an RCT
       - href: 02-how.qmd
-        text: How
-      - href: 03-advanced-how.qmd
-        text: Advanced How
-      - href: 04-toc.qmd
-        text: Theory of Change, Indicators, and Data
-      - href: 05-data.qmd
-        text: Data Collection
-      - href: 06-templates.qmd
-        text: Templates
-      - href: 07-examples.qmd
+        text: How to Design an RCT
+      - href: 03-examples.qmd
         text: Examples
+      - href: 04-templates.qmd
+        text: Templates
   page-footer:
     center: "Draft site. Structure and content still under review by the team."
 
