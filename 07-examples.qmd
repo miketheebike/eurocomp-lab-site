@@ -8,15 +8,11 @@ Discover examples from managing authorities that introduced experimentation into
 :::
 
 
-# EuroCOMP Lab evaluations
-
 ::: {.eyebrow}
-Spain
+EuroCOMP Lab evaluations
 :::
 
-
-
-## The problem, and the programme
+## Spain: Financial support to innovate
 
 ::: {.cards}
 ::: {.card-e}
@@ -48,8 +44,6 @@ What experimentation sought to answer
 <div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
 ```
 
-## Spain: financial support to innovate
-
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Matching grants of up to EUR 250,000 per firm (average EUR 138,000) for R&D projects</div></div>
@@ -74,7 +68,7 @@ What experimentation sought to answer
 ```
 
 
-## How the programme was tested
+### How the programme was tested
 
 Extremadura ran an advertising campaign to attract at least 100 applicants. External
 reviewers scored every application on 11 objective criteria and grouped proposals into
