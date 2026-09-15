@@ -2,9 +2,13 @@
 title: "What is the EuroCOMP Lab?"
 ---
 
-::: {.lede}
-The European Regional Competitiveness Policy Lab (EuroCOMP Lab) is a joint initiative of the European Commission's Directorate-General for Regional and Urban Policy (DG REGIO) and the World Bank Group. It embeds rigorous, randomised experimentation in European Union (EU) Member States' investments in competitiveness programmes under Cohesion Policy, so the EU can learn what works, for whom, and why.
+::: {.team-note}
+#### Summary
+This page gives an overview over the European Regional Competitiveness Policy Lab (EuroCOMP Lab).
 :::
+The EuroCOMP Lab is a joint initiative of the European Commission's Directorate-General for Regional and Urban Policy (DG REGIO) and the World Bank Group. It embeds rigorous, randomised experimentation in European Union (EU) Member States' investments in competitiveness programmes under Cohesion Policy, so the EU can learn what works, for whom, and why.
+
+---
 
 ## See it in action
 
@@ -17,9 +21,9 @@ programs across Europe.
 :::
 
 
-## A widening competitiveness gap
+## The EU must become more competitive
 
-To achieve greater productivity and to address a growing competitiveness gap with other leading economies, Europe must undergo a radical transformation. This gap, particularly compared with the United States and China, has been increasingly evident. In 2021, for instance, EU companies have spent about half as much on Research and Innovation (R&I) as a share of Gross Domestic Product (GDP) as US companies, around €270 billion. Increased funding alone will not close this gap.
+To achieve greater productivity and to address a growing competitiveness gap with other leading economies, Europe must undergo a radical transformation. This gap, particularly compared with the United States and China, has been increasingly evident. In 2021, for instance, EU companies have spent about half as much on Research and Innovation (R&I) as a share of Gross Domestic Product (GDP) as US companies. Increased funding alone will not close this gap.
 
 For the past two decades, the EU's top three investors in R&I have consistently been automotive companies, which mirrors the early 2000s in the US. While top investors in the US have recently shifted to the tech sector, EU companies continue to cite regulatory burden as an obstacle to investing in this sector.
 
@@ -28,7 +32,7 @@ Recent EU reports point to the need for a significant acceleration in technologi
 Alongside the EU's shrinking workforce, stagnant productivity growth, and rising public debt, its GDP growth is otherwise predicted to stall by 2050. This could force Europe to abandon key goals such as decarbonisation, digitalisation, or defence, leaving many regions struggling to progress further towards high-income status.
 
 
-## What Cohesion Policy is, and why funding alone is not enough
+## Why more funding for Cohesion Policy alone is not enough
 
 Substantial funds are already allocated to support the EU's competitiveness and innovation objectives, but these investments are expected to be insufficient to address the EU's rising needs and challenges.
 
@@ -44,12 +48,12 @@ Cohesion Policy is one of the EU's largest investments. It aims to foster balanc
 
 Increased funding alone will not be enough: smarter policymaking is needed to drive higher returns on EU investments and strengthen Europe's competitiveness. Innovation and learning in policymaking are key to increasing returns on European investments, and to improving Europe's competitiveness and readiness to address global and regional challenges.
 
-A prime example of this challenge is the EU's inefficient use of funds, reflected in low absorption rates. Almost halfway through the RRF implementation period, by the end of 2023, the European Commission had disbursed only around a third of the funds, €213 billion of the €723.8 billion, to Member States (European Court of Auditors, 2024).
+A prime example of this challenge is the EU's inefficient use of funds, reflected in low absorption rates. Almost halfway through the RRF implementation period, by the end of 2023, the European Commission had disbursed only around a third of the funds, €213 billion of the €723.8 billion, to Member States.
 
 For the EU to compete globally, it must ensure that the funding invested by Member States reaches those in need while yielding substantial returns. This implies continuous policy improvements and their agile adaptation to changing circumstances. Evidence-based decision-making is essential for enhancing competition, economic growth, and social cohesion in the EU, with areas such as bureaucratic simplification and more effective public procurement serving as key examples.
 
 
-## What we do not know about Cohesion Policy's impact
+## Knowledge about Cohesion Policy's impact is limited
 
 Despite large investments, little is known about the (causal) impacts of Cohesion Policy programmes and implementation approaches. Despite its long history of investments to improve regional competitiveness, and of Cohesion Policy evaluations, the EU's methodological toolkit for policy evaluation is dominated by qualitative and ex-post evaluations completed long after investments have been made. Recent systematic reviews point to the need for more objective evaluations of the considerable public investments made into the EU's Cohesion Policy.
 
@@ -64,7 +68,7 @@ In this context, it is difficult to incorporate lessons from past programmes and
 
 Increasing competitiveness in the EU requires improving the effectiveness of investments under Cohesion Policy through learning what works better. The challenges faced by lagging regions require policy experimentation, trial-and-error, learning, and course-correcting when it matters most.
 
-Experimental policy learning that relies on randomised controlled trials (RCTs) and other rigorous evaluation methods, followed by adequate stock-taking of what works, can help fill the current learning and policy innovation gap in Cohesion Policy's competitiveness programmes. In the same way that companies invest in Research and Development (R&D) to identify the most successful products to scale up, evaluations can help identify novel interventions and the conditions under which the returns to current investments can be maximised.
+Experimental policy learning that relies on RCTs and other rigorous evaluation methods, followed by adequate stock-taking of what works, can help fill the current learning and policy innovation gap in Cohesion Policy's competitiveness programmes. In the same way that companies invest in Research and Development (R&D) to identify the most successful products to scale up, evaluations can help identify novel interventions and the conditions under which the returns to current investments can be maximised.
 
 
 ## Building on earlier work
@@ -95,9 +99,9 @@ The programme runs for four years. All EU Member States are invited to take part
 
 Work with Member States includes technical assistance for better programming: reviewing theories of change, bringing good global practices to the EU, and supporting the design of outreach, targeting, and actionable, informative monitoring systems. The project works closely with external researchers, with a clear emphasis on capacity building, leveraging the existing evaluation network developed by DG REGIO, and offering on-demand support to regional authorities on introducing experimental learning into policymaking.
 
-The World Bank focuses on analytical and advisory work; implementation remains the responsibility of Member States. Wherever possible, impacts are assessed at sub-regional level, for example comparing capital cities with other regions, reflecting a clear mandate of DG REGIO's focus under Cohesion Policy.
+The World Bank focuses on analytical and advisory work, while implementation remains the responsibility of Member States. Wherever possible, impacts are assessed at sub-regional level, for example comparing capital cities with other regions, reflecting a clear mandate of DG REGIO's focus under Cohesion Policy.
 
-## Four workstreams, one goal
+## The programme's four workstreams
 
 The project follows a programmatic approach, given the complexity of the task and the need to sequence support to Member States. The work is organised into four workstreams. Across both phases, the first three will generate policy lessons and insights from 13 RCTs:
 
@@ -107,28 +111,3 @@ The project follows a programmatic approach, given the complexity of the task an
 
 **Workstream 4** aims to enhance the understanding and measurement of competition levels, providing insights to support evidence-based decision-making. By identifying key influencing factors and analysing barriers to market competition, it focuses on the case study of EU public procurement.
 
-
-## A phased approach
-
-A phased approach ensures that each segment of the project is independently viable, while contributing to the long-term goal of establishing the EuroCOMP Lab. The two phases are interconnected, and both contribute to developing the basis for the EuroCOMP Lab, but each has sufficient independence on its own.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Phase A
-:::
-::: {.body}
-Funding has been confirmed and secured. The deliverables and costs set out in the concept note relate only to Phase A, which has been agreed with DG REGIO and will be channelled through a new standalone trust fund under the EU2020 Programmatic Trust Fund.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Phase B
-:::
-::: {.body}
-The additional contribution is conditional on budget availability, and will be confirmed in 2025.
-:::
-:::
-:::
-
-With this process, the project will help create a de facto EuroCOMP Lab, which will be institutionalised and developed further in future programmes.
