@@ -7,9 +7,6 @@ title: "Why and When"
 This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods. Experimentation — running a randomised controlled trial — is one way of doing impact evaluation, and the one this website is built around. This page also explains impact evaluation more broadly, and the alternative methods, to show why experimentation is usually the strongest choice.
 :::
 
-::: {.eyebrow}
-Two purposes
-:::
 
 ## What is impact evaluation for?
 
@@ -48,9 +45,7 @@ Two purposes
 <figcaption>Learning feeds programme design. Accountability covers both what the money was spent on and what it achieved.</figcaption>
 </figure>
 ```
-::: {.eyebrow}
-M&E versus impact evaluation
-:::
+
 
 ## Monitoring and evaluation (M&E) vs impact evaluation
 
@@ -161,7 +156,9 @@ in designing a strong impact evaluation. There is more on this in
 
 ::: {.example .romania}
 [digitrans example]{.tag}
-
+The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to a comparison group, a financial subsidy alone, or the same subsidy paired with technical assistance.
+The pilot found that money alone is not the most effective. Firms that also received technical assistance used
+digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
 :::
 
 ## Learning through impact evaluation is a continuous process
@@ -226,9 +223,6 @@ Scale up based on evidence.
 :::
 
 
-::: {.eyebrow}
-Is it relevant for you
-:::
 
 ## Think experimentation is not relevant for you?
 
@@ -264,9 +258,6 @@ for your target group and region, and there is no interest in learning about dif
 ways of implementing the programme for the same beneficiaries.
 :::
 
-::: {.eyebrow}
-Allocating public resources
-:::
 
 ## What does good allocation of public resources look like?
 
@@ -352,10 +343,6 @@ that could not otherwise get funded.
 :::
 :::
 
-
-::: {.eyebrow}
-The counterfactual
-:::
 
 ## What exactly is the impact of a programme?
 
@@ -468,9 +455,6 @@ credible stand-in for what the selected firms would have done without the progra
 
 :::
 
-::: {.eyebrow}
-Randomised controlled trials
-:::
 
 ## What is a randomised controlled trial?
 
@@ -594,9 +578,7 @@ selection code run, and the resulting balance between groups reviewed, all on th
 record. This increased confidence with the firms that selection was fair.
 :::
 
-::: {.eyebrow}
-When you cannot randomize
-:::
+
 
 ## What if you cannot randomise?
 
@@ -815,9 +797,7 @@ The quasi-experimental sections draw on the J-PAL Why and When to Randomize lect
 Decide whether a citation is needed, given how widely shared this material is.
 :::
 
-::: {.eyebrow}
-Choosing a design
-:::
+
 
 ## Choosing the right evaluation design
 
@@ -871,9 +851,7 @@ Choosing a design
 </figure>
 ```
 
-::: {.eyebrow}
-When not to evaluate
-:::
+
 
 ## Reasons not to measure impact
 
@@ -915,9 +893,6 @@ Adapted from Alex's Bucharest slide deck, which cites the Stanford Social Innova
 piece on ten reasons not to measure impact. Confirm how to credit it.
 :::
 
-::: {.eyebrow}
-Risks
-:::
 
 ## What can go wrong with a well-designed RCT?
 
