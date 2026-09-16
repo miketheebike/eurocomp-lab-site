@@ -12,70 +12,86 @@ How to design and implement a primary data collection exercise once your evaluat
 :::
 
 
-This page picks up where the [**Theory of Change and Measurement**] page leaves off. Once a Managing Authority has defined its Theory of Change (ToC), selected its outcome indicators, and decided that primary data collection is needed, the practical question becomes: how do you actually go out and collect it?
+Step 5 determined *where* the data will come from. This step is about *how* and *when* to collect it. For most RCT evaluations of competitiveness programmes, this means planning at least one round of primary survey data collection — a baseline before the intervention — while also coordinating access to the administrative data sources identified in Step 5. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
 
-The answer, in most evaluation contexts, is a survey. This page explains what surveys are, why they are well-suited to the evaluation needs, and — most importantly — how to design and implement one well. It covers the choice of collection method, the design of the questionnaire, respondent selection, timing, and the legal obligations that apply under EU data protection law.
+
+## Plan the data collection rounds
+
+An RCT evaluation requires data at multiple points in time. The exact rounds depend on the Theory of Change and the data sources available, but the standard structure is:
+
+**Baseline survey:** Conducted before the intervention begins and, where possible, before firms know whether they have been selected for treatment or control. The baseline captures pre-treatment characteristics, enables balance checks after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.
+
+**Endline data collection:** Measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the EU context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records — consistently available across member states — can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain — for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the programme.
+
+**Midline survey (optional):** Where the Theory of Change includes important intermediate outcomes worth tracking before the final endline — for example, changes in management practices or technology adoption as precursors to longer-term productivity effects — a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
+
+**Administrative data timing:** Access to administrative records should be requested and negotiated well in advance of the baseline. These sources typically come with a reporting lag of one to two years, which must be factored into the evaluation timeline. The advantage is coverage: administrative data tracks all firms in the sample, including those who do not respond to surveys, making it a more complete picture of outcomes than a survey endline alone.
+
+In the EU, the consistent availability of firm-level administrative data — tax records, business registries, social security data — means that a primary endline survey can often be avoided. Prioritise administrative data for core financial and employment outcomes; reserve primary survey rounds for the outcomes and mechanisms that only firms themselves can report on.
+
+
+## Who to collect from, and when
+
+**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker — a CEO, CFO, or equivalent — who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the programme targets a specific group within the firm — such as R&D personnel — those individuals may be more appropriate for certain questions.
+
+**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue — beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.
+
+
+## Why surveys?
+
+Surveys are the most widely used tool for collecting primary data in impact evaluations of public support programmes. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that a programme is designed to benefit — capturing precisely the outcomes and mechanisms that administrative records do not contain.
+
+A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset — a **sample** — and, provided that sample is representative, the findings can be generalised with confidence to the full population.
+
+For programmes evaluating competitiveness and innovation outcomes — such as changes in firm-level R&D investment, technology adoption, or management practices — surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding *why* an intervention worked or did not, by measuring the mechanisms that link the programme's activities to its results.
+
+
+## Paper vs. electronic surveys
+
+While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for programme evaluations today and should be the default choice. Digital surveys offer built-in data validation — mandatory fields, range checks, and logical skip patterns — catching errors at the point of entry rather than during analysis. They eliminate manual transcription entirely, are faster to deploy, easier to monitor in real time, and simpler to adapt if pilot testing reveals problems.
+
+
+## Choose a collection method
+
+There is no single best method. The right choice depends on who the respondents are, what the questions require, and the available budget. Three methods are in common use:
+
+**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone. CATI reaches a broad range of respondents quickly and is well-suited when response rates need to be actively managed — interviewers can follow up with non-respondents and clarify questions in real time. It is also practical when beneficiary contact details are already held in programme management systems. Surveys must be kept short enough to hold respondents' attention on the phone.
+
+**Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with a tablet or laptop loaded with survey software. The personal interaction tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances or employment decisions. CAPI is best reserved for complex questionnaires and small, geographically concentrated samples — it is the most expensive method and carries a risk that the interviewer's presence influences responses.
+
+**Web surveys** are sent to respondents via email or embedded in an online platform, inviting them to complete the survey at their own pace. They are the least expensive method and can be deployed quickly to large samples, making them well-suited to digitally comfortable populations such as SMEs and technology firms. Response rates for unsolicited web surveys are often low, so active follow-up is essential.
+
+In practice, methods can be combined: begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for subgroups where richer detail is needed.
+
+
+## The role of data collection firms and evaluation consultants
+
+Managing Authorities rarely conduct surveys in-house. In practice, primary data collection typically involves two types of external expertise working in close coordination: an **evaluation consultant** responsible for the overall analysis, and a **data collection firm** responsible for fielding the survey.
+
+The **evaluation consultant** designs the survey instrument, determines the sample, oversees the data collection firm, and carries out the statistical analysis once data has been collected. The **data collection firm** translates and pilots the questionnaire, sets up the digital platform, recruits and trains enumerators, manages fieldwork, monitors response rates, implements quality controls, and delivers a clean dataset.
+
+This division of responsibilities should be made explicit in procurement. Where budget permits, commissioning the two roles separately reduces conflicts of interest and tends to produce better results in both functions.
+
+For more information on TORs, please click here: 
 
 ---
 
-## Why Surveys?
+## Designing the questionnaire
 
-Surveys are the most widely used tool for collecting primary data in impact evaluations of public support programs. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that a program is designed to benefit — capturing precisely the outcomes and mechanisms that administrative records do not contain.
+### Start with what already exists
 
-A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset — known as a **sample** — and, provided that sample is representative, the findings can be generalised with confidence to the full population. For Managing Authorities overseeing programs with hundreds or thousands of beneficiaries, this makes surveys a practical and cost-effective route to credible evidence.
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
 
-For programs evaluating competitiveness and innovation outcomes — such as changes in firm-level R&D investment, technology adoption, or export performance — surveys are often the only way to capture the intermediate outcomes that sit between a grant payment (recorded in program management systems) and a long-term productivity gain (visible, eventually, in national statistics). They are also essential for understanding *why* an intervention worked or did not, by measuring the mechanisms — changes in knowledge, capacity, or behaviour — that link the program's activities to its results.
-
----
-
-## Paper vs. Electronic Surveys
-
-Surveys can be conducted on paper or in electronic form. While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for program evaluations today and should be the default choice for Managing Authorities.
-
-Digital surveys offer substantial practical advantages. They allow for built-in data validation — mandatory fields, range checks, and logical skip patterns — which means that errors and inconsistencies are caught at the point of entry rather than discovered during analysis. They eliminate the transcription step entirely: responses flow directly into a dataset, ready for processing. They are faster to deploy, easier to monitor in real time, and considerably simpler to adapt if pilot testing reveals problems with specific questions.
-
-For Managing Authorities working within tight program timelines and reporting deadlines, the efficiency gains from digital collection are significant.
-
----
-
-## Choosing a Collection Method
-
-There is no single best method for electronic data collection. The right choice depends on who the respondents are, what the questions require, and what budget is available. Three methods are in common use:
-
-**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone, guided by a digital questionnaire on their screen. CATI can reach a broad range of respondents relatively quickly and is well-suited to situations where response rates need to be actively managed — interviewers can follow up with non-respondents and clarify questions in real time. It is also a practical option when beneficiary contact details (phone numbers) are already held in program management systems. The main limitations are cost, the need to recruit and train interviewers, and the constraint that surveys must be kept short enough to hold a respondent's attention on the phone.
-
-**Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with the support of a tablet or laptop loaded with survey software. The key advantage is the quality of responses: the personal interaction between interviewer and respondent tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances, employment decisions, or the perceived impact of public support. CAPI is also effective when the questionnaire is long or complex. The trade-offs are cost — travel and interviewer time make CAPI the most expensive method — and the risk that the interviewer's presence influences how respondents answer. This method is best reserved for situations where data quality is the overriding priority and the sample is relatively small and geographically concentrated.
-
-**Web surveys** are questionnaires sent to respondents via email or embedded in an online platform, inviting them to complete the survey at a time and pace that suits them. They are the least expensive method and can be deployed quickly to large samples. For programs targeting SMEs, research organisations, or technology firms — populations that are generally comfortable with online tools — web surveys are often the most practical choice. The main risk is response bias: firms or individuals without reliable internet access, or those with less time available, may be less likely to respond, potentially skewing results. Response rates for unsolicited web surveys are also often low, so active follow-up is typically needed.
-
-In practice, methods can be combined. A common approach is to begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for specific subgroups where richer qualitative detail is needed.
-
----
-
-## Designing the Survey
-
-### Start with What Already Exists
-
-Before writing a single question, Managing Authorities and their evaluation teams should review existing, validated survey instruments. Using questions that have already been tested and used in comparable evaluations saves time, improves data quality, and — critically — makes findings comparable with evidence from other programs and regions. Relevant reference sources include:
-
-- The **[Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey)**, which provides the standard EU framework for measuring innovation activity in firms and is used across all member states
-- The **[Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat)**, a World Bank instrument covering how firms adopt, use, and benefit from technologies across sectors
-- The **[World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys)**, which cover a wide range of firm-level outcomes including investment, productivity, and the business environment
-- The **[World Management Survey (WMS)](https://worldmanagementsurvey.org/)**, which measures the quality of management practices across firms and countries and has been shown to be a strong predictor of firm productivity and innovation
-- The **[Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442)**, which tracks digital technology adoption, online sales, and digital skills across EU member states
-- The **[ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)**, which monitors financing conditions and constraints for SMEs across the euro area
-- The **OECD Oslo Manual**, which defines innovation concepts and measurement approaches in a way that is consistent across countries
-- Survey instruments used in published evaluations of comparable ERDF or ESF+ programs in other regions or member states
-
-
-
----
+- The **[Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey)** — the standard EU framework for measuring innovation activity in firms
+- The **[Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat)** — World Bank instrument on technology adoption across sectors
+- The **[World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys)** — firm-level outcomes including investment, productivity, and the business environment
+- The **[World Management Survey (WMS)](https://worldmanagementsurvey.org/)** — management practices across firms and countries
+- The **[Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442)** — digital technology adoption and skills across EU member states
+- The **[ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)** — financing conditions and constraints for SMEs
+- The **OECD Oslo Manual** — internationally consistent definitions of innovation concepts and measurement approaches
 
 ::: {.gold-panel}
-
-To make this process as practical as possible, the EuroComp Lab has compiled a **Survey Question Bank** — a ready-to-use library of validated questions drawn from the Community Innovation Survey (CIS), the World Bank Firms Adoption of Technology (FAT) Survey, the World Bank Enterprise Surveys, the World Management Survey (WMS), and the Flash Eurobarometer on SME Digitalisation, among others.
-
-Questions are organised into ten topics:
+The **Survey Question Bank** provides a ready-to-use library of validated questions drawn from the CIS, FAT, WBES, WMS, and Flash Eurobarometer, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
 
 | Topic | Content |
 |---|---|
@@ -90,66 +106,51 @@ Questions are organised into ten topics:
 | 9. Intellectual property | Patents, trademarks, licensing, informal protection |
 | 10. Technology Readiness Level | TRL self-assessment |
 
-For each question the bank provides the question text ready to copy-paste, the response options, and the source survey it is drawn from.
-
-> 📋 **[Browse the Survey Question Bank →](08-bank_survey.qmd)**
+> **[Browse the Survey Question Bank →](08-bank_survey.qmd)**
 :::
 
+### Questionnaire design
 
-Where program-specific questions need to be developed — for example, to capture the specific features of a regional grant scheme — they should be designed to complement rather than replace validated instruments.
+A good questionnaire is clear, concise, and purposeful. Every question should map to an indicator in the Theory of Change. Questions included for general interest add respondent burden without adding analytical value and should be removed.
 
-### Questionnaire Design
+Questions should address only one idea at a time. Double-barrelled questions — which ask about two things simultaneously, such as "Did the grant improve your firm's R&D capacity and export performance?" — make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions undermine the reliability of the data.
 
-A good questionnaire is clear, concise, and purposeful. Every question should have a direct link to an indicator in the ToC. Questions included for general interest, or because the data might be useful someday, add burden for respondents without adding analytical value and should be removed.
+Response scales — such as Likert scales or numerical ratings — should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions — such as those about turnover, profitability, or employment figures — are best placed towards the end, once some rapport has been established.
 
-Questions should address only one idea at a time. So-called double-barrelled questions — which ask about two things simultaneously, such as "Did the grant improve your firm's R&D capacity and export performance?" — make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions that steer respondents towards a particular answer undermine the reliability of the data and should be eliminated during the review process.
+Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly — state the currency (e.g. €), the unit of magnitude (e.g. full-time equivalents, thousands of euros), and the exact time reference (e.g. "in the last financial year, ending [month]") directly in the question text or as a visible instruction above the response field.
 
-Response scales — such as Likert scales or numerical ratings — should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions — such as those about turnover, profitability, or employment figures — are best placed towards the end, once some rapport has been established with the respondent.
+Where surveys are conducted in multiple languages, the questionnaire should be professionally translated and then back-translated to verify that meaning has been preserved accurately.
 
-Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly. Ambiguity about whether turnover should be reported in thousands or millions of euros, whether employment refers to full-time equivalents or headcount, or whether "last year" means the calendar year or the most recent financial year leads to inconsistent responses that are difficult to clean and compare. Each such question should state the currency (e.g., €), the unit of magnitude (e.g., full-time equivalents, thousands of euros), and the exact time reference (e.g., "in the last financial year, ending [month]") directly in the question text or as a visible instruction above the response field.
+### Piloting the questionnaire
 
-Where surveys are to be conducted in multiple languages — a common situation for programs operating across linguistically diverse regions, or for evaluations coordinated across member states — the questionnaire should be professionally translated and then back-translated into the original language to verify that meaning has been preserved accurately.
+No questionnaire should go into the field without first being tested. A **pilot survey** — conducted with a small group representative of the target population — reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.
 
-### Piloting the Questionnaire
 
-No questionnaire should go into the field without first being tested. A **pilot survey** — conducted with a small group of respondents representative of the target population — reveals problems that are not visible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment begins. Skipping the pilot to save time almost always costs more in the long run, through lower data quality and the need for analytical workarounds.
+## Choosing the right respondent
 
----
+The reliability of survey data depends heavily on asking the right person. For firm-level surveys, this typically means a **senior decision-maker** — a CEO, CFO, or equivalent executive — who has oversight of the firm's strategic and financial decisions and is most likely to be aware of how the programme has influenced the firm's trajectory.
 
-## Who to Survey and When
+Where the evaluation focuses on a specific group within the firm — R&D personnel or recently hired employees — those individuals may be better placed to answer certain questions. Where possible, the same respondent should complete both the baseline and endline surveys, to ensure that differences reflect real changes rather than differences between respondents.
 
-### Choosing the Right Respondent
 
-The reliability of survey data depends heavily on asking the right person. The ideal respondent is someone who is knowledgeable about the outcome of interest, has little incentive to misreport, and can be reached without excessive difficulty.
+## Data protection and GDPR compliance
 
-For surveys targeting businesses — the most common scenario in competitiveness and innovation programs — this typically means a **senior decision-maker**: a CEO, CFO, or equivalent executive who has oversight of the firm's strategic and financial decisions. Senior managers are best placed to speak to questions about investment, employment, and innovation strategy. They are also more likely to be aware of how and whether the program has influenced the firm's trajectory.
+For EU Managing Authorities, compliance with the **General Data Protection Regulation (GDPR)** is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
 
-That said, the right respondent depends on what is being measured. If the evaluation is focused on the experience of R&D personnel, or on the take-up of training by specific staff groups, those individuals may be better placed to answer certain questions than a general manager. Where possible, the respondent should be the same person at baseline and endline, to ensure that differences in answers reflect real changes rather than differences between respondents.
-
-### Timing
-
-The timing of a survey significantly affects the quality of data collected. At the operational level, surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries, due to summer holidays. The end of the financial year is also problematic, as finance teams are typically occupied with closing accounts and reporting obligations.
-
-At the evaluation design level, the timing of surveys must be tied to the program timeline. A **baseline survey** must be completed before the intervention begins — and, where possible, before firms even know whether they will receive support — to avoid any contamination of pre-intervention data. The **endline survey** should be timed to when effects can realistically be expected to have materialised: too soon after the intervention ends, and genuine impacts may not yet be visible. Depending on the intervention, one or more **intermediate surveys** may also be needed to track progress along the ToC and to monitor compliance and take-up.
-
-Managing Authorities should also be mindful of **survey fatigue**. Beneficiaries who are contacted repeatedly for monitoring and evaluation purposes may become less willing to participate, reducing response rates and data quality over time. Coordinating across different data collection exercises — and keeping each survey as concise as the evaluation objectives allow — helps manage this risk.
-
----
-
-## Data Protection and GDPR Compliance
-
-For EU Managing Authorities, compliance with the **General Data Protection Regulation (GDPR)** is not optional — it is a legal obligation that applies to any data collection exercise involving personal data or information that could be used to identify individual firms or persons.
-
-In practice, this means that before any survey goes into the field, the following must be in place:
-
-- A clear **legal basis** for processing personal data (typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents)
-- An **informed consent** process: respondents must be clearly told how their data will be used, how long it will be retained, and who will have access to it, before they agree to participate
-- **Anonymisation or pseudonymisation** of responses wherever possible, so that published results cannot be traced back to individual respondents or firms
+- A clear **legal basis** for processing personal data — typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents
+- An **informed consent** process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate
+- **Anonymisation or pseudonymisation** of responses wherever possible
 - Appropriate **data security measures**, including restricted access to identifiable data
-- A **data protection impact assessment (DPIA)**, where the scale or sensitivity of the data collection warrants it
+- A **data protection impact assessment (DPIA)** where the scale or sensitivity of data collection warrants it
 
-Managing Authorities should involve their data protection officer early in the evaluation design process — not as a final approval step, but as part of the initial planning. Data sharing agreements with third-party survey firms or external evaluators must also address GDPR requirements explicitly.
+Managing Authorities should involve their Data Protection Officer early in the design process — not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
 
-Beyond legal compliance, handling data responsibly also builds trust with beneficiaries. Firms and individuals who feel their information is being treated with care are more likely to participate in surveys and to answer honestly — which directly improves the quality of the evidence the evaluation produces.
 
----
+## What comes next
+
+Data collection is only as valuable as the quality of what is collected. Step 7 covers the checks — before, during, and after fieldwork — that protect the evaluation from the data quality problems most likely to bias results.
+
+
+::: {.nav-buttons}
+[← Previous: Step 5 — Identify available data sources](02.05-data_sources.qmd) | [Next: Step 7 — Ensure high-quality data →](02.07-data_quality.qmd)
+:::
