@@ -465,6 +465,607 @@ pilot.
 :::
 :::
 ---
+::: {.team-note}
+**Status: In implementation**
+
+The four programmes below are currently being rolled out by EuroCOMP Lab country teams. Nothing here reports results — there are none yet. The sections describe the planned intervention, the evaluation design, and the questions each study is set up to answer; outcomes will be added once data collection and analysis are complete.
+:::
+
+## Bulgaria: Human-led versus AI-led business consulting
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Northern Bulgaria's micro and small enterprises (MSEs) — over 98% of firms in the
+region — lag far behind Southern Bulgaria and the EU average. Depopulation and aging
+have left "ghost towns" with shrinking labor pools and declining customer bases, and
+managerial skills, often picked up informally, limit the uptake of modern business
+practices. AI adoption is strikingly low: just 6.5% of firms in the region use AI,
+against an EU average of 13.5%.
+:::
+::: {.card-e}
+**What is being tested**
+
+The Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA) is launching a
+programme that pairs group training in managerial skills with one of three ways of
+delivering further support: one-on-one human-led consulting, a subscription to an
+off-the-shelf AI platform such as ChatGPT Premium, or a customised AI tool that
+proactively nudges managers toward it. The aim is to find out whether AI-led
+alternatives can match costly human consulting at a fraction of the price.
+:::
+:::
+
+### What the evaluation aims to answer
+
+::: {.quote-e}
+"Can lower-cost, AI-led consulting match the effectiveness of traditional human-led
+consulting for small firms?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Group training in managerial skills, then one of three support modes: human-led consulting, an AI subscription, or a customised AI-led consulting tool</div></div>
+  <div><div class="k">Where</div><div class="v">Northern Bulgaria; Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">600 MSEs (fewer than 50 employees) in retail, agricultural processing, services and manufacturing, stratified by sector, region and owner gender</div></div>
+  <div><div class="k">The design</div><div class="v">Four-arm RCT: pure control, training + human consulting, training + AI subscription, training + AI-led consulting tool (150 firms per arm)</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Firm sales, sales per worker, profits and exports; management practices, foreign-market knowledge, access to suppliers, finance and customers</div></div>
+  <div><div class="k">Starting point</div><div class="v">MSEs report 88% lower sales per worker than larger firms on average, and only 6.5% of regional firms use AI, against an EU average of 13.5%</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Recruitment &amp; applications</div>
+  <div>Random assignment</div>
+  <div>Training &amp; consulting rollout</div>
+  <div>Endline survey</div>
+  <div>Follow-up survey</div>
+</div>
+```
+
+### How the programme is designed
+
+The Agency will mobilise applicants directly across northern Bulgaria; up to 450
+eligible firms will be offered business support, with no applicant guaranteed a
+place. Once 600 eligible firms have applied, firms are randomly allocated, stratified
+by sector, region and owner gender, to a pure control group or one of three treatment
+arms.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 740 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="600 eligible MSEs are randomly split into four equal arms of 150 firms each: a pure control group, training plus human-led consulting, training plus an AI subscription, and training plus a customised AI-led consulting tool">
+  <rect x="10" y="95" width="140" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="80" y="125" text-anchor="middle" fill="#2B2724" font-size="18" font-weight="bold">600</text>
+  <text x="80" y="144" text-anchor="middle" fill="#6B6455" font-size="9.5">eligible MSEs</text>
+
+  <path d="M150 130 H182" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M182 130 V20 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M182 130 V90 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M182 130 V170 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M182 130 V240 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="214" y="0" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="228" y="25" fill="#2B2724" font-size="12" font-weight="bold">150 control</text>
+  <text x="330" y="25" fill="#6B6455" font-size="10.5">no training or consulting</text>
+
+  <rect x="214" y="70" width="516" height="40" rx="5" fill="#F2C94C"/>
+  <text x="228" y="95" fill="#2B2724" font-size="12" font-weight="bold">150 training + human-led consulting</text>
+  <text x="560" y="95" fill="#2B2724" font-size="10.5">one-on-one, in person</text>
+
+  <rect x="214" y="150" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="228" y="175" fill="#2B2724" font-size="12" font-weight="bold">150 training + AI subscription</text>
+  <text x="560" y="175" fill="#6B6455" font-size="10.5">e.g. ChatGPT Premium</text>
+
+  <rect x="214" y="220" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="228" y="245" fill="#2B2724" font-size="12" font-weight="bold">150 training + AI-led consulting tool</text>
+  <text x="600" y="245" fill="#6B6455" font-size="10.5">proactive nudges</text>
+</svg>
+<figcaption>600 eligible MSEs are randomly assigned in equal shares to a control group and three treatment arms, so each AI-based alternative can be compared directly to human-led consulting.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: putting human-led consulting and two AI-based
+alternatives in the same trial, against the same control group, lets the evaluation
+rank all three by cost-effectiveness rather than comparing each in isolation.
+Limitation: with 150 firms per arm, the study is powered to detect a change in sales
+of around 26% or more, so more modest effects could go undetected.
+:::
+
+### What the evaluation will tell us
+
+::: {.cards}
+::: {.card-e}
+**Human-led vs AI-led**
+
+Whether a customised, proactively-nudging AI tool can approach the effectiveness of
+costly one-on-one human consulting, at a much lower marginal cost.
+:::
+::: {.card-e}
+**Off-the-shelf vs custom AI**
+
+Whether simply subscribing managers to an existing tool like ChatGPT Premium is
+enough, or whether a tailored, proactive AI platform is needed to change business
+practices.
+:::
+::: {.card-e}
+**How durable are the gains**
+
+Whether improvements from AI-enabled consulting persist for longer than from
+human-led consulting, since managers keep the ability to self-serve after the
+programme ends.
+:::
+:::
+
+::: {.caution}
+The main risks to the evaluation are insufficient take-up of consulting or AI
+services, and non-random attrition between the baseline and the two follow-up
+rounds. The team is mitigating these with in-person mobilisation to build the
+applicant pool, and by collecting detailed contact and backup information from every
+participant to support tracking through fall 2027.
+:::
+
+---
+
+## Poland: AI assistance for smarter Horizon Europe applications
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Polish SMEs underperform in Horizon Europe, the EU's flagship innovation funding
+programme: a 16.5% success rate, against an EU-27 average of 20.3%. Funding is also
+highly concentrated — just 11 SMEs account for roughly a third of all Polish
+projects. A previous support scheme, "Grants for Eurogrants," converted only 400 of
+about 1,700 applications into signed contracts, and just 19 firms ultimately secured
+EU funding. Only 20.1% of firms report knowing PARP, the agency responsible for this
+support.
+:::
+::: {.card-e}
+**What is being tested**
+
+The Polish Agency for Enterprise Development (PARP) is testing a three-stage pilot:
+behavioural messaging to raise awareness of its support; a machine-learning model
+that scores firms' likelihood of Horizon Europe success, used to target
+encouragement calls; and an AI-based advisory tool paired with a human "technology
+scout" for firms that express interest in applying.
+:::
+:::
+
+### What the evaluation aims to answer
+
+::: {.quote-e}
+"Can behavioural messaging, algorithmic targeting and AI-assisted advice raise the
+number and quality of Polish Horizon Europe applications?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">A three-stage pilot: behavioural outreach messaging, machine-learning targeting with encouragement calls, and AI-tool-plus-technology-scout application support</div></div>
+  <div><div class="k">Where</div><div class="v">Poland; Polish Agency for Enterprise Development (PARP)</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">~120,000 SMEs reached with outreach messages; ~11,000 Horizon-eligible firms in the targeting stage; up to ~500 interested firms in the support stage</div></div>
+  <div><div class="k">The design</div><div class="v">Three nested RCTs: a messaging A/B/C test, ranked-vs-random encouragement calls, and AI-tool-and-scout support (~200 firms) vs. a waitlist</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Email/ad engagement, applications to PARP and Horizon Europe, blind-rated application quality, funding success, and firm employment, revenue and survival</div></div>
+  <div><div class="k">Starting point</div><div class="v">Just 16.5% of Polish Horizon Europe applications succeed, against an EU-27 average of 20.3%, and only 20.1% of firms report knowing PARP</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Outreach messaging</div>
+  <div>ML targeting</div>
+  <div>Encouragement calls</div>
+  <div>Support sign-up</div>
+  <div>AI-tool &amp; scout support</div>
+</div>
+```
+
+### How the programme is designed
+
+Three experiments are nested inside PARP's own application funnel. First, roughly
+120,000 SMEs are randomly shown one of three outreach messages, from a plain
+fact-based announcement to versions adding behavioural nudges and information about
+the new AI-powered support. Second, from a pool of about 11,000 Horizon-eligible
+firms, one half is ranked by a machine-learning model trained on past Horizon
+winners; the top 500 ranked firms and 500 randomly-selected firms then both receive
+an encouragement call. Third, among the roughly 400–500 firms that register interest
+in extra support, 200 are randomly selected for immediate access to an AI advisory
+tool and a technology scout, while the remainder are waitlisted.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 760 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three nested experiments: around 120,000 SMEs are randomly shown one of three outreach messages; around 11,000 eligible firms are split into a ranked half and a not-ranked half, with 500 firms from each called to encourage applications; and around 200 of the interested firms are randomly given AI tool and technology scout support, with the rest waitlisted">
+  <rect x="10" y="10" width="230" height="80" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="125" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 1: Outreach</text>
+  <text x="125" y="54" text-anchor="middle" fill="#6B6455" font-size="10">~120,000 SMEs</text>
+  <text x="125" y="70" text-anchor="middle" fill="#6B6455" font-size="10">3 randomised messages (A/B/C)</text>
+
+  <rect x="265" y="10" width="230" height="80" rx="6" fill="#F2C94C"/>
+  <text x="380" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 2: Targeting</text>
+  <text x="380" y="54" text-anchor="middle" fill="#2B2724" font-size="10">~11,000 eligible firms</text>
+  <text x="380" y="70" text-anchor="middle" fill="#2B2724" font-size="10">ranked (500 called) vs. not-ranked (500 called)</text>
+
+  <rect x="520" y="10" width="230" height="80" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="635" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 3: Support</text>
+  <text x="635" y="54" text-anchor="middle" fill="#6B6455" font-size="10">~400&ndash;500 interested firms</text>
+  <text x="635" y="70" text-anchor="middle" fill="#6B6455" font-size="10">~200 AI tool + scout vs. waitlist</text>
+
+  <path d="M240 50 H265" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M495 50 H520" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <text x="10" y="130" fill="#6B6455" font-size="11">Each stage is a separate randomisation, feeding firms forward into PARP's existing application funnel.</text>
+</svg>
+<figcaption>Three nested experiments track firms from broad outreach through algorithmic targeting to intensive AI-and-scout application support.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: nesting three experiments inside PARP's own
+application funnel means each stage's estimate is drawn from firms who arrive
+naturally through the programme, not an artificial sample. Limitation: because later
+stages depend on take-up from earlier ones, the sample shrinks at each step, leaving
+less statistical power for the innermost support experiment.
+:::
+
+### What the evaluation will tell us
+
+::: {.cards}
+::: {.card-e}
+**Does messaging move firms?**
+
+Whether behavioural nudges — social proof, urgency framing, expected-value framing —
+raise click-throughs and registrations more than PARP's standard, fact-based
+messaging.
+:::
+::: {.card-e}
+**Can an algorithm find promising firms?**
+
+Whether a machine-learning "Horizon potential score," trained on past winners,
+identifies firms more likely to submit competitive applications than outreach
+targeted at random.
+:::
+::: {.card-e}
+**Does AI-assisted support raise quality?**
+
+Whether pairing an AI advisory tool with a human technology scout increases
+application rates, application quality and ultimately funding success, compared with
+PARP's standard waitlist resources.
+:::
+:::
+
+::: {.caution}
+The clearest risk to implementation is legal: whether informing firms that a
+machine-learning model identified them as "high-potential" is compatible with EU
+data-protection law is still under review, and may limit how the targeting stage can
+be communicated. The team is also tracking whether firms treat encouragement phone
+calls as credible outreach from PARP rather than as spam.
+:::
+
+---
+
+## Romania (North-East): AI assistance for smarter grant reviews
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+At Romania's Regional Development Agencies, grant application reviews are slow and
+inconsistent. The 2023 Microenterprise call at the North-East RDA took roughly seven
+months from submission to contract, generated 50 technical-financial appeals and 19
+contracting appeals, and disadvantaged smaller firms: enterprises under two years
+old, with no employees or turnover below 250,000 RON, succeeded only 14% of the
+time, against over 90% for firms with turnover of 1.5–2 million RON. Many applicants
+turn to a large consultancy industry — an estimated €527 million in annual turnover
+across 1,500 firms — just to navigate the process.
+:::
+::: {.card-e}
+**What is being tested**
+
+The North-East Regional Development Agency (RDA), with the automation company
+UiPath, has built an AI decision-support tool that benchmarks proposed budgets,
+flags risks, and supports reviewers on eligibility and quality criteria. It is being
+embedded in the 2026 Microenterprise Growth Grant Call (about €30 million), with
+reviewers randomly assigned to work with or without the tool, and funded projects
+randomly assigned to AI-assisted or standard monitoring.
+:::
+:::
+
+### What the evaluation aims to answer
+
+::: {.quote-e}
+"Can an AI decision-support tool make public grant reviews faster, more consistent
+and better targeted, without compromising fairness?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (&asymp;&euro;30 million)</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30&ndash;40 trained reviewers; ~150 funded projects</div></div>
+  <div><div class="k">The design</div><div class="v">Multi-phase RCT: reviewers randomised to AI-assisted or human-only review at each stage; ~150 grants allocated by lottery within score bands; funded projects randomised to AI-assisted or standard monitoring</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Review time and scores, clarification requests and appeals, on-time disbursement, and funded-firm survival, employment, revenue and investment</div></div>
+  <div><div class="k">Starting point</div><div class="v">The 2023 call took roughly seven months from submission to contract; firms under two years old or with no employees had a 14% success rate, against over 90% for the highest-turnover firms</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Expression of interest</div>
+  <div>AI-assisted or human review</div>
+  <div>Full proposal &amp; review</div>
+  <div>Funding lottery</div>
+  <div>AI-assisted or standard monitoring</div>
+</div>
+```
+
+### How the programme is designed
+
+Around 1,000 expressions of interest are expected, each assigned to one of 30–40
+trained reviewers who are randomly given, or not given, access to the AI tool;
+reviewers cycle between AI-assisted and unassisted batches so the comparison is not
+confounded by reviewer ability. Roughly 800 full proposals then go through the same
+randomised review process. Of the approximately 600 proposals that clear eligibility
+checks, about 150 are funded through a lottery run separately within AI-assisted and
+human-only score bands, so funding decisions stay comparable across review modes.
+Funded projects are then randomly assigned to AI-assisted or standard monitoring
+during implementation.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 760 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,000 expressions of interest, each reviewed with or without AI assistance, narrow to 800 full proposals, then 600 proposals eligible for a funding lottery run separately within AI-assisted and human-only score bands, resulting in 150 funded projects that are randomly assigned to AI-assisted or standard monitoring">
+  <rect x="10" y="75" width="130" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="75" y="105" text-anchor="middle" fill="#2B2724" font-size="17" font-weight="bold">1,000</text>
+  <text x="75" y="124" text-anchor="middle" fill="#6B6455" font-size="9">expressions of interest</text>
+
+  <path d="M140 110 H168" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="168" y="75" width="130" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="233" y="105" text-anchor="middle" fill="#2B2724" font-size="17" font-weight="bold">800</text>
+  <text x="233" y="124" text-anchor="middle" fill="#6B6455" font-size="9">full proposals</text>
+
+  <path d="M298 110 H326" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="326" y="75" width="140" height="70" rx="6" fill="#F2C94C"/>
+  <text x="396" y="105" text-anchor="middle" fill="#2B2724" font-size="14" font-weight="bold">600 eligible</text>
+  <text x="396" y="124" text-anchor="middle" fill="#2B2724" font-size="9">funding lottery, by score band</text>
+
+  <path d="M466 110 H498" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M498 110 V38 H528" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M498 110 V182 H528" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="528" y="10" width="222" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="542" y="32" fill="#2B2724" font-size="12" font-weight="bold">75 funded: AI monitoring</text>
+  <text x="542" y="49" fill="#6B6455" font-size="9.5">automated risk flags</text>
+
+  <rect x="528" y="154" width="222" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="542" y="176" fill="#2B2724" font-size="12" font-weight="bold">75 funded: standard monitoring</text>
+  <text x="542" y="193" fill="#6B6455" font-size="9.5">human oversight only</text>
+</svg>
+<figcaption>Reviewers are randomly assigned to work with or without the AI tool at each review stage (not shown); funded projects are then randomly split between AI-assisted and standard monitoring.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: randomising AI access at the reviewer-proposal level,
+with each reviewer cycling between AI-assisted and unassisted batches, isolates the
+effect of the tool from differences between reviewers. Limitation: because a
+reviewer with AI access can choose how much to rely on it, the design measures the
+effect of being offered AI support (intention-to-treat), not of using it, though
+usage telemetry will help distinguish the two.
+:::
+
+### What the evaluation will tell us
+
+::: {.cards}
+::: {.card-e}
+**Faster, more consistent reviews**
+
+Whether AI-assisted reviewers complete assessments faster, and with fewer
+clarification requests or appeals, than reviewers working without AI support.
+:::
+::: {.card-e}
+**Sharper targeting of promising firms**
+
+Whether the relationship between evaluation scores and firms' later performance is
+stronger when those scores were produced with AI assistance.
+:::
+::: {.card-e}
+**Fair treatment across firm types**
+
+Whether AI assistance changes the pattern of scores and funding by owner gender,
+firm age and sector, as part of a pre-registered bias audit.
+:::
+:::
+
+::: {.caution}
+The central safeguard against biased AI outputs is a systematic audit of scoring
+patterns across firm groups after the expression-of-interest phase; if the audit
+finds significant disparities, the underlying prompts and models will be reviewed
+and adjusted before the full-proposal stage goes ahead.
+:::
+
+---
+
+## Romania (South Muntenia): The returns to innovation subsidies
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+South Muntenia is a lagging EU region, ranked 243rd of EU regions on the Regional
+Innovation Scoreboard, with an Innovation Readiness Index of just 28. Only 6.3% of
+firms are classified as innovative, and just 1.4% of the workforce works in
+high-tech sectors. Between 2014 and 2020, Romania allocated €1.6 billion to public
+research institutes but only €74 million to private firms, and the region hosts just
+3% of the country's research infrastructure.
+:::
+::: {.card-e}
+**What is being tested**
+
+The South Muntenia Regional Development Agency (SM-RDA) is allocating €24.8 million
+in innovation subsidies to SMEs, cross-randomised with a management-training
+programme on change and innovation culture. Grants are assigned through a two-stage
+design: geographic or sector clusters are randomly assigned different shares of
+funded firms, and firms within each cluster are then randomly selected to receive
+funding — allowing the evaluation to separate a firm's own private return from
+spillovers onto its neighbours.
+:::
+:::
+
+### What the evaluation aims to answer
+
+::: {.quote-e}
+"Do the private returns to innovation subsidies for SMEs exceed their social
+returns, once spillovers to other firms are taken into account?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
+  <div><div class="k">Where</div><div class="v">South Muntenia, Romania; South Muntenia Regional Development Agency (SM-RDA), &euro;24.8 million SME innovation grant allocation</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">&asymp;900 SMEs across 100 geographic or sectoral clusters (&asymp;9 firms per cluster), excluding agricultural firms</div></div>
+  <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Short-run revenue, inputs, profit, productivity, investment, pricing and product variety; medium- to long-run technology adoption, new products, licensing and patenting</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 6.3% of firms in the region are classified as innovative and just 1.4% of the workforce works in high-tech sectors, with an Innovation Readiness Index of 28</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Call for proposals</div>
+  <div>Cluster formation</div>
+  <div>Cluster-level intensity</div>
+  <div>Firm-level lottery</div>
+  <div>Grant &amp; monitoring</div>
+</div>
+```
+
+### How the programme is designed
+
+After the call for proposals closes, applicant firms are grouped into roughly 100
+clusters based on geographic or sectoral proximity. Each cluster is then randomly
+assigned a funding intensity — the share of its firms that will receive a subsidy,
+set at 0%, 33%, 66% or 100% — and firms within the cluster are randomly selected for
+funding up to that share. Comparing outcomes across clusters with different
+intensities isolates spillover effects, while comparing funded and unfunded firms
+within the same cluster isolates each firm's own private return.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Roughly 100 clusters of about 9 firms each are randomly assigned a funding intensity of 0, 33, 66 or 100 percent; within each cluster, firms are then randomly selected for funding up to that share, illustrated here for a single cluster at 33 percent intensity with 3 of 9 firms funded">
+  <text x="10" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Cluster-level intensity (randomised across &asymp;100 clusters)</text>
+
+  <rect x="10" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">0% funded</text>
+
+  <rect x="176" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="251" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">33% funded</text>
+
+  <rect x="342" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="417" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">66% funded</text>
+
+  <rect x="508" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="583" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">100% funded</text>
+
+  <path d="M251 82 V110" stroke="#B9AF95" stroke-width="1.5"/>
+  <text x="251" y="128" text-anchor="middle" fill="#6B6455" font-size="10.5">Example cluster at 33% intensity: 9 firms, 3 randomly funded</text>
+
+  <g>
+    <rect x="30" y="148" width="52" height="52" rx="5" fill="#F2C94C"/>
+    <rect x="92" y="148" width="52" height="52" rx="5" fill="#F2C94C"/>
+    <rect x="154" y="148" width="52" height="52" rx="5" fill="#F2C94C"/>
+    <rect x="216" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+    <rect x="278" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+    <rect x="340" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+    <rect x="402" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+    <rect x="464" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+    <rect x="526" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  </g>
+  <text x="56" y="178" text-anchor="middle" fill="#2B2724" font-size="9.5">funded</text>
+  <text x="118" y="178" text-anchor="middle" fill="#2B2724" font-size="9.5">funded</text>
+  <text x="180" y="178" text-anchor="middle" fill="#2B2724" font-size="9.5">funded</text>
+
+  <text x="10" y="232" fill="#6B6455" font-size="11">Comparing across clusters isolates spillovers; comparing within a cluster isolates each firm's own private return.</text>
+</svg>
+<figcaption>Clusters are randomly assigned a funding intensity; within each cluster, firms are then randomly selected for funding up to that share.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: varying funding intensity across clusters, on top of
+randomising which firms within a cluster are funded, lets the evaluation separate a
+firm's private return from spillovers onto its neighbours and competitors.
+Limitation: the design captures spillovers within a cluster but not across cluster
+boundaries, which the team plans to approximate separately with a structural,
+network-based model.
+:::
+
+### What the evaluation will tell us
+
+::: {.cards}
+::: {.card-e}
+**Do subsidies pay off for the firm?**
+
+Whether receiving an innovation subsidy raises a firm's revenue, profits,
+productivity and investment in the short run, and its technology adoption and
+patenting over the longer run.
+:::
+::: {.card-e}
+**Do the gains spread, or just shift?**
+
+Whether firms in higher-intensity clusters see larger productivity gains through
+knowledge diffusion, or whether funded firms instead grow at competitors' expense.
+:::
+::: {.card-e}
+**Does training make subsidies work harder?**
+
+Whether pairing the grant with training on change management and innovation culture
+strengthens firms' ability to absorb and use the funding.
+:::
+:::
+
+::: {.caution}
+The main risk to the spillover analysis is statistical power: if spillovers turn out
+to be smaller than about 8 percentage points (roughly a third of the expected direct
+subsidy effect), that part of the analysis will be underpowered. Even so, the team
+notes the resulting estimates will still provide useful benchmarks for calibrating
+models of innovation diffusion, an area where experimental evidence remains scarce.
+:::
+
+---
 ## Earlier work by the EuroCOMP Lab team: Digitrans 
 
 ::: {.cards}
