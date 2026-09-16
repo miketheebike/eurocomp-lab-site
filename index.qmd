@@ -28,13 +28,60 @@ This video will be replaced through the video featuring the DG-Regio team.
 {{< video https://youtu.be/yeEmFmDABIk title="The case for experimentation" aspect-ratio="16x9" >}}
 :::
 
+## What is impact evaluation — and where does experimentation fit in?
+
+::: {.gold-panel}
+Impact evaluation answers the question: what causal effect did this programme have
+on outcomes like firm survival, employment, or innovation — for whom did it work
+best, and under which conditions?
+:::
+
+An impact evaluation's goal is to isolate a programme's actual (causal) effect from everything
+else going on — economic trends, other policies, or the kinds of firms likely to apply for support in
+the first place — rather than just describing what happened. It compares what actually
+happened after introducing a programme to what would have likely happened without it, the
+counterfactual.
+
+There is more than one credible way to do this.
+
+::: {.cards}
+::: {.card-e}
+#### Not the same as M&E
+M&E tracks whether a programme is implemented as planned. Impact evaluation tests whether
+it caused a real difference, compared to what would have happened without it.
+:::
+::: {.card-e}
+#### Different ways to conduct impact evaluation
+Some impact evaluations are randomised controlled trials (RCTs): the comparison group is
+built in before the programme launches, so the estimate does not depend on assumptions
+defended after the fact. Others are quasi-experimental — difference-in-differences, matching,
+regression discontinuity — applied to data that already exists, usually once a programme has
+already ended. Both count as impact evaluation. This site focuses on the first: designing the
+evaluation in from day one.
+:::
+::: {.card-e}
+#### Adaptive learning
+Each evaluation answers some questions and raises new ones, helping you to design more impactful programmes next time.
+:::
+:::
+
+You may already have evaluated a programme's impact — perhaps using matching,
+difference-in-differences, or a regression discontinuity, comparing participants to similar
+non-participants using data collected after the programme had already ended. That is impact
+evaluation too, and it can be credible. But because the comparison group is assembled after
+the fact, its credibility rests on assumptions — that trends really were parallel, that matched
+firms did not differ on anything unobserved, that the cutoff was clean — that have to be
+separately defended.
+
+Now imagine doing this differently: designing the comparison group *before* the programme
+launches, as part of the call for proposals itself. That is what a randomised controlled trial
+does — and it is what the rest of this site is about.
+
 
 
 ## Randomised controlled trials show what works and why
 
-By comparing what happens to programme participants to an on average identical group that does not receive the program, a randomised controlled trial can show whether a cohesion policy programme is the reason things improved. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
-
-Did you already evaluate a programme once it had already ended? A credible comparison isolates the impact of the programme from other changes happening at the same time, such as economic shocks. To be confident in the comparison group, the programme needs to be designed ex-ante, before the call for proposals launches. 
+By comparing what happens to programme participants to an on average identical group that does not receive the programme, a randomised controlled trial can show whether a cohesion policy programme is the reason things improved. Because the comparison group is built in before the programme launches — rather than assembled afterward from whoever happens to look similar — the estimate does not need to defend assumptions later. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
 
 ### Think you already know what programme works and whom to fund?
 
@@ -204,36 +251,6 @@ Other already established labs already supporting experimentation
 
 :::
 
-
-## But what is impact evaluation exactly?
-
-::: {.gold-panel}
-It allows us to answer the questions: what impact did this intervention have on firms, and how did different approaches to implementation change the outcomes? For whom did it work
-best, and under which conditions?
-:::
-
-To answer that, an impact evaluation's goal is to isolate a programme's actual (causal) effect from everything
-else going on - economic trends, other policies, or the kinds of firms likely to apply for support in
-the first place - rather than just describing what happened. It compares what actually
-happened after introducing a programme to what would have likely happened without it, the
-counterfactual.
-
-::: {.cards}
-::: {.card-e}
-#### Not the same as M&E
-M&E tracks whether a programme is implemented as planned. Impact evaluation tests whether
-it caused a real difference, compared to what would have happened without it.
-:::
-::: {.card-e}
-#### Built in from day one
-The comparison group, sample size, and data collection all depend on decisions made
-before a programme launches, not added on afterward.
-:::
-::: {.card-e}
-#### Adaptive learning 
-Each evaluation answers some questions and raises new ones, helping you to design more impactful programmes next time.
-:::
-:::
 
 
 
