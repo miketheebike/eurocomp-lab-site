@@ -13,9 +13,7 @@ This page explains how to assess the feasibility of an RCT.
 
 ## Randomisation must be designed in from the start
 
-An RCT is not something that can be added to a programme after launch. The comparison
-group, the eligibility rules, and the baseline data all have to be settled before the
-first grant is awarded.
+An RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.
 
 ```{=html}
 <figure class="fig-e">
