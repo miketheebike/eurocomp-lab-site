@@ -713,6 +713,81 @@ li > strong:first-child { color: $eu-blue; }
 }
 
 
+/* ---- step navigation, previous / next links between subpages ---- */
+.nav-buttons p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin: 0;
+  font-size: 0; // collapses the literal | separator character
+}
+
+.nav-buttons {
+  margin-top: 3rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid $rule;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    padding: .45rem .9rem;
+    font-size: .85rem;  // restore font size suppressed on <p>
+    font-weight: 700;
+    letter-spacing: .02em;
+    border-radius: 2px; // matches the site's square-corner register
+    border: 1px solid $eu-blue;
+    color: $eu-blue;
+    background-color: transparent;
+    text-decoration: none;
+    transition: background-color .15s ease, color .15s ease;
+
+    &:hover {
+      background-color: $eu-blue;
+      color: #FFFFFF;
+      text-decoration: none;
+    }
+
+    // "Next" link — filled blue, mirrors .gold-panel treatment
+    &:last-child {
+      margin-left: auto;
+      background-color: $eu-blue;
+      color: #FFFFFF;
+      border-color: $eu-blue;
+
+      &:hover {
+        background-color: $eu-blue-dark;
+        border-color: $eu-blue-dark;
+      }
+    }
+  }
+}
+
+// When there is only one link (Step 1 has no Previous; Step 7 has no Next)
+// the single link should still sit at the correct end.
+.nav-buttons p a:only-child {
+  margin-left: auto; // pushes a lone "Next" right
+}
+.nav-buttons p a:only-child[href*="02-how"] {
+  margin-left: 0; // "Back to main page" should sit left
+}
+
+@media (max-width: 560px) {
+  .nav-buttons p {
+    flex-direction: column;
+  }
+  .nav-buttons a,
+  .nav-buttons a:last-child {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+
 /* ---- myths accordion, click-to-expand FAQ rows ---- */
 .myths-grid {
   margin: 1.6rem 0;
