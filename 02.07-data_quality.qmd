@@ -63,6 +63,7 @@ Before using administrative data as an outcome source, the evaluation team shoul
 
 Where administrative data quality is uncertain, the evaluation should include a validation exercise — comparing a subset of administrative records against survey-reported values from the same firms — before relying on it as the primary outcome source.
 
+---
 
 ::: {.nav-buttons}
 [← Previous: Step 6 — Collect data](02.06-data_collect.qmd) | [← Back to: How to design an RCT](02-how.qmd)
