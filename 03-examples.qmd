@@ -4,26 +4,26 @@ title: "Examples"
 
 
 ::: {.team-note}
-#### Summary
+**Summary**
+
 Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.
 :::
 
-
-::: {.eyebrow}
-EuroCOMP Lab evaluations
-:::
+**EuroCOMP Lab evaluations**
 
 ## Spain: Financial support to innovate
 
 ::: {.cards}
 ::: {.card-e}
-#### The problem
+**The problem**
+
 Market failures keep research and development (R&D) investment in Extremadura below
 its optimal level. Small and medium firms in the region under-invest in innovation,
 particularly in agriculture and the ecological transition.
 :::
 ::: {.card-e}
-#### What was done
+**What was done**
+
 The Regional Government of Extremadura (JUNTA) and the Extremadura Science and
 Technology Park Foundation (FUNDECYT-PCTEx) created an EU-funded matching grant
 programme for small and medium firms.
@@ -33,9 +33,7 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 :::
 :::
 
-::: {.eyebrow}
-What experimentation sought to answer
-:::
+### What experimentation sought to answer
 
 ::: {.quote-e}
 "What is the impact of R&D grants on SMEs' business performance?"
@@ -119,7 +117,7 @@ certain characteristics dropping out of the study more than others (selective
 attrition) in follow-up survey responses.
 :::
 
-## What the programme achieved
+### What the programme achieved
 
 Three months after receiving the grant, firms in the treatment group reported higher
 planned R&D investment and stronger confidence in their projects than the comparison
@@ -129,19 +127,22 @@ group.
 ::: {.card-e}
 [+48%]{.num}
 
-#### More planned R&D investment for 2025
+**More planned R&D investment for 2025**
+
 €65,000 above the comparison-group average.
 :::
 ::: {.card-e}
 [67%]{.num}
 
-#### Probability of successful implementation
+**Probability of successful implementation**
+
 Up from 16% without funding, according to expert priors.
 :::
 ::: {.card-e}
 [×2]{.num}
 
-#### Expected sales growth, conditional on success
+**Expected sales growth, conditional on success**
+
 From 8% to 16% after receiving the grant, according to expert priors.
 :::
 :::
@@ -153,15 +154,12 @@ private investment, but careful targeting is needed to avoid simply displacing m
 firms would have spent anyway.
 :::
 
-::: {.eyebrow}
-Czechia
-:::
-
-## The problem, and two pilots to solve it
+## Czechia: light-touch support for SMEs
 
 ::: {.cards}
 ::: {.card-e}
-#### The problem
+**The problem**
+
 Entrepreneurial activity remains low in Czech regions hit by the decline of the coal
 industry. These regions need to diversify away from carbon-intensive industries and
 grow their private sector.
@@ -174,7 +172,8 @@ A key part of the JTP is a voucher scheme for entrepreneurs: up to €21,100 for
 development, up to €42,200 for innovation, and up to €21,100 for digital transformation.
 :::
 ::: {.card-e}
-#### What was done
+**What was done**
+
 The World Bank tested two light-touch, complementary pilots that add skills support on
 top of the voucher scheme.
 
@@ -189,9 +188,7 @@ peer-to-peer exchange between firms.
 :::
 :::
 
-::: {.eyebrow}
-What experimentation sought to answer
-:::
+### What experimentation sought to answer
 
 ::: {.quote-e}
 "Does light-touch support to SMEs improve firm capabilities and performance?"
@@ -201,7 +198,7 @@ What experimentation sought to answer
 <div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
 ```
 
-## Czechia: Smart Start entrepreneur training
+### Czechia: Smart Start entrepreneur training
 
 ```{=html}
 <div class="facts">
@@ -226,7 +223,7 @@ What experimentation sought to answer
 </div>
 ```
 
-## Czechia: AI adoption in post-coal regions
+### Czechia: AI adoption in post-coal regions
 
 ```{=html}
 <div class="facts">
@@ -252,7 +249,7 @@ What experimentation sought to answer
 ```
 
 
-## How the two pilots were tested
+### How the two pilots were tested
 
 Both pilots drew their sample from firms that had already shown interest, then invited
 roughly two in three of them by random selection, leaving the rest as a comparison
@@ -316,7 +313,7 @@ group.
 </figure>
 ```
 
-## What the two pilots achieved
+### What the two pilots achieved
 
 ::: {.compare}
 ::: {.col-e}
@@ -339,15 +336,12 @@ AI Klub
 :::
 :::
 
-::: {.eyebrow}
-Croatia
-:::
-
-## The problem, and the programme
+## Croatia: matching businesses with scientists
 
 ::: {.cards}
 ::: {.card-e}
-#### The problem
+**The problem**
+
 Firms and scientists in Croatia struggle to collaborate: information frictions,
 uncertain transaction costs and limited outreach budgets get in the way, especially for
 small and medium firms.
@@ -357,7 +351,8 @@ EU average. A World Bank survey found that 47% of firms lacked information about
 relevant scientists.
 :::
 ::: {.card-e}
-#### What was done
+**What was done**
+
 The World Bank, the Innovation Centre Nikola Tesla and the Ministry of Science,
 Education and Youth designed "Scinergy", a business-science matchmaking pilot
 targeting fields such as AI, energy and biotechnology.
@@ -368,9 +363,7 @@ support to help pairs plan R&D projects together.
 :::
 :::
 
-::: {.eyebrow}
-What experimentation sought to answer
-:::
+### What experimentation sought to answer
 
 ::: {.quote-e}
 "Does connecting firms with scientists foster research partnerships and innovation?"
@@ -380,7 +373,7 @@ What experimentation sought to answer
 <div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
 ```
 
-## Croatia: matching businesses with scientists
+### The programme
 
 ```{=html}
 <div class="facts">
@@ -406,7 +399,7 @@ What experimentation sought to answer
 ```
 
 
-## How the programme was tested
+### How the programme was tested
 
 Firms applied between November 2023 and January 2024. In February 2024, eligible firms
 were randomly assigned by lottery to receive matchmaking support or not.
@@ -451,23 +444,26 @@ thanks to a simple application process. Limitation: firms may drop out after app
 which can reduce statistical power.
 :::
 
-## What the programme achieved
+### What the programme achieved
 
 ::: {.cards}
 ::: {.card-e}
 [+38%]{.num}
 
-#### Collaboration attempts with scientists
+**Collaboration attempts with scientists**
+
 Treated firms were more likely to attempt and to sustain collaborations with Croatian
 researchers.
 :::
 ::: {.card-e}
 [+50%]{.num}
 
-#### Commercialisation of new products
+**Commercialisation of new products**
+
 Among firms that originally requested support in AI, who benefited the most from the
 pilot.
 :::
 :::
 
-# Examples from beyond the Lab
+## Examples from beyond the Lab
+
