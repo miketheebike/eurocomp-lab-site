@@ -477,6 +477,28 @@ the people affected by them.
 :::
 :::
 
+
+## What can go wrong?
+
+Even a well-designed RCT must survive contact with reality.
+
+::: {.caution}
+**Attrition.** Firms drop out of surveys, and the groups stop matching.
+:::
+
+::: {.caution}
+**Spillovers.** Comparison firms benefit anyway, and the measured difference shrinks.
+:::
+
+::: {.caution}
+**Low take-up.** Treated firms never actually use the support.
+:::
+
+::: {.caution}
+**Implementation problems.** The programme is delivered unevenly across firms.
+:::
+
+
 ## Where to go deeper
 
 The mathematics is one click away, so this website stays practical.
