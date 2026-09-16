@@ -189,8 +189,20 @@ comparison group of 519, not invited.
 </svg>
 </figure>
 ```
-
 ::::
+
+
+::: {.gold-panel}
+**Is randomisation permitted under your national legal framework?**
+
+Before proceeding to design the lottery or scoring mechanism, confirm that your national legal framework — and the specific legislation governing your programme — either explicitly permits randomisation as a selection method or is flexible enough to accommodate it without ambiguity.
+
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. This silence can create institutional risk-aversion even where randomisation is not explicitly prohibited. A targeted amendment to implementing regulations, a programme-specific instrument such as a Ministerial Order, or a formal confirmation letter from DG REGIO can provide the necessary legal foundation.
+
+> 📋 **[See the Legal Framework page for country examples, key legal elements, and practical steps →](07-legal.qmd)**
+:::
+
+
 
 ## Running a lottery: transparency vs. behavioural responses
 
