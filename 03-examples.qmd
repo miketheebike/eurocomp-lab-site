@@ -628,4 +628,360 @@ businesses.
 ---
 
 ## Examples from beyond the Lab
+### Colombia: Scaling up management consulting
+
+Source: [Iacovone, L., Maloney, W. F., & McKenzie, D. (2022). Improving management
+with individual and group-based consulting: Results from a randomized experiment in
+Colombia. *Review of Economic Studies*, 89(1),
+346–371.](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913)
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Colombian auto parts manufacturers show wide variation in management practices, and
+weaker practices are closely tied to lower productivity. Structured, hands-on
+management consulting can improve how firms are run, but delivering it in a
+resource-intensive, one-on-one format is costly — a cost that can be prohibitive for
+small and medium firms to finance on their own, and for governments seeking to support
+large numbers of firms at once.
+:::
+::: {.card-e}
+**What was done**
+
+The World Bank, in partnership with the Government of Colombia, tested two lower-cost
+ways to deliver management consulting to small and medium manufacturers: individual,
+firm-by-firm consulting delivered by local teams, and a more novel group-based model
+that works with several firms together to bring costs down further.
+
+Every participating firm, including the comparison group, first received a diagnostic
+assessment of its management practices across five areas — logistics, human resources,
+finance, marketing and sales, and production — carried out by a team of specialist
+consultants.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"Can lower-cost individual or group-based consulting improve small and medium firms'
+management practices and performance?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">A diagnostic for every firm, followed by individual or group-based management consulting</div></div>
+  <div><div class="k">Where</div><div class="v">Colombia &mdash; auto parts manufacturing sector</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">159 eligible firms (manufacturers, tier 1/2 suppliers, 2+ years old, 10+ workers), in 53 matched triplets</div></div>
+  <div><div class="k">The design</div><div class="v">Three-arm RCT: comparison, individual consulting (~US$28,950/firm), group consulting (~US$10,500/firm)</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Management practices; employment, sales, value-added and profits via administrative records</div></div>
+  <div><div class="k">Starting point</div><div class="v">Baseline management scores ranged from 43 to 51 out of 100 across practice areas</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Applications</div>
+  <div>Diagnostic phase</div>
+  <div>Matched-triplet lottery</div>
+  <div>Consulting delivered</div>
+  <div>Outcome tracking</div>
+</div>
+```
+
+
+### How the programme was tested
+
+218 firms applied to Colombia's Programa de Extensionismo Tecnológico. After screening
+for eligibility — established auto parts manufacturers that were tier 1 or 2 suppliers,
+at least two years old, with at least ten employees, and located in Antioquia,
+Cundinamarca, Valle del Cauca or the Eje Cafetero — 159 firms formed the final sample.
+
+Firms were then grouped into 53 matched triplets, formed to minimise differences in
+location, size, labor productivity and management practices between the three firms in
+each triplet. Within each triplet, firms were randomly allocated to a comparison group,
+individual consulting, or group consulting.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 270" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="159 eligible firms are grouped into 53 matched triplets, balanced on location, size, productivity and management practices; each triplet is then randomly split into a comparison group of 53 firms, an individual consulting group of 53 firms, and a group consulting group of 53 firms">
+  <rect x="10" y="90" width="150" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="120" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">159</text>
+  <text x="85" y="139" text-anchor="middle" fill="#6B6455" font-size="10.5">eligible firms</text>
+
+  <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"/>
+  <text x="286" y="118" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">53 MATCHED TRIPLETS</text>
+  <text x="286" y="136" text-anchor="middle" fill="#2B2724" font-size="10.5">by location, size, productivity, practices</text>
+
+  <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M406 125 H436" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M406 125 V222 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="436" y="0" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="450" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">53 comparison group</text>
+  <text x="450" y="39" fill="#6B6455" font-size="10.5">diagnostic only, no consulting</text>
+
+  <rect x="436" y="97" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="450" y="119" fill="#2B2724" font-size="12.5" font-weight="bold">53 individual consulting</text>
+  <text x="450" y="136" fill="#6B6455" font-size="10.5">~US$28,950/firm, over 6 months</text>
+
+  <rect x="436" y="194" width="254" height="56" rx="6" fill="#F2C94C"/>
+  <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">53 group consulting</text>
+  <text x="450" y="233" fill="#2B2724" font-size="10.5">~US$10,500/firm, in groups of 3&ndash;8</text>
+</svg>
+<figcaption>Firms were matched into triplets before randomisation, then randomly allocated within each triplet to a comparison group, individual consulting, or group consulting.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: matching firms into triplets before randomising keeps
+the three groups closely balanced on size, productivity and starting management
+practices, even with a modest overall sample. Limitation: with only 53 firms in each
+arm, the design has less statistical power to detect small effects than a larger,
+simple two-arm trial.
+:::
+
+### What the programme achieved
+
+::: {.cards}
+::: {.card-e}
+[+9 pp]{.num}
+
+**Management practices improved in both groups**
+
+Individual and group consulting each raised firms' management practice scores by
+around 9 percentage points on average, relative to a baseline of 56%.
+:::
+::: {.card-e}
+[+28% to +33%]{.num}
+
+**Sales and profits rose for group-consulting firms**
+
+Firms receiving group-based consulting saw significant gains in sales, value-added and
+profits; the individual programme's effects on firm performance were smaller and not
+statistically significant.
+:::
+::: {.card-e}
+[US$273,000]{.num}
+
+**Estimated average annual profit increase, group consulting**
+
+At a cost of about US$10,500 per firm, the estimated profit gains from group
+consulting paid back the programme's cost within about a month.
+:::
+:::
+
+::: {.takeaway}
+Group-consulting firms reported far more contact with each other after the programme
+than before it: business links between study firms were almost non-existent at
+baseline, but around half of group participants said they still communicated with
+other group members roughly a year later, and firms whose management practices changed
+the most tended to be grouped with others who also improved the most — evidence that
+peer learning, not just lower delivery cost, contributed to the group programme's
+stronger results on firm performance.
+:::
+
+::: {.caution}
+The group programme's rollout was delayed by more than a year due to a budgetary
+payment delay, and only 68% of group-assigned firms completed the intervention,
+compared with 87% for the individually delivered programme. Delays like this are a
+practical risk to weigh when comparing the cost-effectiveness of different delivery
+models.
+:::
+
+### Yemen: Testing whether internships help youth find work
+
+Source: [McKenzie, D., Assaf, N., & Cusolito, A. P. (2016). The demand for, and
+impact of, youth internships: Evidence from a randomized experiment in Yemen. *IZA
+Journal of Labor & Development*,
+5(1), 1–15.](https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8)
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Young jobseekers in Yemen often face a catch-22: firms are reluctant to hire
+someone without prior work experience, yet that experience is hard to gain
+without first being hired. Early jobs matter because they build both
+job-specific and soft skills, but firms may under-invest in providing them —
+a reluctance that can be sharper still in a fragile, conflict-affected
+setting. Job opportunities for young graduates were also increasingly scarce
+following Yemen's 2011–12 political crisis.
+:::
+::: {.card-e}
+**What was done**
+
+The Enterprise Revitalization and Employment Pilot (EREP) tested a
+subsidised-internship model: the program paid half the cost of a six-month
+internship, with the host firm covering the rest, and matched applicants to
+firms based on the firm's stated requirements. Recent graduates in Sanaa and
+Aden applied online and were screened for eligibility before being
+considered.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"Can a subsidised matchmaking program help young jobseekers gain their first
+work experience, and does that experience translate into better employment
+outcomes afterward?"
+:::
+
+```{=html}
+<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Application</span><span class="sep">&rsaquo;</span><span>Random assignment</span><span class="sep">&rsaquo;</span><span>Matchmaking</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
+```
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Enterprise Revitalization and Employment Pilot (EREP), internship component &mdash; matching grants covering half the cost of a six-month internship, plus matchmaking between graduates and firms</div></div>
+  <div><div class="k">Where</div><div class="v">Republic of Yemen &mdash; Sanaa and Aden</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">583 eligible youth (Yemeni, Sanaa/Aden residents, graduated within 2 years), to treatment (430) or control (153)</div></div>
+  <div><div class="k">The design</div><div class="v">RCT; treatment group offered matchmaking to internships subsidised at 50% of cost, for up to six months</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Employment, months worked and earnings, via a follow-up phone survey</div></div>
+  <div><div class="k">Starting point</div><div class="v">3,487 eligible youth applied; 500 were randomly invited to a two-day basic skills training (477 attended)</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Applications</div>
+  <div>Skills-training invitation</div>
+  <div>Random assignment</div>
+  <div>Matchmaking</div>
+  <div>Follow-up survey</div>
+</div>
+```
+
+
+### How the programme was tested
+
+The program launched in August 2013 through a project website, media events and
+campus outreach. Applications ran from October to December 2013, closing with
+3,487 eligible applicants. Of these, 500 were randomly invited to a two-day
+basic skills training — chosen with probability proportional to the demand
+for their specialisation — and 477 attended.
+
+The resulting experimental sample of 583 individuals was randomly assigned,
+within strata defined by specialisation and city, to a treatment group of 430
+(offered matchmaking to a subsidised internship) or a control group of 153.
+Eleven human resource advisors then matched treatment-group applicants to
+firms based on the firm's requirements, sending CVs for firms to interview
+and decide whether to offer a placement.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="3,487 eligible applicants; 500 are randomly invited to basic skills training and 477 attend; from these, 583 form the experimental sample, randomly assigned within strata to a treatment group of 430 offered internship matchmaking, or a control group of 153">
+  <rect x="10" y="95" width="140" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="80" y="125" text-anchor="middle" fill="#2B2724" font-size="18" font-weight="bold">3,487</text>
+  <text x="80" y="144" text-anchor="middle" fill="#6B6455" font-size="9.5">eligible applicants</text>
+
+  <path d="M150 130 H182" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="182" y="95" width="160" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="262" y="120" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">500 invited to training</text>
+  <text x="262" y="138" text-anchor="middle" fill="#6B6455" font-size="9.5">477 attended</text>
+
+  <path d="M342 130 H374" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="374" y="95" width="170" height="70" rx="6" fill="#F2C94C"/>
+  <text x="459" y="120" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">583 experimental sample</text>
+  <text x="459" y="138" text-anchor="middle" fill="#2B2724" font-size="9.5">assigned within 39 strata</text>
+
+  <path d="M544 130 H576" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M576 130 V48 H606" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M576 130 V212 H606" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="606" y="20" width="150" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="620" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">430 treatment</text>
+  <text x="620" y="59" fill="#6B6455" font-size="9.5">offered matchmaking</text>
+
+  <rect x="606" y="184" width="150" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="620" y="206" fill="#2B2724" font-size="12.5" font-weight="bold">153 control</text>
+  <text x="620" y="223" fill="#6B6455" font-size="9.5">no internship match</text>
+</svg>
+<figcaption>Applicants were randomly invited to basic skills training, then the resulting sample was randomly assigned, within specialisation-and-city strata, to a treatment group offered internship matchmaking or a control group.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.** Strength: randomising within strata defined by
+specialisation and city, among applicants who had already been invited to
+training, helps ensure the treatment and control groups started out
+comparable in skills and local job-market conditions. Limitation: more
+applicants were assigned to treatment than there were internship placements
+available, so actual take-up (36.7%) fell well below the treatment
+assignment rate — which is why the study reports both an intention-to-treat
+effect and a larger effect scaled up for those who actually took up an
+internship.
+:::
+
+### What the programme achieved
+
+::: {.cards}
+::: {.card-e}
+[+17 pp / +42 pp]{.num}
+
+**More likely to have worked at all in 2014**
+
+Being offered internship matchmaking raised the chance of having worked at
+all during 2014 by 17 percentage points on an intention-to-treat basis, and
+by 42 percentage points among those who actually took up an internship,
+relative to a 61% employment rate in the control group.
+:::
+::: {.card-e}
+[+0.35 s.d. / +0.85 s.d.]{.num}
+
+**Employment gains persisted months after the internship ended**
+
+On a standardised index of employment outcomes measured three to five months
+after internships ended, effects remained statistically significant — 0.35
+standard deviations on an intention-to-treat basis, and 0.85 standard
+deviations for those who took up an internship.
+:::
+::: {.card-e}
+[36.7%]{.num}
+
+**Take-up among those assigned to treatment**
+
+Only 158 of the 430 people assigned to treatment were actually matched to and
+completed an internship placement, reflecting how binding capacity
+constraints were relative to demand for internship positions.
+:::
+:::
+
+::: {.takeaway}
+The internship raised employment more for male applicants than for female
+applicants, so the program did not close the pre-existing gender gap in
+employment outcomes. Because the evaluation covers only one year of the
+program rather than the two originally planned, the study had limited
+statistical power to say precisely how much smaller the effect was for
+women.
+:::
+
+::: {.caution}
+Conflict escalated partway through the program: Houthi forces took control of
+Sanaa in September 2014, and the second year of the pilot was cancelled,
+roughly halving the intended sample and reducing statistical power. The
+follow-up survey was also fielded earlier and more narrowly than planned,
+amid displacement and shortages of fuel, electricity and water. It also
+remains possible that some of the employment gains for treated youth came
+partly at the expense of other jobseekers in the economy — a general
+equilibrium effect this study could not measure.
+:::
 
