@@ -153,7 +153,7 @@ other funding or their own resources. Public R&D subsidies can significantly boo
 private investment, but careful targeting is needed to avoid simply displacing money
 firms would have spent anyway.
 :::
-
+---
 ## Czechia: light-touch support for SMEs
 
 ::: {.cards}
@@ -198,7 +198,7 @@ peer-to-peer exchange between firms.
 <div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
 ```
 
-### Czechia: Smart Start entrepreneur training
+### Smart Start entrepreneur training
 
 ```{=html}
 <div class="facts">
@@ -223,7 +223,7 @@ peer-to-peer exchange between firms.
 </div>
 ```
 
-### Czechia: AI adoption in post-coal regions
+### AI adoption in post-coal regions
 
 ```{=html}
 <div class="facts">
@@ -335,7 +335,7 @@ AI Klub
 :::
 :::
 :::
-
+---
 ## Croatia: matching businesses with scientists
 
 ::: {.cards}
@@ -464,6 +464,10 @@ Among firms that originally requested support in AI, who benefited the most from
 pilot.
 :::
 :::
+---
+## Earlier work by the EuroCOMP Lab team
+---
+### Digitrans 
 
 ## Examples from beyond the Lab
 
