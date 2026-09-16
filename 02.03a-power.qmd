@@ -184,7 +184,3 @@ The most common planning problem has practical fixes.
 ```
 
 Related on [How](02-how.qmd): the eligibility levers and phase-in designs.
-
-```{=html}
-<div class="tracker"><span>Enough firms</span><span class="sep">&rsaquo;</span><span class="on">Comparable groups</span><span class="sep">&rsaquo;</span><span>Outcomes</span><span class="sep">&rsaquo;</span><span>Right design</span></div>
-```
