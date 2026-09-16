@@ -448,17 +448,6 @@ some not-encouraged firms take it up anyway. Compare the whole encouraged group 
 whole not-encouraged group regardless.
 :::
 
-## Case studies
-
-Every EuroCOMP Lab project gets one standardised card: sample size, outcomes measured,
-RCT design, effect sizes, and a link through to the full case study or report.
-
-::: {.team-note}
-Status
-Cards for SMART Romania, Extremadura, two Czechia programmes, Croatia, and Scinergy are
-drafted (see the wanted-poster deck), but the dedicated Examples page they'll live on
-isn't built yet.
-:::
 
 ## Still not convinced? More arguments for randomising
 
