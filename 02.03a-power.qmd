@@ -1,4 +1,6 @@
-
+---
+title: "More Details on Power Calculations"
+---
 
 ## Do I have enough firms?
 
