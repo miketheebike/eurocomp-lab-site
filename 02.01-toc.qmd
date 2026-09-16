@@ -11,11 +11,7 @@ title: "Step 1: Develop a Theory of Change"
 This page explains the Theory of Change.
 :::
 
-Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve. 
-
-
-
-, how progress toward that goal will be measured, and what data will be needed to do so. This page walks through those three steps in sequence.
+Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. A Theory of Change makes this logic explicit and evaluation-ready.
 
 ---
 
@@ -52,3 +48,9 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively — by starting from the desired final outcomes and working backwards through the chain of events needed to get there — and this process is particularly useful in a programme partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable programmes in other regions or member states, to support each step in the logic?
 
 Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better — findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.
+
+---
+
+::: {.nav-buttons}
+[← Back to: How to design an RCT](02-how.qmd) | [Next: Step 2 — Define evaluation questions →](02.02-eval_questions.qmd)
+:::
