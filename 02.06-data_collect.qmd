@@ -106,7 +106,7 @@ The **Survey Question Bank** provides a ready-to-use library of validated questi
 | 9. Intellectual property | Patents, trademarks, licensing, informal protection |
 | 10. Technology Readiness Level | TRL self-assessment |
 
-> **[Browse the Survey Question Bank →](08-bank_survey.qmd)**
+**[Browse the Survey Question Bank](08-bank_survey.qmd)**
 :::
 
 ### Questionnaire design
