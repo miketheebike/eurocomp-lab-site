@@ -95,7 +95,7 @@ comparison groups to reliably tell a real effect apart from the ordinary differe
 between firms. Statisticians call this statistical power: with too few firms, even a
 programme that works can appear not to. The smaller the effect you want to detect, the
 more firms you need. Rules of thumb and power calculations are covered in
-[Advanced How](03-advanced-how.qmd).
+[More Details on Power Calculations](02.03a-power.qmd).
 
 ### Two ways to increase your sample
 
