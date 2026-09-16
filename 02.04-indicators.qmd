@@ -38,11 +38,33 @@ Good indicators share five characteristics, often summarised as SMART:
 - Productivity
 :::
 
+## Choosing indicators: where to start
+
+Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
+
+::: {.gold-panel}
+The **EuroComp Lab Outcomes Bank** provides a curated, searchable list of outcome indicators drawn from validated instruments, organised by topic — covering firm performance, innovation, R&D, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability. For each outcome, the bank specifies a plain-language definition, the metric and unit of measurement, and whether primary survey data or administrative data is the most appropriate source.
+
+> **[Browse the Outcomes Bank →](09-bank_outcomes.qmd)**
+:::
+
+
+## What comes next
+
+Once your indicators are defined, each one needs a concrete data source behind it. Step 5 addresses the fundamental strategic question: for each indicator, should you rely on primary data collected specifically for the evaluation, secondary administrative data that already exists, or a combination of both? Getting this decision right early shapes everything that follows.
+
+---
+
+::: {.nav-buttons}
+[← Previous: Step 3 — Assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
+:::
+
+
 
 
 ### From Indicators to Data
 
-Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
+
 
 Once indicators are defined, each one requires a concrete data source. The next step answers — for every indicator — what needs to be collected, what type of data is appropriate, how it should be gathered, from whom, and when. Crucially, all of these decisions must be made before the programme launches and before randomization begins. Data collected as an afterthought rarely has the properties needed for a credible evaluation.
 
