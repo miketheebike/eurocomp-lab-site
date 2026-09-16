@@ -476,3 +476,40 @@ Because the analysis is less complex, it's easier to explain and defend the find
 the people affected by them.
 :::
 :::
+
+## Where to go deeper
+
+The mathematics is one click away, so this website stays practical.
+
+::: {.cards}
+::: {.card-e}
+#### Power calculators
+
+Online tools that turn the four inputs into a required sample.
+:::
+::: {.card-e}
+#### World Bank IE toolkit
+
+Step-by-step guidance for designing and running evaluations.
+:::
+::: {.card-e}
+#### J-PAL resources
+
+Research protocols, sample-size guides, and training material.
+:::
+::: {.card-e}
+#### IPA resources
+
+Practical implementation guidance from field evaluations.
+:::
+:::
+
+::: {.takeaway}
+Start with a calculator: an afternoon with one teaches more than a chapter of formulas.
+:::
+
+::: {.team-note}
+**To add**
+Resource links, including the power calculator Jakob shared by email. Shortlist per the
+outline: power calculators, World Bank toolkit, J-PAL, IPA.
+:::
