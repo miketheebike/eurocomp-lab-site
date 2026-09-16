@@ -1,8 +1,8 @@
 ---
-title: "Topic: Innovation Outputs"
+title: "Impact Evaluation Outcome Bank"
 ---
 
-*Innovation outcomes are central to evaluations of R&D grants, technology support, and competitiveness programmes. Distinguish carefully between inputs (R&D spending) and outputs (patents, new products).*
+## Topic: Innovation Outputs"
 
 ###Product innovation
 
