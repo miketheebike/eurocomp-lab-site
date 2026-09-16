@@ -6,7 +6,7 @@ toc: false
 ::: {.team-note}
 #### Summary
 This website pools knowledge and resources across the people and organisations
-already advancing impact evaluation, so managing authorities do not have to start
+already advancing experimentation, so managing authorities do not have to start
 from scratch.
 :::
 
@@ -15,7 +15,7 @@ from scratch.
 
 The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation got roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional gaps in innovation outcomes are holding back the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to deliver more.
 
-Policies need to adapt as circumstances change. That means identifying challenges, testing solutions, and refining approaches.
+Policies need to adapt as circumstances change. That means identifying challenges, testing solutions, and refining implementation approaches.
 
 ::: {.gold-panel}
 This is called science-based adaptive delivery: testing, learning, and
@@ -28,13 +28,15 @@ This video will be replaced through the video featuring the DG-Regio team.
 {{< video https://youtu.be/yeEmFmDABIk title="The case for experimentation" aspect-ratio="16x9" >}}
 :::
 
+
+
 ## Randomised controlled trials show what works and why
 
 By comparing what happens to programme participants to an on average identical group that does not receive the program, a randomised controlled trial can show whether a cohesion policy programme is the reason things improved. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
 
-Did you already evaluate a programme once it had already ended? A credible comparison isolates the impact of the programme from other changes happening at the same time, such as economic shocks. To be confident in the comparison group, the programme needs to be designed ex-ante, before the call for proposals launches. Piloting a new idea at small scale is the best way to test it. For this, the evaluation needs to be designed ex-ante, before the call for proposals launches.
+Did you already evaluate a programme once it had already ended? A credible comparison isolates the impact of the programme from other changes happening at the same time, such as economic shocks. To be confident in the comparison group, the programme needs to be designed ex-ante, before the call for proposals launches. 
 
-### Think you already know what program works and whom to fund?
+### Think you already know what programme works and whom to fund?
 
 But every euro you commit is a euro you cannot spend elsewhere. 
 
@@ -195,7 +197,7 @@ The joint DG REGIO–World Bank initiative behind this site.
 :::: {.cards}
 ::: {.card-e}
 #### [Other partners](research-partners.qmd)
-Other already established labs already running rigorous impact evaluations
+Other already established labs already supporting experimentation
 :::
 ::::
 
@@ -206,32 +208,30 @@ Other already established labs already running rigorous impact evaluations
 ## But what is impact evaluation exactly?
 
 ::: {.gold-panel}
-It allows us to answer the questions: what impact did this intervention have on regional
-development, and how did different approaches change the outcome? For whom did it work
+It allows us to answer the questions: what impact did this intervention have on firms, and how did different approaches to implementation change the outcomes? For whom did it work
 best, and under which conditions?
 :::
 
-To answer that, an impact evaluation isolates a program's actual effect from everything
-else going on (economic trends, other policies, or the kinds of firms likely to apply in
-the first place), rather than just describing what happened. It compares what actually
-happened after introducing a program to what would have happened without it, the
+To answer that, an impact evaluation's goal is to isolate a programme's actual (causal) effect from everything
+else going on - economic trends, other policies, or the kinds of firms likely to apply for support in
+the first place - rather than just describing what happened. It compares what actually
+happened after introducing a programme to what would have likely happened without it, the
 counterfactual.
 
 ::: {.cards}
 ::: {.card-e}
 #### Not the same as M&E
-M&E tracks whether a program is implemented as planned. Impact evaluation tests whether
+M&E tracks whether a programme is implemented as planned. Impact evaluation tests whether
 it caused a real difference, compared to what would have happened without it.
 :::
 ::: {.card-e}
 #### Built in from day one
 The comparison group, sample size, and data collection all depend on decisions made
-before a program launches, not added on afterward.
+before a programme launches, not added on afterward.
 :::
 ::: {.card-e}
-#### Each one builds on the last
-Each evaluation answers some questions and raises new ones, helping you understand your
-regional market and design more impactful programs next time.
+#### Adaptive learning 
+Each evaluation answers some questions and raises new ones, helping you to design more impactful programmes next time.
 :::
 :::
 
