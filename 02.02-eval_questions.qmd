@@ -11,12 +11,72 @@ title: "Step 2: Define Evaluation Questions"
 This page explains the evaluation questions.
 :::
 
-### Defining Evaluation Questions
+## Why evaluation questions come first
 
-Defining clear evaluation questions is the starting point of any rigorous impact evaluation, and they should follow directly from the ToC. A well-formulated evaluation question specifies what the intervention is, who it targets, what outcome is expected to change, and over what time horizon. 
+The Theory of Change developed in Step 1 sets out the causal logic of the programme. Evaluation questions translate that logic into a concrete analytical agenda: they specify which links in the causal chain will be tested, which outcomes will be measured, and what the evaluation can credibly claim to have shown at the end.
 
-Evaluation questions should be realistic: they must be answerable with the data and methods available, and scoped to what the evaluation can credibly attribute to the programme rather than to external factors such as macroeconomic trends or parallel national schemes. Setting these questions before the programme launches — ideally before the first call for applications — is essential, because many of the data collection decisions that follow depend on them.
+Getting this step right matters more than it might appear. Vague or poorly scoped evaluation questions lead to data collection that is too broad, analysis that is unfocused, and findings that cannot be clearly attributed to the programme. Conversely, well-formulated questions make every subsequent decision easier — they tell you which indicators to select (Step 4), which data sources to prioritise (Step 5), and what the evaluation team will need to deliver (ToR).
+
+---
+
+## What makes a good evaluation question?
+
+A well-formulated evaluation question has four characteristics:
+
+**Specific.** It names the intervention, the target population, the outcome of interest, and the time horizon. Generic questions such as "did the programme work?" are not answerable. A specific question might be: *Does receiving an R&D grant increase a firm's total R&D expenditure within two years of the award?*
+
+**Causal.** For an RCT, the central question is always about causation — not correlation. The question should be framed in terms of the *effect* of the programme, not merely whether outcomes changed. This means the question implicitly requires a comparison: between supported firms and comparable firms that did not receive support.
+
+**Answerable.** The question must be answerable with the data and methods available. An evaluation that asks about 10-year productivity effects but only has a two-year window will not be able to answer its own primary question. Scope questions to what the evaluation can credibly deliver.
+
+**Decided in advance.** Evaluation questions must be set before data collection begins — not after. Questions formulated after seeing the data are prone to selective reporting and undermine the credibility of the findings. Pre-registration on a public registry (see Step 3) locks in the questions publicly before any results are observed.
+
+---
+
+## Types of evaluation questions
+
+A well-structured evaluation typically includes a primary question and a set of secondary questions. These serve different purposes and should be clearly distinguished.
+
+**The primary question** focuses on the main effect of the intervention on the most important outcome. This is the question the evaluation is powered to answer — the sample size and data collection plan are designed around it. For most competitiveness and innovation programmes, the primary question concerns a key medium-term outcome such as R&D expenditure, product innovation, or labour productivity.
+
+*Example:* Does receiving an innovation grant cause a statistically significant increase in firm R&D expenditure within two years of the grant award, compared to equally eligible firms that did not receive support?
+
+**Heterogeneity questions** ask whether effects differ across subgroups — for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
+
+*Example:* Are the effects of the grant larger for small firms (fewer than 50 employees) than for medium-sized firms?
+
+**Mechanism questions** probe *how* the intervention produces its effects — which links in the Theory of Change are activated. By measuring intermediate outcomes, these questions open the "black box" and generate richer policy lessons than a simple estimate of the final effect.
+
+*Example:* Does the grant increase R&D employment as an intermediate step toward higher innovation output?
+
+**Implementation questions** assess whether the programme was delivered as intended and what barriers affected take-up or compliance. These are particularly important for interpreting null results — an evaluation that finds no effect needs to establish whether the intervention was actually delivered.
+
+*Example:* What share of treatment group firms used the grant for the intended R&D activities, and what were the main reasons for non-compliance?
+
+---
+
+## Linking evaluation questions to the Theory of Change
+
+Every evaluation question should map to a specific link in the Theory of Change. A useful discipline is to write out the ToC and, for each arrow connecting two levels, ask: do we have a question that tests this link? If a link is left untested, either the evaluation is under-powered to examine it, or the link is assumed to hold without evidence.
+
+---
+
+## Scoping and realism
+
+Evaluation questions must be scoped to what the evaluation can credibly deliver. Two common pitfalls are worth flagging:
+
+**Over-ambition.** An evaluation that promises to answer questions about long-term productivity effects, regional spillovers, and mechanisms simultaneously may not be powered to answer any of them well. Prioritise the primary question and be selective about secondary questions.
+
+**Attribution.** Evaluation questions should be scoped to what can be attributed to the programme, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the programme itself. A well-scoped causal question asks about the *difference* between treated and control firms, not about levels.
+
+
 
 ::: {.soft-panel}
 **Running example.** TO BE ADDED BY MIKE: Evaluation questions from the North-East
+:::
+
+---
+
+::: {.nav-buttons}
+[← Previous: Step 1 — Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 — Assess feasibility of conducting an RCT →](02.03-assess.qmd)
 :::
