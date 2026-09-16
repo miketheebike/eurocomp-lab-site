@@ -157,7 +157,7 @@ expected change is actually happening.
 
 This chain is the foundation of a Theory of Change, and having thought it through helps
 in designing a strong impact evaluation. There is more on this in
-[Theory of Change, Indicators and Data](04-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
+[](04-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
 
 ::: {.example .romania}
 [digitrans example]{.tag}
