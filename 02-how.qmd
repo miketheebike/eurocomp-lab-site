@@ -11,23 +11,18 @@ A well-designed randomised controlled trial does not begin with randomisation �
 
 ::: {.cards}
 ::: {.card-e}
-[01]{.num}
 
-#### [Step 1](02.01-toc.qmd)
-Develop a preliminary Theory of Change
+#### [Step 1: Develop a preliminary Theory of Change](02.01-toc.qmd)
 
-*Map the causal logic of your intervention — from inputs to long-term goals — and make the assumptions explicit.*
+Map the causal logic of your intervention — from inputs to long-term goals — and make the assumptions explicit.
 :::
 ::: {.card-e}
-[02]{.num}
 
-#### [Step 2](02.02-eval_questions.qmd)
-Define evaluation questions
+#### [Step 2: Define evaluation questions](02.02-eval_questions.qmd)
 
-*Formulate the specific questions the evaluation is designed to answer, grounded in the Theory of Change.*
+Formulate the specific questions the evaluation is designed to answer, grounded in the Theory of Change.
 :::
 ::: {.card-e}
-[03]{.num}
 
 #### [Step 3](02.03-assess.qmd)
 Assess feasibility of conducting an RCT
@@ -36,7 +31,6 @@ Assess feasibility of conducting an RCT
 :::
 
 ::: {.card-e}
-[04]{.num}
 
 #### [Step 4](02.04-indicators.qmd)
 Determine relevant indicators
@@ -45,7 +39,6 @@ Determine relevant indicators
 :::
 
 ::: {.card-e}
-[05]{.num}
 
 #### [Step 5](02.05-data_sources.qmd)
 Identify available data sources
@@ -54,7 +47,6 @@ Identify available data sources
 :::
 
 ::: {.card-e}
-[06]{.num}
 
 #### [Step 6](02.06-data_collect.qmd)
 Collect data
@@ -63,7 +55,6 @@ Collect data
 :::
 
 ::: {.card-e}
-[07]{.num}
 
 #### [Step 7](02.07-data_quality.qmd)
 Ensure high-quality data
