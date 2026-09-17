@@ -6,8 +6,9 @@ title: "Step 4: Determine Relevant Indicators"
 <div class="tracker"><span class="sep">Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="on">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
 ```
 
-::: {.lede}
+::: {.team-note}
 #### Summary
+This page explains 
 :::
 
 ### From Theory of Change to Indicators
