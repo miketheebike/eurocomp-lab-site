@@ -2,8 +2,6 @@
 title: "Topic: Collaboration"
 ---
 
-*Use at baseline and endline. Captures knowledge flows and partnerships — a key mechanism for innovation support instruments.*
-
 **In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?**
 
 - Yes, on R&D
