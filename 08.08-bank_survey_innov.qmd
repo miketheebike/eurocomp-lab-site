@@ -6,7 +6,7 @@ title: "Topic: Innovation and Research Development Activities"
 
 ---
 
-### Product Innovation
+## Product Innovation
 
 **A product innovation is a new or improved good or service that differs significantly from the firm’s previous goods or services and which has been implemented on the market.
 
@@ -53,7 +53,7 @@ Include:
 - 20–49%
 - 50% or more
 
-### Process Innovation
+## Process Innovation
 
 A business process innovation is a new or improved business process for one or more business functions that differs significantly from the firm’s previous business processes and which has been implemented within the firm.
 
@@ -85,7 +85,7 @@ A business process innovation is a new or improved business process for one or m
 - Your enterprise by adapting or modifying processes originally developed by other enterprises or organisations
 - Other enterprises or organisations
 
-### Innovation and R&D activities
+## Innovation and R&D activities
 
 'Innovation activity' includes all developmental, financial and commercial activities, undertaken by a firm, which are intended to or result in an innovation.
 Research and Development (R&D): R&D comprise creative and systematic work undertaken in order to increase the stock of knowledge – including knowledge of humankind, culture and society – and to devise new applications of available knowledge.
@@ -135,7 +135,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 - Yes
 - No
 
-### Constraints to innovation
+## Constraints to innovation
 
 **During 2025, how important were the following factors in hampering your enterprises’ decision to start innovation activities*, or its execution of innovation activities?**
 *(Answer options: High, Medium, Low, Not a constraint)*
