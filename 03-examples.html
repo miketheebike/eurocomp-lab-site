@@ -1,0 +1,2065 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Examples – EuroCOMP Lab</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-6b693482e2d7637b12a064a18ca6bb99.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">EuroCOMP Lab</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./01-why-and-when.html"> 
+<span class="menu-text">Why and When</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./02-how.html"> 
+<span class="menu-text">How</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./03-examples.html"> 
+<span class="menu-text">Examples</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./04-templates.html"> 
+<span class="menu-text">Templates</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./eurocomp.html">
+ <span class="dropdown-text">The Lab</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./research-partners.html">
+ <span class="dropdown-text">Research partners</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./glossary.html">
+ <span class="dropdown-text">Glossary</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./03-examples.html">Examples</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./01-why-and-when.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Why and When</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./02-how.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.01-toc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 1: Develop a Theory of Change</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.02-eval_questions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 2: Define Evaluation Questions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.03-assess.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 3: Assess feasibility of conducting an RCT</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.03a-power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">More Details on Power Calculations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.03b-balance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">More Details on Comparability of Groups</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.03c-legal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Integrating Randomisation into National Legislation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.04-indicators.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 4: Determine Relevant Indicators</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.05-data_sources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 5: Identify available data sources</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.06-data_collect.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 6: Collect data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.06a-tor.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Terms of Reference for Impact Evaluation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./02.07-data_quality.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Step 7: Ensure high-quality data</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./03-examples.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Examples</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./04-templates.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Templates and resources</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./08-bank_survey.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Survey question bank</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.01-bank_survey_company.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Company Details</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.02-bank_survey_respondent.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Respondent Details</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.03-bank_survey_ownership.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic 3: Company Structure and Ownership</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.04-bank_survey_performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Company Financial Performance</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.05-bank_survey_collab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Collaboration</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.06-bank_survey_techadop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Technology Adoption</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.07-bank_survey_digital.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Digitalization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.08-bank_survey_innov.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Innovation and Research Development Activities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.09-bank_survey_ip.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Intellectual Property</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.10-bank_survey_r&amp;d.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Research and Development (R&amp;D)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.11-bank_survey_trl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Technology Readiness Level</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./08.12-bank_survey_energy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Topic: Energy Efficiency</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./09-bank_outcomes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Outcome bank</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.01-bank_outcomes_performance.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.02-bank_survey_innov.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.03-bank_survey_r&amp;d.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.04-bank_survey_techadop.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.05-bank_survey_digital.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.06-bank_survey_collab.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.07-bank_survey_ip.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./09.08-bank_survey_employ.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Impact Evaluation Outcome Bank</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">About</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./eurocomp.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Lab</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./research-partners.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Research partners</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#spain-financial-support-to-innovate" id="toc-spain-financial-support-to-innovate" class="nav-link active" data-scroll-target="#spain-financial-support-to-innovate">Spain: Financial support to innovate</a>
+  <ul class="collapse">
+  <li><a href="#what-experimentation-sought-to-answer" id="toc-what-experimentation-sought-to-answer" class="nav-link" data-scroll-target="#what-experimentation-sought-to-answer">What experimentation sought to answer</a></li>
+  <li><a href="#from-application-to-evidence" id="toc-from-application-to-evidence" class="nav-link" data-scroll-target="#from-application-to-evidence">From application to evidence</a></li>
+  <li><a href="#how-the-programme-was-tested" id="toc-how-the-programme-was-tested" class="nav-link" data-scroll-target="#how-the-programme-was-tested">How the programme was tested</a></li>
+  <li><a href="#what-the-programme-achieved" id="toc-what-the-programme-achieved" class="nav-link" data-scroll-target="#what-the-programme-achieved">What the programme achieved</a></li>
+  </ul></li>
+  <li><a href="#czechia-light-touch-support-for-smes" id="toc-czechia-light-touch-support-for-smes" class="nav-link" data-scroll-target="#czechia-light-touch-support-for-smes">Czechia: light-touch support for SMEs</a>
+  <ul class="collapse">
+  <li><a href="#what-experimentation-sought-to-answer-1" id="toc-what-experimentation-sought-to-answer-1" class="nav-link" data-scroll-target="#what-experimentation-sought-to-answer-1">What experimentation sought to answer</a></li>
+  <li><a href="#smart-start-entrepreneur-training" id="toc-smart-start-entrepreneur-training" class="nav-link" data-scroll-target="#smart-start-entrepreneur-training">Smart Start entrepreneur training</a></li>
+  <li><a href="#from-application-to-evidence-1" id="toc-from-application-to-evidence-1" class="nav-link" data-scroll-target="#from-application-to-evidence-1">From application to evidence</a></li>
+  <li><a href="#ai-adoption-in-post-coal-regions" id="toc-ai-adoption-in-post-coal-regions" class="nav-link" data-scroll-target="#ai-adoption-in-post-coal-regions">AI adoption in post-coal regions</a></li>
+  <li><a href="#from-application-to-evidence-2" id="toc-from-application-to-evidence-2" class="nav-link" data-scroll-target="#from-application-to-evidence-2">From application to evidence</a></li>
+  <li><a href="#how-the-two-pilots-were-tested" id="toc-how-the-two-pilots-were-tested" class="nav-link" data-scroll-target="#how-the-two-pilots-were-tested">How the two pilots were tested</a></li>
+  <li><a href="#smart-start-moravian-silesian-region" id="toc-smart-start-moravian-silesian-region" class="nav-link" data-scroll-target="#smart-start-moravian-silesian-region">Smart Start · Moravian-Silesian region</a></li>
+  <li><a href="#ai-klub-ústí-and-karlovy-vary-regions" id="toc-ai-klub-ústí-and-karlovy-vary-regions" class="nav-link" data-scroll-target="#ai-klub-ústí-and-karlovy-vary-regions">AI Klub · Ústí and Karlovy Vary regions</a></li>
+  <li><a href="#what-the-two-pilots-achieved" id="toc-what-the-two-pilots-achieved" class="nav-link" data-scroll-target="#what-the-two-pilots-achieved">What the two pilots achieved</a></li>
+  </ul></li>
+  <li><a href="#croatia-matching-businesses-with-scientists" id="toc-croatia-matching-businesses-with-scientists" class="nav-link" data-scroll-target="#croatia-matching-businesses-with-scientists">Croatia: matching businesses with scientists</a>
+  <ul class="collapse">
+  <li><a href="#what-experimentation-sought-to-answer-2" id="toc-what-experimentation-sought-to-answer-2" class="nav-link" data-scroll-target="#what-experimentation-sought-to-answer-2">What experimentation sought to answer</a></li>
+  <li><a href="#the-programme" id="toc-the-programme" class="nav-link" data-scroll-target="#the-programme">The programme</a></li>
+  <li><a href="#from-application-to-evidence-3" id="toc-from-application-to-evidence-3" class="nav-link" data-scroll-target="#from-application-to-evidence-3">From application to evidence</a></li>
+  <li><a href="#how-the-programme-was-tested-1" id="toc-how-the-programme-was-tested-1" class="nav-link" data-scroll-target="#how-the-programme-was-tested-1">How the programme was tested</a></li>
+  <li><a href="#what-the-programme-achieved-1" id="toc-what-the-programme-achieved-1" class="nav-link" data-scroll-target="#what-the-programme-achieved-1">What the programme achieved</a></li>
+  </ul></li>
+  <li><a href="#bulgaria-human-led-versus-ai-led-business-consulting" id="toc-bulgaria-human-led-versus-ai-led-business-consulting" class="nav-link" data-scroll-target="#bulgaria-human-led-versus-ai-led-business-consulting">Bulgaria: Human-led versus AI-led business consulting</a>
+  <ul class="collapse">
+  <li><a href="#what-the-evaluation-aims-to-answer" id="toc-what-the-evaluation-aims-to-answer" class="nav-link" data-scroll-target="#what-the-evaluation-aims-to-answer">What the evaluation aims to answer</a></li>
+  <li><a href="#the-programme-1" id="toc-the-programme-1" class="nav-link" data-scroll-target="#the-programme-1">The programme</a></li>
+  <li><a href="#from-application-to-evidence-4" id="toc-from-application-to-evidence-4" class="nav-link" data-scroll-target="#from-application-to-evidence-4">From application to evidence</a></li>
+  <li><a href="#how-the-programme-is-designed" id="toc-how-the-programme-is-designed" class="nav-link" data-scroll-target="#how-the-programme-is-designed">How the programme is designed</a></li>
+  <li><a href="#what-the-evaluation-will-tell-us" id="toc-what-the-evaluation-will-tell-us" class="nav-link" data-scroll-target="#what-the-evaluation-will-tell-us">What the evaluation will tell us</a></li>
+  </ul></li>
+  <li><a href="#poland-ai-assistance-for-smarter-horizon-europe-applications" id="toc-poland-ai-assistance-for-smarter-horizon-europe-applications" class="nav-link" data-scroll-target="#poland-ai-assistance-for-smarter-horizon-europe-applications">Poland: AI assistance for smarter Horizon Europe applications</a>
+  <ul class="collapse">
+  <li><a href="#what-the-evaluation-aims-to-answer-1" id="toc-what-the-evaluation-aims-to-answer-1" class="nav-link" data-scroll-target="#what-the-evaluation-aims-to-answer-1">What the evaluation aims to answer</a></li>
+  <li><a href="#the-programme-2" id="toc-the-programme-2" class="nav-link" data-scroll-target="#the-programme-2">The programme</a></li>
+  <li><a href="#from-application-to-evidence-5" id="toc-from-application-to-evidence-5" class="nav-link" data-scroll-target="#from-application-to-evidence-5">From application to evidence</a></li>
+  <li><a href="#how-the-programme-is-designed-1" id="toc-how-the-programme-is-designed-1" class="nav-link" data-scroll-target="#how-the-programme-is-designed-1">How the programme is designed</a></li>
+  <li><a href="#what-the-evaluation-will-tell-us-1" id="toc-what-the-evaluation-will-tell-us-1" class="nav-link" data-scroll-target="#what-the-evaluation-will-tell-us-1">What the evaluation will tell us</a></li>
+  </ul></li>
+  <li><a href="#romania-north-east-ai-assistance-for-smarter-grant-reviews" id="toc-romania-north-east-ai-assistance-for-smarter-grant-reviews" class="nav-link" data-scroll-target="#romania-north-east-ai-assistance-for-smarter-grant-reviews">Romania (North-East): AI assistance for smarter grant reviews</a>
+  <ul class="collapse">
+  <li><a href="#what-the-evaluation-aims-to-answer-2" id="toc-what-the-evaluation-aims-to-answer-2" class="nav-link" data-scroll-target="#what-the-evaluation-aims-to-answer-2">What the evaluation aims to answer</a></li>
+  <li><a href="#the-programme-3" id="toc-the-programme-3" class="nav-link" data-scroll-target="#the-programme-3">The programme</a></li>
+  <li><a href="#from-application-to-evidence-6" id="toc-from-application-to-evidence-6" class="nav-link" data-scroll-target="#from-application-to-evidence-6">From application to evidence</a></li>
+  <li><a href="#how-the-programme-is-designed-2" id="toc-how-the-programme-is-designed-2" class="nav-link" data-scroll-target="#how-the-programme-is-designed-2">How the programme is designed</a></li>
+  <li><a href="#what-the-evaluation-will-tell-us-2" id="toc-what-the-evaluation-will-tell-us-2" class="nav-link" data-scroll-target="#what-the-evaluation-will-tell-us-2">What the evaluation will tell us</a></li>
+  </ul></li>
+  <li><a href="#romania-south-muntenia-the-returns-to-innovation-subsidies" id="toc-romania-south-muntenia-the-returns-to-innovation-subsidies" class="nav-link" data-scroll-target="#romania-south-muntenia-the-returns-to-innovation-subsidies">Romania (South Muntenia): The returns to innovation subsidies</a>
+  <ul class="collapse">
+  <li><a href="#what-the-evaluation-aims-to-answer-3" id="toc-what-the-evaluation-aims-to-answer-3" class="nav-link" data-scroll-target="#what-the-evaluation-aims-to-answer-3">What the evaluation aims to answer</a></li>
+  <li><a href="#the-programme-4" id="toc-the-programme-4" class="nav-link" data-scroll-target="#the-programme-4">The programme</a></li>
+  <li><a href="#from-application-to-evidence-7" id="toc-from-application-to-evidence-7" class="nav-link" data-scroll-target="#from-application-to-evidence-7">From application to evidence</a></li>
+  <li><a href="#how-the-programme-is-designed-3" id="toc-how-the-programme-is-designed-3" class="nav-link" data-scroll-target="#how-the-programme-is-designed-3">How the programme is designed</a></li>
+  <li><a href="#what-the-evaluation-will-tell-us-3" id="toc-what-the-evaluation-will-tell-us-3" class="nav-link" data-scroll-target="#what-the-evaluation-will-tell-us-3">What the evaluation will tell us</a></li>
+  </ul></li>
+  <li><a href="#earlier-work-by-the-eurocomp-lab-team-digitrans" id="toc-earlier-work-by-the-eurocomp-lab-team-digitrans" class="nav-link" data-scroll-target="#earlier-work-by-the-eurocomp-lab-team-digitrans">Earlier work by the EuroCOMP Lab team: Digitrans</a>
+  <ul class="collapse">
+  <li><a href="#what-experimentation-sought-to-answer-3" id="toc-what-experimentation-sought-to-answer-3" class="nav-link" data-scroll-target="#what-experimentation-sought-to-answer-3">What experimentation sought to answer</a></li>
+  <li><a href="#the-programme-5" id="toc-the-programme-5" class="nav-link" data-scroll-target="#the-programme-5">The programme</a></li>
+  <li><a href="#from-application-to-evidence-8" id="toc-from-application-to-evidence-8" class="nav-link" data-scroll-target="#from-application-to-evidence-8">From application to evidence</a></li>
+  <li><a href="#how-the-programme-was-tested-2" id="toc-how-the-programme-was-tested-2" class="nav-link" data-scroll-target="#how-the-programme-was-tested-2">How the programme was tested</a></li>
+  <li><a href="#what-the-programme-achieved-2" id="toc-what-the-programme-achieved-2" class="nav-link" data-scroll-target="#what-the-programme-achieved-2">What the programme achieved</a></li>
+  </ul></li>
+  <li><a href="#examples-from-beyond-the-lab" id="toc-examples-from-beyond-the-lab" class="nav-link" data-scroll-target="#examples-from-beyond-the-lab">Examples from beyond the Lab</a>
+  <ul class="collapse">
+  <li><a href="#colombia-scaling-up-management-consulting" id="toc-colombia-scaling-up-management-consulting" class="nav-link" data-scroll-target="#colombia-scaling-up-management-consulting">Colombia: Scaling up management consulting</a></li>
+  <li><a href="#what-experimentation-sought-to-answer-4" id="toc-what-experimentation-sought-to-answer-4" class="nav-link" data-scroll-target="#what-experimentation-sought-to-answer-4">What experimentation sought to answer</a></li>
+  <li><a href="#the-programme-6" id="toc-the-programme-6" class="nav-link" data-scroll-target="#the-programme-6">The programme</a></li>
+  <li><a href="#from-application-to-evidence-9" id="toc-from-application-to-evidence-9" class="nav-link" data-scroll-target="#from-application-to-evidence-9">From application to evidence</a></li>
+  <li><a href="#how-the-programme-was-tested-3" id="toc-how-the-programme-was-tested-3" class="nav-link" data-scroll-target="#how-the-programme-was-tested-3">How the programme was tested</a></li>
+  <li><a href="#what-the-programme-achieved-3" id="toc-what-the-programme-achieved-3" class="nav-link" data-scroll-target="#what-the-programme-achieved-3">What the programme achieved</a></li>
+  <li><a href="#yemen-testing-whether-internships-help-youth-find-work" id="toc-yemen-testing-whether-internships-help-youth-find-work" class="nav-link" data-scroll-target="#yemen-testing-whether-internships-help-youth-find-work">Yemen: Testing whether internships help youth find work</a></li>
+  <li><a href="#what-experimentation-sought-to-answer-5" id="toc-what-experimentation-sought-to-answer-5" class="nav-link" data-scroll-target="#what-experimentation-sought-to-answer-5">What experimentation sought to answer</a></li>
+  <li><a href="#the-programme-7" id="toc-the-programme-7" class="nav-link" data-scroll-target="#the-programme-7">The programme</a></li>
+  <li><a href="#from-application-to-evidence-10" id="toc-from-application-to-evidence-10" class="nav-link" data-scroll-target="#from-application-to-evidence-10">From application to evidence</a></li>
+  <li><a href="#how-the-programme-was-tested-4" id="toc-how-the-programme-was-tested-4" class="nav-link" data-scroll-target="#how-the-programme-was-tested-4">How the programme was tested</a></li>
+  <li><a href="#what-the-programme-achieved-4" id="toc-what-the-programme-achieved-4" class="nav-link" data-scroll-target="#what-the-programme-achieved-4">What the programme achieved</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Examples</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="team-note">
+<p><strong>Summary</strong></p>
+<p>Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.</p>
+</div>
+<p><strong>EuroCOMP Lab evaluations</strong></p>
+<section id="spain-financial-support-to-innovate" class="level2">
+<h2 class="anchored" data-anchor-id="spain-financial-support-to-innovate">Spain: Financial support to innovate</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Market failures keep research and development (R&amp;D) investment in Extremadura below its optimal level. Small and medium firms in the region under-invest in innovation, particularly in agriculture and the ecological transition.</p>
+</div>
+<div class="card-e">
+<p><strong>What was done</strong></p>
+<p>The Regional Government of Extremadura (JUNTA) and the Extremadura Science and Technology Park Foundation (FUNDECYT-PCTEx) created an EU-funded matching grant programme for small and medium firms.</p>
+<p>Each cycle awards €3.5 million in grants, up to €250,000 per firm (€138,000 on average), financing 35% to 80% of a firm’s proposed R&amp;D investment.</p>
+</div>
+</div>
+<section id="what-experimentation-sought-to-answer" class="level3">
+<h3 class="anchored" data-anchor-id="what-experimentation-sought-to-answer">What experimentation sought to answer</h3>
+<div class="quote-e">
+<p>“What is the impact of R&amp;D grants on SMEs’ business performance?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Matching grants of up to EUR 250,000 per firm (average EUR 138,000) for R&amp;D projects</div></div>
+  <div><div class="k">Where</div><div class="v">Extremadura, Spain; regional government (JUNTA) with FUNDECYT-PCTEx, EU-funded</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">Firms: SME applicants, mainly agriculture and ecological transition, scored on 11 criteria</div></div>
+  <div><div class="k">The design</div><div class="v">Bin-ranking RCT: the middle bin randomized, 22 funded vs. 34 not funded</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Private R&amp;D investment, implementation success, expected sales growth</div></div>
+  <div><div class="k">Starting point</div><div class="v">Market failures keep regional R&amp;D investment below its optimal level</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence">From application to evidence</h3>
+<div class="flow">
+  <div>Applications</div>
+  <div>External scoring</div>
+  <div>Middle-bin lottery</div>
+  <div>R&amp;D grants</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="how-the-programme-was-tested" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-was-tested">How the programme was tested</h3>
+<p>Extremadura ran an advertising campaign to attract at least 100 applicants. External reviewers scored every application on 11 objective criteria and grouped proposals into low, medium and high quality.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Applications scored on 11 criteria; high scorers funded automatically, low scorers rejected automatically, and only the medium-quality middle band of 56 firms is randomized into 22 funded and 34 not funded">
+  <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Quality score</text>
+
+  <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"></rect>
+  <text x="230" y="58" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">High quality</text>
+  <text x="230" y="76" text-anchor="middle" fill="#2B2724" font-size="11">accepted and funded automatically</text>
+
+  <rect x="90" y="100" width="280" height="96" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"></rect>
+  <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Medium quality: 56 firms</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">equally eligible, randomized by lottery</text>
+  <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">22 funded · 34 not funded</text>
+  <text x="230" y="181" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
+
+  <rect x="90" y="206" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="230" y="230" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Low quality</text>
+  <text x="230" y="248" text-anchor="middle" fill="#6B6455" font-size="11">rejected automatically</text>
+
+  <path d="M382 148 H410" stroke="#B9AF95" stroke-width="1.5"></path>
+  <rect x="410" y="116" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"></rect>
+  <text x="425" y="138" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomized</text>
+  <text x="425" y="156" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
+  <text x="425" y="170" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+
+  <text x="20" y="290" fill="#6B6455" font-size="11.5">This design works well when eligibility criteria are clear and resources are limited.</text>
+</svg>
+<figcaption>Extremadura's bin-ranking design: only medium-quality applicants, the band where expected returns are least certain, are randomized.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: it leverages investment-return uncertainty for applications with unclear returns. Limitation: it requires a large sample size in the middle range (bin).</p>
+</div>
+<div class="takeaway">
+<p>Randomisation successfully balanced key firm characteristics: the comparison group and the treatment group looked the same on average. There was no evidence of firms with certain characteristics dropping out of the study more than others (selective attrition) in follow-up survey responses.</p>
+</div>
+</section>
+<section id="what-the-programme-achieved" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-programme-achieved">What the programme achieved</h3>
+<p>Three months after receiving the grant, firms in the treatment group reported higher planned R&amp;D investment and stronger confidence in their projects than the comparison group.</p>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">+48%</span></p>
+<p><strong>More planned R&amp;D investment for 2025</strong></p>
+<p>€65,000 above the comparison-group average.</p>
+</div>
+<div class="card-e">
+<p><span class="num">67%</span></p>
+<p><strong>Probability of successful implementation</strong></p>
+<p>Up from 16% without funding, according to expert priors.</p>
+</div>
+<div class="card-e">
+<p><span class="num">×2</span></p>
+<p><strong>Expected sales growth, conditional on success</strong></p>
+<p>From 8% to 16% after receiving the grant, according to expert priors.</p>
+</div>
+</div>
+<div class="caution">
+<p>Over half of the comparison-group firms planned to continue their R&amp;D projects using other funding or their own resources. Public R&amp;D subsidies can significantly boost private investment, but careful targeting is needed to avoid simply displacing money firms would have spent anyway.</p>
+</div>
+</section>
+</section>
+<section id="czechia-light-touch-support-for-smes" class="level2">
+<h2 class="anchored" data-anchor-id="czechia-light-touch-support-for-smes">Czechia: light-touch support for SMEs</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Entrepreneurial activity remains low in Czech regions hit by the decline of the coal industry. These regions need to diversify away from carbon-intensive industries and grow their private sector.</p>
+<p>In September 2022, the European Commission approved the Just Transition Programme (JTP): €1.641 billion for business R&amp;D, post-mining regeneration, skills, clean energy and the circular economy in the Moravian-Silesian, Ústí and Karlovy Vary regions.</p>
+<p>A key part of the JTP is a voucher scheme for entrepreneurs: up to €21,100 for business development, up to €42,200 for innovation, and up to €21,100 for digital transformation.</p>
+</div>
+<div class="card-e">
+<p><strong>What was done</strong></p>
+<p>The World Bank tested two light-touch, complementary pilots that add skills support on top of the voucher scheme.</p>
+<p><strong>Smart Start</strong> (Moravian-Silesian region): seven workshops teaching a scientific approach to decision-making under uncertainty, covering risk versus uncertainty, hypothesis testing and A/B testing, aimed at voucher recipients and other interested firms.</p>
+<p><strong>AI Klub</strong> (Ústí and Karlovy Vary regions): five hands-on workshops on using AI for efficiency, marketing, sales, product development and financial management, with peer-to-peer exchange between firms.</p>
+</div>
+</div>
+<section id="what-experimentation-sought-to-answer-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-experimentation-sought-to-answer-1">What experimentation sought to answer</h3>
+<div class="quote-e">
+<p>“Does light-touch support to SMEs improve firm capabilities and performance?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="smart-start-entrepreneur-training" class="level3">
+<h3 class="anchored" data-anchor-id="smart-start-entrepreneur-training">Smart Start entrepreneur training</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Smart Start: seven workshops on scientific decision-making and customer validation</div></div>
+  <div><div class="k">Where</div><div class="v">Ostrava, Moravian-Silesian region; Just Transition Programme with MSIC</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">246 interested firms, many of them entrepreneurial voucher applicants</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 163 invited to the training vs. 83 with no support</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Business changes, motivations for change, sales and firm performance</div></div>
+  <div><div class="k">Starting point</div><div class="v">Entrepreneurial activity remains low in regions hit by the coal industry's decline</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-1" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-1">From application to evidence</h3>
+<div class="flow">
+  <div>Interest sign-up</div>
+  <div>Random selection</div>
+  <div>Seven workshops</div>
+  <div>Presentations</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="ai-adoption-in-post-coal-regions" class="level3">
+<h3 class="anchored" data-anchor-id="ai-adoption-in-post-coal-regions">AI adoption in post-coal regions</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">AI Klub: five hands-on workshops on AI for efficiency, marketing, sales, and finance</div></div>
+  <div><div class="k">Where</div><div class="v">Ústí and Karlovy Vary regions; Just Transition Programme with local partners</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">173 interested firms, including innovation voucher recipients</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 117 invited to the workshops vs. 56 with no support</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">AI adoption and use, innovation, business networking, sales and profits</div></div>
+  <div><div class="k">Starting point</div><div class="v">Local economies still rely on carbon-intensive industries and need diversification</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-2" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-2">From application to evidence</h3>
+<div class="flow">
+  <div>Interest sign-up</div>
+  <div>Random selection</div>
+  <div>Five AI workshops</div>
+  <div>Peer exchange</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="how-the-two-pilots-were-tested" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-two-pilots-were-tested">How the two pilots were tested</h3>
+<p>Both pilots drew their sample from firms that had already shown interest, then invited roughly two in three of them by random selection, leaving the rest as a comparison group.</p>
+</section>
+<section id="smart-start-moravian-silesian-region" class="level3">
+<h3 class="anchored" data-anchor-id="smart-start-moravian-silesian-region">Smart Start · Moravian-Silesian region</h3>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 160" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="246 interested firms enter random selection; 163, about two thirds, are invited to Smart Start, and 83 receive no support">
+  <rect x="10" y="46" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="75" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">246</text>
+  <text x="85" y="94" text-anchor="middle" fill="#6B6455" font-size="11.5">interested firms</text>
+
+  <path d="M160 79 H210" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="210" y="46" width="160" height="66" rx="6" fill="#F2C94C"></rect>
+  <text x="290" y="72" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM SELECTION</text>
+  <text x="290" y="91" text-anchor="middle" fill="#2B2724" font-size="11">same chance for every firm</text>
+
+  <path d="M370 79 H400 V24 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M370 79 H400 V134 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="430" y="0" width="220" height="48" rx="6" fill="#F2C94C"></rect>
+  <text x="446" y="20" fill="#2B2724" font-size="12.5" font-weight="bold">163 invited (~2/3)</text>
+  <text x="446" y="37" fill="#2B2724" font-size="11">Smart Start workshops</text>
+
+  <rect x="430" y="110" width="220" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">83 no support (~1/3)</text>
+  <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
+</svg>
+</figure>
+</section>
+<section id="ai-klub-ústí-and-karlovy-vary-regions" class="level3">
+<h3 class="anchored" data-anchor-id="ai-klub-ústí-and-karlovy-vary-regions">AI Klub · Ústí and Karlovy Vary regions</h3>
+<figure class="fig-e figure">
+<svg viewbox="0 0 660 160" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="173 interested firms enter random selection; 117, about two thirds, are invited to AI Klub, and 56 receive no support">
+  <rect x="10" y="46" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="75" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">173</text>
+  <text x="85" y="94" text-anchor="middle" fill="#6B6455" font-size="11.5">interested firms</text>
+
+  <path d="M160 79 H210" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="210" y="46" width="160" height="66" rx="6" fill="#F2C94C"></rect>
+  <text x="290" y="72" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM SELECTION</text>
+  <text x="290" y="91" text-anchor="middle" fill="#2B2724" font-size="11">same chance for every firm</text>
+
+  <path d="M370 79 H400 V24 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M370 79 H400 V134 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="430" y="0" width="220" height="48" rx="6" fill="#F2C94C"></rect>
+  <text x="446" y="20" fill="#2B2724" font-size="12.5" font-weight="bold">117 invited (~2/3)</text>
+  <text x="446" y="37" fill="#2B2724" font-size="11">AI Klub workshops</text>
+
+  <rect x="430" y="110" width="220" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">56 no support (~1/3)</text>
+  <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
+</svg>
+</figure>
+</section>
+<section id="what-the-two-pilots-achieved" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-two-pilots-achieved">What the two pilots achieved</h3>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Smart Start</p>
+</div>
+<div class="body">
+<ul>
+<li><strong>+47%</strong> go-to-market change intensity, versus the comparison group</li>
+<li><strong>+64%</strong> monthly sales, versus the comparison group (CZK 103,325 higher)</li>
+</ul>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>AI Klub</p>
+</div>
+<div class="body">
+<ul>
+<li><strong>+117%</strong> monthly sales, versus the comparison group</li>
+<li><strong>+66%</strong> monthly profits, versus the comparison group</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="croatia-matching-businesses-with-scientists" class="level2">
+<h2 class="anchored" data-anchor-id="croatia-matching-businesses-with-scientists">Croatia: matching businesses with scientists</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Firms and scientists in Croatia struggle to collaborate: information frictions, uncertain transaction costs and limited outreach budgets get in the way, especially for small and medium firms.</p>
+<p>Only 8% of Croatian firms collaborate with higher education institutions, far below the EU average. A World Bank survey found that 47% of firms lacked information about relevant scientists.</p>
+</div>
+<div class="card-e">
+<p><strong>What was done</strong></p>
+<p>The World Bank, the Innovation Centre Nikola Tesla and the Ministry of Science, Education and Youth designed “Scinergy”, a business-science matchmaking pilot targeting fields such as AI, energy and biotechnology.</p>
+<p>Matched firms and scientists took part in a two-day matchmaking event in February 2024: “speed-dating” sessions followed by joint workshops, plus legal and communication support to help pairs plan R&amp;D projects together.</p>
+</div>
+</div>
+<section id="what-experimentation-sought-to-answer-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-experimentation-sought-to-answer-2">What experimentation sought to answer</h3>
+<div class="quote-e">
+<p>“Does connecting firms with scientists foster research partnerships and innovation?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Scinergy: matchmaking events, workshops, and ongoing support for firm-scientist pairs</div></div>
+  <div><div class="k">Where</div><div class="v">Croatia; Innovation Centre Nikola Tesla with the Ministry of Science, Education, and Youth</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">210 eligible firms, from over 250 applications, seeking scientific collaboration</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery: 100 firms invited to Scinergy vs. 110 not invited</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Collaboration attempts and partnerships, innovation, R&amp;D employment</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 8% of Croatian firms collaborate with higher education, far below the EU average</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-3" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-3">From application to evidence</h3>
+<div class="flow">
+  <div>Applications</div>
+  <div>Lottery</div>
+  <div>Matchmaking event</div>
+  <div>Joint R&amp;D planning</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="how-the-programme-was-tested-1" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-was-tested-1">How the programme was tested</h3>
+<p>Firms applied between November 2023 and January 2024. In February 2024, eligible firms were randomly assigned by lottery to receive matchmaking support or not.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="260 applications are screened down to 210 eligible firms, which enter a lottery splitting them into 100 firms invited to Scinergy and 110 not invited">
+  <rect x="10" y="66" width="130" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="75" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">260</text>
+  <text x="75" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">applications</text>
+
+  <path d="M140 99 H166" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="166" y="66" width="130" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="231" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">210</text>
+  <text x="231" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">eligible firms</text>
+
+  <path d="M296 99 H326" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="326" y="66" width="130" height="66" rx="6" fill="#F2C94C"></rect>
+  <text x="391" y="92" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="391" y="110" text-anchor="middle" fill="#2B2724" font-size="10.5">every firm, the same chance</text>
+
+  <path d="M456 99 H486 V34 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M456 99 H486 V164 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="516" y="10" width="180" height="48" rx="6" fill="#F2C94C"></rect>
+  <text x="530" y="30" fill="#2B2724" font-size="12.5" font-weight="bold">100 invited</text>
+  <text x="530" y="47" fill="#2B2724" font-size="11">matched with scientists</text>
+
+  <rect x="516" y="140" width="180" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="530" y="160" fill="#2B2724" font-size="12.5" font-weight="bold">110 not invited</text>
+  <text x="530" y="177" fill="#6B6455" font-size="11">comparison group</text>
+</svg>
+<figcaption>Only firms that cleared eligibility screening entered the lottery, so the comparison group is drawn from the same pool as the firms invited to Scinergy.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: a lottery among applicants ensures wide outreach, thanks to a simple application process. Limitation: firms may drop out after applying, which can reduce statistical power.</p>
+</div>
+</section>
+<section id="what-the-programme-achieved-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-programme-achieved-1">What the programme achieved</h3>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">+38%</span></p>
+<p><strong>Collaboration attempts with scientists</strong></p>
+<p>Treated firms were more likely to attempt and to sustain collaborations with Croatian researchers.</p>
+</div>
+<div class="card-e">
+<p><span class="num">+50%</span></p>
+<p><strong>Commercialisation of new products</strong></p>
+<p>Among firms that originally requested support in AI, who benefited the most from the pilot.</p>
+</div>
+</div>
+<hr>
+<div class="team-note">
+<p><strong>Status: In implementation</strong></p>
+<p>The four programmes below are currently being rolled out by EuroCOMP Lab country teams. Nothing here reports results — there are none yet. The sections describe the planned intervention, the evaluation design, and the questions each study is set up to answer; outcomes will be added once data collection and analysis are complete.</p>
+</div>
+</section>
+</section>
+<section id="bulgaria-human-led-versus-ai-led-business-consulting" class="level2">
+<h2 class="anchored" data-anchor-id="bulgaria-human-led-versus-ai-led-business-consulting">Bulgaria: Human-led versus AI-led business consulting</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Northern Bulgaria’s micro and small enterprises (MSEs) — over 98% of firms in the region — lag far behind Southern Bulgaria and the EU average. Depopulation and aging have left “ghost towns” with shrinking labor pools and declining customer bases, and managerial skills, often picked up informally, limit the uptake of modern business practices. AI adoption is strikingly low: just 6.5% of firms in the region use AI, against an EU average of 13.5%.</p>
+</div>
+<div class="card-e">
+<p><strong>What is being tested</strong></p>
+<p>The Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA) is launching a programme that pairs group training in managerial skills with one of three ways of delivering further support: one-on-one human-led consulting, a subscription to an off-the-shelf AI platform such as ChatGPT Premium, or a customised AI tool that proactively nudges managers toward it. The aim is to find out whether AI-led alternatives can match costly human consulting at a fraction of the price.</p>
+</div>
+</div>
+<section id="what-the-evaluation-aims-to-answer" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-aims-to-answer">What the evaluation aims to answer</h3>
+<div class="quote-e">
+<p>“Can lower-cost, AI-led consulting match the effectiveness of traditional human-led consulting for small firms?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-1" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-1">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Group training in managerial skills, then one of three support modes: human-led consulting, an AI subscription, or a customised AI-led consulting tool</div></div>
+  <div><div class="k">Where</div><div class="v">Northern Bulgaria; Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">600 MSEs (fewer than 50 employees) in retail, agricultural processing, services and manufacturing, stratified by sector, region and owner gender</div></div>
+  <div><div class="k">The design</div><div class="v">Four-arm RCT: pure control, training + human consulting, training + AI subscription, training + AI-led consulting tool (150 firms per arm)</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Firm sales, sales per worker, profits and exports; management practices, foreign-market knowledge, access to suppliers, finance and customers</div></div>
+  <div><div class="k">Starting point</div><div class="v">MSEs report 88% lower sales per worker than larger firms on average, and only 6.5% of regional firms use AI, against an EU average of 13.5%</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-4" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-4">From application to evidence</h3>
+<div class="flow">
+  <div>Recruitment &amp; applications</div>
+  <div>Random assignment</div>
+  <div>Training &amp; consulting rollout</div>
+  <div>Endline survey</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="how-the-programme-is-designed" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-is-designed">How the programme is designed</h3>
+<p>The Agency will mobilise applicants directly across northern Bulgaria; up to 450 eligible firms will be offered business support, with no applicant guaranteed a place. Once 600 eligible firms have applied, firms are randomly allocated, stratified by sector, region and owner gender, to a pure control group or one of three treatment arms.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 740 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="600 eligible MSEs are randomly split into four equal arms of 150 firms each: a pure control group, training plus human-led consulting, training plus an AI subscription, and training plus a customised AI-led consulting tool">
+  <rect x="10" y="95" width="140" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="80" y="125" text-anchor="middle" fill="#2B2724" font-size="18" font-weight="bold">600</text>
+  <text x="80" y="144" text-anchor="middle" fill="#6B6455" font-size="9.5">eligible MSEs</text>
+
+  <path d="M150 130 H182" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M182 130 V20 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M182 130 V90 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M182 130 V170 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M182 130 V240 H214" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="214" y="0" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="228" y="25" fill="#2B2724" font-size="12" font-weight="bold">150 control</text>
+  <text x="330" y="25" fill="#6B6455" font-size="10.5">no training or consulting</text>
+
+  <rect x="214" y="70" width="516" height="40" rx="5" fill="#F2C94C"></rect>
+  <text x="228" y="95" fill="#2B2724" font-size="12" font-weight="bold">150 training + human-led consulting</text>
+  <text x="560" y="95" fill="#2B2724" font-size="10.5">one-on-one, in person</text>
+
+  <rect x="214" y="150" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="228" y="175" fill="#2B2724" font-size="12" font-weight="bold">150 training + AI subscription</text>
+  <text x="560" y="175" fill="#6B6455" font-size="10.5">e.g. ChatGPT Premium</text>
+
+  <rect x="214" y="220" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="228" y="245" fill="#2B2724" font-size="12" font-weight="bold">150 training + AI-led consulting tool</text>
+  <text x="600" y="245" fill="#6B6455" font-size="10.5">proactive nudges</text>
+</svg>
+<figcaption>600 eligible MSEs are randomly assigned in equal shares to a control group and three treatment arms, so each AI-based alternative can be compared directly to human-led consulting.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: putting human-led consulting and two AI-based alternatives in the same trial, against the same control group, lets the evaluation rank all three by cost-effectiveness rather than comparing each in isolation. Limitation: with 150 firms per arm, the study is powered to detect a change in sales of around 26% or more, so more modest effects could go undetected.</p>
+</div>
+</section>
+<section id="what-the-evaluation-will-tell-us" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-will-tell-us">What the evaluation will tell us</h3>
+<div class="cards">
+<div class="card-e">
+<p><strong>Human-led vs AI-led</strong></p>
+<p>Whether a customised, proactively-nudging AI tool can approach the effectiveness of costly one-on-one human consulting, at a much lower marginal cost.</p>
+</div>
+<div class="card-e">
+<p><strong>Off-the-shelf vs custom AI</strong></p>
+<p>Whether simply subscribing managers to an existing tool like ChatGPT Premium is enough, or whether a tailored, proactive AI platform is needed to change business practices.</p>
+</div>
+<div class="card-e">
+<p><strong>How durable are the gains</strong></p>
+<p>Whether improvements from AI-enabled consulting persist for longer than from human-led consulting, since managers keep the ability to self-serve after the programme ends.</p>
+</div>
+</div>
+<div class="caution">
+<p>The main risks to the evaluation are insufficient take-up of consulting or AI services, and non-random attrition between the baseline and the two follow-up rounds. The team is mitigating these with in-person mobilisation to build the applicant pool, and by collecting detailed contact and backup information from every participant to support tracking through fall 2027.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="poland-ai-assistance-for-smarter-horizon-europe-applications" class="level2">
+<h2 class="anchored" data-anchor-id="poland-ai-assistance-for-smarter-horizon-europe-applications">Poland: AI assistance for smarter Horizon Europe applications</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Polish SMEs underperform in Horizon Europe, the EU’s flagship innovation funding programme: a 16.5% success rate, against an EU-27 average of 20.3%. Funding is also highly concentrated — just 11 SMEs account for roughly a third of all Polish projects. A previous support scheme, “Grants for Eurogrants,” converted only 400 of about 1,700 applications into signed contracts, and just 19 firms ultimately secured EU funding. Only 20.1% of firms report knowing PARP, the agency responsible for this support.</p>
+</div>
+<div class="card-e">
+<p><strong>What is being tested</strong></p>
+<p>The Polish Agency for Enterprise Development (PARP) is testing a three-stage pilot: behavioural messaging to raise awareness of its support; a machine-learning model that scores firms’ likelihood of Horizon Europe success, used to target encouragement calls; and an AI-based advisory tool paired with a human “technology scout” for firms that express interest in applying.</p>
+</div>
+</div>
+<section id="what-the-evaluation-aims-to-answer-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-aims-to-answer-1">What the evaluation aims to answer</h3>
+<div class="quote-e">
+<p>“Can behavioural messaging, algorithmic targeting and AI-assisted advice raise the number and quality of Polish Horizon Europe applications?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-2" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-2">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">A three-stage pilot: behavioural outreach messaging, machine-learning targeting with encouragement calls, and AI-tool-plus-technology-scout application support</div></div>
+  <div><div class="k">Where</div><div class="v">Poland; Polish Agency for Enterprise Development (PARP)</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">~120,000 SMEs reached with outreach messages; ~11,000 Horizon-eligible firms in the targeting stage; up to ~500 interested firms in the support stage</div></div>
+  <div><div class="k">The design</div><div class="v">Three nested RCTs: a messaging A/B/C test, ranked-vs-random encouragement calls, and AI-tool-and-scout support (~200 firms) vs. a waitlist</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Email/ad engagement, applications to PARP and Horizon Europe, blind-rated application quality, funding success, and firm employment, revenue and survival</div></div>
+  <div><div class="k">Starting point</div><div class="v">Just 16.5% of Polish Horizon Europe applications succeed, against an EU-27 average of 20.3%, and only 20.1% of firms report knowing PARP</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-5" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-5">From application to evidence</h3>
+<div class="flow">
+  <div>Outreach messaging</div>
+  <div>ML targeting</div>
+  <div>Encouragement calls</div>
+  <div>Support sign-up</div>
+  <div>AI-tool &amp; scout support</div>
+</div>
+</section>
+<section id="how-the-programme-is-designed-1" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-is-designed-1">How the programme is designed</h3>
+<p>Three experiments are nested inside PARP’s own application funnel. First, roughly 120,000 SMEs are randomly shown one of three outreach messages, from a plain fact-based announcement to versions adding behavioural nudges and information about the new AI-powered support. Second, from a pool of about 11,000 Horizon-eligible firms, one half is ranked by a machine-learning model trained on past Horizon winners; the top 500 ranked firms and 500 randomly-selected firms then both receive an encouragement call. Third, among the roughly 400–500 firms that register interest in extra support, 200 are randomly selected for immediate access to an AI advisory tool and a technology scout, while the remainder are waitlisted.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 760 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three nested experiments: around 120,000 SMEs are randomly shown one of three outreach messages; around 11,000 eligible firms are split into a ranked half and a not-ranked half, with 500 firms from each called to encourage applications; and around 200 of the interested firms are randomly given AI tool and technology scout support, with the rest waitlisted">
+  <rect x="10" y="10" width="230" height="80" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="125" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 1: Outreach</text>
+  <text x="125" y="54" text-anchor="middle" fill="#6B6455" font-size="10">~120,000 SMEs</text>
+  <text x="125" y="70" text-anchor="middle" fill="#6B6455" font-size="10">3 randomised messages (A/B/C)</text>
+
+  <rect x="265" y="10" width="230" height="80" rx="6" fill="#F2C94C"></rect>
+  <text x="380" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 2: Targeting</text>
+  <text x="380" y="54" text-anchor="middle" fill="#2B2724" font-size="10">~11,000 eligible firms</text>
+  <text x="380" y="70" text-anchor="middle" fill="#2B2724" font-size="10">ranked (500 called) vs. not-ranked (500 called)</text>
+
+  <rect x="520" y="10" width="230" height="80" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="635" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 3: Support</text>
+  <text x="635" y="54" text-anchor="middle" fill="#6B6455" font-size="10">~400–500 interested firms</text>
+  <text x="635" y="70" text-anchor="middle" fill="#6B6455" font-size="10">~200 AI tool + scout vs. waitlist</text>
+
+  <path d="M240 50 H265" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M495 50 H520" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <text x="10" y="130" fill="#6B6455" font-size="11">Each stage is a separate randomisation, feeding firms forward into PARP's existing application funnel.</text>
+</svg>
+<figcaption>Three nested experiments track firms from broad outreach through algorithmic targeting to intensive AI-and-scout application support.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: nesting three experiments inside PARP’s own application funnel means each stage’s estimate is drawn from firms who arrive naturally through the programme, not an artificial sample. Limitation: because later stages depend on take-up from earlier ones, the sample shrinks at each step, leaving less statistical power for the innermost support experiment.</p>
+</div>
+</section>
+<section id="what-the-evaluation-will-tell-us-1" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-will-tell-us-1">What the evaluation will tell us</h3>
+<div class="cards">
+<div class="card-e">
+<p><strong>Does messaging move firms?</strong></p>
+<p>Whether behavioural nudges — social proof, urgency framing, expected-value framing — raise click-throughs and registrations more than PARP’s standard, fact-based messaging.</p>
+</div>
+<div class="card-e">
+<p><strong>Can an algorithm find promising firms?</strong></p>
+<p>Whether a machine-learning “Horizon potential score,” trained on past winners, identifies firms more likely to submit competitive applications than outreach targeted at random.</p>
+</div>
+<div class="card-e">
+<p><strong>Does AI-assisted support raise quality?</strong></p>
+<p>Whether pairing an AI advisory tool with a human technology scout increases application rates, application quality and ultimately funding success, compared with PARP’s standard waitlist resources.</p>
+</div>
+</div>
+<div class="caution">
+<p>The clearest risk to implementation is legal: whether informing firms that a machine-learning model identified them as “high-potential” is compatible with EU data-protection law is still under review, and may limit how the targeting stage can be communicated. The team is also tracking whether firms treat encouragement phone calls as credible outreach from PARP rather than as spam.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="romania-north-east-ai-assistance-for-smarter-grant-reviews" class="level2">
+<h2 class="anchored" data-anchor-id="romania-north-east-ai-assistance-for-smarter-grant-reviews">Romania (North-East): AI assistance for smarter grant reviews</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>At Romania’s Regional Development Agencies, grant application reviews are slow and inconsistent. The 2023 Microenterprise call at the North-East RDA took roughly seven months from submission to contract, generated 50 technical-financial appeals and 19 contracting appeals, and disadvantaged smaller firms: enterprises under two years old, with no employees or turnover below 250,000 RON, succeeded only 14% of the time, against over 90% for firms with turnover of 1.5–2 million RON. Many applicants turn to a large consultancy industry — an estimated €527 million in annual turnover across 1,500 firms — just to navigate the process.</p>
+</div>
+<div class="card-e">
+<p><strong>What is being tested</strong></p>
+<p>The North-East Regional Development Agency (RDA), with the automation company UiPath, has built an AI decision-support tool that benchmarks proposed budgets, flags risks, and supports reviewers on eligibility and quality criteria. It is being embedded in the 2026 Microenterprise Growth Grant Call (about €30 million), with reviewers randomly assigned to work with or without the tool, and funded projects randomly assigned to AI-assisted or standard monitoring.</p>
+</div>
+</div>
+<section id="what-the-evaluation-aims-to-answer-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-aims-to-answer-2">What the evaluation aims to answer</h3>
+<div class="quote-e">
+<p>“Can an AI decision-support tool make public grant reviews faster, more consistent and better targeted, without compromising fairness?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-3" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-3">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (≈€30 million)</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30–40 trained reviewers; ~150 funded projects</div></div>
+  <div><div class="k">The design</div><div class="v">Multi-phase RCT: reviewers randomised to AI-assisted or human-only review at each stage; ~150 grants allocated by lottery within score bands; funded projects randomised to AI-assisted or standard monitoring</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Review time and scores, clarification requests and appeals, on-time disbursement, and funded-firm survival, employment, revenue and investment</div></div>
+  <div><div class="k">Starting point</div><div class="v">The 2023 call took roughly seven months from submission to contract; firms under two years old or with no employees had a 14% success rate, against over 90% for the highest-turnover firms</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-6" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-6">From application to evidence</h3>
+<div class="flow">
+  <div>Expression of interest</div>
+  <div>AI-assisted or human review</div>
+  <div>Full proposal &amp; review</div>
+  <div>Funding lottery</div>
+  <div>AI-assisted or standard monitoring</div>
+</div>
+</section>
+<section id="how-the-programme-is-designed-2" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-is-designed-2">How the programme is designed</h3>
+<p>Around 1,000 expressions of interest are expected, each assigned to one of 30–40 trained reviewers who are randomly given, or not given, access to the AI tool; reviewers cycle between AI-assisted and unassisted batches so the comparison is not confounded by reviewer ability. Roughly 800 full proposals then go through the same randomised review process. Of the approximately 600 proposals that clear eligibility checks, about 150 are funded through a lottery run separately within AI-assisted and human-only score bands, so funding decisions stay comparable across review modes. Funded projects are then randomly assigned to AI-assisted or standard monitoring during implementation.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 760 220" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,000 expressions of interest, each reviewed with or without AI assistance, narrow to 800 full proposals, then 600 proposals eligible for a funding lottery run separately within AI-assisted and human-only score bands, resulting in 150 funded projects that are randomly assigned to AI-assisted or standard monitoring">
+  <rect x="10" y="75" width="130" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="75" y="105" text-anchor="middle" fill="#2B2724" font-size="17" font-weight="bold">1,000</text>
+  <text x="75" y="124" text-anchor="middle" fill="#6B6455" font-size="9">expressions of interest</text>
+
+  <path d="M140 110 H168" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="168" y="75" width="130" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="233" y="105" text-anchor="middle" fill="#2B2724" font-size="17" font-weight="bold">800</text>
+  <text x="233" y="124" text-anchor="middle" fill="#6B6455" font-size="9">full proposals</text>
+
+  <path d="M298 110 H326" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="326" y="75" width="140" height="70" rx="6" fill="#F2C94C"></rect>
+  <text x="396" y="105" text-anchor="middle" fill="#2B2724" font-size="14" font-weight="bold">600 eligible</text>
+  <text x="396" y="124" text-anchor="middle" fill="#2B2724" font-size="9">funding lottery, by score band</text>
+
+  <path d="M466 110 H498" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M498 110 V38 H528" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M498 110 V182 H528" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="528" y="10" width="222" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="542" y="32" fill="#2B2724" font-size="12" font-weight="bold">75 funded: AI monitoring</text>
+  <text x="542" y="49" fill="#6B6455" font-size="9.5">automated risk flags</text>
+
+  <rect x="528" y="154" width="222" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="542" y="176" fill="#2B2724" font-size="12" font-weight="bold">75 funded: standard monitoring</text>
+  <text x="542" y="193" fill="#6B6455" font-size="9.5">human oversight only</text>
+</svg>
+<figcaption>Reviewers are randomly assigned to work with or without the AI tool at each review stage (not shown); funded projects are then randomly split between AI-assisted and standard monitoring.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: randomising AI access at the reviewer-proposal level, with each reviewer cycling between AI-assisted and unassisted batches, isolates the effect of the tool from differences between reviewers. Limitation: because a reviewer with AI access can choose how much to rely on it, the design measures the effect of being offered AI support (intention-to-treat), not of using it, though usage telemetry will help distinguish the two.</p>
+</div>
+</section>
+<section id="what-the-evaluation-will-tell-us-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-will-tell-us-2">What the evaluation will tell us</h3>
+<div class="cards">
+<div class="card-e">
+<p><strong>Faster, more consistent reviews</strong></p>
+<p>Whether AI-assisted reviewers complete assessments faster, and with fewer clarification requests or appeals, than reviewers working without AI support.</p>
+</div>
+<div class="card-e">
+<p><strong>Sharper targeting of promising firms</strong></p>
+<p>Whether the relationship between evaluation scores and firms’ later performance is stronger when those scores were produced with AI assistance.</p>
+</div>
+<div class="card-e">
+<p><strong>Fair treatment across firm types</strong></p>
+<p>Whether AI assistance changes the pattern of scores and funding by owner gender, firm age and sector, as part of a pre-registered bias audit.</p>
+</div>
+</div>
+<div class="caution">
+<p>The central safeguard against biased AI outputs is a systematic audit of scoring patterns across firm groups after the expression-of-interest phase; if the audit finds significant disparities, the underlying prompts and models will be reviewed and adjusted before the full-proposal stage goes ahead.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="romania-south-muntenia-the-returns-to-innovation-subsidies" class="level2">
+<h2 class="anchored" data-anchor-id="romania-south-muntenia-the-returns-to-innovation-subsidies">Romania (South Muntenia): The returns to innovation subsidies</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>South Muntenia is a lagging EU region, ranked 243rd of EU regions on the Regional Innovation Scoreboard, with an Innovation Readiness Index of just 28. Only 6.3% of firms are classified as innovative, and just 1.4% of the workforce works in high-tech sectors. Between 2014 and 2020, Romania allocated €1.6 billion to public research institutes but only €74 million to private firms, and the region hosts just 3% of the country’s research infrastructure.</p>
+</div>
+<div class="card-e">
+<p><strong>What is being tested</strong></p>
+<p>The South Muntenia Regional Development Agency (SM-RDA) is allocating €24.8 million in innovation subsidies to SMEs, cross-randomised with a management-training programme on change and innovation culture. Grants are assigned through a two-stage design: geographic or sector clusters are randomly assigned different shares of funded firms, and firms within each cluster are then randomly selected to receive funding — allowing the evaluation to separate a firm’s own private return from spillovers onto its neighbours.</p>
+</div>
+</div>
+<section id="what-the-evaluation-aims-to-answer-3" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-aims-to-answer-3">What the evaluation aims to answer</h3>
+<div class="quote-e">
+<p>“Do the private returns to innovation subsidies for SMEs exceed their social returns, once spillovers to other firms are taken into account?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-4" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-4">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50–70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
+  <div><div class="k">Where</div><div class="v">South Muntenia, Romania; South Muntenia Regional Development Agency (SM-RDA), €24.8 million SME innovation grant allocation</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">≈900 SMEs across 100 geographic or sectoral clusters (≈9 firms per cluster), excluding agricultural firms</div></div>
+  <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Short-run revenue, inputs, profit, productivity, investment, pricing and product variety; medium- to long-run technology adoption, new products, licensing and patenting</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 6.3% of firms in the region are classified as innovative and just 1.4% of the workforce works in high-tech sectors, with an Innovation Readiness Index of 28</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-7" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-7">From application to evidence</h3>
+<div class="flow">
+  <div>Call for proposals</div>
+  <div>Cluster formation</div>
+  <div>Cluster-level intensity</div>
+  <div>Firm-level lottery</div>
+  <div>Grant &amp; monitoring</div>
+</div>
+</section>
+<section id="how-the-programme-is-designed-3" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-is-designed-3">How the programme is designed</h3>
+<p>After the call for proposals closes, applicant firms are grouped into roughly 100 clusters based on geographic or sectoral proximity. Each cluster is then randomly assigned a funding intensity — the share of its firms that will receive a subsidy, set at 0%, 33%, 66% or 100% — and firms within the cluster are randomly selected for funding up to that share. Comparing outcomes across clusters with different intensities isolates spillover effects, while comparing funded and unfunded firms within the same cluster isolates each firm’s own private return.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Roughly 100 clusters of about 9 firms each are randomly assigned a funding intensity of 0, 33, 66 or 100 percent; within each cluster, firms are then randomly selected for funding up to that share, illustrated here for a single cluster at 33 percent intensity with 3 of 9 firms funded">
+  <text x="10" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Cluster-level intensity (randomised across ≈100 clusters)</text>
+
+  <rect x="10" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">0% funded</text>
+
+  <rect x="176" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="5 4"></rect>
+  <text x="251" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">33% funded</text>
+
+  <rect x="342" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="417" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">66% funded</text>
+
+  <rect x="508" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="583" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">100% funded</text>
+
+  <path d="M251 82 V110" stroke="#B9AF95" stroke-width="1.5"></path>
+  <text x="251" y="128" text-anchor="middle" fill="#6B6455" font-size="10.5">Example cluster at 33% intensity: 9 firms, 3 randomly funded</text>
+
+  <g>
+    <rect x="30" y="148" width="52" height="52" rx="5" fill="#F2C94C"></rect>
+    <rect x="92" y="148" width="52" height="52" rx="5" fill="#F2C94C"></rect>
+    <rect x="154" y="148" width="52" height="52" rx="5" fill="#F2C94C"></rect>
+    <rect x="216" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+    <rect x="278" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+    <rect x="340" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+    <rect x="402" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+    <rect x="464" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+    <rect x="526" y="148" width="52" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  </g>
+  <text x="56" y="178" text-anchor="middle" fill="#2B2724" font-size="9.5">funded</text>
+  <text x="118" y="178" text-anchor="middle" fill="#2B2724" font-size="9.5">funded</text>
+  <text x="180" y="178" text-anchor="middle" fill="#2B2724" font-size="9.5">funded</text>
+
+  <text x="10" y="232" fill="#6B6455" font-size="11">Comparing across clusters isolates spillovers; comparing within a cluster isolates each firm's own private return.</text>
+</svg>
+<figcaption>Clusters are randomly assigned a funding intensity; within each cluster, firms are then randomly selected for funding up to that share.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: varying funding intensity across clusters, on top of randomising which firms within a cluster are funded, lets the evaluation separate a firm’s private return from spillovers onto its neighbours and competitors. Limitation: the design captures spillovers within a cluster but not across cluster boundaries, which the team plans to approximate separately with a structural, network-based model.</p>
+</div>
+</section>
+<section id="what-the-evaluation-will-tell-us-3" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-evaluation-will-tell-us-3">What the evaluation will tell us</h3>
+<div class="cards">
+<div class="card-e">
+<p><strong>Do subsidies pay off for the firm?</strong></p>
+<p>Whether receiving an innovation subsidy raises a firm’s revenue, profits, productivity and investment in the short run, and its technology adoption and patenting over the longer run.</p>
+</div>
+<div class="card-e">
+<p><strong>Do the gains spread, or just shift?</strong></p>
+<p>Whether firms in higher-intensity clusters see larger productivity gains through knowledge diffusion, or whether funded firms instead grow at competitors’ expense.</p>
+</div>
+<div class="card-e">
+<p><strong>Does training make subsidies work harder?</strong></p>
+<p>Whether pairing the grant with training on change management and innovation culture strengthens firms’ ability to absorb and use the funding.</p>
+</div>
+</div>
+<div class="caution">
+<p>The main risk to the spillover analysis is statistical power: if spillovers turn out to be smaller than about 8 percentage points (roughly a third of the expected direct subsidy effect), that part of the analysis will be underpowered. Even so, the team notes the resulting estimates will still provide useful benchmarks for calibrating models of innovation diffusion, an area where experimental evidence remains scarce.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="earlier-work-by-the-eurocomp-lab-team-digitrans" class="level2">
+<h2 class="anchored" data-anchor-id="earlier-work-by-the-eurocomp-lab-team-digitrans">Earlier work by the EuroCOMP Lab team: Digitrans</h2>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Small businesses in Bulgaria, Poland and Slovakia show limited adoption of digital tools beyond what regulation or the financial sector requires. The 2022 Digital Economy and Society Index places all three countries in the bottom quartile of EU members for business digitalisation.</p>
+<p>Current public support programmes in the region largely overlook this: MSMEs account for 98% of businesses and two-thirds of employment, yet most programmes still emphasise technology adoption and financial assistance, leaving the managerial and organisational capabilities firms need to make use of new tools unaddressed.</p>
+</div>
+<div class="card-e">
+<p><strong>What was done</strong></p>
+<p>The World Bank designed Digitrans, a standardised support instrument tested across Bulgaria, Poland and Slovakia, integrating a financial subsidy with technical assistance to address both resource and capability constraints.</p>
+<p>The financial subsidy provides up to €2,000 per firm towards the cost of adopting digital business tools. The technical assistance component adds a 10-week programme of diagnostic assessment, group training and one-to-one advisory support.</p>
+</div>
+</div>
+<section id="what-experimentation-sought-to-answer-3" class="level3">
+<h3 class="anchored" data-anchor-id="what-experimentation-sought-to-answer-3">What experimentation sought to answer</h3>
+<div class="quote-e">
+<p>“Does pairing technical assistance with a financial subsidy improve MSME digitalisation outcomes more than a subsidy alone?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-5" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-5">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">A financial subsidy of up to EUR 2,000 per firm, with a subset of firms also receiving a 10-week technical assistance programme</div></div>
+  <div><div class="k">Where</div><div class="v">Bulgaria, Poland and Slovakia; World Bank Digitrans pilot, EU-funded</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">629 MSMEs with 5–35 employees and at least 12 months trading, drawn from over 1,600 applications</div></div>
+  <div><div class="k">The design</div><div class="v">Three-arm RCT, stratified by country, firm size and digital sophistication: comparison (209), subsidy only (210), subsidy plus technical assistance (210)</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital tool adoption and usage, managerial and organisational change, firm performance</div></div>
+  <div><div class="k">Starting point</div><div class="v">Small businesses show limited digital adoption beyond what regulation or banks require</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-8" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-8">From application to evidence</h3>
+<div class="flow">
+  <div>Applications</div>
+  <div>Eligibility &amp; interview</div>
+  <div>Random assignment</div>
+  <div>Subsidy &amp; support</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="how-the-programme-was-tested-2" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-was-tested-2">How the programme was tested</h3>
+<p>Firms applied through an open call across Bulgaria, Poland and Slovakia in 2024, and those meeting the eligibility criteria completed a baseline interview. Eligible firms were then randomly assigned by the World Bank into one of three groups, with randomisation stratified within each country by firm size and digital sophistication so that groups were balanced from the outset.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 700 270" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="629 randomised firms enter a stratified lottery, splitting them into a comparison group of 209 firms, a financial subsidy only group of 210 firms, and a financial subsidy plus technical assistance group of 210 firms">
+  <rect x="10" y="90" width="150" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="120" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">629</text>
+  <text x="85" y="139" text-anchor="middle" fill="#6B6455" font-size="10.5">randomised firms</text>
+
+  <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"></rect>
+  <text x="286" y="118" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">STRATIFIED LOTTERY</text>
+  <text x="286" y="136" text-anchor="middle" fill="#2B2724" font-size="10.5">by country, size and digital sophistication</text>
+
+  <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M406 125 H436" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M406 125 V222 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="436" y="0" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="450" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">209 comparison group</text>
+  <text x="450" y="39" fill="#6B6455" font-size="10.5">benchmarking report only</text>
+
+  <rect x="436" y="97" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="450" y="119" fill="#2B2724" font-size="12.5" font-weight="bold">210 financial subsidy</text>
+  <text x="450" y="136" fill="#6B6455" font-size="10.5">subsidy plus benchmarking report</text>
+
+  <rect x="436" y="194" width="254" height="56" rx="6" fill="#F2C94C"></rect>
+  <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">210 subsidy + technical assistance</text>
+  <text x="450" y="233" fill="#2B2724" font-size="10.5">the full support package</text>
+</svg>
+<figcaption>Randomisation was stratified within each country by firm size and digital sophistication, splitting 629 eligible firms into a comparison group and two support groups of about 210 firms each.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: a three-arm design separates the effect of money from the effect of capability-building support, rather than only comparing supported firms to unsupported ones. Limitation: it needs a larger sample than a simple two-arm trial to detect the same effect size, since firms are split three ways.</p>
+</div>
+<div class="takeaway">
+<p>Allocation resulted in balanced groups across a broad range of firm characteristics, creating a solid foundation for rigorous impact evaluation. There was no evidence of systematic differences between groups at baseline, so later changes can be reliably attributed to the support received rather than to pre-existing differences.</p>
+</div>
+</section>
+<section id="what-the-programme-achieved-2" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-programme-achieved-2">What the programme achieved</h3>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">2.5x</span></p>
+<p><strong>Digital tool usage is 2.5x higher with combined support</strong></p>
+<p>Firms that received both types of support increased their digital tool usage intensity more than twice as much as those with a subsidy alone.</p>
+</div>
+<div class="card-e">
+<p><span class="num">2x</span></p>
+<p><strong>Managerial changes are more common with technical assistance</strong></p>
+<p>Firms in the combined support group were twice as likely to introduce internal organisational and managerial changes.</p>
+</div>
+<div class="card-e">
+<p><span class="num">82% vs 67%</span></p>
+<p><strong>Combined support leads to deeper use of digital tools</strong></p>
+<p>Firms with technical assistance made better use of advanced software functions: 82% used CRM systems for client communication, against 67% in the subsidy-only group.</p>
+</div>
+</div>
+<div class="caution">
+<p>Firms receiving only a financial subsidy typically limited their spending to the subsidy value, with no meaningful increase in the sophistication of tools available to them. Effective digitalisation support needs to go beyond subsidising technology purchases: the benefits of combined support were especially strong among smaller firms, firms with low initial digital capabilities, service-sector firms and women-led businesses.</p>
+</div>
+<hr>
+</section>
+</section>
+<section id="examples-from-beyond-the-lab" class="level2">
+<h2 class="anchored" data-anchor-id="examples-from-beyond-the-lab">Examples from beyond the Lab</h2>
+<section id="colombia-scaling-up-management-consulting" class="level3">
+<h3 class="anchored" data-anchor-id="colombia-scaling-up-management-consulting">Colombia: Scaling up management consulting</h3>
+<p>Source: <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913">Iacovone, L., Maloney, W. F., &amp; McKenzie, D. (2022). Improving management with individual and group-based consulting: Results from a randomized experiment in Colombia. <em>Review of Economic Studies</em>, 89(1), 346–371.</a></p>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Colombian auto parts manufacturers show wide variation in management practices, and weaker practices are closely tied to lower productivity. Structured, hands-on management consulting can improve how firms are run, but delivering it in a resource-intensive, one-on-one format is costly — a cost that can be prohibitive for small and medium firms to finance on their own, and for governments seeking to support large numbers of firms at once.</p>
+</div>
+<div class="card-e">
+<p><strong>What was done</strong></p>
+<p>The World Bank, in partnership with the Government of Colombia, tested two lower-cost ways to deliver management consulting to small and medium manufacturers: individual, firm-by-firm consulting delivered by local teams, and a more novel group-based model that works with several firms together to bring costs down further.</p>
+<p>Every participating firm, including the comparison group, first received a diagnostic assessment of its management practices across five areas — logistics, human resources, finance, marketing and sales, and production — carried out by a team of specialist consultants.</p>
+</div>
+</div>
+</section>
+<section id="what-experimentation-sought-to-answer-4" class="level3">
+<h3 class="anchored" data-anchor-id="what-experimentation-sought-to-answer-4">What experimentation sought to answer</h3>
+<div class="quote-e">
+<p>“Can lower-cost individual or group-based consulting improve small and medium firms’ management practices and performance?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Lottery</span><span class="sep">›</span><span>Program</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-6" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-6">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">A diagnostic for every firm, followed by individual or group-based management consulting</div></div>
+  <div><div class="k">Where</div><div class="v">Colombia — auto parts manufacturing sector</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">159 eligible firms (manufacturers, tier 1/2 suppliers, 2+ years old, 10+ workers), in 53 matched triplets</div></div>
+  <div><div class="k">The design</div><div class="v">Three-arm RCT: comparison, individual consulting (~US$28,950/firm), group consulting (~US$10,500/firm)</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Management practices; employment, sales, value-added and profits via administrative records</div></div>
+  <div><div class="k">Starting point</div><div class="v">Baseline management scores ranged from 43 to 51 out of 100 across practice areas</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-9" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-9">From application to evidence</h3>
+<div class="flow">
+  <div>Applications</div>
+  <div>Diagnostic phase</div>
+  <div>Matched-triplet lottery</div>
+  <div>Consulting delivered</div>
+  <div>Outcome tracking</div>
+</div>
+</section>
+<section id="how-the-programme-was-tested-3" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-was-tested-3">How the programme was tested</h3>
+<p>218 firms applied to Colombia’s Programa de Extensionismo Tecnológico. After screening for eligibility — established auto parts manufacturers that were tier 1 or 2 suppliers, at least two years old, with at least ten employees, and located in Antioquia, Cundinamarca, Valle del Cauca or the Eje Cafetero — 159 firms formed the final sample.</p>
+<p>Firms were then grouped into 53 matched triplets, formed to minimise differences in location, size, labor productivity and management practices between the three firms in each triplet. Within each triplet, firms were randomly allocated to a comparison group, individual consulting, or group consulting.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 700 270" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="159 eligible firms are grouped into 53 matched triplets, balanced on location, size, productivity and management practices; each triplet is then randomly split into a comparison group of 53 firms, an individual consulting group of 53 firms, and a group consulting group of 53 firms">
+  <rect x="10" y="90" width="150" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="85" y="120" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">159</text>
+  <text x="85" y="139" text-anchor="middle" fill="#6B6455" font-size="10.5">eligible firms</text>
+
+  <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"></rect>
+  <text x="286" y="118" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">53 MATCHED TRIPLETS</text>
+  <text x="286" y="136" text-anchor="middle" fill="#2B2724" font-size="10.5">by location, size, productivity, practices</text>
+
+  <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M406 125 H436" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M406 125 V222 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="436" y="0" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="450" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">53 comparison group</text>
+  <text x="450" y="39" fill="#6B6455" font-size="10.5">diagnostic only, no consulting</text>
+
+  <rect x="436" y="97" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="450" y="119" fill="#2B2724" font-size="12.5" font-weight="bold">53 individual consulting</text>
+  <text x="450" y="136" fill="#6B6455" font-size="10.5">~US$28,950/firm, over 6 months</text>
+
+  <rect x="436" y="194" width="254" height="56" rx="6" fill="#F2C94C"></rect>
+  <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">53 group consulting</text>
+  <text x="450" y="233" fill="#2B2724" font-size="10.5">~US$10,500/firm, in groups of 3–8</text>
+</svg>
+<figcaption>Firms were matched into triplets before randomisation, then randomly allocated within each triplet to a comparison group, individual consulting, or group consulting.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: matching firms into triplets before randomising keeps the three groups closely balanced on size, productivity and starting management practices, even with a modest overall sample. Limitation: with only 53 firms in each arm, the design has less statistical power to detect small effects than a larger, simple two-arm trial.</p>
+</div>
+</section>
+<section id="what-the-programme-achieved-3" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-programme-achieved-3">What the programme achieved</h3>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">+9 pp</span></p>
+<p><strong>Management practices improved in both groups</strong></p>
+<p>Individual and group consulting each raised firms’ management practice scores by around 9 percentage points on average, relative to a baseline of 56%.</p>
+</div>
+<div class="card-e">
+<p><span class="num">+28% to +33%</span></p>
+<p><strong>Sales and profits rose for group-consulting firms</strong></p>
+<p>Firms receiving group-based consulting saw significant gains in sales, value-added and profits; the individual programme’s effects on firm performance were smaller and not statistically significant.</p>
+</div>
+<div class="card-e">
+<p><span class="num">US$273,000</span></p>
+<p><strong>Estimated average annual profit increase, group consulting</strong></p>
+<p>At a cost of about US$10,500 per firm, the estimated profit gains from group consulting paid back the programme’s cost within about a month.</p>
+</div>
+</div>
+<div class="takeaway">
+<p>Group-consulting firms reported far more contact with each other after the programme than before it: business links between study firms were almost non-existent at baseline, but around half of group participants said they still communicated with other group members roughly a year later, and firms whose management practices changed the most tended to be grouped with others who also improved the most — evidence that peer learning, not just lower delivery cost, contributed to the group programme’s stronger results on firm performance.</p>
+</div>
+<div class="caution">
+<p>The group programme’s rollout was delayed by more than a year due to a budgetary payment delay, and only 68% of group-assigned firms completed the intervention, compared with 87% for the individually delivered programme. Delays like this are a practical risk to weigh when comparing the cost-effectiveness of different delivery models.</p>
+</div>
+</section>
+<section id="yemen-testing-whether-internships-help-youth-find-work" class="level3">
+<h3 class="anchored" data-anchor-id="yemen-testing-whether-internships-help-youth-find-work">Yemen: Testing whether internships help youth find work</h3>
+<p>Source: <a href="https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8">McKenzie, D., Assaf, N., &amp; Cusolito, A. P. (2016). The demand for, and impact of, youth internships: Evidence from a randomized experiment in Yemen. <em>IZA Journal of Labor &amp; Development</em>, 5(1), 1–15.</a></p>
+<div class="cards">
+<div class="card-e">
+<p><strong>The problem</strong></p>
+<p>Young jobseekers in Yemen often face a catch-22: firms are reluctant to hire someone without prior work experience, yet that experience is hard to gain without first being hired. Early jobs matter because they build both job-specific and soft skills, but firms may under-invest in providing them — a reluctance that can be sharper still in a fragile, conflict-affected setting. Job opportunities for young graduates were also increasingly scarce following Yemen’s 2011–12 political crisis.</p>
+</div>
+<div class="card-e">
+<p><strong>What was done</strong></p>
+<p>The Enterprise Revitalization and Employment Pilot (EREP) tested a subsidised-internship model: the program paid half the cost of a six-month internship, with the host firm covering the rest, and matched applicants to firms based on the firm’s stated requirements. Recent graduates in Sanaa and Aden applied online and were screened for eligibility before being considered.</p>
+</div>
+</div>
+</section>
+<section id="what-experimentation-sought-to-answer-5" class="level3">
+<h3 class="anchored" data-anchor-id="what-experimentation-sought-to-answer-5">What experimentation sought to answer</h3>
+<div class="quote-e">
+<p>“Can a subsidised matchmaking program help young jobseekers gain their first work experience, and does that experience translate into better employment outcomes afterward?”</p>
+</div>
+<div class="tracker"><span>Policy question</span><span class="sep">›</span><span>Eligibility</span><span class="sep">›</span><span>Application</span><span class="sep">›</span><span>Random assignment</span><span class="sep">›</span><span>Matchmaking</span><span class="sep">›</span><span>Follow-up</span><span class="sep">›</span><span>Impact</span></div>
+</section>
+<section id="the-programme-7" class="level3">
+<h3 class="anchored" data-anchor-id="the-programme-7">The programme</h3>
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Enterprise Revitalization and Employment Pilot (EREP), internship component — matching grants covering half the cost of a six-month internship, plus matchmaking between graduates and firms</div></div>
+  <div><div class="k">Where</div><div class="v">Republic of Yemen — Sanaa and Aden</div></div>
+  <div><div class="k">Who is randomized</div><div class="v">583 eligible youth (Yemeni, Sanaa/Aden residents, graduated within 2 years), to treatment (430) or control (153)</div></div>
+  <div><div class="k">The design</div><div class="v">RCT; treatment group offered matchmaking to internships subsidised at 50% of cost, for up to six months</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Employment, months worked and earnings, via a follow-up phone survey</div></div>
+  <div><div class="k">Starting point</div><div class="v">3,487 eligible youth applied; 500 were randomly invited to a two-day basic skills training (477 attended)</div></div>
+</div>
+</section>
+<section id="from-application-to-evidence-10" class="level3">
+<h3 class="anchored" data-anchor-id="from-application-to-evidence-10">From application to evidence</h3>
+<div class="flow">
+  <div>Applications</div>
+  <div>Skills-training invitation</div>
+  <div>Random assignment</div>
+  <div>Matchmaking</div>
+  <div>Follow-up survey</div>
+</div>
+</section>
+<section id="how-the-programme-was-tested-4" class="level3">
+<h3 class="anchored" data-anchor-id="how-the-programme-was-tested-4">How the programme was tested</h3>
+<p>The program launched in August 2013 through a project website, media events and campus outreach. Applications ran from October to December 2013, closing with 3,487 eligible applicants. Of these, 500 were randomly invited to a two-day basic skills training — chosen with probability proportional to the demand for their specialisation — and 477 attended.</p>
+<p>The resulting experimental sample of 583 individuals was randomly assigned, within strata defined by specialisation and city, to a treatment group of 430 (offered matchmaking to a subsidised internship) or a control group of 153. Eleven human resource advisors then matched treatment-group applicants to firms based on the firm’s requirements, sending CVs for firms to interview and decide whether to offer a placement.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 760 280" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="3,487 eligible applicants; 500 are randomly invited to basic skills training and 477 attend; from these, 583 form the experimental sample, randomly assigned within strata to a treatment group of 430 offered internship matchmaking, or a control group of 153">
+  <rect x="10" y="95" width="140" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="80" y="125" text-anchor="middle" fill="#2B2724" font-size="18" font-weight="bold">3,487</text>
+  <text x="80" y="144" text-anchor="middle" fill="#6B6455" font-size="9.5">eligible applicants</text>
+
+  <path d="M150 130 H182" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="182" y="95" width="160" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="262" y="120" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">500 invited to training</text>
+  <text x="262" y="138" text-anchor="middle" fill="#6B6455" font-size="9.5">477 attended</text>
+
+  <path d="M342 130 H374" stroke="#B9AF95" stroke-width="1.5"></path>
+
+  <rect x="374" y="95" width="170" height="70" rx="6" fill="#F2C94C"></rect>
+  <text x="459" y="120" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">583 experimental sample</text>
+  <text x="459" y="138" text-anchor="middle" fill="#2B2724" font-size="9.5">assigned within 39 strata</text>
+
+  <path d="M544 130 H576" stroke="#B9AF95" stroke-width="1.5"></path>
+  <path d="M576 130 V48 H606" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+  <path d="M576 130 V212 H606" stroke="#B9AF95" stroke-width="1.5" fill="none"></path>
+
+  <rect x="606" y="20" width="150" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="620" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">430 treatment</text>
+  <text x="620" y="59" fill="#6B6455" font-size="9.5">offered matchmaking</text>
+
+  <rect x="606" y="184" width="150" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
+  <text x="620" y="206" fill="#2B2724" font-size="12.5" font-weight="bold">153 control</text>
+  <text x="620" y="223" fill="#6B6455" font-size="9.5">no internship match</text>
+</svg>
+<figcaption>Applicants were randomly invited to basic skills training, then the resulting sample was randomly assigned, within specialisation-and-city strata, to a treatment group offered internship matchmaking or a control group.</figcaption>
+</figure>
+<div class="soft-panel">
+<p><strong>Why this design.</strong> Strength: randomising within strata defined by specialisation and city, among applicants who had already been invited to training, helps ensure the treatment and control groups started out comparable in skills and local job-market conditions. Limitation: more applicants were assigned to treatment than there were internship placements available, so actual take-up (36.7%) fell well below the treatment assignment rate — which is why the study reports both an intention-to-treat effect and a larger effect scaled up for those who actually took up an internship.</p>
+</div>
+</section>
+<section id="what-the-programme-achieved-4" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-programme-achieved-4">What the programme achieved</h3>
+<div class="cards">
+<div class="card-e">
+<p><span class="num">+17 pp / +42 pp</span></p>
+<p><strong>More likely to have worked at all in 2014</strong></p>
+<p>Being offered internship matchmaking raised the chance of having worked at all during 2014 by 17 percentage points on an intention-to-treat basis, and by 42 percentage points among those who actually took up an internship, relative to a 61% employment rate in the control group.</p>
+</div>
+<div class="card-e">
+<p><span class="num">+0.35 s.d. / +0.85 s.d.</span></p>
+<p><strong>Employment gains persisted months after the internship ended</strong></p>
+<p>On a standardised index of employment outcomes measured three to five months after internships ended, effects remained statistically significant — 0.35 standard deviations on an intention-to-treat basis, and 0.85 standard deviations for those who took up an internship.</p>
+</div>
+<div class="card-e">
+<p><span class="num">36.7%</span></p>
+<p><strong>Take-up among those assigned to treatment</strong></p>
+<p>Only 158 of the 430 people assigned to treatment were actually matched to and completed an internship placement, reflecting how binding capacity constraints were relative to demand for internship positions.</p>
+</div>
+</div>
+<div class="takeaway">
+<p>The internship raised employment more for male applicants than for female applicants, so the program did not close the pre-existing gender gap in employment outcomes. Because the evaluation covers only one year of the program rather than the two originally planned, the study had limited statistical power to say precisely how much smaller the effect was for women.</p>
+</div>
+<div class="caution">
+<p>Conflict escalated partway through the program: Houthi forces took control of Sanaa in September 2014, and the second year of the pilot was cancelled, roughly halving the intended sample and reducing statistical power. The follow-up survey was also fielded earlier and more narrowly than planned, amid displacement and shortages of fuel, electricity and water. It also remains possible that some of the employment gains for treated youth came partly at the expense of other jobseekers in the economy — a general equilibrium effect this study could not measure.</p>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/miketheebike\.github\.io\/eurocomp-lab-site\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>EuroCOMP Lab, powered by the World Bank Group</p>
+</div>   
+    <div class="nav-footer-center">
+<p><a href="./legal-notice.html">Legal notice</a> &nbsp;·&nbsp; <a href="./privacy.html">Privacy statement</a> &nbsp;·&nbsp; <a href="./accessibility.html">Accessibility statement</a></p>
+</div>
+    <div class="nav-footer-right">
+<p>Draft site, under review by the team</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
