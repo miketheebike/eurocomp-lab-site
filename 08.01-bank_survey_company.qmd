@@ -2,8 +2,6 @@
 title: "Topic: Company Details"
 ---
 
-Use at baseline. Establishes the firm profile for balance checks, stratification, and heterogeneity analysis.
-
 **What is the name of your company?**
 *(Open text field)*
 
