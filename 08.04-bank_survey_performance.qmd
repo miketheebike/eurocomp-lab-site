@@ -2,8 +2,6 @@
 title: "Topic: Company Financial Performance"
 ---
 
-*Use at baseline and endline. These questions mirror standard balance sheet items and income statements. Where administrative data is available (e.g., from a business registry or tax authority), consider using it instead of self-reported financial data.*
-
 **How many full-time paid employees work in the business as of the end of 2025?
 *(Open numeric field)*
 
