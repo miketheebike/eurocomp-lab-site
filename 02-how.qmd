@@ -24,42 +24,37 @@ Formulate the specific questions the evaluation is designed to answer, grounded 
 :::
 ::: {.card-e}
 
-#### [Step 3](02.03-assess.qmd)
-Assess feasibility of conducting an RCT
+#### [Step 3: Assess feasibility of conducting an RCT](02.03-assess.qmd)
 
-*Check whether the conditions for a valid RCT are in place — oversubscription, timing, legal basis, and political buy-in.*
+Check whether the conditions for a valid RCT are in place — oversubscription, timing, legal basis, and political buy-in.
 :::
 
 ::: {.card-e}
 
-#### [Step 4](02.04-indicators.qmd)
-Determine relevant indicators
+#### [Step 4: Determine relevant indicators](02.04-indicators.qmd)
 
-*Select the outcome indicators that will be used to measure change across each level of the Theory of Change.*
+Select the outcome indicators that will be used to measure change across each level of the Theory of Change.
 :::
 
 ::: {.card-e}
 
-#### [Step 5](02.05-data_sources.qmd)
-Identify available data sources
+#### [Step 5: Identify available data sources](02.05-data_sources.qmd)
 
-*Decide whether to rely on primary data, administrative data, or a combination — and map what is already available.*
+Decide whether to rely on primary data, administrative data, or a combination — and map what is already available.
 :::
 
 ::: {.card-e}
 
-#### [Step 6](02.06-data_collect.qmd)
-Collect data
+#### [Step 6: Collect data](02.06-data_collect.qmd)
 
-*Design and implement the data collection — surveys, administrative data access, and quality controls.*
+Design and implement the data collection — surveys, administrative data access, and quality controls.
 :::
 
 ::: {.card-e}
 
-#### [Step 7](02.07-data_quality.qmd)
-Ensure high-quality data
+#### [Step 7: Ensure high-quality data](02.07-data_quality.qmd)
 
-*Put in place the checks needed to detect and address data quality problems before analysis begins.*
+Put in place the checks needed to detect and address data quality problems before analysis begins.
 :::
 
 :::
