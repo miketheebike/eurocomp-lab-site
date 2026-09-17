@@ -132,6 +132,17 @@ The reliability of survey data depends heavily on asking the right person. For f
 
 Where the evaluation focuses on a specific group within the firm — R&D personnel or recently hired employees — those individuals may be better placed to answer certain questions. Where possible, the same respondent should complete both the baseline and endline surveys, to ensure that differences reflect real changes rather than differences between respondents.
 
+## Minimising attrition
+
+Attrition — firms that cannot be reached or refuse to participate at endline — is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
+
+**Collect robust contact information at baseline.** Record multiple contact points for each firm: the primary respondent's name, direct phone number, and email; a backup contact; and the firm's main address and website. Ask respondents explicitly for permission to follow up at endline and to contact them via alternative channels if the primary contact changes.
+
+**Maintain a tracking database throughout the intervention period.** Do not wait until the endline survey to discover that contact details have gone stale. Update the database periodically using public business registry records, programme monitoring data, and any contact made for compliance or monitoring purposes.
+
+**Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow — respondent fatigue is a leading cause of non-response in follow-up rounds.
+
+**Document and report all non-response.** Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible). This documentation is essential for the attrition analysis in Step 7.
 
 ## Data protection and GDPR compliance
 
