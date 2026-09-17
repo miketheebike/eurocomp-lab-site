@@ -1,5 +1,5 @@
 ---
-title: ""Impact Evaluation Outcome Bank"
+title: "Impact Evaluation Outcome Bank"
 ---
 
 ## Topic: R&D Activity
