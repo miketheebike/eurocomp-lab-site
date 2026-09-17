@@ -2,8 +2,6 @@
 title: "Topic: Respondent Details"
 ---
 
-*Use at baseline. Identifies the survey respondent and their role within the firm.*
-
 **What is your first name?**
 *(Open text field)*
 
