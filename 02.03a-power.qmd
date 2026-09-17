@@ -184,5 +184,3 @@ The most common planning problem has practical fixes.
   </div></div>
 </div>
 ```
-
-Related on [How](02-how.qmd): the eligibility levers and phase-in designs.
