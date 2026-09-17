@@ -2,8 +2,6 @@
 title: "Topic 3: Company Structure and Ownership"
 ---
 
-*Use at baseline. Captures governance, group membership, and ownership structure — important covariates for heterogeneity analysis.*
-
 **Is your company part of a larger enterprise group?**
 
 - Yes
