@@ -10,7 +10,7 @@ Definitions of terms used throughout the website
 **Scope**
 Terms specific to a single case study (programme names, voucher types) are not
 repeated here; they are explained on the page where they appear, for example
-[Country Examples](05-country-examples.qmd).
+[Examples](03-examples.qmd).
 :::
 
 ### A
