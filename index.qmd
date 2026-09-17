@@ -217,11 +217,11 @@ The case for evaluation, and how to tell if it fits your programme.
 How to plan and design a trial — plan this from day one.
 :::
 ::: {.card-e}
-#### [Templates](03-examples.qmd)
+#### [Examples](03-examples.qmd)
 Experience from projects already partnering with EuroCOMP Lab.
 :::
 ::: {.card-e}
-#### [Examples](04-templates.qmd)
+#### [Templates](04-templates.qmd)
 Glossary, templates etc.
 :::
 ::::
