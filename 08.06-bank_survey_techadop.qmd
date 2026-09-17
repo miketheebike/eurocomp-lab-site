@@ -2,9 +2,6 @@
 title: "Topic: Technology Adoption"
 ---
 
-*Use at baseline and endline. Drawn primarily from the Firms Adoption of Technology (FAT) Survey.*
-
----
 
 **Which of the following general-purpose technologies does your company currently use in its operations?**
 *(Select all that apply)*
