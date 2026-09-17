@@ -18,22 +18,23 @@ Map the causal logic of your intervention — from inputs to long-term goals —
 :::
 ::: {.card-e}
 
-#### [Step 2: Define evaluation questions](02.02-eval_questions.qmd)
+#### [Step 2: Define learning questions](02.02-eval_questions.qmd)
 
 Formulate the specific questions the evaluation is designed to answer, grounded in the Theory of Change.
 :::
+
 ::: {.card-e}
 
-#### [Step 3: Assess feasibility of conducting an RCT](02.03-assess.qmd)
+#### [Step 3: Determine relevant indicators](02.04-indicators.qmd)
 
-Check whether the conditions for a valid RCT are in place — oversubscription, timing, legal basis, and political buy-in.
+Select the outcome indicators that will be used to measure change across each level of the Theory of Change.
 :::
 
 ::: {.card-e}
 
-#### [Step 4: Determine relevant indicators](02.04-indicators.qmd)
+#### [Step 4: Assess feasibility of conducting an RCT](02.03-assess.qmd)
 
-Select the outcome indicators that will be used to measure change across each level of the Theory of Change.
+Check whether the conditions for a valid RCT are in place — oversubscription, timing, legal basis, and political buy-in.
 :::
 
 ::: {.card-e}
