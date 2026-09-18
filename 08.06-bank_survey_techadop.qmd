@@ -15,7 +15,7 @@ title: "Topic: Technology Adoption"
 - Supply chain management software
 - None of the above
 
----
+***
 
 ** How did your company acquire the technologies it currently uses?**
 *(Select all that apply)*
@@ -26,14 +26,14 @@ title: "Topic: Technology Adoption"
 - Acquired through a partnership or joint venture
 - Licensed from another company or institution
 
----
+***
 
 **In the last three years, did your company adopt any technologies that were new to your firm (even if not new to the market)?**
 
 - Yes
 - No
 
----
+***
 
 **What was the main driver of your company's most recent technology adoption?**
 
@@ -46,7 +46,7 @@ title: "Topic: Technology Adoption"
 - Access to a public support programme or grant
 - Other (please specify)
 
----
+***
 
 **What were the main barriers to technology adoption your company faced in the last three years?**
 *(Select all that apply)*
@@ -60,12 +60,12 @@ title: "Topic: Technology Adoption"
 - No suitable technology available for our needs
 - No barriers
 
----
+***
 
 **How much did your company spend on purchasing or licensing technologies (hardware and software combined) in the last financial year?**
 *(Open numeric field, in €)*
 
----
+***
 
 **Did your company receive any external support (advice, training, subsidies) to help adopt new technologies in the last three years?**
 

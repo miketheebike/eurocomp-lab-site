@@ -50,7 +50,7 @@ Key questions to assess at inception review:
 - Has the evaluation been — or is it about to be — pre-registered?
 - Are all data access arrangements confirmed?
 
----
+***
 
 ## Part 2: What the ToR Must Contain
 
@@ -67,13 +67,13 @@ This section gives the consultant the context needed to design the data collecti
 
 **Include the completed Theory of Change**, covering inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions. The ToC has been developed by the Managing Authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
 
----
+***
 
 ### 2. Evaluation questions
 
 List the primary and secondary evaluation questions explicitly. These have been defined by the Managing Authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. Secondary questions might cover heterogeneous effects by firm size or sector, mechanisms, spillovers, or cost-effectiveness. State the intended use of the findings.
 
----
+***
 
 ### 3. Scope of work
 
@@ -94,7 +94,7 @@ The consultant's responsibilities cover two functions: data collection and analy
 
 **Pre-registration:** The consultant is responsible for registering the evaluation design on a public registry before any data is collected.
 
----
+***
 
 ### 4. Methodology
 
@@ -110,7 +110,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Data sources:** Specify which administrative datasets will be provided by the Managing Authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.
 
----
+***
 
 ### 5. Deliverables and timeline
 
@@ -124,7 +124,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 | Policy brief — 4–6 page non-technical summary | 10 working days |
 | Presentation of findings | As agreed |
 
----
+***
 
 ### 6. Budget
 
@@ -152,25 +152,25 @@ The largest single cost driver is typically primary survey fieldwork. The ToR sh
 
 Specify clearly whether the budget is inclusive or exclusive of VAT, and whether travel and data access costs are included or reimbursable separately.
 
----
+***
 
 ### 7. Data access and GDPR
 
 Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address GDPR compliance — lawful basis for processing, pseudonymisation, data security requirements, and retention obligations — and require a data processing agreement to be signed before any data transfer.
 
----
+***
 
 ### 8. Qualifications required
 
 For a full RCT evaluation, require: an advanced degree in economics, statistics, or a related quantitative field; demonstrated experience designing and implementing experimental impact evaluations (with publicly available outputs as evidence); experience with firm-level data; and familiarity with EU Cohesion Policy and state aid rules. Where a team is required, specify the expected composition and qualifications for each role.
 
----
+***
 
 ### 9. Governance and proposal requirements
 
 Describe the reporting line, frequency of progress meetings, and the composition of any evaluation steering committee. Specify the escalation procedure for methodological disagreements. State what applicants must submit — technical proposal length, CV format, number of reference evaluations, financial proposal format — and the submission deadline.
 
----
+***
 
 ## Common Mistakes to Avoid
 

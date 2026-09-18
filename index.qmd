@@ -23,7 +23,10 @@ adjusting as you go.
 :::
 
 ### Why experimentation matters in the European Commission's own words
+::: {.team-note}
 This video will be replaced through the video featuring the DG-Regio team.
+:::
+
 ::: {.video-frame}
 {{< video https://youtu.be/yeEmFmDABIk title="The case for experimentation" aspect-ratio="16x9" >}}
 :::
@@ -228,28 +231,19 @@ Glossary, templates etc.
  
 ### Connect with researchers and labs specialised in experimentation
 
-::: {.panel-tabset}
-
-#### EuroCOMP Lab
-
 :::: {.cards}
 ::: {.card-e}
 #### [EuroCOMP Lab](eurocomp.qmd)
-The joint DG REGIO–World Bank initiative behind this site.
+The joint DG REGIO and World Bank initiative behind this site.
 :::
-::::
-
-#### Other partners
-
-:::: {.cards}
 ::: {.card-e}
 #### [Other partners](research-partners.qmd)
-Other already established labs already supporting experimentation
+Established labs already supporting experimentation.
 :::
 ::::
 
 
-:::
+
 
 
 

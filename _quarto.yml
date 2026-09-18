@@ -1,14 +1,17 @@
-# EU-register variant. To try it:
-#   mv _quarto.yml _quarto-warm.yml && mv _quarto-eu.yml _quarto.yml
-# To switch back, reverse it.
+# EU-register variant. To switch back to the warm theme:
+#   change theme-eu.scss to theme.scss in the format block below.
 
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "!XX-*.qmd"        # parked drafts: prefix a file XX- to keep it out of the site
 
 website:
   title: "EuroCOMP Lab"
-  description: "Impact evaluation for competitive business support programmes"
+  description: "Experimental evaluation for competitive business support programmes"
+
   navbar:
     background: primary
     left:
@@ -18,23 +21,99 @@ website:
         text: Why and When
       - href: 02-how.qmd
         text: How
-      - href: 03-advanced-how.qmd
-        text: Advanced How
-      - href: 04-toc.qmd
-        text: Theory of Change and Measurement
-      - href: 05-data.qmd
-        text: Data Collection
-      - href: 06-templates.qmd
-        text: Templates
-      - href: 07-examples.qmd
+      - href: 03-examples.qmd
         text: Examples
-      - href: 08-bank_survey.qmd
-        text: Bank of Survey Question
-      - href: 09-bank_outcomes.qmd
-        text: Bank of Outcomes
+      - href: 04-templates.qmd
+        text: Templates
+      - text: About
+        menu:
+          - href: eurocomp.qmd
+            text: The Lab
+          - href: research-partners.qmd
+            text: Research partners
+          - href: glossary.qmd
+            text: Glossary
+
+  sidebar:
+    style: floating
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Home
+
+      - href: 01-why-and-when.qmd
+        text: Why and When
+
+      - section: "How"
+        href: 02-how.qmd
+        contents:
+          - href: 02.01-toc.qmd
+          - href: 02.02-eval_questions.qmd
+          # the a/b/c pages are supporting detail, nested under their step
+          - section: "Step 3: Assess feasibility of conducting an RCT"
+            href: 02.03-assess.qmd
+            contents:
+              - href: 02.03a-power.qmd
+              - href: 02.03b-balance.qmd
+              - href: 02.03c-legal.qmd
+          - href: 02.04-indicators.qmd
+          - href: 02.05-data_sources.qmd
+          - section: "Step 6: Collect data"
+            href: 02.06-data_collect.qmd
+            contents:
+              - href: 02.06a-tor.qmd
+          - href: 02.07-data_quality.qmd
+
+      - href: 03-examples.qmd
+        text: Examples
+
+      - section: "Templates and resources"
+        href: 04-templates.qmd
+        contents:
+          - href: glossary.qmd
+            text: Glossary
+          - section: "Survey question bank"
+            href: 08-bank_survey.qmd
+            contents:
+              - href: 08.01-bank_survey_company.qmd
+              - href: 08.02-bank_survey_respondent.qmd
+              - href: 08.03-bank_survey_ownership.qmd
+              - href: 08.04-bank_survey_performance.qmd
+              - href: 08.05-bank_survey_collab.qmd
+              - href: 08.06-bank_survey_techadop.qmd
+              - href: 08.07-bank_survey_digital.qmd
+              - href: 08.08-bank_survey_innov.qmd
+              - href: 08.09-bank_survey_ip.qmd
+              - href: "08.10-bank_survey_r&d.qmd"
+              - href: 08.11-bank_survey_trl.qmd
+              - href: 08.12-bank_survey_energy.qmd
+          - section: "Outcome bank"
+            href: 09-bank_outcomes.qmd
+            contents:
+              - href: 09.01-bank_outcomes_performance.qmd
+              - href: 09.02-bank_survey_innov.qmd
+              - href: "09.03-bank_survey_r&d.qmd"
+              - href: 09.04-bank_survey_techadop.qmd
+              - href: 09.05-bank_survey_digital.qmd
+              - href: 09.06-bank_survey_collab.qmd
+              - href: 09.07-bank_survey_ip.qmd
+              - href: 09.08-bank_survey_employ.qmd
+
+      - section: "About"
+        contents:
+          - href: eurocomp.qmd
+            text: The Lab
+          - href: research-partners.qmd
+            text: Research partners
+
   page-footer:
-    left: "EuroCOMP Lab powered by the World Bank Group"
-    center: "Draft site. Structure and content still under review by the team."
+    border: true
+    left: "EuroCOMP Lab, powered by the World Bank Group"
+    center: |
+      [Legal notice](legal-notice.qmd) &nbsp;·&nbsp;
+      [Privacy statement](privacy.qmd) &nbsp;·&nbsp;
+      [Accessibility statement](accessibility.qmd)
+    right: "Draft site, under review by the team"
 
 format:
   html:

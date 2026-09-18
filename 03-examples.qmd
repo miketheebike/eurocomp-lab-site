@@ -153,7 +153,6 @@ other funding or their own resources. Public R&D subsidies can significantly boo
 private investment, but careful targeting is needed to avoid simply displacing money
 firms would have spent anyway.
 :::
----
 ## Czechia: light-touch support for SMEs
 
 ::: {.cards}
@@ -335,7 +334,6 @@ AI Klub
 :::
 :::
 :::
----
 ## Croatia: matching businesses with scientists
 
 ::: {.cards}
@@ -464,7 +462,7 @@ Among firms that originally requested support in AI, who benefited the most from
 pilot.
 :::
 :::
----
+***
 ::: {.team-note}
 **Status: In implementation**
 
@@ -614,7 +612,7 @@ applicant pool, and by collecting detailed contact and backup information from e
 participant to support tracking through fall 2027.
 :::
 
----
+***
 
 ## Poland: AI assistance for smarter Horizon Europe applications
 
@@ -758,7 +756,7 @@ be communicated. The team is also tracking whether firms treat encouragement pho
 calls as credible outreach from PARP rather than as spam.
 :::
 
----
+***
 
 ## Romania (North-East): AI assistance for smarter grant reviews
 
@@ -909,7 +907,7 @@ finds significant disparities, the underlying prompts and models will be reviewe
 and adjusted before the full-proposal stage goes ahead.
 :::
 
----
+***
 
 ## Romania (South Muntenia): The returns to innovation subsidies
 
@@ -1065,7 +1063,7 @@ notes the resulting estimates will still provide useful benchmarks for calibrati
 models of innovation diffusion, an area where experimental evidence remains scarce.
 :::
 
----
+***
 ## Earlier work by the EuroCOMP Lab team: Digitrans 
 
 ::: {.cards}
@@ -1226,7 +1224,7 @@ firms with low initial digital capabilities, service-sector firms and women-led
 businesses.
 :::
 
----
+***
 
 ## Examples from beyond the Lab
 ### Colombia: Scaling up management consulting

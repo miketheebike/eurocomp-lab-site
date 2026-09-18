@@ -53,7 +53,7 @@ The **EuroComp Lab Outcomes Bank** provides a curated, searchable list of outcom
 
 Once your indicators are defined, each one needs a concrete data source behind it. Step 5 addresses the fundamental strategic question: for each indicator, should you rely on primary data collected specifically for the evaluation, secondary administrative data that already exists, or a combination of both? Getting this decision right early shapes everything that follows.
 
----
+***
 
 ::: {.nav-buttons}
 [← Previous: Step 3 — Assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
