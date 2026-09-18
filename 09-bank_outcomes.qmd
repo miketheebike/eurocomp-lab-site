@@ -1,5 +1,5 @@
 ---
-title: "Evaluation Outcome Bank"
+title: "RCT outcome bank"
 ---
 
 ## How to use this page
@@ -12,16 +12,16 @@ This outcomes bank is organised by topic and maps directly onto the topics cover
 
 ---
 
-- Topic: [Firm Performance and Growth](09.01-bank_outcomes_performance.qmd)
-- Topic: [Innovation Outputs](09.02-bank_survey_innov.qmd)
-- Topic: [R&D Activity](09.03-bank_survey_r&d.qmd)
-- Topic: [Technology Adoption](09.04-bank_survey_techadop.qmd)
-- Topic: [Digitalization](09.05-bank_survey_digital.qmd)
-- Topic: [Collaboration and Knowledge Transfer](09.06-bank_survey_collab.qmd)
-- Topic: [Intellectual Property](09.07-bank_survey_ip.qmd)
-- Topic: [Employment and Human Capital](09.08-bank_survey_employ.qmd)
+- Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
+- Topic: [innovation outputs](09.02-bank_survey_innov.qmd)
+- Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
+- Topic: [technology adoption](09.04-bank_survey_techadop.qmd)
+- Topic: [digitalization](09.05-bank_survey_digital.qmd)
+- Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
+- Topic: [intellectual property](09.07-bank_survey_ip.qmd)
+- Topic: [employment and human capital](09.08-bank_survey_employ.qmd)
 
-**Tip:** Not all outcomes are appropriate for all evaluations. Select outcomes that match the specific instrument you are evaluating and the causal chain in your Theory of Change. The data source column will help you decide whether to collect the outcome through a survey or retrieve it from administrative records.
+**Tip:** not all outcomes are appropriate for all evaluations. Select outcomes that match the specific instrument you are evaluating and the causal chain in your Theory of Change. The data source column will help you decide whether to collect the outcome through a survey or retrieve it from administrative records.
 
 ---
 
