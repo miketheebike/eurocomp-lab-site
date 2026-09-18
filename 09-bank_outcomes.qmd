@@ -1,5 +1,5 @@
 ---
-title: "Impact Evaluation Outcome Bank"
+title: "Evaluation Outcome Bank"
 ---
 
 ## How to use this page
