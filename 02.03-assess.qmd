@@ -1,5 +1,5 @@
 ---
-title: "Step 4: Assess feasibility of conducting an RCT"
+title: "Step 4: assess feasibility of conducting an RCT"
 ---
 
 ```{=html}
