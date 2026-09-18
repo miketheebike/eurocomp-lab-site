@@ -4,11 +4,7 @@ title: "Impact Evaluation Outcome Bank"
 
 ## How to use this page
 
-This outcomes bank is organised by topic and maps directly onto the topics covered in the Survey Question Bank. For each outcome you will find:
-
-- The **outcome name** and a plain-language definition
-- The **metric** — how to operationalise and measure it
-- The **data source** — primary survey, administrative data, or both
+This outcomes bank is organised by topic and maps directly onto the topics covered in the Survey Question Bank. 
 
 - Topic 1 - Firm Performance and Growth: [Link to outcomes](09.01-bank_outcomes_performance.qmd)
 - Topic 2 - Innovation Outputs: [Link to outcomes](09.02-bank_survey_innov.qmd)
@@ -18,6 +14,14 @@ This outcomes bank is organised by topic and maps directly onto the topics cover
 - Topic 6 - Collaboration and Knowledge Transfer: [Link to outcomes](09.06-bank_survey_collab.qmd)
 - Topic 7 - Intellectual Property: [Link to outcomes](09.07-bank_survey_ip.qmd)
 - Topic 8 - Employment and Human Capital: [Link to outcomes](09.08-bank_survey_employ.qmd)
+
+---
+
+For each outcome you will find:
+
+- The **outcome name** and a plain-language definition
+- The **metric** — how to operationalise and measure it
+- The **data source** — primary survey, administrative data, or both
 
 
 **Tip:** Not all outcomes are appropriate for all evaluations. Select outcomes that match the specific instrument you are evaluating and the causal chain in your Theory of Change. The data source column will help you decide whether to collect the outcome through a survey or retrieve it from administrative records.
