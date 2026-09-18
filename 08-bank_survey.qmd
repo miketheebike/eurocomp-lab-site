@@ -1,5 +1,5 @@
 ---
-title: "Survey Question Bank"
+title: "Survey question bank"
 ---
 
 ## How to use this page
