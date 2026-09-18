@@ -1,5 +1,5 @@
 ---
-title: "Step 6: Collect data"
+title: "Step 6: collect data"
 ---
 
 ```{=html}
