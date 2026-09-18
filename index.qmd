@@ -25,7 +25,7 @@ adjusting as you go.
 ### Why experimentation matters in the European Commission's own words
 This video will be replaced through the video featuring the DG-Regio team.
 ::: {.video-frame}
-{{< video https://youtu.be/yeEmFmDABIk title="The case for experimentation" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/NuOGvv_9sD4="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
 :::
 
 ## What is impact evaluation — and where does experimentation fit in?
