@@ -12,48 +12,48 @@ A well-designed randomised controlled trial does not begin with randomisation �
 ::: {.cards}
 ::: {.card-e}
 
-#### [Step 1: Develop a preliminary Theory of Change](02.01-toc.qmd)
+#### [Step 1: develop a preliminary Theory of Change](02.01-toc.qmd)
 
 Map the causal logic of your intervention — from inputs to long-term goals — and make the assumptions explicit.
 :::
 ::: {.card-e}
 
-#### [Step 2: Define learning questions](02.02-eval_questions.qmd)
+#### [Step 2: define learning questions](02.02-eval_questions.qmd)
 
 Formulate the specific questions the evaluation is designed to answer, grounded in the Theory of Change.
 :::
 
 ::: {.card-e}
 
-#### [Step 3: Determine relevant indicators](02.04-indicators.qmd)
+#### [Step 3: determine relevant indicators](02.04-indicators.qmd)
 
 Select the outcome indicators that will be used to measure change across each level of the Theory of Change.
 :::
 
 ::: {.card-e}
 
-#### [Step 4: Assess feasibility of conducting an RCT](02.03-assess.qmd)
+#### [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd)
 
 Check whether the conditions for a valid RCT are in place — oversubscription, timing, legal basis, and political buy-in.
 :::
 
 ::: {.card-e}
 
-#### [Step 5: Identify available data sources](02.05-data_sources.qmd)
+#### [Step 5: identify available data sources](02.05-data_sources.qmd)
 
 Decide whether to rely on primary data, administrative data, or a combination — and map what is already available.
 :::
 
 ::: {.card-e}
 
-#### [Step 6: Collect data](02.06-data_collect.qmd)
+#### [Step 6: collect data](02.06-data_collect.qmd)
 
 Design and implement the data collection — surveys, administrative data access, and quality controls.
 :::
 
 ::: {.card-e}
 
-#### [Step 7: Ensure high-quality data](02.07-data_quality.qmd)
+#### [Step 7: ensure high-quality data](02.07-data_quality.qmd)
 
 Put in place the checks needed to detect and address data quality problems before analysis begins.
 :::
