@@ -5,22 +5,23 @@ title: "Survey Question Bank"
 ## How to use this page
 
 This question bank is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, and copy-paste those that fit your needs. Each question includes:
+
 - The question text, ready to use
 - Response options where applicable
 - The source survey it is drawn from
 
 ---
 
-- Topic 1 - Company details: [Link to survey questions](08.01-bank_survey_company.qmd)
-- Topic 2 - Respondent Details: [Link to survey questions](08.02-bank_survey_respondent.qmd)
-- Topic 3 - Company Structure and Ownership: [Link to survey questions](08.03-bank_survey_ownership.qmd)
-- Topic 4 - Company Financial Performance: [Link to survey questions](08.04-bank_survey_performance.qmd)
-- Topic 5 - Collaboration: [Link to survey questions](08.05-bank_survey_collab.qmd)
-- Topic 6 - Technology Adoption: [Link to survey questions](08.06-bank_survey_techadop.qmd)
-- Topic 7 - Digitalization: [Link to survey questions](08.07-bank_survey_digital.qmd)
-- Topic 8 - Innovation and R&D activities: [Link to survey questions](08.08-bank_survey_innov.qmd)
-- Topic 9 - Intellectual Property Rights: [Link to survey questions](08.09-bank_survey_ip.qmd)
-- Topic 10 - Technology Readiness Level: [Link to survey questions](08.11-bank_survey_trl.qmd)
-- Topic 11 - Energy Efficiency: [Link to survey questions](08.12-bank_survey_energy.qmd)
+- Topic: [Company details](08.01-bank_survey_company.qmd)
+- Topic: [Respondent Details](08.02-bank_survey_respondent.qmd)
+- Topic: [Company Structure and Ownership](08.03-bank_survey_ownership.qmd)
+- Topic: [Company Financial Performance](08.04-bank_survey_performance.qmd)
+- Topic: [Collaboration](08.05-bank_survey_collab.qmd)
+- Topic: [Technology Adoption](08.06-bank_survey_techadop.qmd)
+- Topic: [Digitalization](08.07-bank_survey_digital.qmd)
+- Topic: [Innovation and R&D activities](08.08-bank_survey_innov.qmd)
+- Topic: [Intellectual Property Rights](08.09-bank_survey_ip.qmd)
+- Topic: [Technology Readiness Level](08.11-bank_survey_trl.qmd)
+- Topic: [Energy Efficiency](08.12-bank_survey_energy.qmd)
 
 ---
