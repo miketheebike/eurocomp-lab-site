@@ -11,7 +11,7 @@ Discover examples from managing authorities that introduced experimentation into
 
 **EuroCOMP Lab evaluations**
 
-## Spain: Financial support to innovate
+## Spain: financial support to innovate
 
 ::: {.cards}
 ::: {.card-e}
@@ -471,7 +471,7 @@ pilot.
 The four programmes below are currently being rolled out by EuroCOMP Lab country teams. Nothing here reports results — there are none yet. The sections describe the planned intervention, the evaluation design, and the questions each study is set up to answer; outcomes will be added once data collection and analysis are complete.
 :::
 
-## Bulgaria: Human-led versus AI-led business consulting
+## Bulgaria: human-led versus AI-led business consulting
 
 ::: {.cards}
 ::: {.card-e}
@@ -911,7 +911,7 @@ and adjusted before the full-proposal stage goes ahead.
 
 ---
 
-## Romania (South Muntenia): The returns to innovation subsidies
+## Romania (South Muntenia): the returns to innovation subsidies
 
 ::: {.cards}
 ::: {.card-e}
