@@ -856,13 +856,22 @@ li > strong:first-child { color: $eu-blue; }
   padding: .6rem 1.1rem;
 }
 .eval-overview .group-row td {
-  background: $surface;
-  font-size: .66rem;
+  background: $eu-blue;
+  color: #FFFFFF;
+  font-size: .68rem;
   font-weight: 700;
-  letter-spacing: .11em;
+  letter-spacing: .12em;
   text-transform: uppercase;
+  padding: .55rem 1.1rem;
+}
+.eval-overview .subgroup-row td {
+  background: $surface;
   color: $ink-soft;
-  padding: .5rem 1.1rem;
+  font-size: .64rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .4rem 1.1rem .4rem 1.9rem;
   border-top: 1px solid $rule;
   border-bottom: 1px solid $rule;
 }
