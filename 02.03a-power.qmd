@@ -1,5 +1,5 @@
 ---
-title: "More Details on Power Calculations"
+title: "more details on power calculations"
 ---
 
 ## Do I have enough firms?
