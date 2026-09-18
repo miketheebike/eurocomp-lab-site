@@ -113,7 +113,7 @@ Evaluators combine four ingredients into one required number, before the program
 ```
 
 ::: {.takeaway}
-No formulas needed: calculators do this work. Links at the bottom of this page.
+No formulas needed: calculators do this work. [Power Calculations](https://www.idee-education.fr/en/power-calculator/)
 :::
 
 ## Was 1,038 enough?
