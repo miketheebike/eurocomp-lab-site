@@ -1,5 +1,5 @@
 ---
-title: "Step 1: Develop a Theory of Change"
+title: "Step 1: develop a Theory of Change"
 ---
 
 ```{=html}
