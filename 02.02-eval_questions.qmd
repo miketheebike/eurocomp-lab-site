@@ -1,5 +1,5 @@
 ---
-title: "Step 2: Define Learning Questions"
+title: "Step 2: define learning questions"
 ---
 
 ```{=html}
