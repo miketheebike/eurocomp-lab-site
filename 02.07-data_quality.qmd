@@ -1,5 +1,5 @@
 ---
-title: "Step 7: Ensure high-quality data"
+title: "Step 7: ensure high-quality data"
 ---
 
 ```{=html}
