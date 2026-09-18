@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Determine Relevant Indicators"
+title: "Step 3: determine relevant indicators"
 ---
 
 ```{=html}
@@ -11,7 +11,7 @@ title: "Step 3: Determine Relevant Indicators"
 This page explains 
 :::
 
-### From Theory of Change to Indicators
+### From Theory of Change to indicators
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.
 
@@ -19,7 +19,7 @@ For Managing Authorities, some of this work is already done. ERDF and ESF+ progr
 
 Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.
 
-### Well-Defined Indicators
+### Well-defined indicators
 
 Good indicators share five characteristics, often summarised as SMART:
 
@@ -63,7 +63,7 @@ Once your indicators are defined, each one needs a concrete data source behind i
 
 
 
-### From Indicators to Data
+### From indicators to data
 
 
 
