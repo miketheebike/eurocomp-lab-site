@@ -464,12 +464,7 @@ Among firms that originally requested support in AI, who benefited the most from
 pilot.
 :::
 :::
----
-::: {.team-note}
-**Status: In implementation**
 
-The four programmes below are currently being rolled out by EuroCOMP Lab country teams. Nothing here reports results — there are none yet. The sections describe the planned intervention, the evaluation design, and the questions each study is set up to answer; outcomes will be added once data collection and analysis are complete.
-:::
 
 ## Bulgaria: human-led versus AI-led business consulting
 
