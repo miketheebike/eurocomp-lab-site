@@ -43,6 +43,11 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Assumptions** are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the programme may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.
 
+::: {.soft-panel}
+**Running example.** 
+:::
+
+
 ### Why Invest Time in Developing a Theory of Change?
 
 Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively — by starting from the desired final outcomes and working backwards through the chain of events needed to get there — and this process is particularly useful in a programme partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable programmes in other regions or member states, to support each step in the logic?
