@@ -1,5 +1,5 @@
 ---
-title: "Why and When"
+title: "RCTs: Why and When"
 ---
 
 ::: {.team-note}
@@ -83,10 +83,10 @@ establishing what would have happened without it.
 :::
 
 ::: {.example .romania}
-[The running example: SMART Romania]{.tag}
+[The running example: North-East Romania]{.tag}
 
 Throughout this site, we come back to one programme developed as part of the EuroCOMP
-Lab to show these ideas in practice: SMART Romania, a digitalisation grant scheme for
+Lab to show these ideas in practice: A digitalisation grant scheme for
 micro, small and medium enterprises in North-East Romania, run by the Regional
 Development Agency with World Bank support.
 
@@ -94,7 +94,7 @@ Development Agency with World Bank support.
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
   <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
   <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
   <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
@@ -106,12 +106,17 @@ Development Agency with World Bank support.
 ```{=html}
 <div class="flow">
   <div>Application survey</div>
-  <div>Lottery</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery (randomisation)</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Digitalisation grants</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Follow-up surveys</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Analysis</div>
 </div>
 ```
+
 :::
 
 
@@ -161,9 +166,9 @@ The pilot found that money alone is not the most effective. Firms that also rece
 digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
 :::
 
-## Learning through impact evaluation is a continuous process
+## Learning through experiments is a continuous process
 
-Every evaluation raises new questions along with the ones it answers, each round building
+Every RCTs raises new questions along with the ones it answers, each round building
 on the last. That is how we expand our knowledge of what works, for whom, and under what
 conditions, and use it to design better programmes. Exchange within a community of practice
 matters, so we can learn from each other, not just from our own results. But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
@@ -381,14 +386,14 @@ trials — experimentation — are considered the gold standard.
 ```
 
 ::: {.example .romania}
-[The impact in the SMART Romania programme]{.tag}
+[The impact in the North-East Romania programme]{.tag}
 
-For SMART Romania, the impact is the gap between treatment and comparison firms on
+For North-East Romania, the impact is the gap between treatment and comparison firms on
 four tracked outcomes: digital adoption, revenue, employment, and productivity.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for SMART Romania: digital adoption, revenue, employment and productivity">
+<svg viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
   <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
   <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
@@ -443,9 +448,9 @@ treatment group on average. If that assumption is wrong, the impact estimate is 
 :::
 
 ::: {.example .romania}
-[SMART Romania: what is the counterfactual?]{.tag}
+[North-East Romania: what is the counterfactual?]{.tag}
 
-In SMART Romania, the counterfactual is represented by the firms that completed the
+In North-East Romania, the counterfactual is represented by the firms that completed the
 online survey and were deemed eligible but that did not receive the grant.
 
 Before any grants were awarded, the selected and non-selected groups looked
@@ -501,7 +506,7 @@ because:
 
 
 ::: {.example .romania}
-[SMART Romania: randomised controlled trial]{.tag}
+[North-East Romania: randomised controlled trial]{.tag}
 
 Recap: firms first completed an online screening survey. Everyone who met the pre-set eligibility criteria (1 038 firms) qualified for the program. Because demand for the grant exceeded the funding available, a public lottery decided which 519 of these equally-eligible firms would be invited to formally apply now; the other 519 formed the comparison group and received no invitation.
 
@@ -564,16 +569,16 @@ does not.
   </figure>
   <figure>
     <figcaption>Firms selected</figcaption>
-    <div class="n">4 are randomly funded</div>
+    <div class="n">4 are randomly selected</div>
     <div class="dots"><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   </figure>
 </div>
 ```
 
 ::: {.example .romania}
-[SMART Romania: additional measures to increase trust]{.tag}
+[North-East Romania: additional measures to increase trust]{.tag}
 
-SMART Romania's draw was run in front of a notary: the random number seed drawn, the
+North-East Romania's draw was run in front of a notary: the random number seed drawn, the
 selection code run, and the resulting balance between groups reviewed, all on the
 record. This increased confidence with the firms that selection was fair.
 :::
@@ -791,11 +796,6 @@ are no longer comparable to those just above.
 </figure>
 ```
 
-::: {.team-note}
-**Source**
-The quasi-experimental sections draw on the J-PAL Why and When to Randomize lecture.
-Decide whether a citation is needed, given how widely shared this material is.
-:::
 
 
 
@@ -835,13 +835,13 @@ Decide whether a citation is needed, given how widely shared this material is.
 
   <rect x="360" y="96" width="300" height="44" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="510" y="115" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Is there excess demand that lets</text>
-  <text x="510" y="131" text-anchor="middle" fill="var(--dg-ink)" font-size="12">you randomize participation?</text>
+  <text x="510" y="131" text-anchor="middle" fill="var(--dg-ink)" font-size="12">you randomise participation?</text>
 
   <path d="M510 140 V166" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <text x="520" y="158" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
 
   <rect x="380" y="166" width="260" height="44" rx="5" fill="var(--dg-accent)"/>
-  <text x="510" y="184" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomized controlled</text>
+  <text x="510" y="184" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomised controlled</text>
   <text x="510" y="200" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">trial</text>
 
   <text x="380" y="240" fill="var(--dg-ink-soft)" font-size="11">No assumptions about outcome levels or</text>
@@ -853,7 +853,7 @@ Decide whether a citation is needed, given how widely shared this material is.
 
 
 
-## Reasons not to measure impact
+## Reasons not to measure impact with RCTs
 
 ::: {.cards}
 ::: {.card-e}
@@ -924,7 +924,7 @@ suppliers, so the comparison group partly benefits too, understating the true ef
 :::
 
 ::: {.example .romania}
-[SMART Romania: the programme did not achieve full take-up]{.tag}
+[North-East Romania: the programme did not achieve full take-up]{.tag}
 
 Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding
 proposal, and 333 (64.2%) were eventually contracted.

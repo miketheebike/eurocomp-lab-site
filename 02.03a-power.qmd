@@ -76,7 +76,7 @@ Think of trying to hear a quiet voice in a noisy room: more background noise req
 more observations.
 :::
 
-## How is the required sample calculated?
+## The four ingredients of a power calculation
 
 Evaluators combine four ingredients into one required number, before the programme starts.
 

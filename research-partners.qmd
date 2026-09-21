@@ -20,6 +20,10 @@ Innovations for Poverty Action designs and rigorously evaluates solutions to pov
 #### [World Bank DIME](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation/about)
 The World Bank's Development Impact Evaluation group.
 :::
+::: {.card-e}
+#### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/resources)
+A global non-profit research organisation collaborating with decision-makers in governments, foundations, NGOs, development and research organizations globally.
+:::
 ::::
 
 ::: {.card-e}

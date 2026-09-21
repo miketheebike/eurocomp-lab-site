@@ -9,9 +9,79 @@ title: "Examples"
 Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.
 :::
 
+```{=html}
+<div class="eval-overview">
+<table>
+<caption>Examples on this page</caption>
+<tbody>
+<tr class="group-row"><td colspan="3">EuroCOMP Lab examples</td></tr>
+
+<tr class="subgroup-row"><td colspan="3">Completed</td></tr>
+<tr>
+  <td><a href="#spain-financial-support-to-innovate">Spain</a></td>
+  <td class="topic">Financial support to innovate — matching grants for SME R&amp;D</td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
+</tr>
+<tr>
+  <td><a href="#czechia-light-touch-support-for-smes">Czechia</a></td>
+  <td class="topic">Light-touch support for SMEs — decision-making &amp; AI workshops</td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
+</tr>
+<tr>
+  <td><a href="#croatia-matching-businesses-with-scientists">Croatia</a></td>
+  <td class="topic">Matching businesses with scientists — Scinergy</td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
+</tr>
+
+<tr class="subgroup-row"><td colspan="3">In implementation</td></tr>
+<tr>
+  <td><a href="#bulgaria-human-led-versus-ai-led-business-consulting">Bulgaria</a></td>
+  <td class="topic">Human-led versus AI-led business consulting</td>
+  <td class="status"><span class="status-pill ongoing">In implementation</span></td>
+</tr>
+<tr>
+  <td><a href="#poland-ai-assistance-for-smarter-horizon-europe-applications">Poland</a></td>
+  <td class="topic">AI assistance for smarter Horizon Europe applications</td>
+  <td class="status"><span class="status-pill ongoing">In implementation</span></td>
+</tr>
+<tr>
+  <td><a href="#romania-north-east-ai-assistance-for-smarter-grant-reviews">Romania (North-East)</a></td>
+  <td class="topic">AI assistance for smarter grant reviews</td>
+  <td class="status"><span class="status-pill ongoing">In implementation</span></td>
+</tr>
+<tr>
+  <td><a href="#romania-south-muntenia-the-returns-to-innovation-subsidies">Romania (South Muntenia)</a></td>
+  <td class="topic">The returns to innovation subsidies</td>
+  <td class="status"><span class="status-pill ongoing">In implementation</span></td>
+</tr>
+
+<tr class="group-row"><td colspan="3">EuroCOMP Lab precursors</td></tr>
+<tr>
+  <td><a href="#earlier-work-by-the-eurocomp-lab-team-digitrans">Digitrans</a></td>
+  <td class="topic">Bulgaria, Poland &amp; Slovakia — digital adoption support for MSMEs</td>
+  <td class="status"><span class="status-pill muted">Completed</span></td>
+</tr>
+
+<tr class="group-row"><td colspan="3">Examples beyond the Lab</td></tr>
+<tr>
+  <td><a href="#colombia-scaling-up-management-consulting">Colombia</a></td>
+  <td class="topic">Scaling up management consulting</td>
+  <td class="status"><span class="status-pill muted">External</span></td>
+</tr>
+<tr>
+  <td><a href="#yemen-testing-whether-internships-help-youth-find-work">Yemen</a></td>
+  <td class="topic">Testing whether internships help youth find work</td>
+  <td class="status"><span class="status-pill muted">External</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+```
+
+
 **EuroCOMP Lab evaluations**
 
-## Spain: Financial support to innovate
+## Spain: financial support to innovate
 
 ::: {.cards}
 ::: {.card-e}
@@ -462,14 +532,9 @@ Among firms that originally requested support in AI, who benefited the most from
 pilot.
 :::
 :::
-***
-::: {.team-note}
-**Status: In implementation**
 
-The four programmes below are currently being rolled out by EuroCOMP Lab country teams. Nothing here reports results — there are none yet. The sections describe the planned intervention, the evaluation design, and the questions each study is set up to answer; outcomes will be added once data collection and analysis are complete.
-:::
 
-## Bulgaria: Human-led versus AI-led business consulting
+## Bulgaria: human-led versus AI-led business consulting
 
 ::: {.cards}
 ::: {.card-e}
@@ -909,7 +974,7 @@ and adjusted before the full-proposal stage goes ahead.
 
 ***
 
-## Romania (South Muntenia): The returns to innovation subsidies
+## Romania (South Muntenia): the returns to innovation subsidies
 
 ::: {.cards}
 ::: {.card-e}
