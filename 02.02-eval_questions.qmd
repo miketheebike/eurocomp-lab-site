@@ -16,7 +16,7 @@ This page explains the evaluation questions.
 
 The Theory of Change developed in Step 1 sets out the causal logic of the programme. Evaluation questions translate that logic into a concrete analytical agenda: they specify which links in the causal chain will be tested, which outcomes will be measured, and what the evaluation can credibly claim to have shown at the end.
 
-Getting this step right matters more than it might appear. Vague or poorly scoped evaluation questions lead to data collection that is too broad, analysis that is unfocused, and findings that cannot be clearly attributed to the programme. Conversely, well-formulated questions make every subsequent decision easier — they tell you which indicators to select (Step 4), which data sources to prioritise (Step 5), and what the evaluation team will need to deliver (ToR).
+Getting this step right matters more than it might appear. Vague or poorly scoped evaluation questions lead to data collection that is too broad, analysis that is unfocused, and findings that cannot be clearly attributed to the programme. Conversely, well-formulated questions make every subsequent decision easier — they tell you which indicators to select (Step 3), which data sources to prioritise (Step 5), and what the evaluation team will need to deliver.
 
 ---
 
