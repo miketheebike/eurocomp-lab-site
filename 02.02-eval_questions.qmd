@@ -72,7 +72,7 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 
 
-::: {.soft-panel}
+::: {.example .romania}
 **Running example.** What is the impact of digitalization on Romanian firms’ performance?
 :::
 
