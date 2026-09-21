@@ -11,9 +11,54 @@ title: "Step 4: assess feasibility of conducting an RCT"
 This page explains how to assess the feasibility of an RCT.
 :::
 
+By this point you have mapped your programme's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
+
+An RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
+
+---
+
+## Five conditions for a feasible RCT
+
+Work through these five questions before committing to a randomised design. If the answer to the first three is not yes, an RCT is unlikely to be feasible and you should explore alternative approaches with your evaluation team.
+
+::: {.cards}
+::: {.card-e}
+#### 1. Is the programme oversubscribed?
+An RCT requires more eligible applicants than available funding slots. If you can support everyone who qualifies, there is no basis for a lottery — and no credible comparison group. Oversubscription is the single most important precondition.
+:::
+::: {.card-e}
+#### 2. Is there enough time?
+Randomisation must happen before the first grant is awarded. If the programme has already launched, it is too late. Planning must ideally begin at the programme design stage.
+:::
+::: {.card-e}
+#### 3. Is there a legal basis?
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. Explicit permission — either in existing regulations or through a programme-specific instrument — must be confirmed before proceeding.
+:::
+::: {.card-e}
+#### 4. Is there political and institutional buy-in?
+An RCT requires sustained commitment from the Managing Authority and any intermediate bodies involved in delivery. If key stakeholders are not on board, or if political changes could interrupt the evaluation midway, the investment may not be recoverable.
+:::
+::: {.card-e}
+#### 5. Can the outcomes actually be measured?
+The indicators selected in Step 3 must be observable — through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
+:::
+:::
+
+::: {.soft-panel}
+**Is randomisation permitted under your national legal framework?**
+
+Before designing the lottery or scoring mechanism, confirm that your national legal framework — and the specific legislation governing your programme — either explicitly permits randomisation as a selection method or is flexible enough to accommodate it.
+
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. This silence creates uncertainty that discourages even willing institutions from proceeding. A clear legal basis is the precondition for experimental evaluation to happen at all.
+
+**[See the legal framework page for country examples, key legal elements, and practical steps](02.03c-legal.qmd)**
+:::
+
+---
+
 ## Randomisation must be designed in from the start
 
-An RCT is not something that can be added to a programme after launch. The comparison group, the eligibility rules, and the baseline data all have to be settled before the first grant is awarded.
+The most common mistake is treating randomisation as something that can be added once the programme is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data must have been collected. Everything to the left of the lottery in the diagram below has to be in place before the programme launches — that is precisely what makes the comparison between treatment and comparison firms valid.
 
 ```{=html}
 <figure class="fig-e">
@@ -23,7 +68,6 @@ An RCT is not something that can be added to a programme after launch. The compa
   <text x="500" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-post</text>
   <line x1="20" y1="300" x2="660" y2="300" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="640" y="316" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
-
   <rect x="30" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
   <text x="95" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">T0: Target areas</text>
   <rect x="176" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
@@ -32,38 +76,29 @@ An RCT is not something that can be added to a programme after launch. The compa
   <text x="425" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T2: Monitoring</text>
   <rect x="520" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
   <text x="585" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T3: Impacts</text>
-
   <rect x="30" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="42" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">1. Secondary data</text>
   <text x="42" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Identify which areas</text>
   <text x="42" y="117" fill="var(--dg-ink-soft)" font-size="10.5">and groups need support</text>
-
   <rect x="176" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="188" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">2. Eligibility check</text>
   <text x="188" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Refine the selection</text>
   <text x="188" y="117" fill="var(--dg-ink-soft)" font-size="10.5">criteria, collect baseline</text>
-
   <rect x="176" y="146" width="130" height="42" rx="5" fill="var(--dg-accent)"/>
   <text x="241" y="164" text-anchor="middle" fill="var(--dg-ink)" font-size="11" font-weight="bold">3. Random selection</text>
   <text x="241" y="179" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">within the eligible pool</text>
-
   <path d="M306 167 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <path d="M306 167 H330 V232 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
   <rect x="350" y="148" width="230" height="38" rx="5" fill="var(--dg-accent)"/>
   <text x="465" y="172" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment firms</text>
-
   <rect x="350" y="212" width="230" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="465" y="230" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Pure control group</text>
   <text x="465" y="245" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">comparison firms without any support</text>
-
   <text x="336" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11" transform="rotate(-90 336 120)">Outcome</text>
-
   <rect x="520" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="532" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">4. Endline assessment</text>
   <text x="532" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Measure the gap between</text>
   <text x="532" y="117" fill="var(--dg-ink-soft)" font-size="10.5">the two groups</text>
-
   <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
 </svg>
@@ -73,7 +108,6 @@ An RCT is not something that can be added to a programme after launch. The compa
 
 :::: {.example .romania}
 [SMART Romania: building the eligibility pool]{.tag}
-
 ```{=html}
 <div class="flow">
   <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
@@ -82,74 +116,68 @@ An RCT is not something that can be added to a programme after launch. The compa
   <div style="background:#F2C94C;border-color:#F2C94C">1&nbsp;038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
 </div>
 ```
-
-In SMART Romania, one survey did three jobs: application, eligibility check, and
-baseline data collection, all in a single step. In October 2023, 519 of the eligible
-firms were then randomly selected who receive the funding (first). 
+SMART Romania combined three steps that are usually separate — application, eligibility check, and baseline data collection — into a single online survey. This meant that by the time the eligibility pool was confirmed, the baseline data was already in hand. In October 2023, 519 of the 1,038 eligible firms were randomly selected to receive a grant. The other 519 became the comparison group.
 ::::
 
-## Choosing the group size
+---
 
-To detect the impact of a programme, you need enough firms in both the treatment and
-comparison groups to reliably tell a real effect apart from the ordinary differences
-between firms. Statisticians call this statistical power: with too few firms, even a
-programme that works can appear not to. The smaller the effect you want to detect, the
-more firms you need. Rules of thumb and power calculations are covered in
-[More details on power calculations](02.03a-power.qmd).
+## Do you have enough firms?
 
-### Two ways to increase your sample
+To detect the impact of a programme, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible — ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?
+
+The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample.
+
+**[More details on power calculations →](02.03a-power.qmd)**
+
+If the eligible pool falls short, there are two immediate levers:
 
 ::: {.cards}
 ::: {.card-e}
 #### Loosen the eligibility bar
-
-If fewer firms qualify than you'd like, lowering the eligibility threshold lets more
-firms into the pool you randomise from.
+If fewer firms qualify than needed, lowering the eligibility threshold adds more firms to the pool you randomise from. Be careful not to dilute the target population so much that the evaluation no longer answers the original question.
 :::
 ::: {.card-e}
-#### Widen the ranking bins
-
-If you're ranking firms by a score, don't treat the ranking as exact. Group
-similarly-scored firms into bands, and treat everyone in a band as equally eligible, so
-more firms end up in the randomised pool rather than being decided by their exact rank.
+#### Widen the ranking bands
+If you are scoring applicants, avoid treating small score differences as decisive. Group firms with similar scores into bands and treat everyone in a band as equally eligible — this moves more firms into the randomised pool rather than having marginal cases decided by a single point.
 :::
 :::
 
 ::: {.takeaway}
-A bigger pool also gives you room to test more than one version of the programme at
-once – more on that under Multiple treatment arms, below.
+A larger pool also creates room to test more than one version of the programme simultaneously — more on this under Multiple treatment arms, below.
 :::
 
-## Five practical ways to randomise your programme
+---
 
-Not every programme fits the same shape. Here are five common ways to randomise one.
+## Five ways to randomise your programme
+
+Not every programme fits the same shape. The right design depends on your programme's structure, budget, and the questions you most want to answer. Here are five approaches in common use.
 
 ```{=html}
 <div class="designs">
   <div class="d"><div>
     <h4>Lottery</h4>
-    <p><span class="lab">How:</span> randomly select who gets the programme, by public or private lottery.</p>
-    <p><span class="lab">Best when:</span> eligibility is clear and the programme is oversubscribed.</p>
+    <p><span class="lab">How:</span> randomly select which eligible firms receive the programme, by a documented public or private draw.</p>
+    <p><span class="lab">Best when:</span> eligibility is clear, the programme is oversubscribed, and a single treatment is being tested.</p>
   </div></div>
   <div class="d"><div>
     <h4>Multiple treatment arms</h4>
-    <p><span class="lab">How:</span> randomly assign different versions of the programme, with or without a control group.</p>
-    <p><span class="lab">Best when:</span> you want to know which design works best, not just whether it works.</p>
+    <p><span class="lab">How:</span> randomly assign firms to different versions of the programme — for example, grant only vs. grant plus advisory support — with or without a comparison group receiving nothing.</p>
+    <p><span class="lab">Best when:</span> you want to know which design element drives results, not just whether the programme works at all.</p>
   </div></div>
   <div class="d"><div>
     <h4>Randomised phase-in</h4>
-    <p><span class="lab">How:</span> everyone gets the programme eventually, in a random order. Those still waiting are the comparison group.</p>
-    <p><span class="lab">Best when:</span> budget or capacity cannot cover everyone at once.</p>
+    <p><span class="lab">How:</span> everyone receives the programme eventually, but in a randomly assigned order. Firms still waiting serve as the comparison group in the meantime.</p>
+    <p><span class="lab">Best when:</span> budget or capacity limits mean you cannot reach all eligible firms at once, and withholding support permanently would be unacceptable.</p>
   </div></div>
   <div class="d"><div>
     <h4>Randomised intensities</h4>
-    <p><span class="lab">How:</span> vary how much of the programme a firm gets, for example 100%, 50%, or 0% of eligible employees.</p>
-    <p><span class="lab">Best when:</span> spillovers within or between firms are a concern.</p>
+    <p><span class="lab">How:</span> vary the dose of the programme across firms — for example, 100%, 50%, or 0% of eligible employees receive training.</p>
+    <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated workers within the same firm, and you want to measure that spread.</p>
   </div></div>
   <div class="d"><div>
     <h4>Encouragement design</h4>
-    <p><span class="lab">How:</span> randomise who gets extra outreach to take up the programme, since it cannot be denied to anyone.</p>
-    <p><span class="lab">Best when:</span> take-up is voluntary and the programme itself cannot be withheld.</p>
+    <p><span class="lab">How:</span> randomise who receives extra outreach or information encouraging take-up, rather than randomising access to the programme itself.</p>
+    <p><span class="lab">Best when:</span> the programme cannot legally be denied to anyone who qualifies — for example, an open voucher scheme — but take-up is voluntary and varies.</p>
   </div></div>
 </div>
 ```
@@ -157,9 +185,7 @@ Not every programme fits the same shape. Here are five common ways to randomise 
 :::: {.example .romania}
 [SMART Romania used a lottery]{.tag}
 
-Of the five designs above, SMART Romania used a lottery: 1 038 eligible firms were
-randomly split into a treatment group of 519, invited to apply for a grant, and a
-comparison group of 519, not invited.
+Of the five designs above, SMART Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The comparison group received no grant and was not invited to apply. Both groups were surveyed in the same way throughout the evaluation period.
 
 ```{=html}
 <figure class="fig-e">
@@ -167,21 +193,16 @@ comparison group of 519, not invited.
   <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
   <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
-
   <path d="M160 120 H210" stroke="#B9AF95" stroke-width="1.5"/>
-
   <rect x="210" y="87" width="160" height="66" rx="6" fill="#F2C94C"/>
   <text x="290" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
   <text x="290" y="132" text-anchor="middle" fill="#2B2724" font-size="11">every firm, the same chance</text>
-
   <path d="M370 120 H400 V50 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
   <path d="M370 120 H400 V190 H430" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-
   <rect x="430" y="20" width="240" height="60" rx="6" fill="#F2C94C"/>
   <text x="446" y="42" fill="#2B2724" font-size="12.5" font-weight="bold">Treatment group</text>
   <text x="446" y="59" fill="#2B2724" font-size="10.5">Grants of EUR 15,000&#8211;100,000, put to</text>
   <text x="446" y="72" fill="#2B2724" font-size="10.5">work: equipment, software, services</text>
-
   <rect x="430" y="160" width="240" height="60" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group</text>
   <text x="446" y="199" fill="#6B6455" font-size="10.5">No grant; firms continue as usual,</text>
@@ -191,20 +212,11 @@ comparison group of 519, not invited.
 ```
 ::::
 
+---
 
-::: {.gold-panel}
-**Is randomisation permitted under your national legal framework?**
+## Public or private lottery?
 
-Before proceeding to design the lottery or scoring mechanism, confirm that your national legal framework — and the specific legislation governing your programme — either explicitly permits randomisation as a selection method or is flexible enough to accommodate it without ambiguity.
-
-Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all.
-
-**[See the Legal Framework page for country examples, key legal elements, and practical steps](02.03c-legal.qmd)**
-:::
-
-
-
-## Running a lottery: transparency vs. behavioural responses
+Once you have decided to use a lottery, a second design choice arises: should the draw be conducted publicly or behind the scenes?
 
 ::: {.compare}
 ::: {.col-e}
@@ -212,11 +224,11 @@ Most national frameworks were designed around ranking or first-come-first-served
 Public lottery
 :::
 ::: {.body}
-A public draw, for example pulling names from a hat.
+The draw takes place in front of an audience — for example, pulling firm names from a hat at a public event, or livestreaming the computerised draw.
 
-Advantage: transparent and fair.
+**Advantage:** maximises transparency and public trust. Firms can see for themselves that the process was fair.
 
-Disadvantage: the comparison group may change its behaviour once it knows the result.
+**Disadvantage:** once comparison firms know they did not receive support, they may change their behaviour — working harder to find alternative funding, for example — which can reduce the measured difference between the groups.
 :::
 :::
 ::: {.col-e}
@@ -224,180 +236,112 @@ Disadvantage: the comparison group may change its behaviour once it knows the re
 Private lottery
 :::
 ::: {.body}
-A lottery run behind the scenes.
+The draw is conducted internally by the evaluation team, with full documentation but without public observation.
 
-Advantage: avoids the comparison group reacting to a public result.
+**Advantage:** comparison firms do not immediately know the outcome, which reduces the risk of behavioural reactions that narrow the gap between groups.
 
-Disadvantage: less visibly fair.
+**Disadvantage:** the process is less visibly fair, which can make it harder to defend if challenged.
 :::
 :::
 :::
 
 ::: {.takeaway}
-In practice, many World Bank-supported evaluations run the draw as a secure, documented,
-computerised procedure that can be re-checked afterwards.
+In practice, most World Bank-supported evaluations run the draw as a secure, documented, computerised procedure with a verifiable audit trail — combining the rigour of a private draw with the accountability of one that can be independently checked afterwards.
 :::
 
-Either kind of lottery can also be narrowed to just part of the pool: rather than
-randomising everyone who's eligible, you can randomise only the firms near the
-eligibility cutoff, and decide the clear-cut cases directly.
+---
 
-## Narrowing the pool: a lottery around a cutoff
+## Randomising only part of the pool: a lottery around a cutoff
 
-Score firms on eligibility criteria. Accept the top scorers outright, reject the bottom
-outright, and randomise only the firms in between.
+In some programmes, it is not practical or desirable to randomise the entire eligible pool. A common alternative is to score all applicants on eligibility criteria, fund the top scorers outright, reject the clear non-qualifiers outright, and randomise only the firms in the middle — those whose scores are close enough together that the difference is not meaningful.
 
-Best when: eligibility criteria are clear and the programme is oversubscribed, with
-limited resources.
+This approach reduces the pool that is randomised, focuses the evaluation on the firms where the decision is genuinely uncertain, and is easier to justify publicly than a lottery across the full range of applicants.
 
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
   <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
-
   <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
   <text x="230" y="60" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Accept all</text>
   <text x="230" y="78" text-anchor="middle" fill="#2B2724" font-size="11">top scorers funded outright</text>
   <text x="72" y="42" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">100</text>
   <text x="72" y="96" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">60</text>
-
   <rect x="90" y="100" width="280" height="76" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"/>
   <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Randomise this band</text>
   <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">85% treatment, 15% comparison</text>
   <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
   <text x="72" y="182" text-anchor="end" fill="#2B2724" font-size="12" font-weight="bold">45</text>
-
   <rect x="90" y="186" width="280" height="52" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="230" y="210" text-anchor="middle" fill="#6B6455" font-size="13" font-weight="bold">Reject all</text>
   <text x="230" y="228" text-anchor="middle" fill="#6B6455" font-size="11">below the eligibility bar</text>
-
   <path d="M382 138 H410" stroke="#B9AF95" stroke-width="1.5"/>
   <rect x="410" y="106" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"/>
   <text x="425" y="128" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomised</text>
   <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
   <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
-
   <text x="20" y="270" fill="#6B6455" font-size="11.5">Example: credit scoring in the Philippines</text>
 </svg>
 </figure>
 ```
 
 ::: {.caution}
-Keep selection rules-based. Subjective rankings, even by judges or expert panels, have
-been shown to introduce hidden bias that a lottery or scored cutoff avoids.
+Keep the scoring process rules-based. Subjective assessment — even by expert panels — has been shown to introduce systematic bias. A structured scoring rubric, applied consistently, is fairer and more defensible than discretionary judgment.
 :::
 
-## Rule-based scoring beats judgment-based scoring
+---
 
-Across several studies, subjective judgment struggles to identify future winners.
+## Testing programme versions: multiple treatment arms
 
-::: {.cards}
-::: {.card-e}
-#### Judges favour their own group
+A standard RCT compares one version of the programme against a comparison group. But sometimes the real question is not whether the programme works, but which design works best — grant only versus grant plus mentoring, for example, or light-touch advisory versus intensive coaching.
 
-A study of court rulings in Kenya found that defendants were more likely to win if they
-shared the judge's ethnicity or gender.
+Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of firms is randomly assigned to a different version, and outcomes are compared across all groups at endline.
 
-Chen, Daniel L., et al., "Do Judges Favour Their Own Ethnicity and Gender?" (2022).
-:::
-::: {.card-e}
-#### Judges do not beat a simple survey
-
-In a business plan competition, a short applicant survey predicted future firm growth
-slightly better than expert judge panels did on their own.
-
-Fafchamps, Marcel, and Christopher Woodruff, "Identifying gazelles: Expert panels vs.
-surveys," *World Bank Economic Review* 31(3) (2017).
-:::
-::: {.card-e}
-#### Judges, and algorithms, both struggle
-
-Comparing judges' scores, researcher prediction models, and machine learning in a
-Nigerian business competition, none of the three approaches predicted which firms
-actually survived, grew, or turned a profit three years later.
-
-McKenzie, David, and Dario Sansone, "Predicting entrepreneurial success is hard,"
-*Journal of Development Economics* 141 (2019).
-:::
-:::
-
-::: {.takeaway}
-Subjective judgment, even from experts, struggles to reliably pick future winners. This
-is part of why rules-based methods – lotteries or scored cutoffs – are often the fairer
-and more defensible way to allocate a programme, rather than discretionary picks.
-:::
-
-## Multiple treatment arms: testing programme versions
-
-Randomly assign firms (or CEOs, employees) to different versions of the programme, and
-compare them against each other and against the comparison group. This also works
-without a comparison group at all, if you only want to compare versions.
-
-Best when: you're uncertain which component or design actually drives results, and
-want to know which version works best, not just whether the programme works.
-
-Advantage: helps investigate the channels of impact.
-Trade-off: needs a larger sample size, since it's split across more groups.
+The trade-off is sample size: more arms means more groups, and the available pool must be large enough to power comparisons between each pair.
 
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three programme versions">
   <line x1="90" y1="190" x2="620" y2="190" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="72" y="100" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" transform="rotate(-90 72 100)">Outcome</text>
-
   <rect x="120" y="120" width="90" height="70" fill="var(--dg-ink)"/>
   <text x="165" y="112" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">2.0</text>
   <text x="165" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
   <text x="165" y="224" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">group</text>
-
   <rect x="255" y="82" width="90" height="108" fill="var(--dg-accent)"/>
   <text x="300" y="74" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">3.1</text>
   <text x="300" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 1</text>
-
   <rect x="390" y="64" width="90" height="126" fill="var(--dg-accent)"/>
   <text x="435" y="56" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">3.6</text>
   <text x="435" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 2</text>
-
   <rect x="525" y="33" width="90" height="157" fill="var(--dg-accent)"/>
   <text x="570" y="25" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">4.5</text>
   <text x="570" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 3</text>
 </svg>
-<figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme performs best.</figcaption>
+<figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme produces the largest effect.</figcaption>
 </figure>
 ```
 
-## Randomised phase-in: everyone gets it, just not at once
+---
 
-Everybody eventually receives the programme, just at different, randomly assigned
-times. Whoever is scheduled last serves as the comparison group in the meantime. Leave
-enough time between waves for impacts to develop.
+## When you cannot fund everyone at once: randomised phase-in
 
-Best when: budget, time, or capacity constraints mean you can't roll the programme
-out to everyone at once.
+In many programmes, budget or implementation capacity means it is not possible to reach all eligible firms in a single wave. A randomised phase-in turns this constraint into an advantage: firms are randomly assigned to waves, and those still waiting to receive the programme serve as the comparison group for the firms already being treated.
 
-Advantages: everyone eventually receives the programme, which makes the decision
-transparent and easier to justify; it also lets you study how impact changes with
-different treatment durations.
-Trade-off: you can't observe long-term impacts, since the comparison group
-eventually receives the programme too.
+The key advantage is that everyone eventually receives support, which makes the approach easier to justify politically and ethically. The key limitation is that there is no comparison group once the last wave has been treated, which means long-term impacts — those that take several years to emerge — cannot be measured.
 
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Staggered rollout: wave one treated first, wave two later, wave three last, each acting as comparison until treated">
   <text x="20" y="46" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 1</text>
   <rect x="110" y="30" width="510" height="26" fill="var(--dg-accent)"/>
-
   <text x="20" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 2</text>
   <rect x="110" y="74" width="170" height="26" fill="var(--dg-muted)"/>
   <rect x="280" y="74" width="340" height="26" fill="var(--dg-accent)"/>
-
   <text x="20" y="134" fill="var(--dg-ink)" font-size="12" font-weight="bold">Wave 3</text>
   <rect x="110" y="118" width="340" height="26" fill="var(--dg-muted)"/>
   <rect x="450" y="118" width="170" height="26" fill="var(--dg-accent)"/>
-
   <line x1="110" y1="160" x2="620" y2="160" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="620" y="178" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
-
   <rect x="110" y="182" width="11" height="11" fill="var(--dg-accent)"/>
   <text x="128" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Treated</text>
   <rect x="210" y="182" width="11" height="11" fill="var(--dg-muted)"/>
@@ -406,17 +350,11 @@ eventually receives the programme too.
 </figure>
 ```
 
-## Randomised intensities: varying how much firms get
+---
 
-Randomly vary how much of the programme each firm gets: for example, some firms get it
-for 100% of eligible employees, others for only part, e.g. 50%, and others none at all
-(the comparison group).
+## Varying the dose: randomised intensities
 
-Best when: spillovers are likely – for example, information spreading between
-treated and untreated employees within the same firm.
-
-Advantage: lets you analyse possible spillovers, not just the direct effect.
-Trade-off: needs a bigger sample size to detect effects at each intensity level.
+Rather than randomising which firms receive the programme, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training programme, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the programme works but how much of it is needed — and whether the benefits spill over to employees who were not directly treated.
 
 ```{=html}
 <figure class="fig-e">
@@ -425,125 +363,85 @@ Trade-off: needs a bigger sample size to detect effects at each intensity level.
   <rect x="150" y="35" width="110" height="130" fill="var(--dg-accent)"/>
   <text x="205" y="106" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">100%</text>
   <text x="205" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm A</text>
-
   <rect x="300" y="100" width="110" height="65" fill="var(--dg-accent)"/>
   <text x="355" y="138" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">50%</text>
   <text x="355" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm B</text>
-
   <rect x="450" y="140" width="110" height="25" fill="var(--dg-muted)"/>
   <text x="505" y="132" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">0%</text>
   <text x="505" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm C</text>
-
   <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
 </svg>
 </figure>
 ```
 
-## Facing low take-up? Randomise the encouragement
+---
 
-The problem: low take-up. The firms who need a programme most can be the least
-likely to take it up – badly managed firms often don't know they're badly managed. Low
-take-up also makes it hard to tell whether a programme is working.
+## When take-up is low: encouragement design
 
-Solution: encouragement design. When you can't deny the programme to anyone – for
-example, an open voucher scheme – randomise who gets extra outreach or information
-encouraging them to take it up, then compare the encouraged group with the
-not-encouraged group.
+Some programmes cannot be denied to anyone who qualifies — an open advisory service or a voucher scheme, for example. In these cases, it is not possible to assign firms to a comparison group that is formally excluded from support. The encouragement design offers an alternative: rather than randomising access, randomise who receives extra outreach, information, or a targeted invitation to use the programme.
 
-Advantage: works even when everyone must have access to the programme.
-Trade-off: only captures part of the impact, and can be biased if untargeted
-encouragement – TV or radio, for example – reaches the comparison group too.
+Firms who receive the encouragement are then compared with those who do not. Because encouraged firms are more likely to take up the programme than non-encouraged firms, the comparison still produces an estimate of the programme's effect — even if both groups technically had access.
+
+The main limitation is that the estimate reflects the effect of the encouragement itself as much as the programme. If untargeted outreach — a news story, a social media post — reaches both groups, the comparison is diluted.
 
 ::: {.caution}
-Compliance is rarely perfect: some encouraged firms never take up the programme, and
-some not-encouraged firms take it up anyway. Compare the whole encouraged group with the
-whole not-encouraged group regardless.
+Compliance is rarely perfect in either direction: some encouraged firms will never take up the programme, and some non-encouraged firms will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual firms actually did. Your evaluation team will handle this in the analysis.
 :::
 
+---
 
-## Still not convinced? More arguments for randomising
+## Still not convinced? Three reasons randomisation makes sense
 
 ::: {.cards}
 ::: {.card-e}
-#### Free and fair competition
-
-The researcher determines allocation, not personal connections or favouritism, so
-there's no selection bias – no systematic difference between groups on average. It can
-be designed to answer precisely the question you need answered, especially when the
-effect of a policy is uncertain.
+#### It is the fairest selection method
+When a programme cannot support everyone who qualifies, someone will inevitably be left out. A lottery gives every eligible firm an equal chance — it is the only selection method that is genuinely neutral with respect to characteristics that are irrelevant to eligibility, and it removes the scope for favouritism or informal influence.
 :::
 ::: {.card-e}
-#### Equality and non-discrimination
-
-Often the outcome of a policy isn't clear, and it could even be negative. Testing first,
-rather than rolling it out to everyone, protects people from that uncertainty. You can
-also make sure everyone still receives the core programme, and only randomise an add-on
-whose effect isn't yet known.
+#### It protects firms from untested interventions
+Sometimes we do not know in advance whether a programme will work — or whether it might even have unintended negative effects. Testing first, on a limited group, before rolling out to everyone, protects the broader population from those risks. Non-selected firms retain their right to apply in future rounds and will ultimately benefit from the improved programme design that rigorous evaluation makes possible.
 :::
 ::: {.card-e}
-#### Publicity and transparency
-
-A randomised design needs fewer additional assumptions than other evaluation methods.
-Because the analysis is less complex, it's easier to explain and defend the findings to
-the people affected by them.
+#### The findings are easier to communicate
+A randomised design requires fewer assumptions than other evaluation methods. The comparison is direct — treated firms versus comparable untreated firms — which makes the logic of the results straightforward to explain to policymakers, auditors, and the public. There is no need to argue about complex statistical adjustments.
 :::
 :::
 
+---
 
 ## What can go wrong?
 
-Even a well-designed RCT must survive contact with reality.
+Even a well-designed RCT must survive contact with reality. These are the four most common problems — and what can be done about each.
 
-::: {.caution}
-**Attrition.** Firms drop out of surveys, and the groups stop matching.
+**Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible. Step 7 covers how to detect and address attrition once data collection is complete.
+
+**Spillovers.** Comparison firms benefit from the programme indirectly — a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level — by region or sector cohort rather than by individual firm — can contain it.
+
+**Low take-up.** Some firms assigned to the treatment group never use the support — they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the programme, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation — and understanding why firms do not engage — is essential for interpreting what the evaluation ultimately shows.
+
+**Uneven implementation.** The programme is delivered inconsistently across firms — some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the Managing Authority and the delivery team reduce this risk.
+
+::: {.takeaway}
+None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. Step 7 covers the checks that catch these problems early enough to act on them.
 :::
 
-::: {.caution}
-**Spillovers.** Comparison firms benefit anyway, and the measured difference shrinks.
-:::
-
-::: {.caution}
-**Low take-up.** Treated firms never actually use the support.
-:::
-
-::: {.caution}
-**Implementation problems.** The programme is delivered unevenly across firms.
-:::
-
+---
 
 ## Where to go deeper
-
-The mathematics is one click away, so this website stays practical.
 
 ::: {.cards}
 ::: {.card-e}
 #### Power calculators
-
-Online tools that turn the four inputs into a required sample.
-:::
-::: {.card-e}
-#### World Bank IE toolkit
-
-Step-by-step guidance for designing and running evaluations.
-:::
-::: {.card-e}
-#### J-PAL resources
-
-Research protocols, sample-size guides, and training material.
-:::
-::: {.card-e}
-#### IPA resources
-
-Practical implementation guidance from field evaluations.
+Free online tools that turn your assumptions into a required sample size — no statistical background needed.
+[EGAP Power Calculator →](https://egap.org/resource/10-things-to-know-about-statistical-power/)
+[Optimal Design software →](https://sites.google.com/site/optimaldesignsoftware/)
 :::
 :::
 
-::: {.takeaway}
-Start with a calculator: an afternoon with one teaches more than a chapter of formulas.
-:::
 
-::: {.team-note}
-**To add**
-Resource links, including the power calculator Jakob shared by email. Shortlist per the
-outline: power calculators, World Bank toolkit, J-PAL, IPA.
+
+---
+
+::: {.nav-buttons}
+[← Previous: Step 3 — Determine relevant indicators](02.03-indicators.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
 :::
