@@ -85,7 +85,7 @@ An RCT is not something that can be added to a programme after launch. The compa
 
 In SMART Romania, one survey did three jobs: application, eligibility check, and
 baseline data collection, all in a single step. In October 2023, 519 of the eligible
-firms were then randomly selected for funding, and 519 were not.
+firms were then randomly selected who receive the funding (first). 
 ::::
 
 ## Choosing the group size
