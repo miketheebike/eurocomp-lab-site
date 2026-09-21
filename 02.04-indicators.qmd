@@ -1,5 +1,5 @@
 ---
-title: "Step 3: Determine Relevant Indicators"
+title: "Step 3: determine relevant indicators"
 ---
 
 ```{=html}
@@ -11,15 +11,15 @@ title: "Step 3: Determine Relevant Indicators"
 This page explains 
 :::
 
-### From Theory of Change to Indicators
+### From Theory of Change to indicators
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.
 
-For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an impact evaluation. Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what *changed* as a result, and to do so in a way that allows for comparison with a counterfactual (i.e. what would have happened without the programme).
+For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an RCT. Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what *changed* as a result, and to do so in a way that allows for comparison with a counterfactual (i.e. what would have happened without the programme).
 
 Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.
 
-### Well-Defined Indicators
+### Well-defined indicators
 
 Good indicators share five characteristics, often summarised as SMART:
 
@@ -31,12 +31,13 @@ Good indicators share five characteristics, often summarised as SMART:
 | **Realistic** | The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline |
 | **Targeted** | The indicator reflects outcomes for the specific population the programme is designed to serve |
 
-::: {.soft-panel}
-**Running example.** TO BE ADDED BY MIKE: Indicators from the North-East
-- Digital adoption (DESI)
-- Revenue
-- Employment
-- Productivity
+::: {.example .romania}
+[SMART Romania: selected indicators]{.tag}
+- Digital adoption (Digital Economy and Society Index)
+- Expenditures in equipment, software, development, Training, and digital tools
+- Sales
+- Profits
+- Labor productivity
 :::
 
 ## Choosing indicators: where to start
@@ -63,7 +64,7 @@ Once your indicators are defined, each one needs a concrete data source behind i
 
 
 
-### From Indicators to Data
+### From indicators to data
 
 
 

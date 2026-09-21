@@ -1,38 +1,38 @@
 ---
-title: "Templates and Downloads"
+title: "Further resources"
 ---
 
-[Placeholder page]{.placeholder}
+### Reports
 
-::: {.team-note}
-**Open question**
-This page is still a brainstorm in the outline. Expect the list to change.
-:::
+- **Benchmark reports.** 
+- **Monitoring framework report.** CHECK WITH SINEM
+- **[Tides of Change](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)**.
+- 
 
-::: {.team-note}
-#### Summary
-:::
+### Templates
 
-## [Glossary](glossary.qmd)
-
-- **Defintions of key terms** Definey key concepts used throughout the website.
-
-## Evidence and legal
-
-- **Benchmark reports.** Published reports used as reference points.
-- **Replicable do-files for randomisation.** Working scripts a team can adapt.
-- **Legal text for national legislation.** Model wording enabling RCTs within competitive calls.
-- **GDPR-compliant consent forms.** Consent templates cleared for use in EU member states.
-
-**Prior surveys.** Instruments already used in past evaluations.
-
-## Templates
-
-- **Terms of Reference templates.** For consultants and for data collection firms.
-- **Theory of Change templates.** Blank and worked versions.
-- **Monitoring framework templates.** Structures for tracking take-up, attrition and balance.
-- **Evaluation report templates.** What a final report should include.
+- **Terms of Reference templates.** For consultants and for data collection firms. CHECK
+- **Evaluation report templates.** What a final report should include. CHECK
 - **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
+
+### Resources from other institutions
+
+- [J-PAL](https://www.povertyactionlab.org/research-resources?view=toc)
+- [World Bank DIME](https://dimewiki.worldbank.org/)
+- [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/resources)
+- [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/resources)
+
+### Surveys
+
+- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey)
+- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat)
+- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys)
+- [World Management Survey (WMS)](https://worldmanagementsurvey.org/)
+- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442)
+- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)
+- [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html)
+
+
 
 ::: {.team-note}
 **Note**

@@ -1,5 +1,5 @@
 ---
-title: "More Details on Comparability of Groups"
+title: "More details on comparability of groups"
 ---
 
 ## Did the lottery create comparable groups?

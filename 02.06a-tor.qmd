@@ -1,5 +1,5 @@
 ---
-title: "Terms of Reference for Impact Evaluation"
+title: "Terms of reference for evaluation and data collection"
 ---
 
 ## Overview
@@ -8,9 +8,9 @@ Managing Authorities bring deep knowledge of their programmes to the table; the 
 
 In principle, a ToR can cover the entire evaluation — including evaluation design, Theory of Change development, and selection of the methodological approach — leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that Managing Authorities have already completed the preparatory steps covered on the [**Theory of Change and Measurement**] page: the Theory of Change is in place, the evaluation questions are defined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: **preparing and implementing data collection**, and **conducting the statistical analysis**. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs — one for the evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork. The latter is described on the [**Data Collection: Surveys**] page.
 
-## Part 1: The Procurement Process
+## Part 1: the procurement process
 
-### Step 1: Issue an Expression of Interest
+### Step 1: issue an expression of interest
 
 For technically complex evaluations, it is strongly recommended to begin with an **Expression of Interest (EoI)** rather than going directly to a full ToR. An EoI is a short, non-binding call that invites qualified organisations to signal their interest and demonstrate their eligibility before the full competition begins.
 
@@ -25,7 +25,7 @@ The EoI serves three purposes. First, it maps the market — the pool of RCT-cap
 
 The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the Managing Authority's website. Shortlisted candidates — typically three to six — are then invited to submit full proposals in response to the complete ToR.
 
-### Step 2: Issue the ToR and evaluate proposals
+### Step 2: issue the ToR and evaluate proposals
 
 With shortlisted candidates identified, the Managing Authority issues the full ToR. Proposals are evaluated against pre-defined, published criteria. For an RCT evaluation, technical quality should be weighted heavily:
 
@@ -40,7 +40,7 @@ A low-bid selection for a technically complex evaluation is a false economy. The
 
 Before making a final selection, shortlisted candidates should be invited to a clarification interview. Useful questions include: how would you handle lower-than-projected take-up? At what level of attrition would you consider the evaluation compromised? What pre-registration registry would you use, and when?
 
-### Step 3: Contract signature and inception
+### Step 3: contract signature and inception
 
 Once the contract is signed, the evaluation begins. The first milestone is the **inception report**, in which the consultant refines the Theory of Change, finalises the evaluation design, confirms the sampling and randomisation strategy, and presents survey instruments for review. This is the last point at which fundamental design decisions can be changed without significant cost or delay.
 
@@ -52,7 +52,7 @@ Key questions to assess at inception review:
 
 ***
 
-## Part 2: What the ToR Must Contain
+## Part 2: what the ToR must contain
 
 ### 1. Background, programme description, and Theory of Change
 

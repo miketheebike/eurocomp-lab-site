@@ -1,5 +1,5 @@
 ---
-title: "Step 5: Identify available data sources"
+title: "Step 5: identify available data sources"
 ---
 
 ```{=html}
@@ -24,9 +24,9 @@ For each indicator in your evaluation framework, you must decide whether to rely
 In practice, the most robust evaluations combine both: secondary administrative data provides broad coverage and baseline history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
 
-#### Comparison of Primary vs. Secondary Data
+#### Comparison of primary vs. secondary data
 
-| Column_1 | Primary Data | Secondary Data (Administrative) |
+| Column_1 | Primary data | Secondary data (administrative) |
 |---|---|---|
 | Reporting bias | Less subject to reporting bias | May be subject to reporting bias |
 | Sample size | Smaller | Larger |

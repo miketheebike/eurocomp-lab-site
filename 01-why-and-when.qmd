@@ -1,5 +1,5 @@
 ---
-title: "RCTs: Why and When"
+title: "RCTs: why and when"
 ---
 
 ::: {.team-note}

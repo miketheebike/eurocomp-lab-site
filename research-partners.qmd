@@ -3,7 +3,7 @@ title: "Other research partners"
 ---
 
 ::: {.lede}
-Established labs and research groups already running rigorous impact evaluations —
+Established labs and research groups already running rigorous impact evaluations -
 for teams that want outside technical support alongside EuroCOMP Lab.
 :::
 
@@ -21,7 +21,7 @@ Innovations for Poverty Action designs and rigorously evaluates solutions to pov
 The World Bank's Development Impact Evaluation group.
 :::
 ::: {.card-e}
-#### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/resources)
+#### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/)
 A global non-profit research organisation collaborating with decision-makers in governments, foundations, NGOs, development and research organizations globally.
 :::
 ::::
