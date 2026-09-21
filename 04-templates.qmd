@@ -15,7 +15,11 @@ title: "Further resources"
 - **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
 
 ### Resources from other institutions
-- ** J
+- [J-PAL](https://www.povertyactionlab.org/research-resources?view=toc)
+- [World Bank DIME](https://dimewiki.worldbank.org/)
+- [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/resources)
+- [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/resources)
+
 
 ::: {.team-note}
 **Note**
