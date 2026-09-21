@@ -24,7 +24,7 @@ Getting this step right matters more than it might appear. Vague or poorly scope
 
 A well-formulated learning question has four characteristics:
 
-**Specific.** It names the intervention, the target population, the outcome of interest, and the time horizon. Generic questions such as "did the programme work?" are not answerable. A specific question might be: *Does receiving an R&D grant increase a firm's total R&D expenditure within two years of the award?*
+**Specific.** It names the intervention, the target population, the outcome of interest, and the time horizon. Generic questions such as "did the programme work?" are not answerable. A specific question might be: *does receiving an R&D grant increase a firm's total R&D expenditure within two years of the award?*
 
 **Causal.** For an RCT, the central question is always about causation — not correlation. The question should be framed in terms of the *effect* of the programme, not merely whether outcomes changed. This means the question implicitly requires a comparison: between supported firms and comparable firms that did not receive support.
 
@@ -40,7 +40,7 @@ A well-structured evaluation typically includes a primary question and a set of 
 
 **The primary question** focuses on the main effect of the intervention on the most important outcome. This is the question the evaluation is powered to answer — the sample size and data collection plan are designed around it. For most competitiveness and innovation programmes, the primary question concerns a key medium-term outcome such as R&D expenditure, product innovation, or labour productivity.
 
-*Example:* Does receiving an innovation grant cause a statistically significant increase in firm R&D expenditure within two years of the grant award, compared to equally eligible firms that did not receive support?
+*Example:* does receiving an innovation grant cause a statistically significant increase in firm R&D expenditure within two years of the grant award, compared to equally eligible firms that did not receive support?
 
 **Heterogeneity questions** ask whether effects differ across subgroups — for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
 
@@ -52,7 +52,7 @@ A well-structured evaluation typically includes a primary question and a set of 
 
 **Implementation questions** assess whether the programme was delivered as intended and what barriers affected take-up or compliance. These are particularly important for interpreting null results — an evaluation that finds no effect needs to establish whether the intervention was actually delivered.
 
-*Example:* What share of treatment group firms used the grant for the intended R&D activities, and what were the main reasons for non-compliance?
+*Example:* what share of treatment group firms used the grant for the intended R&D activities, and what were the main reasons for non-compliance?
 
 ---
 
