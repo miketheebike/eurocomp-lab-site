@@ -3,7 +3,7 @@ title: "Other research partners"
 ---
 
 ::: {.lede}
-Established labs and research groups already running rigorous impact evaluations —
+Established labs and research groups already running rigorous impact evaluations -
 for teams that want outside technical support alongside EuroCOMP Lab.
 :::
 
