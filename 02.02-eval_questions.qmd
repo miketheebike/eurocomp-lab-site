@@ -20,9 +20,9 @@ Getting this step right matters more than it might appear. Vague or poorly scope
 
 ---
 
-## What makes a good evaluation question?
+## What makes a good learning question?
 
-A well-formulated evaluation question has four characteristics:
+A well-formulated learning question has four characteristics:
 
 **Specific.** It names the intervention, the target population, the outcome of interest, and the time horizon. Generic questions such as "did the programme work?" are not answerable. A specific question might be: *Does receiving an R&D grant increase a firm's total R&D expenditure within two years of the award?*
 
@@ -34,7 +34,7 @@ A well-formulated evaluation question has four characteristics:
 
 ---
 
-## Types of evaluation questions
+## Types of learning questions
 
 A well-structured evaluation typically includes a primary question and a set of secondary questions. These serve different purposes and should be clearly distinguished.
 
@@ -56,9 +56,9 @@ A well-structured evaluation typically includes a primary question and a set of 
 
 ---
 
-## Linking evaluation questions to the Theory of Change
+## Linking learning questions to the Theory of Change
 
-Every evaluation question should map to a specific link in the Theory of Change. A useful discipline is to write out the ToC and, for each arrow connecting two levels, ask: do we have a question that tests this link? If a link is left untested, either the evaluation is under-powered to examine it, or the link is assumed to hold without evidence.
+Every learning question should map to a specific link in the Theory of Change. A useful discipline is to write out the ToC and, for each arrow connecting two levels, ask: do we have a question that tests this link? If a link is left untested, either the evaluation is under-powered to examine it, or the link is assumed to hold without evidence.
 
 ---
 
@@ -73,7 +73,13 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 
 ::: {.example .romania}
-**Running example.** What is the impact of digitalization on Romanian firms’ performance?
+**Running example.** 
+
+How did the programme change investments in digitalization and
+technology adoption? 
+Did business performance change due to the grants? 
+The effects of the intervention may vary depending on
+firm size and location. Sector Initial Level of Digitalization
 :::
 
 ---
