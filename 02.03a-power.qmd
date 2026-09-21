@@ -1,10 +1,17 @@
 ---
-title: "More details on power calculations"
+title: "More Details on power calculations"
+---
+
+::: {.team-note}
+#### Summary
+A power calculation tells you the minimum number of firms you need to detect a meaningful effect with sufficient statistical confidence. This page explains the key concepts, the four ingredients of a power calculation, how to account for attrition, and what tools to use.
+:::
+
 ---
 
 ## Do I have enough firms?
 
-Randomization only works if there are enough firms to detect meaningful differences.
+Randomisation only works if there are enough firms to detect meaningful differences.
 
 ::: {.compare}
 ::: {.col-e}
@@ -14,13 +21,15 @@ Too few firms
 ::: {.body}
 ```{=html}
 <div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
-<span class="a"></span><span></span><span></span><span class="a"></span><span></span><span></span><span></span><span></span>
-<span></span><span></span><span class="a"></span><span></span><span></span><span></span><span class="a"></span><span></span>
-<span></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span>
+<span class="a"></span><span></span><span></span><span class="a"></span><span></span>
+<span></span><span></span><span></span>
+<span></span><span></span><span class="a"></span><span></span><span></span><span>
+</span><span class="a"></span><span></span>
+<span></span><span class="a"></span><span></span><span></span><span></span><span>
+</span><span></span><span></span>
 </div>
 ```
-Real impacts may go undetected: ordinary differences between firms drown out the
-programme's effect.
+Real impacts may go undetected: ordinary differences between firms drown out the programme's effect.
 :::
 :::
 ::: {.col-e}
@@ -30,9 +39,12 @@ Enough firms
 ::: {.body}
 ```{=html}
 <div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
-<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
-<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
-<span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a">
+</span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a">
+</span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a">
+</span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
 </div>
 ```
 Real impacts become measurable: averages settle and the difference stands out.
@@ -41,8 +53,10 @@ Real impacts become measurable: averages settle and the difference stands out.
 :::
 
 ::: {.takeaway}
-More firms do not make the lottery fairer; they make its answer visible.
+More firms do not make the lottery fairer — they make its answer visible.
 :::
+
+---
 
 ## Why sample size matters
 
@@ -72,9 +86,10 @@ The variation between firms
 :::
 
 ::: {.gold-panel}
-Think of trying to hear a quiet voice in a noisy room: more background noise requires
-more observations.
+Think of trying to hear a quiet voice in a noisy room: more background noise requires more observations.
 :::
+
+---
 
 ## The four ingredients of a power calculation
 
@@ -85,25 +100,18 @@ Evaluators combine four ingredients into one required number, before the program
 <svg viewBox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Expected effect, variation, confidence level and statistical power feed a power calculation, which returns the required sample size">
   <rect x="20" y="20" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="120" y="46" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Expected effect</text>
-
   <rect x="20" y="86" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="120" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Variation</text>
   <text x="120" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">(standard deviation)</text>
-
   <rect x="20" y="152" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="120" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Confidence level</text>
-
   <rect x="20" y="218" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="120" y="244" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Statistical power</text>
-
   <path d="M220 41 H250 V140 M220 107 H250 M220 173 H250 M220 239 H250 V140 M250 140 H272" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
   <rect x="272" y="110" width="176" height="60" rx="5" fill="var(--dg-accent)"/>
   <text x="360" y="135" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">POWER CALCULATION</text>
   <text x="360" y="153" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">standard software does the math</text>
-
   <path d="M448 140 H478" stroke="var(--dg-line)" stroke-width="1.5"/>
-
   <rect x="478" y="106" width="182" height="68" rx="5" fill="var(--dg-ink)"/>
   <text x="569" y="131" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5" font-weight="bold">Required sample size</text>
   <text x="569" y="150" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the minimum number of firms</text>
@@ -113,14 +121,59 @@ Evaluators combine four ingredients into one required number, before the program
 ```
 
 ::: {.takeaway}
-No formulas needed: calculators do this work. [Power Calculations](https://www.idee-education.fr/en/power-calculator/)
+No formulas needed: calculators do this work. Links at the bottom of this page.
 :::
+
+Here is what each ingredient means in plain language:
+
+### 1. Minimum Detectable Effect (MDE)
+
+The MDE is the smallest effect the evaluation is designed to reliably detect. It answers the question: what is the smallest change in the outcome that would be meaningful for policy purposes?
+
+Setting the MDE requires a judgement call - it should reflect what a meaningful improvement would look like for the programme. A useful starting point is evidence from comparable programmes in other regions or member states: what effects have similar grants or advisory schemes produced? The evaluation team can help translate this into a concrete, outcome-specific target — for example, "a 10% increase in R&D expenditure" or "a 15 percentage point increase in the share of firms introducing a product innovation."
+
+The key trade-off: the smaller the effect you want to detect, the more firms you need. Setting the MDE too ambitiously low can make the required sample unrealistically large.
+
+### 2. Variation between firms
+
+The more firms differ from each other on the outcome of interest — even before the programme starts — the harder it is to detect the programme's effect. The evaluation team will estimate this from existing data: prior rounds of the programme, national statistics, or comparable surveys such as the Community Innovation Survey. The Managing Authority does not need to calculate this; it is an input the evaluator provides.
+
+### 3. Confidence level
+
+This controls the risk of concluding that the programme worked when it actually did not — a false positive. The standard in evaluation is a 5% risk threshold, meaning the evaluation is designed to produce a false positive no more than 5 times out of 100. This is the conventional setting and does not normally need to be changed.
+
+### 4. Statistical power
+
+Statistical power controls the risk of missing a real effect — a false negative. Power is conventionally set at 80%, meaning the evaluation has an 80% chance of detecting a true effect if one exists. Higher power (90%) is preferable when the stakes of a null result are high — for example, if a finding of "no effect" would be used to cancel a programme. Higher power requires a larger sample.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+False positive
+:::
+::: {.body}
+Concluding the programme worked when it did not.
+
+Standard: 5% risk (confidence level).
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+False negative
+:::
+::: {.body}
+Missing a real effect.
+
+Standard: 20% risk (80% power).
+:::
+:::
+:::
+
+---
 
 ## Was 1,038 enough?
 
-Back to the case: how do evaluators know whether the SMART Romania pool was big enough?
-Run the pool against the required sample from the power calculation, and do it before the
-draw. If the pool falls short, grow the pool first (next section).
+Back to the case: how do evaluators know whether the SMART Romania pool was big enough? Run the pool against the required sample from the power calculation, and do it before the draw. If the pool falls short, grow the pool first.
 
 ```{=html}
 <figure class="fig-e">
@@ -128,12 +181,9 @@ draw. If the pool falls short, grow the pool first (next section).
   <rect x="20" y="56" width="190" height="72" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="115" y="88" text-anchor="middle" fill="var(--dg-ink)" font-size="21" font-weight="bold">1,038</text>
   <text x="115" y="110" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">firms in the pool</text>
-
   <text x="278" y="97" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">checked</text>
   <text x="278" y="113" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">against</text>
-
   <path d="M338 92 H366" stroke="var(--dg-line)" stroke-width="1.5"/>
-
   <rect x="366" y="56" width="294" height="72" rx="6" fill="var(--dg-accent-wash)"/>
   <text x="513" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Required sample</text>
   <text x="513" y="103" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">expected effect &rarr; power calculation &rarr; minimum firms</text>
@@ -142,15 +192,53 @@ draw. If the pool falls short, grow the pool first (next section).
 ```
 
 ```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&check; 1,038 eligible firms formed the randomized pool</span></div>
+<div class="case-band"><b>SMART Romania</b><span>&#10003; 1,038 eligible firms formed the randomized pool</span></div>
 ```
 
 ::: {.team-note}
 **Data gap**
-The baseline report contains no power calculation figures, so this section shows the logic
-of the check without inventing numbers. Ask the evaluation team for the expected effect,
-assumptions, and required sample, then add them here.
+The baseline report contains no power calculation figures, so this section shows the logic of the check without inventing numbers. Ask the evaluation team for the expected effect, assumptions, and required sample, then add them here.
 :::
+
+---
+
+## Account for attrition when sizing your sample
+
+The power calculation gives you the number of firms needed at endline. But not every firm randomised at baseline will still be reachable when the endline comes around. Attrition — firms dropping out because they closed, could not be reached, or refused to participate again — reduces the effective sample and therefore the power of the study.
+
+The practical implication is simple: **always randomise more firms at baseline than the power calculation strictly requires**, to leave a buffer for expected drop-out. The evaluation team will advise on how large that buffer should be, based on comparable evaluations in the same country and sector.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Where do attrition estimates come from?
+:::
+::: {.body}
+- Published evaluations of similar programmes in the same country or sector
+- Pilot data or previous rounds of the programme
+- Expert judgement from the evaluation team
+- Administrative data on firm closure rates in the target population
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Typical attrition rates in EU firm-level evaluations
+:::
+::: {.body}
+- **Low:** 5–10% (short follow-up, strong administrative data linkage)
+- **Medium:** 10–20% (1–2 year follow-up, primary survey)
+- **High:** 20–30%+ (3+ year follow-up, hard-to-reach populations)
+
+When in doubt, use a conservative — higher — estimate.
+:::
+:::
+:::
+
+::: {.caution}
+Attrition reduces power, but **differential attrition** — where drop-out rates differ between treatment and control groups — also threatens the validity of the impact estimate. See Step 7 for how to detect and address differential attrition after data collection.
+:::
+
+---
 
 ## What if there are not enough firms?
 
@@ -164,23 +252,70 @@ The most common planning problem has practical fixes.
   </div></div>
   <div class="d"><div>
     <h4>Expand eligibility</h4>
-    <p>Loosen the bar so more firms qualify.</p>
+    <p>Loosen the bar so more firms qualify — but ensure the evaluation question still applies to the expanded population.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Combine regions</h4>
-    <p>Pool similar programmes or areas into one study.</p>
+    <h4>Combine regions or cohorts</h4>
+    <p>Pool similar programmes or geographic areas into one study to reach the required sample.</p>
   </div></div>
   <div class="d"><div>
     <h4>Run a phase-in</h4>
-    <p>Everyone participates; timing creates the comparison.</p>
+    <p>Everyone participates; the timing of rollout creates the comparison group. Requires enough firms per wave.</p>
   </div></div>
   <div class="d"><div>
     <h4>Target larger effects</h4>
-    <p>Focus the programme where impacts are biggest.</p>
+    <p>Focus the programme where impacts are expected to be largest — this raises the minimum detectable effect and reduces the required sample.</p>
   </div></div>
   <div class="d"><div>
     <h4>Collect better baseline data</h4>
-    <p>Good baselines reduce noise and cut the required sample.</p>
+    <p>A good baseline — with outcome variables measured before the intervention — allows the evaluator to control for pre-existing differences between firms, which reduces the sample needed to detect an effect.</p>
   </div></div>
 </div>
 ```
+
+---
+
+## Stratified randomisation: improving precision without adding firms
+
+One practical way to get more out of the same sample size is **stratified randomisation**. Rather than drawing one lottery from the full pool, you divide firms into groups — strata — based on key characteristics, and run a separate lottery within each group. This guarantees that treatment and control groups are balanced on those characteristics by design, not just by chance.
+
+Common stratification variables in firm-level evaluations include firm size (micro, small, medium), sector (manufacturing vs. services), region, and whether the firm was already conducting R&D at baseline.
+
+Stratification is especially useful when the sample is relatively small — where imbalance is more likely to arise by chance — and when the evaluation will examine whether effects differ across subgroups.
+
+::: {.takeaway}
+Stratified randomisation is free — it costs nothing in terms of sample size and improves the precision of the estimates. Always stratify on characteristics that are strongly related to the primary outcome.
+:::
+
+---
+
+## Cluster randomisation: when you cannot randomise individual firms
+
+In some programmes, randomising at the firm level is not possible — for example, when the intervention is delivered at a regional or sector level, or when there is a real risk that treatment firms and control firms interact with each other and that knowledge or behaviour spreads between them (spillovers). In these cases, **cluster randomisation** assigns whole groups of firms to treatment or control together.
+
+The trade-off is statistical power: when firms within the same cluster tend to be similar to each other — because they face the same local conditions or infrastructure — there is less independent information per firm than in individual randomisation. This means a larger total number of firms is needed to achieve the same power.
+
+::: {.caution}
+Cluster randomisation should only be used when individual-level randomisation is genuinely not feasible. The power cost can be substantial, and the evaluation team should always quantify it explicitly before committing to a cluster design.
+:::
+
+---
+
+## Tools for power calculations
+
+Running a power calculation does not require specialist statistical knowledge. The evaluation consultant will typically handle this, but the following free tools are available for reference:
+
+- **[EGAP Power Calculator](https://egap.org/resource/10-things-to-know-about-statistical-power/)** — web-based, no software required, well-suited to non-specialists
+- **[Optimal Design](https://sites.google.com/site/optimaldesignsoftware/)** — free standalone software, particularly useful for cluster designs
+- **[G\*Power](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower)** — free software covering a wide range of experimental designs
+- **[World Bank DIME Wiki](https://dimewiki.worldbank.org)** — step-by-step guidance on power calculations with practical examples
+
+::: {.takeaway}
+Run the power calculation before the programme launches — not after the eligible pool is already fixed. If the pool is too small, there is still time to act. After randomisation, it is too late.
+:::
+
+---
+
+::: {.nav-buttons}
+[← Back to: Step 3 — Assess feasibility](02.03-assess.qmd)
+:::
