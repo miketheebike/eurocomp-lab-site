@@ -1,38 +1,21 @@
 ---
-title: "Templates and Downloads"
+title: "Further resources"
 ---
 
-[Placeholder page]{.placeholder}
+### Reports
 
-::: {.team-note}
-**Open question**
-This page is still a brainstorm in the outline. Expect the list to change.
-:::
+- **Benchmark reports.** 
+- ** 
 
-::: {.team-note}
-#### Summary
-:::
 
-## [Glossary](glossary.qmd)
-
-- **Defintions of key terms** Definey key concepts used throughout the website.
-
-## Evidence and legal
-
-- **Benchmark reports.** Published reports used as reference points.
-- **Replicable do-files for randomisation.** Working scripts a team can adapt.
-- **Legal text for national legislation.** Model wording enabling RCTs within competitive calls.
-- **GDPR-compliant consent forms.** Consent templates cleared for use in EU member states.
-
-**Prior surveys.** Instruments already used in past evaluations.
-
-## Templates
+### Templates
 
 - **Terms of Reference templates.** For consultants and for data collection firms.
-- **Theory of Change templates.** Blank and worked versions.
-- **Monitoring framework templates.** Structures for tracking take-up, attrition and balance.
 - **Evaluation report templates.** What a final report should include.
 - **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
+
+### Resources from other institutions
+- ** J
 
 ::: {.team-note}
 **Note**
