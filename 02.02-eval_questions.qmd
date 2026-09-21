@@ -73,13 +73,10 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 
 ::: {.example .romania}
-**Running example.** 
-
-How did the programme change investments in digitalization and
-technology adoption? 
+[SMART Romania: selected indicators]{.tag}
+How did the programme change investments in digitalization and technology adoption? 
 Did business performance change due to the grants? 
-The effects of the intervention may vary depending on
-firm size and location. Sector Initial Level of Digitalization
+How do impacts of the intervention vary across firm size, location, sector, and initial level of digitalization?
 :::
 
 ---
