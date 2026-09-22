@@ -12,7 +12,6 @@ Discover examples from managing authorities that introduced experimentation into
 ```{=html}
 <div class="eval-overview">
 <table>
-<caption>Examples on this page</caption>
 <tbody>
 <tr class="group-row"><td colspan="3">EuroCOMP Lab examples</td></tr>
 
@@ -64,19 +63,19 @@ Discover examples from managing authorities that introduced experimentation into
 <tr>
   <td><a href="#earlier-work-by-the-eurocomp-lab-team-digitrans">Digitrans</a></td>
   <td class="topic">Bulgaria, Poland &amp; Slovakia — digital adoption support for MSMEs</td>
-  <td class="status"><span class="status-pill muted">Completed</span></td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 
 <tr class="group-row"><td colspan="3">Examples beyond the Lab</td></tr>
 <tr>
   <td><a href="#colombia-scaling-up-management-consulting">Colombia</a></td>
   <td class="topic">Scaling up management consulting</td>
-  <td class="status"><span class="status-pill muted">External</span></td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 <tr>
   <td><a href="#yemen-testing-whether-internships-help-youth-find-work">Yemen</a></td>
   <td class="topic">Testing whether internships help youth find work</td>
-  <td class="status"><span class="status-pill muted">External</span></td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 </tbody>
 </table>
