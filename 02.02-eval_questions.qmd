@@ -73,7 +73,9 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 ::: {.example .romania}
 [SMART Romania: learning questions defined]{.tag}
 How did the programme change investments in digitalization and technology adoption? 
+
 Did business performance change due to the grants? 
+
 How do impacts of the intervention vary across firm size, location, sector, and initial level of digitalization?
 :::
 
