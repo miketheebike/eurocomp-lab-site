@@ -13,7 +13,7 @@ This page explains the Theory of Change.
 
 Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. A Theory of Change makes this logic explicit and evaluation-ready.
 
-***
+
 
 ## Define a Theory of Change
 
