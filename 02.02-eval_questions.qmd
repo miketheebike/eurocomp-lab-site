@@ -18,7 +18,7 @@ The Theory of Change developed in Step 1 sets out the causal logic of the progra
 
 Getting this step right matters more than it might appear. Vague or poorly scoped evaluation questions lead to data collection that is too broad, analysis that is unfocused, and findings that cannot be clearly attributed to the programme. Conversely, well-formulated questions make every subsequent decision easier — they tell you which indicators to select (Step 3), which data sources to prioritise (Step 5), and what the evaluation team will need to deliver.
 
-***
+
 
 ## What makes a good learning question?
 
@@ -32,7 +32,7 @@ A well-formulated learning question has four characteristics:
 
 **Decided in advance.** Evaluation questions must be set before data collection begins — not after. Questions formulated after seeing the data are prone to selective reporting and undermine the credibility of the findings. Pre-registration on a public registry (see Step 3) locks in the questions publicly before any results are observed.
 
-***
+
 
 ## Types of learning questions
 
@@ -54,13 +54,13 @@ A well-structured evaluation typically includes a primary question and a set of 
 
 *Example:* what share of treatment group firms used the grant for the intended R&D activities, and what were the main reasons for non-compliance?
 
-***
+
 
 ## Linking learning questions to the Theory of Change
 
 Every learning question should map to a specific link in the Theory of Change. A useful discipline is to write out the ToC and, for each arrow connecting two levels, ask: do we have a question that tests this link? If a link is left untested, either the evaluation is under-powered to examine it, or the link is assumed to hold without evidence.
 
-***
+
 
 ## Scoping and realism
 
@@ -79,7 +79,6 @@ Did business performance change due to the grants?
 How do impacts of the intervention vary across firm size, location, sector, and initial level of digitalization?
 :::
 
-***
 
 ::: {.nav-buttons}
 [← Previous: Step 1 — Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 — Assess feasibility of conducting an RCT →](02.03-assess.qmd)
