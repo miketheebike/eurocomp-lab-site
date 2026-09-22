@@ -81,5 +81,5 @@ How do impacts of the intervention vary across firm size, location, sector, and 
 
 
 ::: {.nav-buttons}
-[← Previous: Step 1 — Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 —  →](02.03-assess.qmd)
+[← Previous: Step 1 — Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 — Determine relevant indicators →](02.03-indicators.qmd)
 :::
