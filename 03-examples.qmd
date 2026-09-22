@@ -16,7 +16,7 @@ Discover examples from managing authorities that introduced experimentation into
 <tbody>
 <tr class="group-row"><td colspan="3">EuroCOMP Lab examples</td></tr>
 
-<tr class="subgroup-row"><td colspan="3">Completed</td></tr>
+
 <tr>
   <td><a href="#spain-financial-support-to-innovate">Spain</a></td>
   <td class="topic">Financial support to innovate — matching grants for SME R&amp;D</td>
@@ -38,7 +38,7 @@ Discover examples from managing authorities that introduced experimentation into
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 
-<tr class="subgroup-row"><td colspan="3">In implementation</td></tr>
+
 <tr>
   <td><a href="#bulgaria-human-led-versus-ai-led-business-consulting">Bulgaria</a></td>
   <td class="topic">Human-led versus AI-led business consulting</td>
