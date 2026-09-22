@@ -4,14 +4,18 @@ title: "More Details on power calculations"
 
 ::: {.team-note}
 #### Summary
-A power calculation tells you the minimum number of firms you need to detect a meaningful effect with sufficient statistical confidence. This page explains the key concepts, the four ingredients of a power calculation, how to account for attrition, and what tools to use.
+This page explains what a power calculation is, what goes into it, and what a Managing Authority needs to know to have a useful conversation with an evaluator about sample size.
 :::
+
+A power calculation sounds technical. In practice it answers one practical question: **do you have enough firms to detect whether the programme works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
 
 ---
 
-## Do I have enough firms?
+## The core problem: too few firms and you may miss the truth
 
-Randomisation only works if there are enough firms to detect meaningful differences.
+Imagine a programme that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms — some were already growing fast, some were already struggling — may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the programme caused the difference or whether chance did. The programme may work, but your evaluation cannot prove it.
+
+Add more firms and the picture becomes clearer. With enough observations, the average outcomes in the two groups settle down and genuine differences become visible. The variation that masks the signal shrinks relative to the size of the groups.
 
 ::: {.compare}
 ::: {.col-e}
@@ -56,44 +60,45 @@ Real impacts become measurable: averages settle and the difference stands out.
 More firms do not make the lottery fairer — they make its answer visible.
 :::
 
----
 
-## Why sample size matters
 
-How many firms are enough depends on what needs to be detected.
+## What drives the required sample size?
+
+The number of firms you need depends on two things that pull in opposite directions.
 
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-The size of the effect
+The size of the effect you want to detect
 :::
 ::: {.body}
-**Small effect:** more firms needed.
+A programme that doubles firm turnover is easy to spot even in a small group. A programme that increases turnover by 5% requires a much larger group to detect reliably.
 
-**Large effect:** fewer firms needed.
+**Small expected effect → more firms needed.**
+**Large expected effect → fewer firms needed.**
 :::
 :::
 ::: {.col-e}
 ::: {.col-head}
-The variation between firms
+How much firms vary from each other
 :::
 ::: {.body}
-**High variation:** more firms needed.
+If all firms in the target population are very similar — same size, same sector, similar starting performance — a small sample is enough to pick up a difference. If firms vary enormously, you need more of them to be confident that a difference reflects the programme rather than the mix of firms you happened to include.
 
-**Low variation:** fewer firms needed.
+**High variation → more firms needed.**
+**Low variation → fewer firms needed.**
 :::
 :::
 :::
 
 ::: {.gold-panel}
-Think of trying to hear a quiet voice in a noisy room: more background noise requires more observations.
+Think of trying to hear a quiet voice in a noisy room. A louder voice needs no particular conditions to be heard. A quieter voice needs a quieter room — or more people listening carefully. More firms are the equivalent of reducing the noise.
 :::
 
----
 
-## The four ingredients of a power calculation
+## The four ingredients a power calculation combines
 
-Evaluators combine four ingredients into one required number, before the programme starts.
+A power calculation takes four inputs and returns a single number: the minimum sample size the evaluation needs. The evaluator handles the calculation; the Managing Authority needs to understand what the inputs mean so that the conversation about sample size is grounded in the programme's actual context.
 
 ```{=html}
 <figure class="fig-e">
@@ -121,183 +126,27 @@ Evaluators combine four ingredients into one required number, before the program
 ```
 
 ::: {.takeaway}
-No formulas needed: calculators do this work. Links at the bottom of this page.
+No formulas needed — calculators do this work. [Try the IDÉE power calculator →](https://www.idee-education.fr/en/power-calculator/)
 :::
 
 Here is what each ingredient means in plain language:
 
-### 1. Minimum Detectable Effect (MDE)
+**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the programme is designed in the next round, use that. Evidence from similar programmes in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more firms you will need.
 
-The MDE is the smallest effect the evaluation is designed to reliably detect. It answers the question: what is the smallest change in the outcome that would be meaningful for policy purposes?
+**Variation between firms.** How much do firms in your target population differ from each other on the outcome of interest, even before the programme starts? This is usually estimated from existing data — a prior round of the programme, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
 
-Setting the MDE requires a judgement call - it should reflect what a meaningful improvement would look like for the programme. A useful starting point is evidence from comparable programmes in other regions or member states: what effects have similar grants or advisory schemes produced? The evaluation team can help translate this into a concrete, outcome-specific target — for example, "a 10% increase in R&D expenditure" or "a 15 percentage point increase in the share of firms introducing a product innovation."
+**Confidence level.** How willing are you to risk concluding that the programme worked when it actually did not? The standard is a 5% risk — meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.
 
-The key trade-off: the smaller the effect you want to detect, the more firms you need. Setting the MDE too ambitiously low can make the required sample unrealistically large.
+**Statistical power.** How willing are you to risk missing a real effect? The standard is 80% — meaning the evaluation has an 80% chance of detecting a genuine effect if one exists, and a 20% chance of missing it. For evaluations where a null result would have major consequences — for example, if it would be used to cancel a programme — 90% power is preferable, but requires a larger sample.
 
-### 2. Variation between firms
 
-The more firms differ from each other on the outcome of interest — even before the programme starts — the harder it is to detect the programme's effect. The evaluation team will estimate this from existing data: prior rounds of the programme, national statistics, or comparable surveys such as the Community Innovation Survey. The Managing Authority does not need to calculate this; it is an input the evaluator provides.
 
-### 3. Confidence level
 
-This controls the risk of concluding that the programme worked when it actually did not — a false positive. The standard in evaluation is a 5% risk threshold, meaning the evaluation is designed to produce a false positive no more than 5 times out of 100. This is the conventional setting and does not normally need to be changed.
 
-### 4. Statistical power
 
-Statistical power controls the risk of missing a real effect — a false negative. Power is conventionally set at 80%, meaning the evaluation has an 80% chance of detecting a true effect if one exists. Higher power (90%) is preferable when the stakes of a null result are high — for example, if a finding of "no effect" would be used to cancel a programme. Higher power requires a larger sample.
 
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-False positive
-:::
-::: {.body}
-Concluding the programme worked when it did not.
 
-Standard: 5% risk (confidence level).
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-False negative
-:::
-::: {.body}
-Missing a real effect.
 
-Standard: 20% risk (80% power).
-:::
-:::
-:::
-
----
-
-## Was 1,038 enough?
-
-Back to the case: how do evaluators know whether the SMART Romania pool was big enough? Run the pool against the required sample from the power calculation, and do it before the draw. If the pool falls short, grow the pool first.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="The pool of 1038 firms is checked against the required sample produced by the power calculation">
-  <rect x="20" y="56" width="190" height="72" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="115" y="88" text-anchor="middle" fill="var(--dg-ink)" font-size="21" font-weight="bold">1,038</text>
-  <text x="115" y="110" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">firms in the pool</text>
-  <text x="278" y="97" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">checked</text>
-  <text x="278" y="113" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">against</text>
-  <path d="M338 92 H366" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <rect x="366" y="56" width="294" height="72" rx="6" fill="var(--dg-accent-wash)"/>
-  <text x="513" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Required sample</text>
-  <text x="513" y="103" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">expected effect &rarr; power calculation &rarr; minimum firms</text>
-</svg>
-</figure>
-```
-
-```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&#10003; 1,038 eligible firms formed the randomized pool</span></div>
-```
-
-::: {.team-note}
-**Data gap**
-The baseline report contains no power calculation figures, so this section shows the logic of the check without inventing numbers. Ask the evaluation team for the expected effect, assumptions, and required sample, then add them here.
-:::
-
----
-
-## Account for attrition when sizing your sample
-
-The power calculation gives you the number of firms needed at endline. But not every firm randomised at baseline will still be reachable when the endline comes around. Attrition — firms dropping out because they closed, could not be reached, or refused to participate again — reduces the effective sample and therefore the power of the study.
-
-The practical implication is simple: **always randomise more firms at baseline than the power calculation strictly requires**, to leave a buffer for expected drop-out. The evaluation team will advise on how large that buffer should be, based on comparable evaluations in the same country and sector.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Where do attrition estimates come from?
-:::
-::: {.body}
-- Published evaluations of similar programmes in the same country or sector
-- Pilot data or previous rounds of the programme
-- Expert judgement from the evaluation team
-- Administrative data on firm closure rates in the target population
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Typical attrition rates in EU firm-level evaluations
-:::
-::: {.body}
-- **Low:** 5–10% (short follow-up, strong administrative data linkage)
-- **Medium:** 10–20% (1–2 year follow-up, primary survey)
-- **High:** 20–30%+ (3+ year follow-up, hard-to-reach populations)
-
-When in doubt, use a conservative — higher — estimate.
-:::
-:::
-:::
-
-::: {.caution}
-Attrition reduces power, but **differential attrition** — where drop-out rates differ between treatment and control groups — also threatens the validity of the impact estimate. See Step 7 for how to detect and address differential attrition after data collection.
-:::
-
----
-
-## What if there are not enough firms?
-
-The most common planning problem has practical fixes.
-
-```{=html}
-<div class="designs">
-  <div class="d"><div>
-    <h4>Increase outreach</h4>
-    <p>More applications mean a larger pool. SMART Romania ran events in more than 20 cities.</p>
-  </div></div>
-  <div class="d"><div>
-    <h4>Expand eligibility</h4>
-    <p>Loosen the bar so more firms qualify — but ensure the evaluation question still applies to the expanded population.</p>
-  </div></div>
-  <div class="d"><div>
-    <h4>Combine regions or cohorts</h4>
-    <p>Pool similar programmes or geographic areas into one study to reach the required sample.</p>
-  </div></div>
-  <div class="d"><div>
-    <h4>Run a phase-in</h4>
-    <p>Everyone participates; the timing of rollout creates the comparison group. Requires enough firms per wave.</p>
-  </div></div>
-  <div class="d"><div>
-    <h4>Target larger effects</h4>
-    <p>Focus the programme where impacts are expected to be largest — this raises the minimum detectable effect and reduces the required sample.</p>
-  </div></div>
-  <div class="d"><div>
-    <h4>Collect better baseline data</h4>
-    <p>A good baseline — with outcome variables measured before the intervention — allows the evaluator to control for pre-existing differences between firms, which reduces the sample needed to detect an effect.</p>
-  </div></div>
-</div>
-```
-
----
-
-## Stratified randomisation: improving precision without adding firms
-
-One practical way to get more out of the same sample size is **stratified randomisation**. Rather than drawing one lottery from the full pool, you divide firms into groups — strata — based on key characteristics, and run a separate lottery within each group. This guarantees that treatment and control groups are balanced on those characteristics by design, not just by chance.
-
-Common stratification variables in firm-level evaluations include firm size (micro, small, medium), sector (manufacturing vs. services), region, and whether the firm was already conducting R&D at baseline.
-
-Stratification is especially useful when the sample is relatively small — where imbalance is more likely to arise by chance — and when the evaluation will examine whether effects differ across subgroups.
-
-::: {.takeaway}
-Stratified randomisation is free — it costs nothing in terms of sample size and improves the precision of the estimates. Always stratify on characteristics that are strongly related to the primary outcome.
-:::
-
----
-
-## Cluster randomisation: when you cannot randomise individual firms
-
-In some programmes, randomising at the firm level is not possible — for example, when the intervention is delivered at a regional or sector level, or when there is a real risk that treatment firms and control firms interact with each other and that knowledge or behaviour spreads between them (spillovers). In these cases, **cluster randomisation** assigns whole groups of firms to treatment or control together.
-
-The trade-off is statistical power: when firms within the same cluster tend to be similar to each other — because they face the same local conditions or infrastructure — there is less independent information per firm than in individual randomisation. This means a larger total number of firms is needed to achieve the same power.
-
-::: {.caution}
-Cluster randomisation should only be used when individual-level randomisation is genuinely not feasible. The power cost can be substantial, and the evaluation team should always quantify it explicitly before committing to a cluster design.
-:::
 
 ---
 
