@@ -227,6 +227,17 @@ other funding or their own resources. Public R&D subsidies can significantly boo
 private investment, but careful targeting is needed to avoid simply displacing money
 firms would have spent anyway.
 :::
+
+
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+    <span class="fr-cite">Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.</span>
+    <a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">Read the report &rarr;</a>
+  </div>
+</div>
+
+
 ## Czechia: light-touch support for SMEs
 
 ::: {.cards}
@@ -260,6 +271,8 @@ efficiency, marketing, sales, product development and financial management, with
 peer-to-peer exchange between firms.
 :::
 :::
+
+
 
 ### What experimentation sought to answer
 
@@ -408,6 +421,19 @@ AI Klub
 :::
 :::
 :::
+
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+    <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Francisco Campos, Chiara Spina, and Rahul Suhag. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; Smart Start</span>
+    <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
+  </div>
+  <div class="fr-entry">
+    <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Leonardo Iacovone, Andreas Menzel, Florian Anselm Münch, and Rahul Suhag. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; AI Klub</span>
+    <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
+  </div>
+</div>
+
 ## Croatia: matching businesses with scientists
 
 ::: {.cards}
@@ -536,6 +562,14 @@ Among firms that originally requested support in AI, who benefited the most from
 pilot.
 :::
 :::
+
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+    <span class="fr-cite">Avdeenko, Alexandra, Francisco Campos, Rajesh Chandy, Leonardo Iacovone, and Namrata Kala. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.</span>
+    <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Read the report &rarr;</a>
+  </div>
+</div>
 
 ## Europe: grants for SME energy efficiency
 
@@ -1469,10 +1503,6 @@ businesses.
 ## Examples from beyond the Lab
 ### Colombia: Scaling up management consulting
 
-Source: [Iacovone, L., Maloney, W. F., & McKenzie, D. (2022). Improving management
-with individual and group-based consulting: Results from a randomized experiment in
-Colombia. *Review of Economic Studies*, 89(1),
-346–371.](https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913)
 
 ::: {.cards}
 ::: {.card-e}
@@ -1639,12 +1669,16 @@ practical risk to weigh when comparing the cost-effectiveness of different deliv
 models.
 :::
 
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+    <span class="fr-cite">Iacovone, L., Maloney, W. F., &amp; McKenzie, D. (2022). Improving management with individual and group-based consulting: Results from a randomized experiment in Colombia. <em>Review of Economic Studies</em>, 89(1), 346&ndash;371.</span>
+    <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913">Read the paper &rarr;</a>
+  </div>
+</div>
+
 ### Yemen: Testing whether internships help youth find work
 
-Source: [McKenzie, D., Assaf, N., & Cusolito, A. P. (2016). The demand for, and
-impact of, youth internships: Evidence from a randomized experiment in Yemen. *IZA
-Journal of Labor & Development*,
-5(1), 1–15.](https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8)
 
 ::: {.cards}
 ::: {.card-e}
@@ -1824,3 +1858,10 @@ partly at the expense of other jobseekers in the economy — a general
 equilibrium effect this study could not measure.
 :::
 
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+    <span class="fr-cite">McKenzie, D., Assaf, N., &amp; Cusolito, A. P. (2016). The demand for, and impact of, youth internships: Evidence from a randomized experiment in Yemen. <em>IZA Journal of Labor &amp; Development</em>, 5(1), 1&ndash;15.</span>
+    <a href="https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8">Read the paper &rarr;</a>
+  </div>
+</div>
