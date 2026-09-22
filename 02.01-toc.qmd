@@ -14,7 +14,6 @@ This page explains the Theory of Change.
 Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. A Theory of Change makes this logic explicit and evaluation-ready.
 
 
-
 ## Define a Theory of Change
 
 ### What is a Theory of Change - and how does it relate to your intervention logic?
@@ -102,7 +101,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Assumptions** are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the programme may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.
 
-::: {.soft-panel}
+::: {.example .romania}
 **Running example.** 
 :::
 
