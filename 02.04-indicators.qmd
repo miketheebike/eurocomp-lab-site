@@ -58,6 +58,6 @@ Once your indicators are defined, each one needs a concrete data source behind i
 ***
 
 ::: {.nav-buttons}
-[← Previous: Step 2 — Define evaluation questions](02.02-eval_questions.qmd) | [Next: Step 4 — Identify available data sources →](02.05-data_sources.qmd)
+[← Previous: Step 2 — Define evaluation questions](02.02-eval_questions.qmd) | [Next: Step 4 — Assess feasibility of conducting an RCT→](02.03-assess.qmd)
 :::
 
