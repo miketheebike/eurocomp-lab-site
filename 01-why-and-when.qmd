@@ -4,7 +4,7 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing, when it has to be embedded in the program design and gives an overview over different evaluation methods. Experimentation — running a randomised controlled trial — is one way of doing impact evaluation, and the one this website is built around. This page also explains impact evaluation more broadly, and the alternative methods, to show why experimentation is usually the strongest choice.
+This page covers why experimentation is worth doing, when it has to be embedded in the program design. Experimentation — running a randomised controlled trial — is one way of doing impact evaluation, and the one this website is built around. This page also explains impact evaluation more broadly, and the alternative methods, to show why experimentation is usually the strongest choice.
 :::
 
 
