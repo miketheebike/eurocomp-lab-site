@@ -420,8 +420,20 @@ None of these problems make an RCT impossible — but all of them must be antici
 :::
 
 
+
+::: {.example .romania}
+[North-East Romania: the programme did not achieve full take-up]{.tag}
+
+Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding
+proposal, and 333 (64.2%) were eventually contracted.
+
+Because of limited take-up, it is safer to report the intention-to-treat effect,
+comparing everyone as originally assigned, even though it understates the effect on the
+firms that actually took up the grant.
+:::
 ---
 
 ::: {.nav-buttons}
 [← Previous: Step 3 — Determine relevant indicators](02.03-assess.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
 :::
+
