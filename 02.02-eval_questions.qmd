@@ -42,6 +42,15 @@ A well-structured evaluation typically includes a primary question and a set of 
 
 *Example:* does receiving an innovation grant cause a statistically significant increase in firm R&D expenditure within two years of the grant award, compared to equally eligible firms that did not receive support?
 
+::: {.example .romania}
+[North-East Romania: learning questions defined]{.tag}
+How did the programme change investments in digitalization and technology adoption? 
+
+Did business performance change due to the grants? 
+
+How do impacts of the intervention vary across firm size, location, sector, and initial level of digitalization?
+:::
+
 **Heterogeneity questions** ask whether effects differ across subgroups — for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
 
 *Example:* Are the effects of the grant larger for small firms (fewer than 50 employees) than for medium-sized firms?
@@ -70,14 +79,6 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 **Attribution.** Learning questions should be scoped to what can be attributed to the programme, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the programme itself. A well-scoped causal question asks about the *difference* between treated and comparison firms, not about levels.
 
-::: {.example .romania}
-[SMART Romania: learning questions defined]{.tag}
-How did the programme change investments in digitalization and technology adoption? 
-
-Did business performance change due to the grants? 
-
-How do impacts of the intervention vary across firm size, location, sector, and initial level of digitalization?
-:::
 
 
 ## Once set, learning questions cannot change
