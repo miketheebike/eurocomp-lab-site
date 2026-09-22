@@ -238,29 +238,25 @@ question is whether the programme is working as well as it could be.
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-You want to learn who to target and how to design it
+Does the programme cause an effect at all?
 :::
 ::: {.body}
-**Too many applicants?** Consider introducing randomisation in the middle ranks.
-
-**Too few applicants?** Consider simplifying access and using an encouragement design.
+You do not yet know whether the programme works, or you are still working out
+who it reaches and how it should be designed before it starts. This is the
+question the rest of this page works through: finding a credible comparison
+group, choosing between an RCT and the alternatives, and building the
+estimate.
 :::
 :::
 ::: {.col-e}
 ::: {.col-head}
-You know it is effective, but is it efficient?
+How do you deliver it better?
 :::
 ::: {.body}
-**Test how you deliver it.** Compare different ways of delivering the programme to the
-same beneficiaries, testing changes that improve efficiency and satisfaction.
+You already know the programme works and it may already be running. What you want to know is which version of the programme works
+best. An RCT can provide answers. More on this below.
 :::
 :::
-:::
-
-::: {.soft-panel}
-Experimentation is not useful only if you already have enough evidence on returns
-for your target group and region, and there is no interest in learning about different
-ways of implementing the programme for the same beneficiaries.
 :::
 
 
@@ -587,9 +583,8 @@ record. This increased confidence with the firms that selection was fair.
 
 ## What if you cannot randomise?
 
-An RCT only works if randomisation is built in from day one, integrated at design stage
-before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions.
-When that is not possible,
+For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way — we come back to that once the decision tree below has resolved this question.
+When early randomisation for this question is not possible,
 quasi-experimental methods are the alternative.
 
 ::: {.caution}
@@ -803,55 +798,130 @@ are no longer comparable to those just above.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Decision tree: if you can plan from the outset and have excess demand, use an RCT; otherwise use matching, difference in differences, or regression discontinuity">
-  <rect x="200" y="8" width="280" height="42" rx="5" fill="var(--dg-ink)"/>
-  <text x="340" y="26" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5">Can you plan an evaluation</text>
-  <text x="340" y="42" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5">from the outset?</text>
+<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question, what do you want to learn: the left path asks whether the programme causes an effect at all and needs a comparison group fixed before launch; the right path asks how to deliver it better and can be tested at any point since nobody is excluded">
+  <rect x="375" y="12" width="250" height="46" rx="5" fill="var(--dg-ink)"/>
+  <text x="500" y="40" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">What do you want to learn?</text>
 
-  <path d="M340 50 V70 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="240" y="65" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">No</text>
-  <path d="M340 50 V70 H510 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="425" y="65" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
+  <path d="M500 58 V78 H250 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M500 58 V78 H750 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-  <rect x="20" y="96" width="300" height="34" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="170" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
+  <rect x="15" y="96" width="470" height="50" rx="5" fill="var(--dg-ink)"/>
+  <text x="250" y="126" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">Does the programme cause an effect at all?</text>
 
-  <path d="M170 130 V330 M170 172 H36 M170 252 H36 M170 330 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <rect x="515" y="96" width="470" height="50" rx="5" fill="var(--dg-ink)"/>
+  <text x="750" y="126" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">How do you deliver it better?</text>
 
-  <rect x="36" y="146" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="52" y="167" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Matching</text>
-  <text x="52" y="186" fill="var(--dg-ink-soft)" font-size="11">No unobserved differences between</text>
-  <text x="52" y="199" fill="var(--dg-ink-soft)" font-size="11">matched groups</text>
+  <rect x="15" y="170" width="470" height="50" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="250" y="200" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">Can you plan an evaluation from the outset?</text>
 
-  <rect x="36" y="226" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="52" y="247" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Difference in differences</text>
-  <text x="52" y="266" fill="var(--dg-ink-soft)" font-size="11">Both groups would have trended the</text>
-  <text x="52" y="279" fill="var(--dg-ink-soft)" font-size="11">same (parallel trends)</text>
+  <path d="M250 220 V236 H130 V252" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="152" y="248" fill="var(--dg-ink-soft)" font-size="14" font-weight="bold">No</text>
+  <path d="M250 220 V236 H375 V252" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="352" y="248" fill="var(--dg-ink-soft)" font-size="14" font-weight="bold">Yes</text>
 
-  <rect x="36" y="304" width="284" height="58" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="52" y="325" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Regression discontinuity</text>
-  <text x="52" y="344" fill="var(--dg-ink-soft)" font-size="11">No manipulation of who falls just</text>
-  <text x="52" y="357" fill="var(--dg-ink-soft)" font-size="11">above or below the cut-off</text>
+  <rect x="15" y="252" width="220" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="125" y="278" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Quasi-experimental methods</text>
+  <text x="125" y="300" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Matching &middot; Diff-in-diff &middot;</text>
+  <text x="125" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Regression discontinuity</text>
 
-  <rect x="360" y="96" width="300" height="44" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="510" y="115" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Is there excess demand that lets</text>
-  <text x="510" y="131" text-anchor="middle" fill="var(--dg-ink)" font-size="12">you randomise participation?</text>
+  <rect x="265" y="252" width="220" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="375" y="278" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Is there excess demand that</text>
+  <text x="375" y="296" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">lets you randomise</text>
+  <text x="375" y="314" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">participation?</text>
 
-  <path d="M510 140 V166" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="520" y="158" fill="var(--dg-ink-soft)" font-size="11.5" font-weight="bold">Yes</text>
+  <path d="M375 338 V352 H320 V368" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="300" y="364" fill="var(--dg-ink-soft)" font-size="13" font-weight="bold">Yes</text>
+  <path d="M375 338 V352 H430 V368" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="440" y="364" fill="var(--dg-ink-soft)" font-size="13" font-weight="bold">No</text>
 
-  <rect x="380" y="166" width="260" height="44" rx="5" fill="var(--dg-accent)"/>
-  <text x="510" y="184" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Randomised controlled</text>
-  <text x="510" y="200" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">trial</text>
+  <rect x="265" y="368" width="105" height="68" rx="5" fill="var(--dg-accent)"/>
+  <text x="317" y="398" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">RCT</text>
+  <text x="317" y="416" text-anchor="middle" fill="var(--dg-ink)" font-size="11">(impact)</text>
 
-  <text x="380" y="240" fill="var(--dg-ink-soft)" font-size="11">No assumptions about outcome levels or</text>
-  <text x="380" y="254" fill="var(--dg-ink-soft)" font-size="11">trends between groups are needed</text>
+  <rect x="380" y="368" width="105" height="68" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="432" y="391" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Quasi-exp., or</text>
+  <text x="432" y="405" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">another RCT</text>
+  <text x="432" y="419" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10">design (phase-in)</text>
+
+  <text x="15" y="462" fill="var(--dg-ink-soft)" font-size="12.5">No assumptions about outcome levels or trends</text>
+  <text x="15" y="480" fill="var(--dg-ink-soft)" font-size="12.5">between groups are needed for the RCT branch.</text>
+
+  <rect x="515" y="170" width="470" height="60" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="750" y="196" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">Everyone eligible is already included &mdash;</text>
+  <text x="750" y="216" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">nobody is held back</text>
+
+  <path d="M750 230 V248" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="515" y="248" width="470" height="60" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="750" y="274" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">Randomise which version of the</text>
+  <text x="750" y="294" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">programme each firm gets</text>
+
+  <path d="M750 308 V326" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="630" y="326" width="240" height="56" rx="5" fill="var(--dg-accent)"/>
+  <text x="750" y="360" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">Randomised controlled trial</text>
+
+  <rect x="515" y="404" width="470" height="86" rx="5" fill="var(--dg-accent-wash)"/>
+  <text x="750" y="432" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">The RCT does not need to be planned</text>
+  <text x="750" y="452" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">at the design stage. It can be added</text>
+  <text x="750" y="472" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">once implementation is already under way.</text>
 </svg>
-<figcaption>Each quasi-experimental branch carries its own identifying assumption, shown beneath the method name.</figcaption>
+<figcaption>The left path needs a comparison group fixed before launch. The right path does not, because nobody is excluded from the programme itself &mdash; only which version of it they get is randomised.</figcaption>
 </figure>
 ```
 
+Within the quasi-experimental branch, here is how the three methods compare:
 
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 390" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Choosing between the quasi-experimental methods: take the first row that fits, from regression discontinuity to difference-in-differences to matching">
+  <rect x="10" y="10" width="380" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="26" y="30" fill="var(--dg-ink)" font-size="11" font-weight="bold">Is entry decided by a score and a cut-off,</text>
+  <text x="26" y="46" fill="var(--dg-ink)" font-size="11" font-weight="bold">with no manipulation of who falls just</text>
+  <text x="26" y="62" fill="var(--dg-ink)" font-size="11" font-weight="bold">above or below it?</text>
+  <path d="M390 45 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="396" y="38" fill="var(--dg-ink-soft)" font-size="10.5" font-weight="bold">Yes</text>
+  <rect x="430" y="18" width="220" height="54" rx="5" fill="var(--dg-accent)"/>
+  <text x="540" y="49" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Regression discontinuity</text>
+  <text x="540" y="90" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="9.5">No manipulation of who falls just</text>
+  <text x="540" y="102" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="9.5">above or below the cut-off.</text>
+
+  <path d="M200 80 V110" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="214" y="99" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
+
+  <rect x="10" y="110" width="380" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="26" y="130" fill="var(--dg-ink)" font-size="11" font-weight="bold">Do you have before-and-after data for</text>
+  <text x="26" y="146" fill="var(--dg-ink)" font-size="11" font-weight="bold">a group that got the programme and a</text>
+  <text x="26" y="162" fill="var(--dg-ink)" font-size="11" font-weight="bold">group that did not?</text>
+  <path d="M390 145 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="396" y="138" fill="var(--dg-ink-soft)" font-size="10.5" font-weight="bold">Yes</text>
+  <rect x="430" y="118" width="220" height="54" rx="5" fill="var(--dg-accent)"/>
+  <text x="540" y="142" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Difference-</text>
+  <text x="540" y="159" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">in-differences</text>
+  <text x="540" y="190" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="9.5">Both groups would have trended the</text>
+  <text x="540" y="202" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="9.5">same without the programme.</text>
+
+  <path d="M200 180 V210" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="214" y="199" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
+
+  <rect x="10" y="210" width="380" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="26" y="230" fill="var(--dg-ink)" font-size="11" font-weight="bold">None of the above &mdash; but you can still</text>
+  <text x="26" y="246" fill="var(--dg-ink)" font-size="11" font-weight="bold">find non-participants who look like your</text>
+  <text x="26" y="262" fill="var(--dg-ink)" font-size="11" font-weight="bold">participants on the traits that matter?</text>
+  <path d="M390 245 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="396" y="238" fill="var(--dg-ink-soft)" font-size="10.5" font-weight="bold">Yes</text>
+  <rect x="430" y="218" width="220" height="54" rx="5" fill="var(--dg-accent)"/>
+  <text x="540" y="250" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Matching</text>
+  <text x="540" y="290" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="9.5">No unobserved differences between</text>
+  <text x="540" y="302" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="9.5">matched groups.</text>
+
+  <rect x="10" y="320" width="640" height="56" rx="5" fill="var(--dg-accent-wash)"/>
+  <text x="330" y="345" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">Matching is the one design that asks nothing of the programme's rules</text>
+  <text x="330" y="361" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">and thus leans hardest on its assumption.</text>
+</svg>
+<figcaption>Take the first row that fits. A "no" sends you to the next question; "yes" gives you the design and the assumption it asks you to make.</figcaption>
+</figure>
+```
 
 ## Reasons not to measure impact with RCTs
 
