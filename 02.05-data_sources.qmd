@@ -24,6 +24,17 @@ For each indicator in your evaluation framework, you must decide whether to rely
 In countries where administrative data sources — such as business registries, tax records, and social security data — are well established and reliable, as is generally the case across the EU, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
 
+::: {.example .romania}
+[SMART Romania: selected indicators]{.tag}
+- Digital adoption (Digital Economy and Society Index)
+- Expenditures in equipment, software, development, training, and digital tools
+- Sales
+- Profits
+- Labor productivity
+:::
+
+
+
 #### Comparison of primary vs. secondary data
 
 | Column_1 | Primary data | Secondary data (administrative) |
@@ -79,5 +90,5 @@ Once you know which data sources will cover which indicators, the next step is t
 ***
 
 ::: {.nav-buttons}
-[← Previous: Step 4 — Determine relevant indicators](02.04-indicators.qmd) | [Next: Step 6 — Collect data →](02.06-data_collect.qmd)
+[← Previous: Step 4 — ](02.03-assess.qmd) | [Next: Step 6 — Collect data →](02.06-data_collect.qmd)
 :::
