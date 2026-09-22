@@ -443,5 +443,5 @@ Free online tools that turn your assumptions into a required sample size — no 
 ---
 
 ::: {.nav-buttons}
-[← Previous: Step 3 — Determine relevant indicators](02.03-indicators.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
+[← Previous: Step 3 — Assess feasibility of conducting an RCT Determine relevant indicators](02.03-indicators.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
 :::
