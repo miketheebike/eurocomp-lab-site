@@ -93,6 +93,12 @@ By embedding innovative experimental approaches in Member States' investments in
 
 The studies designed in this project also contribute to a larger, global body of evidence on how to foster competitive markets, address market failures such as information asymmetries and behavioural biases, and adequately support and target private sector investment. The knowledge gained is intended for use in other regions too, enabling the World Bank to apply findings and lessons learned to enhance the effectiveness and impact of its operations globally.
 
+See here highlights from an event bringing together Managing Authortities, researchers, representatives from the European Commission and the World Bank to explore how experimentation can transform programmes on jobs, skills, and competitiveness: 
+::: {.video-frame}
+{{< video https://www.youtube.com/watch?v=ipRSNDSP4XQ title="Enhancing Cohesion Policy's impact for jobs, skills, and competitiveness - Berlin highlights" aspect-ratio="16x9" >}}
+:::
+
+
 ## How it works
 
 The programme runs for four years. All EU Member States are invited to take part, with a focus on lagging countries and regions.
