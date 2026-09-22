@@ -902,12 +902,8 @@ li > strong:first-child { color: $eu-blue; }
   .eval-overview .topic { display: none; }
 }
 
-/* ---- further reading, citation link at the close of an example ---- */
+/* ---- further reading, citation link(s) at the close of an example ---- */
 .further-reading {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
   background: $eu-blue-pale;
   border-left: 4px solid $eu-blue;
   border-radius: 2px;
@@ -915,12 +911,24 @@ li > strong:first-child { color: $eu-blue; }
   margin: 1.8rem 0;
 }
 .further-reading .fr-label {
-  flex: 0 0 100%;
+  display: block;
   font-size: .66rem;
   font-weight: 700;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: $eu-blue;
+  margin-bottom: .7rem;
+}
+.further-reading .fr-entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.further-reading .fr-entry + .fr-entry {
+  margin-top: .8rem;
+  padding-top: .8rem;
+  border-top: 1px solid rgba(0,68,148,.15);
 }
 .further-reading .fr-cite {
   flex: 1 1 320px;
