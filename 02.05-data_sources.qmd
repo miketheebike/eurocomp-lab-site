@@ -11,7 +11,7 @@ title: "Step 5: identify available data sources"
 This page explains how to assess the feasibility of an RCT.
 :::
 
-With indicators defined in Step 4, the next question is where the data will come from. This is a strategic decision that must be made before the programme launches — not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
+With the Theory of Change, evaluation questions, and indicators in place, and the feasibility of the RCT confirmed, the next question is where the data will come from. This is a strategic decision that must be made before the programme launches — not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
 
 ## The fundamental decision: primary, secondary, or both?
 
@@ -21,7 +21,7 @@ For each indicator in your evaluation framework, you must decide whether to rely
 
 **Secondary data** draws on records that already exist — national business registries, tax authority data, customs records, patent office databases, or the programme's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
 
-In practice, the most robust evaluations combine both: secondary administrative data provides broad coverage and baseline history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
+In countries where administrative data sources — such as business registries, tax records, and social security data — are well established and reliable, as is generally the case across the EU, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
 
 #### Comparison of primary vs. secondary data
@@ -41,9 +41,13 @@ In practice, the most robust evaluations combine both: secondary administrative 
 
 ## Assess what you already have
 
-Before commissioning a new survey, take stock of the administrative data you already hold or can access. Programme management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.
+Before commissioning a new survey, take stock of the administrative data you already hold or can access. Programme management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, costs, expenditures and tax payments — often going back many years, which is particularly valuable for establishing pre-intervention baselines.
 
-The key question is whether these sources contain — or can be linked to contain — the specific outcome variables in your evaluation framework. If a firm's VAT number or national registration number is collected at application stage, it may be possible to link programme records to tax or registry data using that identifier, enabling outcome measurement without any additional burden on beneficiaries.
+Two questions determine whether administrative sources can be useful for an evaluation. 
+
+First, do they contain the right outcomes? Administrative records capture variables that may or may not align with the outcomes the evaluation is designed to measure. An innovation programme that wants to measure R&D expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
+
+Second, can the administrative data be linked to the companies being part of the evaluation? If a firm's VAT number or national registration number is collected at application stage, it can serve as a linking key to match programme records against tax, registry, or customs data — enabling outcome measurement without any additional burden on firms. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
 
 ## Where to find secondary firm-level data
 
@@ -60,7 +64,6 @@ The key question is whether these sources contain — or can be linked to contai
 | **National R&D surveys** | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
 | **Programme management system** | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
 
-**Tip:** If a firm's VAT number or national registration number is recorded at application stage, it can be used as a linking key to match programme records against tax, registry, or customs data — enabling outcome measurement without any additional survey burden on firms.
 :::
 
 ## Data-sharing agreements
