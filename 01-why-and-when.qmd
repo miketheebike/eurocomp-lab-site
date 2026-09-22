@@ -957,49 +957,4 @@ The answer is already known from credible existing studies, or there is no gener
 :::
 :::
 
-::: {.team-note}
-**Citation needed**
-Adapted from Alex's Bucharest slide deck, which cites the Stanford Social Innovation Review
-piece on ten reasons not to measure impact. Confirm how to credit it.
-:::
 
-
-## What can go wrong with a well-designed RCT?
-
-::: {.cards}
-::: {.card-e}
-[01]{.num}
-
-#### Non-compliance and take-up
-Not every firm assigned to a programme ends up participating. Comparing everyone as
-originally assigned (the intention-to-treat effect) stays unbiased, since assignment was
-random, but it understates the effect on those who actually participated.
-:::
-::: {.card-e}
-[02]{.num}
-
-#### Attrition
-Participants may drop out before outcomes can be measured, or stop responding to follow-up
-data collection. The risk is that dropout is not random: if struggling firms are the ones
-most likely to disappear, the firms you do measure make the programme look better than it is.
-:::
-::: {.card-e}
-[03]{.num}
-
-#### Spillovers and contamination
-The comparison group is not always as isolated as it looks. Know-how from a business
-training programme can spread by word of mouth to non-participating competitors or
-suppliers, so the comparison group partly benefits too, understating the true effect.
-:::
-:::
-
-::: {.example .romania}
-[North-East Romania: the programme did not achieve full take-up]{.tag}
-
-Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding
-proposal, and 333 (64.2%) were eventually contracted.
-
-Because of limited take-up, it is safer to report the intention-to-treat effect,
-comparing everyone as originally assigned, even though it understates the effect on the
-firms that actually took up the grant.
-:::
