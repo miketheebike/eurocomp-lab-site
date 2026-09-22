@@ -69,9 +69,9 @@ This section gives the consultant the context needed to design the data collecti
 
 ***
 
-### 2. Evaluation questions
+### 2. Learning questions
 
-List the primary and secondary evaluation questions explicitly. These have been defined by the Managing Authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. Secondary questions might cover heterogeneous effects by firm size or sector, mechanisms, spillovers, or cost-effectiveness. State the intended use of the findings.
+List the primary and secondary learning questions explicitly. These have been defined by the Managing Authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. Secondary questions might cover heterogeneous effects by firm size or sector, mechanisms, spillovers, or cost-effectiveness. State the intended use of the findings.
 
 ***
 
