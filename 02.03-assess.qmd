@@ -390,25 +390,6 @@ Compliance is rarely perfect in either direction: some encouraged firms will nev
 
 ---
 
-## Still not convinced? Three reasons randomisation makes sense
-
-::: {.cards}
-::: {.card-e}
-#### It is the fairest selection method
-When a programme cannot support everyone who qualifies, someone will inevitably be left out. A lottery gives every eligible firm an equal chance — it is the only selection method that is genuinely neutral with respect to characteristics that are irrelevant to eligibility, and it removes the scope for favouritism or informal influence.
-:::
-::: {.card-e}
-#### It protects firms from untested interventions
-Sometimes we do not know in advance whether a programme will work — or whether it might even have unintended negative effects. Testing first, on a limited group, before rolling out to everyone, protects the broader population from those risks. Non-selected firms retain their right to apply in future rounds and will ultimately benefit from the improved programme design that rigorous evaluation makes possible.
-:::
-::: {.card-e}
-#### The findings are easier to communicate
-A randomised design requires fewer assumptions than other evaluation methods. The comparison is direct — treated firms versus comparable untreated firms — which makes the logic of the results straightforward to explain to policymakers, auditors, and the public. There is no need to argue about complex statistical adjustments.
-:::
-:::
-
----
-
 ## What can go wrong?
 
 Even a well-designed RCT must survive contact with reality. These are the four most common problems — and what can be done about each.
