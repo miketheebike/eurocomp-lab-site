@@ -54,6 +54,19 @@ Most national frameworks were designed around ranking or first-come-first-served
 **[See the legal framework page for country examples, key legal elements, and practical steps](02.03c-legal.qmd)**
 :::
 
+
+## Pre-register the evaluation design before the lottery
+
+Before the lottery takes place, the evaluation design must be publicly committed to on a recognised registry — the research question, primary outcome, randomisation procedure, and analysis plan. This prevents adjusting analytical choices after seeing the results, protects the evaluation team from pressure to change the analysis, and strengthens the credibility of the findings. 
+
+Widely used registries include the [AEA RCT Registry](https://www.socialscienceregistry.org) and [RIDIE](https://ridie.3ieimpact.org).
+
+:::: {.example .romania}
+[North-East Romania: preregister the evaluation design]{.tag}
+
+The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on March 18, 2025, prior to follow-up data collection.
+::::
+
 ---
 
 ## Randomisation must be designed in from the start
