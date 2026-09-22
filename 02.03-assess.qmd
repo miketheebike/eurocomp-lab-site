@@ -425,20 +425,6 @@ Even a well-designed RCT must survive contact with reality. These are the four m
 None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. Step 7 covers the checks that catch these problems early enough to act on them.
 :::
 
----
-
-## Where to go deeper
-
-::: {.cards}
-::: {.card-e}
-#### Power calculators
-Free online tools that turn your assumptions into a required sample size — no statistical background needed.
-[EGAP Power Calculator →](https://egap.org/resource/10-things-to-know-about-statistical-power/)
-[Optimal Design software →](https://sites.google.com/site/optimaldesignsoftware/)
-:::
-:::
-
-
 
 ---
 
