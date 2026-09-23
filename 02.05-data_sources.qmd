@@ -61,13 +61,13 @@ Second, can the administrative data be linked to the companies being part of the
 
 | Source | What it contains | Access |
 |---|---|---|
-| **National business registry** | Firm registration, legal form, ownership, sector (NACE), address | Usually public or via national statistical office |
-| **Tax authority records** | Turnover, VAT declarations, corporate tax filings, payroll | Via data-sharing agreement with tax authority |
-| **Social security records** | Employment headcount, wage bill, employee characteristics | Via data-sharing agreement with social security body |
-| **Orbis (Bureau van Dijk)** | Financial statements, ownership, M&A activity — 400m+ firms globally | Commercial licence required |
-| **National commercial data providers.** | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
-| **National R&D surveys** | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
-| **Programme management system** | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
+| National business registry | Firm registration, legal form, ownership, sector (NACE), address | Usually public or via national statistical office |
+| Tax authority records | Turnover, VAT declarations, corporate tax filings, payroll | Via data-sharing agreement with tax authority |
+| Social security records | Employment headcount, wage bill, employee characteristics | Via data-sharing agreement with social security body |
+| Orbis (Bureau van Dijk) | Financial statements, ownership, M&A activity — 400m+ firms globally | Commercial licence required |
+| National commercial data providers | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
+| National R&D surveys | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
+| Programme management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
 
 :::
 
