@@ -1,10 +1,8 @@
 ---
-title: "Impact Evaluation Outcome Bank"
+title: "Topic: Research & Development activity"
 ---
 
-## Topic: R&D Activity
-
-### R&D engagement
+### Research & Development (R&D) engagement
 
 - **Definition:** Whether the firm conducts research and experimental development activities
 - **Metric:** Binary indicator (yes/no); frequency (continuous / occasional)
