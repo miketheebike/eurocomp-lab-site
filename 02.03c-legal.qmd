@@ -29,5 +29,5 @@ Two factors were critical to the Spanish success. First, the initiative was fram
 France adopted a higher-level approach, embedding the right to conduct policy experiments directly in the 2003 constitutional amendment, which added provisions under Articles 37-1 and 72 of the French Constitution allowing local and national authorities to run policy experiments. This constitutional foundation enabled 300 policy experiments by 2019, including the Youth Policy Lab (€150 million in public funding, supported by economists Esther Duflo and Marc Gurgand), which led directly to legislative reforms in education and health insurance.
 
 ::: {.nav-buttons}
-[← Back to: Step 4 — Assess feasibility](02.04-assess.qmd)
+[← Back to: Step 4 — Assess feasibility](02.03-assess.qmd)
 :::
