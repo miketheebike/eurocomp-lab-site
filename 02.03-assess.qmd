@@ -409,7 +409,17 @@ Even a well-designed RCT must survive contact with reality. These are the four m
 
 **Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible. Step 7 covers how to detect and address attrition once data collection is complete.
 
-**Spillovers.** Comparison firms benefit from the programme indirectly — a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level — by region or sector cohort rather than by individual firm — can contain it.
+**Spillovers.** Comparison firms benefit from the programme indirectly — a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level — by region or sector cohort rather than by individual firm — can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
+::: {.example .case}
+[South Muntenia: designing for spillovers]{.tag}
+South Muntenia built spillovers into the design.
+About 900 applicant SMEs are grouped into roughly 100 geographic or sector clusters. Each
+cluster is randomly assigned a funding intensity of 0%, 33%, 66% or 100%, and firms within
+each cluster are then randomly selected for funding up to that share. Comparing funded and
+unfunded firms within a cluster measures each firm's own return; comparing clusters with
+different intensities measures the spillover onto neighbours and competitors.
+[Read the full example](03-examples.qmd#romania-south-muntenia-the-returns-to-innovation-subsidies).
+:::
 
 **Low take-up.** Some firms assigned to the treatment group never use the support — they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the programme, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation — and understanding why firms do not engage — is essential for interpreting what the evaluation ultimately shows.
 
