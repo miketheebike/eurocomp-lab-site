@@ -1,0 +1,216 @@
+---
+title: "Informed consent in RCT data collection"
+---
+
+::: {.team-note}
+#### Summary
+This page explains what informed consent means in the context of an EU RCT, what a consent form must contain, how to handle the distinction between mandatory and voluntary participation, and how to ensure GDPR compliance throughout. The structure and examples are drawn from the EuroComp Lab pre-assessment questionnaire used in South-Muntenia, Romania.
+:::
+
+Data collection for an RCT involves collecting personal and firm-level data from participants who have a right to know what that data will be used for, who will have access to it, and what their choices are. Informed consent is the mechanism through which those rights are exercised. Getting it right is a legal requirement under GDPR and a precondition for ethical evaluation practice.
+
+This page covers what informed consent means in the context of firm-level RCTs under EU Cohesion Policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside a programme application.
+
+---
+
+## What informed consent means in this context
+
+Informed consent is a participant's freely given, specific, informed, and unambiguous agreement to the processing of their data for a defined purpose. In the context of an RCT, it covers two distinct activities that must be kept clearly separate:
+
+**Programme participation** — applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the programme (typically Article 6(1)(e) GDPR — processing necessary for a task carried out in the public interest), not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the programme.
+
+**Evaluation data collection** — providing information for research purposes beyond what is required for the programme: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their programme eligibility.
+
+::: {.caution}
+Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent — it is being coerced. GDPR Article 7(4) explicitly addresses this: consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
+:::
+
+---
+
+## The legal basis for each type of processing
+
+Different data processing activities in an RCT draw on different GDPR legal bases. The consent form must be explicit about which basis applies to which activity.
+
+| Processing activity | Legal basis |
+|---|---|
+| Eligibility verification and programme administration | Art. 6(1)(e) — public interest task |
+| Compliance with Structural Funds regulations | Art. 6(1)(c) — legal obligation |
+| Pre-contractual steps (grant agreement) | Art. 6(1)(b) — contract performance |
+| Scientific randomisation and evaluation | Art. 6(1)(e) + Art. 89 — scientific research in public interest |
+| Data transfer to research partner (e.g. World Bank) | Art. 6(1)(f) — legitimate interest (research) + Art. 89 safeguards |
+| Extended administrative data tracking (tax, registry, customs) | Art. 6(1)(a) — explicit consent |
+| AI-assisted document quality control | Art. 6(1)(a) — explicit consent |
+
+::: {.takeaway}
+Consent-based processing (Art. 6(1)(a)) must be genuinely optional. Mandatory processing — eligibility checks, programme administration, core evaluation randomisation — rests on other legal bases and must be communicated clearly as such.
+:::
+
+---
+
+## What a consent form must contain
+
+Drawing on the J-PAL informed consent checklist and the GDPR requirements applicable to EU evaluations, a consent form for RCT data collection should cover the following elements.
+
+### 1. Identity and purpose
+
+State clearly who is conducting the research, who the data controller is, and what the evaluation is designed to find out. Name and provide contact details for:
+
+- The Managing Authority (data controller and primary contact)
+- Any research partners with access to the data (e.g. World Bank, university)
+- The Data Protection Officer of each data-processing party
+
+The purpose statement should be broad enough to cover the full range of anticipated uses — including future policy reports and academic publications — without being so vague that participants cannot understand what they are agreeing to.
+
+::: {.gold-panel}
+**Example from South-Muntenia, Romania:**
+
+*"This survey is being conducted by the South-Muntenia Regional Development Agency (as the Managing Authority for the Regional Program South-Muntenia 2021-2027) and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by SMEs and SMEs' business outcomes and competitiveness."*
+:::
+
+### 2. What data will be collected and why
+
+Describe each category of data that will be collected, clearly distinguishing between:
+
+- **Mandatory data** — required for programme administration and collected under a legal basis other than consent
+- **Optional data** — collected solely for research purposes and requiring explicit consent
+
+For each optional category, explain what it is, why it is useful to the research, and what happens if the participant declines.
+
+### 3. The randomisation
+
+Explain clearly that the evaluation uses a randomised design: all eligible firms have an equal chance of being assigned to the treatment group (invited to apply for the grant) or the comparison group (not invited). Participants must understand this before they enter the process. The explanation should be plain and non-technical.
+
+::: {.gold-panel}
+**Example from South-Muntenia, Romania:**
+
+*"To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomized. Information from this pre-assessment form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply)."*
+:::
+
+### 4. Who will have access to the data
+
+Name every party that will have access to the data, in what capacity, and under what safeguards. If data will be transferred outside the EU/EEA — for example, to the World Bank as an international organisation — state this explicitly and specify the transfer mechanism (Standard Contractual Clauses, adequacy decision, or the organisation's own data protection framework).
+
+### 5. How long data will be retained
+
+State the retention period for each category of data. Research data linked to Structural Funds programmes must be retained in line with CPR 2021/1060 audit requirements. For extended administrative data tracking — such as access to tax and registry records — the South-Muntenia questionnaire specifies a retention period of **up to ten years** from the date of submission.
+
+### 6. Confidentiality and anonymisation
+
+Explain how the data will be protected and confirm that no individual firm or person can be identified from published results. Publications, reports, and academic studies must present findings exclusively in aggregate, anonymised, or statistical form.
+
+### 7. Voluntary participation and the right to withdraw
+
+State explicitly that:
+
+- Participation in optional data collection activities is voluntary
+- Declining or withdrawing consent carries no penalty and does not affect programme eligibility
+- Withdrawal of consent can be exercised at any time, in writing, and does not affect the lawfulness of processing that already took place
+- Upon withdrawal, the participant may also request deletion of their data
+
+### 8. Participant rights under GDPR
+
+Inform participants of their rights: access to stored data (including a free copy), rectification of inaccurate data, data portability, restriction of processing, and the right to lodge a complaint with the national supervisory authority. Provide the contact details of both the Managing Authority's DPO and the relevant national supervisory authority.
+
+### 9. Duration of participation and follow-up
+
+State how long the initial form will take and whether participants may be contacted for follow-up purposes. Where follow-up surveys or subsequent evaluation rounds are planned, participants should know at baseline that they may be contacted again and for how long this may continue.
+
+### 10. Signature and confirmation
+
+The form must be signed by an authorised representative of the firm — founder, owner, CEO, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
+
+---
+
+## Structuring the consent: mandatory core and optional modules
+
+A best practice, illustrated in the South-Muntenia EuroComp Lab questionnaire, is to structure the consent document as a short checklist of distinct processing activities, each with its own tick box. This makes the mandatory/optional distinction visible and enforceable, and creates a clear audit trail of what each participant agreed to.
+
+The South-Muntenia questionnaire uses three boxes:
+
+```{=html}
+<div class="designs">
+  <div class="d"><div>
+    <h4>Box 1 — Randomised pilot programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
+    <p>Covers participation in the evaluation study, acknowledgment of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
+    <p>Legal basis: Art. 6(1)(e) + Art. 89 GDPR for the randomisation and evaluation; Art. 6(1)(f) for data transfer to the World Bank.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Box 2 — Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional — important for evaluation quality)</span></h4>
+    <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries — including ANAF (tax authority), the Ministry of Finance, and ONRC (trade register). Covers Form D394 data and RO e-Factura electronic invoicing records. Valid for up to ten years from form submission.</p>
+    <p>Legal basis: Art. 6(1)(a) GDPR — explicit consent.</p>
+  </div></div>
+  <div class="d"><div>
+    <h4>Box 3 — Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional — important for evaluation quality)</span></h4>
+    <p>Permits the use of secure AI tools to cross-check the consistency of submitted textual descriptions and financial statements (such as balance sheets). The AI tools do not retain or store data; all information remains under the sole control of the survey provider.</p>
+    <p>Legal basis: Art. 6(1)(a) GDPR — explicit consent.</p>
+  </div></div>
+</div>
+```
+
+::: {.takeaway}
+Box 1 is required. Boxes 2 and 3 are optional but described as important for the quality of the evaluation. Firms must be able to tick Box 1 without ticking Boxes 2 or 3, and the programme must function correctly regardless of which optional boxes are selected.
+:::
+
+---
+
+## Special considerations for EU RCTs
+
+**Ethical approval.** Research involving human subjects — including firm-level surveys — typically requires ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing Authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
+
+**Data transfers to international organisations.** If the research partner is based outside the EU — such as the World Bank — the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the Managing Authority and the research partner.
+
+**Control group consent.** Firms in the comparison group are also research subjects — they are surveyed, tracked in administrative data, and their outcomes are used in the analysis. They must receive the same information notice and consent form as treatment group firms. The only difference is that they are not invited to apply for the grant.
+
+**Plain language.** The consent form will be read by firm owners and managers, not lawyers. Legal citations (Article 6(1)(e), etc.) are required for completeness but must be accompanied by plain-language explanations. In the South-Muntenia questionnaire, each legal reference is preceded by a plain description of what the processing activity is and why it is necessary.
+
+**Multilingual forms.** Where the programme operates in a non-English-speaking member state, the consent form should be available in the local language. The South-Muntenia questionnaire was available in both Romanian and English, with language selectable from the survey menu.
+
+---
+
+## Checklist: is your consent form complete?
+
+- [ ] Identifies the data controller and all research partners with data access
+- [ ] Names the Data Protection Officer of each party and provides contact details
+- [ ] States the purpose of the research in plain language
+- [ ] Clearly distinguishes mandatory processing (programme administration) from optional processing (research)
+- [ ] Explains the randomised design and what it means for the firm
+- [ ] Specifies the legal basis for each processing activity
+- [ ] Names all parties who will receive the data, including international partners
+- [ ] States the transfer mechanism for any data sent outside the EU/EEA
+- [ ] Specifies the retention period for each data category
+- [ ] Explains confidentiality and anonymisation measures
+- [ ] States that optional participation is voluntary and carries no penalty
+- [ ] Explains how to withdraw consent and confirms no penalty for doing so
+- [ ] Informs participants of their GDPR rights, including complaint to supervisory authority
+- [ ] States the duration of participation and any follow-up contact period
+- [ ] Is available in the local language of the target firms
+- [ ] Is signed by an authorised representative of the firm
+- [ ] Has been reviewed as part of ethical approval (where applicable)
+
+---
+
+## Resources
+
+::: {.cards}
+::: {.card-e}
+#### J-PAL Informed Consent Checklist
+Annotated guide to writing informed consent documents for research with human subjects, based on the US OHRP checklist.
+[povertyactionlab.org →](https://www.povertyactionlab.org/resource/research-resources)
+:::
+::: {.card-e}
+#### GDPR Article 89 — Research safeguards
+The GDPR provision governing processing for scientific research, including the derogations and safeguards that apply.
+[eur-lex.europa.eu →](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
+:::
+::: {.card-e}
+#### EuroComp Lab consent templates
+Ready-to-use consent form templates for CATI, CAPI, and web-based data collection, adapted for EU Cohesion Policy RCTs.
+[See the Templates page →](05-templates.qmd)
+:::
+:::
+
+---
+
+::: {.nav-buttons}
+[← Back to: Step 6 — Collect data](02.06-data_collect.qmd)
+:::
