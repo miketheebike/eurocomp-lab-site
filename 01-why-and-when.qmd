@@ -4,7 +4,7 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing in more detail. Experimentation — running a randomised controlled trial (RCT) — is one method of doing impact evaluation. Many questions that can be answered with experimentation can also be answered without methods if these are well designed. This is why this pages starts by speaking about impact evaluation more broadly and provides a brief overview over alternative methods showing why experimentation is usually the strongest choice.
+This page covers why experimentation is worth doing in more detail. Experimentation — running a randomised controlled trial (RCT) — is one method of doing impact evaluation. Many questions that can be answered with experimentation can also be answered with other methods if these are well designed. This is why this page starts by speaking about impact evaluation more broadly and provides a brief overview over alternative methods showing why experimentation is usually the strongest choice.
 :::
 
 
@@ -122,8 +122,42 @@ establishing what would have happened without it.
 
 Monitoring and impact evaluation are complements, not alternatives. An impact evaluation should not go ahead without solid monitoring data: who applied, who was selected, who was contracted, and what they invested in. Without that, you cannot tell whether a programme had no effect or was simply never implemented as planned.
 
+## What exactly is the impact of a programme? {#counterfactual}
 
-## Testing and learning only works if you know what to look for
+**Definition.** Impact is what happens after a programme is introduced, minus what would
+have happened in its absence, the counterfactual.
+
+**The dilemma.** The counterfactual is a "what if" and is unknown to us.
+
+**The solution.** Find a way to construct the counterfactual so impact can be measured.
+This can be done in different ways. The methods below show why RCTs are considered the gold standard.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Line chart showing actual outcomes rising faster than the counterfactual after an intervention, with the gap labelled impact">
+  <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+
+  <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
+
+  <polyline points="100,220 150,205 200,190 250,175 300,160" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="300,160 370,133 440,106 510,79 580,52" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="300,160 370,150 440,140 510,130 580,120" fill="none" stroke="var(--dg-ink)" stroke-width="2.5" stroke-dasharray="6 5"/>
+
+  <path d="M598 52 H606 M598 120 H606 M602 52 V120" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="614" y="90" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
+
+  <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
+  <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
+</svg>
+<figcaption>Impact is the causal effect of the programme: the gap between what happened and what would have happened.</figcaption>
+</figure>
+```
+
+### Impact is measured using outcomes
 
 When evaluating projects, often only outputs are assessed, because they are the easiest
 thing to count. Measuring impact means moving from counting outputs to measuring outcomes.
@@ -137,6 +171,37 @@ What a programme delivers: grants disbursed, firms enrolled, training sessions r
 #### Outcomes
 What changes because of it: growth, jobs, innovation, resilience.
 :::
+:::
+
+
+
+::: {.example .romania}
+[The impact in the North-East Romania programme]{.tag}
+
+For North-East Romania, the impact is the gap between treatment and comparison firms on
+four tracked outcomes: digital adoption, revenue, employment, and productivity.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
+  <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
+  <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
+
+  <rect x="316" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="332" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
+  <text x="332" y="50" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
+
+  <rect x="10" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="26" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
+  <text x="26" y="116" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
+
+  <rect x="316" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="332" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
+  <text x="332" y="116" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
+</svg>
+</figure>
+```
 :::
 
 Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what to measure to test whether the
@@ -167,100 +232,6 @@ The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested an
 The pilot found that money alone is not the most effective. Firms that also received technical assistance used
 digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
 :::
-
-## Learning through experiments is a continuous process
-
-Every RCTs raises new questions along with the ones it answers, each round building
-on the last. That is how we expand our knowledge of what works, for whom, and under what
-conditions, and use it to design better programmes. Exchange within a community of practice
-matters, so we can learn from each other, not just from our own results. But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
-  <defs>
-    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
-    </marker>
-  </defs>
-  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-
-  <rect x="255" y="30" width="150" height="52" rx="6" fill="var(--dg-accent)"/>
-  <text x="330" y="51" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
-  <text x="330" y="68" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
-
-  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
-
-  <rect x="255" y="228" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="330" y="254" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
-
-  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
-</svg>
-</figure>
-```
-
-::: {.cards}
-::: {.card-e}
-[Review]{.num}
-Before considering how to embed an impact evaluation, review a programme's theory of change, identify risks and the learning questions this round should answer, and the outcomes most likely to change (see [Bank of Outcomes](09-bank_outcomes.qmd)).
-Review lessons from other settings and countries, adapt them.
-Identify baseline needs of potential beneficiaries in your region.
-:::
-::: {.card-e}
-[Design]{.num}
-Choose a credible comparison group and set the sample size needed to detect a meaningful effect.
-Turn the outcomes identified in Review into measurable indicators, and set out the data collection plan, budget, and timeline in a Terms of Reference.
-:::
-::: {.card-e}
-[Test]{.num}
-Test different programme designs and delivery modes to identify what works best.
-Assess for whom the programme works best. Address take-up challenges. Learn about mechanisms, unintended effects, and crowding out.
-:::
-::: {.card-e}
-[Invest]{.num}
-Get a quantitative and credible impact estimate that can guide future investments.
-Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
-Scale up based on evidence.
-:::
-:::
-
-
-
-## Think experimentation is not relevant for you?
-
-Whether you have sufficient evidence that your programme works, or you are still working
-out who it reaches and how to design it, there is a case for experimentation. The starting
-question is whether the programme is working as well as it could be.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Does the programme cause an effect at all?
-:::
-::: {.body}
-You do not yet know whether the programme works, or you are still working out
-who it reaches and how it should be designed before it starts. This is the
-question the rest of this page works through: finding a credible comparison
-group, choosing between an RCT and the alternatives, and building the
-estimate.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-How do you deliver it better?
-:::
-::: {.body}
-You already know the programme works and it may already be running. What you want to know is which version of the programme works
-best. An RCT can provide answers. More on this below.
-:::
-:::
-:::
-
 
 ## What does good allocation of public resources look like? {#allocation}
 
@@ -347,73 +318,7 @@ that could not otherwise get funded.
 :::
 
 
-## What exactly is the impact of a programme? {#counterfactual}
-
-**Definition.** Impact is what happens after a programme is introduced, minus what would
-have happened in its absence, the counterfactual.
-
-**The dilemma.** The counterfactual is a "what if" and is unknown to us.
-
-**The solution.** Find a way to construct the counterfactual so impact can be measured.
-This can be done in different ways. The methods below show why RCTs are considered the gold standard.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Line chart showing actual outcomes rising faster than the counterfactual after an intervention, with the gap labelled impact">
-  <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
-  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
-
-  <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
-
-  <polyline points="100,220 150,205 200,190 250,175 300,160" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
-  <polyline points="300,160 370,133 440,106 510,79 580,52" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
-  <polyline points="300,160 370,150 440,140 510,130 580,120" fill="none" stroke="var(--dg-ink)" stroke-width="2.5" stroke-dasharray="6 5"/>
-
-  <path d="M598 52 H606 M598 120 H606 M602 52 V120" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="614" y="90" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
-
-  <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
-  <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
-</svg>
-<figcaption>Impact is the causal effect of the programme: the gap between what happened and what would have happened.</figcaption>
-</figure>
-```
-
-::: {.example .romania}
-[The impact in the North-East Romania programme]{.tag}
-
-For North-East Romania, the impact is the gap between treatment and comparison firms on
-four tracked outcomes: digital adoption, revenue, employment, and productivity.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
-  <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
-  <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
-
-  <rect x="316" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="332" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
-  <text x="332" y="50" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
-
-  <rect x="10" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="26" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
-  <text x="26" y="116" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
-
-  <rect x="316" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="332" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
-  <text x="332" y="116" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
-</svg>
-</figure>
-```
-:::
-
-
-
-## Finding the counterfactual
+## Finding the counterfactual  {#finding-counterfactual}
 
 **Strategy.** Find a group of firms that on average look like treated firms would have
 looked in the absence of the programme. This group is the comparison group.
@@ -580,7 +485,98 @@ selection code run, and the resulting balance between groups reviewed, all on th
 record. This increased confidence with the firms that selection was fair.
 :::
 
+## Learning through experiments is a continuous process
 
+Every RCTs raises new questions along with the ones it answers, each round building
+on the last. That is how we expand our knowledge of what works, for whom, and under what
+conditions, and use it to design better programmes. Exchange within a community of practice
+matters, so we can learn from each other, not just from our own results. But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
+    </marker>
+  </defs>
+  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+
+  <rect x="255" y="30" width="150" height="52" rx="6" fill="var(--dg-accent)"/>
+  <text x="330" y="51" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
+  <text x="330" y="68" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
+
+  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
+
+  <rect x="255" y="228" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="330" y="254" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
+
+  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
+</svg>
+</figure>
+```
+
+::: {.cards}
+::: {.card-e}
+[Review]{.num}
+Before considering how to embed an impact evaluation, review a programme's theory of change, identify risks and the learning questions this round should answer, and the outcomes most likely to change (see [Bank of Outcomes](09-bank_outcomes.qmd)).
+Review lessons from other settings and countries, adapt them.
+Identify baseline needs of potential beneficiaries in your region.
+:::
+::: {.card-e}
+[Design]{.num}
+Choose a credible comparison group and set the sample size needed to detect a meaningful effect.
+Turn the outcomes identified in Review into measurable indicators, and set out the data collection plan, budget, and timeline in a Terms of Reference.
+:::
+::: {.card-e}
+[Test]{.num}
+Test different programme designs and delivery modes to identify what works best.
+Assess for whom the programme works best. Address take-up challenges. Learn about mechanisms, unintended effects, and crowding out.
+:::
+::: {.card-e}
+[Invest]{.num}
+Get a quantitative and credible impact estimate that can guide future investments.
+Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
+Scale up based on evidence.
+:::
+:::
+
+
+
+## Think experimentation is not relevant for you?
+
+Whether you have sufficient evidence that your programme works, or you are still working
+out who it reaches and how to design it, there is a case for experimentation. The starting
+question is whether the programme is working as well as it could be.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Does the programme cause an effect at all?
+:::
+::: {.body}
+You do not yet know whether the programme works, or you are still working out
+who it reaches and how it should be designed before it starts. This is the
+question the rest of this page works through: finding a credible comparison
+group, choosing between an RCT and the alternatives, and building the
+estimate.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+How do you deliver it better?
+:::
+::: {.body}
+You already know the programme works and it may already be running. What you want to know is which version of the programme works
+best. An RCT can provide answers. More on this below.
+:::
+:::
+:::
 
 ## What if you cannot randomise? {#alternatives}
 
