@@ -1,5 +1,5 @@
 ---
-title: "Topic: Company Financial Performance"
+title: "Topic: company financial performance"
 ---
 
 **How many full-time paid employees work in the business as of the end of 2025?
