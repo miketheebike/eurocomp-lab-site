@@ -1,9 +1,6 @@
 ---
-title: "Impact Evaluation Outcome Bank"
+title: "Topic: digitalisation"
 ---
-
-## Topic: Digitalisation
-
 
 ### Digital technology adoption
 
