@@ -1,5 +1,5 @@
 ---
-title: "Impact Evaluation Outcome Bank"
+title: "RCT outcome bank"
 ---
 
 ## Topic: Firm Performance and Growth
