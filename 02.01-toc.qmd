@@ -87,27 +87,71 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 ```
 
 
-**Inputs** are the resources, efforts, and actions invested in a policy - financial resources, personnel, equipment, and training programme. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
+**Inputs** are the resources, efforts, and actions invested in a policy. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
+
+::: {.example .romania}
+[North-East Romania: inputs]{.tag}
+
+- Number of staff involved in designing and implementing the digitalisation grants
+- Available budget to disrupt digitalisation grants
+:::
+
+**Activities** are the concrete actions undertaken to deliver the programme. These are what the programme actually does.
+
+::: {.example .romania}
+[North-East Romania: activities]{.tag}
+
+- Outreach and information campaign for potential applicants
+- Pre-assessment questionnaire to express interest in digitalization grants 
+- Call for proposals to deliver digitalisation grants
+:::
+
+**Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For ERDF programmes, these correspond closely to the **common output indicators** (COIs) that Managing Authorities are already required to report to the European Commission.
+
+::: {.example .romania}
+[North-East Romania: outputs]{.tag}
+
+- Digitalisation grants are awared to selected companies
+:::
+
+**Short-term outcomes** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviors among the target population. Although short-term outcomes are not the program's ultimate goals, they play a crucial role in achieving the larger objectives.
+
+::: {.example .romania}
+[North-East Romania: short-term outcomes]{.tag}
+
+- Digital solution procured, installed, configured and tested 
+- Digital solution is operationalized, used by employees, customers and  others in the supply chain.​​
+:::
+
+**Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress toward the overall goal and often involve shifts in social norms, policies, or organizational practices. These correspond closely to the **common result indicators** (CRIs) that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the programme and the result.
 
 ::: {.example .romania}
 [North-East Romania: preregister the evaluation design]{.tag}
 
-- Number of staff involved in designing and implementing the digitalisation grants
-- Available budget to disrupt digitalisation grants** 
+- Companies achieve advanced digital transformation
+- Improved time management and business efficiency
 :::
 
-**Activities** are the concrete actions undertaken to deliver the programme - running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the programme actually *does*.
+**Goals** are a policy’s broad, long-term aspirations or objectives. They describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.
 
-**Outputs** are the direct, countable results of those activities — the number of firms supported, grants awarded, training hours delivered, or innovation projects launched. Outputs are what the programme *produces*. For ERDF programmes, these correspond closely to the **common output indicators** (COIs) that Managing Authorities are already required to report to the European Commission.
+::: {.example .romania}
+[North-East Romania: goals]{.tag}
 
-**Short-term outcomes** are the immediate changes that occur as a direct result of the outputs — for example, a supported firm adopting a new technology, or a researcher filing a patent application. These changes typically occur within one to two years of support and are often related to shifts in knowledge, behaviour, or capacity among beneficiaries.
+- Increase in sales, employment, productivity (TFP) and profitability
+- Higher resilience to economic shocks, due to the business versatility ensured though the digital solutions 
+:::
 
-**Medium-term outcomes** are the broader changes that emerge as short-term outcomes accumulate — for example, increases in firm-level productivity, growth in exports, or improvements in the regional innovation ecosystem. These correspond closely to the **common result indicators** (CRIs) that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the programme and the result.
+**Assumptions** are the underlying beliefs, conditions, or factors that are considered to be true but have not yet been fully proven or tested. Assumptions may involve external factors, stakeholder behavior, or contextual influences that must align for the theory to work as expected.
 
-**Goals** are the long-term aspirations of the policy — for a competitiveness programme, this might mean a more innovative regional economy, higher wages, or greater resilience to economic shocks. Goals typically require years to materialise and reflect the broader objectives of the Smart Specialisation Strategy or the national reform agenda.
+::: {.example .romania}
+[North-East Romania: assumptions]{.tag}
 
-**Assumptions** are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the programme may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.
-
+- Employees will possess, or will be able to acquire, the digital skills needed to effectively use the solution for advanced digital transformation
+- Companies have sufficient organizational flexibility to change internal processes
+- Companies have the organizational capacity
+- Companies' customers and suppliers are sufficiently active in digital channels (online payments, e-commerce transactions, digital invoicing) to make adoption beneficial
+- Suppliers, partners, and customers will engage with and utilize digital links (communications, transactions, data exchange) established by companies, ensuring network effects and value creation.
+:::
 
 
 ### Why invest time in developing a Theory of Change?
