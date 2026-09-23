@@ -25,12 +25,9 @@ In countries where administrative data sources — such as business registries, 
 
 
 ::: {.example .romania}
-[SMART Romania: selected indicators]{.tag}
-- Digital adoption (Digital Economy and Society Index)
-- Expenditures in equipment, software, development, training, and digital tools
-- Sales
-- Profits
-- Labor productivity
+[North-East Romania: selected indicators]{.tag}
+
+North-East Romania used a combination of 
 :::
 
 
