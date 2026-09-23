@@ -240,7 +240,7 @@ digital tools 2.5 times more intensively than those with the subsidy alone. This
 Return on public investment is the benefit attributable to a programme divided by its
 cost. "Attributable" requires knowing what the programme beneficiaries would have done in the absence of the programme.
 
-That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiares may differ from those that where not selected, e.g. they may be more motivated or have more resources. Most of these traits
+That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiaries may differ from those that were not selected, e.g. they may be more motivated or have more resources. Most of these traits
 are never recorded in any database or questionnaire. When these beneficiaries later do better on the outcomes of interest,
 it is impossible to tell how much of that is the programme and how much is who they already were.
 
@@ -258,6 +258,7 @@ Firms that succeed: **80 of 100**
 Would have succeeded anyway: 65
 
 Caused by the grant: **15**
+Additionality rate: **19%**
 :::
 ::: {.verdict}
 Looks stronger: 80 successes.
@@ -324,6 +325,10 @@ firms' pre-existing quality, not with what the grant did.
 Support actually changes behaviour for the marginal, constrained firm: the good project
 that could not otherwise get funded.
 :::
+::: {.card-e}
+#### Can experts spot the marginal firm?
+Evidence suggests not reliably. Enter example from mckenzie nigeria 
+:::
 :::
 
 
@@ -335,7 +340,7 @@ looked in the absence of the programme. This group is the comparison group.
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-Randomised controlled trials
+Ex-ante: Randomised controlled trials
 :::
 ::: {.body}
 Create the comparison group up front, by randomly assigning who receives the programme.
@@ -344,7 +349,7 @@ Randomisation is what guarantees the two groups look the same on average.
 :::
 ::: {.col-e}
 ::: {.col-head}
-Ex-post and quasi-experimental designs
+Ex-post: quasi-experimental designs
 :::
 ::: {.body}
 Look for a suitable comparison group after the programme has already been rolled out,
@@ -357,19 +362,8 @@ using natural variation in who received it and who did not.
 **Selection bias** is the risk that the comparison group does not actually look like the
 treatment group on average. If that assumption is wrong, the impact estimate is biased.
 :::
-
-::: {.example .romania}
-[North-East Romania: what is the counterfactual?]{.tag}
-
-In North-East Romania, the counterfactual is represented by the firms that completed the
-online survey and were deemed eligible but that did not receive the grant.
-
-Before any grants were awarded, the selected and non-selected groups looked
-statistically the same: identical average DESI score (4.3 of 12), similar firm size, no
-significant difference overall. That balance is what makes the non-selected group a
-credible stand-in for what the selected firms would have done without the programme.
-
-:::
+In North-East Romania, the counterfactual is the group of eligible firms that were not
+drawn in the lottery. [How the lottery created it](#rct).
 
 
 ## What is a randomised controlled trial? {#rct}
@@ -407,6 +401,18 @@ group without the programme.
 </svg>
 </figure>
 ```
+Because assignment is decided by chance, the two groups are alike on average not only in
+characteristics you can measure, such as size, sector or turnover, but also in those you
+cannot, such as motivation, management quality or connections. Nothing should
+systematically differ between the two groups except that some firms were lucky in the draw
+and others were not. That is why no statistical adjustment for firm characteristics is
+needed to get a credible estimate.
+
+::: {.soft-panel}
+**What "random" means here.** Not randomly sampling a sub-population to study, but
+randomly deciding, among qualifying applicants, who receives the programme and who
+does not.
+:::
 
 **Advantage.** RCTs are considered the gold standard of quantitative impact evaluation
 because:
@@ -416,12 +422,26 @@ because:
 - They are easy to interpret
 
 
+
 ::: {.example .romania}
-[North-East Romania: randomised controlled trial]{.tag}
+[North-East Romania: the lottery and its comparison group]{.tag}
 
-Recap: firms first completed an online screening survey. Everyone who met the pre-set eligibility criteria (1 038 firms) qualified for the program. Because demand for the grant exceeded the funding available, a public lottery decided which 519 of these equally-eligible firms would be invited to formally apply now; the other 519 formed the comparison group and received no invitation.
+Firms first completed an online pre-assessment survey. The 1,038 firms that met the
+pre-set eligibility criteria all qualified. Because demand exceeded the budget, a public
+lottery decided which 519 would be invited to apply formally; the other 519 formed the
+comparison group.
 
-Because the lottery created two comparable groups, the difference between them over time is the impact of invited to the program.
+Before any grants were awarded, the two groups were statistically identical:
+
+| | Not selected | Selected |
+|---|---|---|
+| Average DESI score (0–12) | 4.30 | 4.30 |
+| Average employees, 2022 (admin data) | 13.8 | 13.8 |
+| Share with fewer than 10 employees | 63% | 63% |
+| Share in urban areas | 84% | 84% |
+
+Because the groups started out the same, the difference between them over time is the
+impact of being invited to apply for the grant.
 
 ```{=html}
 <figure class="fig-e">
@@ -453,7 +473,7 @@ Because the lottery created two comparable groups, the difference between them o
 ```
 :::
 
-## Randomisation can improve legitimacy and trust in programmes
+## Randomisation can improve legitimacy and trust in programmes {#legitimacy}
 
 Randomly selecting beneficiaries among eligible applicants is fair. When more eligible
 firms apply than there is budget to fund, a lottery is a transparent way to decide who
@@ -492,9 +512,12 @@ does not.
 North-East Romania's draw was run in front of a notary: the random number seed drawn, the
 selection code run, and the resulting balance between groups reviewed, all on the
 record. This increased confidence with the firms that selection was fair.
+The draw also made selection faster. Because beneficiaries were drawn at random from the
+eligible pool, no ranking of the "best" applications was needed. Evaluators only had to
+check that each firm met the formal criteria and that the requested funds were justified.
 :::
 
-## Learning through experiments is a continuous process
+## Learning through RCTs is a continuous process {#learning-cycle}
 
 Every RCTs raises new questions along with the ones it answers, each round building
 on the last. That is how we expand our knowledge of what works, for whom, and under what
@@ -557,7 +580,7 @@ Scale up based on evidence.
 
 
 
-## Think experimentation is not relevant for you?
+## What do you want to learn? {#two-questions}
 
 Whether you have sufficient evidence that your programme works, or you are still working
 out who it reaches and how to design it, there is a case for experimentation. The starting
@@ -582,7 +605,8 @@ How do you deliver it better?
 :::
 ::: {.body}
 You already know the programme works and it may already be running. What you want to know is which version of the programme works
-best. An RCT can provide answers. More on this below.
+best. The [Digitrans example](#digitrans) above is one case: grant alone versus grant plus
+technical assistance.
 :::
 :::
 :::
@@ -929,7 +953,7 @@ Within the quasi-experimental branch, here is how the three methods compare:
 </figure>
 ```
 
-## Reasons not to measure impact with RCTs
+## When not to run an RCTs
 
 ::: {.cards}
 ::: {.card-e}
