@@ -5,24 +5,26 @@ toc: false
 
 ::: {.team-note}
 #### Summary
-This website pools knowledge and resources across the people and organisations
-already advancing experimentation, so managing authorities do not have to start
-from scratch.
+This website pools knowledge and resources to help Managing Authorities use experimentation, or randomised controlled trials (RCTs), to learn what works in policy programmes. Whether you are considering an RCT for the first time or already have experience with experimentation, you can find the concepts, examples and practical resources you need to get started.
+This home page explains what impact evaluation is, what we mean by experimentation (RCTs), and why it matters for policy programmes. It introduces the questions that experimentation can help answer and addresses common myths and preconceptions about RCTs — from cost and ethics to sample size and timing. It also gives an overview of the pages that follow and guides you to the information most relevant to you.
 :::
 
 
 ## Why introduce experimental evaluations?
 
-The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation got roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional gaps in innovation outcomes are holding back the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to deliver more.
+Innovation in policymaking to maximise returns on European Cohesion Policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges. 
 
-Policies need to adapt as circumstances change. That means identifying challenges, testing solutions, and refining implementation approaches.
+The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement. 
+Successful policy development, particularly in innovation, must be accompanied by ongoing adaptation to evolving circumstances. 
 
 ::: {.gold-panel}
 This is called science-based adaptive delivery: testing, learning, and
 adjusting as you go.
 :::
 
-### Why experimentation matters in the European Commission's own words
+Concretely, getting more out of Cohesion Policy investments means rethinking how to identify the beneficiaries who need public support most. How can one know whether funded beneficiaries would have performed just as well without public funding? Or would other recipients have benefited more and generated even greater returns on public investments? Experimentation can help answer these questions.
+
+### Hear from European Commission representatives on why experimentation matters
 ::: {.video-frame}
 {{< video https://youtu.be/NuOGvv_9sD4 title="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
 :::
@@ -41,46 +43,58 @@ the first place — rather than just describing what happened. It compares what 
 happened after introducing a programme to what would have likely happened without it, the
 counterfactual.
 
-There is more than one credible way to do this.
-
-::: {.cards}
 ::: {.card-e}
 #### Not the same as M&E
 M&E tracks whether a programme is implemented as planned. Impact evaluation tests whether
 it caused a real difference, compared to what would have happened without it.
 :::
-::: {.card-e}
-#### Different ways to conduct impact evaluation
-Some impact evaluations are randomised controlled trials (RCTs): the comparison group is
-built in before the programme launches, so the estimate does not depend on assumptions
-defended after the fact. Others are quasi-experimental — difference-in-differences, matching,
-regression discontinuity — applied to data that already exists, usually once a programme has
-already ended. Both count as impact evaluation. This site focuses on the first: designing the
-evaluation in from day one.
-:::
-::: {.card-e}
-#### Adaptive learning
-Each evaluation answers some questions and raises new ones, helping you to design more impactful programmes next time.
-:::
-:::
 
-You may already have evaluated a programme's impact — perhaps using matching,
+There is more than one credible way to conduct an impact evaluation.
+In fact, you may already have evaluated a programme's impact — perhaps using matching,
 difference-in-differences, or a regression discontinuity, comparing participants to similar
 non-participants using data collected after the programme had already ended. That is impact
 evaluation too, and it can be credible. But because the comparison group is assembled after
-the fact, its credibility rests on assumptions — that trends really were parallel, that matched
+implementation, its credibility rests on assumptions — that trends really were parallel, that matched
 firms did not differ on anything unobserved, that the cutoff was clean — that have to be
-separately defended.
-
-Now imagine doing this differently: designing the comparison group *before* the programme
-launches, as part of the call for proposals itself. That is what a randomised controlled trial
-does — and it is what the rest of this site is about.
-
-
+separately defended. 
+Now imagine doing this differently: designing the comparison group through randomly assigning eligible applicants to different groups, rather than a comparison group being picked afterward. That is what a randomised controlled trial does.
+See [RCTs: why and when](01-why-and-when.qmd) for more on the alternative evaluation methods, the assumptions they rest on, and why RCTs are usually the better choice.
 
 ## Randomised controlled trials show what works and why
 
-By comparing what happens to programme participants to an on average identical group that does not receive the programme, a randomised controlled trial can show whether a cohesion policy programme is the reason things improved. Because the comparison group is built in before the programme launches — rather than assembled afterward from whoever happens to look similar — the estimate does not need to defend assumptions later. A programme built this way can adjust as conditions change, instead of running on assumptions made once and never tested.
+A randomised controlled trial compares what happens to programme participants against an on-average identical group that does not receive the programme. That comparison can show whether the Cohesion Policy programme — and not something else going on at the same time — is the reason things improved.
+Who ends up in the treatment group and who ends up in the comparison group is decided by a random draw. It is not decided by who applied first, who looked most promising, or who reviewed the application. Because assignment to the programme is random, the two groups look the same on average before the programme. That is true not just for characteristics you can measure, but also for the ones you
+cannot observe. So when a difference between the groups shows up later, it can be attributed to the programme.
+
+An RCT can answer several kinds of questions, depending on how it is designed:
+
+::: {.cards}
+::: {.card-e}
+#### How effective is a given programme?
+Whether the programme works, and for whom it works best.
+:::
+::: {.card-e}
+#### Which version of a programme ist most effective?
+How different versions of a programme compare — which parts of a programme work, which do not, and
+how they work together.
+:::
+::: {.card-e}
+#### How should a programme be delivered?
+How different delivery mechanisms change results, including how to target beneficiaries
+accurately and increase take-up.
+:::
+::: {.card-e}
+#### Is it worth the cost?
+How cost-effective the programme is, and how it compares to other programmes.
+:::
+:::
+
+An RCT does not necessarily have to be built in from the call for proposals. If a programme is
+already running and every eligible applicant is already funded, you cann evaluate if a programme if effective. However, if the question is which version of a programme works better — a grant alone
+versus a grant plus advisory support, for instance — an RCT can still be embedded after programme launch.
+Randomisation then shifts from who gets funded at all to which version each participant
+receives.
+
 
 ### Think you already know what programme works and whom to fund?
 
@@ -91,6 +105,7 @@ Would the beneficiaries have succeeded without your agency's support?
 Would someone else have gained more from the same euro?
 
 If the answer is not a clear yes, consider testing it.  
+---
 
 ### Common myths about RCTs
 :::: {.myths-grid}
@@ -146,7 +161,7 @@ Every empirical method faces the same question of whether findings hold up beyon
 <details class="myth-box">
 <summary>RCTs take too long to be useful within a programming period</summary>
 
-A staggered or phased rollout combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term outcomes while later waves are still being enrolled, so a managing authority can see early signals — take-up, engagement, first movements in outcomes — well before the programme is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term outcomes can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar programmes are likely to follow, in the same region or elsewhere in the EU, so knowing whether a programme achieved its intended effect still helps allocate future funding more efficiently.
+A staggered or phased rollout combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term outcomes while later waves are still being enrolled, so a Managing Authority can see early signals — take-up, engagement, first movements in outcomes — well before the programme is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term outcomes can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar programmes are likely to follow, in the same region or elsewhere in the EU, so knowing whether a programme achieved its intended effect still helps allocate future funding more efficiently.
 
 </details>
 
@@ -201,7 +216,8 @@ Whether ethics review is legally mandatory depends on the country, the instituti
 </details>
 
 ::::
- 
+
+---
 ## How to start
  
 ### Explore the site
@@ -209,15 +225,15 @@ Whether ethics review is legally mandatory depends on the country, the instituti
 :::: {.cards}
 ::: {.card-e}
 #### [RCTs: why and when](01-why-and-when.qmd)
-The case for evaluation, and how to tell if it fits your programme.
+Covers why experimentation is worth doing, when to embed it into the programme design and why it is generally a stronger choice than other evaluation methods.
 :::
 ::: {.card-e}
 #### [How to design an RCT](02-how.qmd)
-How to plan and design a trial — plan this from day one.
+This page explains how to plan a randomised controlled trial walking you through the process in seven steps: from thinking through the causal logic of your intervention, over chosing the right design for your experiment, to ensuring high quality data is collected.
 :::
 ::: {.card-e}
 #### [Examples](03-examples.qmd)
-Experience from projects already partnering with EuroCOMP Lab.
+Experiences from projects already partnering with EuroCOMP Lab and from beyond.
 :::
 ::: {.card-e}
 #### [Templates](04-templates.qmd)
@@ -237,11 +253,6 @@ The joint DG REGIO and World Bank initiative behind this site.
 Established labs already supporting experimentation.
 :::
 ::::
-
-
-
-
-
 
 
 
