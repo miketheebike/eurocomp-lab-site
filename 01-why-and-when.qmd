@@ -4,7 +4,7 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing in more detail. Experimentation — running a randomised controlled trial (RCT) — is one method of doing impact evaluation. Many questions that can be answered with experimentation can also be answered with other methods if these are well designed. This is why this page starts by speaking about impact evaluation more broadly and provides a brief overview of alternative methods showing why experimentation is usually the strongest choice.
+This page covers why experimentation is worth doing in more detail and when to plan it. It explains what impact evaluation is and why experimentation — running a randomised controlled trial (RCT) — is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
 :::
 
 
@@ -20,9 +20,9 @@ Development Agency with World Bank support.
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
   <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
-  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible Micro, Small, and Medium Enterprises( MSMEs), pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group (no grants): 519 vs. 519, drawn before a notary</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI index), revenues, profits, employment, productivity</div></div>
   <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
 </div>
 ```
@@ -42,9 +42,9 @@ Development Agency with World Bank support.
   <div>Analysis</div>
 </div>
 ```
-We return to this programme at each step: [what impact means here](#counterfactual),
+This site return to this running example at each step: [what impact means here](#counterfactual),
 [how the lottery created a comparison group](#rct), [how the draw was made
-transparent](#legitimacy), and [how outreach was tested](#two-questions).
+transparent](#legitimacy), and [how outreach was tested](#two-questions) to illustrate the concepts covered.
 :::
 
 ## What is impact evaluation for? {#impact-evaluation}
@@ -81,7 +81,7 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions).
   <text x="575" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
   <text x="575" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
 </svg>
-<figcaption>Learning feeds programme design. Accountability covers both what the money was spent on and what it achieved.</figcaption>
+<figcaption>Policy learning feeds back into programme design helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
 </figure>
 ```
 
@@ -109,8 +109,8 @@ Impact evaluation
 ::: {.body}
 Collect data on participants and comparison groups to
 
-- Assess the difference between participating and not
-- Establish causality
+- Find the causal impact of a programme
+- Find the most effective way to deliver a programme
 - Support cost-benefit analysis
 :::
 ::: {.verdict}
@@ -132,7 +132,7 @@ it, and compare. That is impossible: each firm either takes part or it does not.
 impact evaluation method is a way of approximating that missing second observation.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
-This can be done in different ways. The methods below show why RCTs are considered the gold standard.
+This can be done in different ways. The page shows different methods of constructing the counterfactual and explains with RCTs are considered the gold standard. 
 
 ```{=html}
 <figure class="fig-e">
@@ -209,21 +209,19 @@ four tracked outcomes: digital adoption, revenue, employment, and productivity.
 Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what to measure to test whether the
 expected change is actually happening.
 
-::: {.chain}
-::: {.step}
-**Inputs**
-:::
-::: {.step}
-**Activities**
-:::
-::: {.step}
-**Outputs**
-:::
-::: {.on}
-**Outcomes**
-:::
-:::
+```{=html}
+<div class="chain">
+  <div class="step"><b>Inputs</b></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div class="step"><b>Activities</b></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div class="step"><b>Outputs</b></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div class="on"><b>Outcomes</b></div>
+</div>
+```
 
+But which outcomes? A programme can change many things, and not all of them can or should be measured. To know which outcomes to look at, and when to expect them to change, first spell out how the programme is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to outcomes. Doing this before implementation shows, in advance, why each step should lead to the next, and tells you what to measure to test whether the expected change is actually happening.
 This chain is the foundation of a Theory of Change, and having thought it through helps
 in designing a strong impact evaluation. There is more on this in
 [Step 1: Develop a Theory of Change](02.01-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
@@ -238,7 +236,7 @@ digital tools 2.5 times more intensively than those with the subsidy alone. This
 ## What does good allocation of public resources look like? {#allocation}
 
 Return on public investment is the benefit attributable to a programme divided by its
-cost. "Attributable" requires knowing what the programme beneficiaries would have done in the absence of the programme.
+cost. "Attributable" requires knowing what the programme beneficiaries would have done in the absence of the programme (the counterfactual).
 
 That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiaries may differ from those that were not selected, e.g. they may be more motivated or have more resources. Most of these traits
 are never recorded in any database or questionnaire. When these beneficiaries later do better on the outcomes of interest,
@@ -339,6 +337,8 @@ did not predict which firms would survive or grow three years later (McKenzie & 
 
 ## Finding the counterfactual  {#finding-counterfactual}
 
+As [defined above](#counterfactual), the counterfactual is what would have happened to programme participants without the programme. It can never be observed directly, so it has to be estimated.
+
 **Strategy.** Find a group of firms that on average look like treated firms would have
 looked in the absence of the programme. This group is the comparison group.
 
@@ -406,12 +406,7 @@ group without the programme.
 </svg>
 </figure>
 ```
-Because assignment is decided by chance, the two groups are alike on average not only in
-characteristics you can measure, such as size, sector or turnover, but also in those you
-cannot, such as motivation, management quality or connections. Nothing should
-systematically differ between the two groups except that some firms were lucky in the draw
-and others were not. That is why no statistical adjustment for firm characteristics is
-needed to get a credible estimate.
+Because assignment is decided by chance, the two groups are alike on average not only in characteristics you can measure, but also in those you cannot. Take the example of firms applying for a grant: randomising who receives the money means that, on average, the two groups look the same on observable characteristics such as size, sector or turnover, and also on unobservable ones such as management quality or motivation. Nothing should systematically differ between them except that some applicants were lucky in the draw and others were not. That is why no statistical adjustment for firm characteristics is needed to get a credible estimate.
 
 ::: {.soft-panel}
 **What "random" means here.** Not randomly sampling a sub-population to study, but
@@ -425,7 +420,6 @@ because:
 - No assumptions about outcome levels or trends between groups are necessary, as long as randomisation is implemented correctly.
 - They deliver strong evidence
 - They are easy to interpret
-
 
 
 ::: {.example .romania}
@@ -480,11 +474,9 @@ impact of being invited to apply for the grant.
 
 ## Randomisation can improve legitimacy and trust in programmes {#legitimacy}
 
-Randomly selecting beneficiaries among eligible applicants is fair. When more eligible
-firms apply than there is budget to fund, a lottery is a transparent way to decide who
-gets in. It treats every eligible applicant the same rather than relying on favouritism or
-timing.
+Randomly selecting beneficiaries among eligible applicants is fair. When more applications are eligible than there is budget to fund, a lottery is a transparent way to decide who gets in. It treats every eligible applicant the same rather than relying on favouritism or timing.
 
+Illustration:
 ```{=html}
 <div class="funnel">
   <figure>
@@ -509,8 +501,7 @@ timing.
 [North-East Romania: additional measures to increase trust]{.tag}
 
 North-East Romania's draw was run in front of a notary: the random number seed drawn, the
-selection code run, and the resulting balance between groups reviewed, all on the
-record. This increased confidence with the firms that selection was fair.
+selection code run, and the resulting balance between groups reviewed. This increased confidence with the firms that selection was fair.
 The draw also made selection faster. Because beneficiaries were drawn at random from the
 eligible pool, no ranking of the "best" applications was needed. Evaluators only had to
 check that each firm met the formal criteria and that the requested funds were justified.
@@ -577,62 +568,10 @@ Scale up based on evidence.
 :::
 :::
 
-
-
-## What do you want to learn? {#two-questions}
-
-Whether you have sufficient evidence that your programme works, or you are still working
-out who it reaches and how to design it, there is a case for experimentation. The starting
-question is whether the programme is working as well as it could be.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Does the programme cause an effect at all?
-:::
-::: {.body}
-You do not yet know whether the programme works, or you are still working out
-who it reaches and how it should be designed before it starts. This requires finding a
-credible comparison group before the programme launches. Example: in North-East Romania,
-a lottery decided which eligible firms were invited to apply for a digitalisation grant,
-and the others formed the comparison group ([see above](#rct)).
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-How do you deliver it better?
-:::
-::: {.body}
-You already know the programme works and it may already be running. What you want to know is which version of the programme works
-best. The [Digitrans example](#digitrans) above is one case: grant alone versus grant plus
-technical assistance.
-:::
-:::
-:::
-
-::: {.example .romania}
-[North-East Romania: testing outreach]{.tag}
-Before the digitalisation call, the regional development agency randomly selected 26 of 46
-towns for in-person information visits, in which a consultant explained the call and
-helped firms complete the pre-assessment survey. The visited towns produced 110
-applications against 71 in the others, 55% more, and the additional applicants were
-smaller firms (12.6 employees on average, compared with 19.6).
-:::
-
-::: {.example .case}
-[Colombia: group vs individual management support]{.tag}
-(Iacovone et al. 2022) tested two cheaper ways to deliver management consulting to auto-parts firms:
-one-to-one (about US$28,950 per firm) and in groups of 3–8 firms (about US$10,500). Both
-raised management scores by around 9 percentage points, but only group consulting
-significantly raised sales and profits.
-[Read the full example](03-examples.qmd#colombia-scaling-up-management-consulting).
-:::
-
 ## What if you cannot randomise? {#alternatives}
 
-For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way — we come back to that once the decision tree below has resolved this question.
-When early randomisation for this question is not possible,
-quasi-experimental methods are the alternative.
+For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way — we come back to that below. When early randomisation for this question is not possible,
+quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview over the most common quasi-experimental methods. 
 
 ::: {.caution}
 Quasi-experimental methods always rely on assumptions, some stronger than others. If those
@@ -839,6 +778,54 @@ are no longer comparable to those just above.
 ```
 
 
+## What do you want to learn? {#two-questions}
+
+Whether you have sufficient evidence that your programme works, or you are still working
+out who it reaches and how to design it, there is a case for experimentation. The starting
+question is whether the programme is working as well as it could be.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Does the programme cause an effect at all?
+:::
+::: {.body}
+You do not yet know whether the programme works, or you are still working out
+who it reaches and how it should be designed before it starts. This requires finding a
+credible comparison group before the programme launches. Example: in North-East Romania,
+a lottery decided which eligible firms were invited to apply for a digitalisation grant,
+and the others formed the comparison group ([see above](#rct)).
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+How do you deliver it better?
+:::
+::: {.body}
+You already know the programme works and it may already be running. What you want to know is which version of the programme works
+best. The [Digitrans example](#digitrans) above is one case: grant alone versus grant plus
+technical assistance.
+:::
+:::
+:::
+
+::: {.example .romania}
+[North-East Romania: testing outreach]{.tag}
+Before the digitalisation call, the regional development agency randomly selected 26 of 46
+towns for in-person information visits, in which a consultant explained the call and
+helped firms complete the pre-assessment survey. The visited towns produced 110
+applications against 71 in the others, 55% more, and the additional applicants were
+smaller firms (12.6 employees on average, compared with 19.6).
+:::
+
+::: {.example .case}
+[Colombia: group vs individual management support]{.tag}
+(Iacovone et al. 2022) tested two cheaper ways to deliver management consulting to auto-parts firms:
+one-to-one (about US$28,950 per firm) and in groups of 3–8 firms (about US$10,500). Both
+raised management scores by around 9 percentage points, but only group consulting
+significantly raised sales and profits.
+[Read the full example](03-examples.qmd#colombia-scaling-up-management-consulting).
+:::
 
 
 ## Choosing the right evaluation design {#choosing-design}
