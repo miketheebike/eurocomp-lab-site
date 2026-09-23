@@ -120,7 +120,7 @@ The most common mistake is treating randomisation as something that can be added
 ```
 
 :::: {.example .romania}
-[SMART Romania: building the eligibility pool]{.tag}
+[North-East Romania: building the eligibility pool]{.tag}
 ```{=html}
 <div class="flow">
   <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
@@ -129,7 +129,7 @@ The most common mistake is treating randomisation as something that can be added
   <div style="background:#F2C94C;border-color:#F2C94C">1&nbsp;038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
 </div>
 ```
-SMART Romania combined three steps that are usually separate — application, eligibility check, and baseline data collection — into a single online survey. This meant that by the time the eligibility pool was confirmed, the baseline data was already in hand. In October 2023, 519 of the 1,038 eligible firms were randomly selected to receive a grant. The other 519 became the comparison group.
+North-East Romania combined three steps that are usually separate — application, eligibility check, and baseline data collection — into a single online survey. This meant that by the time the eligibility pool was confirmed, the baseline data was already in hand. In October 2023, 519 of the 1,038 eligible firms were randomly selected to receive a grant. The other 519 became the comparison group.
 ::::
 
 ---
@@ -196,9 +196,9 @@ Not every programme fits the same shape. The right design depends on your progra
 ```
 
 :::: {.example .romania}
-[SMART Romania used a lottery]{.tag}
+[North-East Romania used a lottery]{.tag}
 
-Of the five designs above, SMART Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The comparison group received no grant and was not invited to apply. Both groups were surveyed in the same way throughout the evaluation period.
+Of the five designs above, North-East Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The comparison group received no grant and was not invited to apply. Both groups were surveyed in the same way throughout the evaluation period.
 
 ```{=html}
 <figure class="fig-e">
