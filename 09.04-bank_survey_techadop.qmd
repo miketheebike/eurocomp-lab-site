@@ -1,8 +1,6 @@
 ---
-title: "Impact Evaluation Outcome Bank"
+title: "Topic: technology adoption"
 ---
-
-## Topic: Technology Adoption
 
 ### Technology adoption rate
 
