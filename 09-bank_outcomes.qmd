@@ -25,7 +25,7 @@ This outcomes bank is organised by topic and maps directly onto the topics cover
 
 ***
 
-## Cross-reference: Outcomes and Survey Questions
+## Cross-reference: outcomes and survey questions
 
 This table shows, for each outcome in the bank, whether a corresponding survey question is available in the EuroComp Lab Survey Question Bank and which topic it falls under.
 
