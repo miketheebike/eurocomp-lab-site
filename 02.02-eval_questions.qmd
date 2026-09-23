@@ -65,14 +65,15 @@ Does the digitalisation grant increase investments in digitalisation and technol
 
 **Implementation questions** assess whether the programme was delivered as intended and what barriers affected take-up or compliance. These are particularly important for interpreting null results — an evaluation that finds no effect needs to establish whether the intervention was actually delivered.
 
-*Example:* what share of treatment group firms used the grant for the intended R&D activities, and what were the main reasons for non-compliance?
+::: {.example .romania}
+[North-East Romania: learning questions]{.tag}
 
-
+What share of companies in the treatment group, that were invited to apply, were actually contracted? 
+:::
 
 ## Linking learning questions to the Theory of Change
 
 Every learning question should map to a specific link in the Theory of Change. A useful discipline is to write out the ToC and, for each arrow connecting two levels, ask: do we have a question that tests this link? If a link is left untested, either the evaluation is under-powered to examine it, or the link is assumed to hold without evidence.
-
 
 
 ## Scoping and realism
