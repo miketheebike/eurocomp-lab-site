@@ -2,31 +2,31 @@
 title: "Topic: Research & Development activity"
 ---
 
-### Research & Development (R&D) engagement
+**Research & Development (R&D) engagement**
 
 - **Definition:** Whether the firm conducts research and experimental development activities
 - **Metric:** Binary indicator (yes/no); frequency (continuous / occasional)
 - **Data source:** Primary survey or administrative (R&D tax credit records)
 
-### R&D expenditure
+**R&D expenditure**
 
 - **Definition:** Total spending on in-house and contracted-out R&D activities
 - **Metric:** Total R&D expenditure in €; share of turnover spent on R&D (%)
 - **Data source:** Primary survey or administrative (R&D tax credit records, national R&D surveys)
 
-### R&D employment
+**R&D employment**
 
 - **Definition:** Number of staff engaged in R&D activities
 - **Metric:** Full-time equivalent (FTE) R&D staff; share of total employees in R&D roles (%)
 - **Data source:** Primary survey or administrative
 
-### R&D additionality
+**R&D additionality**
 
 - **Definition:** Whether public support leads to an increase in total R&D spending (input additionality) or new products and processes (output additionality), rather than substituting for private investment
 - **Metric:** Difference in R&D expenditure or innovation output between treatment and control groups at endline, controlling for baseline
 - **Data source:** Primary survey or administrative; requires treatment/control comparison
 
-### Patent applications
+**Patent applications**
 
 - **Definition:** Whether the firm has applied for or obtained patents as a result of its R&D activities
 - **Metric:** Number of patent applications filed; number of patents granted; binary indicator
