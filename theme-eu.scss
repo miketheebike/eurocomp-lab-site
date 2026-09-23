@@ -957,3 +957,11 @@ li > strong:first-child { color: $eu-blue; }
   color: #FFFFFF;
   text-decoration: none;
 }
+
+/* example box for cases other than the running example */
+.example.case {
+  background: $paper;
+  border: 1px solid $rule;
+  border-left: 4px solid $eu-blue;
+}
+.example.case .tag { color: $eu-blue; }
