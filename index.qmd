@@ -6,7 +6,7 @@ toc: false
 ::: {.team-note}
 #### Summary
 This website pools knowledge and resources to help Managing Authorities use experimentation, or randomised controlled trials (RCTs), to learn what works in policy programmes. Whether you are considering an RCT for the first time or already have experience with experimentation, you can find the concepts, examples and practical resources you need to get started.
-This home page explains what impact evaluation is, what we mean by experimentation (RCTs), and why it matters for policy programmes. It introduces the questions that experimentation can help answer and addresses common myths and preconceptions about RCTs — from cost and ethics to sample size and timing. It also gives an overview of the pages that follow and guides you to the information most relevant to you.
+This page explains why experimentation matters for policy, how RCTs relate to impact evaluation more broadly, which questions they can answer, and common myths about them. It ends with a guide to the rest of the site.
 :::
 
 
@@ -37,28 +37,22 @@ on outcomes like firm survival, employment, or innovation — for whom did it wo
 best, and under which conditions?
 :::
 
-An impact evaluation's goal is to isolate a programme's actual (causal) effect from everything
-else going on — economic trends, other policies, or the kinds of firms likely to apply for support in
-the first place — rather than just describing what happened. It compares what actually
-happened after introducing a programme to what would have likely happened without it, the
-counterfactual.
-
-::: {.card-e}
-#### Not the same as M&E
-M&E tracks whether a programme is implemented as planned. Impact evaluation tests whether
-it caused a real difference, compared to what would have happened without it.
-:::
+An impact evaluation compares what happened after a programme was introduced with what
+would have happened in its absence: the counterfactual. Unlike monitoring and
+evaluation (M&E), which tracks whether a programme is implemented as planned, it tests
+whether the programme caused a real difference. See [what impact evaluation is for and
+how it differs from M&E](01-why-and-when.qmd#impact-evaluation).
 
 There is more than one credible way to conduct an impact evaluation.
 In fact, you may already have evaluated a programme's impact — perhaps using matching,
 difference-in-differences, or a regression discontinuity, comparing participants to similar
 non-participants using data collected after the programme had already ended. That is impact
-evaluation too, and it can be credible. But because the comparison group is assembled after
-implementation, its credibility rests on assumptions — that trends really were parallel, that matched
-firms did not differ on anything unobserved, that the cutoff was clean — that have to be
-separately defended. 
+evaluation too, and it can be credible. But because the comparison group is build after
+implementation, its credibility rests on assumptions that have to be separately defended. 
+
 Now imagine doing this differently: designing the comparison group through randomly assigning eligible applicants to different groups, rather than a comparison group being picked afterward. That is what a randomised controlled trial does.
-See [RCTs: why and when](01-why-and-when.qmd) for more on the alternative evaluation methods, the assumptions they rest on, and why RCTs are usually the better choice.
+See [how the methods compare](01-why-and-when.qmd#alternatives) and [why RCTs are usually the stronger
+choice](01-why-and-when.qmd#rct).
 
 ## Randomised controlled trials show what works and why
 
@@ -74,7 +68,7 @@ An RCT can answer several kinds of questions, depending on how it is designed:
 Whether the programme works, and for whom it works best.
 :::
 ::: {.card-e}
-#### Which version of a programme ist most effective?
+#### Which version of a programme is most effective?
 How different versions of a programme compare — which parts of a programme work, which do not, and
 how they work together.
 :::
@@ -88,12 +82,12 @@ accurately and increase take-up.
 How cost-effective the programme is, and how it compares to other programmes.
 :::
 :::
-
-An RCT does not necessarily have to be built in from the call for proposals. If a programme is
-already running and every eligible applicant is already funded, you cann evaluate if a programme if effective. However, if the question is which version of a programme works better — a grant alone
-versus a grant plus advisory support, for instance — an RCT can still be embedded after programme launch.
+The question you want answered decides when the RCT has to be planned. To find out whether
+a programme works at all, randomisation must be built in before launch, from the call for
+proposals. To find out which version works better (a grant alone versus a grant plus
+advisory support, for instance), an RCT can still be added after the programme has started.
 Randomisation then shifts from who gets funded at all to which version each participant
-receives.
+receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosing-design).
 
 ### Hear from Managing Authorities who already use experimentation
 This is where Mr Asandei's video will be placed and the second video with voices once produced 
@@ -109,7 +103,9 @@ Every euro you commit is a euro you cannot spend elsewhere. To ensure resources 
 
 - Would someone else have gained more from the same euro?
 
-If the answer is not a clear yes, consider testing it.  
+If you cannot answer both with confidence, consider testing it. [See why funding the
+strongest applicants may be less impactful than funding marginal
+ones](01-why-and-when.qmd#allocation).  
 
 
 ### Common myths about RCTs
@@ -230,11 +226,12 @@ Whether ethics review is legally mandatory depends on the country, the instituti
 :::: {.cards}
 ::: {.card-e}
 #### [RCTs: why and when](01-why-and-when.qmd)
-Covers why experimentation is worth doing, when to embed it into the programme design and why it is generally a stronger choice than other evaluation methods.
+Why an RCT is the most credible way to measure a programme's impact, how it compares with
+other evaluation methods, when to use one, ans when to plan it.
 :::
 ::: {.card-e}
 #### [How to design an RCT](02-how.qmd)
-This page explains how to plan a randomised controlled trial walking you through the process in seven steps: from thinking through the causal logic of your intervention, over chosing the right design for your experiment, to ensuring high quality data is collected.
+This page explains how to plan a randomised controlled trial walking you through the process in seven steps: from thinking through the causal logic of your intervention, through choosing the right design for your experiment, to ensuring high quality data is collected.
 :::
 ::: {.card-e}
 #### [Examples](03-examples.qmd)
