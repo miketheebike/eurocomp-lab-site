@@ -38,26 +38,30 @@ A well-formulated learning question has four characteristics:
 
 A well-structured evaluation typically includes a primary question and a set of secondary questions. These serve different purposes and should be clearly distinguished.
 
-**The primary question** focuses on the main effect of the intervention on the most important outcome. This is the question the evaluation is powered to answer — the sample size and data collection plan are designed around it. For most competitiveness and innovation programmes, the primary question concerns a key medium-term outcome such as R&D expenditure, product innovation, or labour productivity.
-
-*Example:* does receiving an innovation grant cause a statistically significant increase in firm R&D expenditure within two years of the grant award, compared to equally eligible firms that did not receive support?
+**The primary question** focuses on the main effect of the intervention on the most important outcome. This is the question the evaluation is powered to answer — the sample size and data collection plan are designed around it. For most competitiveness and innovation programmes, the primary question concerns a key outcome such as R&D expenditure, product innovation, or labour productivity.
 
 ::: {.example .romania}
-[North-East Romania: learning questions defined]{.tag}
-How did the programme change investments in digitalization and technology adoption? 
+[North-East Romania: learning questions]{.tag}
 
-Did business performance change due to the grants? 
-
-How do impacts of the intervention vary across firm size, location, sector, and initial level of digitalization?
+Does receiving a digitalisation grant increases business performance (e.g., sales) and productivity? 
 :::
 
 **Heterogeneity questions** ask whether effects differ across subgroups — for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
 
-*Example:* Are the effects of the grant larger for small firms (fewer than 50 employees) than for medium-sized firms?
+::: {.example .romania}
+[North-East Romania: learning questions]{.tag}
+
+How do impacts of receiving a digitalisation grant vary across firm size, location, sector, and initial level of digitalisation?
+:::
 
 **Mechanism questions** probe *how* the intervention produces its effects — which links in the Theory of Change are activated. By measuring intermediate outcomes, these questions open the "black box" and generate richer policy lessons than a simple estimate of the final effect.
 
-*Example:* Does the grant increase R&D employment as an intermediate step toward higher innovation output?
+::: {.example .romania}
+[North-East Romania: learning questions]{.tag}
+
+Does the digitalisation grant increase investments in digitalisation and technology adoption? 
+:::
+
 
 **Implementation questions** assess whether the programme was delivered as intended and what barriers affected take-up or compliance. These are particularly important for interpreting null results — an evaluation that finds no effect needs to establish whether the intervention was actually delivered.
 
