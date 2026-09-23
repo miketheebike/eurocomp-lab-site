@@ -94,6 +94,7 @@ By embedding innovative experimental approaches in Member States' investments in
 The studies designed in this project also contribute to a larger, global body of evidence on how to foster competitive markets, address market failures such as information asymmetries and behavioural biases, and adequately support and target private sector investment. The knowledge gained is intended for use in other regions too, enabling the World Bank to apply findings and lessons learned to enhance the effectiveness and impact of its operations globally.
 
 See here highlights from an event bringing together Managing Authortities, researchers, representatives from the European Commission and the World Bank to explore how experimentation can transform programmes on jobs, skills, and competitiveness: 
+
 ::: {.video-frame}
 {{< video https://www.youtube.com/watch?v=ipRSNDSP4XQ title="Enhancing Cohesion Policy's impact for jobs, skills, and competitiveness - Berlin highlights" aspect-ratio="16x9" >}}
 :::
@@ -114,6 +115,5 @@ The project follows a programmatic approach, given the complexity of the task an
 - **Workstream 1** generates new rigorous evidence on how to design Cohesion Policy programmes more effectively and efficiently.
 - **Workstream 2** fosters new connections and improved mechanisms and platforms for learning between networks of researchers, policymakers, and implementers in the EU.
 - **Workstream 3** follows up on the medium- to long-term impacts of ongoing RCTs under the Smart M&E and Digitrans projects.
-
-**Workstream 4** aims to enhance the understanding and measurement of competition levels, providing insights to support evidence-based decision-making. By identifying key influencing factors and analysing barriers to market competition, it focuses on the case study of EU public procurement.
+- **Workstream 4** aims to enhance the understanding and measurement of competition levels, providing insights to support evidence-based decision-making. By identifying key influencing factors and analysing barriers to market competition, it focuses on the case study of EU public procurement.
 
