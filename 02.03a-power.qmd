@@ -138,10 +138,10 @@ Here is what each ingredient means in plain language:
 
 
 ::: {.example .romania}
-[SMART Romania: Was 1,038 companies enough for SMART Romania?]{.tag}
+[North-East Romania: Was 1,038 companies enough for North-East Romania?]{.tag}
 Once the power calculation is run, you compare the result against the size of your eligible pool. If your pool exceeds the required sample, you are ready to randomise. If it falls short, you need to grow the pool before the draw.
 
-In SMART Romania, the evaluation team ran the power calculation before the draw and confirmed that the pool of 1,038 firms was large enough to detect the effects they expected — which is why the draw proceeded with 519 firms in each group.
+In North-East Romania, the evaluation team ran the power calculation before the draw and confirmed that the pool of 1,038 firms was large enough to detect the effects they expected — which is why the draw proceeded with 519 firms in each group.
 
 ```{=html}
 <figure class="fig-e">
@@ -160,7 +160,7 @@ In SMART Romania, the evaluation team ran the power calculation before the draw 
 ```
 
 ```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&#10003; 1,038 eligible firms formed the randomized pool</span></div>
+<div class="case-band"><b>North-East Romania</b><span>&#10003; 1,038 eligible firms formed the randomized pool</span></div>
 
 :::
 
@@ -187,7 +187,7 @@ If the power calculation reveals that your eligible pool is too small, there are
 <div class="designs">
   <div class="d"><div>
     <h4>Increase outreach</h4>
-    <p>More applicants mean a larger eligible pool. SMART Romania ran outreach events in more than 20 cities before the application window opened, specifically to ensure the pool would be large enough.</p>
+    <p>More applicants mean a larger eligible pool. North-East Romania ran outreach events in more than 20 cities before the application window opened, specifically to ensure the pool would be large enough.</p>
   </div></div>
   <div class="d"><div>
     <h4>Expand eligibility</h4>
