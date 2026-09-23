@@ -1,0 +1,150 @@
+---
+title: "Lessons learned from previous projects"
+---
+
+::: {.team-note}
+#### Summary
+This page draws on World Bank experience working with Managing Authorities across several EU member states to distil the key lessons on how to design, target, and implement programmes that are both evaluation-ready and effective in reaching the firms they are intended to serve.
+:::
+
+
+## Lesson 1: link eligibility directly to programme objectives
+
+Vague or broadly defined eligibility criteria are one of the most common weaknesses in EU-funded programmes. When eligibility is not tightly linked to the programme's Theory of Change, three problems tend to follow: the wrong firms enter the pool, evaluators cannot assess applications consistently, and the evaluation cannot cleanly measure whether the programme reached its intended beneficiaries.
+
+Eligibility criteria should be specific enough to identify firms with the highest potential to benefit, while remaining broad enough — where there is genuine uncertainty about who will benefit — to allow equal opportunities across the potential target population. Criteria should also be measurable: if an evaluator cannot determine objectively whether a firm meets a criterion, neither can the firm.
+
+:::: {.example}
+[Spain]{.tag}
+
+In Spain, the World Bank found that eligibility criteria for an innovation support programme included vague language — such as references to the "incentive effect of aid" — that was open to arbitrary interpretation by evaluators. The World Bank worked with the Managing Authority to rewrite the criteria, develop a structured scoring rubric aligned with the programme's Theory of Change, and standardise the evaluation panel process. The result was a more transparent selection process that was easier for firms to understand and for evaluators to apply consistently.
+::::
+
+---
+
+## Lesson 2: Base programme design on evidence of need
+
+Programmes that are designed without a prior assessment of beneficiary needs frequently suffer from misalignment: either too few firms apply (under-subscription), or the programme attracts firms that are not its intended target. Both problems are expensive — leading to repeated calls, unused funds, or support that reaches firms that would have done well without it.
+
+A baseline needs assessment — conducted before the programme launches — allows the Managing Authority to understand the regional landscape, calibrate grant sizes and eligibility thresholds, and anticipate demand more accurately. Where uncertainty about demand remains, piloting different programme elements before full-scale rollout can reduce the risk of costly mismatches.
+
+:::: {.example}
+[Italy]{.tag}
+
+In Italy, a minibond programme pre-identified 289 eligible firms, of which only 30 applied — a hit rate of 10.3%. Of the 19 firms that ultimately issued a minibond, most had access to alternative financing and may not have needed the programme at all. A prior needs assessment could have revealed that the programme's terms were less attractive than alternative instruments already available in the region — including zero-interest loans and non-repayable grants from earlier programmes — and that the design needed to be adjusted accordingly before launch.
+::::
+
+---
+
+## Lesson 3: Set measurable indicators from the start
+
+Without measurable outcome indicators tied to clear objectives, programmes cannot be held accountable for their results — and evaluations cannot determine whether they worked. Targets are frequently treated as administrative end goals rather than as part of a broader results chain, which means that even well-implemented programmes struggle to demonstrate impact.
+
+A Theory of Change developed before the programme launches provides the framework for identifying which outcomes to measure, at which level of the causal chain, and over what time horizon. Indicators should be specific, observable, and linked to the data sources that will actually be available at the time of measurement.
+
+:::: {.example}
+[Romania]{.tag}
+
+In Romania, the World Bank supported the Managing Authority in developing a Theory of Change and in applying systematic methods to quantify the Managing Authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured — allowing the design to be adjusted before implementation rather than after the evaluation. The process also produced a baseline report on 1,038 MSMEs that passed the eligibility screening, giving the evaluation team the pre-intervention data needed to measure change.
+::::
+
+---
+
+## Lesson 4: Invest heavily in outreach — especially to reach new beneficiaries
+
+Standard outreach channels — newsletters, social media posts, agency websites — consistently fail to reach the firms that EU programmes are designed to serve. Firms without prior experience of EU funding, smaller firms, and firms in rural or remote areas are systematically less likely to apply, not because they are ineligible but because they do not know the programme exists or lack the resources to navigate the application process.
+
+Effective outreach requires direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. Experimenting with different outreach approaches — and measuring which ones work — can significantly expand the eligible pool and improve the quality of applications.
+
+:::: {.example}
+[Romania]{.tag}
+
+In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. Cities that received road-trips produced 110 applications compared to 71 in cities that did not — a 55% increase. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into programme implementation.
+::::
+
+---
+
+## Lesson 5: Simplify the application process
+
+Complex, document-heavy application processes disproportionately burden firms that are least familiar with EU funding — the very firms that programmes are often designed to reach. When compliance requirements are similar regardless of grant size, small firms face the same administrative burden as large ones, often pushing them to hire consultants and creating a market for intermediaries that adds cost without adding value.
+
+Application requirements should be proportionate to the amount of funding requested. Processes should be fully digital, integrated with existing administrative databases wherever possible, and capable of providing real-time eligibility feedback so that firms can assess their likelihood of success before investing significant time in an application.
+
+:::: {.example}
+[Romania]{.tag}
+
+In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed — all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalization levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
+::::
+
+---
+
+## Lesson 6: Use the application process to exchange information
+
+The application process is typically treated as a one-way flow of information: firms submit data to the Managing Authority. In practice, it can also be a vehicle for delivering useful information and tools to firms — raising awareness about a topic (digitalization, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
+
+Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
+
+:::: {.example}
+[Croatia]{.tag}
+
+In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach and information campaign that included a dedicated project website, a LinkedIn campaign with paid promotions, appearances in television and online media, presentations at industry events and scientific institutions, and webinars targeting thousands of firms. The campaign was structured around a business-science matchmaking concept, providing firms with substantive information about how to collaborate with research institutions — not just how to apply for a grant. The initiative attracted widespread media coverage and generated strong interest in applications well before the call officially opened.
+::::
+
+---
+
+## Lesson 7: Provide early investment guidance
+
+Firms often do not know what to invest in — particularly when the programme targets an unfamiliar area such as digitalization, R&D collaboration, or energy efficiency. Left without guidance, firms make poorly informed investment choices, which reduces the quality of applications and the eventual impact of the programme. Early, impartial guidance reduces this risk and shifts part of the technical burden away from the Managing Authority.
+
+Investment guidance can take the form of general information materials distributed at the programme's launch, templates that help firms assess their needs, or structured engagement with expert advisors (such as Digital Innovation Hubs). Conflicts of interest must be managed carefully if advisors also provide services to applicants.
+
+:::: {.example}
+[Romania]{.tag}
+
+In the North-East digitalization programme, the Managing Authority required applicants to produce a digital feasibility study prepared and signed by a certified digital expert — either from a European Digital Innovation Hub or an ICT consulting firm. A standardised template guided firms through assessing their current digital maturity (using the DESI framework), identifying areas for improvement, and specifying the technologies they planned to invest in. This shifted the technical evaluation away from the agency — which was implementing such a programme for the first time — and toward independent experts, while ensuring that investment proposals were grounded in an objective assessment of each firm's starting point.
+::::
+
+---
+
+## Summary of recommendations
+
+::: {.cards}
+::: {.card-e}
+#### Link eligibility to objectives
+Develop a Theory of Change before finalising eligibility criteria. Criteria should be specific, measurable, and directly connected to the outcomes the programme is designed to achieve.
+:::
+::: {.card-e}
+#### Base programmes on needs
+Conduct a baseline needs assessment before launch. Where demand is uncertain, pilot programme elements before full rollout.
+:::
+::: {.card-e}
+#### Set measurable indicators early
+Define outcome indicators before the programme launches, linked to data sources that will actually be available at endline.
+:::
+::: {.card-e}
+#### Invest in outreach
+Newsletters and social media are not enough. Reach new and smaller firms through direct, in-person engagement — and experiment with different methods to find what works in your context.
+:::
+::: {.card-e}
+#### Simplify the application process
+Requirements should be proportionate to grant size. Fully digital, database-integrated processes with real-time eligibility feedback significantly reduce burden on applicants and evaluators.
+:::
+::: {.card-e}
+#### Exchange information through the application
+Use the application process to deliver value to firms — benchmarks, needs assessments, guidance on eligible investments — regardless of selection outcome.
+:::
+::: {.card-e}
+#### Provide early investment guidance
+Develop impartial guidance materials at programme launch. Where appropriate, require applicants to work with qualified advisors to identify and justify their investment plans.
+:::
+:::
+
+---
+
+*These lessons are drawn from World Bank engagement with Managing Authorities in Romania, Croatia, Spain, Czechia, and Italy under the Smart M&E project and related Cohesion Policy evaluation support activities.*
+
+---
+
+::: {.nav-buttons}
+[← Back to: How to design an RCT](02-how.qmd)
+:::
