@@ -92,7 +92,8 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 ::: {.example .romania}
 [North-East Romania: preregister the evaluation design]{.tag}
 
-**Number of staff involved in policy design and implementation, budget available to disrupt grants** 
+- Number of staff involved in designing and implementing the digitalisation grants
+- Available budget to disrupt digitalisation grants** 
 :::
 
 **Activities** are the concrete actions undertaken to deliver the programme - running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the programme actually *does*.
