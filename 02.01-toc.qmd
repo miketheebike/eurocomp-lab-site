@@ -84,7 +84,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 </svg>
 <figcaption>Assumptions sit at every transition in the causal chain and must hold for the logic to work.</figcaption>
 </figure>
-
+```
 
 
 **Inputs** are the resources, efforts, and actions invested in a policy - financial resources, personnel, equipment, and training programme. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
