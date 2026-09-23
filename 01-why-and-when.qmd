@@ -4,7 +4,7 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing in more detail. Experimentation — running a randomised controlled trial (RCT) — is one method of doing impact evaluation. Many questions that can be answered with experimentation can also be answered with other methods if these are well designed. This is why this page starts by speaking about impact evaluation more broadly and provides a brief overview over alternative methods showing why experimentation is usually the strongest choice.
+This page covers why experimentation is worth doing in more detail. Experimentation — running a randomised controlled trial (RCT) — is one method of doing impact evaluation. Many questions that can be answered with experimentation can also be answered with other methods if these are well designed. This is why this page starts by speaking about impact evaluation more broadly and provides a brief overview of alternative methods showing why experimentation is usually the strongest choice.
 :::
 
 
@@ -127,7 +127,9 @@ Monitoring and impact evaluation are complements, not alternatives. An impact ev
 **Definition.** Impact is what happens after a programme is introduced, minus what would
 have happened in its absence, the counterfactual.
 
-**The dilemma.** The counterfactual is a "what if" and is unknown to us.
+**The dilemma.** The counterfactual is a "what if" and is unknown to us. Ideally, we would observe the same firm twice, once with the programme and once without
+it, and compare. That is impossible: each firm either takes part or it does not. Every
+impact evaluation method is a way of approximating that missing second observation.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
 This can be done in different ways. The methods below show why RCTs are considered the gold standard.
@@ -235,8 +237,15 @@ digital tools 2.5 times more intensively than those with the subsidy alone. This
 
 ## What does good allocation of public resources look like? {#allocation}
 
-Not always what you would expect at first glance. An RCT can help improve
-allocation.
+Return on public investment is the benefit attributable to a programme divided by its
+cost. "Attributable" requires knowing what the programme beneficiaries would have done in the absence of the programme.
+
+That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiares may differ from those that where not selected, e.g. they may be more motivated or have more resources. Most of these traits
+are never recorded in any database or questionnaire. When these beneficiaries later do better on the outcomes of interest,
+it is impossible to tell how much of that is the programme and how much is who they already were.
+
+Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
+"success" means launching a new product. Compare two selection rules.
 
 ::: {.compare}
 ::: {.col-e}
@@ -303,7 +312,7 @@ Actually causes more impact: 35 caused.
 ::: {.cards}
 ::: {.card-e}
 #### Deadweight: low additionality
-Additionality' is the share of activity that wouldn't have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they'd have spent regardless — generating little that's truly additional per euro.
+Additionality is the share of activity that wouldn't have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they'd have spent regardless — generating little that's truly additional per euro.
 :::
 ::: {.card-e}
 #### Selection bias in measurement
@@ -366,7 +375,7 @@ credible stand-in for what the selected firms would have done without the progra
 ## What is a randomised controlled trial? {#rct}
 
 **Intuition.** Randomly assign the programme so one group receives it (the treatment
-group) and one does not (the control or comparison group). Because the two groups start
+group) and one does not (the comparison group). Because the two groups start
 out the same, the comparison group's outcome shows what would have happened to the treatment
 group without the programme.
 
