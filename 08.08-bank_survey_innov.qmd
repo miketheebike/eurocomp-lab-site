@@ -3,7 +3,7 @@ title: "Topic: innovation and research development activities"
 ---
 
 
-## Product Innovation
+## Product innovation
 
 **A product innovation is a new or improved good or service that differs significantly from the firm’s previous goods or services and which has been implemented on the market.
 
@@ -50,7 +50,7 @@ Include:
 - 20–49%
 - 50% or more
 
-## Process Innovation
+## Process innovation
 
 A business process innovation is a new or improved business process for one or more business functions that differs significantly from the firm’s previous business processes and which has been implemented within the firm.
 
@@ -95,7 +95,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 - Completed activities on product or process innovation
 - Ongoing innovation activities at the end of 2025
 - Abandoned innovation activities
-- In-house research and development activities
+- In-house R&D activities
 - Contract-out R&D to other enterprises (include enterprises in your own group) or to public or private research organisations
 - None of the above
 
