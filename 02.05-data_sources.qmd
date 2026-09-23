@@ -31,7 +31,7 @@ North-East Romania used a combination of primary and secondary data: self-report
 
 #### Comparison of primary vs. secondary data
 
-| Column_1 | Primary data | Secondary data (administrative) |
+| Topic | Primary data | Secondary data (administrative) |
 |---|---|---|
 | Reporting bias | Less subject to reporting bias | May be subject to reporting bias |
 | Sample size | Smaller | Larger |
