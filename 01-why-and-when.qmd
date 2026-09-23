@@ -607,6 +607,22 @@ technical assistance.
 :::
 :::
 
+::: {.example .romania}
+[North-East Romania: testing outreach]{.tag}
+Before the digitalisation call, the regional development agency randomly selected 26 of 46
+towns for in-person information visits, in which a consultant explained the call and
+helped firms complete the pre-assessment survey. The visited towns produced 110
+applications against 71 in the others, 55% more, and the additional applicants were
+smaller firms (12.6 employees on average, compared with 19.6).
+:::
+
+::: {.example .romania}
+[Colombia: group vs individual management support]{.tag}
+Policymakers expected one-to-one consulting to outperform cheaper group-based support for
+auto-parts firms. An RCT comparing the two found that group-based support increased
+employment more, at lower cost per firm (Iacovone et al. 2022).
+:::
+
 ## What if you cannot randomise? {#alternatives}
 
 For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way — we come back to that once the decision tree below has resolved this question.
