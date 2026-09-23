@@ -228,7 +228,7 @@ This chain is the foundation of a Theory of Change, and having thought it throug
 in designing a strong impact evaluation. There is more on this in
 [Step 1: Develop a Theory of Change](02.01-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
 
-::: {.example .romania}
+::: {.example .romania #digitrans}
 [digitrans example]{.tag}
 The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to a comparison group, a financial subsidy alone, or the same subsidy paired with technical assistance.
 The pilot found that money alone is not the most effective. Firms that also received technical assistance used
@@ -258,6 +258,7 @@ Firms that succeed: **80 of 100**
 Would have succeeded anyway: 65
 
 Caused by the grant: **15**
+
 Additionality rate: **19%**
 :::
 ::: {.verdict}
@@ -327,7 +328,9 @@ that could not otherwise get funded.
 :::
 ::: {.card-e}
 #### Can experts spot the marginal firm?
-Evidence suggests not reliably. Enter example from mckenzie nigeria 
+Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
+did not predict which firms would survive or grow three years later (McKenzie & Sansone
+2019). See [Common myths](index.qmd#common-myths-about-rcts).
 :::
 :::
 
@@ -480,12 +483,6 @@ firms apply than there is budget to fund, a lottery is a transparent way to deci
 gets in. It treats every eligible applicant the same rather than relying on favouritism or
 timing.
 
-::: {.soft-panel}
-**What "random" means here.** Not randomly sampling a sub-population to study, but
-randomly deciding, among firms that already qualify, who receives the programme and who
-does not.
-:::
-
 ```{=html}
 <div class="funnel">
   <figure>
@@ -519,7 +516,7 @@ check that each firm met the formal criteria and that the requested funds were j
 
 ## Learning through RCTs is a continuous process {#learning-cycle}
 
-Every RCTs raises new questions along with the ones it answers, each round building
+Every RCT raises new questions along with the ones it answers, each round building
 on the last. That is how we expand our knowledge of what works, for whom, and under what
 conditions, and use it to design better programmes. Exchange within a community of practice
 matters, so we can learn from each other, not just from our own results. But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
@@ -556,7 +553,7 @@ matters, so we can learn from each other, not just from our own results. But bef
 ::: {.cards}
 ::: {.card-e}
 [Review]{.num}
-Before considering how to embed an impact evaluation, review a programme's theory of change, identify risks and the learning questions this round should answer, and the outcomes most likely to change (see [Bank of Outcomes](09-bank_outcomes.qmd)).
+Before considering how to embed an RCT, review a programme's theory of change, identify risks and the learning questions this round should answer, and the outcomes most likely to change (see [Bank of Outcomes](09-bank_outcomes.qmd)).
 Review lessons from other settings and countries, adapt them.
 Identify baseline needs of potential beneficiaries in your region.
 :::
@@ -593,8 +590,7 @@ Does the programme cause an effect at all?
 :::
 ::: {.body}
 You do not yet know whether the programme works, or you are still working out
-who it reaches and how it should be designed before it starts. This is the
-question the rest of this page works through: finding a credible comparison
+who it reaches and how it should be designed before it starts. This requires finding a credible comparison
 group, choosing between an RCT and the alternatives, and building the
 estimate.
 :::
@@ -953,7 +949,7 @@ Within the quasi-experimental branch, here is how the three methods compare:
 </figure>
 ```
 
-## When not to run an RCTs
+## When not to run an RCT {#when-not}
 
 ::: {.cards}
 ::: {.card-e}
