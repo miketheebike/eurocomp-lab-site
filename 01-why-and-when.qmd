@@ -4,11 +4,50 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing, when it has to be embedded in the program design. Experimentation — running a randomised controlled trial — is one way of doing impact evaluation, and the one this website is built around. This page also explains impact evaluation more broadly, and the alternative methods, to show why experimentation is usually the strongest choice.
+This page covers why experimentation is worth doing in more detail. Experimentation — running a randomised controlled trial (RCT) — is one method of doing impact evaluation. Many questions that can be answered with experimentation can also be answered without methods if these are well designed. This is why this pages starts by speaking about impact evaluation more broadly and provides a brief overview over alternative methods showing why experimentation is usually the strongest choice.
 :::
 
 
-## What is impact evaluation for?
+::: {.example .romania}
+[The running example: North-East Romania]{.tag}
+
+Throughout this site, we come back to one programme developed as part of the EuroCOMP
+Lab to show these ideas in practice: A digitalisation grant scheme for
+micro, small and medium enterprises in North-East Romania, run by the Regional
+Development Agency with World Bank support.
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
+</div>
+```
+
+### From application to evidence
+
+```{=html}
+<div class="flow">
+  <div>Application survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery (randomisation)</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Digitalisation grants</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up surveys</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Analysis</div>
+</div>
+```
+We return to this programme at each step: [what impact means here](#counterfactual),
+[how the lottery created a comparison group](#rct), [how the draw was made
+transparent](#legitimacy), and [how outreach was tested](#two-questions).
+:::
+
+## What is impact evaluation for? {#impact-evaluation}
 
 ```{=html}
 <figure class="fig-e">
@@ -46,7 +85,6 @@ This page covers why experimentation is worth doing, when it has to be embedded 
 </figure>
 ```
 
-
 ## Monitoring and evaluation (M&E) vs impact evaluation
 
 ::: {.compare}
@@ -69,7 +107,7 @@ Describes what is happening, but not whether it is because of the intervention.
 Impact evaluation
 :::
 ::: {.body}
-Collect data on participants and control groups to
+Collect data on participants and comparison groups to
 
 - Assess the difference between participating and not
 - Establish causality
@@ -82,49 +120,13 @@ establishing what would have happened without it.
 :::
 :::
 
-::: {.example .romania}
-[The running example: North-East Romania]{.tag}
-
-Throughout this site, we come back to one programme developed as part of the EuroCOMP
-Lab to show these ideas in practice: A digitalisation grant scheme for
-micro, small and medium enterprises in North-East Romania, run by the Regional
-Development Agency with World Bank support.
-
-```{=html}
-<div class="facts">
-  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
-  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group: 519 vs. 519, drawn before a notary</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI), revenues, profits, employment, productivity</div></div>
-  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
-</div>
-```
-
-### From application to evidence
-
-```{=html}
-<div class="flow">
-  <div>Application survey</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Lottery (randomisation)</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Digitalisation grants</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up surveys</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Analysis</div>
-</div>
-```
-
-:::
+Monitoring and impact evaluation are complements, not alternatives. An impact evaluation should not go ahead without solid monitoring data: who applied, who was selected, who was contracted, and what they invested in. Without that, you cannot tell whether a programme had no effect or was simply never implemented as planned.
 
 
 ## Testing and learning only works if you know what to look for
 
 When evaluating projects, often only outputs are assessed, because they are the easiest
-thing to count. Impact evaluation is what lets you move from measuring outputs to
-proving outcomes.
+thing to count. Measuring impact means moving from counting outputs to measuring outcomes.
 
 ::: {.cards}
 ::: {.card-e}
@@ -260,9 +262,9 @@ best. An RCT can provide answers. More on this below.
 :::
 
 
-## What does good allocation of public resources look like?
+## What does good allocation of public resources look like? {#allocation}
 
-Not always what you would expect at first glance. Impact evaluation can help improve
+Not always what you would expect at first glance. An RCT can help improve
 allocation.
 
 ::: {.compare}
@@ -345,7 +347,7 @@ that could not otherwise get funded.
 :::
 
 
-## What exactly is the impact of a programme?
+## What exactly is the impact of a programme? {#counterfactual}
 
 **Definition.** Impact is what happens after a programme is introduced, minus what would
 have happened in its absence, the counterfactual.
@@ -353,8 +355,7 @@ have happened in its absence, the counterfactual.
 **The dilemma.** The counterfactual is a "what if" and is unknown to us.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
-This can be done in different ways. The methods below show why randomised controlled
-trials — experimentation — are considered the gold standard.
+This can be done in different ways. The methods below show why RCTs are considered the gold standard.
 
 ```{=html}
 <figure class="fig-e">
@@ -457,16 +458,16 @@ credible stand-in for what the selected firms would have done without the progra
 :::
 
 
-## What is a randomised controlled trial?
+## What is a randomised controlled trial? {#rct}
 
 **Intuition.** Randomly assign the programme so one group receives it (the treatment
 group) and one does not (the control or comparison group). Because the two groups start
-out the same, the control group's outcome shows what would have happened to the treatment
+out the same, the comparison group's outcome shows what would have happened to the treatment
 group without the programme.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and control groups start at the same outcome level and diverge after the programme, with the gap labelled impact">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups start at the same outcome level and diverge after the programme, with the gap labelled impact">
   <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
   <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
@@ -488,7 +489,7 @@ group without the programme.
   <text x="604" y="129" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
 
   <text x="480" y="72" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
-  <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Control group</text>
+  <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
 </figure>
 ```
@@ -581,7 +582,7 @@ record. This increased confidence with the firms that selection was fair.
 
 
 
-## What if you cannot randomise?
+## What if you cannot randomise? {#alternatives}
 
 For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches, not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way — we come back to that once the decision tree below has resolved this question.
 When early randomisation for this question is not possible,
@@ -794,7 +795,7 @@ are no longer comparable to those just above.
 
 
 
-## Choosing the right evaluation design
+## Choosing the right evaluation design {#choosing-design}
 
 ```{=html}
 <figure class="fig-e">
