@@ -1,5 +1,5 @@
 ---
-title: "Topic: Company Details"
+title: "Topic: company details"
 ---
 
 **What is the name of your company?**
