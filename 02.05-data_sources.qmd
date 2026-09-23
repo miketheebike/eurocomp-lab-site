@@ -25,12 +25,10 @@ In countries where administrative data sources — such as business registries, 
 
 
 ::: {.example .romania}
-[North-East Romania: selected indicators]{.tag}
+[North-East Romania: data sources]{.tag}
 
-North-East Romania used a combination of 
+North-East Romania used a combination of primary and secondary data: self-reported survey data was collected using a structured questionnaire that complements administrative data sources. 
 :::
-
-
 
 #### Comparison of primary vs. secondary data
 
@@ -71,6 +69,8 @@ Second, can the administrative data be linked to the companies being part of the
 | **National commercial data providers.** | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
 | **National R&D surveys** | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
 | **Programme management system** | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
+
+
 
 :::
 
