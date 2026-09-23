@@ -2,7 +2,7 @@
 title: "Topic: innovation outputs"
 ---
 
-### Product innovation
+** Product innovation
 
 - **Definition:** Introduction of a new or significantly improved good or service
 - **Metric:** Binary indicator (yes/no); number of new products introduced; share of turnover from new products (%)
