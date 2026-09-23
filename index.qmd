@@ -208,11 +208,11 @@ Whether ethics review is legally mandatory depends on the country, the instituti
  
 :::: {.cards}
 ::: {.card-e}
-#### [Why and when](01-why-and-when.qmd)
+#### [RCTs: why and when](01-why-and-when.qmd)
 The case for evaluation, and how to tell if it fits your programme.
 :::
 ::: {.card-e}
-#### [How](02-how.qmd)
+#### [How to design an RCT](02-how.qmd)
 How to plan and design a trial — plan this from day one.
 :::
 ::: {.card-e}
