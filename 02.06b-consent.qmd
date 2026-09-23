@@ -43,9 +43,9 @@ State clearly who is conducting the research, who the data controller is, and wh
 The purpose statement should be broad enough to cover the full range of anticipated uses — including future policy reports and academic publications — without being so vague that participants cannot understand what they are agreeing to.
 
 ::: {.gold-panel}
-**Example from South-Muntenia, Romania:**
+**Example:**
 
-*"This survey is being conducted by the South-Muntenia Regional Development Agency (as the Managing Authority for the Regional Program South-Muntenia 2021-2027) and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by SMEs and SMEs' business outcomes and competitiveness."*
+This survey is being conducted by the [...] Regional Development Agency and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by SMEs and SMEs' business outcomes and competitiveness.
 :::
 
 ### 2. What data will be collected and why
@@ -62,9 +62,9 @@ For each optional category, explain what it is, why it is useful to the research
 Explain clearly that the evaluation uses a randomised design: all eligible firms have an equal chance of being assigned to the treatment group (invited to apply for the grant) or the comparison group (not invited). Participants must understand this before they enter the process. The explanation should be plain and non-technical.
 
 ::: {.gold-panel}
-**Example from South-Muntenia, Romania:**
+**Example:**
 
-*"To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomized. Information from this pre-assessment form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply)."*
+To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomized. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply).
 :::
 
 ### 4. Who will have access to the data
@@ -104,9 +104,9 @@ The form must be signed by an authorised representative of the firm — founder,
 
 ## Structuring the consent: mandatory core and optional modules
 
-A best practice, illustrated in the South-Muntenia EuroComp Lab questionnaire, is to structure the consent document as a short checklist of distinct processing activities, each with its own tick box. This makes the mandatory/optional distinction visible and enforceable, and creates a clear audit trail of what each participant agreed to.
+A best practice is to structure the consent document as a short checklist of distinct processing activities, each with its own tick box. This makes the mandatory/optional distinction visible and enforceable, and creates a clear audit trail of what each participant agreed to.
 
-The South-Muntenia questionnaire uses three boxes:
+Example:
 
 ```{=html}
 <div class="designs">
@@ -117,7 +117,7 @@ The South-Muntenia questionnaire uses three boxes:
   </div></div>
   <div class="d"><div>
     <h4>Box 2 — Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional — important for evaluation quality)</span></h4>
-    <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries — including ANAF (tax authority), the Ministry of Finance, and ONRC (trade register). Covers Form D394 data and RO e-Factura electronic invoicing records. Valid for up to ten years from form submission.</p>
+    <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries — including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
     <p>Legal basis: Art. 6(1)(a) GDPR — explicit consent.</p>
   </div></div>
   <div class="d"><div>
@@ -155,7 +155,7 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 ::: {.card-e}
 #### J-PAL Informed Consent Checklist
 Annotated guide to writing informed consent documents for research with human subjects, based on the US OHRP checklist.
-[povertyactionlab.org →](https://www.povertyactionlab.org/resource/research-resources)
+[povertyactionlab.org →](https://www.povertyactionlab.org/media/file-research-resource/annotated-informed-consent-checklist)
 :::
 ::: {.card-e}
 #### GDPR Article 89 — Research safeguards
