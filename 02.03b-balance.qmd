@@ -65,7 +65,7 @@ For each characteristic, the evaluator calculates the average value in the treat
 The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences — a few percentage points in any direction — are expected and normal. They are the product of chance, not a flaw in the design.
 
 ```{=html}
-<div class="case-band"><b>SMART Romania</b><span>&#10003; The application survey collected the baseline data used for this check</span></div>
+<div class="case-band"><b>North-East Romania</b><span>&#10003; The application survey collected the baseline data used for this check</span></div>
 ```
 
 ::: {.team-note}
