@@ -23,7 +23,6 @@ For each indicator in your evaluation framework, you must decide whether to rely
 
 In countries where administrative data sources — such as business registries, tax records, and social security data — are well established and reliable, as is generally the case across the EU, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
-
 ::: {.example .romania}
 [North-East Romania: data sources]{.tag}
 
@@ -70,8 +69,12 @@ Second, can the administrative data be linked to the companies being part of the
 | **National R&D surveys** | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
 | **Programme management system** | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
 
+:::
 
+::: {.example .romania}
+[North-East Romania: administrative data]{.tag}
 
+North-East Romania used two administraive data sources: (i) publicly available financial records from the Romanian Ministry of Finance, which contain information on annual revenues, profits, and firm size and (ii) the ORBIS database.
 :::
 
 ## Data-sharing agreements
@@ -84,7 +87,7 @@ A data-sharing agreement (DSA) between the Managing Authority and the data-holdi
 
 Once you know which data sources will cover which indicators, the next step is to plan and implement the data collection itself. Step 6 covers how to design and field a primary survey — choosing a collection method, designing the questionnaire, selecting respondents, and timing the rounds correctly.
 
-***
+---
 
 ::: {.nav-buttons}
 [← Previous: Step 4 — Assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next: Step 6 — Collect data →](02.06-data_collect.qmd)
