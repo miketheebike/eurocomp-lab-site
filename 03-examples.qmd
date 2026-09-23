@@ -85,7 +85,7 @@ Discover examples from managing authorities that introduced experimentation into
 
 **EuroCOMP Lab evaluations**
 
-## Spain: financial support to innovate
+## Spain: financial support to innovate {#spain}
 
 ::: {.cards}
 ::: {.card-e}
@@ -434,7 +434,7 @@ AI Klub
   </div>
 </div>
 
-## Croatia: matching businesses with scientists
+## Croatia: matching businesses with scientists {#croatia}
 
 ::: {.cards}
 ::: {.card-e}
@@ -743,7 +743,7 @@ registration (AEA RCT Registry, AEARCTR-0015124).
 :::
 
 
-## Bulgaria: human-led versus AI-led business consulting
+## Bulgaria: human-led versus AI-led business consulting {#bulgaria}
 
 ::: {.cards}
 ::: {.card-e}
@@ -1501,7 +1501,7 @@ businesses.
 ***
 
 ## Examples from beyond the Lab
-### Colombia: Scaling up management consulting
+### Colombia: Scaling up management consulting {#colombia-scaling-up-management-consulting}
 
 
 ::: {.cards}
