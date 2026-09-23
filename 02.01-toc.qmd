@@ -89,6 +89,11 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Inputs** are the resources, efforts, and actions invested in a policy - financial resources, personnel, equipment, and training programme. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
 
+::: {.example .romania}
+
+**Number of staff involved in policy design and implementation, budget available to disrupt grants** 
+:::
+
 **Activities** are the concrete actions undertaken to deliver the programme - running grant calls, disbursing subsidies, delivering advisory services, or providing vouchers for technology adoption. These are what the programme actually *does*.
 
 **Outputs** are the direct, countable results of those activities — the number of firms supported, grants awarded, training hours delivered, or innovation projects launched. Outputs are what the programme *produces*. For ERDF programmes, these correspond closely to the **common output indicators** (COIs) that Managing Authorities are already required to report to the European Commission.
@@ -101,9 +106,6 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Assumptions** are the conditions that must hold for each link in the causal chain to lead to the next. For example, a grant scheme assumes that firms face genuine financial constraints that prevent them from investing in innovation without support. If that assumption does not hold — if firms would have innovated anyway — the programme may produce outputs without producing real outcomes. Making assumptions explicit tells you where the logic is most likely to break and what an impact evaluation needs to test.
 
-::: {.example .romania}
-**Running example.** 
-:::
 
 
 ### Why invest time in developing a Theory of Change?
