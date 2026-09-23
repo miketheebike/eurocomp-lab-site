@@ -10,6 +10,7 @@ title: "Topic: company details"
 
 **What is the primary sector of activity of your company?**
 *(Select one — NACE Level 1 "Sector")*
+
 A. Agriculture, forestry and fishing
 B. Mining and quarrying
 C. Manufacturing
