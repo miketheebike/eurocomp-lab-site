@@ -27,29 +27,10 @@ Never bundle consent to evaluation data collection with consent to programme par
 
 ---
 
-## The legal basis for each type of processing
-
-Different data processing activities in an RCT draw on different GDPR legal bases. The consent form must be explicit about which basis applies to which activity.
-
-| Processing activity | Legal basis |
-|---|---|
-| Eligibility verification and programme administration | Art. 6(1)(e) — public interest task |
-| Compliance with Structural Funds regulations | Art. 6(1)(c) — legal obligation |
-| Pre-contractual steps (grant agreement) | Art. 6(1)(b) — contract performance |
-| Scientific randomisation and evaluation | Art. 6(1)(e) + Art. 89 — scientific research in public interest |
-| Data transfer to research partner (e.g. World Bank) | Art. 6(1)(f) — legitimate interest (research) + Art. 89 safeguards |
-| Extended administrative data tracking (tax, registry, customs) | Art. 6(1)(a) — explicit consent |
-| AI-assisted document quality control | Art. 6(1)(a) — explicit consent |
-
-::: {.takeaway}
-Consent-based processing (Art. 6(1)(a)) must be genuinely optional. Mandatory processing — eligibility checks, programme administration, core evaluation randomisation — rests on other legal bases and must be communicated clearly as such.
-:::
-
----
 
 ## What a consent form must contain
 
-Drawing on the J-PAL informed consent checklist and the GDPR requirements applicable to EU evaluations, a consent form for RCT data collection should cover the following elements.
+A consent form for RCT data collection should cover the following elements.
 
 ### 1. Identity and purpose
 
@@ -167,27 +148,6 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 ---
 
-## Checklist: is your consent form complete?
-
-- [ ] Identifies the data controller and all research partners with data access
-- [ ] Names the Data Protection Officer of each party and provides contact details
-- [ ] States the purpose of the research in plain language
-- [ ] Clearly distinguishes mandatory processing (programme administration) from optional processing (research)
-- [ ] Explains the randomised design and what it means for the firm
-- [ ] Specifies the legal basis for each processing activity
-- [ ] Names all parties who will receive the data, including international partners
-- [ ] States the transfer mechanism for any data sent outside the EU/EEA
-- [ ] Specifies the retention period for each data category
-- [ ] Explains confidentiality and anonymisation measures
-- [ ] States that optional participation is voluntary and carries no penalty
-- [ ] Explains how to withdraw consent and confirms no penalty for doing so
-- [ ] Informs participants of their GDPR rights, including complaint to supervisory authority
-- [ ] States the duration of participation and any follow-up contact period
-- [ ] Is available in the local language of the target firms
-- [ ] Is signed by an authorised representative of the firm
-- [ ] Has been reviewed as part of ethical approval (where applicable)
-
----
 
 ## Resources
 
@@ -202,11 +162,7 @@ Annotated guide to writing informed consent documents for research with human su
 The GDPR provision governing processing for scientific research, including the derogations and safeguards that apply.
 [eur-lex.europa.eu →](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 :::
-::: {.card-e}
-#### EuroComp Lab consent templates
-Ready-to-use consent form templates for CATI, CAPI, and web-based data collection, adapted for EU Cohesion Policy RCTs.
-[See the Templates page →](05-templates.qmd)
-:::
+
 :::
 
 ---
