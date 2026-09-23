@@ -32,16 +32,12 @@ Good indicators share five characteristics, often summarised as SMART:
 | **Targeted** | The indicator reflects outcomes for the specific population the programme is designed to serve |
 
 ::: {.example .romania}
-[SMART Romania: selected indicators]{.tag}
+[North-East Romania: selected indicators]{.tag}
 
 - Digital adoption (Digital Economy and Society Index)
-
 - Expenditures in equipment, software, development, training, and digital tools
-
 - Sales
-
 - Profits
-
 - Labor productivity
 :::
 
