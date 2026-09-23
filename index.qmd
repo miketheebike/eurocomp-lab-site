@@ -95,17 +95,22 @@ versus a grant plus advisory support, for instance — an RCT can still be embed
 Randomisation then shifts from who gets funded at all to which version each participant
 receives.
 
+### Hear from Managing Authorities who already use experimentation
+This is where Mr Asandei's video will be placed and the second video with voices once produced 
+::: {.video-frame}
+{{< video https://youtu.be/NuOGvv_9sD4 title="Trying something new" aspect-ratio="16x9" >}}
+:::
 
-### Think you already know what programme works and whom to fund?
+### You think you already know what programme works and whom to fund?
 
-But every euro you commit is a euro you cannot spend elsewhere. 
+Every euro you commit is a euro you cannot spend elsewhere. To ensure resources are spent efficiently, can you confidently answer these questions:
 
-Would the beneficiaries have succeeded without your agency's support?
+- Would the beneficiaries have succeeded without your agency's support?
 
-Would someone else have gained more from the same euro?
+- Would someone else have gained more from the same euro?
 
 If the answer is not a clear yes, consider testing it.  
----
+
 
 ### Common myths about RCTs
 :::: {.myths-grid}
@@ -131,7 +136,7 @@ For establishing whether a programme caused a change in outcomes, RCTs are the g
 <details class="myth-box">
 <summary>RCTs are more expensive than other rigorous methods</summary>
 
-Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterward. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time — not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage; that may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
+Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterward. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time — not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
 
 RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the programme is ongoing — so the Managing Authority needs staff assigned to it on an ongoing basis.
 
@@ -186,7 +191,7 @@ Detecting a given effect with confidence needs enough observations in each group
 
 A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the outcome already varies across firms before the programme runs, expectations about programme take-up (as this affects the treatment group's sample size), how much observation loss to expect over time, and whether assignment happens at the level of the applicant or of a group they belong to — assigning by group rather than by firm generally needs a larger total sample to reach the same precision.
 
-See [How](02-how.qmd) for a walkthrough of turning these inputs into an actual sample size calculation.
+See [How to conduct an RCT](02-how.qmd) for a walkthrough of turning these inputs into an actual sample size calculation.
 
 </details>
 
