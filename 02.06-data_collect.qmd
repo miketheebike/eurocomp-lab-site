@@ -19,9 +19,21 @@ Step 5 determined where the data will come from. This step is about how and when
 
 An RCT evaluation requires data at multiple points in time. The exact rounds depend on the Theory of Change and the data sources available, but the standard structure is:
 
-**Baseline survey:** Conducted before the intervention begins and, where possible, before firms know whether they have been selected for treatment or control. The baseline captures pre-treatment characteristics, enables balance checks after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.
+**Baseline survey:** conducted before the intervention begins and might be used as the basis for randomisation companies into treatment and comparison groups. It captures pre-treatment characteristics, enables balance checks after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.
 
-**Endline data collection:** Measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the EU context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records — consistently available across member states — can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain — for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the programme.
+::: {.example .romania}
+[North-East Romania: baseline survey]{.tag}
+
+A baseline survey (pre-application data) was administered: The primary objective of the baseline survey was to conduct an initial evaluation of the business’s digital tool requirements and help determine their program eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g., profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
+:::
+
+**Follow-up data collection:** Measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the EU context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records — consistently available across member states — can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain — for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the programme.
+
+::: {.example .romania}
+[North-East Romania: follow-up survey]{.tag}
+
+A follow-up survey was administered: The 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics i) general administrative details about the business; ii) background information on the business manager; iii) an overview of the business; iv) details on products/services, market presence, revenue, and customers; v) the use of telecommunications and internet across business locations; vi) relevant digital indicators for the business; vii) methods and processes used for routine business operations; viii) key factors influencing technology adoption, such as investments and management decisions; and ix) financial information for the business in 2024. 
+:::
 
 **Midline survey (optional):** Where the Theory of Change includes important intermediate outcomes worth tracking before the final endline — for example, changes in management practices or technology adoption as precursors to longer-term productivity effects — a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
 
@@ -33,6 +45,12 @@ In the EU, the consistent availability of firm-level administrative data — tax
 ## Who to collect from, and when
 
 **Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker — a CEO, CFO, or equivalent — who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the programme targets a specific group within the firm — such as R&D personnel — those individuals may be more appropriate for certain questions.
+
+::: {.example .romania}
+[North-East Romania: primary respondents]{.tag}
+
+The primary respondents were Chief Executive Officers (CEOs) and/or firm owners, with additional input from senior representatives of relevant departments when necessary.
+:::
 
 **Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue — beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.
 
@@ -63,18 +81,27 @@ There is no single best method. The right choice depends on who the respondents 
 
 In practice, methods can be combined: begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for subgroups where richer detail is needed.
 
+::: {.example .romania}
+[North-East Romania: primary respondents]{.tag}
+
+The baseline and follow-up survey involved, both CAPI and CATI methods, depending on respondents' availability.
+:::
+
 
 ## The role of data collection firms and evaluation consultants
 
-Managing Authorities rarely conduct surveys in-house. In practice, primary data collection typically involves two types of external expertise working in close coordination: an **evaluation consultant** responsible for the overall analysis, and a **data collection firm** responsible for fielding the survey.
+Managing Authorities can conduct surveys in-house. In practice, primary data collection typically involves external expertise working in close coordination: **evaluation consultant** and/or **data collection firm**. The division of responsibilities should be made explicit in procurement. 
 
-The **evaluation consultant** designs the survey instrument, determines the sample, oversees the data collection firm, and carries out the statistical analysis once data has been collected. The **data collection firm** translates and pilots the questionnaire, sets up the digital platform, recruits and trains enumerators, manages fieldwork, monitors response rates, implements quality controls, and delivers a clean dataset.
+Depending on which activities the Managing Authorities concut in-house, the **evaluation consultant** or **data collection firm** supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 
-This division of responsibilities should be made explicit in procurement. Where budget permits, commissioning the two roles separately reduces conflicts of interest and tends to produce better results in both functions.
+::: {.example .romania}
+[North-East Romania: primary respondents]{.tag}
+
+The survey implementation was undertaken by a team of 30 enumerators hired by Romanian-based data collection firms.
+:::
 
 For more information on TORs, please click here: [Terms of References](02.06a-tor.qmd)
 
-***
 
 ## Designing the questionnaire
 
@@ -132,6 +159,7 @@ The reliability of survey data depends heavily on asking the right person. For f
 
 Where the evaluation focuses on a specific group within the firm — R&D personnel or recently hired employees — those individuals may be better placed to answer certain questions. Where possible, the same respondent should complete both the baseline and endline surveys, to ensure that differences reflect real changes rather than differences between respondents.
 
+
 ## Minimising attrition
 
 Attrition — firms that cannot be reached or refuse to participate at endline — is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
@@ -149,7 +177,7 @@ Attrition — firms that cannot be reached or refuse to participate at endline �
 For EU Managing Authorities, compliance with the **General Data Protection Regulation (GDPR)** is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
 
 - A clear **legal basis** for processing personal data — typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents
-- An **informed consent** process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate
+- An **informed consent** process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. [More information on informed consent](02.06b-consent.qmd)
 - **Anonymisation or pseudonymisation** of responses wherever possible
 - Appropriate **data security measures**, including restricted access to identifiable data
 - A **data protection impact assessment (DPIA)** where the scale or sensitivity of data collection warrants it
