@@ -1,8 +1,6 @@
 ---
-title: "Impact Evaluation Outcome Bank"
+title: "Topic: innovation outputs"
 ---
-
-## Topic: Innovation Outputs"
 
 ### Product innovation
 
