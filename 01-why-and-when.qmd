@@ -618,9 +618,11 @@ smaller firms (12.6 employees on average, compared with 19.6).
 
 ::: {.example .romania}
 [Colombia: group vs individual management support]{.tag}
-Policymakers expected one-to-one consulting to outperform cheaper group-based support for
-auto-parts firms. An RCT comparing the two found that group-based support increased
-employment more, at lower cost per firm (Iacovone et al. 2022).
+(Iacovone et al. 2022) tested two cheaper ways to deliver management consulting to auto-parts firms:
+one-to-one (about US$28,950 per firm) and in groups of 3–8 firms (about US$10,500). Both
+raised management scores by around 9 percentage points, but only group consulting
+significantly raised sales and profits.
+[Read the full example](03-examples.qmd#colombia-scaling-up-management-consulting).
 :::
 
 ## What if you cannot randomise? {#alternatives}
@@ -999,4 +1001,7 @@ The answer is already known from credible existing studies, or there is no gener
 :::
 :::
 
+If an RCT is the right tool in principle, [Step 4](02.03-assess.qmd) checks whether it is
+feasible in practice: oversubscription, timing, legal basis, institutional buy-in and
+measurable outcomes.
 
