@@ -592,9 +592,10 @@ Does the programme cause an effect at all?
 :::
 ::: {.body}
 You do not yet know whether the programme works, or you are still working out
-who it reaches and how it should be designed before it starts. This requires finding a credible comparison
-group, choosing between an RCT and the alternatives, and building the
-estimate.
+who it reaches and how it should be designed before it starts. This requires finding a
+credible comparison group before the programme launches. Example: in North-East Romania,
+a lottery decided which eligible firms were invited to apply for a digitalisation grant,
+and the others formed the comparison group ([see above](#rct)).
 :::
 :::
 ::: {.col-e}
@@ -625,15 +626,6 @@ one-to-one (about US$28,950 per firm) and in groups of 3–8 firms (about US$10,
 raised management scores by around 9 percentage points, but only group consulting
 significantly raised sales and profits.
 [Read the full example](03-examples.qmd#colombia-scaling-up-management-consulting).
-:::
-
-::: {.example .romania}
-[North-East Romania: testing outreach]{.tag}
-Before the digitalisation call, the regional development agency randomly selected 26 of 46
-towns for in-person information visits, in which a consultant explained the call and
-helped firms complete the pre-assessment survey. The visited towns produced 110
-applications against 71 in the others, 55% more, and the additional applicants were
-smaller firms (12.6 employees on average, compared with 19.6).
 :::
 
 ## What if you cannot randomise? {#alternatives}
@@ -921,7 +913,10 @@ are no longer comparable to those just above.
   <text x="750" y="452" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">at the design stage. It can be added</text>
   <text x="750" y="472" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">once implementation is already under way.</text>
 </svg>
-<figcaption>The left path needs a comparison group fixed before launch. The right path does not, because nobody is excluded from the programme itself &mdash; only which version of it they get is randomised.</figcaption>
+<figcaption>The left path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
+example a randomised phase-in, where every eligible firm is served but in a random order.
+[Step 4: Assess feasibility](02.03-assess.qmd) explains this and the other ways to
+randomise. The right path does need a comparison group fixed from the outset, because nobody is excluded from the programme itself &mdash; only which version of it they get is randomised.</figcaption>
 </figure>
 ```
 
@@ -999,7 +994,9 @@ markets to serve do not exist.
 [03]{.num}
 
 #### Statistically not feasible
-Too few units or too little money. Large indirect or spillover effects you cannot measure.
+Too few units or too little money. Large indirect or spillover effects you cannot measure (Spillovers alone are not a
+reason to drop an RCT: if expected, they can be designed for and measured (see
+[Step 4](02.03-assess.qmd)))
 Setting too chaotic, for example disaster relief. Treatment assigned at too high a level,
 for example national policy.
 :::
