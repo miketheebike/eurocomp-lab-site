@@ -228,7 +228,7 @@ This chain is the foundation of a Theory of Change, and having thought it throug
 in designing a strong impact evaluation. There is more on this in
 [Step 1: Develop a Theory of Change](02.01-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
 
-::: {.example .romania #digitrans}
+::: {.example .case #digitrans}
 [digitrans example]{.tag}
 The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to a comparison group, a financial subsidy alone, or the same subsidy paired with technical assistance.
 The pilot found that money alone is not the most effective. Firms that also received technical assistance used
@@ -275,6 +275,8 @@ Firms that succeed: **55 of 100**
 Would have succeeded anyway: 20
 
 Caused by the grant: **35**
+
+Additionality rate: **64%**
 :::
 ::: {.verdict}
 Actually causes more impact: 35 caused.
@@ -616,13 +618,22 @@ applications against 71 in the others, 55% more, and the additional applicants w
 smaller firms (12.6 employees on average, compared with 19.6).
 :::
 
-::: {.example .romania}
+::: {.example .case}
 [Colombia: group vs individual management support]{.tag}
 (Iacovone et al. 2022) tested two cheaper ways to deliver management consulting to auto-parts firms:
 one-to-one (about US$28,950 per firm) and in groups of 3–8 firms (about US$10,500). Both
 raised management scores by around 9 percentage points, but only group consulting
 significantly raised sales and profits.
 [Read the full example](03-examples.qmd#colombia-scaling-up-management-consulting).
+:::
+
+::: {.example .romania}
+[North-East Romania: testing outreach]{.tag}
+Before the digitalisation call, the regional development agency randomly selected 26 of 46
+towns for in-person information visits, in which a consultant explained the call and
+helped firms complete the pre-assessment survey. The visited towns produced 110
+applications against 71 in the others, 55% more, and the additional applicants were
+smaller firms (12.6 employees on average, compared with 19.6).
 :::
 
 ## What if you cannot randomise? {#alternatives}
