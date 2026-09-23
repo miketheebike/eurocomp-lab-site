@@ -1,9 +1,9 @@
 ---
-title: "Topic: Energy Efficiency"
+title: "Topic: energy efficiency"
 ---
 
 
-## Energy Consumption
+## Energy consumption
 
 **What was your establishment's total energy consumption [year]?**
 *(All sources combined — electricity, gas, oil, solid fuels, renewables. Report in kWh. If in other units, please convert to kWh. Best approximations are accepted.)*
@@ -36,7 +36,7 @@ title: "Topic: Energy Efficiency"
 
 
 
-## Renewable Energy Production
+## Renewable energy production
 
 **Does your establishment have solar PV panels installed on its buildings or land?**
 - Yes
@@ -59,7 +59,7 @@ title: "Topic: Energy Efficiency"
 
 ***
 
-## Energy Management and Sustainability Practices
+## Energy management and sustainability practices
 
 **In [year], did your establishment monitor its energy consumption?**
 - Yes
@@ -97,7 +97,7 @@ title: "Topic: Energy Efficiency"
 
 ***
 
-## Energy Efficiency Investments
+## Energy efficiency investments
 
 **Did your establishment invest in energy efficiency activities in the last calendar year?**
 - Yes
@@ -137,7 +137,7 @@ title: "Topic: Energy Efficiency"
 
 ***
 
-## Energy Reduction Performance
+## Energy reduction performance
 
 **1By what percentage has your establishment reduced its total energy consumption compared to the previous year (or a comparable reference period)?**
 *(Open numeric field — %. Report the net reduction as a positive number. Best approximations are accepted.)*
