@@ -257,5 +257,8 @@ Established labs already supporting experimentation.
 :::
 ::::
 
-
-
+### The EU needs more Managing Authorities leading the change towards experimentation in policy making 
+Here is where the video with Peter Berkowitz and Rajesh Chady will be placed
+::: {.video-frame}
+{{< video https://youtu.be/NuOGvv_9sD4 title="Trying something new" aspect-ratio="16x9" >}}
+:::
