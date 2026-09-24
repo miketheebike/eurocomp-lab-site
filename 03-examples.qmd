@@ -590,6 +590,7 @@ pilot.
 :::
 :::
 
+```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
@@ -597,6 +598,7 @@ pilot.
     <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Read the report &rarr;</a>
   </div>
 </div>
+```
 
 ## Europe: grants for SME energy efficiency
 
@@ -1711,6 +1713,7 @@ practical risk to weigh when comparing the cost-effectiveness of different deliv
 models.
 :::
 
+```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
@@ -1718,6 +1721,7 @@ models.
     <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913">Read the paper &rarr;</a>
   </div>
 </div>
+```
 
 ### Yemen: Testing whether internships help youth find work
 
@@ -1903,6 +1907,7 @@ partly at the expense of other jobseekers in the economy — a general
 equilibrium effect this study could not measure.
 :::
 
+```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
@@ -1910,3 +1915,4 @@ equilibrium effect this study could not measure.
     <a href="https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8">Read the paper &rarr;</a>
   </div>
 </div>
+```
