@@ -10,7 +10,7 @@ title: "Examples"
 
 
 ::: {.team-note}
-**Summary**
+####Summary
 This page presents examples of public programmes that built experimentation into their design. For each one, it describes the problem the programme set out to address, how the programme and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab. 
 :::
 
@@ -102,7 +102,7 @@ This page presents examples of public programmes that built experimentation into
 **The problem**
 
 Market failures keep research and development (R&D) investment in Extremadura below
-its optimal level. Small and medium firms (SMEs) in the region under-invest in innovation,
+its optimal level. Small and medium-sized enterprises (SMEs) in the region under-invest in innovation,
 particularly in agriculture and the ecological transition.
 :::
 ::: {.card-e}
@@ -778,8 +778,8 @@ registration (AEA RCT Registry, AEARCTR-0015124).
 **The problem**
 
 Northern Bulgaria's micro and small enterprises (MSEs) — over 98% of firms in the
-region — lag far behind Southern Bulgaria and the EU average. Depopulation and aging
-have left "ghost towns" with shrinking labor pools and declining customer bases, and
+region — lag far behind southern Bulgaria and the EU average. Depopulation and ageing
+have left "ghost towns" with shrinking labour pools and declining customer bases, and
 managerial skills, often picked up informally, limit the uptake of modern business
 practices. AI adoption is strikingly low: just 6.5% of firms in the region use AI,
 against an EU average of 13.5%.
@@ -808,7 +808,7 @@ consulting for small firms?"
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Group training in managerial skills, then one of three support modes: human-led consulting, an AI subscription, or a customised AI-led consulting tool</div></div>
-  <div><div class="k">Where</div><div class="v">Northern Bulgaria; Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)</div></div>
+  <div><div class="k">Where</div><div class="v">northern Bulgaria; Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)</div></div>
   <div><div class="k">Who is randomised</div><div class="v">600 MSEs (fewer than 50 employees) in retail, agricultural processing, services and manufacturing, stratified by sector, region and owner gender</div></div>
   <div><div class="k">The design</div><div class="v">Four-arm RCT: pure control, training + human consulting, training + AI subscription, training + AI-led consulting tool (150 firms per arm)</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Firm sales, sales per worker, profits and exports; management practices, foreign-market knowledge, access to suppliers, finance and customers</div></div>
@@ -912,7 +912,7 @@ The main risks to the evaluation are insufficient take-up of consulting or AI
 services, and non-random attrition between the baseline and the two follow-up
 rounds. The team is mitigating these with in-person mobilisation to build the
 applicant pool, and by collecting detailed contact and backup information from every
-participant to support tracking through fall 2027.
+participant to support tracking through autumn 2027.
 :::
 
 ***
@@ -985,7 +985,7 @@ Three experiments are nested inside PARP's own application funnel. First, roughl
 fact-based announcement to versions adding behavioural nudges and information about
 the new AI-powered support. Second, from a pool of about 11,000 Horizon-eligible
 firms, one half is ranked by a machine-learning model trained on past Horizon
-winners; the top 500 ranked firms and 500 randomly-selected firms then both receive
+winners; the top 500 ranked firms and 500 randomly selected firms then both receive
 an encouragement call. Third, among the roughly 400–500 firms that register interest
 in extra support, 200 are randomly selected for immediate access to an AI advisory
 tool and a technology scout, while the remainder are waitlisted.
@@ -1890,7 +1890,7 @@ women.
 :::
 
 ::: {.caution}
-Conflict escalated partway through the program: Houthi forces took control of
+Conflict escalated partway through the programme: Houthi forces took control of
 Sanaa in September 2014, and the second year of the pilot was cancelled,
 roughly halving the intended sample and reducing statistical power. The
 follow-up survey was also fielded earlier and more narrowly than planned,
