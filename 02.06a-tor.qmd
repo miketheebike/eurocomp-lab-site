@@ -16,7 +16,8 @@ For technically complex evaluations, it is strongly recommended to begin with an
 
 The EoI serves three purposes. First, it maps the market — the pool of RCT-capable evaluation teams is narrower than the general consulting market, and an EoI quickly identifies who is actually available and qualified. Second, it allows the Managing Authority to shortlist candidates who are then invited to submit full proposals in a restricted procedure, which is more efficient for both sides. Third, EoI responses often reveal market realities — realistic timelines, typical costs, data access constraints — that can be incorporated into the final ToR.
 
-**An EoI should contain:**
+An EoI should contain:
+
 - A brief description of the programme and the intended evaluation approach
 - The estimated budget range and timeline
 - Shortlisting criteria: relevant experience, team qualifications, organisational capacity
@@ -38,19 +39,19 @@ With shortlisted candidates identified, the Managing Authority issues the full T
 
 A low-bid selection for a technically complex evaluation is a false economy. The proposal panel should include at least one member with methodological knowledge of RCTs — or an external technical reviewer where this expertise is not available internally.
 
-Before making a final selection, shortlisted candidates should be invited to a clarification interview. Useful questions include: how would you handle lower-than-projected take-up? At what level of attrition would you consider the evaluation compromised? What pre-registration registry would you use, and when?
+Before making a final selection, shortlisted candidates should be invited to a clarification interview. Useful questions include: how would you handle lower-than-projected take-up? At what level of attrition would you consider the evaluation compromised? 
 
 ### Step 3: contract signature and inception
 
-Once the contract is signed, the evaluation begins. The first milestone is the **inception report**, in which the consultant refines the Theory of Change, finalises the evaluation design, confirms the sampling and randomisation strategy, and presents survey instruments for review. This is the last point at which fundamental design decisions can be changed without significant cost or delay.
+Once the contract is signed, the evaluation begins. The first milestone is the inception report, in which the consultant refines the ToC, finalises the evaluation design, confirms the sampling and randomisation strategy, and presents survey instruments for review. This is the last point at which fundamental design decisions can be changed without significant cost or delay.
 
 Key questions to assess at inception review:
+
 - Is the power analysis based on realistic assumptions about take-up, response rates, and effect sizes?
 - Is the randomisation strategy robust to the specific implementation context?
 - Has the evaluation been — or is it about to be — pre-registered?
 - Are all data access arrangements confirmed?
 
-***
 
 ## Part 2: what the ToR must contain
 
@@ -63,23 +64,21 @@ This section gives the consultant the context needed to design the data collecti
 - Eligibility criteria and selection methodology
 - Total budget, value of individual awards, and number of expected beneficiaries
 - Implementation timeline and any prior rounds
-- Relevant regulatory obligations (Article 44 CPR 2021/1060; applicable state aid rules)
+- Relevant regulatory obligations (e.g. applicable state aid rules)
 
-**Include the completed Theory of Change**, covering inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions. The ToC has been developed by the Managing Authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
+Include the completed ToC, covering inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions. The ToC has been developed by the Managing Authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
 
-***
 
 ### 2. Learning questions
 
-List the primary and secondary learning questions explicitly. These have been defined by the Managing Authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. Secondary questions might cover heterogeneous effects by firm size or sector, mechanisms, spillovers, or cost-effectiveness. State the intended use of the findings.
-
-***
+List the primary and secondary learning questions explicitly. These have been defined by the Managing Authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. State the intended use of the findings.
 
 ### 3. Scope of work
 
 The consultant's responsibilities cover two functions: data collection and analysis. Specify clearly which tasks fall under each, and — where a separate data collection firm is contracted — which tasks are covered elsewhere.
 
 **Data collection:**
+
 - Finalise baseline and endline survey instruments based on the ToC and evaluation questions provided
 - Pilot the questionnaire and propose revisions
 - Oversee or coordinate fieldwork; supervise the data collection firm where one is separately contracted
@@ -87,14 +86,11 @@ The consultant's responsibilities cover two functions: data collection and analy
 - Design and maintain a monitoring framework tracking take-up, compliance, contamination, and attrition
 
 **Analysis:**
+
 - Clean and merge survey and administrative data
-- Conduct impact analysis (ITT and LATE where relevant) and heterogeneity analysis
-- Produce draft and final evaluation reports and a non-technical policy brief
+- Conduct impact analysis and heterogeneity analysis
+- Produce draft and final evaluation reports and a non-technical documents (e.g. a policy brief)
 - Present findings to the Managing Authority and relevant stakeholders
-
-**Pre-registration:** The consultant is responsible for registering the evaluation design on a public registry before any data is collected.
-
-***
 
 ### 4. Methodology
 
@@ -102,15 +98,14 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Design:** Specify that the evaluation will use an RCT, and define the unit of randomisation (typically the firm), the level of randomisation (individual or cluster), and whether there are multiple treatment arms.
 
-**Sample size and power:** Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power (typically 80–90%), significance level (5%), expected take-up and attrition rates, and baseline variance of the primary outcome.
+**Sample size and power:** Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power, significance level , expected take-up and attrition rates, and baseline variance of the primary outcome.
 
 **Estimation:** Specify intention-to-treat (ITT) as the primary estimand. Where take-up is imperfect, require the Local Average Treatment Effect (LATE) to be reported alongside ITT. All primary estimates should control for baseline outcome values.
 
-**Pre-registration:** Require pre-registration on a recognised public registry — such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) or [OSF](https://osf.io/prereg/) — before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
+**Pre-registration:** Require pre-registration on a recognised public registry — such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) — before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
 
 **Data sources:** Specify which administrative datasets will be provided by the Managing Authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.
 
-***
 
 ### 5. Deliverables and timeline
 
@@ -124,7 +119,6 @@ The methodology section is the technical core of the ToR. It should specify the 
 | Policy brief — 4–6 page non-technical summary | 10 working days |
 | Presentation of findings | As agreed |
 
-***
 
 ### 6. Budget
 
@@ -152,33 +146,27 @@ The largest single cost driver is typically primary survey fieldwork. The ToR sh
 
 Specify clearly whether the budget is inclusive or exclusive of VAT, and whether travel and data access costs are included or reimbursable separately.
 
-***
 
 ### 7. Data access and GDPR
 
 Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address GDPR compliance — lawful basis for processing, pseudonymisation, data security requirements, and retention obligations — and require a data processing agreement to be signed before any data transfer.
 
-***
 
 ### 8. Qualifications required
 
 For a full RCT evaluation, require: an advanced degree in economics, statistics, or a related quantitative field; demonstrated experience designing and implementing experimental impact evaluations (with publicly available outputs as evidence); experience with firm-level data; and familiarity with EU Cohesion Policy and state aid rules. Where a team is required, specify the expected composition and qualifications for each role.
 
-***
 
 ### 9. Governance and proposal requirements
 
 Describe the reporting line, frequency of progress meetings, and the composition of any evaluation steering committee. Specify the escalation procedure for methodological disagreements. State what applicants must submit — technical proposal length, CV format, number of reference evaluations, financial proposal format — and the submission deadline.
 
-***
 
 ## Common Mistakes to Avoid
 
 - **Starting too late.** An RCT must be designed before beneficiaries are selected. Procurement should begin at least six to twelve months before the first grant is awarded.
 - **Leaving the design entirely to the consultant.** The ToR must include a preliminary Theory of Change and evaluation questions — a consultant who receives no guidance will measure what is easy, not what matters.
 - **Setting an unrealistic budget.** A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.
-- **Bundling evaluation and data collection.** Where feasible, procure these separately. Combining them in a single contract creates conflicts of interest and tends to weaken both functions.
-- **Omitting pre-registration.** Pre-registration is a mandatory requirement, not an optional extra. It must be included explicitly in the ToR.
 
 ---
 
