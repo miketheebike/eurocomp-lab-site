@@ -135,7 +135,7 @@ The survey question repository provides a ready-to-use library of validated ques
 | Intellectual property | Patents, trademarks, licensing, informal protection |
 | Technology Readiness Level | TRL self-assessment |
 
-**[Browse the survey question repository](08-bank_survey.qmd)**
+[Browse the survey question repository](08-bank_survey.qmd)
 :::
 
 ### Questionnaire design
