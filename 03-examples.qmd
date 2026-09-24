@@ -59,7 +59,7 @@ This page presents examples of public programmes that built experimentation into
   <td class="status"><span class="status-pill ongoing">In implementation</span></td>
 </tr>
 <tr>
-  <td><a href="#romania-south-muntenia-the-returns-to-innovation-subsidies">Romania (South Muntenia)</a></td>
+  <td><a href="#romania-south-muntenia-the-returns-to-innovation-subsidies">Romania (South-Muntenia)</a></td>
   <td class="topic">The returns to innovation subsidies</td>
   <td class="status"><span class="status-pill ongoing">In implementation</span></td>
 </tr>
@@ -1221,13 +1221,13 @@ and adjusted before the full-proposal stage goes ahead.
 
 ***
 
-## Romania (South Muntenia): the returns to innovation subsidies
+## Romania (South-Muntenia): the returns to innovation subsidies
 
 ::: {.cards}
 ::: {.card-e}
 **The problem**
 
-South Muntenia is a lagging EU region, ranked 243rd of EU regions on the Regional
+South-Muntenia is a lagging EU region, ranked 243rd of EU regions on the Regional
 Innovation Scoreboard, with an Innovation Readiness Index of just 28. Only 6.3% of
 firms are classified as innovative, and just 1.4% of the workforce works in
 high-tech sectors. Between 2014 and 2020, Romania allocated EUR 1.6 billion to public
@@ -1237,7 +1237,7 @@ research institutes but only EUR 74 million to private firms, and the region hos
 ::: {.card-e}
 **What is being tested**
 
-The South Muntenia Regional Development Agency (SM-RDA) is allocating EUR 24.8 million
+The South-Muntenia Regional Development Agency (SM-RDA) is allocating EUR 24.8 million
 in innovation subsidies to SMEs, cross-randomised with a management-training
 programme on change and innovation culture. Grants are assigned through a two-stage
 design: geographic or sector clusters are randomly assigned different shares of
@@ -1259,7 +1259,7 @@ returns, once spillovers to other firms are taken into account?"
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
-  <div><div class="k">Where</div><div class="v">South Muntenia, Romania; South Muntenia Regional Development Agency (SM-RDA), &euro;24.8 million SME innovation grant allocation</div></div>
+  <div><div class="k">Where</div><div class="v">South-Muntenia, Romania; South-Muntenia Regional Development Agency (SM-RDA), &euro;24.8 million SME innovation grant allocation</div></div>
   <div><div class="k">Who is randomised</div><div class="v">&asymp;900 SMEs across 100 geographic or sectoral clusters (&asymp;9 firms per cluster), excluding agricultural firms</div></div>
   <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Short-run revenue, inputs, profit, productivity, investment, pricing and product variety; medium- to long-run technology adoption, new products, licensing and patenting</div></div>
