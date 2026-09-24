@@ -4,7 +4,7 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing in more detail and when to plan it. It explains what impact evaluation is and why experimentation – running a randomised controlled trial (RCT) – is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
+This page explains in more detail why experimentation is worth doing and when to plan it. It explains what impact evaluation is and why experimentation – running a randomised controlled trial (RCT) – is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
 :::
 
 
@@ -12,7 +12,7 @@ This page covers why experimentation is worth doing in more detail and when to p
 [The running example: North-East Romania]{.tag}
 
 Throughout this site, we come back to one programme developed as part of the [EuroCOMP
-Lab](eurocomp.qmd) to show these ideas in practice: A digitalisation grant scheme for
+Lab](eurocomp.qmd) to show these ideas in practice: a digitalisation grant scheme for
 micro, small and medium enterprises (MSMEs) in North-East Romania, run by the Regional
 Development Agency with World Bank support.
 
@@ -42,7 +42,7 @@ Development Agency with World Bank support.
   <div>Analysis</div>
 </div>
 ```
-This site return to this running example at each step: [what impact means here](#counterfactual),
+This site returns to this running example at each step: [what impact means here](#counterfactual),
 [how the lottery created a comparison group](#rct), [how the draw was made
 transparent](#legitimacy), and [how outreach was tested](#two-questions) to illustrate the concepts covered.
 
@@ -91,7 +91,7 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
   <text x="575" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
   <text x="575" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
 </svg>
-<figcaption>Note: Policy learning feeds back into programme design helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
+<figcaption>Note: Policy learning feeds back into programme design, helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
 </figure>
 ```
 
@@ -138,11 +138,11 @@ Monitoring and impact evaluation are complements, not alternatives. An impact ev
 have happened in its absence, the counterfactual.
 
 **The dilemma.** The counterfactual is a "what if" and is unknown to us. Ideally, we would observe the same applicant twice, once with the programme and once without
-it, and compare. That is impossible: each applicant either takes part or it does not. Every
+it, and compare. That is impossible: each applicant either takes part or does not. Every
 impact evaluation method is a way of approximating that missing second observation.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
-This can be done in different ways. The page shows different methods of constructing the counterfactual and explains with RCTs are considered the gold standard. 
+This can be done in different ways. The page shows different methods of constructing the counterfactual and explains why RCTs are considered the gold standard. 
 
 ```{=html}
 <figure class="fig-e">
@@ -218,7 +218,7 @@ four tracked outcomes: digital adoption, revenue, employment, and productivity.
 ```
 :::
 
-Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what you need to measure in order to test whether the
+Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a programme's reason for existing. It also tells you what you need to measure in order to test whether the
 expected change is actually happening.
 
 ```{=html}
@@ -242,10 +242,10 @@ in designing a strong impact evaluation. There is more on this in
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
 
 ::: {.example .case #digitrans}
-[digitrans example]{.tag}
+[Digitrans example]{.tag}
 The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
 
-The pilot found that money alone is not the most effective. Firms that also received technical assistance used
+The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
 digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
 :::
 
@@ -276,7 +276,7 @@ Succeeded because of the grant: **15**
 Additionality rate: **19%**
 :::
 ::: {.verdict}
-Strategy A looks stronger on the first glance as it is associated with 80 successes but only 15 of these succeeded because of Strategy A (are its impact).
+Strategy A looks stronger at the first glance as it is associated with 80 successes but only 15 of these succeeded because of the grant.
 :::
 :::
 ::: {.col-e}
@@ -323,14 +323,14 @@ Strategy B causes 35 successes and thus is more impactful than A.
   <rect x="300" y="236" width="11" height="11" fill="var(--dg-accent)"/>
   <text x="318" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Caused by the grant</text>
 </svg>
-<figcaption>Note: Raw success counts can be misleading. Programmes need be judged on impact, not on raw success to evaluate their effectiveness.</figcaption>
+<figcaption>Note: Raw success counts can be misleading. Programmes need to be judged on impact, not on raw success to evaluate their effectiveness.</figcaption>
 </figure>
 ```
 
 ::: {.cards}
 ::: {.card-e}
 #### Deadweight: low additionality
-Additionality is the share of activity that would not have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that's truly additional per euro.
+Additionality is the share of activity that would not have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
 :::
 ::: {.card-e}
 #### Selection bias in measurement
@@ -491,7 +491,7 @@ impact of being invited to apply for the grant.
   <text x="446" y="199" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
   <text x="446" y="212" fill="#6B6455" font-size="10.5">the same way</text>
 </svg>
-<figcaption>Note: Among eligible firms, which firms was invited to apply for a grant was randomly assigned.</figcaption>
+<figcaption>Note: Among eligible firms, which firms were invited to apply for a grant was randomly assigned.</figcaption>
 </figure>
 ```
 :::
@@ -525,7 +525,7 @@ Illustration:
 [North-East Romania: additional measures to increase trust]{.tag}
 
 North-East Romania's draw was run in front of a notary: the random number seed drawn, the
-selection code run, and the resulting balance between groups reviewed. This increased confidence with the firms that selection was fair.
+selection code run, and the resulting balance between groups reviewed. This increased firms' confidence that selection was fair.
 The draw also made selection faster. Because beneficiaries were drawn at random from the
 eligible pool, no ranking of the "best" applications was needed. Evaluators only had to
 check that each firm met the formal criteria and that the requested funds were justified.
