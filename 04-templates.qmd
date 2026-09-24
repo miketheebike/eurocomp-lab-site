@@ -22,9 +22,22 @@ This question repository is organised by topic. Navigate to the theme most relev
 
 ---
 
-## 
+## RCT outcome repository
+
+This outcome repository is organised by topic and maps directly onto the topics covered in the survey question repository. For each outcome you will find:
+
+- The outcome name and a plain-language definition
+- The metric – how to operationalise and measure it
+- The data source – primary survey, administrative data, or both
 
 
-- [Survey question repository](08-bank_survey.qmd)
-- [RCT outcome repository](09-bank_outcomes.qmd)
+## Topics
 
+- Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
+- Topic: [innovation outputs](09.02-bank_survey_innov.qmd)
+- Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
+- Topic: [technology adoption](09.04-bank_survey_techadop.qmd)
+- Topic: [digitalization](09.05-bank_survey_digital.qmd)
+- Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
+- Topic: [intellectual property](09.07-bank_survey_ip.qmd)
+- Topic: [employment and human capital](09.08-bank_survey_employ.qmd)
