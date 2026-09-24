@@ -15,7 +15,7 @@ This page explains what balance means in practice, how to verify it, and – bec
 
 ## Why comparability matters so much
 
-The logic of an RCT is simple: take two groups of similar firms, give one group the programme and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. If the treatment group happened to contain more high-performing firms before the programme started, any difference in outcomes at endline may simply reflect that head start rather than the programme's effect.
+The logic of a randomised controlled trial (RCT) is simple: take two groups of similar firms, give one group the programme and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. If the treatment group happened to contain more high-performing firms before the programme started, any difference in outcomes at endline may simply reflect that head start rather than the programme's effect.
 
 Randomisation is the mechanism that makes comparability likely – but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly older, larger, or more export-oriented than the comparison group. With enough firms, these chance differences average out. With fewer firms, they can be large enough to matter.
 
@@ -35,7 +35,7 @@ A balance check compares the two groups on a set of characteristics measured at 
 - Export participation
 - The primary outcome variable itself, measured before the intervention
 
-For each characteristic, the evaluator calculates the average value in the treatment group and the average value in the comparison group, and tests whether the difference between them is larger than you would expect by chance from a random draw.
+For each characteristic, the evaluator calculates the average value in the treatment group and the average value in the comparison group, and tests whether the difference between them is larger than you would expect by chance from a random draw. 
 
 ```{=html}
 <figure class="fig-e">
@@ -58,20 +58,11 @@ For each characteristic, the evaluator calculates the average value in the treat
   <rect x="260" y="296" width="11" height="11" fill="var(--dg-accent)"/>
   <text x="278" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
 </svg>
-<figcaption>If the groups look the same before the programme starts, the lottery probably worked. Small differences are normal; large systematic ones are a warning sign.</figcaption>
+<figcaption>Note: illustrative comparison of variables between firms in the treatment and comparison group. </figcaption>
 </figure>
 ```
 
 The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences – a few percentage points in any direction – are expected and normal. They are the product of chance, not a flaw in the design.
-
-```{=html}
-<div class="case-band"><b>North-East Romania</b><span>&#10003; The application survey collected the baseline data used for this check</span></div>
-```
-
-::: {.team-note}
-**Data gap**
-The balance bars are illustrative. The baseline report does not publish a treatment and control balance table. Once the team shares the actual balance results, replace the bars with the real characteristics and values, and remove the on-figure caveat.
-:::
 
 ***
 
@@ -116,20 +107,7 @@ Perfect balance is the goal, not a guarantee. When the balance check reveals a m
 Never drop firms from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping firms selectively – even for apparently good reasons – can introduce bias and undermines the integrity of the evaluation.
 :::
 
-***
 
-## Choosing what to measure before the lottery – not after
-
-The balance check is only part of a broader discipline that runs through every well-designed RCT: deciding what you are going to measure, and how you are going to analyse it, before you see any results.
-
-This applies equally to the outcome variables. The evaluation questions were defined in Step 2, and the indicators were selected in Step 3 – both before the lottery, before the baseline survey, and certainly before any endline data is collected. The reason is simple: if an evaluator can choose which outcome to focus on after seeing the data, they will – consciously or not – tend to report the outcomes that look best. This is called cherry-picking, and it produces findings that appear more favourable or more significant than they actually are.
-
-Pre-registration solves this problem. By publicly committing to the primary outcome, the analysis plan, and the subgroup comparisons before any data is collected, the evaluation team makes it impossible to selectively report results after the fact. The pre-registration record is publicly visible and time-stamped, so anyone reading the final report can verify that the analysis was conducted as originally planned.
-
-
-::: {.takeaway}
-Fix the outcomes before the draw: choosing them afterwards invites cherry-picking – even when no one intends it.
-:::
 
 ***
 
