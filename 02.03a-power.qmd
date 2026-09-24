@@ -256,5 +256,5 @@ Free software covering a wide range of experimental designs
 ---
 
 ::: {.nav-buttons}
-[← Back to: Step 4 — Assess feasibility](02.03-assess.qmd)
+[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
 :::
