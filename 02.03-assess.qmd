@@ -99,7 +99,7 @@ The most common mistake is treating randomisation as something that can be added
   <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
 </svg>
-<figcaption>Everything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.</figcaption>
+<figcaption>Note: illustrative timeline of an RCT.</figcaption>
 </figure>
 ```
 
@@ -197,6 +197,7 @@ North-East Romania used a simple lottery. The 1,038 eligible firms were split in
   <text x="446" y="199" fill="#6B6455" font-size="10.5">No grant; firms continue as usual,</text>
   <text x="446" y="212" fill="#6B6455" font-size="10.5">surveyed the same way</text>
 </svg>
+<figcaption>Note: RCT design used in North-East Romania to measure impacts of digitalisation grants.</figcaption>
 </figure>
 ```
 ::::
@@ -267,6 +268,7 @@ This approach reduces the pool that is randomised, focuses the evaluation on the
   <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
   <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
 </svg>
+<figcaption>Note: lottery around a cutoff. </figcaption>
 </figure>
 ```
 
@@ -302,7 +304,7 @@ The trade-off is sample size: more arms means more groups, and the available poo
   <text x="570" y="25" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">4.5</text>
   <text x="570" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 3</text>
 </svg>
-<figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme produces the largest effect.</figcaption>
+<figcaption>Note: multiple treatment arms.</figcaption>
 </figure>
 ```
 
@@ -330,6 +332,8 @@ The key advantage is that everyone eventually receives support, which makes the 
   <rect x="210" y="182" width="11" height="11" fill="var(--dg-muted)"/>
   <text x="228" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Waiting, acts as comparison</text>
 </svg>
+<figcaption>Note: randomised phase-in design.</figcaption>
+
 </figure>
 ```
 
@@ -352,6 +356,7 @@ Rather than randomising which firms receive the programme, you can randomise how
   <text x="505" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm C</text>
   <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
 </svg>
+<figcaption>Note: randomised intensities.</figcaption>
 </figure>
 ```
 
@@ -369,11 +374,11 @@ Compliance is rarely perfect in either direction: some encouraged firms will nev
 :::
 
 
-## What can go wrong?
+## What are potential challenges?
 
 Even a well-designed RCT must survive contact with reality. These are the four most common problems — and what can be done about each.
 
-**Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible. Step 7 covers how to detect and address attrition once data collection is complete.
+**Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible.
 
 **Spillovers.** Comparison firms benefit from the programme indirectly — a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level — by region or sector cohort rather than by individual firm — can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
 ::: {.example .case}
@@ -392,7 +397,7 @@ different intensities measures the spillover onto neighbours and competitors.
 **Uneven implementation.** The programme is delivered inconsistently across firms — some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the Managing Authority and the delivery team reduce this risk.
 
 ::: {.takeaway}
-None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. Step 7 covers the checks that catch these problems early enough to act on them.
+None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. 
 :::
 
 ::: {.example .romania}
