@@ -87,17 +87,6 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 **Attribution.** Learning questions should be scoped to what can be attributed to the programme, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the programme itself. A well-scoped causal question asks about the *difference* between treated and comparison firms, not about levels.
 
 
-
-## Once set, learning questions cannot change
-
-Defining your learning questions is not just a planning exercise - it is a commitment. Once the programme has launched and firms have been assigned to treatment and comparison groups, the evaluation questions are fixed. Changing them after seeing the data - even partially, even with good intentions – opens the door to selective reporting: the tendency, conscious or not, to gravitate toward questions that happen to produce favourable or statistically significant results.
-
-This discipline extends to every analytical choice that follows: which outcome to treat as primary, which subgroups to compare, how to handle missing data. All of these must be decided before data collection begins, not after.
-
-The mechanism that enforces this commitment publicly is **pre-registration** – publishing the evaluation design on a public registry before any data is collected. Pre-registration is covered in detail in Step 4, where it sits alongside the other feasibility conditions that must be in place before the lottery. 
-
-**[See Step 4 for guidance on pre-registration →](02.03d-pre_register.qmd)**
-
 ::: {.nav-buttons}
 [← Previous: Step 1 – Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 – Determine relevant indicators →](02.04-indicators.qmd)
 :::
