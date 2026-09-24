@@ -49,7 +49,7 @@ The indicators selected in Step 3 must be observable – through administrative 
 
 Before designing the lottery or scoring mechanism, confirm that your national legal framework – and the specific legislation governing your programme – either explicitly permits randomisation as a selection method or is flexible enough to accommodate it.
 
-Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page for country examples, key legal elements, and practical steps →](02.03c-legal.qmd)**
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page for country examples, key legal elements, and practical steps →](02.03c-legal.qmd)
 :::
 
 
@@ -120,6 +120,9 @@ North-East Romania combined three steps that are usually separate – applicatio
 
 To detect the impact of a programme, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible – ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?
 
+The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations →](02.03a-power.qmd)
+
+The Management Authorities should start reaching a large enough numbers of firms early enough.
 
 ## Lesson 1: link eligibility directly to programme objectives
 
@@ -219,7 +222,15 @@ In the North-East digitalization programme, the Managing Authority required appl
 
 
 
-The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations →](02.03a-power.qmd)
+
+
+
+
+
+
+
+
+
 
 If the eligible pool falls short, there are two immediate levers:
 
