@@ -10,7 +10,7 @@ In principle, a ToR can cover the entire evaluation — including evaluation des
 
 ## Part 1: the procurement process
 
-### Step 1: issue an Expression of Interest
+### Step 1: issue an EoI
 
 For technically complex evaluations, it is strongly recommended to begin with an EoI rather than going directly to a full ToR. An EoI is a short, non-binding call that invites qualified organisations to signal their interest and demonstrate their eligibility before the full competition begins.
 
@@ -54,7 +54,7 @@ Key questions to assess at inception review:
 
 ## Part 2: what the ToR must contain
 
-### 1. Background, programme description, and Theory of Change
+### 1. Background, programme description, and ToC
 
 This section gives the consultant the context needed to design the data collection instruments and analysis plan. Include:
 
