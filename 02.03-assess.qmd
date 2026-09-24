@@ -441,6 +441,7 @@ Because of limited take-up, it is safer to report the intention-to-treat effect,
 comparing everyone as originally assigned, even though it understates the effect on the
 firms that actually took up the grant.
 :::
+
 ---
 
 ::: {.nav-buttons}
