@@ -52,7 +52,7 @@ In the EU, the consistent availability of firm-level administrative data — tax
 The primary respondents were Chief Executive Officers (CEOs) and/or firm owners, with additional input from senior representatives of relevant departments when necessary.
 :::
 
-**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue — beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.
+**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue — beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time. 
 
 
 ## Why surveys?
@@ -84,7 +84,7 @@ In practice, methods can be combined: begin with a web survey, follow up with CA
 ::: {.example .romania}
 [North-East Romania: primary respondents]{.tag}
 
-The baseline and follow-up survey involved, both CAPI and CATI methods, depending on respondents' availability.
+Data in North-East Romania was collected using a web survey (baseline survey) and involved CAPI and CATI methods for the follow-up survey, depending on respondents' availability.
 :::
 
 
@@ -153,14 +153,6 @@ Where surveys are conducted in multiple languages, the questionnaire should be p
 
 No questionnaire should go into the field without first being tested. A **pilot survey** — conducted with a small group representative of the target population — reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.
 
-
-## Choosing the right respondent
-
-The reliability of survey data depends heavily on asking the right person. For firm-level surveys, this typically means a **senior decision-maker** — a CEO, CFO, or equivalent executive — who has oversight of the firm's strategic and financial decisions and is most likely to be aware of how the programme has influenced the firm's trajectory.
-
-Where the evaluation focuses on a specific group within the firm — R&D personnel or recently hired employees — those individuals may be better placed to answer certain questions. Where possible, the same respondent should complete both the baseline and endline surveys, to ensure that differences reflect real changes rather than differences between respondents.
-
-
 ## Minimising attrition
 
 Attrition — firms that cannot be reached or refuse to participate at endline — is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
@@ -175,13 +167,12 @@ Attrition — firms that cannot be reached or refuse to participate at endline �
 
 ## Data protection and GDPR compliance
 
-For EU Managing Authorities, compliance with the **General Data Protection Regulation (GDPR)** is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
+For EU Managing Authorities, compliance with the General Data Protection Regulation (GDPR) is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
 
-- A clear **legal basis** for processing personal data — typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents
-- An **informed consent** process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. [More information on informed consent](02.06b-consent.qmd)
-- **Anonymisation or pseudonymisation** of responses wherever possible
-- Appropriate **data security measures**, including restricted access to identifiable data
-- A **data protection impact assessment (DPIA)** where the scale or sensitivity of data collection warrants it
+- A clear legal basis for processing personal data — typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents
+- An informed consent process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. [More information on informed consent](02.06b-consent.qmd)
+- Anonymisation or pseudonymisation of responses wherever possible
+- Appropriate data security measures, including restricted access to identifiable data
 
 Managing Authorities should involve their Data Protection Officer early in the design process — not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
 
