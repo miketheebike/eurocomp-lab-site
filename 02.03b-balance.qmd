@@ -11,7 +11,7 @@ A randomised lottery is designed to produce two groups — treatment and compari
 
 This page explains what balance means in practice, how to verify it, and — because no lottery produces perfect balance every time — what to do when the groups turn out to be different on some characteristic.
 
----
+***
 
 ## Why comparability matters so much
 
@@ -21,7 +21,7 @@ Randomisation is the mechanism that makes comparability likely — but it does n
 
 This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality — it is a quality control on the randomisation itself.
 
----
+***
 
 ## What a balance check involves
 
@@ -73,7 +73,7 @@ The chart above shows what a well-balanced result looks like: the bars for the t
 The balance bars are illustrative. The baseline report does not publish a treatment and control balance table. Once the team shares the actual balance results, replace the bars with the real characteristics and values, and remove the on-figure caveat.
 :::
 
----
+***
 
 ## How to read the results
 
@@ -102,7 +102,7 @@ A concern arises when many variables show imbalance simultaneously, or when the 
 One or two imbalanced variables in a balance table is almost always chance. Many imbalanced variables — or imbalance on the primary outcome — is a signal worth investigating.
 :::
 
----
+***
 
 ## What to do if the groups are not perfectly balanced
 
@@ -116,7 +116,7 @@ Perfect balance is the goal, not a guarantee. When the balance check reveals a m
 Never drop firms from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping firms selectively — even for apparently good reasons — can introduce bias and undermines the integrity of the evaluation.
 :::
 
----
+***
 
 ## Choosing what to measure before the lottery — not after
 
@@ -131,7 +131,7 @@ Pre-registration solves this problem. By publicly committing to the primary outc
 Fix the outcomes before the draw: choosing them afterwards invites cherry-picking — even when no one intends it.
 :::
 
----
+***
 
 ## Pre-registration: locking in the plan publicly
 
@@ -159,8 +159,8 @@ Registry for International Development Impact Evaluations, hosted by 3ie.
 
 Pre-registration should happen before the baseline survey is fielded — or at the very latest, before the endline data is collected. The evaluation team will lead this process, but the Managing Authority should confirm that it has been done before approving the inception report.
 
----
+***
 
 ::: {.nav-buttons}
-[← Back to: Step 4 — Assess feasibility](02.04-assess.qmd)
+[← Back to: Step 4 — Assess feasibility](02.03-assess.qmd)
 :::

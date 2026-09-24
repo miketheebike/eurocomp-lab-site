@@ -189,7 +189,7 @@ Managing Authorities should involve their Data Protection Officer early in the d
 
 Data collection is only as valuable as the quality of what is collected. Step 7 covers the checks — before, during, and after fieldwork — that protect the evaluation from the data quality problems most likely to bias results.
 
----
+***
 
 ::: {.nav-buttons}
 [← Previous: Step 5 — Identify available data sources](02.05-data_sources.qmd) | [Next: Step 7 — Ensure high-quality data →](02.07-data_quality.qmd)

@@ -11,7 +11,7 @@ Data collection for an RCT involves collecting personal and firm-level data from
 
 This page covers what informed consent means in the context of firm-level RCTs under EU Cohesion Policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside a programme application.
 
----
+***
 
 ## What informed consent means in this context
 
@@ -25,7 +25,7 @@ Informed consent is a participant's freely given, specific, informed, and unambi
 Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent — it is being coerced. GDPR Article 7(4) explicitly addresses this: consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
 :::
 
----
+***
 
 
 ## What a consent form must contain
@@ -100,7 +100,7 @@ State how long the initial form will take and whether participants may be contac
 
 The form must be signed by an authorised representative of the firm — founder, owner, CEO, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
 
----
+***
 
 ## Structuring the consent: mandatory core and optional modules
 
@@ -132,7 +132,7 @@ Example:
 Box 1 is required. Boxes 2 and 3 are optional but described as important for the quality of the evaluation. Firms must be able to tick Box 1 without ticking Boxes 2 or 3, and the programme must function correctly regardless of which optional boxes are selected.
 :::
 
----
+***
 
 ## Special considerations for EU RCTs
 
@@ -146,7 +146,7 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 **Multilingual forms.** Where the programme operates in a non-English-speaking member state, the consent form should be available in the local language. The South-Muntenia questionnaire was available in both Romanian and English, with language selectable from the survey menu.
 
----
+***
 
 
 ## Resources
@@ -165,7 +165,7 @@ The GDPR provision governing processing for scientific research, including the d
 
 :::
 
----
+***
 
 ::: {.nav-buttons}
 [← Back to: Step 6 — Collect data](02.06-data_collect.qmd)

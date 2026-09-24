@@ -160,7 +160,7 @@ Developing a ToC is well worth the effort for two important reasons. First, it s
 
 Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better — findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.
 
----
+***
 
 ::: {.nav-buttons}
 [← Back to: How to design an RCT](02-how.qmd) | [Next: Step 2 — Define evaluation questions →](02.02-eval_questions.qmd)

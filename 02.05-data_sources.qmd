@@ -87,7 +87,7 @@ A data-sharing agreement (DSA) between the Managing Authority and the data-holdi
 
 Once you know which data sources will cover which indicators, the next step is to plan and implement the data collection itself. Step 6 covers how to design and field a primary survey — choosing a collection method, designing the questionnaire, selecting respondents, and timing the rounds correctly.
 
----
+***
 
 ::: {.nav-buttons}
 [← Previous: Step 4 — Assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next: Step 6 — Collect data →](02.06-data_collect.qmd)

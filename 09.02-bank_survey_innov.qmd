@@ -8,7 +8,7 @@ title: "Topic: innovation outputs"
 - **Metric:** Binary indicator (yes/no); number of new products introduced; share of turnover from new products (%)
 - **Data source:** Primary survey (CIS-based questions)
 
----
+***
 
 **Process innovation**
 
@@ -16,7 +16,7 @@ title: "Topic: innovation outputs"
 - **Metric:** Binary indicator (yes/no); type of process innovation introduced
 - **Data source:** Primary survey (CIS-based questions)
 
----
+***
 
 **Organisational innovation**
 
@@ -24,7 +24,7 @@ title: "Topic: innovation outputs"
 - **Metric:** Binary indicator (yes/no)
 - **Data source:** Primary survey
 
----
+***
 
 **Novelty of innovation**
 
@@ -32,7 +32,7 @@ title: "Topic: innovation outputs"
 - **Metric:** Categorical (firm-level / market-level / world-level novelty)
 - **Data source:** Primary survey
 
----
+***
 
 **Share of turnover from new products**
 
@@ -40,7 +40,7 @@ title: "Topic: innovation outputs"
 - **Metric:** % of total turnover attributable to new or significantly improved products
 - **Data source:** Primary survey
 
----
+***
 
 **Innovation expenditure**
 

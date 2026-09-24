@@ -7,7 +7,7 @@ title: "Topic: company structure and ownership"
 - Yes
 - No
 
----
+***
 
 **If yes, what is your company's role within the group?**
 
@@ -15,7 +15,7 @@ title: "Topic: company structure and ownership"
 - Subsidiary
 - Branch or division
 
----
+***
 
 **Where is the head office of the group located?**
 
@@ -23,7 +23,7 @@ title: "Topic: company structure and ownership"
 - Another EU country
 - Outside the EU
 
----
+***
 
 **What is the ownership structure of your company?**
 *(Select all that apply)*
@@ -36,7 +36,7 @@ title: "Topic: company structure and ownership"
 - Majority foreign-owned
 - Other (please specify)
 
----
+***
 
 **What share of your company's equity is owned by foreign investors?**
 
@@ -45,14 +45,14 @@ title: "Topic: company structure and ownership"
 - 10–49%
 - 50% or more (majority foreign-owned)
 
----
+***
 
 **Does your company have a formal board of directors or supervisory board?**
 
 - Yes
 - No
 
----
+***
 
 **How many sites or locations does your company operate from?**
 

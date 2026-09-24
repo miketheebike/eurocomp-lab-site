@@ -91,6 +91,7 @@ receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosin
 
 ### Hear from Managing Authorities who already use experimentation
 This is where Mr Asandei's video will be placed and the second video with voices once produced 
+
 ::: {.video-frame}
 {{< video https://youtu.be/NuOGvv_9sD4 title="Trying something new" aspect-ratio="16x9" >}}
 :::
@@ -218,7 +219,7 @@ Whether ethics review is legally mandatory depends on the country, the instituti
 
 ::::
 
----
+***
 ## How to start
  
 ### Explore the site

@@ -8,7 +8,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** % change in turnover from baseline to endline; log of turnover
 - **Data source:** Administrative (tax records, business registry) or primary survey
 
----
+***
 
 **Value added**
 
@@ -16,7 +16,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** Total value added in € (turnover minus purchases of goods and services); % change over evaluation period
 - **Data source:** Administrative (tax records) or primary survey
 
----
+***
 
 **Labour productivity**
 
@@ -24,7 +24,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** Value added per employee (€); % change over evaluation period
 - **Data source:** Administrative or primary survey (requires both value added and employment data)
 
----
+***
 
 **Total factor productivity (TFP)**
 
@@ -32,7 +32,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** Estimated using production function methods (e.g. Olley-Pakes, Levinsohn-Petrin); requires data on output, capital, labour, and materials
 - **Data source:** Administrative (requires linked firm-level panel data)
 
----
+***
 
 **Employment growth**
 
@@ -40,7 +40,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** % change in full-time equivalent (FTE) employees from baseline to endline; log of employment
 - **Data source:** Administrative (social security records, business registry) or primary survey
 
----
+***
 
 **Wage growth**
 
@@ -48,7 +48,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** % change in average gross wage per employee; total wage bill growth
 - **Data source:** Administrative (social security or tax records)
 
----
+***
 
 **Export performance**
 
@@ -56,7 +56,7 @@ title: "Topic: firm performance and growth"
 - **Metric:** Export participation (yes/no); share of turnover from exports (%); log of export value
 - **Data source:** Administrative (customs data) or primary survey
 
----
+***
 
 **Firm survival**
 

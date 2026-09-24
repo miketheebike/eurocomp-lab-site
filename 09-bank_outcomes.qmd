@@ -10,7 +10,7 @@ This outcomes bank is organised by topic and maps directly onto the topics cover
 - The **metric** — how to operationalise and measure it
 - The **data source** — primary survey, administrative data, or both
 
----
+***
 
 - Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
 - Topic: [innovation outputs](09.02-bank_survey_innov.qmd)

@@ -15,7 +15,7 @@ By this point you have mapped your programme's causal logic, defined what you wa
 
 An RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
 
----
+***
 
 ## Five conditions for a feasible RCT
 
@@ -67,7 +67,7 @@ Widely used registries include the [AEA RCT Registry](https://www.socialsciencer
 The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on March 18, 2025, prior to follow-up data collection.
 ::::
 
----
+***
 
 ## Randomisation must be designed in from the start
 
@@ -132,7 +132,7 @@ The most common mistake is treating randomisation as something that can be added
 North-East Romania combined three steps that are usually separate — application, eligibility check, and baseline data collection — into a single online survey. This meant that by the time the eligibility pool was confirmed, the baseline data was already in hand. In October 2023, 519 of the 1,038 eligible firms were randomly selected to receive a grant. The other 519 became the comparison group.
 ::::
 
----
+***
 
 ## Do you have enough firms?
 
@@ -159,7 +159,7 @@ If you are scoring applicants, avoid treating small score differences as decisiv
 A larger pool also creates room to test more than one version of the programme simultaneously — more on this under Multiple treatment arms, below.
 :::
 
----
+***
 
 ## Five ways to randomise your programme
 
@@ -225,7 +225,7 @@ Of the five designs above, North-East Romania used a simple lottery. The 1,038 e
 ```
 ::::
 
----
+***
 
 ## Public or private lottery?
 
@@ -262,7 +262,7 @@ The draw is conducted internally by the evaluation team, with full documentation
 In practice, most World Bank-supported evaluations run the draw as a secure, documented, computerised procedure with a verifiable audit trail — combining the rigour of a private draw with the accountability of one that can be independently checked afterwards.
 :::
 
----
+***
 
 ## Randomising only part of the pool: a lottery around a cutoff
 
@@ -301,7 +301,7 @@ This approach reduces the pool that is randomised, focuses the evaluation on the
 Keep the scoring process rules-based. Subjective assessment — even by expert panels — has been shown to introduce systematic bias. A structured scoring rubric, applied consistently, is fairer and more defensible than discretionary judgment.
 :::
 
----
+***
 
 ## Testing programme versions: multiple treatment arms
 
@@ -334,7 +334,7 @@ The trade-off is sample size: more arms means more groups, and the available poo
 </figure>
 ```
 
----
+***
 
 ## When you cannot fund everyone at once: randomised phase-in
 
@@ -363,7 +363,7 @@ The key advantage is that everyone eventually receives support, which makes the 
 </figure>
 ```
 
----
+***
 
 ## Varying the dose: randomised intensities
 
@@ -387,7 +387,7 @@ Rather than randomising which firms receive the programme, you can randomise how
 </figure>
 ```
 
----
+***
 
 ## When take-up is low: encouragement design
 
@@ -401,7 +401,7 @@ The main limitation is that the estimate reflects the effect of the encouragemen
 Compliance is rarely perfect in either direction: some encouraged firms will never take up the programme, and some non-encouraged firms will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual firms actually did. Your evaluation team will handle this in the analysis.
 :::
 
----
+***
 
 ## What can go wrong?
 
@@ -410,6 +410,7 @@ Even a well-designed RCT must survive contact with reality. These are the four m
 **Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible. Step 7 covers how to detect and address attrition once data collection is complete.
 
 **Spillovers.** Comparison firms benefit from the programme indirectly — a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level — by region or sector cohort rather than by individual firm — can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
+
 ::: {.example .case}
 [South Muntenia: designing for spillovers]{.tag}
 South Muntenia built spillovers into the design.
@@ -441,7 +442,7 @@ Because of limited take-up, it is safer to report the intention-to-treat effect,
 comparing everyone as originally assigned, even though it understates the effect on the
 firms that actually took up the grant.
 :::
----
+***
 
 ::: {.nav-buttons}
 [← Previous: Step 3 — Determine relevant indicators](02.03-assess.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)

@@ -5,38 +5,38 @@ title: "Topic: company financial performance"
 **How many full-time paid employees work in the business as of the end of 2025?
 *(Open numeric field)*
 
----
+***
 
 **What was your company's total annual turnover in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What was your company's total wage bill (gross salaries and social contributions) in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What was your company's total investment in tangible assets (machinery, equipment, buildings) in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What was your company's total investment in inangible assets in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What share of your company's total sales came from exports in [year]?**
 *(Open numeric field, in percent)*
 
----
+***
 
 **What was your company's total annual profit or loss in [year]**
 *(Open numeric field, in [currency]*
 *Enter positive number for profits and negative number for losses*
 
----
+***
 
 **How would you describe your company's current financial situation?**
 
@@ -48,17 +48,17 @@ title: "Topic: company financial performance"
 **What was your company's total debt in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What was your company's operating costs in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What was your company's total equity in [year]?**
 *(Open numeric field, in [currency])*
 
----
+***
 
 **What was your company's total assets (balance sheet total) in [year]?**
 *(Open numeric field, in [currency])*
