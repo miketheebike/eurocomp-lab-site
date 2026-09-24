@@ -2,6 +2,12 @@
 title: "Examples"
 ---
 
+```{=html}
+<style>
+.flow .flow-date { display:block; margin-top:4px; font-size:0.8em; font-weight:normal; color:#6B6455; }
+</style>
+```
+
 
 ::: {.team-note}
 **Summary**
@@ -132,15 +138,15 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 ### From application to evidence
 
 <div class="flow">
-  <div>Applications</div>
+  <div>Applications<span class="flow-date">Deadline May 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>External scoring</div>
+  <div>External scoring<span class="flow-date">Jul&ndash;Oct 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Middle-bin lottery</div>
+  <div>Middle-bin lottery<span class="flow-date">Dec 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>R&amp;D grants</div>
+  <div>R&amp;D grants<span class="flow-date">Awarded Dec 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up survey</div>
+  <div>Follow-up survey<span class="flow-date">Mar&ndash;Apr 2025</span></div>
 </div>
 
 
@@ -303,11 +309,15 @@ peer-to-peer exchange between firms.
 
 ```{=html}
 <div class="flow">
-  <div>Interest sign-up</div>
+  <div>Interest sign-up<span class="flow-date">Jan&ndash;Aug 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Random selection</div>
-  <div>Seven workshops</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Seven workshops<span class="flow-date">Sep&ndash;Nov 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Presentations</div>
-  <div>Follow-up survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">Nov 2024&ndash;Feb 2025</span></div>
 </div>
 ```
 
@@ -329,10 +339,14 @@ peer-to-peer exchange between firms.
 ```{=html}
 <div class="flow">
   <div>Interest sign-up</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Random selection</div>
-  <div>Five AI workshops</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Five AI workshops<span class="flow-date">Oct 2024&ndash;Apr 2025</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Peer exchange</div>
-  <div>Follow-up survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">1&ndash;3 months after the workshops</span></div>
 </div>
 ```
 
@@ -369,6 +383,7 @@ group.
   <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">83 no support (~1/3)</text>
   <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
 </svg>
+<figcaption>Note: The 246 firms were randomly assigned within each recruitment batch (voucher applicants and an extra sample from the general public); comparison firms did not receive any intervention during the study period.</figcaption>
 </figure>
 ```
 
@@ -398,6 +413,7 @@ group.
   <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">56 no support (~1/3)</text>
   <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
 </svg>
+<figcaption>Note: Randomisation was stratified by firm size and region (Ústecký or Karlovarský); comparison firms were offered priority in a future programme once data collection is complete.</figcaption>
 </figure>
 ```
 
@@ -490,11 +506,15 @@ support to help pairs plan R&D projects together.
 
 ```{=html}
 <div class="flow">
-  <div>Applications</div>
-  <div>Lottery</div>
-  <div>Matchmaking event</div>
-  <div>Joint R&D planning</div>
-  <div>Follow-up survey</div>
+  <div>Applications<span class="flow-date">Nov 2023&ndash;Jan 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery<span class="flow-date">Feb 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Matchmaking event<span class="flow-date">Feb 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Joint R&D planning<span class="flow-date">Mar&ndash;Apr 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">Spring 2025</span></div>
 </div>
 ```
 
@@ -534,7 +554,7 @@ were randomly assigned by lottery to receive matchmaking support or not.
   <text x="530" y="160" fill="#2B2724" font-size="12.5" font-weight="bold">110 not invited</text>
   <text x="530" y="177" fill="#6B6455" font-size="11">comparison group</text>
 </svg>
-<figcaption>Only firms that cleared eligibility screening entered the lottery, so the comparison group is drawn from the same pool as the firms invited to Scinergy.</figcaption>
+<figcaption>Note: Only firms that cleared eligibility screening entered the lottery, so the comparison group is drawn from the same pool as the firms invited to Scinergy.</figcaption>
 </figure>
 ```
 
@@ -625,9 +645,13 @@ energy use?"
 ```{=html}
 <div class="flow">
   <div>Two open calls</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Eligibility check</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Lottery</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Grants &amp; advisory services</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Follow-up surveys</div>
 </div>
 ```
@@ -672,7 +696,7 @@ worked with comparable advisors.
   <text x="530" y="160" fill="#2B2724" font-size="12.5" font-weight="bold">978 standard group</text>
   <text x="530" y="177" fill="#6B6455" font-size="11">advisory services only</text>
 </svg>
-<figcaption>Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
+<figcaption>Note: Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
 </figure>
 ```
 
@@ -792,11 +816,15 @@ consulting for small firms?"
 
 ```{=html}
 <div class="flow">
-  <div>Recruitment &amp; applications</div>
+  <div>Recruitment &amp; applications<span class="flow-date">Baseline Jan&ndash;Mar 2026 (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Random assignment</div>
-  <div>Training &amp; consulting rollout</div>
-  <div>Endline survey</div>
-  <div>Follow-up survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Training &amp; consulting rollout<span class="flow-date">Mar&ndash;Sep 2026 (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Endline survey<span class="flow-date">Oct&ndash;Dec 2026 (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">Oct&ndash;Dec 2027 (planned)</span></div>
 </div>
 ```
 
@@ -837,7 +865,7 @@ arms.
   <text x="228" y="245" fill="#2B2724" font-size="12" font-weight="bold">150 training + AI-led consulting tool</text>
   <text x="600" y="245" fill="#6B6455" font-size="10.5">proactive nudges</text>
 </svg>
-<figcaption>600 eligible MSEs are randomly assigned in equal shares to a control group and three treatment arms, so each AI-based alternative can be compared directly to human-led consulting.</figcaption>
+<figcaption>Note: 600 eligible MSEs are randomly assigned in equal shares to a control group and three treatment arms, so each AI-based alternative can be compared directly to human-led consulting.</figcaption>
 </figure>
 ```
 
@@ -934,9 +962,13 @@ number and quality of Polish Horizon Europe applications?"
 ```{=html}
 <div class="flow">
   <div>Outreach messaging</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>ML targeting</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Encouragement calls</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Support sign-up</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>AI-tool &amp; scout support</div>
 </div>
 ```
@@ -976,7 +1008,7 @@ tool and a technology scout, while the remainder are waitlisted.
 
   <text x="10" y="130" fill="#6B6455" font-size="11">Each stage is a separate randomisation, feeding firms forward into PARP's existing application funnel.</text>
 </svg>
-<figcaption>Three nested experiments track firms from broad outreach through algorithmic targeting to intensive AI-and-scout application support.</figcaption>
+<figcaption>Note: Three nested experiments track firms from broad outreach through algorithmic targeting to intensive AI-and-scout application support.</figcaption>
 </figure>
 ```
 
@@ -1075,11 +1107,15 @@ and better targeted, without compromising fairness?"
 
 ```{=html}
 <div class="flow">
-  <div>Expression of interest</div>
+  <div>Expression of interest<span class="flow-date">2026 call (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>AI-assisted or human review</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Full proposal &amp; review</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Funding lottery</div>
-  <div>AI-assisted or standard monitoring</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>AI-assisted or standard monitoring<span class="flow-date">Until Q2 2027 (planned)</span></div>
 </div>
 ```
 
@@ -1126,7 +1162,7 @@ during implementation.
   <text x="542" y="176" fill="#2B2724" font-size="12" font-weight="bold">75 funded: standard monitoring</text>
   <text x="542" y="193" fill="#6B6455" font-size="9.5">human oversight only</text>
 </svg>
-<figcaption>Reviewers are randomly assigned to work with or without the AI tool at each review stage (not shown); funded projects are then randomly split between AI-assisted and standard monitoring.</figcaption>
+<figcaption>Note: Reviewers are randomly assigned to work with or without the AI tool at each review stage (not shown); funded projects are then randomly split between AI-assisted and standard monitoring.</figcaption>
 </figure>
 ```
 
@@ -1221,11 +1257,15 @@ returns, once spillovers to other firms are taken into account?"
 
 ```{=html}
 <div class="flow">
-  <div>Call for proposals</div>
+  <div>Call for proposals<span class="flow-date">Jun&ndash;Sep 2026 (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Cluster formation</div>
-  <div>Cluster-level intensity</div>
-  <div>Firm-level lottery</div>
-  <div>Grant &amp; monitoring</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Cluster-level intensity<span class="flow-date">Oct 2026 (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Firm-level lottery<span class="flow-date">Oct 2026 (planned)</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Grant &amp; monitoring<span class="flow-date">To Q1 2028; endline Q1&ndash;Q2 2028 (planned)</span></div>
 </div>
 ```
 
@@ -1276,7 +1316,7 @@ within the same cluster isolates each firm's own private return.
 
   <text x="10" y="232" fill="#6B6455" font-size="11">Comparing across clusters isolates spillovers; comparing within a cluster isolates each firm's own private return.</text>
 </svg>
-<figcaption>Clusters are randomly assigned a funding intensity; within each cluster, firms are then randomly selected for funding up to that share.</figcaption>
+<figcaption>Note: Clusters are randomly assigned a funding intensity; within each cluster, firms are then randomly selected for funding up to that share.</figcaption>
 </figure>
 ```
 
@@ -1375,11 +1415,15 @@ digitalisation outcomes more than a subsidy alone?"
 
 ```{=html}
 <div class="flow">
-  <div>Applications</div>
+  <div>Applications<span class="flow-date">May&ndash;Jul 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Eligibility & interview</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Random assignment</div>
-  <div>Subsidy & support</div>
-  <div>Follow-up survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Subsidy & support<span class="flow-date">Q3&ndash;Q4 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">From Q4 2024</span></div>
 </div>
 ```
 
@@ -1422,7 +1466,7 @@ that groups were balanced from the outset.
   <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">210 subsidy + technical assistance</text>
   <text x="450" y="233" fill="#2B2724" font-size="10.5">the full support package</text>
 </svg>
-<figcaption>Randomisation was stratified within each country by firm size and digital sophistication, splitting 629 eligible firms into a comparison group and two support groups of about 210 firms each.</figcaption>
+<figcaption>Note: Randomisation was stratified within each country by firm size and digital sophistication, splitting 629 eligible firms into a comparison group and two support groups of about 210 firms each.</figcaption>
 </figure>
 ```
 
@@ -1535,11 +1579,15 @@ management practices and performance?"
 
 ```{=html}
 <div class="flow">
-  <div>Applications</div>
-  <div>Diagnostic phase</div>
-  <div>Matched-triplet lottery</div>
-  <div>Consulting delivered</div>
-  <div>Outcome tracking</div>
+  <div>Applications<span class="flow-date">Announced Apr 2012</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Diagnostic phase<span class="flow-date">Jun&ndash;Oct 2013</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Matched-triplet lottery<span class="flow-date">Nov 2013</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Consulting delivered<span class="flow-date">Individual Mar&ndash;Nov 2014; group Sep 2015&ndash;May 2016</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Outcome tracking<span class="flow-date">2014&ndash;2018</span></div>
 </div>
 ```
 
@@ -1586,7 +1634,7 @@ individual consulting, or group consulting.
   <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">53 group consulting</text>
   <text x="450" y="233" fill="#2B2724" font-size="10.5">~US$10,500/firm, in groups of 3&ndash;8</text>
 </svg>
-<figcaption>Firms were matched into triplets before randomisation, then randomly allocated within each triplet to a comparison group, individual consulting, or group consulting.</figcaption>
+<figcaption>Note: Firms were matched into triplets before randomisation, then randomly allocated within each triplet to a comparison group, individual consulting, or group consulting.</figcaption>
 </figure>
 ```
 
@@ -1707,11 +1755,15 @@ outcomes afterward?"
 
 ```{=html}
 <div class="flow">
-  <div>Applications</div>
-  <div>Skills-training invitation</div>
+  <div>Applications<span class="flow-date">Oct&ndash;Dec 2013</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Skills-training invitation<span class="flow-date">Jan 2014; training Feb&ndash;Mar 2014</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Random assignment</div>
-  <div>Matchmaking</div>
-  <div>Follow-up survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Matchmaking<span class="flow-date">Mar&ndash;May 2014</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">Mar 2015</span></div>
 </div>
 ```
 
@@ -1762,7 +1814,7 @@ and decide whether to offer a placement.
   <text x="620" y="206" fill="#2B2724" font-size="12.5" font-weight="bold">153 control</text>
   <text x="620" y="223" fill="#6B6455" font-size="9.5">no internship match</text>
 </svg>
-<figcaption>Applicants were randomly invited to basic skills training, then the resulting sample was randomly assigned, within specialisation-and-city strata, to a treatment group offered internship matchmaking or a control group.</figcaption>
+<figcaption>Note: Applicants were randomly invited to basic skills training, then the resulting sample was randomly assigned, within specialisation-and-city strata, to a treatment group offered internship matchmaking or a control group.</figcaption>
 </figure>
 ```
 
