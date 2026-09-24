@@ -94,9 +94,7 @@ Defining your learning questions is not just a planning exercise - it is a commi
 
 This discipline extends to every analytical choice that follows: which outcome to treat as primary, which subgroups to compare, how to handle missing data. All of these must be decided before data collection begins, not after.
 
-The mechanism that enforces this commitment publicly is **pre-registration** — publishing the evaluation design on a public registry before any data is collected. Pre-registration is covered in detail in Step 4, where it sits alongside the other feasibility conditions that must be in place before the lottery.
-
-**[See Step 4 for guidance on pre-registration →](02.03c-pre_register.qmd)**
+The mechanism that enforces this commitment publicly is **pre-registration** — publishing the evaluation design on a public registry before any data is collected. Pre-registration is covered in detail in Step 4, where it sits alongside the other feasibility conditions that must be in place before the lottery. [More guidance on pre-registration →](02.03c-pre_register.qmd)
 
 ---
 
