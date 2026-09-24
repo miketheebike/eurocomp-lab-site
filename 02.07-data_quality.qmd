@@ -16,6 +16,7 @@ Data quality is not something that can be fixed after the fact. Problems that go
 
 Quality assurance in a randomised controlled trial (RCT) operates at three levels: before fieldwork begins, during fieldwork, and after data collection is complete. Each level requires different tools and different responsibilities.
 
+---
 
 ## Before fieldwork: build quality in from the start
 
