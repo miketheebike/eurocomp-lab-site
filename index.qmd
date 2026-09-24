@@ -243,8 +243,8 @@ This page explains how to plan a randomised controlled trial, walking you throug
 Experiences from projects already partnering with the EuroCOMP Lab and from beyond.
 :::
 ::: {.card-e}
-#### [Templates](04-templates.qmd)
-Glossary, templates etc.
+#### [Repository](04-templates.qmd)
+Repository for outcomes and survey questions organised by topic. 
 :::
 ::::
  
