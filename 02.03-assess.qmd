@@ -397,8 +397,6 @@ different intensities measures the spillover onto neighbours and competitors.
 None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. Step 7 covers the checks that catch these problems early enough to act on them.
 :::
 
-
-
 ::: {.example .romania}
 [North-East Romania: the programme did not achieve full take-up]{.tag}
 
@@ -406,6 +404,20 @@ Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full 
 
 Because of limited take-up, it is safer to report the intention-to-treat effect, comparing everyone as originally assigned, even though it understates the effect on the firms that actually took up the grant.
 :::
+
+
+## Pre-register the evaluation design before the lottery
+
+Independent of which design is selected, before the lottery takes place, the evaluation design must be publicly committed to on a recognised registry — the research question, primary outcome, randomisation procedure, and analysis plan. This prevents adjusting analytical choices after seeing the results, protects the evaluation team from pressure to change the analysis, and strengthens the credibility of the findings. 
+
+Widely used registries include the [AEA RCT Registry](https://www.socialscienceregistry.org) and [RIDIE](https://ridie.3ieimpact.org).
+
+:::: {.example .romania}
+[North-East Romania: preregister the evaluation design]{.tag}
+
+The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on March 18, 2025, prior to follow-up data collection.
+::::
+
 
 ---
 
