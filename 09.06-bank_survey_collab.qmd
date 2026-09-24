@@ -8,11 +8,15 @@ title: "Topic: collaboration and knowledge transfer"
 - **Metric:** Binary indicator (yes/no); number of active partnerships
 - **Data source:** Primary survey
 
+---
+
 **Partner diversity**
 
 - **Definition:** The range of partner types the firm collaborates with (suppliers, universities, competitors, etc.)
 - **Metric:** Number of distinct partner types; diversity index
 - **Data source:** Primary survey
+
+---
 
 **University-industry linkages
 
@@ -20,11 +24,15 @@ title: "Topic: collaboration and knowledge transfer"
 - **Metric:** Binary indicator; number of joint projects; value of contracted research (€)
 - **Data source:** Primary survey or administrative (research funding records)
 
+---
+
 **Knowledge sourcing breadth**
 
 - **Definition:** The variety of external knowledge sources the firm draws on for its activities
 - **Metric:** Number of knowledge sources rated as important (based on CIS battery); composite score
 - **Data source:** Primary survey
+
+---
 
 **Cluster or network participation**
 

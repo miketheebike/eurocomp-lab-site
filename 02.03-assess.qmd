@@ -13,7 +13,7 @@ This page explains how to assess the feasibility of an RCT.
 
 By this point you have mapped your programme's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
 
-An RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
+A randomised controlled trial (RCT) is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
 
 ***
 
@@ -49,29 +49,13 @@ The indicators selected in Step 3 must be observable — through administrative 
 
 Before designing the lottery or scoring mechanism, confirm that your national legal framework — and the specific legislation governing your programme — either explicitly permits randomisation as a selection method or is flexible enough to accommodate it.
 
-Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. This silence creates uncertainty that discourages even willing institutions from proceeding. A clear legal basis is the precondition for experimental evaluation to happen at all.
-
-**[See the legal framework page for country examples, key legal elements, and practical steps](02.03c-legal.qmd)**
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page for country examples, key legal elements, and practical steps →](02.03c-legal.qmd)**
 :::
 
 
-## Pre-register the evaluation design before the lottery
-
-Before the lottery takes place, the evaluation design must be publicly committed to on a recognised registry — the research question, primary outcome, randomisation procedure, and analysis plan. This prevents adjusting analytical choices after seeing the results, protects the evaluation team from pressure to change the analysis, and strengthens the credibility of the findings. 
-
-Widely used registries include the [AEA RCT Registry](https://www.socialscienceregistry.org) and [RIDIE](https://ridie.3ieimpact.org).
-
-:::: {.example .romania}
-[North-East Romania: preregister the evaluation design]{.tag}
-
-The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on March 18, 2025, prior to follow-up data collection.
-::::
-
-***
-
 ## Randomisation must be designed in from the start
 
-The most common mistake is treating randomisation as something that can be added once the programme is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data must have been collected. Everything to the left of the lottery in the diagram below has to be in place before the programme launches — that is precisely what makes the comparison between treatment and comparison firms valid.
+The most common mistake is treating randomisation as something that can be added once the programme is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data should have been collected. Everything to the left of the lottery in the diagram below has to be in place before the programme launches — that is precisely what makes the comparison between treatment and comparison firms valid.
 
 ```{=html}
 <figure class="fig-e">
@@ -115,7 +99,7 @@ The most common mistake is treating randomisation as something that can be added
   <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
 </svg>
-<figcaption>Everything to the left of the lottery has to happen before the programme launches. That is what makes the comparison valid.</figcaption>
+<figcaption>Note: illustrative timeline of an RCT.</figcaption>
 </figure>
 ```
 
@@ -126,21 +110,17 @@ The most common mistake is treating randomisation as something that can be added
   <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
   <div>Online applications<br><span style="font-weight:400;color:#6B6455">About one hour to complete</span></div>
   <div>Automatic screening<br><span style="font-weight:400;color:#6B6455">Stops as soon as a criterion fails</span></div>
-  <div style="background:#F2C94C;border-color:#F2C94C">1&nbsp;038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
+  <div style="background:#F2C94C;border-color:#F2C94C">1,038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
 </div>
 ```
 North-East Romania combined three steps that are usually separate — application, eligibility check, and baseline data collection — into a single online survey. This meant that by the time the eligibility pool was confirmed, the baseline data was already in hand. In October 2023, 519 of the 1,038 eligible firms were randomly selected to receive a grant. The other 519 became the comparison group.
 ::::
 
-***
-
 ## Do you have enough firms?
 
 To detect the impact of a programme, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible — ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?
 
-The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample.
-
-**[More details on power calculations →](02.03a-power.qmd)**
+The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations →](02.03a-power.qmd)
 
 If the eligible pool falls short, there are two immediate levers:
 
@@ -155,15 +135,11 @@ If you are scoring applicants, avoid treating small score differences as decisiv
 :::
 :::
 
-::: {.takeaway}
-A larger pool also creates room to test more than one version of the programme simultaneously — more on this under Multiple treatment arms, below.
-:::
 
-***
 
 ## Five ways to randomise your programme
 
-Not every programme fits the same shape. The right design depends on your programme's structure, budget, and the questions you most want to answer. Here are five approaches in common use.
+Not every programme fits the same shape. The right design depends on your programme's structure, budget, and the learning questions you would like to answer. Here are five approaches in common use.
 
 ```{=html}
 <div class="designs">
@@ -198,7 +174,7 @@ Not every programme fits the same shape. The right design depends on your progra
 :::: {.example .romania}
 [North-East Romania used a lottery]{.tag}
 
-Of the five designs above, North-East Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The comparison group received no grant and was not invited to apply. Both groups were surveyed in the same way throughout the evaluation period.
+North-East Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The firms in the comparison group were not invited to apply and thus, received no grant. Both groups were surveyed in the same way throughout the evaluation period.
 
 ```{=html}
 <figure class="fig-e">
@@ -221,11 +197,11 @@ Of the five designs above, North-East Romania used a simple lottery. The 1,038 e
   <text x="446" y="199" fill="#6B6455" font-size="10.5">No grant; firms continue as usual,</text>
   <text x="446" y="212" fill="#6B6455" font-size="10.5">surveyed the same way</text>
 </svg>
+<figcaption>Note: RCT design used in North-East Romania to measure impacts of digitalisation grants.</figcaption>
 </figure>
 ```
 ::::
 
-***
 
 ## Public or private lottery?
 
@@ -259,10 +235,9 @@ The draw is conducted internally by the evaluation team, with full documentation
 :::
 
 ::: {.takeaway}
-In practice, most World Bank-supported evaluations run the draw as a secure, documented, computerised procedure with a verifiable audit trail — combining the rigour of a private draw with the accountability of one that can be independently checked afterwards.
+In practice, most RCT evaluations run the draw as a secure, documented, computerised procedure with a verifiable audit trail — combining the rigour of a private draw with the accountability of one that can be independently checked afterwards.
 :::
 
-***
 
 ## Randomising only part of the pool: a lottery around a cutoff
 
@@ -292,8 +267,8 @@ This approach reduces the pool that is randomised, focuses the evaluation on the
   <text x="425" y="128" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomised</text>
   <text x="425" y="146" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
   <text x="425" y="160" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
-  <text x="20" y="270" fill="#6B6455" font-size="11.5">Example: credit scoring in the Philippines</text>
 </svg>
+<figcaption>Note: lottery around a cutoff. </figcaption>
 </figure>
 ```
 
@@ -301,7 +276,6 @@ This approach reduces the pool that is randomised, focuses the evaluation on the
 Keep the scoring process rules-based. Subjective assessment — even by expert panels — has been shown to introduce systematic bias. A structured scoring rubric, applied consistently, is fairer and more defensible than discretionary judgment.
 :::
 
-***
 
 ## Testing programme versions: multiple treatment arms
 
@@ -330,11 +304,9 @@ The trade-off is sample size: more arms means more groups, and the available poo
   <text x="570" y="25" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">4.5</text>
   <text x="570" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Version 3</text>
 </svg>
-<figcaption>Illustrative figures. Comparing outcomes across arms shows which version of a programme produces the largest effect.</figcaption>
+<figcaption>Note: multiple treatment arms.</figcaption>
 </figure>
 ```
-
-***
 
 ## When you cannot fund everyone at once: randomised phase-in
 
@@ -360,10 +332,10 @@ The key advantage is that everyone eventually receives support, which makes the 
   <rect x="210" y="182" width="11" height="11" fill="var(--dg-muted)"/>
   <text x="228" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Waiting, acts as comparison</text>
 </svg>
+<figcaption>Note: randomised phase-in design.</figcaption>
+
 </figure>
 ```
-
-***
 
 ## Varying the dose: randomised intensities
 
@@ -384,10 +356,10 @@ Rather than randomising which firms receive the programme, you can randomise how
   <text x="505" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm C</text>
   <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
 </svg>
+<figcaption>Note: randomised intensities.</figcaption>
 </figure>
 ```
 
-***
 
 ## When take-up is low: encouragement design
 
@@ -401,13 +373,12 @@ The main limitation is that the estimate reflects the effect of the encouragemen
 Compliance is rarely perfect in either direction: some encouraged firms will never take up the programme, and some non-encouraged firms will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual firms actually did. Your evaluation team will handle this in the analysis.
 :::
 
-***
 
-## What can go wrong?
+## What are potential challenges?
 
 Even a well-designed RCT must survive contact with reality. These are the four most common problems — and what can be done about each.
 
-**Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible. Step 7 covers how to detect and address attrition once data collection is complete.
+**Attrition.** Firms drop out between the baseline and the endline — because they closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible.
 
 **Spillovers.** Comparison firms benefit from the programme indirectly — a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level — by region or sector cohort rather than by individual firm — can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
 
@@ -427,24 +398,19 @@ different intensities measures the spillover onto neighbours and competitors.
 **Uneven implementation.** The programme is delivered inconsistently across firms — some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the Managing Authority and the delivery team reduce this risk.
 
 ::: {.takeaway}
-None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. Step 7 covers the checks that catch these problems early enough to act on them.
+None of these problems make an RCT impossible — but all of them must be anticipated at the design stage, not discovered after the endline survey. 
 :::
-
-
 
 ::: {.example .romania}
 [North-East Romania: the programme did not achieve full take-up]{.tag}
 
-Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding
-proposal, and 333 (64.2%) were eventually contracted.
+Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding proposal, and 333 (64.2%) were eventually contracted.
 
-Because of limited take-up, it is safer to report the intention-to-treat effect,
-comparing everyone as originally assigned, even though it understates the effect on the
-firms that actually took up the grant.
+Because of limited take-up, it is safer to report the intention-to-treat effect, comparing everyone as originally assigned, even though it understates the effect on the firms that actually took up the grant.
 :::
 ***
 
 ::: {.nav-buttons}
-[← Previous: Step 3 — Determine relevant indicators](02.03-assess.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
+[← Previous - Step 3: determine relevant indicators](02.03-assess.qmd) | [Next - Step 5: identify available data sources →](02.05-data_sources.qmd)
 :::
 

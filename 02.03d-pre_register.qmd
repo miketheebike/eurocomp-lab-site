@@ -30,5 +30,8 @@ Registry for International Development Impact Evaluations, hosted by 3ie.
 :::
 :::
 
-SMART ROMANIA
-https://www.socialscienceregistry.org/trials/15592/history/256867
+---
+
+::: {.nav-buttons}
+[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
+:::

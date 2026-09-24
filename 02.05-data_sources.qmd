@@ -13,6 +13,8 @@ This page explains how to assess the feasibility of an RCT.
 
 With the Theory of Change, evaluation questions, and indicators in place, and the feasibility of the RCT confirmed, the next question is where the data will come from. This is a strategic decision that must be made before the programme launches — not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
 
+---
+
 ## The fundamental decision: primary, secondary, or both?
 
 For each indicator in your evaluation framework, you must decide whether to rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**.
@@ -31,7 +33,7 @@ North-East Romania used a combination of primary and secondary data: self-report
 
 #### Comparison of primary vs. secondary data
 
-| Column_1 | Primary data | Secondary data (administrative) |
+| Topic | Primary data | Secondary data (administrative) |
 |---|---|---|
 | Reporting bias | Less subject to reporting bias | May be subject to reporting bias |
 | Sample size | Smaller | Larger |
@@ -61,13 +63,13 @@ Second, can the administrative data be linked to the companies being part of the
 
 | Source | What it contains | Access |
 |---|---|---|
-| **National business registry** | Firm registration, legal form, ownership, sector (NACE), address | Usually public or via national statistical office |
-| **Tax authority records** | Turnover, VAT declarations, corporate tax filings, payroll | Via data-sharing agreement with tax authority |
-| **Social security records** | Employment headcount, wage bill, employee characteristics | Via data-sharing agreement with social security body |
-| **Orbis (Bureau van Dijk)** | Financial statements, ownership, M&A activity — 400m+ firms globally | Commercial licence required |
-| **National commercial data providers.** | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
-| **National R&D surveys** | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
-| **Programme management system** | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
+| National business registry | Firm registration, legal form, ownership, sector (NACE), address | Usually public or via national statistical office |
+| Tax authority records | Turnover, VAT declarations, corporate tax filings, payroll | Via data-sharing agreement with tax authority |
+| Social security records | Employment headcount, wage bill, employee characteristics | Via data-sharing agreement with social security body |
+| Orbis (Bureau van Dijk) | Financial statements, ownership, M&A activity — 400m+ firms globally | Commercial licence required |
+| National commercial data providers | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
+| National R&D surveys | R&D expenditure, personnel, outputs — linked to Frascati Manual | Via national statistical office |
+| Programme management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
 
 :::
 
@@ -90,5 +92,5 @@ Once you know which data sources will cover which indicators, the next step is t
 ***
 
 ::: {.nav-buttons}
-[← Previous: Step 4 — Assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next: Step 6 — Collect data →](02.06-data_collect.qmd)
+[← Previous - Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next - Step 6: collect data →](02.06-data_collect.qmd)
 :::

@@ -8,11 +8,15 @@ title: "Topic: intellectual property"
 - **Metric:** Number of patent applications; number of patents granted; binary indicator
 - **Data source:** Administrative (EPO PATSTAT, national patent offices) or primary survey
 
+---
+
 **Trademark and design registration**
 
 - **Definition:** Whether the firm registered trademarks or designs to protect its market position
 - **Metric:** Number of trademarks or registered designs; binary indicator
 - **Data source:** Administrative (EUIPO records) or primary survey
+
+---
 
 **Technology licensing**
 

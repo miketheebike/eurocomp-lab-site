@@ -15,7 +15,7 @@ repeated here; they are explained on the page where they appear, for example
 
 ### A
 
-- **Activities** The concrete actions taken to deliver a programme, such as running grant calls, disbursing subsidies or delivering advisory services. What a programme *does*, as distinct from its inputs or its outputs.
+- **Activities** The concrete actions taken to deliver a programme, such as running grant calls, disbursing subsidies or delivering advisory services. What a programme does, as distinct from its inputs or its outputs.
 - **Additionality** The share of a programme's activity that would not have happened without it. Firms that would have invested anyway generate little that is truly additional per euro of public money spent.
 - **Assumptions** In a Theory of Change, the conditions that must hold for one step in a programme's causal chain to lead to the next. If an assumption does not hold, for example that firms face a genuine financing constraint, a programme can produce outputs without producing real outcomes.
 - **Attrition** Participants dropping out of a study, or no longer responding to follow-up data collection. It becomes a risk when dropout is not random: if struggling firms are the ones most likely to disappear, the firms still measured make a programme look better than it is.

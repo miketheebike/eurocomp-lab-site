@@ -8,11 +8,15 @@ title: "Topic: digitalisation"
 - **Metric:** Number of digital technologies in use; binary indicators per technology type
 - **Data source:** Primary survey
 
+---
+
 **Online sales share**
 
 - **Definition:** Share of total sales conducted through digital channels
 - **Metric:** % of total turnover from online sales
 - **Data source:** Primary survey or administrative (VAT e-commerce records)
+
+---
 
 **Digital investment**
 
@@ -20,11 +24,15 @@ title: "Topic: digitalisation"
 - **Metric:** Total digital investment in €; % change from baseline
 - **Data source:** Primary survey or administrative
 
+---
+
 **Digital skills of the workforce**
 
 - **Definition:** Improvement in the digital capabilities of the firm's employees
 - **Metric:** Share of employees with intermediate or advanced digital skills (%); binary indicator for digital training provision
 - **Data source:** Primary survey
+
+---
 
 **Digital maturity score**
 

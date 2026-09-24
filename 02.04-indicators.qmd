@@ -11,11 +11,13 @@ title: "Step 3: determine relevant indicators"
 This page explains 
 :::
 
-### From Theory of Change to indicators
+---
+
+### From ToC to indicators
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.
 
-For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an RCT. Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what *changed* as a result, and to do so in a way that allows for comparison with a counterfactual (i.e. what would have happened without the programme).
+For Managing Authorities, some of this work is already done. ERDF and ESF+ programmes operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for a randomised controlled trial (RCT). Common indicators are designed for monitoring — they tell you what was delivered — but an evaluation also needs to measure what changed as a result, and to do so in a way that allows for comparison with a counterfactual (i.e. what would have happened without the programme).
 
 Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.
 
@@ -46,9 +48,9 @@ Good indicators share five characteristics, often summarised as SMART:
 Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey (CIS), the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
 
 ::: {.gold-panel}
-The **EuroComp Lab Outcomes Bank** provides a curated, searchable list of outcome indicators drawn from validated instruments, organised by topic — covering firm performance, innovation, R&D, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability. For each outcome, the bank specifies a plain-language definition, the metric and unit of measurement, and whether primary survey data or administrative data is the most appropriate source.
+The **EuroComp Lab outcomes bank** provides a curated, searchable list of outcome indicators drawn from validated instruments, organised by topic — covering firm performance, innovation, research & development, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability. For each outcome, the bank specifies a plain-language definition, the metric and unit of measurement, and whether primary survey data or administrative data is the most appropriate source.
 
-> **[Browse the Outcomes Bank →](09-bank_outcomes.qmd)**
+[Browse the outcomes bank](09-bank_outcomes.qmd)**
 :::
 
 
@@ -56,9 +58,9 @@ The **EuroComp Lab Outcomes Bank** provides a curated, searchable list of outcom
 
 Once your indicators are defined, each one needs a concrete data source behind it. Step 5 addresses the fundamental strategic question: for each indicator, should you rely on primary data collected specifically for the evaluation, secondary administrative data that already exists, or a combination of both? Getting this decision right early shapes everything that follows.
 
-***
+---
 
 ::: {.nav-buttons}
-[← Previous: Step 2 — Define evaluation questions](02.02-eval_questions.qmd) | [Next: Step 4 — Assess feasibility of conducting an RCT→](02.03-assess.qmd)
+[← Previous - Step 2: define evaluation questions](02.02-eval_questions.qmd) | [Next - Step 4: assess feasibility of conducting an RCT →](02.03-assess.qmd)
 :::
 

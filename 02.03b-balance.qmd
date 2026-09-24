@@ -162,5 +162,5 @@ Pre-registration should happen before the baseline survey is fielded — or at t
 ***
 
 ::: {.nav-buttons}
-[← Back to: Step 4 — Assess feasibility](02.03-assess.qmd)
+[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
 :::

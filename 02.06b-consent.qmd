@@ -168,5 +168,5 @@ The GDPR provision governing processing for scientific research, including the d
 ***
 
 ::: {.nav-buttons}
-[← Back to: Step 6 — Collect data](02.06-data_collect.qmd)
+[← Back to - Step 6: collect data](02.06-data_collect.qmd)
 :::

@@ -8,11 +8,15 @@ title: "Topic: technology adoption"
 - **Metric:** Binary indicator (yes/no); number of new technologies adopted; type of technology
 - **Data source:** Primary survey (FAT-based questions)
 
+---
+
 **Technology spending**
 
 - **Definition:** Investment in purchasing or licensing hardware and software
 - **Metric:** Total technology investment in €; % change from baseline
 - **Data source:** Primary survey or administrative (investment tax records)
+
+---
 
 **Technology sophistication**
 
@@ -20,11 +24,15 @@ title: "Topic: technology adoption"
 - **Metric:** Categorical scale from basic to advanced technology types; self-reported
 - **Data source:** Primary survey
 
+---
+
 **Technology-driven productivity gains**
 
 - **Definition:** Whether technology adoption has led to measurable improvements in efficiency or output
 - **Metric:** Self-reported impact on production capacity, unit costs, or quality; combined with administrative productivity data
 - **Data source:** Primary survey and administrative
+
+---
 
 **DESI digital technology integration score**
 
