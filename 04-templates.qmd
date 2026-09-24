@@ -1,30 +1,15 @@
 ---
-title: "Further resources"
+title: "Repository"
 ---
 
 ### Reports
+- [Tides of Change](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia). 
 
-- **Benchmark reports.** 
-- **[Tides of Change](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)**. 
+### Survey question repository
 
-### Templates
+[Survey question repository](08-bank_survey.qmd)
 
-- **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
+### RCT outcome repository
 
-### Resources from other institutions
-
-- [J-PAL](https://www.povertyactionlab.org/research-resources?view=toc)
-- [World Bank DIME](https://dimewiki.worldbank.org/)
-- [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/resources)
-- [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/resources)
-
-### Surveys
-
-- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey)
-- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat)
-- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys)
-- [World Management Survey (WMS)](https://worldmanagementsurvey.org/)
-- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442)
-- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)
-- [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html)
+[RCT outcome repository](09-bank_outcomes.qmd)
 
