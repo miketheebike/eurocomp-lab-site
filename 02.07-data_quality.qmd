@@ -8,8 +8,9 @@ title: "Step 7: ensure high-quality data"
 
 ::: {.team-note}
 #### Summary
-This page explains 
+This page covers quality controls before fieldwork, real-time monitoring during fieldwork, and post-collection steps — cleaning, balance checks, attrition assessment, and validation against administrative data.
 :::
+
 
 Data quality is not something that can be fixed after the fact. Problems that go undetected during fieldwork – inconsistent answers, enumerator errors, item non-response, or systematic biases in who responds – cannot be fully corrected at the analysis stage. The purpose of this step is to put in place the checks that catch these problems early, while there is still time to act on them.
 
