@@ -2,6 +2,29 @@
 title: "Repository"
 ---
 
+## Survey question repository
+
+This question repository is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, response options (where applicable) and copy-paste those that fit your needs.
+
+## Topics
+
+- Topic: [company details](08.01-bank_survey_company.qmd)
+- Topic: [respondent details](08.02-bank_survey_respondent.qmd)
+- Topic: [company structure and ownership](08.03-bank_survey_ownership.qmd)
+- Topic: [company financial performance](08.04-bank_survey_performance.qmd)
+- Topic: [collaboration](08.05-bank_survey_collab.qmd)
+- Topic: [technology adoption](08.06-bank_survey_techadop.qmd)
+- Topic: [digitalization](08.07-bank_survey_digital.qmd)
+- Topic: [innovation and R&D activities](08.08-bank_survey_innov.qmd)
+- Topic: [intellectual property](08.09-bank_survey_ip.qmd)
+- Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
+- Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
+
+---
+
+## 
+
+
 - [Survey question repository](08-bank_survey.qmd)
 - [RCT outcome repository](09-bank_outcomes.qmd)
 
