@@ -497,6 +497,20 @@ Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full 
 
 Because of limited take-up, it is safer to report the intention-to-treat effect, comparing everyone as originally assigned, even though it understates the effect on the firms that actually took up the grant.
 :::
+
+## Once set, learning questions cannot change
+
+Defining your learning questions is not just a planning exercise - it is a commitment. Once the programme has launched and firms have been assigned to treatment and comparison groups, the evaluation questions are fixed. Changing them after seeing the data - even partially, even with good intentions – opens the door to selective reporting: the tendency, conscious or not, to gravitate toward questions that happen to produce favourable or statistically significant results.
+
+This discipline extends to every analytical choice that follows: which outcome to treat as primary, which subgroups to compare, how to handle missing data. All of these must be decided before data collection begins, not after.
+
+The mechanism that enforces this commitment publicly is **pre-registration** – publishing the evaluation design on a public registry before any data is collected. Pre-registration is covered in detail in Step 4, where it sits alongside the other feasibility conditions that must be in place before the lottery. 
+
+**[See Step 4 for guidance on pre-registration →](02.03d-pre_register.qmd)**
+
+
+
+
 ***
 
 ::: {.nav-buttons}
