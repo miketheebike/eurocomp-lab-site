@@ -11,7 +11,6 @@ title: "Step 7: ensure high-quality data"
 This page explains 
 :::
 
-
 Data quality is not something that can be fixed after the fact. Problems that go undetected during fieldwork – inconsistent answers, enumerator errors, item non-response, or systematic biases in who responds – cannot be fully corrected at the analysis stage. The purpose of this step is to put in place the checks that catch these problems early, while there is still time to act on them.
 
 Quality assurance in a randomised controlled trial (RCT) operates at three levels: before fieldwork begins, during fieldwork, and after data collection is complete. Each level requires different tools and different responsibilities.
