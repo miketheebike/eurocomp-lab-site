@@ -118,7 +118,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) – internationally consistent definitions of innovation concepts and measurement approaches
 - [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) - internationally consistent definitions of research & development concepts and measurement approaches
 
-::: {.gold-panel}
+::: {.takeaway}
 The survey question repository provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
 
 | Topic | Content |
