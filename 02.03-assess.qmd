@@ -121,7 +121,7 @@ North-East Romania combined three steps that are usually separate — applicatio
 To detect the impact of a programme, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible — ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?
 
 
- ## Lesson 1: link eligibility directly to programme objectives
+## Lesson 1: link eligibility directly to programme objectives
 
 Vague or broadly defined eligibility criteria are one of the most common weaknesses in EU-funded programmes. When eligibility is not tightly linked to the programme's Theory of Change, three problems tend to follow: the wrong firms enter the pool, evaluators cannot assess applications consistently, and the evaluation cannot cleanly measure whether the programme reached its intended beneficiaries.
 
@@ -148,7 +148,19 @@ In Italy, a minibond programme pre-identified 289 eligible firms, of which only 
 ::::
 
 
+## Lesson 3: Set measurable indicators from the start
 
+Without measurable outcome indicators tied to clear objectives, programmes cannot be held accountable for their results — and evaluations cannot determine whether they worked. Targets are frequently treated as administrative end goals rather than as part of a broader results chain, which means that even well-implemented programmes struggle to demonstrate impact.
+
+A Theory of Change developed before the programme launches provides the framework for identifying which outcomes to measure, at which level of the causal chain, and over what time horizon. Indicators should be specific, observable, and linked to the data sources that will actually be available at the time of measurement.
+
+:::: {.example}
+[Romania]{.tag}
+
+In Romania, the World Bank supported the Managing Authority in developing a Theory of Change and in applying systematic methods to quantify the Managing Authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured — allowing the design to be adjusted before implementation rather than after the evaluation. The process also produced a baseline report on 1,038 MSMEs that passed the eligibility screening, giving the evaluation team the pre-intervention data needed to measure change.
+::::
+
+***
 
 ## Lesson 4: Invest heavily in outreach — especially to reach new beneficiaries
 
