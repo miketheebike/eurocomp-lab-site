@@ -14,7 +14,10 @@ This page explains why experimentation matters for policy, how RCTs relate to im
 
 Innovation in policymaking to maximise returns on European Cohesion Policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges. 
 
-The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness. To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement. 
+The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness. 
+
+To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement. 
+
 Successful policy development, particularly in innovation, must be accompanied by ongoing adaptation to evolving circumstances. 
 
 ::: {.gold-panel}
@@ -57,6 +60,7 @@ choice](01-why-and-when.qmd#rct).
 ## Randomised controlled trials show what works and why
 
 A randomised controlled trial compares what happens to programme participants against an on-average identical group that does not receive the programme. That comparison can show whether the Cohesion Policy programme – and not something else going on at the same time – is the reason things improved.
+
 Who ends up in the treatment group and who ends up in the comparison group is decided by a random draw. It is not decided by who applied first, who looked most promising, or who reviewed the application. Because assignment to the programme is random, the two groups look the same on average before the programme. That is true not just for characteristics you can measure, but also for the ones you
 cannot observe. So when a difference between the groups shows up later, it can be attributed to the programme.
 
