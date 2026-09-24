@@ -90,7 +90,7 @@ The baseline and follow-up survey involved, both CAPI and CATI methods, dependin
 
 ## The role of data collection firms and evaluation consultants
 
-Managing Authorities can conduct surveys in-house. In practice, primary data collection typically involves external expertise working in close coordination: **evaluation consultant** and/or **data collection firm**. The division of responsibilities should be made explicit in procurement. 
+Managing Authorities can conduct surveys in-house. In practice, primary data collection typically involves external expertise working in close coordination: evaluation consultant and/or data collection firm. The division of responsibilities should be made explicit in procurement. 
 
 Depending on which activities the Managing Authorities concut in-house, the **evaluation consultant** or **data collection firm** supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 
@@ -109,36 +109,37 @@ For more information on TORs, please click here: [Terms of References](02.06a-to
 
 Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
 
-- The **[Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey)** — the standard EU framework for measuring innovation activity in firms
-- The **[Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat)** — World Bank instrument on technology adoption across sectors
-- The **[World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys)** — firm-level outcomes including investment, productivity, and the business environment
-- The **[World Management Survey (WMS)](https://worldmanagementsurvey.org/)** — management practices across firms and countries
-- The **[Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442)** — digital technology adoption and skills across EU member states
-- The **[ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)** — financing conditions and constraints for SMEs
-- The **OECD Oslo Manual** — internationally consistent definitions of innovation concepts and measurement approaches
+- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) — the standard EU framework for measuring innovation activity in firms
+- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) — World Bank instrument on technology adoption across sectors
+- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys) — firm-level outcomes including investment, productivity, and the business environment
+- [World Management Survey (WMS)](https://worldmanagementsurvey.org/) — management practices across firms and countries
+- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) — digital technology adoption and skills across EU member states
+- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) — financing conditions and constraints for SMEs
+- [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) — internationally consistent definitions of innovation concepts and measurement approaches
+- [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) - internationally consistent definitions of research & development concepts and measurement approaches
 
 ::: {.gold-panel}
-The **Survey Question Bank** provides a ready-to-use library of validated questions drawn from the CIS, FAT, WBES, WMS, and Flash Eurobarometer, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
+The survey question bank provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
 
 | Topic | Content |
 |---|---|
-| 1. Company details | Sector, size, turnover, location, year of establishment |
-| 2. Respondent contact details | Role, seniority, contact information |
-| 3. Company structure and ownership | Group membership, ownership type, governance |
-| 4. Financial performance | Turnover, value added, investment, export share |
-| 5. Collaboration | Partners, knowledge sources, network participation |
-| 6. Technology adoption | Technologies in use, adoption drivers and barriers |
-| 7. Digitalisation | Digital tools, online sales, digital skills, investment |
-| 8. Innovation and R&D activities | Product, process, organisational and marketing innovation; R&D engagement, expenditure, staffing, outputs |
-| 9. Intellectual property | Patents, trademarks, licensing, informal protection |
-| 10. Technology Readiness Level | TRL self-assessment |
+| Company details | Sector, size, turnover, location, year of establishment |
+| Respondent contact details | Role, seniority, contact information |
+| Company structure and ownership | Group membership, ownership type, governance |
+| Financial performance | Turnover, value added, investment, export share |
+| Collaboration | Partners, knowledge sources, network participation |
+| Technology adoption | Technologies in use, adoption drivers and barriers |
+| Digitalisation | Digital tools, online sales, digital skills, investment |
+| Innovation and R&D activities | Product, process, organisational and marketing innovation; R&D engagement, expenditure, staffing, outputs |
+| Intellectual property | Patents, trademarks, licensing, informal protection |
+| Technology Readiness Level | TRL self-assessment |
 
-**[Browse the Survey Question Bank](08-bank_survey.qmd)**
+**[Browse the survey question bank](08-bank_survey.qmd)**
 :::
 
 ### Questionnaire design
 
-A good questionnaire is clear, concise, and purposeful. Every question should map to an indicator in the Theory of Change. Questions included for general interest add respondent burden without adding analytical value and should be removed.
+A good questionnaire is clear, concise, and purposeful. Every question should map to an indicator in the ToC. Questions included for general interest add respondent burden without adding analytical value and should be removed.
 
 Questions should address only one idea at a time. Double-barrelled questions — which ask about two things simultaneously, such as "Did the grant improve your firm's R&D capacity and export performance?" — make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions undermine the reliability of the data.
 
