@@ -184,5 +184,5 @@ Data collection is only as valuable as the quality of what is collected. Step 7 
 ---
 
 ::: {.nav-buttons}
-[← Previous: Step 5 — identify available data sources](02.05-data_sources.qmd) | [Next: Step 7 — ensure high-quality data →](02.07-data_quality.qmd)
+[← Previous - Step 5: identify available data sources](02.05-data_sources.qmd) | [Next - Step 7: ensure high-quality data →](02.07-data_quality.qmd)
 :::
