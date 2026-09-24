@@ -11,6 +11,8 @@ title: "Step 3: determine relevant indicators"
 This page explains 
 :::
 
+---
+
 ### From ToC to indicators
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC — inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions — needs at least one measurable indicator to track whether things are moving as expected.
