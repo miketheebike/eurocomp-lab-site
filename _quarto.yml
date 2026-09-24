@@ -24,11 +24,11 @@ website:
       - href: 03-examples.qmd
         text: Examples
       - href: 04-templates.qmd
-        text: Templates
+        text: Repository
       - text: About
         menu:
           - href: eurocomp.qmd
-            text: The Lab
+            text: EuroCOMP Lab
           - href: research-partners.qmd
             text: Research partners
           - href: glossary.qmd
@@ -49,6 +49,7 @@ website:
         contents:
           - href: 02.01-toc.qmd
           - href: 02.02-eval_questions.qmd
+          # Step 3 precedes Step 4, matching the page titles
           - href: 02.04-indicators.qmd
           # the a/b/c pages are supporting detail, nested under their step
           - section: 02.03-assess.qmd
@@ -60,17 +61,16 @@ website:
           - section: 02.06-data_collect.qmd
             contents:
               - href: 02.06a-tor.qmd
+              - href: 02.06b-consent.qmd
           - href: 02.07-data_quality.qmd
 
       - href: 03-examples.qmd
         text: Examples
 
-      - section: "Templates and resources"
+      - section: "Repository"
         href: 04-templates.qmd
         contents:
-          - href: glossary.qmd
-            text: Glossary
-          - section: "Survey question bank"
+          - section: "Survey question repository"
             href: 08-bank_survey.qmd
             contents:
               - href: 08.01-bank_survey_company.qmd
@@ -82,10 +82,9 @@ website:
               - href: 08.07-bank_survey_digital.qmd
               - href: 08.08-bank_survey_innov.qmd
               - href: 08.09-bank_survey_ip.qmd
-              - href: "08.10-bank_survey_r&d.qmd"
               - href: 08.11-bank_survey_trl.qmd
               - href: 08.12-bank_survey_energy.qmd
-          - section: "Outcome bank"
+          - section: "RCT outcome repository"
             href: 09-bank_outcomes.qmd
             contents:
               - href: 09.01-bank_outcomes_performance.qmd
@@ -100,9 +99,11 @@ website:
       - section: "About"
         contents:
           - href: eurocomp.qmd
-            text: The Lab
+            text: EuroCOMP Lab
           - href: research-partners.qmd
             text: Research partners
+          - href: glossary.qmd
+            text: Glossary
 
   page-footer:
     border: true

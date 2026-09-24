@@ -33,7 +33,7 @@ A baseline survey (pre-application data) was administered: The primary objective
 ::: {.example .romania}
 [North-East Romania: follow-up data collection]{.tag}
 
-A follow-up survey was administered: the 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics i) general administrative details about the business; ii) background information on the business manager; iii) an overview of the business; iv) details on products/services, market presence, revenue, and customers; v) the use of telecommunications and internet across business locations; vi) relevant digital indicators for the business; vii) methods and processes used for routine business operations; viii) key factors influencing technology adoption, such as investments and management decisions; and ix) financial information for the business in 2024. 
+A follow-up survey was administered: the 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics i) general administrative details about the business; ii) background information on the business manager; iii) an overview of the business; iv) details on products/services, market presence, revenue, and customers; v) the use of telecommunications and internet across business locations; vi) relevant digital indicators for the business; vii) methods and processes used for routine business operations; viii) key factors influencing technology adoption, such as investments and management decisions; and ix) financial information for the business in 2024.
 :::
 
 **Midline survey (optional):** where the Theory of Change includes important intermediate outcomes worth tracking before the final endline – for example, changes in management practices or technology adoption as precursors to longer-term productivity effects – a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
@@ -85,12 +85,12 @@ Data in North-East Romania was collected using a web survey (baseline survey) an
 The primary respondents were CEOs and/or firm owners, with additional input from senior representatives of relevant departments when necessary.
 :::
 
-**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue – beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time. 
+**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue – beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.
 
 
 ## The role of data collection firms and evaluation consultants
 
-Managing Authorities can conduct surveys in-house. In practice, primary data collection typically involves external expertise working in close coordination: evaluation consultant and/or data collection firm. The division of responsibilities should be made explicit in procurement. 
+Managing Authorities can conduct surveys in-house. In practice, primary data collection typically involves external expertise working in close coordination: evaluation consultant and/or data collection firm. The division of responsibilities should be made explicit in procurement.
 
 Depending on which activities the Managing Authorities concut in-house, the **evaluation consultant** or **data collection firm** supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 

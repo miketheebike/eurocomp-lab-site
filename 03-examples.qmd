@@ -11,7 +11,7 @@ title: "Examples"
 
 ::: {.team-note}
 ####Summary
-This page presents examples of public programmes that built experimentation into their design. For each one, it describes the problem the programme set out to address, how the programme and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab. 
+This page presents examples of public programmes that built experimentation into their design. For each one, it describes the problem the programme set out to address, how the programme and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab.
 :::
 
 ```{=html}
@@ -92,8 +92,8 @@ This page presents examples of public programmes that built experimentation into
 <div class="further-reading">
   <span class="fr-label">All first-round results in one place</span>
   <div class="fr-entry">
-    <span class="fr-cite">World Bank. 2025. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policies: Summary Report.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC. Policy briefs for Romania, Spain, Czechia and Croatia.</span>
-    <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130136130">Read the summary report &rarr;</a>
+  <span class="fr-cite">World Bank. 2025. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policies: Summary Report.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC. Policy briefs for Romania, Spain, Czechia and Croatia.</span>
+  <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130136130">Read the summary report &rarr;</a>
   </div>
 </div>
 ```
@@ -191,9 +191,9 @@ low, medium and high quality.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: it leverages investment-return uncertainty for
-applications with unclear returns. 
+applications with unclear returns.
 Limitation: it requires a large sample size in the
 middle range.
 :::
@@ -246,8 +246,8 @@ firms would have spent anyway.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-    <span class="fr-cite">Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.</span>
-    <a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">Read the report &rarr;</a>
+  <span class="fr-cite">Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">Read the report &rarr;</a>
   </div>
 </div>
 ```
@@ -447,12 +447,12 @@ AI Klub
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-    <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Francisco Campos, Chiara Spina, and Rahul Suhag. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; Smart Start</span>
-    <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
+  <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Francisco Campos, Chiara Spina, and Rahul Suhag. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; Smart Start</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
   </div>
   <div class="fr-entry">
-    <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Leonardo Iacovone, Andreas Menzel, Florian Anselm Münch, and Rahul Suhag. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; AI Klub</span>
-    <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
+  <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Leonardo Iacovone, Andreas Menzel, Florian Anselm Münch, and Rahul Suhag. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; AI Klub</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
   </div>
 </div>
 ```
@@ -562,9 +562,9 @@ were randomly assigned by lottery to receive matchmaking support or not.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: a lottery among applicants ensures wide outreach,
-thanks to a simple application process. 
+thanks to a simple application process.
 Limitation: firms may drop out after applying,
 which can reduce statistical power.
 :::
@@ -594,8 +594,8 @@ pilot.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-    <span class="fr-cite">Avdeenko, Alexandra, Francisco Campos, Rajesh Chandy, Leonardo Iacovone, and Namrata Kala. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.</span>
-    <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Read the report &rarr;</a>
+  <span class="fr-cite">Avdeenko, Alexandra, Francisco Campos, Rajesh Chandy, Leonardo Iacovone, and Namrata Kala. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Read the report &rarr;</a>
   </div>
 </div>
 ```
@@ -638,6 +638,7 @@ energy use?"
 
 ```{=html}
 <div class="facts">
+  <div><div class="k">Timeline</div><div class="v">Call 1 opened February 2024 (1,406 firms); lottery June 2024; activities from July 2024; Call 2 December 2024 to February 2025 (558 firms); follow-up surveys Q1 2025 and Q1 2026; findings September 2026</div></div>
   <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
   <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
   <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
@@ -675,43 +676,37 @@ worked with comparable advisors.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Applications from two open calls are screened down to 1,964 eligible firms, which enter a lottery splitting them into 986 firms offered a grant of up to EUR 10,000 and 978 firms receiving advisory services only">
-  <rect x="10" y="66" width="130" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="75" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">3,000+</text>
-  <text x="75" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">applications</text>
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,964 eligible firms enter a lottery, splitting them into 986 firms offered a grant of up to EUR 10,000 and 978 firms receiving advisory services only">
+  <rect x="20" y="66" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="95" y="95" text-anchor="middle" fill="var(--dg-ink)" font-size="19" font-weight="bold">1,964</text>
+  <text x="95" y="114" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">eligible firms</text>
 
-  <path d="M140 99 H166" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M170 99 H230" stroke="var(--dg-line)" stroke-width="1.5"/>
 
-  <rect x="166" y="66" width="130" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="231" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">1,964</text>
-  <text x="231" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">eligible firms</text>
+  <rect x="230" y="66" width="150" height="66" rx="6" fill="var(--dg-accent)"/>
+  <text x="305" y="92" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="305" y="110" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">every firm, the same chance</text>
 
-  <path d="M296 99 H326" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M380 99 H410 V40 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M380 99 H410 V160 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-  <rect x="326" y="66" width="130" height="66" rx="6" fill="#F2C94C"/>
-  <text x="391" y="92" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">LOTTERY</text>
-  <text x="391" y="110" text-anchor="middle" fill="#2B2724" font-size="10.5">every firm, the same chance</text>
+  <rect x="440" y="14" width="245" height="52" rx="6" fill="var(--dg-accent)"/>
+  <text x="454" y="36" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">986 offered a grant</text>
+  <text x="454" y="53" fill="var(--dg-ink)" font-size="11">up to EUR 10,000, plus advice</text>
 
-  <path d="M456 99 H486 V34 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <path d="M456 99 H486 V164 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-
-  <rect x="516" y="10" width="180" height="48" rx="6" fill="#F2C94C"/>
-  <text x="530" y="30" fill="#2B2724" font-size="12.5" font-weight="bold">986 offered a grant</text>
-  <text x="530" y="47" fill="#2B2724" font-size="11">up to EUR 10,000, plus advice</text>
-
-  <rect x="516" y="140" width="180" height="48" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="530" y="160" fill="#2B2724" font-size="12.5" font-weight="bold">978 standard group</text>
-  <text x="530" y="177" fill="#6B6455" font-size="11">advisory services only</text>
+  <rect x="440" y="134" width="245" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="454" y="156" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">978 standard group</text>
+  <text x="454" y="173" fill="var(--dg-ink-soft)" font-size="11">advisory services only</text>
 </svg>
 <figcaption>Note: Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
 </figure>
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: because the grant was drawn by lottery among firms that
 all received the same advisory service, the comparison separates the effect of the cash
-from the effect of the advice, across 34 countries at once. 
+from the effect of the advice, across 34 countries at once.
 Limitation: firms offered
 the grant answered follow-up surveys far more often than the standard group (91%
 against 65%), so the estimates depend on statistical corrections for who responded.
@@ -767,13 +762,19 @@ and to justify it on investment and management change rather than on short-run b
 performance.
 :::
 
-::: {.team-note}
-**To confirm before publishing.** Two points need a final check against the report: the
-exact number of submitted applications across both calls (the report gives 1,585 and
-1,639 in the text, but 1,469 and 1,639 in the applications figure), and whether a public
-link to the final report and the 2-pager can be added here alongside the trial
-registration (AEA RCT Registry, AEARCTR-0015124).
-:::
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">Avdeenko, A., F. Campos, L. Iacovone, N. Kala, M. Nuno, J. Salhab and R. Martin (2026). &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
+  <a href="assets/eenergy-2pager.pdf">Summary of findings (PDF) &rarr;</a>
+  </div>
+  <div class="fr-entry">
+  <span class="fr-cite">Trial registration: AEARCTR-0015124, AEA RCT Registry.</span>
+  <a href="https://www.socialscienceregistry.org/trials/15124">View the registration &rarr;</a>
+  </div>
+</div>
+```
 
 
 ## Bulgaria: human-led versus AI-led business consulting {#bulgaria}
@@ -879,7 +880,7 @@ arms.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: putting human-led consulting and two AI-based
 alternatives in the same trial, against the same control group, lets the evaluation
 rank all three by cost-effectiveness rather than comparing each in isolation.
@@ -1023,10 +1024,10 @@ tool and a technology scout, while the remainder are waitlisted.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: nesting three experiments inside PARP's own
 application funnel means each stage's estimate is drawn from firms who arrive
-naturally through the programme, not an artificial sample. 
+naturally through the programme, not an artificial sample.
 Limitation: because later
 stages depend on take-up from earlier ones, the sample shrinks at each step, leaving
 less statistical power for the innermost support experiment.
@@ -1179,10 +1180,10 @@ during implementation.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: randomising AI access at the reviewer-proposal level,
 with each reviewer cycling between AI-assisted and unassisted batches, isolates the
-effect of the tool from differences between reviewers. 
+effect of the tool from differences between reviewers.
 Limitation: because a
 reviewer with AI access can choose how much to rely on it, the design measures the
 effect of being offered AI support (intention-to-treat), not of using it, though
@@ -1335,7 +1336,7 @@ within the same cluster isolates each firm's own private return.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: varying funding intensity across clusters, on top of
 randomising which firms within a cluster are funded, lets the evaluation separate a
 firm's private return from spillovers onto its neighbours and competitors.
@@ -1377,7 +1378,7 @@ models of innovation diffusion, an area where experimental evidence remains scar
 :::
 
 ***
-## Earlier work by the EuroCOMP Lab team: Digitrans 
+## Earlier work by the EuroCOMP Lab team: Digitrans
 
 ::: {.cards}
 ::: {.card-e}
@@ -1486,10 +1487,10 @@ that groups were balanced from the outset.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: a three-arm design separates the effect of money from
 the effect of capability-building support, rather than only comparing supported firms
-to unsupported ones. 
+to unsupported ones.
 Limitation: it needs a larger sample than a simple two-arm trial to
 detect the same effect size, since firms are split three ways.
 :::
@@ -1656,10 +1657,10 @@ individual consulting, or group consulting.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: matching firms into triplets before randomising keeps
 the three groups closely balanced on size, productivity and starting management
-practices, even with a modest overall sample. 
+practices, even with a modest overall sample.
 Limitation: with only 53 firms in each
 arm, the design has less statistical power to detect small effects than a larger,
 simple two-arm trial.
@@ -1717,8 +1718,8 @@ models.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-    <span class="fr-cite">Iacovone, L., Maloney, W. F., &amp; McKenzie, D. (2022). Improving management with individual and group-based consulting: Results from a randomized experiment in Colombia. <em>Review of Economic Studies</em>, 89(1), 346&ndash;371.</span>
-    <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913">Read the paper &rarr;</a>
+  <span class="fr-cite">Iacovone, L., Maloney, W. F., &amp; McKenzie, D. (2022). Improving management with individual and group-based consulting: Results from a randomized experiment in Colombia. <em>Review of Economic Studies</em>, 89(1), 346&ndash;371.</span>
+  <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913">Read the paper &rarr;</a>
   </div>
 </div>
 ```
@@ -1840,11 +1841,11 @@ and decide whether to offer a placement.
 ```
 
 ::: {.soft-panel}
-**Why this design.** 
+**Why this design.**
 Strength: randomising within strata defined by
 specialisation and city, among applicants who had already been invited to
 training, helps ensure the treatment and control groups started out
-comparable in skills and local job-market conditions. 
+comparable in skills and local job-market conditions.
 Limitation: more
 applicants were assigned to treatment than there were internship placements
 available, so actual take-up (36.7%) fell well below the treatment
@@ -1911,8 +1912,8 @@ equilibrium effect this study could not measure.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-    <span class="fr-cite">McKenzie, D., Assaf, N., &amp; Cusolito, A. P. (2016). The demand for, and impact of, youth internships: Evidence from a randomized experiment in Yemen. <em>IZA Journal of Labor &amp; Development</em>, 5(1), 1&ndash;15.</span>
-    <a href="https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8">Read the paper &rarr;</a>
+  <span class="fr-cite">McKenzie, D., Assaf, N., &amp; Cusolito, A. P. (2016). The demand for, and impact of, youth internships: Evidence from a randomized experiment in Yemen. <em>IZA Journal of Labor &amp; Development</em>, 5(1), 1&ndash;15.</span>
+  <a href="https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8">Read the paper &rarr;</a>
   </div>
 </div>
 ```

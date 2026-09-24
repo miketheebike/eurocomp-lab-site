@@ -50,8 +50,8 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-    <span class="fr-cite">World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
-    <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
+  <span class="fr-cite">World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
   </div>
 </div>
 ```
