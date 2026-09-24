@@ -10,7 +10,7 @@ This question bank is organised by topic. Navigate to the theme most relevant to
 - Response options where applicable
 - The source survey it is drawn from
 
-***
+---
 
 - Topic: [company details](08.01-bank_survey_company.qmd)
 - Topic: [respondent details](08.02-bank_survey_respondent.qmd)
@@ -23,5 +23,3 @@ This question bank is organised by topic. Navigate to the theme most relevant to
 - Topic: [intellectual property](08.09-bank_survey_ip.qmd)
 - Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
 - Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
-
-***
