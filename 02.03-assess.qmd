@@ -146,14 +146,12 @@ In North-East Romania, the World Bank randomised outreach activities across 46 c
 <details class="myth-box">
 <summary>Eligibility criteria should remain broad enough</summary>
 
-Vague or broadly defined eligibility criteria are one of the most common weaknesses in EU-funded programmes. When eligibility is not tightly linked to the programme's Theory of Change, three problems tend to follow: the wrong firms enter the pool, evaluators cannot assess applications consistently, and the evaluation cannot cleanly measure whether the programme reached its intended beneficiaries.
-
-Eligibility criteria should be specific enough to identify firms with the highest potential to benefit, while remaining broad enough – where there is genuine uncertainty about who will benefit – to allow equal opportunities across the potential target population. Criteria should also be measurable: if an evaluator cannot determine objectively whether a firm meets a criterion, neither can the firm.
+On one hand, eligibility criteria should not be too restrictive to target a large enough number of fimrs. On the other hand, eligibility critiera should remain specific enough to identify firms with the highest potential to benefit. Eligibility criteria should be linked to the programme's Theory of Change to avoid that wrong firms enter the pool.
 
 ::: {.example .case #digitrans}
 [Romania]{.tag}
 
-In Spain, the World Bank found that eligibility criteria for an innovation support programme included vague language – such as references to the "incentive effect of aid" – that was open to arbitrary interpretation by evaluators. The World Bank worked with the Managing Authority to rewrite the criteria, develop a structured scoring rubric aligned with the programme's Theory of Change, and standardise the evaluation panel process. The result was a more transparent selection process that was easier for firms to understand and for evaluators to apply consistently.
+In South-Muntenia (Romania), World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.
 ::::
 
 </details>
@@ -205,7 +203,7 @@ In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach
 
 </details>
 
-
+::::
 
 If the eligible pool falls short, there are two immediate levers:
 
