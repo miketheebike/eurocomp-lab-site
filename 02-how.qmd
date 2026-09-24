@@ -11,7 +11,7 @@ A well-designed randomised controlled trial does not begin with randomisation â€
 
 ---
 
-## 7 steps for designing an RCT succesfully
+## 7 steps for designing an RCT successfully
 
 ::: {.cards}
 ::: {.card-e}
