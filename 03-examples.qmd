@@ -5,8 +5,7 @@ title: "Examples"
 
 ::: {.team-note}
 **Summary**
-
-Discover examples from managing authorities that introduced experimentation into their policy design - from the EuroCOMP Lab and beyond.
+This page presents examples of public programmes that built experimentation into their design. For each one, it describes the problem the programme set out to address, how the programme and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab. 
 :::
 
 ```{=html}
@@ -82,8 +81,13 @@ Discover examples from managing authorities that introduced experimentation into
 </div>
 ```
 
-
-**EuroCOMP Lab evaluations**
+<div class="further-reading">
+  <span class="fr-label">All first-round results in one place</span>
+  <div class="fr-entry">
+    <span class="fr-cite">World Bank. 2025. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policies: Summary Report.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC. Policy briefs for Romania, Spain, Czechia and Croatia.</span>
+    <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130136130">Read the summary report &rarr;</a>
+  </div>
+</div>
 
 ## Spain: financial support to innovate {#spain}
 
@@ -92,7 +96,7 @@ Discover examples from managing authorities that introduced experimentation into
 **The problem**
 
 Market failures keep research and development (R&D) investment in Extremadura below
-its optimal level. Small and medium firms in the region under-invest in innovation,
+its optimal level. Small and medium firms (SMEs) in the region under-invest in innovation,
 particularly in agriculture and the ecological transition.
 :::
 ::: {.card-e}
@@ -102,7 +106,7 @@ The Regional Government of Extremadura (JUNTA) and the Extremadura Science and
 Technology Park Foundation (FUNDECYT-PCTEx) created an EU-funded matching grant
 programme for small and medium firms.
 
-Each cycle awards €3.5 million in grants, up to €250,000 per firm (€138,000 on
+Each cycle awards EUR 3.5 million in grants, up to EUR 250,000 per firm (EUR 138,000 on
 average), financing 35% to 80% of a firm's proposed R&D investment.
 :::
 :::
@@ -113,16 +117,13 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 "What is the impact of R&D grants on SMEs' business performance?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Matching grants of up to EUR 250,000 per firm (average EUR 138,000) for R&D projects</div></div>
   <div><div class="k">Where</div><div class="v">Extremadura, Spain; regional government (JUNTA) with FUNDECYT-PCTEx, EU-funded</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">Firms: SME applicants, mainly agriculture and ecological transition, scored on 11 criteria</div></div>
-  <div><div class="k">The design</div><div class="v">Bin-ranking RCT: the middle bin randomized, 22 funded vs. 34 not funded</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: SME applicants, mainly agriculture and ecological transition, scored on 11 criteria</div></div>
+  <div><div class="k">The design</div><div class="v">Bin-ranking RCT: the middle bin randomised, 22 funded vs. 34 not funded</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Private R&D investment, implementation success, expected sales growth</div></div>
   <div><div class="k">Starting point</div><div class="v">Market failures keep regional R&D investment below its optimal level</div></div>
 </div>
@@ -130,15 +131,17 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 
 ### From application to evidence
 
-```{=html}
 <div class="flow">
   <div>Applications</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>External scoring</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Middle-bin lottery</div>
-  <div>R&D grants</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>R&amp;D grants</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Follow-up survey</div>
 </div>
-```
 
 
 ### How the programme was tested
@@ -149,7 +152,7 @@ low, medium and high quality.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Applications scored on 11 criteria; high scorers funded automatically, low scorers rejected automatically, and only the medium-quality middle band of 56 firms is randomized into 22 funded and 34 not funded">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Applications scored on 11 criteria; high scorers funded automatically, low scorers rejected automatically, and only the medium-quality middle band of 56 firms is randomised into 22 funded and 34 not funded">
   <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Quality score</text>
 
   <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
@@ -158,7 +161,7 @@ low, medium and high quality.
 
   <rect x="90" y="100" width="280" height="96" rx="5" fill="#FFFDF7" stroke="#F2C94C" stroke-width="2" stroke-dasharray="6 4"/>
   <text x="230" y="126" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Medium quality: 56 firms</text>
-  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">equally eligible, randomized by lottery</text>
+  <text x="230" y="145" text-anchor="middle" fill="#6B6455" font-size="11">equally eligible, randomised by lottery</text>
   <text x="230" y="163" text-anchor="middle" fill="#6B6455" font-size="11">22 funded &middot; 34 not funded</text>
   <text x="230" y="181" text-anchor="middle" fill="#6B6455" font-size="11">this band is the sample for study</text>
 
@@ -168,28 +171,30 @@ low, medium and high quality.
 
   <path d="M382 148 H410" stroke="#B9AF95" stroke-width="1.5"/>
   <rect x="410" y="116" width="230" height="64" rx="5" fill="rgba(242,201,76,.16)"/>
-  <text x="425" y="138" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomized</text>
-  <text x="425" y="156" fill="#6B6455" font-size="11">The strongest and weakest applicants</text>
-  <text x="425" y="170" fill="#6B6455" font-size="11">are handled by the score, not the draw</text>
+  <text x="425" y="138" fill="#2B2724" font-size="11.5" font-weight="bold">Only the middle band is randomised</text>
+  <text x="425" y="156" fill="#6B6455" font-size="11">The strongest/weakest applicants</text>
+  <text x="425" y="170" fill="#6B6455" font-size="11">are accepted/rejected automatically</text>
 
   <text x="20" y="290" fill="#6B6455" font-size="11.5">This design works well when eligibility criteria are clear and resources are limited.</text>
 </svg>
-<figcaption>Extremadura's bin-ranking design: only medium-quality applicants, the band where expected returns are least certain, are randomized.</figcaption>
+<figcaption>Note: Extremadura's bin-ranking design: only medium-quality applicants, the band where expected returns are least certain, are randomised.</figcaption>
 </figure>
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: it leverages investment-return uncertainty for
-applications with unclear returns. Limitation: it requires a large sample size in the
-middle range (bin).
+**Why this design.** 
+Strength: it leverages investment-return uncertainty for
+applications with unclear returns. 
+Limitation: it requires a large sample size in the
+middle range.
 :::
 
-::: {.takeaway}
+
 Randomisation successfully balanced key firm characteristics: the comparison group and
 the treatment group looked the same on average. There was no evidence of firms with
 certain characteristics dropping out of the study more than others (selective
 attrition) in follow-up survey responses.
-:::
+
 
 ### What the programme achieved
 
@@ -203,7 +208,7 @@ group.
 
 **More planned R&D investment for 2025**
 
-€65,000 above the comparison-group average.
+EUR 65,000 above the comparison-group average.
 :::
 ::: {.card-e}
 [67%]{.num}
@@ -228,7 +233,7 @@ private investment, but careful targeting is needed to avoid simply displacing m
 firms would have spent anyway.
 :::
 
-
+```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
@@ -236,7 +241,7 @@ firms would have spent anyway.
     <a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">Read the report &rarr;</a>
   </div>
 </div>
-
+```
 
 ## Czechia: light-touch support for SMEs
 
@@ -249,11 +254,11 @@ industry. These regions need to diversify away from carbon-intensive industries 
 grow their private sector.
 
 In September 2022, the European Commission approved the Just Transition Programme
-(JTP): €1.641 billion for business R&D, post-mining regeneration, skills, clean energy
+(JTP): EUR 1.641 billion for business R&D, post-mining regeneration, skills, clean energy
 and the circular economy in the Moravian-Silesian, Ústí and Karlovy Vary regions.
 
-A key part of the JTP is a voucher scheme for entrepreneurs: up to €21,100 for business
-development, up to €42,200 for innovation, and up to €21,100 for digital transformation.
+A key part of the JTP is a voucher scheme for entrepreneurs: up to EUR 21,100 for business
+development, up to EUR 42,200 for innovation, and up to EUR 21,100 for digital transformation.
 :::
 ::: {.card-e}
 **What was done**
@@ -280,9 +285,6 @@ peer-to-peer exchange between firms.
 "Does light-touch support to SMEs improve firm capabilities and performance?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
 
 ### Smart Start entrepreneur training
 
@@ -290,7 +292,7 @@ peer-to-peer exchange between firms.
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Smart Start: seven workshops on scientific decision-making and customer validation</div></div>
   <div><div class="k">Where</div><div class="v">Ostrava, Moravian-Silesian region; Just Transition Programme with MSIC</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">246 interested firms, many of them entrepreneurial voucher applicants</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">246 interested firms, many of them entrepreneurial voucher applicants</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 163 invited to the training vs. 83 with no support</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Business changes, motivations for change, sales and firm performance</div></div>
   <div><div class="k">Starting point</div><div class="v">Entrepreneurial activity remains low in regions hit by the coal industry's decline</div></div>
@@ -315,7 +317,7 @@ peer-to-peer exchange between firms.
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">AI Klub: five hands-on workshops on AI for efficiency, marketing, sales, and finance</div></div>
   <div><div class="k">Where</div><div class="v">Ústí and Karlovy Vary regions; Just Transition Programme with local partners</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">173 interested firms, including innovation voucher recipients</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">173 interested firms, including innovation voucher recipients</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 117 invited to the workshops vs. 56 with no support</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">AI adoption and use, innovation, business networking, sales and profits</div></div>
   <div><div class="k">Starting point</div><div class="v">Local economies still rely on carbon-intensive industries and need diversification</div></div>
@@ -422,6 +424,7 @@ AI Klub
 :::
 :::
 
+```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
@@ -433,6 +436,7 @@ AI Klub
     <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
   </div>
 </div>
+```
 
 ## Croatia: matching businesses with scientists {#croatia}
 
@@ -467,9 +471,7 @@ support to help pairs plan R&D projects together.
 "Does connecting firms with scientists foster research partnerships and innovation?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
+
 
 ### The programme
 
@@ -477,7 +479,7 @@ support to help pairs plan R&D projects together.
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Scinergy: matchmaking events, workshops, and ongoing support for firm-scientist pairs</div></div>
   <div><div class="k">Where</div><div class="v">Croatia; Innovation Centre Nikola Tesla with the Ministry of Science, Education, and Youth</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">210 eligible firms, from over 250 applications, seeking scientific collaboration</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">210 eligible firms, from over 250 applications, seeking scientific collaboration</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery: 100 firms invited to Scinergy vs. 110 not invited</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Collaboration attempts and partnerships, innovation, R&D employment</div></div>
   <div><div class="k">Starting point</div><div class="v">Only 8% of Croatian firms collaborate with higher education, far below the EU average</div></div>
@@ -603,9 +605,7 @@ programme from the start, before the first call opened.
 energy use?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
+
 
 ### The programme
 
@@ -613,7 +613,7 @@ energy use?"
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
   <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery among eligible applicants, run separately for each call and stratified by consortium and advisor: 986 offered the grant vs. 978 receiving advisory services only</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Energy-efficiency and renewable investment, energy use and spending, energy management practices, revenue, profits and employment</div></div>
   <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the programme, although 62% already monitored their energy use</div></div>
@@ -749,8 +749,8 @@ registration (AEA RCT Registry, AEARCTR-0015124).
 ::: {.card-e}
 **The problem**
 
-Northern Bulgaria's micro and small enterprises (MSEs) – over 98% of firms in the
-region – lag far behind Southern Bulgaria and the EU average. Depopulation and aging
+Northern Bulgaria's micro and small enterprises (MSEs) — over 98% of firms in the
+region — lag far behind Southern Bulgaria and the EU average. Depopulation and aging
 have left "ghost towns" with shrinking labor pools and declining customer bases, and
 managerial skills, often picked up informally, limit the uptake of modern business
 practices. AI adoption is strikingly low: just 6.5% of firms in the region use AI,
@@ -775,17 +775,13 @@ alternatives can match costly human consulting at a fraction of the price.
 consulting for small firms?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
 ### The programme
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Group training in managerial skills, then one of three support modes: human-led consulting, an AI subscription, or a customised AI-led consulting tool</div></div>
   <div><div class="k">Where</div><div class="v">Northern Bulgaria; Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">600 MSEs (fewer than 50 employees) in retail, agricultural processing, services and manufacturing, stratified by sector, region and owner gender</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">600 MSEs (fewer than 50 employees) in retail, agricultural processing, services and manufacturing, stratified by sector, region and owner gender</div></div>
   <div><div class="k">The design</div><div class="v">Four-arm RCT: pure control, training + human consulting, training + AI subscription, training + AI-led consulting tool (150 firms per arm)</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Firm sales, sales per worker, profits and exports; management practices, foreign-market knowledge, access to suppliers, finance and customers</div></div>
   <div><div class="k">Starting point</div><div class="v">MSEs report 88% lower sales per worker than larger firms on average, and only 6.5% of regional firms use AI, against an EU average of 13.5%</div></div>
@@ -896,7 +892,7 @@ participant to support tracking through fall 2027.
 
 Polish SMEs underperform in Horizon Europe, the EU's flagship innovation funding
 programme: a 16.5% success rate, against an EU-27 average of 20.3%. Funding is also
-highly concentrated – just 11 SMEs account for roughly a third of all Polish
+highly concentrated — just 11 SMEs account for roughly a third of all Polish
 projects. A previous support scheme, "Grants for Eurogrants," converted only 400 of
 about 1,700 applications into signed contracts, and just 19 firms ultimately secured
 EU funding. Only 20.1% of firms report knowing PARP, the agency responsible for this
@@ -920,17 +916,13 @@ scout" for firms that express interest in applying.
 number and quality of Polish Horizon Europe applications?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
 ### The programme
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">A three-stage pilot: behavioural outreach messaging, machine-learning targeting with encouragement calls, and AI-tool-plus-technology-scout application support</div></div>
   <div><div class="k">Where</div><div class="v">Poland; Polish Agency for Enterprise Development (PARP)</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">~120,000 SMEs reached with outreach messages; ~11,000 Horizon-eligible firms in the targeting stage; up to ~500 interested firms in the support stage</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">~120,000 SMEs reached with outreach messages; ~11,000 Horizon-eligible firms in the targeting stage; up to ~500 interested firms in the support stage</div></div>
   <div><div class="k">The design</div><div class="v">Three nested RCTs: a messaging A/B/C test, ranked-vs-random encouragement calls, and AI-tool-and-scout support (~200 firms) vs. a waitlist</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Email/ad engagement, applications to PARP and Horizon Europe, blind-rated application quality, funding success, and firm employment, revenue and survival</div></div>
   <div><div class="k">Starting point</div><div class="v">Just 16.5% of Polish Horizon Europe applications succeed, against an EU-27 average of 20.3%, and only 20.1% of firms report knowing PARP</div></div>
@@ -1002,7 +994,7 @@ less statistical power for the innermost support experiment.
 ::: {.card-e}
 **Does messaging move firms?**
 
-Whether behavioural nudges – social proof, urgency framing, expected-value framing –
+Whether behavioural nudges — social proof, urgency framing, expected-value framing —
 raise click-throughs and registrations more than PARP's standard, fact-based
 messaging.
 :::
@@ -1044,8 +1036,8 @@ months from submission to contract, generated 50 technical-financial appeals and
 contracting appeals, and disadvantaged smaller firms: enterprises under two years
 old, with no employees or turnover below 250,000 RON, succeeded only 14% of the
 time, against over 90% for firms with turnover of 1.5–2 million RON. Many applicants
-turn to a large consultancy industry – an estimated €527 million in annual turnover
-across 1,500 firms – just to navigate the process.
+turn to a large consultancy industry — an estimated EUR 527 million in annual turnover
+across 1,500 firms — just to navigate the process.
 :::
 ::: {.card-e}
 **What is being tested**
@@ -1053,7 +1045,7 @@ across 1,500 firms – just to navigate the process.
 The North-East Regional Development Agency (RDA), with the automation company
 UiPath, has built an AI decision-support tool that benchmarks proposed budgets,
 flags risks, and supports reviewers on eligibility and quality criteria. It is being
-embedded in the 2026 Microenterprise Growth Grant Call (about €30 million), with
+embedded in the 2026 Microenterprise Growth Grant Call (about EUR 30 million), with
 reviewers randomly assigned to work with or without the tool, and funded projects
 randomly assigned to AI-assisted or standard monitoring.
 :::
@@ -1066,17 +1058,13 @@ randomly assigned to AI-assisted or standard monitoring.
 and better targeted, without compromising fairness?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
 ### The programme
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
   <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (&asymp;&euro;30 million)</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30&ndash;40 trained reviewers; ~150 funded projects</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30&ndash;40 trained reviewers; ~150 funded projects</div></div>
   <div><div class="k">The design</div><div class="v">Multi-phase RCT: reviewers randomised to AI-assisted or human-only review at each stage; ~150 grants allocated by lottery within score bands; funded projects randomised to AI-assisted or standard monitoring</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Review time and scores, clarification requests and appeals, on-time disbursement, and funded-firm survival, employment, revenue and investment</div></div>
   <div><div class="k">Starting point</div><div class="v">The 2023 call took roughly seven months from submission to contract; firms under two years old or with no employees had a 14% success rate, against over 90% for the highest-turnover firms</div></div>
@@ -1192,19 +1180,19 @@ and adjusted before the full-proposal stage goes ahead.
 South Muntenia is a lagging EU region, ranked 243rd of EU regions on the Regional
 Innovation Scoreboard, with an Innovation Readiness Index of just 28. Only 6.3% of
 firms are classified as innovative, and just 1.4% of the workforce works in
-high-tech sectors. Between 2014 and 2020, Romania allocated €1.6 billion to public
-research institutes but only €74 million to private firms, and the region hosts just
+high-tech sectors. Between 2014 and 2020, Romania allocated EUR 1.6 billion to public
+research institutes but only EUR 74 million to private firms, and the region hosts just
 3% of the country's research infrastructure.
 :::
 ::: {.card-e}
 **What is being tested**
 
-The South Muntenia Regional Development Agency (SM-RDA) is allocating €24.8 million
+The South Muntenia Regional Development Agency (SM-RDA) is allocating EUR 24.8 million
 in innovation subsidies to SMEs, cross-randomised with a management-training
 programme on change and innovation culture. Grants are assigned through a two-stage
 design: geographic or sector clusters are randomly assigned different shares of
 funded firms, and firms within each cluster are then randomly selected to receive
-funding – allowing the evaluation to separate a firm's own private return from
+funding — allowing the evaluation to separate a firm's own private return from
 spillovers onto its neighbours.
 :::
 :::
@@ -1216,17 +1204,13 @@ spillovers onto its neighbours.
 returns, once spillovers to other firms are taken into account?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
 ### The programme
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
   <div><div class="k">Where</div><div class="v">South Muntenia, Romania; South Muntenia Regional Development Agency (SM-RDA), &euro;24.8 million SME innovation grant allocation</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">&asymp;900 SMEs across 100 geographic or sectoral clusters (&asymp;9 firms per cluster), excluding agricultural firms</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">&asymp;900 SMEs across 100 geographic or sectoral clusters (&asymp;9 firms per cluster), excluding agricultural firms</div></div>
   <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Short-run revenue, inputs, profit, productivity, investment, pricing and product variety; medium- to long-run technology adoption, new products, licensing and patenting</div></div>
   <div><div class="k">Starting point</div><div class="v">Only 6.3% of firms in the region are classified as innovative and just 1.4% of the workforce works in high-tech sectors, with an Innovation Readiness Index of 28</div></div>
@@ -1249,8 +1233,8 @@ returns, once spillovers to other firms are taken into account?"
 
 After the call for proposals closes, applicant firms are grouped into roughly 100
 clusters based on geographic or sectoral proximity. Each cluster is then randomly
-assigned a funding intensity – the share of its firms that will receive a subsidy,
-set at 0%, 33%, 66% or 100% – and firms within the cluster are randomly selected for
+assigned a funding intensity — the share of its firms that will receive a subsidy,
+set at 0%, 33%, 66% or 100% — and firms within the cluster are randomly selected for
 funding up to that share. Comparing outcomes across clusters with different
 intensities isolates spillover effects, while comparing funded and unfunded firms
 within the same cluster isolates each firm's own private return.
@@ -1361,7 +1345,7 @@ The World Bank designed Digitrans, a standardised support instrument tested acro
 Bulgaria, Poland and Slovakia, integrating a financial subsidy with technical
 assistance to address both resource and capability constraints.
 
-The financial subsidy provides up to €2,000 per firm towards the cost of adopting
+The financial subsidy provides up to EUR 2,000 per firm towards the cost of adopting
 digital business tools. The technical assistance component adds a 10-week programme of
 diagnostic assessment, group training and one-to-one advisory support.
 :::
@@ -1374,17 +1358,13 @@ diagnostic assessment, group training and one-to-one advisory support.
 digitalisation outcomes more than a subsidy alone?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
-
 ### The programme
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">A financial subsidy of up to EUR 2,000 per firm, with a subset of firms also receiving a 10-week technical assistance programme</div></div>
   <div><div class="k">Where</div><div class="v">Bulgaria, Poland and Slovakia; World Bank Digitrans pilot, EU-funded</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">629 MSMEs with 5&ndash;35 employees and at least 12 months trading, drawn from over 1,600 applications</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">629 MSMEs with 5&ndash;35 employees and at least 12 months trading, drawn from over 1,600 applications</div></div>
   <div><div class="k">The design</div><div class="v">Three-arm RCT, stratified by country, firm size and digital sophistication: comparison (209), subsidy only (210), subsidy plus technical assistance (210)</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Digital tool adoption and usage, managerial and organisational change, firm performance</div></div>
   <div><div class="k">Starting point</div><div class="v">Small businesses show limited digital adoption beyond what regulation or banks require</div></div>
@@ -1511,7 +1491,7 @@ businesses.
 Colombian auto parts manufacturers show wide variation in management practices, and
 weaker practices are closely tied to lower productivity. Structured, hands-on
 management consulting can improve how firms are run, but delivering it in a
-resource-intensive, one-on-one format is costly – a cost that can be prohibitive for
+resource-intensive, one-on-one format is costly — a cost that can be prohibitive for
 small and medium firms to finance on their own, and for governments seeking to support
 large numbers of firms at once.
 :::
@@ -1524,8 +1504,8 @@ firm-by-firm consulting delivered by local teams, and a more novel group-based m
 that works with several firms together to bring costs down further.
 
 Every participating firm, including the comparison group, first received a diagnostic
-assessment of its management practices across five areas – logistics, human resources,
-finance, marketing and sales, and production – carried out by a team of specialist
+assessment of its management practices across five areas — logistics, human resources,
+finance, marketing and sales, and production — carried out by a team of specialist
 consultants.
 :::
 :::
@@ -1537,9 +1517,6 @@ consultants.
 management practices and performance?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Lottery</span><span class="sep">&rsaquo;</span><span>Program</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
 
 ### The programme
 
@@ -1547,7 +1524,7 @@ management practices and performance?"
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">A diagnostic for every firm, followed by individual or group-based management consulting</div></div>
   <div><div class="k">Where</div><div class="v">Colombia &mdash; auto parts manufacturing sector</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">159 eligible firms (manufacturers, tier 1/2 suppliers, 2+ years old, 10+ workers), in 53 matched triplets</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">159 eligible firms (manufacturers, tier 1/2 suppliers, 2+ years old, 10+ workers), in 53 matched triplets</div></div>
   <div><div class="k">The design</div><div class="v">Three-arm RCT: comparison, individual consulting (~US$28,950/firm), group consulting (~US$10,500/firm)</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Management practices; employment, sales, value-added and profits via administrative records</div></div>
   <div><div class="k">Starting point</div><div class="v">Baseline management scores ranged from 43 to 51 out of 100 across practice areas</div></div>
@@ -1570,9 +1547,9 @@ management practices and performance?"
 ### How the programme was tested
 
 218 firms applied to Colombia's Programa de Extensionismo Tecnológico. After screening
-for eligibility – established auto parts manufacturers that were tier 1 or 2 suppliers,
+for eligibility — established auto parts manufacturers that were tier 1 or 2 suppliers,
 at least two years old, with at least ten employees, and located in Antioquia,
-Cundinamarca, Valle del Cauca or the Eje Cafetero – 159 firms formed the final sample.
+Cundinamarca, Valle del Cauca or the Eje Cafetero — 159 firms formed the final sample.
 
 Firms were then grouped into 53 matched triplets, formed to minimise differences in
 location, size, labor productivity and management practices between the three firms in
@@ -1656,7 +1633,7 @@ Group-consulting firms reported far more contact with each other after the progr
 than before it: business links between study firms were almost non-existent at
 baseline, but around half of group participants said they still communicated with
 other group members roughly a year later, and firms whose management practices changed
-the most tended to be grouped with others who also improved the most – evidence that
+the most tended to be grouped with others who also improved the most — evidence that
 peer learning, not just lower delivery cost, contributed to the group programme's
 stronger results on firm performance.
 :::
@@ -1687,7 +1664,7 @@ models.
 Young jobseekers in Yemen often face a catch-22: firms are reluctant to hire
 someone without prior work experience, yet that experience is hard to gain
 without first being hired. Early jobs matter because they build both
-job-specific and soft skills, but firms may under-invest in providing them –
+job-specific and soft skills, but firms may under-invest in providing them —
 a reluctance that can be sharper still in a fragile, conflict-affected
 setting. Job opportunities for young graduates were also increasingly scarce
 following Yemen's 2011–12 political crisis.
@@ -1696,7 +1673,7 @@ following Yemen's 2011–12 political crisis.
 **What was done**
 
 The Enterprise Revitalization and Employment Pilot (EREP) tested a
-subsidised-internship model: the program paid half the cost of a six-month
+subsidised-internship model: the programme paid half the cost of a six-month
 internship, with the host firm covering the rest, and matched applicants to
 firms based on the firm's stated requirements. Recent graduates in Sanaa and
 Aden applied online and were screened for eligibility before being
@@ -1707,14 +1684,11 @@ considered.
 ### What experimentation sought to answer
 
 ::: {.quote-e}
-"Can a subsidised matchmaking program help young jobseekers gain their first
+"Can a subsidised matchmaking programme help young jobseekers gain their first
 work experience, and does that experience translate into better employment
 outcomes afterward?"
 :::
 
-```{=html}
-<div class="tracker"><span>Policy question</span><span class="sep">&rsaquo;</span><span>Eligibility</span><span class="sep">&rsaquo;</span><span>Application</span><span class="sep">&rsaquo;</span><span>Random assignment</span><span class="sep">&rsaquo;</span><span>Matchmaking</span><span class="sep">&rsaquo;</span><span>Follow-up</span><span class="sep">&rsaquo;</span><span>Impact</span></div>
-```
 
 ### The programme
 
@@ -1722,7 +1696,7 @@ outcomes afterward?"
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Enterprise Revitalization and Employment Pilot (EREP), internship component &mdash; matching grants covering half the cost of a six-month internship, plus matchmaking between graduates and firms</div></div>
   <div><div class="k">Where</div><div class="v">Republic of Yemen &mdash; Sanaa and Aden</div></div>
-  <div><div class="k">Who is randomized</div><div class="v">583 eligible youth (Yemeni, Sanaa/Aden residents, graduated within 2 years), to treatment (430) or control (153)</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">583 eligible youth (Yemeni, Sanaa/Aden residents, graduated within 2 years), to treatment (430) or control (153)</div></div>
   <div><div class="k">The design</div><div class="v">RCT; treatment group offered matchmaking to internships subsidised at 50% of cost, for up to six months</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Employment, months worked and earnings, via a follow-up phone survey</div></div>
   <div><div class="k">Starting point</div><div class="v">3,487 eligible youth applied; 500 were randomly invited to a two-day basic skills training (477 attended)</div></div>
@@ -1744,11 +1718,11 @@ outcomes afterward?"
 
 ### How the programme was tested
 
-The program launched in August 2013 through a project website, media events and
+The programme launched in August 2013 through a project website, media events and
 campus outreach. Applications ran from October to December 2013, closing with
 3,487 eligible applicants. Of these, 500 were randomly invited to a two-day
-basic skills training – chosen with probability proportional to the demand
-for their specialisation – and 477 attended.
+basic skills training — chosen with probability proportional to the demand
+for their specialisation — and 477 attended.
 
 The resulting experimental sample of 583 individuals was randomly assigned,
 within strata defined by specialisation and city, to a treatment group of 430
@@ -1799,7 +1773,7 @@ training, helps ensure the treatment and control groups started out
 comparable in skills and local job-market conditions. Limitation: more
 applicants were assigned to treatment than there were internship placements
 available, so actual take-up (36.7%) fell well below the treatment
-assignment rate – which is why the study reports both an intention-to-treat
+assignment rate — which is why the study reports both an intention-to-treat
 effect and a larger effect scaled up for those who actually took up an
 internship.
 :::
@@ -1823,7 +1797,7 @@ relative to a 61% employment rate in the control group.
 **Employment gains persisted months after the internship ended**
 
 On a standardised index of employment outcomes measured three to five months
-after internships ended, effects remained statistically significant – 0.35
+after internships ended, effects remained statistically significant — 0.35
 standard deviations on an intention-to-treat basis, and 0.85 standard
 deviations for those who took up an internship.
 :::
@@ -1840,9 +1814,9 @@ constraints were relative to demand for internship positions.
 
 ::: {.takeaway}
 The internship raised employment more for male applicants than for female
-applicants, so the program did not close the pre-existing gender gap in
+applicants, so the programme did not close the pre-existing gender gap in
 employment outcomes. Because the evaluation covers only one year of the
-program rather than the two originally planned, the study had limited
+programme rather than the two originally planned, the study had limited
 statistical power to say precisely how much smaller the effect was for
 women.
 :::
@@ -1854,7 +1828,7 @@ roughly halving the intended sample and reducing statistical power. The
 follow-up survey was also fielded earlier and more narrowly than planned,
 amid displacement and shortages of fuel, electricity and water. It also
 remains possible that some of the employment gains for treated youth came
-partly at the expense of other jobseekers in the economy – a general
+partly at the expense of other jobseekers in the economy — a general
 equilibrium effect this study could not measure.
 :::
 
