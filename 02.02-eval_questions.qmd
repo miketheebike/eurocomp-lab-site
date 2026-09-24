@@ -43,15 +43,15 @@ A well-structured evaluation typically includes a primary question and a set of 
 **The primary question** focuses on the main effect of the intervention on the most important outcome. This is the question the evaluation is powered to answer – the sample size and data collection plan are designed around it. For most competitiveness and innovation programmes, the primary question concerns a key outcome such as R&D expenditure, product innovation, or labour productivity.
 
 ::: {.example .romania}
-[North-East Romania: learning questions]{.tag}
+[North-East Romania: primary question]{.tag}
 
-Does receiving a digitalisation grant increases business performance (e.g., sales) and productivity? 
+Does receiving a digitalisation grant increases business performance (e.g. sales) and productivity? 
 :::
 
 **Heterogeneity questions** ask whether effects differ across subgroups – for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
 
 ::: {.example .romania}
-[North-East Romania: learning questions]{.tag}
+[North-East Romania: heterogeneity question]{.tag}
 
 How do impacts of receiving a digitalisation grant vary across firm size, location, sector, and initial level of digitalisation?
 :::
@@ -59,7 +59,7 @@ How do impacts of receiving a digitalisation grant vary across firm size, locati
 **Mechanism questions** probe *how* the intervention produces its effects – which links in the ToC are activated. By measuring intermediate outcomes, these questions open the "black box" and generate richer policy lessons than a simple estimate of the final effect.
 
 ::: {.example .romania}
-[North-East Romania: learning questions]{.tag}
+[North-East Romania: mechanism question]{.tag}
 
 Does the digitalisation grant increase investments in digitalisation and technology adoption? 
 :::
@@ -68,7 +68,7 @@ Does the digitalisation grant increase investments in digitalisation and technol
 **Implementation questions** assess whether the programme was delivered as intended and what barriers affected take-up or compliance. These are particularly important for interpreting null results – an evaluation that finds no effect needs to establish whether the intervention was actually delivered.
 
 ::: {.example .romania}
-[North-East Romania: learning questions]{.tag}
+[North-East Romania: implementation question]{.tag}
 
 What share of companies in the treatment group, that were invited to apply, were actually contracted? 
 :::
