@@ -53,11 +53,6 @@ The RCT outcome repository provides a curated, searchable list of outcome indica
 [Browse the outcome repository](09-bank_outcomes.qmd)
 :::
 
-
-## What comes next
-
-Once your indicators are defined, each one needs a concrete data source behind it. Step 5 addresses the fundamental strategic question: for each indicator, should you rely on primary data collected specifically for the evaluation, secondary administrative data that already exists, or a combination of both? Getting this decision right early shapes everything that follows.
-
 ---
 
 ::: {.nav-buttons}
