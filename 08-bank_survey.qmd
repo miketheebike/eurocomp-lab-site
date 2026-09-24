@@ -2,11 +2,7 @@
 title: "Survey question repository"
 ---
 
-This question repository is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, and copy-paste those that fit your needs. Each question includes:
-
-- The question text, ready to use
-- Response options where applicable
-- The source survey it is drawn from
+This question repository is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, response options (where applicable) and copy-paste those that fit your needs.
 
 ## Topics
 
