@@ -12,13 +12,13 @@ This page explains why experimentation matters for policy, how RCTs relate to im
 
 ## Why introduce experimental evaluations?
 
-Innovation in policy making to maximise returns on European Cohesion Policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges. 
+Innovation in policy making to maximise returns on European Cohesion Policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges.
 
-The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness. 
+The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness.
 
-To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement. 
+To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement.
 
-Successful policy development, particularly in innovation, must be accompanied by ongoing adaptation to evolving circumstances. 
+Successful policy development, particularly in innovation, must be accompanied by ongoing adaptation to evolving circumstances.
 
 ::: {.gold-panel}
 This is called science-based adaptive delivery: testing, learning, and
@@ -51,7 +51,7 @@ In fact, you may already have evaluated a programme's impact – perhaps using m
 difference-in-differences, or a regression discontinuity, comparing participants to similar
 non-participants constructing the comparison group after the programme had already ended. That is impact
 evaluation too, and it can be credible. But because the comparison group is built after
-implementation, its credibility rests on assumptions that have to be separately defended. 
+implementation, its credibility rests on assumptions that have to be separately defended.
 
 Now imagine doing this differently: designing the comparison group by randomly assigning eligible applicants to different groups, rather than picking it afterwards. That is what a randomised controlled trial does.
 See [how the methods compare](01-why-and-when.qmd#alternatives) and [why RCTs are usually the stronger
@@ -94,7 +94,7 @@ Randomisation then shifts from who gets funded at all to which version each part
 receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosing-design).
 
 ### Hear from Managing Authorities who already use experimentation
-This is where Mr Asandei's video will be placed and the second video with voices once produced 
+This is where Mr Asandei's video will be placed and the second video with voices once produced
 
 ::: {.video-frame}
 {{< video https://youtu.be/NuOGvv_9sD4 title="Trying something new" aspect-ratio="16x9" >}}
@@ -110,7 +110,7 @@ Every euro you commit is a euro you cannot spend elsewhere. To ensure resources 
 
 If you cannot answer both with confidence, consider testing it. [See why funding the
 strongest applicants may be less impactful than funding marginal
-ones](01-why-and-when.qmd#allocation).  
+ones](01-why-and-when.qmd#allocation).
 
 
 ### Common myths about RCTs
@@ -225,9 +225,9 @@ Whether ethics review is legally mandatory depends on the country, the instituti
 
 ***
 ## How to start
- 
+
 ### Explore the site
- 
+
 :::: {.cards}
 ::: {.card-e}
 #### [RCTs: why and when](01-why-and-when.qmd)
@@ -244,10 +244,10 @@ Experiences from projects already partnering with the EuroCOMP Lab and from beyo
 :::
 ::: {.card-e}
 #### [Repository](04-templates.qmd)
-Repository for outcomes and survey questions organised by topic. 
+Repository for outcomes and survey questions organised by topic.
 :::
 ::::
- 
+
 ### Connect with researchers and labs specialised in experimentation
 
 :::: {.cards}
@@ -261,8 +261,12 @@ Established labs already supporting experimentation.
 :::
 ::::
 
-### The EU needs more Managing Authorities leading the change towards experimentation in policy making 
-Here is where the video with Peter Berkowitz and Rajesh Chandy will be placed
+### The EU needs more Managing Authorities leading the change towards experimentation in policy making
+
+::: {.team-note}
+Placeholder: video with Peter Berkowitz and Rajesh Chandy goes here.
+:::
+
 ::: {.video-frame}
 {{< video https://youtu.be/NuOGvv_9sD4 title="Trying something new" aspect-ratio="16x9" >}}
 :::

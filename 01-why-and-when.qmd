@@ -358,7 +358,8 @@ As [defined above](#counterfactual), the counterfactual is what would have happe
 **Strategy.** Find a group of firms that on average look like treated firms would have
 looked in the absence of the programme. This group is the comparison group.
 
-There are two ways of estimating the counterfactual: 
+There are two ways of estimating the counterfactual:
+
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}

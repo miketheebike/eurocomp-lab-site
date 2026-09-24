@@ -12,8 +12,6 @@ title: "Step 2: define learning questions"
 This page covers why learning questions must come first, what makes a good learning question, the four types — primary, heterogeneity, mechanism, and implementation — how to link them to the Theory of Change (ToC).
 :::
 
-:::
-
 ***
 
 ## Why evaluation questions come first
@@ -47,7 +45,7 @@ A well-structured evaluation typically includes a primary question and a set of 
 ::: {.example .romania}
 [North-East Romania: primary question]{.tag}
 
-Does receiving a digitalisation grant increases business performance (e.g. sales) and productivity? 
+Does receiving a digitalisation grant increases business performance (e.g. sales) and productivity?
 :::
 
 **Heterogeneity questions** ask whether effects differ across subgroups – for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
@@ -63,7 +61,7 @@ How do impacts of receiving a digitalisation grant vary across firm size, locati
 ::: {.example .romania}
 [North-East Romania: mechanism question]{.tag}
 
-Does the digitalisation grant increase investments in digitalisation and technology adoption? 
+Does the digitalisation grant increase investments in digitalisation and technology adoption?
 :::
 
 
@@ -72,7 +70,7 @@ Does the digitalisation grant increase investments in digitalisation and technol
 ::: {.example .romania}
 [North-East Romania: implementation question]{.tag}
 
-What share of companies in the treatment group, that were invited to apply, were actually contracted? 
+What share of companies in the treatment group, that were invited to apply, were actually contracted?
 :::
 
 ## Linking learning questions to the ToC
