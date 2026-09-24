@@ -8,17 +8,23 @@ title: "Topic: employment and human capital"
 - **Metric:** % change in FTE employment from baseline to endline; log of employment
 - **Data source:** Administrative or primary survey
 
+---
+
 **High-skilled employment**
 
 - **Definition:** Whether the firm increased the share of high-skilled or knowledge-intensive workers
 - **Metric:** Share of employees with tertiary education (%); share of STEM employees (%); number of researchers hired
 - **Data source:** Administrative (linked employer-employee data) or primary survey
 
+---
+
 **Training provision**
 
 - **Definition:** Whether the firm provided formal training to employees as a result of the intervention
 - **Metric:** Binary indicator; number of employees trained; training hours per employee; training expenditure (€)
 - **Data source:** Primary survey or administrative (training fund records)
+
+---
 
 **Wage growth**
 
