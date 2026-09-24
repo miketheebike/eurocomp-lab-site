@@ -8,7 +8,8 @@ title: "Step 4: assess feasibility of conducting an RCT"
 
 ::: {.team-note}
 #### Summary
-This page explains how to assess the feasibility of an RCT.
+
+This page covers five feasibility conditions that must be in place before committing to an RCT, five randomisation designs and when to use each, and the most common problems that arise after the lottery.
 :::
 
 By this point you have mapped your programme's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
@@ -455,6 +456,11 @@ The main limitation is that the estimate reflects the effect of the encouragemen
 ::: {.caution}
 Compliance is rarely perfect in either direction: some encouraged firms will never take up the programme, and some non-encouraged firms will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual firms actually did. Your evaluation team will handle this in the analysis.
 :::
+
+
+## Did randomisation lead to comparable firms in treatment and comparison group?
+
+Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the programme starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable →](02.03b-balance.qmd)
 
 
 ## What are potential challenges?
