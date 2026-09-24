@@ -34,19 +34,7 @@ A baseline needs assessment — conducted before the programme launches — allo
 In Italy, a minibond programme pre-identified 289 eligible firms, of which only 30 applied — a hit rate of 10.3%. Of the 19 firms that ultimately issued a minibond, most had access to alternative financing and may not have needed the programme at all. A prior needs assessment could have revealed that the programme's terms were less attractive than alternative instruments already available in the region — including zero-interest loans and non-repayable grants from earlier programmes — and that the design needed to be adjusted accordingly before launch.
 ::::
 
----
 
-## Lesson 3: Set measurable indicators from the start
-
-Without measurable outcome indicators tied to clear objectives, programmes cannot be held accountable for their results — and evaluations cannot determine whether they worked. Targets are frequently treated as administrative end goals rather than as part of a broader results chain, which means that even well-implemented programmes struggle to demonstrate impact.
-
-A Theory of Change developed before the programme launches provides the framework for identifying which outcomes to measure, at which level of the causal chain, and over what time horizon. Indicators should be specific, observable, and linked to the data sources that will actually be available at the time of measurement.
-
-:::: {.example}
-[Romania]{.tag}
-
-In Romania, the World Bank supported the Managing Authority in developing a Theory of Change and in applying systematic methods to quantify the Managing Authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured — allowing the design to be adjusted before implementation rather than after the evaluation. The process also produced a baseline report on 1,038 MSMEs that passed the eligibility screening, giving the evaluation team the pre-intervention data needed to measure change.
-::::
 
 ---
 
