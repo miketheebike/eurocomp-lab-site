@@ -22,7 +22,7 @@ This page presents examples of public programmes that built experimentation into
 
 
 <tr>
-  <td><a href="#spain-financial-support-to-innovate">Spain</a></td>
+  <td><a href="#spain">Spain</a></td>
   <td class="topic">Financial support to innovate — matching grants for SME R&amp;D</td>
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
@@ -32,7 +32,7 @@ This page presents examples of public programmes that built experimentation into
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 <tr>
-  <td><a href="#croatia-matching-businesses-with-scientists">Croatia</a></td>
+  <td><a href="#croatia">Croatia</a></td>
   <td class="topic">Matching businesses with scientists — Scinergy</td>
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
@@ -44,7 +44,7 @@ This page presents examples of public programmes that built experimentation into
 
 
 <tr>
-  <td><a href="#bulgaria-human-led-versus-ai-led-business-consulting">Bulgaria</a></td>
+  <td><a href="#bulgaria">Bulgaria</a></td>
   <td class="topic">Human-led versus AI-led business consulting</td>
   <td class="status"><span class="status-pill ongoing">In implementation</span></td>
 </tr>
@@ -87,6 +87,8 @@ This page presents examples of public programmes that built experimentation into
 </div>
 ```
 
+
+```{=html}
 <div class="further-reading">
   <span class="fr-label">All first-round results in one place</span>
   <div class="fr-entry">
@@ -94,6 +96,7 @@ This page presents examples of public programmes that built experimentation into
     <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130136130">Read the summary report &rarr;</a>
   </div>
 </div>
+```
 
 ## Spain: financial support to innovate {#spain}
 
