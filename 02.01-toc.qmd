@@ -163,5 +163,5 @@ Second, a ToC produces richer and more transferable policy lessons. Measuring th
 ---
 
 ::: {.nav-buttons}
-[← Back to: How to design an RCT](02-how.qmd) | [Next: Step 2 — Define evaluation questions →](02.02-eval_questions.qmd)
+[← Back to - how to design an RCT](02-how.qmd) | [Next - Step 2: define evaluation questions →](02.02-eval_questions.qmd)
 :::
