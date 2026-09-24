@@ -178,10 +178,6 @@ For EU Managing Authorities, compliance with the General Data Protection Regulat
 Managing Authorities should involve their Data Protection Officer early in the design process – not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
 
 
-## What comes next
-
-Data collection is only as valuable as the quality of what is collected. Step 7 covers the checks – before, during, and after fieldwork – that protect the evaluation from the data quality problems most likely to bias results.
-
 ***
 
 ::: {.nav-buttons}
