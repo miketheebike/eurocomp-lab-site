@@ -8,8 +8,9 @@ title: "Step 1: develop a Theory of Change"
 
 ::: {.team-note}
 #### Summary
-This page explains the Theory of Change.
+This page covers what a Theory of Change (ToC) is, how it relates to the intervention logic required under European Regional Development Fund (ERDF) and European Social Fund Plus (ESF+), each component of the causal chain from inputs to goals with examples, and why building one strengthens both evaluation design and policy lessons.
 :::
+
 
 Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. A ToC makes this logic explicit and evaluation-ready.
 
@@ -138,7 +139,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 ::: {.example .romania}
 [North-East Romania: goals]{.tag}
 
-- Increase in sales, employment, productivity (TFP) and profitability
+- Increase in sales, employment, productivity (Total Factor Productivity) and profitability
 - Higher resilience to economic shocks, due to the business versatility ensured though the digital solutions 
 :::
 
