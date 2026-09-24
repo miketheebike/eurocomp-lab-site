@@ -50,7 +50,7 @@ Indicators rarely need to be built from scratch. Managing Authorities should dra
 ::: {.gold-panel}
 The RCT outcome repository provides a curated, searchable list of outcome indicators drawn from validated instruments, organised by topic – covering firm performance, innovation, research & development, technology adoption, digitalisation, management capacities, collaboration, intellectual property, access to finance, employment, market performance, and environmental sustainability. For each outcome, the repository specifies a plain-language definition, the metric and unit of measurement, and whether primary survey data or administrative data is the most appropriate source.
 
-[Browse the outcome repository](09-bank_outcomes.qmd)**
+[Browse the outcome repository](09-bank_outcomes.qmd)
 :::
 
 
