@@ -559,8 +559,10 @@ were randomly assigned by lottery to receive matchmaking support or not.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: a lottery among applicants ensures wide outreach,
-thanks to a simple application process. Limitation: firms may drop out after applying,
+**Why this design.** 
+Strength: a lottery among applicants ensures wide outreach,
+thanks to a simple application process. 
+Limitation: firms may drop out after applying,
 which can reduce statistical power.
 :::
 
@@ -701,9 +703,11 @@ worked with comparable advisors.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: because the grant was drawn by lottery among firms that
+**Why this design.** 
+Strength: because the grant was drawn by lottery among firms that
 all received the same advisory service, the comparison separates the effect of the cash
-from the effect of the advice, across 34 countries at once. Limitation: firms offered
+from the effect of the advice, across 34 countries at once. 
+Limitation: firms offered
 the grant answered follow-up surveys far more often than the standard group (91%
 against 65%), so the estimates depend on statistical corrections for who responded.
 :::
@@ -870,21 +874,22 @@ arms.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: putting human-led consulting and two AI-based
+**Why this design.** 
+Strength: putting human-led consulting and two AI-based
 alternatives in the same trial, against the same control group, lets the evaluation
 rank all three by cost-effectiveness rather than comparing each in isolation.
 Limitation: with 150 firms per arm, the study is powered to detect a change in sales
 of around 26% or more, so more modest effects could go undetected.
 :::
 
-### What the evaluation will tell us
+### What the evaluation will answer
 
 ::: {.cards}
 ::: {.card-e}
 **Human-led vs AI-led**
 
 Whether a customised, proactively-nudging AI tool can approach the effectiveness of
-costly one-on-one human consulting, at a much lower marginal cost.
+costly one-on-one human consulting, at a lower marginal cost.
 :::
 ::: {.card-e}
 **Off-the-shelf vs custom AI**
@@ -1013,14 +1018,16 @@ tool and a technology scout, while the remainder are waitlisted.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: nesting three experiments inside PARP's own
+**Why this design.** 
+Strength: nesting three experiments inside PARP's own
 application funnel means each stage's estimate is drawn from firms who arrive
-naturally through the programme, not an artificial sample. Limitation: because later
+naturally through the programme, not an artificial sample. 
+Limitation: because later
 stages depend on take-up from earlier ones, the sample shrinks at each step, leaving
 less statistical power for the innermost support experiment.
 :::
 
-### What the evaluation will tell us
+### What the evaluation will answer
 
 ::: {.cards}
 ::: {.card-e}
@@ -1167,15 +1174,17 @@ during implementation.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: randomising AI access at the reviewer-proposal level,
+**Why this design.** 
+Strength: randomising AI access at the reviewer-proposal level,
 with each reviewer cycling between AI-assisted and unassisted batches, isolates the
-effect of the tool from differences between reviewers. Limitation: because a
+effect of the tool from differences between reviewers. 
+Limitation: because a
 reviewer with AI access can choose how much to rely on it, the design measures the
 effect of being offered AI support (intention-to-treat), not of using it, though
 usage telemetry will help distinguish the two.
 :::
 
-### What the evaluation will tell us
+### What the evaluation will answer
 
 ::: {.cards}
 ::: {.card-e}
@@ -1321,7 +1330,8 @@ within the same cluster isolates each firm's own private return.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: varying funding intensity across clusters, on top of
+**Why this design.** 
+Strength: varying funding intensity across clusters, on top of
 randomising which firms within a cluster are funded, lets the evaluation separate a
 firm's private return from spillovers onto its neighbours and competitors.
 Limitation: the design captures spillovers within a cluster but not across cluster
@@ -1329,7 +1339,7 @@ boundaries, which the team plans to approximate separately with a structural,
 network-based model.
 :::
 
-### What the evaluation will tell us
+### What the evaluation will answer
 
 ::: {.cards}
 ::: {.card-e}
@@ -1471,9 +1481,11 @@ that groups were balanced from the outset.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: a three-arm design separates the effect of money from
+**Why this design.** 
+Strength: a three-arm design separates the effect of money from
 the effect of capability-building support, rather than only comparing supported firms
-to unsupported ones. Limitation: it needs a larger sample than a simple two-arm trial to
+to unsupported ones. 
+Limitation: it needs a larger sample than a simple two-arm trial to
 detect the same effect size, since firms are split three ways.
 :::
 
@@ -1639,9 +1651,11 @@ individual consulting, or group consulting.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: matching firms into triplets before randomising keeps
+**Why this design.** 
+Strength: matching firms into triplets before randomising keeps
 the three groups closely balanced on size, productivity and starting management
-practices, even with a modest overall sample. Limitation: with only 53 firms in each
+practices, even with a modest overall sample. 
+Limitation: with only 53 firms in each
 arm, the design has less statistical power to detect small effects than a larger,
 simple two-arm trial.
 :::
@@ -1819,10 +1833,12 @@ and decide whether to offer a placement.
 ```
 
 ::: {.soft-panel}
-**Why this design.** Strength: randomising within strata defined by
+**Why this design.** 
+Strength: randomising within strata defined by
 specialisation and city, among applicants who had already been invited to
 training, helps ensure the treatment and control groups started out
-comparable in skills and local job-market conditions. Limitation: more
+comparable in skills and local job-market conditions. 
+Limitation: more
 applicants were assigned to treatment than there were internship placements
 available, so actual take-up (36.7%) fell well below the treatment
 assignment rate — which is why the study reports both an intention-to-treat
