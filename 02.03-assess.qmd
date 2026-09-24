@@ -67,7 +67,6 @@ Widely used registries include the [AEA RCT Registry](https://www.socialsciencer
 The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on March 18, 2025, prior to follow-up data collection.
 ::::
 
----
 
 ## Randomisation must be designed in from the start
 
