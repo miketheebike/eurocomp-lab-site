@@ -11,18 +11,18 @@ This page covers why experimentation is worth doing in more detail and when to p
 ::: {.example .romania}
 [The running example: North-East Romania]{.tag}
 
-Throughout this site, we come back to one programme developed as part of the EuroCOMP
-Lab to show these ideas in practice: A digitalisation grant scheme for
-micro, small and medium enterprises in North-East Romania, run by the Regional
+Throughout this site, we come back to one programme developed as part of the [EuroCOMP
+Lab](eurocomp.qmd) to show these ideas in practice: A digitalisation grant scheme for
+micro, small and medium enterprises (MSMEs) in North-East Romania, run by the Regional
 Development Agency with World Bank support.
 
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
   <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible Micro, Small, and Medium Enterprises( MSMEs), pre-screened via an online application survey</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
   <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group (no grants): 519 vs. 519, drawn before a notary</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI index), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI score), revenues, profits, employment, productivity</div></div>
   <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
 </div>
 ```
@@ -91,7 +91,7 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
   <text x="575" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
   <text x="575" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
 </svg>
-<figcaption>Policy learning feeds back into programme design helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
+<figcaption>Note: Policy learning feeds back into programme design helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
 </figure>
 ```
 
@@ -137,8 +137,8 @@ Monitoring and impact evaluation are complements, not alternatives. An impact ev
 **Definition.** Impact is what happens after a programme is introduced, minus what would
 have happened in its absence, the counterfactual.
 
-**The dilemma.** The counterfactual is a "what if" and is unknown to us. Ideally, we would observe the same firm twice, once with the programme and once without
-it, and compare. That is impossible: each firm either takes part or it does not. Every
+**The dilemma.** The counterfactual is a "what if" and is unknown to us. Ideally, we would observe the same applicant twice, once with the programme and once without
+it, and compare. That is impossible: each applicant either takes part or it does not. Every
 impact evaluation method is a way of approximating that missing second observation.
 
 **The solution.** Find a way to construct the counterfactual so impact can be measured.
@@ -165,7 +165,7 @@ This can be done in different ways. The page shows different methods of construc
   <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
   <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
 </svg>
-<figcaption>Impact is the causal effect of the programme: the gap between what happened and what would have happened.</figcaption>
+<figcaption>Note: Impact is the causal effect of the programme: the gap between what happened with it and what would have happened in its absence.</figcaption>
 </figure>
 ```
 
@@ -177,11 +177,13 @@ thing to count. Measuring impact means moving from counting outputs to measuring
 ::: {.cards}
 ::: {.card-e}
 #### Outputs
-What a programme delivers: grants disbursed, firms enrolled, training sessions run.
+What a programme delivers.
+For example, grants disbursed, firms enrolled, training sessions run.
 :::
 ::: {.card-e}
 #### Outcomes
-What changes because of it: growth, jobs, innovation, resilience.
+What changes because of it.
+For example, growth, jobs, innovation, resilience.
 :::
 :::
 
@@ -216,7 +218,7 @@ four tracked outcomes: digital adoption, revenue, employment, and productivity.
 ```
 :::
 
-Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what to measure to test whether the
+Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a program's reason for existing. It also tells you what you need to measure in order to test whether the
 expected change is actually happening.
 
 ```{=html}
@@ -231,14 +233,18 @@ expected change is actually happening.
 </div>
 ```
 
-But which outcomes? A programme can change many things, and not all of them can or should be measured. To know which outcomes to look at, and when to expect them to change, first spell out how the programme is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to outcomes. Doing this before implementation shows, in advance, why each step should lead to the next, and tells you what to measure to test whether the expected change is actually happening.
+But which outcomes should one look at exactly? A programme can change many things, and not all of them can or should be measured. To know which outcomes to look at, and when to expect them to change, start by spelling out how the programme is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to outcomes. Doing this before implementation shows, in advance, why each step should lead to the next, and tells you what to measure to test whether the expected change is actually happening.
+
 This chain is the foundation of a Theory of Change, and having thought it through helps
 in designing a strong impact evaluation. There is more on this in
-[Step 1: Develop a Theory of Change](02.01-toc.qmd). Making the chain explicit also surfaces the assumptions behind each link, including where the programme is most likely to fall short of its intended impact. Testing alternative ways of addressing the same assumption is one way to strengthen the design and reduce that risk.
+[Step 1: Develop a Theory of Change](02.01-toc.qmd). 
+
+Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
 
 ::: {.example .case #digitrans}
 [digitrans example]{.tag}
-The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to a comparison group, a financial subsidy alone, or the same subsidy paired with technical assistance.
+The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
+
 The pilot found that money alone is not the most effective. Firms that also received technical assistance used
 digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
 :::
@@ -249,8 +255,8 @@ Return on public investment is the benefit attributable to a programme divided b
 cost. "Attributable" requires knowing what the programme beneficiaries would have done in the absence of the programme (the counterfactual).
 
 That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiaries may differ from those that were not selected, e.g. they may be more motivated or have more resources. Most of these traits
-are never recorded in any database or questionnaire. When these beneficiaries later do better on the outcomes of interest,
-it is impossible to tell how much of that is the programme and how much is who they already were.
+are never recorded in any database or questionnaire. When the beneficiaries later do better on the outcomes of interest than the applicants that were not selected,
+it is impossible to tell how much of that difference is due to the programme.
 
 Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
 "success" means launching a new product. Compare two selection rules.
@@ -263,14 +269,14 @@ Strategy A: fund the top performers
 ::: {.body}
 Firms that succeed: **80 of 100**
 
-Would have succeeded anyway: 65
+Would have succeeded anyway: **65**
 
-Caused by the grant: **15**
+Succeeded because of the grant: **15**
 
 Additionality rate: **19%**
 :::
 ::: {.verdict}
-Looks stronger: 80 successes.
+Strategy A looks stronger on the first glance as it is associated with 80 successes but only 15 of these succeeded because of Strategy A (are its impact).
 :::
 :::
 ::: {.col-e}
@@ -280,14 +286,14 @@ Strategy B: fund the marginal firm
 ::: {.body}
 Firms that succeed: **55 of 100**
 
-Would have succeeded anyway: 20
+Would have succeeded anyway: **20**
 
-Caused by the grant: **35**
+Succeeded because of the grant: **35**
 
 Additionality rate: **64%**
 :::
 ::: {.verdict}
-Actually causes more impact: 35 caused.
+Strategy B causes 35 successes and thus is more impactful than A. 
 :::
 :::
 :::
@@ -317,14 +323,14 @@ Actually causes more impact: 35 caused.
   <rect x="300" y="236" width="11" height="11" fill="var(--dg-accent)"/>
   <text x="318" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Caused by the grant</text>
 </svg>
-<figcaption>Raw success counts can be misleading. Programmes should be judged on impact, not on the raw success of hand-picked winners.</figcaption>
+<figcaption>Note: Raw success counts can be misleading. Programmes need be judged on impact, not on raw success to evaluate their effectiveness.</figcaption>
 </figure>
 ```
 
 ::: {.cards}
 ::: {.card-e}
 #### Deadweight: low additionality
-Additionality is the share of activity that wouldn't have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they'd have spent regardless – generating little that's truly additional per euro.
+Additionality is the share of activity that would not have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that's truly additional per euro.
 :::
 ::: {.card-e}
 #### Selection bias in measurement
@@ -339,8 +345,8 @@ that could not otherwise get funded.
 ::: {.card-e}
 #### Can experts spot the marginal firm?
 Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
-did not predict which firms would survive or grow three years later (McKenzie & Sansone
-2019). See [Common myths](index.qmd#common-myths-about-rcts).
+did not predict which firms would survive or grow three years later (McKenzie & Sansone,
+2019; see [Common myths](index.qmd#common-myths-about-rcts)).
 :::
 :::
 
@@ -352,6 +358,7 @@ As [defined above](#counterfactual), the counterfactual is what would have happe
 **Strategy.** Find a group of firms that on average look like treated firms would have
 looked in the absence of the programme. This group is the comparison group.
 
+There are two ways of estimating the counterfactual: 
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
@@ -368,7 +375,7 @@ Ex-post: quasi-experimental designs
 :::
 ::: {.body}
 Look for a suitable comparison group after the programme has already been rolled out,
-using natural variation in who received it and who did not.
+using natural variation in who received the programme and who did not.
 :::
 :::
 :::
@@ -377,9 +384,12 @@ using natural variation in who received it and who did not.
 **Selection bias** is the risk that the comparison group does not actually look like the
 treatment group on average. If that assumption is wrong, the impact estimate is biased.
 :::
+
+::: {.example .romania}
+[North-East Romania: the counterfactual]{.tag}
 In North-East Romania, the counterfactual is the group of eligible firms that were not
 drawn in the lottery. [How the lottery created it](#rct).
-
+:::
 
 ## What is a randomised controlled trial? {#rct}
 
@@ -414,6 +424,7 @@ group without the programme.
   <text x="480" y="72" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
   <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
+<figcaption>Note: Treatment and comparison groups start at the same outcome level and diverge after the programme, with the divergence being the impact of a programme.</figcaption>
 </figure>
 ```
 Because assignment is decided by chance, the two groups are alike on average not only in characteristics you can measure, but also in those you cannot. Take the example of firms applying for a grant: randomising who receives the money means that, on average, the two groups look the same on observable characteristics such as size, sector or turnover, and also on unobservable ones such as management quality or motivation. Nothing should systematically differ between them except that some applicants were lucky in the draw and others were not. That is why no statistical adjustment for firm characteristics is needed to get a credible estimate.
@@ -449,9 +460,11 @@ Before any grants were awarded, the two groups were statistically identical:
 | Share with fewer than 10 employees | 63% | 63% |
 | Share in urban areas | 84% | 84% |
 
+
 Because the groups started out the same, the difference between them over time is the
 impact of being invited to apply for the grant.
 
+#### The randomisation design 
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
@@ -478,6 +491,7 @@ impact of being invited to apply for the grant.
   <text x="446" y="199" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
   <text x="446" y="212" fill="#6B6455" font-size="10.5">the same way</text>
 </svg>
+<figcaption>Note: Among eligible firms, which firms was invited to apply for a grant was randomly assigned.</figcaption>
 </figure>
 ```
 :::
@@ -522,7 +536,9 @@ check that each firm met the formal criteria and that the requested funds were j
 Every RCT raises new questions along with the ones it answers, each round building
 on the last. That is how we expand our knowledge of what works, for whom, and under what
 conditions, and use it to design better programmes. Exchange within a community of practice
-matters, so we can learn from each other, not just from our own results. But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
+matters, so we can learn from each other, not just from our own results. 
+
+But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
 
 ```{=html}
 <figure class="fig-e">
@@ -550,20 +566,21 @@ matters, so we can learn from each other, not just from our own results. But bef
   <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
 </svg>
+<figcaption>Note: Testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
 </figure>
 ```
 
 ::: {.cards}
 ::: {.card-e}
 [Review]{.num}
-Before considering how to embed an RCT, review a programme's theory of change, identify risks and the learning questions this round should answer, and the outcomes most likely to change (see [Bank of Outcomes](09-bank_outcomes.qmd)).
-Review lessons from other settings and countries, adapt them.
+Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.01-toc.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
+Review lessons from other [settings and countries](03-examples.qmd), adapt them.
 Identify baseline needs of potential beneficiaries in your region.
 :::
 ::: {.card-e}
 [Design]{.num}
-Choose a credible comparison group and set the sample size needed to detect a meaningful effect.
-Turn the outcomes identified in Review into measurable indicators, and set out the data collection plan, budget, and timeline in a Terms of Reference.
+Choose a credible comparison group and set the [sample size](02.03a-power.qmd) needed to detect a meaningful effect.
+Turn the outcomes identified in Review into (measurable indicators)[02.04-indicators.qmd], and set out the [data collection](02.06-data_collect.qmd) plan, budget, and timeline in a [Terms of Reference](02.06a-tor.qmd).
 :::
 ::: {.card-e}
 [Test]{.num}
@@ -580,8 +597,10 @@ Scale up based on evidence.
 
 ## What if you cannot randomise? {#alternatives}
 
-For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way – we come back to that below. When early randomisation for this question is not possible,
+For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
 quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview over the most common quasi-experimental methods. 
+
+However, if what you want to know how to best run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way – we come back to that below. 
 
 ::: {.caution}
 Quasi-experimental methods always rely on assumptions, some stronger than others. If those
@@ -624,6 +643,8 @@ recovering at the same time, not because of the programme.
   <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
   <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
 </svg>
+<figcaption>Note: A before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
+</figure>
 </figure>
 ```
 
@@ -667,7 +688,7 @@ those that do not, so they might grow faster regardless of the grant.
   <text x="300" y="172" fill="var(--dg-ink-soft)" font-size="11.5">Unobserved difference,</text>
   <text x="300" y="188" fill="var(--dg-ink-soft)" font-size="11.5">for example firm quality</text>
 </svg>
-<figcaption>The measured gap mixes the programme effect with differences that were there all along.</figcaption>
+<figcaption>Note: The measured gap mixes the programme effect with differences that were there all along.</figcaption>
 </figure>
 ```
 
@@ -710,7 +731,7 @@ downturn than the comparison firms, their trends could diverge even without the 
   <text x="380" y="52" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
   <text x="380" y="178" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
-<figcaption>The estimate is Diff 1 minus Diff 2: how much more the treatment group changed than the comparison group.</figcaption>
+<figcaption>Note: The estimate is Difference 1 minus Difference 2: how much more the treatment group changed than the comparison group.</figcaption>
 </figure>
 ```
 
@@ -783,7 +804,7 @@ are no longer comparable to those just above.
   <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="250" y="128" fill="var(--dg-ink)" font-size="12" font-weight="bold">RDD effect</text>
 </svg>
-<figcaption>Many firms sit close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
+<figcaption>Note: This method requires many applicants sitting close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
 </figure>
 ```
 
@@ -812,29 +833,30 @@ and the others formed the comparison group ([see above](#rct)).
 How do you deliver it better?
 :::
 ::: {.body}
-You already know the programme works and it may already be running. What you want to know is which version of the programme works
-best. The [Digitrans example](#digitrans) above is one case: grant alone versus grant plus
-technical assistance.
+You already know the programme works. The programme's implementation may already be ongoing. What you want to know is which version of the programme works
+best. Example: The [Digitrans example](#digitrans) compares whether a grant alone versus a grant combined with
+technical assistance performs best.
 :::
 :::
 :::
 
 ::: {.example .romania}
 [North-East Romania: testing outreach]{.tag}
+In fact, the North-East Romania programme asked both questions. It used an experiment to find out if the programme is effective and a second experiment to study how to best conduct outreach.
 Before the digitalisation call, the regional development agency randomly selected 26 of 46
 towns for in-person information visits, in which a consultant explained the call and
 helped firms complete the pre-assessment survey. The visited towns produced 110
-applications against 71 in the others, 55% more, and the additional applicants were
+applications against 71 in the towns that did not receive in-person visits (55% more). The additional applicants in towns with in-person visits were
 smaller firms (12.6 employees on average, compared with 19.6).
 :::
 
 ::: {.example .case}
 [Colombia: group vs individual management support]{.tag}
-(Iacovone et al. 2022) tested two cheaper ways to deliver management consulting to auto-parts firms:
+[Iacovone et al. 2022](03-examples.qmd#colombia-scaling-up-management-consulting) compared two ways to deliver management consulting to auto-parts firms:
 one-to-one (about US$28,950 per firm) and in groups of 3–8 firms (about US$10,500). Both
 raised management scores by around 9 percentage points, but only group consulting
 significantly raised sales and profits.
-[Read the full example](03-examples.qmd#colombia-scaling-up-management-consulting).
+
 :::
 
 
@@ -891,7 +913,7 @@ significantly raised sales and profits.
   <text x="15" y="480" fill="var(--dg-ink-soft)" font-size="12.5">between groups are needed for the RCT branch.</text>
 
   <rect x="515" y="170" width="470" height="60" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="750" y="196" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">Everyone eligible is already included &mdash;</text>
+  <text x="750" y="196" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">Everyone eligible is already included - </text>
   <text x="750" y="216" text-anchor="middle" fill="var(--dg-ink)" font-size="14.5" font-weight="bold">nobody is held back</text>
 
   <path d="M750 230 V248" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
@@ -910,10 +932,9 @@ significantly raised sales and profits.
   <text x="750" y="452" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">at the design stage. It can be added</text>
   <text x="750" y="472" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">once implementation is already under way.</text>
 </svg>
-<figcaption>The left path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
-example a randomised phase-in, where every eligible firm is served but in a random order.
-[Step 4: Assess feasibility](02.03-assess.qmd) explains this and the other ways to
-randomise. The right path does need a comparison group fixed from the outset, because nobody is excluded from the programme itself &mdash; only which version of it they get is randomised.</figcaption>
+<figcaption>Note: The left path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
+example a randomised phase-in, where every eligible firm is served but in a random order. Page How to design an RCT explains different ways to
+randomise. The right path does need a comparison group fixed from the outset, because nobody is excluded from the programme itself - only which version of it they get is randomised.</figcaption>
 </figure>
 ```
 
@@ -952,7 +973,7 @@ Within the quasi-experimental branch, here is how the three methods compare:
   <text x="214" y="199" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
 
   <rect x="10" y="210" width="380" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="26" y="230" fill="var(--dg-ink)" font-size="11" font-weight="bold">None of the above &mdash; but you can still</text>
+  <text x="26" y="230" fill="var(--dg-ink)" font-size="11" font-weight="bold">None of the above - but you can still</text>
   <text x="26" y="246" fill="var(--dg-ink)" font-size="11" font-weight="bold">find non-participants who look like your</text>
   <text x="26" y="262" fill="var(--dg-ink)" font-size="11" font-weight="bold">participants on the traits that matter?</text>
   <path d="M390 245 H430" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
@@ -966,7 +987,7 @@ Within the quasi-experimental branch, here is how the three methods compare:
   <text x="330" y="345" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">Matching is the one design that asks nothing of the programme's rules</text>
   <text x="330" y="361" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">and thus leans hardest on its assumption.</text>
 </svg>
-<figcaption>Take the first row that fits. A "no" sends you to the next question; "yes" gives you the design and the assumption it asks you to make.</figcaption>
+<figcaption>Note: Take the first row that fits. A "no" sends you to the next question; "yes" gives you the design and the assumption it asks you to make.</figcaption>
 </figure>
 ```
 
