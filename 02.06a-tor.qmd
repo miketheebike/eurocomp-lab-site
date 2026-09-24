@@ -179,3 +179,9 @@ Describe the reporting line, frequency of progress meetings, and the composition
 - **Setting an unrealistic budget.** A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.
 - **Bundling evaluation and data collection.** Where feasible, procure these separately. Combining them in a single contract creates conflicts of interest and tends to weaken both functions.
 - **Omitting pre-registration.** Pre-registration is a mandatory requirement, not an optional extra. It must be included explicitly in the ToR.
+
+---
+
+::: {.nav-buttons}
+[← Back to: Step 6 — collect data](02.03-assess.qmd)
+:::
