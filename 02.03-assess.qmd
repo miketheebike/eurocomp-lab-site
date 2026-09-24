@@ -134,6 +134,50 @@ In North-East Romania, the World Bank randomised outreach activities across 46 c
 ::::
 
 
+
+## Lesson 5: Simplify the application process
+
+Complex, document-heavy application processes disproportionately burden firms that are least familiar with EU funding — the very firms that programmes are often designed to reach. When compliance requirements are similar regardless of grant size, small firms face the same administrative burden as large ones, often pushing them to hire consultants and creating a market for intermediaries that adds cost without adding value.
+
+Application requirements should be proportionate to the amount of funding requested. Processes should be fully digital, integrated with existing administrative databases wherever possible, and capable of providing real-time eligibility feedback so that firms can assess their likelihood of success before investing significant time in an application.
+
+:::: {.example .romania}
+[North-East Romania: building the eligibility pool]{.tag}
+
+In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed — all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalization levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
+::::
+
+---
+
+## Lesson 6: Use the application process to exchange information
+
+The application process is typically treated as a one-way flow of information: firms submit data to the Managing Authority. In practice, it can also be a vehicle for delivering useful information and tools to firms — raising awareness about a topic (digitalization, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
+
+Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
+
+:::: {.example .romania}
+[North-East Romania: building the eligibility pool]{.tag}
+
+In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach and information campaign that included a dedicated project website, a LinkedIn campaign with paid promotions, appearances in television and online media, presentations at industry events and scientific institutions, and webinars targeting thousands of firms. The campaign was structured around a business-science matchmaking concept, providing firms with substantive information about how to collaborate with research institutions — not just how to apply for a grant. The initiative attracted widespread media coverage and generated strong interest in applications well before the call officially opened.
+::::
+
+---
+
+## Lesson 7: Provide early investment guidance
+
+Firms often do not know what to invest in — particularly when the programme targets an unfamiliar area such as digitalization, R&D collaboration, or energy efficiency. Left without guidance, firms make poorly informed investment choices, which reduces the quality of applications and the eventual impact of the programme. Early, impartial guidance reduces this risk and shifts part of the technical burden away from the Managing Authority.
+
+Investment guidance can take the form of general information materials distributed at the programme's launch, templates that help firms assess their needs, or structured engagement with expert advisors (such as Digital Innovation Hubs). Conflicts of interest must be managed carefully if advisors also provide services to applicants.
+
+:::: {.example .romania}
+[North-East Romania: building the eligibility pool]{.tag}
+
+In the North-East digitalization programme, the Managing Authority required applicants to produce a digital feasibility study prepared and signed by a certified digital expert — either from a European Digital Innovation Hub or an ICT consulting firm. A standardised template guided firms through assessing their current digital maturity (using the DESI framework), identifying areas for improvement, and specifying the technologies they planned to invest in. This shifted the technical evaluation away from the agency — which was implementing such a programme for the first time — and toward independent experts, while ensuring that investment proposals were grounded in an objective assessment of each firm's starting point.
+::::
+
+
+
+
 The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations →](02.03a-power.qmd)
 
 If the eligible pool falls short, there are two immediate levers:
