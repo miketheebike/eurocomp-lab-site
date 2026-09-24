@@ -1,8 +1,8 @@
 ---
-title: "RCT outcome bank"
+title: "RCT outcome repository"
 ---
 
-This outcomes bank is organised by topic and maps directly onto the topics covered in the Survey Question Bank. For each outcome you will find:
+This outcome repository is organised by topic and maps directly onto the topics covered in the survey question repository. For each outcome you will find:
 
 - The outcome name and a plain-language definition
 - The metric – how to operationalise and measure it
