@@ -13,6 +13,10 @@ This page explains how to assess the feasibility of an RCT.
 
 With the Theory of Change, evaluation questions, and indicators in place, and the feasibility of the RCT confirmed, the next question is where the data will come from. This is a strategic decision that must be made before the programme launches – not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
 
+## What comes next
+
+Step 5 addresses the fundamental strategic question: for each indicator, should you rely on primary data collected specifically for the evaluation, secondary administrative data that already exists, or a combination of both? Getting this decision right early shapes everything that follows.
+
 ---
 
 ## The fundamental decision: primary, secondary, or both?
