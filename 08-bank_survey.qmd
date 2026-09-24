@@ -1,8 +1,8 @@
 ---
-title: "Survey question bank"
+title: "Survey question repository"
 ---
 
-This question bank is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, and copy-paste those that fit your needs. Each question includes:
+This question repository is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, and copy-paste those that fit your needs. Each question includes:
 
 - The question text, ready to use
 - Response options where applicable
