@@ -14,6 +14,7 @@ This page explains
 
 Step 5 determined where the data will come from. This step is about how and when to collect it. For most RCT evaluations of competitiveness programmes, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 5. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
 
+---
 
 ## Plan the data collection rounds
 
