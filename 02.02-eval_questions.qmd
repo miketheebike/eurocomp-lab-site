@@ -99,5 +99,5 @@ The mechanism that enforces this commitment publicly is **pre-registration** —
 ---
 
 ::: {.nav-buttons}
-[← Previous: Step 1 — Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 — Determine relevant indicators →](02.03-indicators.qmd)
+[← Previous - Step 1: develop a Theory of Change](02.01-toc.qmd) | [Next - Step 3: determine relevant indicators →](02.03-indicators.qmd)
 :::
