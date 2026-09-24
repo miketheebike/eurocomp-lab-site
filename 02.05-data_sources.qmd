@@ -59,8 +59,7 @@ Second, can the administrative data be linked to the companies being part of the
 
 ## Where to find secondary firm-level data
 
-::: {.gold-panel}
-**Key sources of secondary firm-level data**
+Key sources of secondary firm-level data
 
 | Source | What it contains | Access |
 |---|---|---|
@@ -72,7 +71,6 @@ Second, can the administrative data be linked to the companies being part of the
 | National R&D surveys | R&D expenditure, personnel, outputs – linked to Frascati Manual | Via national statistical office |
 | Programme management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
 
-:::
 
 ::: {.example .romania}
 [North-East Romania: administrative data]{.tag}
@@ -84,7 +82,7 @@ North-East Romania used two administraive data sources: (i) publicly available f
 
 Access to administrative data rarely happens automatically. Tax records, social security data, and business registry microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time – in some countries, many months – and must be initiated well before the evaluation begins.
 
-A data-sharing agreement (DSA) between the Managing Authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. GDPR compliance must be addressed explicitly in the agreement.
+A data-sharing agreement between the Managing Authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. GDPR compliance must be addressed explicitly in the agreement.
 
 ***
 
