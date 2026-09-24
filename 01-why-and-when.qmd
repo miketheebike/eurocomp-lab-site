@@ -46,6 +46,7 @@ This site return to this running example at each step: [what impact means here](
 [how the lottery created a comparison group](#rct), [how the draw was made
 transparent](#legitimacy), and [how outreach was tested](#two-questions) to illustrate the concepts covered.
 
+```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
@@ -53,6 +54,7 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
     <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
   </div>
 </div>
+```
 :::
 
 ## What is impact evaluation for? {#impact-evaluation}
