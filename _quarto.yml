@@ -49,17 +49,15 @@ website:
         contents:
           - href: 02.01-toc.qmd
           - href: 02.02-eval_questions.qmd
+          - href: 02.04-indicators.qmd
           # the a/b/c pages are supporting detail, nested under their step
           - section: 02.03-assess.qmd
-            href: 02.03-assess.qmd
             contents:
               - href: 02.03a-power.qmd
               - href: 02.03b-balance.qmd
               - href: 02.03c-legal.qmd
-          - href: 02.04-indicators.qmd
           - href: 02.05-data_sources.qmd
-          - section: "Step 6: Collect data"
-            href: 02.06-data_collect.qmd
+          - section: 02.06-data_collect.qmd
             contents:
               - href: 02.06a-tor.qmd
           - href: 02.07-data_quality.qmd
