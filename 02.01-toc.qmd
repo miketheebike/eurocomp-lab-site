@@ -161,6 +161,12 @@ Developing a ToC is well worth the effort for two important reasons. First, it s
 
 Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better — findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.
 
+::: {.example .romania}
+[North-East Romania: why investing time]{.tag}
+
+In Romania, the World Bank supported the Managing Authority in developing a ToC and in applying systematic methods to quantify the Managing Authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured — allowing the design to be adjusted before implementation rather than after the evaluation.
+::::
+
 ---
 
 ::: {.nav-buttons}
