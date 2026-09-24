@@ -120,7 +120,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) - internationally consistent definitions of research & development concepts and measurement approaches
 
 ::: {.gold-panel}
-The survey question bank provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
+The survey question repository provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
 
 | Topic | Content |
 |---|---|
@@ -135,7 +135,7 @@ The survey question bank provides a ready-to-use library of validated questions 
 | Intellectual property | Patents, trademarks, licensing, informal protection |
 | Technology Readiness Level | TRL self-assessment |
 
-**[Browse the survey question bank](08-bank_survey.qmd)**
+**[Browse the survey question repository](08-bank_survey.qmd)**
 :::
 
 ### Questionnaire design
