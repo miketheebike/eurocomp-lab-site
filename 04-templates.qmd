@@ -2,14 +2,6 @@
 title: "Repository"
 ---
 
-### Reports
-- [Tides of Change](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia). 
-
-### Survey question repository
-
-[Survey question repository](08-bank_survey.qmd)
-
-### RCT outcome repository
-
-[RCT outcome repository](09-bank_outcomes.qmd)
+- [Survey question repository](08-bank_survey.qmd)
+- [RCT outcome repository](09-bank_outcomes.qmd)
 
