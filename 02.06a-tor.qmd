@@ -183,5 +183,5 @@ Describe the reporting line, frequency of progress meetings, and the composition
 ---
 
 ::: {.nav-buttons}
-[← Back to: Step 6 — collect data](02.03-assess.qmd)
+[← Back to - Step 6: collect data](02.03-assess.qmd)
 :::
