@@ -445,6 +445,6 @@ firms that actually took up the grant.
 ---
 
 ::: {.nav-buttons}
-[← Previous: Step 3 — Determine relevant indicators](02.03-assess.qmd) | [Next: Step 5 — Identify available data sources →](02.05-data_sources.qmd)
+[← Previous - Step 3: determine relevant indicators](02.03-assess.qmd) | [Next - Step 5: identify available data sources →](02.05-data_sources.qmd)
 :::
 
