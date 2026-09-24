@@ -8,10 +8,11 @@ title: "Step 5: identify available data sources"
 
 ::: {.team-note}
 #### Summary
-This page explains how to assess the feasibility of an RCT.
+This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they contain the right outcomes, where to find secondary firm-level data, and how to set up data-sharing agreements.
 :::
 
-With the Theory of Change, learning questions, indicators in place, and the feasibility of the RCT confirmed, the next question is where the data will come from. This is a strategic decision that must be made before the programme launches – not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
+
+With the Theory of Change (ToC), learning questions, indicators in place, and the feasibility of the randomised controlled trial (RCT) confirmed, the next question is where the data will come from. This is a strategic decision that must be made before the programme launches – not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
 
 ---
 
