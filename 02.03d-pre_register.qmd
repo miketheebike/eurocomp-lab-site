@@ -30,7 +30,14 @@ Registry for International Development Impact Evaluations, hosted by 3ie.
 :::
 :::
 
----
+
+:::: {.example .romania}
+[North-East Romania: preregister the evaluation design]{.tag}
+
+The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on 18 March 2025, prior to follow-up data collection.
+::::
+
+***
 
 ::: {.nav-buttons}
 [← Back to - Step 4: assess feasibility](02.03-assess.qmd)
