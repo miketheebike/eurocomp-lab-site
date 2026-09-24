@@ -7,9 +7,9 @@ title: "More details on comparability of groups"
 This page explains what balance means, why it matters, how to check it, and what to do if the groups turn out not to be comparable after the lottery.
 :::
 
-A randomised lottery is designed to produce two groups — treatment and comparison — that look alike before the programme starts. This comparability is the foundation on which the entire evaluation rests. If the groups are similar at baseline, any difference in outcomes at endline can be attributed to the programme. If they are not, that attribution falls apart.
+A randomised lottery is designed to produce two groups – treatment and comparison – that look alike before the programme starts. This comparability is the foundation on which the entire evaluation rests. If the groups are similar at baseline, any difference in outcomes at endline can be attributed to the programme. If they are not, that attribution falls apart.
 
-This page explains what balance means in practice, how to verify it, and — because no lottery produces perfect balance every time — what to do when the groups turn out to be different on some characteristic.
+This page explains what balance means in practice, how to verify it, and – because no lottery produces perfect balance every time – what to do when the groups turn out to be different on some characteristic.
 
 ***
 
@@ -17,15 +17,15 @@ This page explains what balance means in practice, how to verify it, and — bec
 
 The logic of an RCT is simple: take two groups of similar firms, give one group the programme and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. If the treatment group happened to contain more high-performing firms before the programme started, any difference in outcomes at endline may simply reflect that head start rather than the programme's effect.
 
-Randomisation is the mechanism that makes comparability likely — but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly older, larger, or more export-oriented than the comparison group. With enough firms, these chance differences average out. With fewer firms, they can be large enough to matter.
+Randomisation is the mechanism that makes comparability likely – but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly older, larger, or more export-oriented than the comparison group. With enough firms, these chance differences average out. With fewer firms, they can be large enough to matter.
 
-This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality — it is a quality control on the randomisation itself.
+This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality – it is a quality control on the randomisation itself.
 
 ***
 
 ## What a balance check involves
 
-A balance check compares the two groups on a set of characteristics measured at baseline — before the programme has begun and before either group knows whether they have been selected. For firm-level evaluations, these characteristics typically include:
+A balance check compares the two groups on a set of characteristics measured at baseline – before the programme has begun and before either group knows whether they have been selected. For firm-level evaluations, these characteristics typically include:
 
 - Firm size (number of employees, in full-time equivalents)
 - Firm age (years since establishment)
@@ -62,7 +62,7 @@ For each characteristic, the evaluator calculates the average value in the treat
 </figure>
 ```
 
-The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences — a few percentage points in any direction — are expected and normal. They are the product of chance, not a flaw in the design.
+The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences – a few percentage points in any direction – are expected and normal. They are the product of chance, not a flaw in the design.
 
 ```{=html}
 <div class="case-band"><b>North-East Romania</b><span>&#10003; The application survey collected the baseline data used for this check</span></div>
@@ -85,7 +85,7 @@ The evaluator will present the balance check as a table showing the average valu
 What the result typically shows
 :::
 ::: {.body}
-In a well-executed randomisation with a reasonably large sample, most characteristics will show no statistically significant difference between the groups. The few that do are usually the result of chance — out of twenty variables tested, you would expect one to appear imbalanced simply because of how probability works, even in a perfectly conducted lottery.
+In a well-executed randomisation with a reasonably large sample, most characteristics will show no statistically significant difference between the groups. The few that do are usually the result of chance – out of twenty variables tested, you would expect one to appear imbalanced simply because of how probability works, even in a perfectly conducted lottery.
 :::
 :::
 ::: {.col-e}
@@ -93,51 +93,51 @@ In a well-executed randomisation with a reasonably large sample, most characteri
 What raises a concern
 :::
 ::: {.body}
-A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised — perhaps because some firms were selectively excluded, or because the draw was not conducted as described.
+A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised – perhaps because some firms were selectively excluded, or because the draw was not conducted as described.
 :::
 :::
 :::
 
 ::: {.takeaway}
-One or two imbalanced variables in a balance table is almost always chance. Many imbalanced variables — or imbalance on the primary outcome — is a signal worth investigating.
+One or two imbalanced variables in a balance table is almost always chance. Many imbalanced variables – or imbalance on the primary outcome – is a signal worth investigating.
 :::
 
 ***
 
 ## What to do if the groups are not perfectly balanced
 
-Perfect balance is the goal, not a guarantee. When the balance check reveals a meaningful difference on one or more characteristics, there are two main responses — and importantly, neither involves re-running the lottery.
+Perfect balance is the goal, not a guarantee. When the balance check reveals a meaningful difference on one or more characteristics, there are two main responses – and importantly, neither involves re-running the lottery.
 
-**Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the programme's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the programme's effect. The evaluator handles this — the Managing Authority simply needs to know that it is standard practice, not a workaround.
+**Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the programme's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the programme's effect. The evaluator handles this – the Managing Authority simply needs to know that it is standard practice, not a workaround.
 
-**Do not re-randomise.** Once firms know their assignment — or once the programme has begun — re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the programme launches and before firms have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
+**Do not re-randomise.** Once firms know their assignment – or once the programme has begun – re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the programme launches and before firms have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
 
 ::: {.caution}
-Never drop firms from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping firms selectively — even for apparently good reasons — can introduce bias and undermines the integrity of the evaluation.
+Never drop firms from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping firms selectively – even for apparently good reasons – can introduce bias and undermines the integrity of the evaluation.
 :::
 
 ***
 
-## Choosing what to measure before the lottery — not after
+## Choosing what to measure before the lottery – not after
 
 The balance check is only part of a broader discipline that runs through every well-designed RCT: deciding what you are going to measure, and how you are going to analyse it, before you see any results.
 
-This applies equally to the outcome variables. The evaluation questions were defined in Step 2, and the indicators were selected in Step 3 — both before the lottery, before the baseline survey, and certainly before any endline data is collected. The reason is simple: if an evaluator can choose which outcome to focus on after seeing the data, they will — consciously or not — tend to report the outcomes that look best. This is called cherry-picking, and it produces findings that appear more favourable or more significant than they actually are.
+This applies equally to the outcome variables. The evaluation questions were defined in Step 2, and the indicators were selected in Step 3 – both before the lottery, before the baseline survey, and certainly before any endline data is collected. The reason is simple: if an evaluator can choose which outcome to focus on after seeing the data, they will – consciously or not – tend to report the outcomes that look best. This is called cherry-picking, and it produces findings that appear more favourable or more significant than they actually are.
 
 Pre-registration solves this problem. By publicly committing to the primary outcome, the analysis plan, and the subgroup comparisons before any data is collected, the evaluation team makes it impossible to selectively report results after the fact. The pre-registration record is publicly visible and time-stamped, so anyone reading the final report can verify that the analysis was conducted as originally planned.
 
 
 ::: {.takeaway}
-Fix the outcomes before the draw: choosing them afterwards invites cherry-picking — even when no one intends it.
+Fix the outcomes before the draw: choosing them afterwards invites cherry-picking – even when no one intends it.
 :::
 
 ***
 
 ## Pre-registration: locking in the plan publicly
 
-Pre-registration means publishing the evaluation design — the research question, the primary outcome, the randomisation procedure, and the analysis plan — on a public registry before data collection begins. It is now a standard requirement for rigorous evaluations and is increasingly expected by academic journals, the European Commission, and research funders.
+Pre-registration means publishing the evaluation design – the research question, the primary outcome, the randomisation procedure, and the analysis plan – on a public registry before data collection begins. It is now a standard requirement for rigorous evaluations and is increasingly expected by academic journals, the European Commission, and research funders.
 
-For a Managing Authority, pre-registration serves two practical purposes beyond scientific integrity. First, it protects the evaluation team from pressure — whether internal or political — to adjust the analysis after results are known. Second, it strengthens the credibility of the findings: when a null result or an inconvenient finding is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
+For a Managing Authority, pre-registration serves two practical purposes beyond scientific integrity. First, it protects the evaluation team from pressure – whether internal or political – to adjust the analysis after results are known. Second, it strengthens the credibility of the findings: when a null result or an inconvenient finding is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
 
 ::: {.cards}
 ::: {.card-e}
@@ -157,7 +157,7 @@ Registry for International Development Impact Evaluations, hosted by 3ie.
 :::
 :::
 
-Pre-registration should happen before the baseline survey is fielded — or at the very latest, before the endline data is collected. The evaluation team will lead this process, but the Managing Authority should confirm that it has been done before approving the inception report.
+Pre-registration should happen before the baseline survey is fielded – or at the very latest, before the endline data is collected. The evaluation team will lead this process, but the Managing Authority should confirm that it has been done before approving the inception report.
 
 ***
 

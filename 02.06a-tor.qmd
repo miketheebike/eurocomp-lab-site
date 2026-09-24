@@ -4,9 +4,9 @@ title: "Terms of reference for evaluation and data collection"
 
 ## Overview
 
-Managing Authorities bring deep knowledge of their programmes to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges — and having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted Terms of Reference (ToR): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality — it is the Managing Authority’s most important contribution to the quality of the evaluation.
+Managing Authorities bring deep knowledge of their programmes to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges – and having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted Terms of Reference (ToR): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality – it is the Managing Authority’s most important contribution to the quality of the evaluation.
 
-In principle, a ToR can cover the entire evaluation — including evaluation design, Theory of Change development, and selection of the methodological approach — leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that Managing Authorities have already completed the preparatory steps covered on the previous pages: the Theory of Change (ToC) is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs — one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork. 
+In principle, a ToR can cover the entire evaluation – including evaluation design, Theory of Change development, and selection of the methodological approach – leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that Managing Authorities have already completed the preparatory steps covered on the previous pages: the Theory of Change (ToC) is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs – one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork. 
 
 ## Part 1: the procurement process
 
@@ -14,7 +14,7 @@ In principle, a ToR can cover the entire evaluation — including evaluation des
 
 For technically complex evaluations, it is strongly recommended to begin with an EoI rather than going directly to a full ToR. An EoI is a short, non-binding call that invites qualified organisations to signal their interest and demonstrate their eligibility before the full competition begins.
 
-The EoI serves three purposes. First, it maps the market — the pool of RCT-capable evaluation teams is narrower than the general consulting market, and an EoI quickly identifies who is actually available and qualified. Second, it allows the Managing Authority to shortlist candidates who are then invited to submit full proposals in a restricted procedure, which is more efficient for both sides. Third, EoI responses often reveal market realities — realistic timelines, typical costs, data access constraints — that can be incorporated into the final ToR.
+The EoI serves three purposes. First, it maps the market – the pool of RCT-capable evaluation teams is narrower than the general consulting market, and an EoI quickly identifies who is actually available and qualified. Second, it allows the Managing Authority to shortlist candidates who are then invited to submit full proposals in a restricted procedure, which is more efficient for both sides. Third, EoI responses often reveal market realities – realistic timelines, typical costs, data access constraints – that can be incorporated into the final ToR.
 
 An EoI should contain:
 
@@ -24,7 +24,7 @@ An EoI should contain:
 - What to submit: a short letter (maximum 3–5 pages), CVs of key staff, two to three examples of comparable prior evaluations
 - Submission deadline and contact point
 
-The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the Managing Authority's website. Shortlisted candidates — typically three to six — are then invited to submit full proposals in response to the complete ToR.
+The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the Managing Authority's website. Shortlisted candidates – typically three to six – are then invited to submit full proposals in response to the complete ToR.
 
 ### Step 2: issue the ToR and evaluate proposals
 
@@ -37,7 +37,7 @@ With shortlisted candidates identified, the Managing Authority issues the full T
 | Team qualifications | 20% |
 | Price | 15% |
 
-A low-bid selection for a technically complex evaluation is a false economy. The proposal panel should include at least one member with methodological knowledge of RCTs — or an external technical reviewer where this expertise is not available internally.
+A low-bid selection for a technically complex evaluation is a false economy. The proposal panel should include at least one member with methodological knowledge of RCTs – or an external technical reviewer where this expertise is not available internally.
 
 Before making a final selection, shortlisted candidates should be invited to a clarification interview. Useful questions include: how would you handle lower-than-projected take-up? At what level of attrition would you consider the evaluation compromised? 
 
@@ -49,7 +49,7 @@ Key questions to assess at inception review:
 
 - Is the power analysis based on realistic assumptions about take-up, response rates, and effect sizes?
 - Is the randomisation strategy robust to the specific implementation context?
-- Has the evaluation been — or is it about to be — pre-registered?
+- Has the evaluation been – or is it about to be – pre-registered?
 - Are all data access arrangements confirmed?
 
 
@@ -75,7 +75,7 @@ List the primary and secondary learning questions explicitly. These have been de
 
 ### 3. Scope of work
 
-The consultant's responsibilities cover two functions: data collection and analysis. Specify clearly which tasks fall under each, and — where a separate data collection firm is contracted — which tasks are covered elsewhere.
+The consultant's responsibilities cover two functions: data collection and analysis. Specify clearly which tasks fall under each, and – where a separate data collection firm is contracted – which tasks are covered elsewhere.
 
 **Data collection:**
 
@@ -102,7 +102,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Estimation:** Specify intention-to-treat (ITT) as the primary estimand. Where take-up is imperfect, require the Local Average Treatment Effect (LATE) to be reported alongside ITT. All primary estimates should control for baseline outcome values.
 
-**Pre-registration:** Require pre-registration on a recognised public registry — such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) — before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
+**Pre-registration:** Require pre-registration on a recognised public registry – such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) – before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
 
 **Data sources:** Specify which administrative datasets will be provided by the Managing Authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.
 
@@ -111,12 +111,12 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 | Deliverable | Review period |
 |---|---|
-| Inception report — refined ToC, evaluation design, power calculations, survey instruments | 15 working days |
-| Baseline report — survey data, balance checks, randomisation confirmation | 15 working days |
-| Monitoring reports — take-up, compliance, attrition | 10 working days |
-| Draft endline report — impact analysis, heterogeneity analysis | 20 working days |
+| Inception report – refined ToC, evaluation design, power calculations, survey instruments | 15 working days |
+| Baseline report – survey data, balance checks, randomisation confirmation | 15 working days |
+| Monitoring reports – take-up, compliance, attrition | 10 working days |
+| Draft endline report – impact analysis, heterogeneity analysis | 20 working days |
 | Final evaluation report | 10 working days |
-| Policy brief — 4–6 page non-technical summary | 10 working days |
+| Policy brief – 4–6 page non-technical summary | 10 working days |
 | Presentation of findings | As agreed |
 
 
@@ -149,7 +149,7 @@ Specify clearly whether the budget is inclusive or exclusive of VAT, and whether
 
 ### 7. Data access and GDPR
 
-Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address GDPR compliance — lawful basis for processing, pseudonymisation, data security requirements, and retention obligations — and require a data processing agreement to be signed before any data transfer.
+Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address GDPR compliance – lawful basis for processing, pseudonymisation, data security requirements, and retention obligations – and require a data processing agreement to be signed before any data transfer.
 
 
 ### 8. Qualifications required
@@ -159,13 +159,13 @@ For a full RCT evaluation, require: an advanced degree in economics, statistics,
 
 ### 9. Governance and proposal requirements
 
-Describe the reporting line, frequency of progress meetings, and the composition of any evaluation steering committee. Specify the escalation procedure for methodological disagreements. State what applicants must submit — technical proposal length, CV format, number of reference evaluations, financial proposal format — and the submission deadline.
+Describe the reporting line, frequency of progress meetings, and the composition of any evaluation steering committee. Specify the escalation procedure for methodological disagreements. State what applicants must submit – technical proposal length, CV format, number of reference evaluations, financial proposal format – and the submission deadline.
 
 
 ## Common Mistakes to Avoid
 
 - **Starting too late.** An RCT must be designed before beneficiaries are selected. Procurement should begin at least six to twelve months before the first grant is awarded.
-- **Leaving the design entirely to the consultant.** The ToR must include a preliminary Theory of Change and evaluation questions — a consultant who receives no guidance will measure what is easy, not what matters.
+- **Leaving the design entirely to the consultant.** The ToR must include a preliminary Theory of Change and evaluation questions – a consultant who receives no guidance will measure what is easy, not what matters.
 - **Setting an unrealistic budget.** A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.
 
 ---

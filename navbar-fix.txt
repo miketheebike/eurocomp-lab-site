@@ -1,0 +1,9 @@
+/* active page: white, not yellow. hover stays yellow. */
+.navbar .navbar-nav .nav-link.active {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.navbar .navbar-nav .nav-link.active:hover,
+.navbar .navbar-nav .nav-link.active:focus {
+  color: #FFD617;
+}

@@ -20,7 +20,7 @@ title: "Topic: firm performance and growth"
 
 **Labour productivity**
 
-- **Definition:** Output produced per unit of labour input — a core competitiveness indicator
+- **Definition:** Output produced per unit of labour input – a core competitiveness indicator
 - **Metric:** Value added per employee (€); % change over evaluation period
 - **Data source:** Administrative or primary survey (requires both value added and employment data)
 
@@ -28,7 +28,7 @@ title: "Topic: firm performance and growth"
 
 **Total factor productivity (TFP)**
 
-- **Definition:** Output not explained by inputs — captures how efficiently a firm uses all its resources
+- **Definition:** Output not explained by inputs – captures how efficiently a firm uses all its resources
 - **Metric:** Estimated using production function methods (e.g. Olley-Pakes, Levinsohn-Petrin); requires data on output, capital, labour, and materials
 - **Data source:** Administrative (requires linked firm-level panel data)
 

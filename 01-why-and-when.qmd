@@ -4,7 +4,7 @@ title: "RCTs: why and when"
 
 ::: {.team-note}
 #### Summary
-This page covers why experimentation is worth doing in more detail and when to plan it. It explains what impact evaluation is and why experimentation — running a randomised controlled trial (RCT) — is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
+This page covers why experimentation is worth doing in more detail and when to plan it. It explains what impact evaluation is and why experimentation – running a randomised controlled trial (RCT) – is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
 :::
 
 
@@ -314,7 +314,7 @@ Actually causes more impact: 35 caused.
 ::: {.cards}
 ::: {.card-e}
 #### Deadweight: low additionality
-Additionality is the share of activity that wouldn't have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they'd have spent regardless — generating little that's truly additional per euro.
+Additionality is the share of activity that wouldn't have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they'd have spent regardless – generating little that's truly additional per euro.
 :::
 ::: {.card-e}
 #### Selection bias in measurement
@@ -570,7 +570,7 @@ Scale up based on evidence.
 
 ## What if you cannot randomise? {#alternatives}
 
-For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way — we come back to that below. When early randomisation for this question is not possible,
+For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. If what you actually want to know is how to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way – we come back to that below. When early randomisation for this question is not possible,
 quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview over the most common quasi-experimental methods. 
 
 ::: {.caution}

@@ -38,7 +38,7 @@ title: "Topic: respondent details"
 **Is this person the best contact for follow-up surveys?**
 
 - Yes
-- No — please provide the best contact below:
+- No – please provide the best contact below:
   - Name: *(open text)*
   - Role: *(open text)*
   - Email: *(open text)*

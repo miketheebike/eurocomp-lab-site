@@ -749,8 +749,8 @@ registration (AEA RCT Registry, AEARCTR-0015124).
 ::: {.card-e}
 **The problem**
 
-Northern Bulgaria's micro and small enterprises (MSEs) — over 98% of firms in the
-region — lag far behind Southern Bulgaria and the EU average. Depopulation and aging
+Northern Bulgaria's micro and small enterprises (MSEs) – over 98% of firms in the
+region – lag far behind Southern Bulgaria and the EU average. Depopulation and aging
 have left "ghost towns" with shrinking labor pools and declining customer bases, and
 managerial skills, often picked up informally, limit the uptake of modern business
 practices. AI adoption is strikingly low: just 6.5% of firms in the region use AI,
@@ -896,7 +896,7 @@ participant to support tracking through fall 2027.
 
 Polish SMEs underperform in Horizon Europe, the EU's flagship innovation funding
 programme: a 16.5% success rate, against an EU-27 average of 20.3%. Funding is also
-highly concentrated — just 11 SMEs account for roughly a third of all Polish
+highly concentrated – just 11 SMEs account for roughly a third of all Polish
 projects. A previous support scheme, "Grants for Eurogrants," converted only 400 of
 about 1,700 applications into signed contracts, and just 19 firms ultimately secured
 EU funding. Only 20.1% of firms report knowing PARP, the agency responsible for this
@@ -1002,7 +1002,7 @@ less statistical power for the innermost support experiment.
 ::: {.card-e}
 **Does messaging move firms?**
 
-Whether behavioural nudges — social proof, urgency framing, expected-value framing —
+Whether behavioural nudges – social proof, urgency framing, expected-value framing –
 raise click-throughs and registrations more than PARP's standard, fact-based
 messaging.
 :::
@@ -1044,8 +1044,8 @@ months from submission to contract, generated 50 technical-financial appeals and
 contracting appeals, and disadvantaged smaller firms: enterprises under two years
 old, with no employees or turnover below 250,000 RON, succeeded only 14% of the
 time, against over 90% for firms with turnover of 1.5–2 million RON. Many applicants
-turn to a large consultancy industry — an estimated €527 million in annual turnover
-across 1,500 firms — just to navigate the process.
+turn to a large consultancy industry – an estimated €527 million in annual turnover
+across 1,500 firms – just to navigate the process.
 :::
 ::: {.card-e}
 **What is being tested**
@@ -1204,7 +1204,7 @@ in innovation subsidies to SMEs, cross-randomised with a management-training
 programme on change and innovation culture. Grants are assigned through a two-stage
 design: geographic or sector clusters are randomly assigned different shares of
 funded firms, and firms within each cluster are then randomly selected to receive
-funding — allowing the evaluation to separate a firm's own private return from
+funding – allowing the evaluation to separate a firm's own private return from
 spillovers onto its neighbours.
 :::
 :::
@@ -1249,8 +1249,8 @@ returns, once spillovers to other firms are taken into account?"
 
 After the call for proposals closes, applicant firms are grouped into roughly 100
 clusters based on geographic or sectoral proximity. Each cluster is then randomly
-assigned a funding intensity — the share of its firms that will receive a subsidy,
-set at 0%, 33%, 66% or 100% — and firms within the cluster are randomly selected for
+assigned a funding intensity – the share of its firms that will receive a subsidy,
+set at 0%, 33%, 66% or 100% – and firms within the cluster are randomly selected for
 funding up to that share. Comparing outcomes across clusters with different
 intensities isolates spillover effects, while comparing funded and unfunded firms
 within the same cluster isolates each firm's own private return.
@@ -1511,7 +1511,7 @@ businesses.
 Colombian auto parts manufacturers show wide variation in management practices, and
 weaker practices are closely tied to lower productivity. Structured, hands-on
 management consulting can improve how firms are run, but delivering it in a
-resource-intensive, one-on-one format is costly — a cost that can be prohibitive for
+resource-intensive, one-on-one format is costly – a cost that can be prohibitive for
 small and medium firms to finance on their own, and for governments seeking to support
 large numbers of firms at once.
 :::
@@ -1524,8 +1524,8 @@ firm-by-firm consulting delivered by local teams, and a more novel group-based m
 that works with several firms together to bring costs down further.
 
 Every participating firm, including the comparison group, first received a diagnostic
-assessment of its management practices across five areas — logistics, human resources,
-finance, marketing and sales, and production — carried out by a team of specialist
+assessment of its management practices across five areas – logistics, human resources,
+finance, marketing and sales, and production – carried out by a team of specialist
 consultants.
 :::
 :::
@@ -1570,9 +1570,9 @@ management practices and performance?"
 ### How the programme was tested
 
 218 firms applied to Colombia's Programa de Extensionismo Tecnológico. After screening
-for eligibility — established auto parts manufacturers that were tier 1 or 2 suppliers,
+for eligibility – established auto parts manufacturers that were tier 1 or 2 suppliers,
 at least two years old, with at least ten employees, and located in Antioquia,
-Cundinamarca, Valle del Cauca or the Eje Cafetero — 159 firms formed the final sample.
+Cundinamarca, Valle del Cauca or the Eje Cafetero – 159 firms formed the final sample.
 
 Firms were then grouped into 53 matched triplets, formed to minimise differences in
 location, size, labor productivity and management practices between the three firms in
@@ -1656,7 +1656,7 @@ Group-consulting firms reported far more contact with each other after the progr
 than before it: business links between study firms were almost non-existent at
 baseline, but around half of group participants said they still communicated with
 other group members roughly a year later, and firms whose management practices changed
-the most tended to be grouped with others who also improved the most — evidence that
+the most tended to be grouped with others who also improved the most – evidence that
 peer learning, not just lower delivery cost, contributed to the group programme's
 stronger results on firm performance.
 :::
@@ -1687,7 +1687,7 @@ models.
 Young jobseekers in Yemen often face a catch-22: firms are reluctant to hire
 someone without prior work experience, yet that experience is hard to gain
 without first being hired. Early jobs matter because they build both
-job-specific and soft skills, but firms may under-invest in providing them —
+job-specific and soft skills, but firms may under-invest in providing them –
 a reluctance that can be sharper still in a fragile, conflict-affected
 setting. Job opportunities for young graduates were also increasingly scarce
 following Yemen's 2011–12 political crisis.
@@ -1747,8 +1747,8 @@ outcomes afterward?"
 The program launched in August 2013 through a project website, media events and
 campus outreach. Applications ran from October to December 2013, closing with
 3,487 eligible applicants. Of these, 500 were randomly invited to a two-day
-basic skills training — chosen with probability proportional to the demand
-for their specialisation — and 477 attended.
+basic skills training – chosen with probability proportional to the demand
+for their specialisation – and 477 attended.
 
 The resulting experimental sample of 583 individuals was randomly assigned,
 within strata defined by specialisation and city, to a treatment group of 430
@@ -1799,7 +1799,7 @@ training, helps ensure the treatment and control groups started out
 comparable in skills and local job-market conditions. Limitation: more
 applicants were assigned to treatment than there were internship placements
 available, so actual take-up (36.7%) fell well below the treatment
-assignment rate — which is why the study reports both an intention-to-treat
+assignment rate – which is why the study reports both an intention-to-treat
 effect and a larger effect scaled up for those who actually took up an
 internship.
 :::
@@ -1823,7 +1823,7 @@ relative to a 61% employment rate in the control group.
 **Employment gains persisted months after the internship ended**
 
 On a standardised index of employment outcomes measured three to five months
-after internships ended, effects remained statistically significant — 0.35
+after internships ended, effects remained statistically significant – 0.35
 standard deviations on an intention-to-treat basis, and 0.85 standard
 deviations for those who took up an internship.
 :::
@@ -1854,7 +1854,7 @@ roughly halving the intended sample and reducing statistical power. The
 follow-up survey was also fielded earlier and more narrowly than planned,
 amid displacement and shortages of fuel, electricity and water. It also
 remains possible that some of the employment gains for treated youth came
-partly at the expense of other jobseekers in the economy — a general
+partly at the expense of other jobseekers in the economy – a general
 equilibrium effect this study could not measure.
 :::
 

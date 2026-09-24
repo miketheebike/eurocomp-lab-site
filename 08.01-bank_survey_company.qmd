@@ -8,12 +8,12 @@ title: "Topic: company details"
 ***
 
 **What is your company's registration number?**
-*(Open text field — e.g. VAT number, national business registry ID)*
+*(Open text field – e.g. VAT number, national business registry ID)*
 
 ***
 
 **What is the primary sector of activity of your company?**
-*(Select one — NACE Level 1 "Sector")*
+*(Select one – NACE Level 1 "Sector")*
 
 A. Agriculture, forestry and fishing
 B. Mining and quarrying

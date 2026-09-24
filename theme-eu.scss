@@ -895,7 +895,7 @@ li > strong:first-child { color: $eu-blue; }
   border-radius: 2px;
 }
 .status-pill.done     { background: $eu-blue-pale; color: $eu-blue; }
-.status-pill.ongoing  { background: $eu-yellow-pale; color: #8A6A00; }
+.status-pill.ongoing  { background: #FFF6D1; color: #8A6A00; }
 .status-pill.muted    { background: $surface; color: $ink-soft; border: 1px solid $rule; }
 
 @media (max-width: 620px) {
@@ -965,3 +965,14 @@ li > strong:first-child { color: $eu-blue; }
   border-left: 4px solid $eu-blue;
 }
 .example.case .tag { color: $eu-blue; }
+
+
+/* active page: white, not yellow. hover stays yellow. */
+.navbar .navbar-nav .nav-link.active {
+  color: #FFFFFF;
+  font-weight: 700;
+}
+.navbar .navbar-nav .nav-link.active:hover,
+.navbar .navbar-nav .nav-link.active:focus {
+  color: #FFD617;
+}

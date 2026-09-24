@@ -40,10 +40,10 @@ title: "Topic: company financial performance"
 
 **How would you describe your company's current financial situation?**
 
-- Very healthy — no financial constraints
-- Adequate — minor constraints
-- Tight — we face some financial pressure
-- Severe — we face significant financial difficulties
+- Very healthy – no financial constraints
+- Adequate – minor constraints
+- Tight – we face some financial pressure
+- Severe – we face significant financial difficulties
 
 **What was your company's total debt in [year]?**
 *(Open numeric field, in [currency])*

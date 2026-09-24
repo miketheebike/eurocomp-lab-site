@@ -18,9 +18,9 @@ website:
       - href: index.qmd
         text: Home
       - href: 01-why-and-when.qmd
-        text: Why and When
+        text: "RCTs: why and when"
       - href: 02-how.qmd
-        text: How
+        text: "How to design an RCT"
       - href: 03-examples.qmd
         text: Examples
       - href: 04-templates.qmd
@@ -42,15 +42,15 @@ website:
         text: Home
 
       - href: 01-why-and-when.qmd
-        text: Why and When
+        text: "RCTs: why and when"
 
-      - section: "How"
+      - section: "How to design an RCT"
         href: 02-how.qmd
         contents:
           - href: 02.01-toc.qmd
           - href: 02.02-eval_questions.qmd
           # the a/b/c pages are supporting detail, nested under their step
-          - section: "Step 3: Assess feasibility of conducting an RCT"
+          - section: 02.03-assess.qmd
             href: 02.03-assess.qmd
             contents:
               - href: 02.03a-power.qmd

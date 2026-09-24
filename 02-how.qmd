@@ -7,14 +7,14 @@ title: "How to design an RCT"
 This page explains the basics of how to design randomised controlled trials.
 :::
 
-A well-designed randomised controlled trial does not begin with randomisation — it begins with a clear understanding of what the programme is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing Authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
+A well-designed randomised controlled trial does not begin with randomisation – it begins with a clear understanding of what the programme is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing Authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
 
 ::: {.cards}
 ::: {.card-e}
 
 #### [Step 1: develop a preliminary Theory of Change](02.01-toc.qmd)
 
-Map the causal logic of your intervention — from inputs to long-term goals — and make the assumptions explicit.
+Map the causal logic of your intervention – from inputs to long-term goals – and make the assumptions explicit.
 :::
 ::: {.card-e}
 
@@ -34,21 +34,21 @@ Select the outcome indicators that will be used to measure change across each le
 
 #### [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd)
 
-Check whether the conditions for a valid RCT are in place — oversubscription, timing, legal basis, and political buy-in.
+Check whether the conditions for a valid RCT are in place – oversubscription, timing, legal basis, and political buy-in.
 :::
 
 ::: {.card-e}
 
 #### [Step 5: identify available data sources](02.05-data_sources.qmd)
 
-Decide whether to rely on primary data, administrative data, or a combination — and map what is already available.
+Decide whether to rely on primary data, administrative data, or a combination – and map what is already available.
 :::
 
 ::: {.card-e}
 
 #### [Step 6: collect data](02.06-data_collect.qmd)
 
-Design and implement the data collection — surveys, administrative data access, and quality controls.
+Design and implement the data collection – surveys, administrative data access, and quality controls.
 :::
 
 ::: {.card-e}
@@ -64,15 +64,15 @@ Put in place the checks needed to detect and address data quality problems befor
 
 ## Before you start: assemble your internal evaluation team
 
-The Managing Authority brings knowledge that no outside expert can replicate — how the programme works in practice, who the target firms are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many Managing Authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
+The Managing Authority brings knowledge that no outside expert can replicate – how the programme works in practice, who the target firms are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many Managing Authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
 
 Before working through the seven steps, identify who inside the Managing Authority will take on each of the following roles:
 
-- **An evaluation focal point** — the person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroComp Lab training.
-- **A programme manager** — someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design — particularly what effect size would be meaningful and what the programme is realistically expected to achieve.
+- **An evaluation focal point** – the person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroComp Lab training.
+- **A programme manager** – someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design – particularly what effect size would be meaningful and what the programme is realistically expected to achieve.
 
-Where possible, it is also helpful to involve a **legal or procurement officer** early — to confirm that the national legal framework permits randomisation and to manage the procurement process — and a **data protection officer**, to ensure that data-sharing agreements and GDPR compliance are in place before fieldwork begins.
+Where possible, it is also helpful to involve a **legal or procurement officer** early – to confirm that the national legal framework permits randomisation and to manage the procurement process – and a **data protection officer**, to ensure that data-sharing agreements and GDPR compliance are in place before fieldwork begins.
 
-The internal team does not need to be large — in smaller Managing Authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to programme information they need.
+The internal team does not need to be large – in smaller Managing Authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to programme information they need.
 
-Where internal capacity or methodological expertise is limited, external experts can be hired to support — covering evaluation design, data collection, or both. The EuroComp Lab provides Terms of Reference templates to help Managing Authorities procure the right expertise.
+Where internal capacity or methodological expertise is limited, external experts can be hired to support – covering evaluation design, data collection, or both. The EuroComp Lab provides Terms of Reference templates to help Managing Authorities procure the right expertise.

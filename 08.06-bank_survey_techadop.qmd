@@ -68,9 +68,9 @@ title: "Topic: technology adoption"
 
 **Did your company receive any external support (advice, training, subsidies) to help adopt new technologies in the last three years?**
 
-- Yes — from a public programme
-- Yes — from a private consultant or supplier
-- Yes — from a business association or cluster
+- Yes – from a public programme
+- Yes – from a private consultant or supplier
+- Yes – from a business association or cluster
 - No
 
 ***

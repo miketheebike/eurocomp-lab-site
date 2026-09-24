@@ -20,6 +20,6 @@ title: "Topic: intellectual property"
 
 **Technology licensing**
 
-- **Definition:** Whether the firm licenses technology to or from other companies — a measure of knowledge commercialisation
+- **Definition:** Whether the firm licenses technology to or from other companies – a measure of knowledge commercialisation
 - **Metric:** Binary indicator (licensor / licensee); value of licensing agreements (€)
 - **Data source:** Primary survey

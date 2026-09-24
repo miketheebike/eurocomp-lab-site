@@ -4,11 +4,11 @@ title: "Pre-registration of an RCT"
 
 ## Pre-register the evaluation design before the lottery
 
-Before the lottery takes place — and before any data is collected — the evaluation design must be publicly committed to on a recognised registry. This is called **pre-registration**, and it is one of the most important quality controls in a rigorous RCT.
+Before the lottery takes place – and before any data is collected – the evaluation design must be publicly committed to on a recognised registry. This is called **pre-registration**, and it is one of the most important quality controls in a rigorous RCT.
 
 Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results.
 
-For a Managing Authority, pre-registration also serves a protective function. It shields the evaluation team from pressure — internal or political — to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
+For a Managing Authority, pre-registration also serves a protective function. It shields the evaluation team from pressure – internal or political – to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
 
 Pre-registration should be completed before the baseline survey is fielded. The evaluation team will lead this process, but the Managing Authority should confirm it has been done before approving the inception report.
 

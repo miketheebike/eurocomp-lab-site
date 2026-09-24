@@ -6,15 +6,15 @@ title: "Topic: technology readiness level"
 
 *Please select the description that best matches the current state of your technology:*
 
-- **TRL 1 — Basic principles observed:** Scientific research has begun; basic properties of the technology have been observed and reported
-- **TRL 2 — Technology concept formulated:** Application of the technology has been conceived; no experimental proof yet
-- **TRL 3 — Experimental proof of concept:** Active research and development has begun; first laboratory studies completed
-- **TRL 4 — Technology validated in laboratory:** The technology has been validated in a laboratory environment
-- **TRL 5 — Technology validated in relevant environment:** The technology has been validated in an environment relevant to its intended application (e.g. industrial simulation)
-- **TRL 6 — Technology demonstrated in relevant environment:** A prototype or pilot system has been demonstrated in a relevant environment
-- **TRL 7 — System prototype demonstration in operational environment:** The prototype is close to the planned operational system and has been demonstrated in an operational environment
-- **TRL 8 — System complete and qualified:** The technology has been proven to work in its final form and under expected conditions
-- **TRL 9 — Actual system proven in operational environment:** The technology is fully mature and has been proven in its final form through successful operation
+- **TRL 1 – Basic principles observed:** Scientific research has begun; basic properties of the technology have been observed and reported
+- **TRL 2 – Technology concept formulated:** Application of the technology has been conceived; no experimental proof yet
+- **TRL 3 – Experimental proof of concept:** Active research and development has begun; first laboratory studies completed
+- **TRL 4 – Technology validated in laboratory:** The technology has been validated in a laboratory environment
+- **TRL 5 – Technology validated in relevant environment:** The technology has been validated in an environment relevant to its intended application (e.g. industrial simulation)
+- **TRL 6 – Technology demonstrated in relevant environment:** A prototype or pilot system has been demonstrated in a relevant environment
+- **TRL 7 – System prototype demonstration in operational environment:** The prototype is close to the planned operational system and has been demonstrated in an operational environment
+- **TRL 8 – System complete and qualified:** The technology has been proven to work in its final form and under expected conditions
+- **TRL 9 – Actual system proven in operational environment:** The technology is fully mature and has been proven in its final form through successful operation
 
 
 **What is the target TRL your firm aims to reach for this technology within the next [two / three] years?**
