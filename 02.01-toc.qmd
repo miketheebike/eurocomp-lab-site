@@ -83,7 +83,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
   <rect x="532" y="88" width="80" height="30" rx="4" fill="var(--dg-accent-wash)" stroke="var(--dg-rule)"/>
   <text x="572" y="107" text-anchor="middle" fill="var(--dg-ink)" font-size="10" font-weight="bold">Assumption</text>
 </svg>
-<figcaption>Assumptions sit at every transition in the causal chain and must hold for the logic to work.</figcaption>
+<figcaption>Note: elements of a ToC.</figcaption>
 </figure>
 ```
 
