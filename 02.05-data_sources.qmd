@@ -85,10 +85,6 @@ Access to administrative data rarely happens automatically. Tax records, social 
 
 A data-sharing agreement (DSA) between the Managing Authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. GDPR compliance must be addressed explicitly in the agreement.
 
-## What comes next
-
-Once you know which data sources will cover which indicators, the next step is to plan and implement the data collection itself. Step 6 covers how to design and field a primary survey – choosing a collection method, designing the questionnaire, selecting respondents, and timing the rounds correctly.
-
 ***
 
 ::: {.nav-buttons}
