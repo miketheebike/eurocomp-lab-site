@@ -9,8 +9,6 @@ title: "Further resources"
 
 ### Templates
 
-- **Terms of Reference templates.** For consultants and for data collection firms. CHECK
-- **Evaluation report templates.** What a final report should include. CHECK
 - **Slide decks.** Presentation versions of the site content, for teams briefing their own colleagues.
 
 ### Resources from other institutions
@@ -30,10 +28,3 @@ title: "Further resources"
 - [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html)
 - [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html)
 
-
-
-::: {.team-note}
-**Note**
-Three decks built and polished: How, Advanced How, and the wanted posters.
-Decks for Why and When and Requirements not started.
-:::
