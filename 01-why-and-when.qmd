@@ -95,12 +95,12 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
 </figure>
 ```
 
-## Monitoring and evaluation (M&E) vs impact evaluation
+## Monitoring and evaluation (M&E) vs impact evaluation {#monitoring}
 
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-Monitoring
+M&E
 :::
 ::: {.body}
 Collect data on inputs, outputs, outcomes and participants to
@@ -235,9 +235,9 @@ expected change is actually happening.
 
 But which outcomes should one look at exactly? A programme can change many things, and not all of them can or should be measured. To know which outcomes to look at, and when to expect them to change, start by spelling out how the programme is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to outcomes. Doing this before implementation shows, in advance, why each step should lead to the next, and tells you what to measure to test whether the expected change is actually happening.
 
-This chain is the foundation of a Theory of Change, and having thought it through helps
+This chain is the foundation of a theory of change, and having thought it through helps
 in designing a strong impact evaluation. There is more on this in
-[Step 1: Develop a Theory of Change](02.01-toc.qmd). 
+[Step 1: Develop a theory of change](02.01-toc.qmd). 
 
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
 
@@ -438,7 +438,7 @@ does not.
 **Advantage.** RCTs are considered the gold standard of quantitative impact evaluation
 because:
 
-- No assumptions about outcome levels or trends between groups are necessary, as long as randomisation is implemented correctly.
+- No assumptions about outcome levels or trends between groups are necessary, as long as randomisation is implemented correctly
 - They deliver strong evidence
 - They are easy to interpret
 
@@ -574,7 +574,7 @@ But before adopting what worked elsewhere, questions of external validity need t
 ::: {.card-e}
 [Review]{.num}
 Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.01-toc.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
-Review lessons from other [settings and countries](03-examples.qmd), adapt them.
+Review lessons from other [settings and countries](03-examples.qmd) and adapt them.
 Identify baseline needs of potential beneficiaries in your region.
 :::
 ::: {.card-e}
@@ -598,9 +598,9 @@ Scale up based on evidence.
 ## What if you cannot randomise? {#alternatives}
 
 For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
-quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview over the most common quasi-experimental methods. 
+quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview of the most common quasi-experimental methods. 
 
-However, if what you want to know how to best run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way – we come back to that below. 
+However, if what you want to know is how best to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way – we come back to that below. 
 
 ::: {.caution}
 Quasi-experimental methods always rely on assumptions, some stronger than others. If those
@@ -644,7 +644,6 @@ recovering at the same time, not because of the programme.
   <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
 </svg>
 <figcaption>Note: A before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
-</figure>
 </figure>
 ```
 
@@ -1022,7 +1021,7 @@ for example national policy.
 [04]{.num}
 
 #### Maybe not worth it for learning
-The answer is already known from credible existing studies, or there is no generalizable
+The answer is already known from credible existing studies, or there is no generalisable
 "why" because the programme is one-off with little scale or replication potential.
 :::
 :::
