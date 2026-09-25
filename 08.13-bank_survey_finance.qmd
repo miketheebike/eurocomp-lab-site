@@ -50,8 +50,12 @@ title: "Topic: business finance"
 - Local or regional authorities
 - National government
 - EU funding (e.g. Horizon Europe, ERDF, ESF+)
-- Other financial support from a EU institution
 - No
+
+***
+
+**If yes: how much?**
+*(Open numeric field, in [currency])*
 
 ***
 
@@ -59,6 +63,11 @@ title: "Topic: business finance"
 
 - Yes
 - No
+
+***
+
+**If yes: how much?**
+*(Open numeric field, in [currency])*
 
 ***
 
