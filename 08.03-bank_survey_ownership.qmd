@@ -47,7 +47,14 @@ title: "Topic: company structure and ownership"
 
 ***
 
-**Does your company have a formal board of directors or supervisory board?**
+**Does your company have a formal board of directors?**
+
+- Yes
+- No
+
+***
+
+**Does your company have a formal supervisory board?**
 
 - Yes
 - No
