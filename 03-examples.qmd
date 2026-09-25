@@ -992,7 +992,7 @@ fact-based announcement to versions adding behavioural nudges and information ab
 the new AI-powered support. Second, from a pool of about 11,000 Horizon-eligible
 firms, one half is ranked by a machine-learning model trained on past Horizon
 winners; the top 500 ranked firms and 500 randomly selected firms then both receive
-an encouragement call. Third, among the roughly 400–500 firms that register interest
+an encouragement call. Third, among the roughly 400-500 firms that register interest
 in extra support, 200 are randomly selected for immediate access to an AI advisory
 tool and a technology scout, while the remainder are waitlisted.
 
@@ -1080,7 +1080,7 @@ inconsistent. The 2023 Microenterprise call at the North-East RDA took roughly s
 months from submission to contract, generated 50 technical-financial appeals and 19
 contracting appeals, and disadvantaged smaller firms: enterprises under two years
 old, with no employees or turnover below 250,000 RON, succeeded only 14% of the
-time, against over 90% for firms with turnover of 1.5–2 million RON. Many applicants
+time, against over 90% for firms with turnover of 1.5-2 million RON. Many applicants
 turn to a large consultancy industry — an estimated EUR 527 million in annual turnover
 across 1,500 firms — just to navigate the process.
 :::
@@ -1134,7 +1134,7 @@ and better targeted, without compromising fairness?"
 
 ### How the programme is designed
 
-Around 1,000 expressions of interest are expected, each assigned to one of 30–40
+Around 1,000 expressions of interest are expected, each assigned to one of 30-40
 trained reviewers who are randomly given, or not given, access to the AI tool;
 reviewers cycle between AI-assisted and unassisted batches so the comparison is not
 confounded by reviewer ability. Roughly 800 full proposals then go through the same
@@ -1737,7 +1737,7 @@ without first being hired. Early jobs matter because they build both
 job-specific and soft skills, but firms may under-invest in providing them —
 a reluctance that can be sharper still in a fragile, conflict-affected
 setting. Job opportunities for young graduates were also increasingly scarce
-following Yemen's 2011–12 political crisis.
+following Yemen's 2011-12 political crisis.
 :::
 ::: {.card-e}
 **What was done**
