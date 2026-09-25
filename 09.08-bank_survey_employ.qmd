@@ -2,6 +2,9 @@
 title: "Topic: employment and human capital"
 ---
 
+**employment**
+
+
 **Employment growth**
 
 - **Definition:** Net change in the number of people employed by the firm
