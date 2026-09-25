@@ -6,7 +6,6 @@ title: "Topic: technology adoption"
 
 - **Definition:** whether the firm has adopted new technologies during the evaluation period
 - **Metric:** binary indicator (yes/no); number of new technologies adopted; type of technology
-- **Measurable using administrative data:** no
 
 ---
 
@@ -14,7 +13,6 @@ title: "Topic: technology adoption"
 
 - **Definition:** investment in purchasing or licensing hardware and software
 - **Metric:** total technology investment in €; % change from baseline
-- **Measurable using administrative data:** yes
 
 ---
 
@@ -22,7 +20,6 @@ title: "Topic: technology adoption"
 
 - **Definition:** complexity and frontier-proximity of the technologies adopted by the firm
 - **Metric:** categorical scale from basic to advanced technology types; self-reported
-- **Measurable using administrative data:** no
 
 ---
 
@@ -30,4 +27,3 @@ title: "Topic: technology adoption"
 
 - **Definition:** level of digital technology integration across the firm's operations, measured against the European Commission's Digital Economy and Society Index (DESI) business digitalization criteria - covering electronic information sharing, cloud computing, big data analytics, social media, IoT, AI, e-invoicing, and e-commerce
 - **Metric**: number of DESI criteria met (out of 12); composite DESI integration sub-score; binary indicator for reaching a defined threshold (e.g. at least 7 of 12 criteria)
-- **Measurable using administrative data:** no
