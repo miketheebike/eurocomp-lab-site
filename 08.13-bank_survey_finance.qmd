@@ -45,21 +45,26 @@ title: "Topic: business finance"
 ***
 
 **In [year], did your enterprise receive any public financial support from the following levels of government?** Include financial support via grants, subsidised loans, and loan guarantees. Exclude revenues from public sector procurement contracts.
-*Please 
+*(Select all that apply)*
 
 - Local or regional authorities
 - National government
-- EU Programme for Research and Innovation (
+- EU Programme
 - Other financial support from a EU institution
 
-If your enterprise received financial support: was part of this used for R&D or other innovation activities?**
+***
+
+**If your enterprise received financial support: was part of this used for R&D or other innovation activities?**
 
 - Yes
 - No
 
-*
+***
 
+**In [year], did your enterprise apply for any public financial support from the following levels of government?** Include financial support via grants, subsidised loans, and loan guarantees. Exclude revenues from public sector procurement contracts.
+*(Select all that apply)*
 
-
-
-
+- Local or regional authorities
+- National government
+- EU Programme
+- Other financial support from a EU institution
