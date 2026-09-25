@@ -2,7 +2,6 @@
 title: "Topic: intellectual property"
 ---
 
-
 **Please select all types of intellectual property protection your company currently has.**
 *(Select all that apply)*
 
@@ -13,10 +12,14 @@ title: "Topic: intellectual property"
 - Trade secrets
 - None of the above
 
-**For each selected: How many?**
+***
+
+**For each selected: how many?**
 *(Open numeric field)*
 
-**During the last three years, did your company:**
+***
+
+**During [year], did your company:**
 *(Select all that apply)*
 
 - Apply for a patent 
@@ -27,8 +30,12 @@ title: "Topic: intellectual property"
 - Use trade secrets
 - None of the above
 
-**For each selected: How many?**
+***
+
+**For each selected: how many?**
 *(Open numeric field)*
+
+***
 
 **If "None of the above" was selected for both questions: Why does your firm not have any IP and has not applied for it recently?**
 
@@ -39,51 +46,16 @@ title: "Topic: intellectual property"
 - Not a priority
 - Other (please specify)
 
-### 10.2 During the last three years, did your company use any of the following informal methods to protect innovations or competitive advantages?
+***
 
-*(Select all that apply)*
-
-- Secrecy or confidential agreements (NDAs)
-- Complexity of design (making the product difficult to copy)
-- Lead time advantage (being first to market)
-- None
-
-*Source: CIS. Use at: Baseline and endline.*
-
-### 10.3 How important are the following as reasons for protecting your intellectual property?
-
-*Rate each: 1 = Not relevant, 2 = Low, 3 = Medium, 4 = High*
-
-- To prevent competitors from copying our products or processes
-- To support licensing agreements or technology transfer
-- To attract investors or financing
-- To strengthen our market position
-
-*Source: CIS / OECD Oslo Manual. Use at: Baseline and endline.*
-
-### 10.4 Did your company license any technology or intellectual property TO other companies in the last three years?
+**Did your company license any technology or intellectual property TO other companies in [year]?**
 
 - Yes
 - No
 
-*Source: FAT / CIS. Use at: Baseline and endline.*
+***
 
-### 10.5 Did your company license any technology or intellectual property FROM other companies in the last three years?
+**Did your company license any technology or intellectual property FROM other companies in [year]?**
 
 - Yes
 - No
-
-*Source: FAT / CIS. Use at: Baseline and endline.*
-
-### 10.6 What were the main barriers to protecting your intellectual property?
-
-*(Select all that apply)*
-
-- High cost of filing and maintaining IP protection
-- Complexity of the IP system
-- Lack of knowledge about IP protection options
-- Difficulty enforcing IP rights
-- No barriers – we protect our IP as needed
-- We do not have IP to protect
-
-*Source: CIS / European IPO survey. Use at: Baseline.*
