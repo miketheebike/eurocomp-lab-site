@@ -30,6 +30,8 @@ title: "Topic: collaboration"
 - Non-profit organisations
 - None of the above
 
+***
+
 **Where were your most important cooperation partners located?**
 *(Select all that apply)*
 
@@ -38,7 +40,9 @@ title: "Topic: collaboration"
 - Other EU countries
 - Rest of the world
 
-**How important were the following as sources of knowledge or information for your company's activities in the last three years?**
+***
+
+**How important were the following as sources of knowledge or information for your company's activities in [year]?**
 *Rate each: 1 = Not used, 2 = Low, 3 = Medium, 4 = High*
 
 - Internal sources (within the firm or group)
@@ -52,6 +56,8 @@ title: "Topic: collaboration"
 - Technical standards, norms, or regulations
 - Internet or online communities
 
+***
+
 **Did your company participate in any of the following in the last three years?**
 *(Select all that apply)*
 
@@ -60,6 +66,8 @@ title: "Topic: collaboration"
 - A public-private partnership
 - A joint venture or formal consortium
 - None of the above
+
+***
 
 **What were the main barriers to collaboration your company faced in the last three years?**
 *(Select all that apply)*
