@@ -3,7 +3,6 @@ title: "Topic: technology readiness level"
 ---
 
 **What is the current Technology Readiness Level (TRL) of your firm's main technology or product under development?**
-
 *Please select the description that best matches the current state of your technology:*
 
 - **TRL 1 – Basic principles observed:** Scientific research has begun; basic properties of the technology have been observed and reported
