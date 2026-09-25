@@ -26,7 +26,7 @@ title: "Topic: employment and human capital"
 **Training provision**
 
 - **Definition:** whether the firm provided formal training to employees 
-- **Metric:** Binary indicator; number of employees trained; training hours per employee; training expenditure (€)
+- **Metric:** binary indicator; number of employees trained; training hours per employee; training expenditure ([currency])
 
 ---
 
