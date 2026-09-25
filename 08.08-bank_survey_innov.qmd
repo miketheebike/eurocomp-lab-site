@@ -196,15 +196,13 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 
 ***
 
-**Did your company receive any public funding for R&D activities in [year]?**
+**In [year], did your enterprise receive any public financial support from the following levels of government?** Include financial support via grants, subsidised loans, and loan guarantees. Exclude revenues from public sector procurement contracts.
 *(Select all that apply)*
 
-- Local or regional government grant
-- National government grant
+- Local or regional authorities
+- National government
 - EU funding (e.g. Horizon Europe, ERDF, ESF+)
-- R&D tax credit or tax incentive
-- Subsidised loan for R&D
-- None
+- No
 
 ***
 
