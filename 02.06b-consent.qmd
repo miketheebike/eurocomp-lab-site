@@ -17,12 +17,12 @@ This page covers what informed consent means in the context of firm-level RCTs u
 
 Informed consent is a participant's freely given, specific, informed, and unambiguous agreement to the processing of their data for a defined purpose. In the context of an RCT, it covers two distinct activities that must be kept clearly separate:
 
-**Programme participation** – applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the programme (typically Article 6(1)(e) GDPR – processing necessary for a task carried out in the public interest), not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the programme.
+**Programme participation** - applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the programme (typically Article 6(1)(e) GDPR - processing necessary for a task carried out in the public interest), not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the programme.
 
-**Evaluation data collection** – providing information for research purposes beyond what is required for the programme: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their programme eligibility.
+**Evaluation data collection** - providing information for research purposes beyond what is required for the programme: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their programme eligibility.
 
 ::: {.caution}
-Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent – it is being coerced. GDPR Article 7(4) explicitly addresses this: consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
+Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent - it is being coerced. GDPR Article 7(4) explicitly addresses this: consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
 :::
 
 
@@ -38,7 +38,7 @@ State clearly who is conducting the research, who the data controller is, and wh
 - Any research partners with access to the data (e.g. World Bank, university)
 - The Data Protection Officer of each data-processing party
 
-The purpose statement should be broad enough to cover the full range of anticipated uses – including future policy reports and academic publications – without being so vague that participants cannot understand what they are agreeing to.
+The purpose statement should be broad enough to cover the full range of anticipated uses - including future policy reports and academic publications - without being so vague that participants cannot understand what they are agreeing to.
 
 ::: {.gold-panel}
 **Example:**
@@ -50,8 +50,8 @@ This survey is being conducted by the [...] Regional Development Agency and the 
 
 Describe each category of data that will be collected, clearly distinguishing between:
 
-- **Mandatory data** – required for programme administration and collected under a legal basis other than consent
-- **Optional data** – collected solely for research purposes and requiring explicit consent
+- **Mandatory data** - required for programme administration and collected under a legal basis other than consent
+- **Optional data** - collected solely for research purposes and requiring explicit consent
 
 For each optional category, explain what it is, why it is useful to the research, and what happens if the participant declines.
 
@@ -67,11 +67,11 @@ To achieve a rigorous and unbiased evaluation, the selection of eligible firms i
 
 ### 4. Who will have access to the data
 
-Name every party that will have access to the data, in what capacity, and under what safeguards. If data will be transferred outside the EU/EEA – for example, to the World Bank as an international organisation – state this explicitly and specify the transfer mechanism (Standard Contractual Clauses, adequacy decision, or the organisation's own data protection framework).
+Name every party that will have access to the data, in what capacity, and under what safeguards. If data will be transferred outside the EU/EEA - for example, to the World Bank as an international organisation - state this explicitly and specify the transfer mechanism (Standard Contractual Clauses, adequacy decision, or the organisation's own data protection framework).
 
 ### 5. How long data will be retained
 
-State the retention period for each category of data. Research data linked to Structural Funds programmes must be retained in line with CPR 2021/1060 audit requirements. For extended administrative data tracking – such as access to tax and registry records – the South-Muntenia questionnaire specifies a retention period of **up to ten years** from the date of submission.
+State the retention period for each category of data. Research data linked to Structural Funds programmes must be retained in line with CPR 2021/1060 audit requirements. For extended administrative data tracking - such as access to tax and registry records - the South-Muntenia questionnaire specifies a retention period of **up to ten years** from the date of submission.
 
 ### 6. Confidentiality and anonymisation
 
@@ -96,7 +96,7 @@ State how long the initial form will take and whether participants may be contac
 
 ### 10. Signature and confirmation
 
-The form must be signed by an authorised representative of the firm – founder, owner, CEO, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
+The form must be signed by an authorised representative of the firm - founder, owner, CEO, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
 
 ***
 
@@ -134,11 +134,11 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 ## Special considerations for EU RCTs
 
-**Ethical approval.** Research involving human subjects – including firm-level surveys – typically requires ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing Authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
+**Ethical approval.** Research involving human subjects - including firm-level surveys - typically requires ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing Authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
 
-**Data transfers to international organisations.** If the research partner is based outside the EU – such as the World Bank – the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the Managing Authority and the research partner.
+**Data transfers to international organisations.** If the research partner is based outside the EU - such as the World Bank - the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the Managing Authority and the research partner.
 
-**Control group consent.** Firms in the comparison group are also research subjects – they are surveyed, tracked in administrative data, and their outcomes are used in the analysis. They must receive the same information notice and consent form as treatment group firms. The only difference is that they are not invited to apply for the grant.
+**Control group consent.** Firms in the comparison group are also research subjects - they are surveyed, tracked in administrative data, and their outcomes are used in the analysis. They must receive the same information notice and consent form as treatment group firms. The only difference is that they are not invited to apply for the grant.
 
 **Plain language.** The consent form will be read by firm owners and managers, not lawyers. Legal citations (Article 6(1)(e), etc.) are required for completeness but must be accompanied by plain-language explanations. In the South-Muntenia questionnaire, each legal reference is preceded by a plain description of what the processing activity is and why it is necessary.
 
@@ -153,7 +153,7 @@ Annotated guide to writing informed consent documents for research with human su
 [povertyactionlab.org →](https://www.povertyactionlab.org/media/file-research-resource/annotated-informed-consent-checklist)
 :::
 ::: {.card-e}
-#### GDPR Article 89 – Research safeguards
+#### GDPR Article 89 - Research safeguards
 The GDPR provision governing processing for scientific research, including the derogations and safeguards that apply.
 [eur-lex.europa.eu →](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 :::
