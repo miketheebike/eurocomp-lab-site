@@ -5,8 +5,8 @@ title: "RCT outcome repository"
 This outcome repository is organised by topic and maps directly onto the topics covered in the survey question repository. For each outcome you will find:
 
 - The outcome name and a plain-language definition
-- The metric – how to operationalise and measure it
-- The data source – primary survey, administrative data, or both
+- The metric - how to operationalise and measure it
+- The data source - primary survey, administrative data, or both
 
 
 ## Topics
