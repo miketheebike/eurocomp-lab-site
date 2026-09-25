@@ -1,5 +1,5 @@
 ---
-COMPETITION
+title: "Topic: degree of competition"
 ---
 
 **In [year], which of the following was the main market in which this establishment sold its main product [or offered its main service]?**
