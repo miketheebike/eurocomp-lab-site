@@ -1,0 +1,25 @@
+**Application for business support programmes**
+
+- **Definition:** whether the firm applied for any business support programme in the reference year
+- **Metric:** binary indicator (yes/no)
+
+---
+
+**Participation in business support programmes**
+
+- **Definition:** whether the firm participated in any business support programme in the reference year
+- **Metric:** binary indicator (yes/no)
+
+---
+
+**Type of business support programme**
+
+- **Definition:** specific type(s) of business support programme in which the firm participated, covering incubation, acceleration, mentoring, coaching, networking, and matchmaking
+- **Metric:** binary indicator per programme type (yes/no); number of programme types participated in
+
+---
+
+**Formal employee training**
+
+- **Definition:** whether the firm operated formal training programmes for its permanent full-time workers in the reference year
+- **Metric:** binary indicator (yes/no)
