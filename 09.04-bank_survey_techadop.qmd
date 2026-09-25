@@ -12,7 +12,7 @@ title: "Topic: technology adoption"
 **Technology spending**
 
 - **Definition:** investment in purchasing or licensing hardware and software
-- **Metric:** total technology investment in €; % change from baseline
+- **Metric:** total technology investment in €
 
 ---
 
