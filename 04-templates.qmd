@@ -20,7 +20,9 @@ This question repository is organised by topic. Navigate to the theme most relev
 - Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
 - Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
 - Topic: [business finance](08.13-bank_survey_finance.qmd)
-- Topic: [training](08.13-bank_survey_train.qmd)
+- Topic: [training](08.14-bank_survey_train.qmd)
+- Topic: [management practices](08.15-bank_survey_mgmt.qmd)
+- Topic: [degree of competition](08.16-bank_survey_comp.qmd)
 
 ---
 
