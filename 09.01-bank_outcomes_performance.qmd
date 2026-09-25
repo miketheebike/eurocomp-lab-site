@@ -2,11 +2,14 @@
 title: "Topic: firm performance and growth"
 ---
 
+**Turnover**
+
+
+
 **Turnover growth**
 
 - **Definition:** Change in total annual sales revenue over the evaluation period
 - **Metric:** % change in turnover from baseline to endline; log of turnover
-- **Data source:** Administrative (tax records, business registry) or primary survey
 
 ***
 
@@ -14,7 +17,7 @@ title: "Topic: firm performance and growth"
 
 - **Definition:** Value of output minus the value of intermediate inputs; a measure of the firm's contribution to GDP
 - **Metric:** Total value added in € (turnover minus purchases of goods and services); % change over evaluation period
-- **Data source:** Administrative (tax records) or primary survey
+- **Data source:** Administrative or primary survey
 
 ***
 
