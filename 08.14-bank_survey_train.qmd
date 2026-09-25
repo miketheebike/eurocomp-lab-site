@@ -16,7 +16,7 @@ title: "Topic: business training"
 
 *** 
 
-**In [year], did your enterprise participate in any of the following business support programmes?
+**In [year], did your enterprise participate in any of the following business support programmes?**
 *(Select all that apply)*
 
 - Business incubator programme
