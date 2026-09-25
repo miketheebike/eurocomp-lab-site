@@ -2,6 +2,13 @@
 title: "Topic: innovation outputs"
 ---
 
+**Innovation activity**
+
+- **Definition:** whether the firm engaged in any innovation activity during the evaluation period, including product, process, or organisational innovation
+- **Metric:** binary indicator (yes/no)
+
+***
+
 **Product innovation**
 
 - **Definition:** introduction of a new or significantly improved good or service
@@ -41,3 +48,11 @@ title: "Topic: innovation outputs"
 
 - **Definition:** total spending on innovation-related activities (R&D, design, training, market introduction, etc.)
 - **Metric:** total innovation expenditure in €; share of turnover spent on innovation (%)
+
+***
+
+**Technology Readiness Level (TRL)**
+
+- **Definition:** the maturity of the firm's main technology or product under development, assessed against the European Commission's nine-point TRL scale — from basic principles observed (TRL 1) to a fully proven operational system (TRL 9)
+- **Metric:** current TRL score (1–9); TRL advancement (number of levels gained from baseline to endline)
+
