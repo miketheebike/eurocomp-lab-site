@@ -1,0 +1,60 @@
+**Management practices index** `[mgmt1]`
+
+- **Definition:** composite index summarising a firm's management quality across eight dimensions — problem-solving, performance monitoring, target-setting, target achievability, target communication, manager incentives, non-manager promotion, and underperformance management
+- **Metric:** average index score (medium and large firms); % change from baseline to endline
+
+---
+
+**Problem-solving and process improvement** `[mgmt2]`
+
+- **Definition:** the approach taken by the firm when a problem arises in production or service delivery, ranging from no action to systematic continuous improvement
+- **Metric:** average score on a four-point ordinal scale (no action / reactive fix / preventive action / continuous improvement process)
+
+---
+
+**Performance monitoring** `[mgmt3]`
+
+- **Definition:** whether and how extensively the firm tracks formal performance indicators to manage its operations
+- **Metric:** average score based on number of indicators monitored (none / 1–2 / 3–9 / 10 or more)
+
+---
+
+**Target-setting and time horizon** `[mgmt4]`
+
+- **Definition:** whether the firm sets formal production or service delivery targets and whether these are oriented toward short- or long-term performance
+- **Metric:** average score on a three-point scale (short-term focus / long-term focus / combination)
+
+---
+
+**Target achievability** `[mgmt5]`
+
+- **Definition:** the degree of effort required by the firm to meet its performance targets, reflecting the realism and stretch of the target-setting process
+- **Metric:** average score on a six-point ordinal scale (achieved without effort to targets not achieved)
+
+---
+
+**Target communication** `[mgmt6]`
+
+- **Definition:** the extent to which performance targets are shared with and known by the firm's workforce beyond senior management
+- **Metric:** average score on a four-point ordinal scale (senior managers only / most managers and some workers / most managers and most workers / all managers and most workers)
+
+---
+
+**Performance-based bonuses for managers** `[mgmt7]`
+
+- **Definition:** the basis on which managerial performance bonuses are awarded, reflecting the alignment of incentives with firm performance
+- **Metric:** average score on a four-point ordinal scale (individual / team / establishment / firm performance)
+
+---
+
+**Promotion practices for non-managers** `[mgmt8]`
+
+- **Definition:** the extent to which non-managerial promotion decisions are based on performance and ability rather than tenure or other non-merit factors
+- **Metric:** average score on a four-point ordinal scale (solely performance-based / partly performance-based / mainly other factors / non-managers not promoted)
+
+---
+
+**Management of underperformance** `[mgmt9]`
+
+- **Definition:** the speed and consistency with which the firm addresses underperforming non-managerial employees
+- **Metric:** average score on a three-point ordinal scale (within 6 months / after 6 months / rarely or never)
