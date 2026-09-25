@@ -179,7 +179,7 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 
 ## Constraints to innovation
 
-**During [year], how important were the following factors in hampering your enterprises’ decision to start innovation activities*, or its execution of innovation activities?**
+**During [year], how important were the following factors in hampering your enterprises’ decision to start innovation activities, or its execution of innovation activities?**
 *(Answer options: High, Medium, Low, Not a constraint)*
 
 - Lack of internal finance for innovation
