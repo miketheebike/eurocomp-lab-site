@@ -2,24 +2,21 @@
 title: "Topic: intellectual property"
 ---
 
-**Patent applications and grants**
+**Patent applications**
 
-- **Definition:** Whether the firm filed for or obtained patents as a result of its innovation activities
-- **Metric:** Number of patent applications; number of patents granted; binary indicator
-- **Data source:** Administrative (EPO PATSTAT, national patent offices) or primary survey
+- **Definition:** whether the firm filed for or obtained patents 
+- **Metric:** number of patent applications; number of patents granted; binary indicator
 
 ---
 
 **Trademark and design registration**
 
-- **Definition:** Whether the firm registered trademarks or designs to protect its market position
-- **Metric:** Number of trademarks or registered designs; binary indicator
-- **Data source:** Administrative (EUIPO records) or primary survey
+- **Definition:** whether the firm registered trademarks or designs to protect its market position
+- **Metric:** number of trademarks or registered designs; binary indicator
 
 ---
 
 **Technology licensing**
 
-- **Definition:** Whether the firm licenses technology to or from other companies – a measure of knowledge commercialisation
-- **Metric:** Binary indicator (licensor / licensee); value of licensing agreements (€)
-- **Data source:** Primary survey
+- **Definition:** whether the firm licenses technology to or from other companies – a measure of knowledge commercialisation
+- **Metric:** binary indicator (licensor / licensee); value of licensing agreements (€)
