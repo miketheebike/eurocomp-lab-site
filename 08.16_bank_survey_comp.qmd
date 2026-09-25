@@ -1,0 +1,39 @@
+---
+COMPETITION
+---
+
+**In [year], which of the following was the main market in which this establishment sold its main product [or offered its main service]?**
+
+- Local - main product [or service] sold mostly in same area where establishment is located
+- National - main product [or service] sold mostly across the country where establishment is located
+- International 
+
+***
+
+**How many competitors did this establishment’s main product [or service] face in this main market?**
+*(Numeric)*
+
+***
+
+**Which of the following best describes this establishment’s main market?**
+
+- The market is dominated by one firm
+- The market is dominated by a few firms
+- There is competition among many firms
+
+***
+
+**Over the last year, has the level of competition in this establishment’s main market increased, decreased, or stayed the same?**
+
+- Increased
+- Decreased
+- Stayed the same
+
+***
+
+**Considering the main market for this establishment’s main product or service, can this establishment increase its prices more so than its competitors can without losing customers?**
+
+- Yes
+- No
+- Prices regulated
+- Prices are set by headquarters 
