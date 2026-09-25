@@ -9,7 +9,7 @@ title: "Topic: company structure and ownership"
 
 ***
 
-**If yes, what is your company's role within the group?**
+**If yes: what is your company's role within the group?**
 
 - Head office / parent company
 - Subsidiary
