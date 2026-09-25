@@ -1,0 +1,46 @@
+**Access to equity finance**
+
+- **Definition:** whether the firm sought and successfully obtained equity finance (external capital in exchange for ownership share) in the reference year
+- **Metric:** binary indicator for equity finance application (yes/no); binary indicator for successful equity finance (yes/no)
+
+---
+
+**Equity finance for R&D and innovation**
+
+- **Definition:** whether equity finance obtained by the firm was directed toward research, development, or other innovation activities
+- **Metric:** binary indicator (yes/no)
+
+---
+
+**Access to debt finance**
+
+- **Definition:** whether the firm sought and successfully obtained debt finance (repayable borrowing) in the reference year
+- **Metric:** binary indicator for debt finance application (yes/no); binary indicator for successful debt finance (yes/no)
+
+---
+
+**Debt finance for R&D and innovation**
+
+- **Definition:** whether debt finance obtained by the firm was directed toward research, development, or other innovation activities
+- **Metric:** binary indicator (yes/no)
+
+---
+
+**Receipt of public financial support**
+
+- **Definition:** whether the firm received public financial support — via grants, subsidised loans, or loan guarantees — from local, national, or EU-level government in the reference year
+- **Metric:** binary indicator (yes/no); total amount received in € by source (local/regional, national, EU)
+
+---
+
+**Public financial support for R&D and innovation**
+
+- **Definition:** share of public financial support received that was directed toward research, development, or other innovation activities
+- **Metric:** binary indicator (yes/no); amount directed to R&D and innovation in €
+
+---
+
+**Application for public financial support**
+
+- **Definition:** whether the firm applied for public financial support — via grants, subsidised loans, or loan guarantees — from local, national, or EU-level sources in the reference year
+- **Metric:** binary indicator (yes/no); number of applications by source (local/regional, national, EU)
