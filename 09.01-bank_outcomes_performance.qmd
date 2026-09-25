@@ -38,14 +38,6 @@ title: "Topic: firm performance and growth"
 
 ***
 
-**Number of employees**
-
-**Employment growth**
-
-- **Definition:** Change in the number of people employed by the firm
-- **Metric:** % change in full-time equivalent (FTE) employees from baseline to endline; log of employment
-- **Data source:** Administrative (social security records, business registry) or primary survey
-
 ***
 
 **Wage growth**
