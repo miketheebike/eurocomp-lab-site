@@ -19,6 +19,8 @@ This question repository is organised by topic. Navigate to the theme most relev
 - Topic: [intellectual property](08.09-bank_survey_ip.qmd)
 - Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
 - Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
+- Topic: [business finance](08.13-bank_survey_finance.qmd)
+- Topic: [training](08.13-bank_survey_train.qmd)
 
 ---
 
