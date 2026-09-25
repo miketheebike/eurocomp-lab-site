@@ -6,7 +6,6 @@ title: "Topic: Research & Development activity"
 
 - **Definition:** whether the firm conducts research and experimental development activities
 - **Metric:** binary indicator (yes/no); frequency (continuous / occasional)
-- **Measurable using administrative data:** no
 
 ---
 
@@ -14,7 +13,6 @@ title: "Topic: Research & Development activity"
 
 - **Definition:** Total spending on in-house and contracted-out R&D activities
 - **Metric:** Total R&D expenditure in €; share of turnover spent on R&D (%)
-- **Measurable using administrative data:** yes
 
 ---
 
@@ -22,4 +20,3 @@ title: "Topic: Research & Development activity"
 
 - **Definition:** number of staff engaged in R&D activities
 - **Metric:** full-time equivalent (FTE) R&D staff; share of total employees in R&D roles (%)
-- **Measurable using administrative data:** no
