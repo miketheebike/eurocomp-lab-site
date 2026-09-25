@@ -1,3 +1,7 @@
+---
+title: "Topic: business finance"
+---
+
 **Access to equity finance**
 
 - **Definition:** whether the firm sought and successfully obtained equity finance (external capital in exchange for ownership share) in the reference year
@@ -28,7 +32,7 @@
 
 **Receipt of public financial support**
 
-- **Definition:** whether the firm received public financial support — via grants, subsidised loans, or loan guarantees — from local, national, or EU-level government in the reference year
+- **Definition:** whether the firm received public financial support - via grants, subsidised loans, or loan guarantees - from local, national, or EU-level government in the reference year
 - **Metric:** binary indicator (yes/no); total amount received in € by source (local/regional, national, EU)
 
 ---
@@ -42,5 +46,5 @@
 
 **Application for public financial support**
 
-- **Definition:** whether the firm applied for public financial support — via grants, subsidised loans, or loan guarantees — from local, national, or EU-level sources in the reference year
+- **Definition:** whether the firm applied for public financial support - via grants, subsidised loans, or loan guarantees - from local, national, or EU-level sources in the reference year
 - **Metric:** binary indicator (yes/no); number of applications by source (local/regional, national, EU)
