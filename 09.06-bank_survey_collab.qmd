@@ -4,38 +4,33 @@ title: "Topic: collaboration and knowledge transfer"
 
 **Collaboration incidence**
 
-- **Definition:** Whether the firm cooperates with other firms or organisations on innovation or business activities
-- **Metric:** Binary indicator (yes/no); number of active partnerships
-- **Data source:** Primary survey
+- **Definition:** whether the firm cooperates with other firms or organisations on innovation or business activities
+- **Metric:** binary indicator (yes/no); number of active partnerships
 
 ---
 
 **Partner diversity**
 
-- **Definition:** The range of partner types the firm collaborates with (suppliers, universities, competitors, etc.)
-- **Metric:** Number of distinct partner types; diversity index
-- **Data source:** Primary survey
+- **Definition:** range of partner types the firm collaborates with (suppliers, universities, competitors, etc.)
+- **Metric:** number of distinct partner types; diversity index
 
 ---
 
 **University-industry linkages**
 
-- **Definition:** Whether the firm has formal collaboration with universities or public research institutes
-- **Metric:** Binary indicator; number of joint projects; value of contracted research (€)
-- **Data source:** Primary survey or administrative (research funding records)
+- **Definition:** whether the firm has formal collaboration with universities or public research institutes
+- **Metric:** binary indicator; number of joint projects; value of contracted research ([currency])
 
 ---
 
 **Researcher-industry linkages**
 
-- **Definition:** Whether the firm has formal collaboration with researchers
-- **Metric:** Binary indicator; number of joint projects; value of contracted research (€)
-- **Data source:** Primary survey or administrative (research funding records)
+- **Definition:** whether the firm has formal collaboration with researchers
+- **Metric:** binary indicator; number of joint projects; value of contracted research ([currency])
 
 ---
 
 **Cluster or network participation**
 
-- **Definition:** Whether the firm participates in an innovation cluster, industry network, or competitiveness pole
-- **Metric:** Binary indicator (yes/no); number of networks participated in
-- **Data source:** Primary survey or administrative (cluster membership records)
+- **Definition:** whether the firm participates in an innovation cluster, industry network, or competitiveness pole
+- **Metric:** binary indicator (yes/no); number of networks participated in
