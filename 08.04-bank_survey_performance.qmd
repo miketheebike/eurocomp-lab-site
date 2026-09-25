@@ -2,7 +2,7 @@
 title: "Topic: company financial performance"
 ---
 
-**How many full-time paid employees work in the business as of the end of 2025?
+**How many full-time paid employees work in the business as of the end of [year]?
 *(Open numeric field)*
 
 ***
@@ -32,6 +32,11 @@ title: "Topic: company financial performance"
 
 ***
 
+**What share of your company's total sales came from online sales in [year]?**
+*(Open numeric field, in percent)*
+
+***
+
 **What was your company's total annual profit or loss in [year]**
 *(Open numeric field, in [currency]*
 *Enter positive number for profits and negative number for losses*
@@ -44,6 +49,8 @@ title: "Topic: company financial performance"
 - Adequate – minor constraints
 - Tight – we face some financial pressure
 - Severe – we face significant financial difficulties
+
+***
 
 **What was your company's total debt in [year]?**
 *(Open numeric field, in [currency])*
