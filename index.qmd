@@ -14,7 +14,7 @@ This page explains why experimentation matters for policy, how RCTs relate to im
 
 Innovation in policy making to maximise returns on European Cohesion Policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges.
 
-The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021–2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness.
+The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021-2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness.
 
 To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement.
 
@@ -32,11 +32,11 @@ Concretely, getting more out of Cohesion Policy investments means rethinking how
 {{< video https://youtu.be/NuOGvv_9sD4 title="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
 :::
 
-## What is impact evaluation – and where does experimentation fit in?
+## What is impact evaluation - and where does experimentation fit in?
 
 ::: {.gold-panel}
 Impact evaluation answers the question: what causal effect did this programme have
-on outcomes like firm survival, employment, or innovation – for whom did it work
+on outcomes like firm survival, employment, or innovation - for whom did it work
 best, and under which conditions?
 :::
 
@@ -47,7 +47,7 @@ whether the programme caused a real difference. See [what impact evaluation is f
 how it differs from M&E](01-why-and-when.qmd#impact-evaluation).
 
 There is more than one credible way to conduct an impact evaluation.
-In fact, you may already have evaluated a programme's impact – perhaps using matching,
+In fact, you may already have evaluated a programme's impact - perhaps using matching,
 difference-in-differences, or a regression discontinuity, comparing participants to similar
 non-participants constructing the comparison group after the programme had already ended. That is impact
 evaluation too, and it can be credible. But because the comparison group is built after
@@ -59,7 +59,7 @@ choice](01-why-and-when.qmd#rct).
 
 ## Randomised controlled trials show what works and why
 
-A randomised controlled trial compares what happens to programme participants against an on-average identical group that does not receive the programme. That comparison can show whether the Cohesion Policy programme – and not something else going on at the same time – is the reason things improved.
+A randomised controlled trial compares what happens to programme participants against an on-average identical group that does not receive the programme. That comparison can show whether the Cohesion Policy programme - and not something else going on at the same time - is the reason things improved.
 
 Who ends up in the treatment group and who ends up in the comparison group is decided by a random draw. It is not decided by who applied first, who looked most promising, or whom the reviewer favoured. Because assignment to the programme is random, the two groups look the same on average before the programme. That is true not just for characteristics you can measure, but also for the ones you
 cannot observe. So when a difference between the groups shows up later, it can be attributed to the programme.
@@ -73,7 +73,7 @@ Whether the programme works, and for whom it works best.
 :::
 ::: {.card-e}
 #### Which version of a programme is most effective?
-How different versions of a programme compare – which parts of a programme work, which do not, and
+How different versions of a programme compare - which parts of a programme work, which do not, and
 how they work together.
 :::
 ::: {.card-e}
@@ -119,9 +119,9 @@ ones](01-why-and-when.qmd#allocation).
 <details class="myth-box">
 <summary>RCTs are too scientific for anyone but academics</summary>
 
-RCTs are the easiest rigorous evaluation method to interpret and implement, not the hardest. Randomisation is, at its core, just like flipping a coin: who lands in the treatment and who lands in the comparison group is solely a matter of chance and unrelated to any characteristics of the applicant. This ensures that the treatment and comparison groups are, on average, identical in the absence of the programme. Because of this, the impact estimate does not rest on assumptions that have to be separately defended – it is simply the difference in average outcomes between the two groups after the programme runs.
+RCTs are the easiest rigorous evaluation method to interpret and implement, not the hardest. Randomisation is, at its core, just like flipping a coin: who lands in the treatment and who lands in the comparison group is solely a matter of chance and unrelated to any characteristics of the applicant. This ensures that the treatment and comparison groups are, on average, identical in the absence of the programme. Because of this, the impact estimate does not rest on assumptions that have to be separately defended - it is simply the difference in average outcomes between the two groups after the programme runs.
 
-Quasi-experimental methods – difference-in-differences, matching, regression discontinuity – can seem less academic because they do not need to be embedded at the design stage; they work with what is already there. But the estimates they produce rely on assumptions that are hard to verify. Properly checking whether their key assumption holds – that trends really were parallel, that matched groups did not differ on anything unobserved, that the cut-off was clean – requires robustness checks beyond a standard regression. An RCT needs none of that: if assignment was random, the treatment and comparison groups are comparable by construction, and the average difference between them is the estimate.
+Quasi-experimental methods - difference-in-differences, matching, regression discontinuity - can seem less academic because they do not need to be embedded at the design stage; they work with what is already there. But the estimates they produce rely on assumptions that are hard to verify. Properly checking whether their key assumption holds - that trends really were parallel, that matched groups did not differ on anything unobserved, that the cut-off was clean - requires robustness checks beyond a standard regression. An RCT needs none of that: if assignment was random, the treatment and comparison groups are comparable by construction, and the average difference between them is the estimate.
 
 So RCTs may look more academic but are, in practice, more transparent and easier to defend. They are also straightforward to implement and not necessarily more costly to run (see below).
 
@@ -137,9 +137,9 @@ For establishing whether a programme caused a change in outcomes, RCTs are the g
 <details class="myth-box">
 <summary>RCTs are more expensive than other rigorous methods</summary>
 
-Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterward. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time – not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as that of any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
+Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterward. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time - not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as that of any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
 
-RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the programme is ongoing – so the Managing Authority needs staff assigned to it on an ongoing basis.
+RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the programme is ongoing - so the Managing Authority needs staff assigned to it on an ongoing basis.
 
 </details>
 
@@ -153,7 +153,7 @@ If well-designed, RCTs are among the strongest tools available for showing why a
 <details class="myth-box">
 <summary>You can only identify what you randomised</summary>
 
-This is true, which is why it matters to get the learning questions you care about right at the design stage. Randomisation gives a clean estimate of the effect of whatever was randomised – most commonly, being assigned to (or offered) a programme. To cleanly separate the effect of one component from another, those components need to be randomised separately too, for example through a multi-arm design.
+This is true, which is why it matters to get the learning questions you care about right at the design stage. Randomisation gives a clean estimate of the effect of whatever was randomised - most commonly, being assigned to (or offered) a programme. To cleanly separate the effect of one component from another, those components need to be randomised separately too, for example through a multi-arm design.
 
 </details>
 
@@ -167,30 +167,30 @@ Every empirical method faces the same question of whether findings hold up beyon
 <details class="myth-box">
 <summary>RCTs take too long to be useful within a programming period</summary>
 
-A staggered or phased rollout combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term outcomes while later waves are still being enrolled, so a Managing Authority can see early signals – take-up, engagement, first movements in outcomes – well before the programme is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term outcomes can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar programmes are likely to follow, in the same region or elsewhere in the EU, so knowing whether a programme achieved its intended effect still helps allocate future funding more efficiently.
+A staggered or phased rollout combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term outcomes while later waves are still being enrolled, so a Managing Authority can see early signals - take-up, engagement, first movements in outcomes - well before the programme is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term outcomes can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar programmes are likely to follow, in the same region or elsewhere in the EU, so knowing whether a programme achieved its intended effect still helps allocate future funding more efficiently.
 
 </details>
 
 <details class="myth-box">
 <summary>RCTs assume everyone responds the same way</summary>
 
-The effects an RCT most commonly measures – the average treatment effect, or the intention-to-treat effect – compare average outcomes between the treatment and comparison groups. Neither assumes every member of these groups responds identically, only that the average difference is a meaningful summary of the programme's impact. Heterogeneous treatment effect analysis by subgroup is feasible with a large enough sample and cheap to do well with EU administrative data: business and tax registers already record the characteristics on which one may suspect heterogeneity (for example, firm size, sector, region) needed to check whether a programme works differently for different types of firms.
+The effects an RCT most commonly measures - the average treatment effect, or the intention-to-treat effect - compare average outcomes between the treatment and comparison groups. Neither assumes every member of these groups responds identically, only that the average difference is a meaningful summary of the programme's impact. Heterogeneous treatment effect analysis by subgroup is feasible with a large enough sample and cheap to do well with EU administrative data: business and tax registers already record the characteristics on which one may suspect heterogeneity (for example, firm size, sector, region) needed to check whether a programme works differently for different types of firms.
 
 </details>
 
 <details class="myth-box">
 <summary>Randomisation means no further analysis is needed</summary>
 
-If sample sizes are large enough and treatment is assigned randomly, the treatment and comparison groups will show, on average, identical characteristics – not that every participant has an identical match in the other group, only that characteristics balance on average. In practice, participants do not always stay in the group they were originally assigned to. This happens when randomisation is on assignment to a programme rather than on take-up: the assigned and non-assigned groups still look the same, but the group that actually participates no longer looks the same as those who do not. In this case, what is reported is the intention-to-treat effect – the average effect of being assigned to the programme, rather than of participating in it. Good practice is to check balance between the treatment and comparison groups on observable characteristics at baseline, before the programme starts.
+If sample sizes are large enough and treatment is assigned randomly, the treatment and comparison groups will show, on average, identical characteristics - not that every participant has an identical match in the other group, only that characteristics balance on average. In practice, participants do not always stay in the group they were originally assigned to. This happens when randomisation is on assignment to a programme rather than on take-up: the assigned and non-assigned groups still look the same, but the group that actually participates no longer looks the same as those who do not. In this case, what is reported is the intention-to-treat effect - the average effect of being assigned to the programme, rather than of participating in it. Good practice is to check balance between the treatment and comparison groups on observable characteristics at baseline, before the programme starts.
 
 </details>
 
 <details class="myth-box">
 <summary>RCTs can only be run on a big sample</summary>
 
-Detecting a given effect with confidence needs enough observations in each group – the smaller the expected effect, the bigger the sample must be. This is why one should conduct power calculations at the design stage.
+Detecting a given effect with confidence needs enough observations in each group - the smaller the expected effect, the bigger the sample must be. This is why one should conduct power calculations at the design stage.
 
-A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the outcome already varies across firms before the programme runs, expectations about programme take-up (as this affects the treatment group's sample size), how much observation loss to expect over time, and whether assignment happens at the level of the applicant or of a group they belong to – assigning by group rather than by firm generally needs a larger total sample to reach the same precision.
+A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the outcome already varies across firms before the programme runs, expectations about programme take-up (as this affects the treatment group's sample size), how much observation loss to expect over time, and whether assignment happens at the level of the applicant or of a group they belong to - assigning by group rather than by firm generally needs a larger total sample to reach the same precision.
 
 See [How to conduct an RCT](02-how.qmd) for a walkthrough of turning these inputs into an actual sample size calculation.
 
@@ -201,23 +201,23 @@ See [How to conduct an RCT](02-how.qmd) for a walkthrough of turning these input
 
 This concern is valid and worth considering at design stage, but it is often a smaller challenge than expected. Often, outcomes of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern at all.
 
-If outcome data needs to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. But the evidence suggests the gap is usually smaller than expected: looking across dozens of studies, David McKenzie found that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible (for example, a sizeable cash grant) rather than for lower-value interventions. Where a gap does open up in an early round, sustained follow-up – repeat calls, alternative contact channels, incentives – has been shown to close much of it later.
+If outcome data needs to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. But the evidence suggests the gap is usually smaller than expected: looking across dozens of studies, David McKenzie found that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible (for example, a sizeable cash grant) rather than for lower-value interventions. Where a gap does open up in an early round, sustained follow-up - repeat calls, alternative contact channels, incentives - has been shown to close much of it later.
 
 </details>
 
 <details class="myth-box">
 <summary>RCTs are unethical because they deny help to a comparison group</summary>
 
-This common misconception gets the ethics backwards. Where limited budgets already mean fewer applicants can be funded than apply, someone is turned away regardless of the evaluation method – the budget already decides that. Randomisation only decides how the budget is allocated. Executed well, it is a well-documented, defensible allocation rule that gives every equally eligible applicant the same fair chance to access funds. Other ways of assigning applicants – case-officer discretion, queue position – are no fairer, less transparent, and not necessarily more accurate. If there is empirical, causal evidence that a particular group of applicants should be prioritised, that evidence should be used; if there is not, these alternatives are no fairer than random assignment. In a business plan competition in Nigeria, for instance, expert judges' scores had no relationship with which businesses went on to survive, hire staff, or turn a profit three years later, and machine-learning models trained on the same applications did barely better (McKenzie & Sansone, 2019).
+This common misconception gets the ethics backwards. Where limited budgets already mean fewer applicants can be funded than apply, someone is turned away regardless of the evaluation method - the budget already decides that. Randomisation only decides how the budget is allocated. Executed well, it is a well-documented, defensible allocation rule that gives every equally eligible applicant the same fair chance to access funds. Other ways of assigning applicants - case-officer discretion, queue position - are no fairer, less transparent, and not necessarily more accurate. If there is empirical, causal evidence that a particular group of applicants should be prioritised, that evidence should be used; if there is not, these alternatives are no fairer than random assignment. In a business plan competition in Nigeria, for instance, expert judges' scores had no relationship with which businesses went on to survive, hire staff, or turn a profit three years later, and machine-learning models trained on the same applications did barely better (McKenzie & Sansone, 2019).
 
-Nor does a comparison group have to mean receiving nothing at all: RCTs can compare two different versions of a programme, so every participant receives some form of support and the question becomes which version works better. What matters is that participants are properly informed about the study, their rights, and how any data on them is processed and stored – which is why RCTs are typically reviewed beforehand by a research ethics committee (an Institutional Review Board, or IRB, in some countries), which is also the body participants can turn to with complaints.
+Nor does a comparison group have to mean receiving nothing at all: RCTs can compare two different versions of a programme, so every participant receives some form of support and the question becomes which version works better. What matters is that participants are properly informed about the study, their rights, and how any data on them is processed and stored - which is why RCTs are typically reviewed beforehand by a research ethics committee (an Institutional Review Board, or IRB, in some countries), which is also the body participants can turn to with complaints.
 
 </details>
 
 <details class="myth-box">
 <summary>RCTs require ethical clearance</summary>
 
-Whether ethics review is legally mandatory depends on the country, the institution running the study, and whether personal data is involved – it is not a universal legal requirement. For example, an RCT studying a programme's effect on firms using administrative data as outcomes does not require ethical clearance. Seeking one anyway is still recommended: a research ethics committee (an Institutional Review Board) is what ensures participants are properly informed, that data handling complies with GDPR, and that there is a body participants can turn to with complaints.
+Whether ethics review is legally mandatory depends on the country, the institution running the study, and whether personal data is involved - it is not a universal legal requirement. For example, an RCT studying a programme's effect on firms using administrative data as outcomes does not require ethical clearance. Seeking one anyway is still recommended: a research ethics committee (an Institutional Review Board) is what ensures participants are properly informed, that data handling complies with GDPR, and that there is a body participants can turn to with complaints.
 
 </details>
 
