@@ -2,3 +2,105 @@
 title: "Topic: management practices"
 ---
 
+**ASK IF MANUFACTURING: over [year], what best describes what happened at this establishment when a problem in the production process arose?**
+
+**ASK IF SERVICES: over [year], what best describes what happened at this establishment when a problem in the provision of services arose?**
+
+- We fixed it but did not take further action 
+- We fixed it and took action to make sure it did not happen again 
+- We fixed it and took action to make sure that it did not happen again, and had a continuous improvement process to anticipate problems like these in advance
+- No action was taken
+
+***
+
+**Over [year], did this establishment monitor any performance indicators?**
+
+- Yes 1
+- No 
+
+***
+
+**How many performance indicators were monitored?**
+
+- 1-2 indicators
+- 3-9 indicators
+- 10 or more indicators
+
+***
+
+**ASK IF MANUFACTURING: over [year], did this establishment have production targets? Examples of production targets are production volume, quality, efficiency, waste, or on-time delivery.**
+
+**ASK IF SERVICES: over [year], did this establishment have service provision targets? Examples of service provision targets are sales, customer satisfaction, efficiency, waste, or on-time delivery.**
+
+- Yes
+- No 
+
+***
+
+**What best describes the time frame of those targets?**
+
+- Main focus was on short term, less than one year
+- Main focus was on long term, one year or more 
+- Combination of short-term and long-term targets
+
+***
+
+**How easy or difficult was it for this establishment to achieve those targets overall?**
+
+- Achieved without much effort 
+- Achieved with some effort 
+- Achieved with normal amount of effort 
+- Achieved with more than normal effort 
+- Only achieved with extraordinary effort 
+- Targets were not achieved 
+
+***
+
+**Who was aware of those targets at this establishment?**
+
+IF MANUFACTURING
+
+- Only senior managers 
+- Most managers and some production workers 
+- Most managers and most production workers 
+- All managers and most production workers 
+
+IF SERVICES
+
+- Only senior managers
+- Most managers and some workers
+- Most managers and most workers
+- All managers and most workers
+
+***
+
+**Over [year], did this establishment have performance bonuses for managers?**
+
+- Yes
+- No 
+
+***
+
+**What were those managers' performance bonuses mostly based on?**
+
+- Their own performance 
+- Their team's performance
+- The establishment’s performance 
+- The firm's performance
+
+***
+
+**Over [year], what was the primary way non-managers were promoted at this establishment?**
+
+- Based solely on performance and ability 
+- Based partly on performance and ability, and partly on other factors (for example, tenure or family connections)
+- Based mainly on factors other than performance and ability (for example, tenure or family connections)
+- Non-managers are normally not promoted
+
+***
+
+**Over [year], when was an under-performing non-manager reassigned or dismissed?**
+
+- Within 6 months of identifying under-performance
+- After 6 months of identifying under-performance
+- Rarely or never
