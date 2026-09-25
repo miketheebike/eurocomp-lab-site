@@ -6,7 +6,6 @@ title: "Topic: digitalisation"
 
 - **Definition:** whether and which digital technologies the firm uses (cloud, artificial intelligence, internet of thrings, big data, etc.)
 - **Metric:** number of digital technologies in use; binary indicators per technology type
-- **Measurable using administrative data:** no
 
 ---
 
@@ -14,28 +13,24 @@ title: "Topic: digitalisation"
 
 - **Definition:** share of total sales conducted through digital channels
 - **Metric:** % of total turnover from online sales
-- **Measurable using administrative data:** no
 
 ---
 
 **Digital investment**
 
-- **Definition:** Spending on digital technologies and software
-- **Metric:** Total digital investment in €; % change from baseline
-- **Data source:** Primary survey or administrative
+- **Definition:** spending on digital technologies and software
+- **Metric:** total digital investment in €
 
 ---
 
 **Digital skills of the workforce**
 
-- **Definition:** Improvement in the digital capabilities of the firm's employees
-- **Metric:** Share of employees with intermediate or advanced digital skills (%); binary indicator for digital training provision
-- **Data source:** Primary survey
+- **Definition:** improvement in the digital capabilities of the firm's employees
+- **Metric:** share of employees with intermediate or advanced digital skills (%); binary indicator for digital training provision
 
 ---
 
 **Digital maturity score**
 
-- **Definition:** Overall level of digitalisation across the firm's strategy, processes, skills, and security
-- **Metric:** Composite index score based on standardised questions; % change from baseline
-- **Data source:** Primary survey
+- **Definition:** overall level of digitalisation across the firm's strategy, processes, skills, and security
+- **Metric:** composite index score based on standardised questions
