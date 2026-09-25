@@ -34,8 +34,4 @@ title: "Topic: Research & Development activity"
 
 ---
 
-**Patent applications**
 
-- **Definition:** Whether the firm has applied for or obtained patents as a result of its R&D activities
-- **Metric:** Number of patent applications filed; number of patents granted; binary indicator
-- **Data source:** Administrative (EPO PATSTAT, national patent office records) or primary survey
