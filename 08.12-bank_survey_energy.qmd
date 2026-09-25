@@ -5,9 +5,7 @@ title: "Topic: energy efficiency"
 ## Energy consumption
 
 **What was your establishment's total energy consumption [year]?**
-*(All sources combined - electricity, gas, oil, solid fuels, renewables. Report in kWh. If in other units, please convert to kWh. Best approximations are accepted.)*
-
-*(Open numeric field - kWh)*
+*(All sources combined - electricity, gas, oil, solid fuels, renewables. Report in kWh. If in other units, please convert to kWh. Best approximations are accepted. Open numeric field - kWh)*
 
 ***
 
