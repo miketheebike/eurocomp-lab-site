@@ -92,7 +92,7 @@ This page presents examples of public programmes that built experimentation into
 <div class="further-reading">
   <span class="fr-label">Short-term results from Spain, Croatia, Czechia and Romania in one place</span>
   <div class="fr-entry">
-  <span class="fr-cite">World Bank. 2025. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policies: Summary Report.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC. Policy briefs for Romania, Spain, Czechia and Croatia.</span>
+  <span class="fr-cite">2025. “Short-Term Impacts of the First RCTs with Cohesion Policies: Summary Report.” Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
   <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130136130">Read the summary report &rarr;</a>
   </div>
 </div>
@@ -186,7 +186,7 @@ low, medium and high quality.
 
   <text x="20" y="290" fill="#6B6455" font-size="11.5">This design works well when eligibility criteria are clear and resources are limited.</text>
 </svg>
-<figcaption>Note: Extremadura's bin-ranking design: only medium-quality applicants, the band where expected returns are least certain, are randomised.</figcaption>
+<figcaption>Note: Extremadura's bin-ranking design: only medium-quality applicants, the bin where expected returns are least certain, are randomised.</figcaption>
 </figure>
 ```
 
@@ -247,7 +247,7 @@ firms would have spent anyway.
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
   <span class="fr-cite">Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.</span>
-  <a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">Read the report &rarr;</a>
+  <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130024487">Read the report &rarr;</a>
   </div>
 </div>
 ```
@@ -447,11 +447,11 @@ AI Klub
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Francisco Campos, Chiara Spina, and Rahul Suhag. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; Smart Start</span>
+  <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Francisco Campos, Chiara Spina, and Rahul Suhag. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
   <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
   </div>
   <div class="fr-entry">
-  <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Leonardo Iacovone, Andreas Menzel, Florian Anselm Münch, and Rahul Suhag. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. &mdash; AI Klub</span>
+  <span class="fr-cite">Pereira-Lopez, Mariana, Stephen J. Anderson, Leonardo Iacovone, Andreas Menzel, Florian Anselm Münch, and Rahul Suhag. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC.>
   <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
   </div>
 </div>
