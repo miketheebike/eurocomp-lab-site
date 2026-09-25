@@ -2,7 +2,8 @@
 title: "Topic: collaboration"
 ---
 
-**In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?**
+**In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?** 
+Co-operation occurs when two or more participants agree to take responsibility for a task or series of tasks and information is shared between the parties to facilitate the agreement.
 
 - Yes, on R&D
 - Yes, on other innovation activities (excluding R&D)
@@ -11,24 +12,18 @@ title: "Topic: collaboration"
 
 ***
 
-**In [year], did your company co-operate with any other enterprises or organisations on innovation, technology, or business development activities?**
-
-- Yes
-- No
-
-***
-
 **If yes: please indicate the type of innovation co-operation partner.**
 *(Select all that apply)*
 *The public sector includes government owned organisations such as local, regional and national administrations and agencies, schools, hospitals, and government providers of services such as security, transport, housing, energy, etc.*
 
-- Private business enterprises outside your enterprise group
-- Enterprises within your enterprise group
-- Universities or other higher education institutions
+- Co-operation partner from the business enterprise sector 
+- Business enterprises outside your enterprise group
+- Enterprises within your enterprise group 
+- Co-operation partner outside the business enterprise sector 
+- Universities or other higher education institutions 
 - Government or public research institutes 
-- Clients or customers from the public sector*
-- Non-profit organisations
-- None of the above
+- Clients or customers from the public sector
+- Non-profit organisations 
 
 ***
 
@@ -58,7 +53,7 @@ title: "Topic: collaboration"
 
 ***
 
-**Did your company participate in any of the following in the last three years?**
+**Did your company participate in any of the following in [year]?**
 *(Select all that apply)*
 
 - An innovation cluster or competitiveness pole
@@ -69,7 +64,7 @@ title: "Topic: collaboration"
 
 ***
 
-**What were the main barriers to collaboration your company faced in the last three years?**
+**What were the main barriers to collaboration your company faced in [year]?**
 *(Select all that apply)*
 
 - Difficulty finding suitable partners
