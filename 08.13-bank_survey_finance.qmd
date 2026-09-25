@@ -1,1 +1,65 @@
+---
+title: "Topic: business finance"
+---
+
+**In [year], did your enterprise try to obtain equity finance (finance provided in exchange for a share in the ownership of the enterprise)?**
+
+- Yes
+- No
+
+***
+
+**If your enterprise tried to obtain equity finance: was it successfull?**
+
+- Yes
+- No
+
+***
+
+**If your enterprise obtained equity finance: was this partly or fully used for R&D or other innovation activities?**
+
+- Yes
+- No
+
+***
+
+**In [year], did your enterprise try to obtain debt finance (finance that the enterprise must repay)?**
+
+- Yes
+- No
+
+***
+
+**If your enterprise tried to obtain debt finance: was it successfull?**
+
+- Yes
+- No
+
+***
+
+**If your enterprise obtained debt finance: was this partly or fully used for R&D or other innovation activities?**
+
+- Yes
+- No
+
+***
+
+**In [year], did your enterprise receive any public financial support from the following levels of government?** Include financial support via grants, subsidised loans, and loan guarantees. Exclude revenues from public sector procurement contracts.
+*Please 
+
+- Local or regional authorities
+- National government
+- EU Programme for Research and Innovation (
+- Other financial support from a EU institution
+
+If your enterprise received financial support: was part of this used for R&D or other innovation activities?**
+
+- Yes
+- No
+
+*
+
+
+
+
 
