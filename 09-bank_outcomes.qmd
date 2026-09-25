@@ -6,7 +6,6 @@ This outcome repository is organised by topic and maps directly onto the topics 
 
 - The outcome name and a plain-language definition
 - The metric - how to operationalise and measure it
-- The data source - primary survey, administrative data, or both
 
 
 ## Topics
@@ -19,5 +18,10 @@ This outcome repository is organised by topic and maps directly onto the topics 
 - Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
 - Topic: [intellectual property](09.07-bank_survey_ip.qmd)
 - Topic: [employment and human capital](09.08-bank_survey_employ.qmd)
+- Topic: [business finance](09.09-bank_outcome_finance.qmd)
+- Topic: [business training](09.10-bank_outcome_train.qmd)
+- Topic: [management practices](09.11-bank_outcome_mgmt.qmd)
+- Topic: [energy efficiency](09.12-bank_outcome_energy.qmd)
+
 
 **Tip:** not all outcomes are appropriate for all evaluations. Select outcomes that match the specific instrument you are evaluating and the causal chain in your Theory of Change. The data source column will help you decide whether to collect the outcome through a survey or retrieve it from administrative records.
