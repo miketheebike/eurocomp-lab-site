@@ -8,11 +8,11 @@ title: "Examples"
 </style>
 ```
 
-
 ::: {.team-note}
-####Summary
+#### Summary
 This page presents examples of public programmes that built experimentation into their design. For each one, it describes the problem the programme set out to address, how the programme and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab.
 :::
+
 
 ```{=html}
 <div class="eval-overview">
