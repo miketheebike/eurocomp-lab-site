@@ -9,12 +9,16 @@ title: "Topic: collaboration"
 - Yes, on any other business activities
 - No
 
-**During the last three years, did your company co-operate with any other enterprises or organisations on innovation, technology, or business development activities?**
+***
+
+**In [year], did your company co-operate with any other enterprises or organisations on innovation, technology, or business development activities?**
 
 - Yes
 - No
 
-**If yes: Please indicate the type of innovation co-operation partner.**
+***
+
+**If yes: please indicate the type of innovation co-operation partner.**
 *(Select all that apply)*
 *The public sector includes government owned organisations such as local, regional and national administrations and agencies, schools, hospitals, and government providers of services such as security, transport, housing, energy, etc.*
 
