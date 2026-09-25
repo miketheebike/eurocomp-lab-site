@@ -18,7 +18,7 @@ title: "Topic: collaboration and knowledge transfer"
 
 ---
 
-**University-industry linkages
+**University-industry linkages**
 
 - **Definition:** Whether the firm has formal collaboration with universities or public research institutes
 - **Metric:** Binary indicator; number of joint projects; value of contracted research (€)
@@ -26,11 +26,11 @@ title: "Topic: collaboration and knowledge transfer"
 
 ---
 
-**Knowledge sourcing breadth**
+**Researcher-industry linkages**
 
-- **Definition:** The variety of external knowledge sources the firm draws on for its activities
-- **Metric:** Number of knowledge sources rated as important (based on CIS battery); composite score
-- **Data source:** Primary survey
+- **Definition:** Whether the firm has formal collaboration with researchers
+- **Metric:** Binary indicator; number of joint projects; value of contracted research (€)
+- **Data source:** Primary survey or administrative (research funding records)
 
 ---
 
