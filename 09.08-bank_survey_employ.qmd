@@ -2,35 +2,36 @@
 title: "Topic: employment and human capital"
 ---
 
-**employment**
+**Employment**
 
+- **Definition:** total number of people employed by the firm at a given point in time, reflecting the firm's size and capacity
+- **Metric:** Number of full-time equivalent (FTE) employees (absolute level)
+
+---
 
 **Employment growth**
 
-- **Definition:** Net change in the number of people employed by the firm
+- **Definition:** net change in the number of people employed by the firm
 - **Metric:** % change in FTE employment from baseline to endline; log of employment
-- **Data source:** Administrative or primary survey
 
 ---
 
 **High-skilled employment**
 
-- **Definition:** Whether the firm increased the share of high-skilled or knowledge-intensive workers
-- **Metric:** Share of employees with tertiary education (%); share of STEM employees (%); number of researchers hired
-- **Data source:** Administrative (linked employer-employee data) or primary survey
+- **Definition:** whether the firm increased the share of high-skilled or knowledge-intensive workers
+- **Metric:** share of employees with tertiary education (%); share of STEM employees (%); number of researchers hired
 
 ---
 
 **Training provision**
 
-- **Definition:** Whether the firm provided formal training to employees as a result of the intervention
+- **Definition:** whether the firm provided formal training to employees 
 - **Metric:** Binary indicator; number of employees trained; training hours per employee; training expenditure (€)
-- **Data source:** Primary survey or administrative (training fund records)
 
 ---
 
-**Wage growth**
+**Wages**
 
-- **Definition:** Whether the intervention led to higher wages, reflecting improved worker productivity or firm profitability
-- **Metric:** % change in average gross wage per employee from baseline to endline
-- **Data source:** Administrative (social security or tax records)
+- **Definition:** wages, reflecting improved worker productivity or firm profitability
+- **Metric:** [currency], % change in average gross wage per employee from baseline to endline
+
