@@ -1,4 +1,6 @@
-*** 
+---
+title: "Topic: business training"
+---
 
 **In [year], did your enterprise apply for any business support programme?**
 
@@ -7,7 +9,26 @@
 
 *** 
 
-**In [year], did your enterprise apply for any business support programme?**
+**In [year], did your enterprise participate in any business support programme?**
+
+- Yes
+- No
+
+*** 
+
+**In [year], did your enterprise participate in any of the following business support programmes?
+*(Select all that apply)*
+
+- Business incubator programme
+- Business accelerator programme
+- One-to-one mentoring programme
+- Group coaching or training workshop
+- Business networking events
+- Trade fairs or matchmaking events
+
+***
+
+**Over [year], did this establishment have formal training programs for its permanent, full-time workers?**
 
 - Yes
 - No
