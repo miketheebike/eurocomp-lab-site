@@ -90,7 +90,7 @@ This page presents examples of public programmes that built experimentation into
 
 ```{=html}
 <div class="further-reading">
-  <span class="fr-label">All first-round results in one place</span>
+  <span class="fr-label">Short-term results from Spain, Croatia, Czechia and Romania in one place</span>
   <div class="fr-entry">
   <span class="fr-cite">World Bank. 2025. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policies: Summary Report.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC. Policy briefs for Romania, Spain, Czechia and Croatia.</span>
   <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130136130">Read the summary report &rarr;</a>
