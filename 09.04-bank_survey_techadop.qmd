@@ -4,38 +4,30 @@ title: "Topic: technology adoption"
 
 **Technology adoption rate**
 
-- **Definition:** Whether the firm has adopted new technologies during the evaluation period
-- **Metric:** Binary indicator (yes/no); number of new technologies adopted; type of technology
-- **Data source:** Primary survey (FAT-based questions)
+- **Definition:** whether the firm has adopted new technologies during the evaluation period
+- **Metric:** binary indicator (yes/no); number of new technologies adopted; type of technology
+- **Measurable using administrative data:** no
 
 ---
 
 **Technology spending**
 
-- **Definition:** Investment in purchasing or licensing hardware and software
-- **Metric:** Total technology investment in €; % change from baseline
-- **Data source:** Primary survey or administrative (investment tax records)
+- **Definition:** investment in purchasing or licensing hardware and software
+- **Metric:** total technology investment in €; % change from baseline
+- **Measurable using administrative data:** yes
 
 ---
 
 **Technology sophistication**
 
-- **Definition:** The complexity and frontier-proximity of the technologies adopted by the firm
-- **Metric:** Categorical scale from basic to advanced technology types; self-reported
-- **Data source:** Primary survey
-
----
-
-**Technology-driven productivity gains**
-
-- **Definition:** Whether technology adoption has led to measurable improvements in efficiency or output
-- **Metric:** Self-reported impact on production capacity, unit costs, or quality; combined with administrative productivity data
-- **Data source:** Primary survey and administrative
+- **Definition:** complexity and frontier-proximity of the technologies adopted by the firm
+- **Metric:** categorical scale from basic to advanced technology types; self-reported
+- **Measurable using administrative data:** no
 
 ---
 
 **DESI digital technology integration score**
 
-- **Definition:** Level of digital technology integration across the firm's operations, measured against the European Commission's Digital Economy and Society Index (DESI) business digitalization criteria – covering electronic information sharing, cloud computing, big data analytics, social media, IoT, AI, e-invoicing, and e-commerce
-- **Metric**: Number of DESI criteria met (out of 12); composite DESI integration sub-score; binary indicator for reaching a defined threshold (e.g. at least 7 of 12 criteria)
-- **Data source:** Primary survey (DESI-aligned questions); benchmarkable against Eurostat DESI data at regional and national level
+- **Definition:** level of digital technology integration across the firm's operations, measured against the European Commission's Digital Economy and Society Index (DESI) business digitalization criteria - covering electronic information sharing, cloud computing, big data analytics, social media, IoT, AI, e-invoicing, and e-commerce
+- **Metric**: number of DESI criteria met (out of 12); composite DESI integration sub-score; binary indicator for reaching a defined threshold (e.g. at least 7 of 12 criteria)
+- **Measurable using administrative data:** no
