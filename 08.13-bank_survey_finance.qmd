@@ -49,8 +49,9 @@ title: "Topic: business finance"
 
 - Local or regional authorities
 - National government
-- EU Programme
+- EU funding (e.g. Horizon Europe, ERDF, ESF+)
 - Other financial support from a EU institution
+- No
 
 ***
 
