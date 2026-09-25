@@ -4,12 +4,13 @@ title: "Topic: firm performance and growth"
 
 **Turnover**
 
-
+**Profits**
 
 **Turnover growth**
 
 - **Definition:** Change in total annual sales revenue over the evaluation period
 - **Metric:** % change in turnover from baseline to endline; log of turnover
+- **Availability in administrative data
 
 ***
 
@@ -36,6 +37,8 @@ title: "Topic: firm performance and growth"
 - **Data source:** Administrative (requires linked firm-level panel data)
 
 ***
+
+**Number of employees**
 
 **Employment growth**
 
