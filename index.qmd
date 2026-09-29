@@ -96,7 +96,7 @@ receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosin
 ### Hear from Managing Authorities who already use experimentation
 
 ::: {.video-frame}
-{{< video https://youtu.be/C4GJK4L5M5w title="Trying something new" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/CP88LYKlzW0 title="Trying something new" aspect-ratio="16x9" >}}
 :::
 
 ### Do you think you already know which programme works and whom to fund?
