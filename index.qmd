@@ -29,7 +29,7 @@ Concretely, getting more out of Cohesion Policy investments means rethinking how
 
 ### Hear from European Commission representatives on why experimentation matters
 ::: {.video-frame}
-{{< video https://youtu.be/NuOGvv_9sD4 title="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/3EOMStzWK30 title="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
 :::
 
 ## What is impact evaluation - and where does experimentation fit in?
@@ -94,10 +94,9 @@ Randomisation then shifts from who gets funded at all to which version each part
 receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosing-design).
 
 ### Hear from Managing Authorities who already use experimentation
-This is where Mr Asandei's video will be placed and the second video with voices once produced
 
 ::: {.video-frame}
-{{< video https://youtu.be/NuOGvv_9sD4 title="Trying something new" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/C4GJK4L5M5w title="Trying something new" aspect-ratio="16x9" >}}
 :::
 
 ### Do you think you already know which programme works and whom to fund?
