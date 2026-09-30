@@ -62,7 +62,7 @@ title: "Topic: technology adoption"
 
 ***
 **How much did your company spend on purchasing or licensing technologies (hardware and software combined) in the last financial year?**
-*(Open numeric field, in €)*
+*(Open numeric field, in [currency])*
 
 ***
 
