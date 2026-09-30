@@ -51,9 +51,9 @@ title: "Topic: company details"
 
 **Please select the type of products, goods, and/or services your company sells.**
 
-- Physical products/goods (e.g., handbags, crafts)
-- Non-physical products/goods (e.g., software, multimedia)
-- Services (e.g., advertising, design, maintenance of machines, repairs)
+- Physical products/goods (e.g. handbags, crafts)
+- Non-physical products/goods (e.g. software, multimedia)
+- Services (e.g. advertising, design, maintenance of machines, repairs)
 
 ***
 
