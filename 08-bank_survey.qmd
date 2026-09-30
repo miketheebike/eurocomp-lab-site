@@ -13,27 +13,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) - internationally consistent definitions of innovation concepts and measurement approaches
 - [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) - internationally consistent definitions of research & development concepts and measurement approaches
 
-::: {.takeaway}
-The survey question repository provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
-
-| Topic | Content |
-|---|---|
-| Company details | Sector, size, turnover, location, year of establishment |
-| Respondent contact details | Role, seniority, contact information |
-| Company structure and ownership | Group membership, ownership type, governance |
-| Financial performance | Turnover, value added, investment, export share |
-| Collaboration | Partners, knowledge sources, network participation |
-| Technology adoption | Technologies in use, adoption drivers and barriers |
-| Digitalisation | Digital tools, online sales, digital skills, investment |
-| Innovation and R&D activities | Product, process, organisational and marketing innovation; R&D engagement, expenditure, staffing, outputs |
-| Intellectual property | Patents, trademarks, licensing, informal protection |
-| Technology Readiness Level | TRL self-assessment |
-
-[Browse the survey question repository](08-bank_survey.qmd)
-:::
-
-
-This question repository is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, response options (where applicable) and copy-paste those that fit your needs.
+The survey question repository provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, response options (where applicable) and copy-paste those that fit your needs.
 
 ## Topics
 
