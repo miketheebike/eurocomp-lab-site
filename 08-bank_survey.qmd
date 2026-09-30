@@ -2,6 +2,37 @@
 title: "Survey question repository"
 ---
 
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
+
+- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
+- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
+- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys) - firm-level outcomes including investment, productivity, and the business environment
+- [World Management Survey (WMS)](https://worldmanagementsurvey.org/) - management practices across firms and countries
+- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) - digital technology adoption and skills across EU member states
+- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
+- [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) - internationally consistent definitions of innovation concepts and measurement approaches
+- [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) - internationally consistent definitions of research & development concepts and measurement approaches
+
+::: {.takeaway}
+The survey question repository provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Each entry includes the question text ready to copy-paste, the response options, and the source survey it is drawn from.
+
+| Topic | Content |
+|---|---|
+| Company details | Sector, size, turnover, location, year of establishment |
+| Respondent contact details | Role, seniority, contact information |
+| Company structure and ownership | Group membership, ownership type, governance |
+| Financial performance | Turnover, value added, investment, export share |
+| Collaboration | Partners, knowledge sources, network participation |
+| Technology adoption | Technologies in use, adoption drivers and barriers |
+| Digitalisation | Digital tools, online sales, digital skills, investment |
+| Innovation and R&D activities | Product, process, organisational and marketing innovation; R&D engagement, expenditure, staffing, outputs |
+| Intellectual property | Patents, trademarks, licensing, informal protection |
+| Technology Readiness Level | TRL self-assessment |
+
+[Browse the survey question repository](08-bank_survey.qmd)
+:::
+
+
 This question repository is organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, response options (where applicable) and copy-paste those that fit your needs.
 
 ## Topics
