@@ -125,7 +125,7 @@ title: "Topic: energy efficiency"
 ***
 
 **What was your establishment's total expenditure on energy efficiency investments in [year]?**
-*(Open numeric field - in €. Report without VAT. Best approximations are accepted.)*
+*(Open numeric field - in [currency]. Report without VAT. Best approximations are accepted.)*
 
 ***
 
