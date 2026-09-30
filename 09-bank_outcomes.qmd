@@ -2,7 +2,9 @@
 title: "RCT outcome repository"
 ---
 
-This outcome repository is organised by topic and maps directly onto the topics covered in the survey question repository. For each outcome you will find:
+Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. Validated frameworks such as the Community Innovation Survey, the World Bank Enterprise Surveys, or the OECD Oslo Manual provide internationally comparable definitions and question formats that have been tested across many contexts. Using them improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
+
+The RCT outcome repository provides a curated, searchable list of outcome indicators drawn from validated instruments, organised by topic. For each outcome you will find:
 
 - The outcome name and a plain-language definition
 - The metric - how to operationalise and measure it
