@@ -10,10 +10,8 @@ Before writing a single question, review existing, validated survey instruments.
 - [World Management Survey (WMS)](https://worldmanagementsurvey.org/) - management practices across firms and countries
 - [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) - digital technology adoption and skills across EU member states
 - [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
-- [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) - internationally consistent definitions of innovation concepts and measurement approaches
-- [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) - internationally consistent definitions of research & development concepts and measurement approaches
 
-The survey question repository provides a ready-to-use library of validated questions drawn from the resources above, organised by topic. Navigate to the theme most relevant to your evaluation, browse the questions, response options (where applicable) and copy-paste those that fit your needs.
+The survey question repository brings together questions drawn from the resources above, organised by topic. The questions are suggestions and a starting point, not a complete or prescribed questionnaire: they do not cover every topic an evaluation may need, and they do not have to be used exactly as written. The source surveys linked above give more detail and many more questions, so it is worth consulting them directly when a topic is central to your evaluation. Navigate to the theme most relevant to your evaluation, browse the questions and response options (where applicable), and select those that match the indicators in your Theory of Change. Then adapt the wording, response options, units and reference periods to your programme and national context.
 
 ## Topics
 
