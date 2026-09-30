@@ -117,7 +117,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
 
 ::: {.takeaway}
-The survey question repository collects questions from the surveys listed above, organised by topic — from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators and adapt them to your programme.
+The survey question repository collects questions from the surveys listed above, organised by topic — from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similiar evaluations and underlying survey instruments, and adapt the questions to your programme.
 
 [Browse the survey question repository](08-bank_survey.qmd)
 :::
