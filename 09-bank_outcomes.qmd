@@ -18,9 +18,7 @@ The RCT outcome repository provides a curated list of outcome indicators, organi
     - Example: Romania (South-Muntenia)
 - Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
   - Example: [Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf)
-- Topic: [technology adoption](09.04-bank_survey_techadop.qmd)
-
-- Topic: [digitalization](09.05-bank_survey_digital.qmd)
+- Topic: [digitalisation and technology adoption](09.05-bank_survey_digital.qmd)
   - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
 - Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
   - Example: [Avdeenko, Alexandra, Francisco Campos, Rajesh Chandy, Leonardo Iacovone, and Namrata Kala. 2025. &ldquo;Connecting Minds, Creating Innovation: [Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf)
