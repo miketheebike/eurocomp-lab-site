@@ -1,5 +1,5 @@
 ---
-title: "Topic: innovation and research development activities"
+title: "Topic: innovation, R&D activities, and intellectual property"
 ---
 
 
@@ -208,3 +208,63 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 
 **If yes: how much?**
 *(Open numeric field, in [currency])*
+
+***
+
+**Please select all types of intellectual property protection your company currently has.**
+*(Select all that apply)*
+
+- Patent
+- Industrial design right
+- Trademark
+- Copyright
+- Trade secrets
+- None of the above
+
+***
+
+**For each selected: how many?**
+*(Open numeric field)*
+
+***
+
+**During [year], did your company:**
+*(Select all that apply)*
+
+- Apply for a patent 
+- Register an industrial design right 
+- Register a trademark
+- Registered designs
+- Claim a copyright
+- Use trade secrets
+- None of the above
+
+***
+
+**For each selected: how many?**
+*(Open numeric field)*
+
+***
+
+**If "None of the above" was selected for both questions: Why does your firm not have any IP and has not applied for it recently?**
+
+- Do not have an innovation (product, process) for it
+- Do not know how to apply for it 
+- Do not have the resources to apply for it
+- Previous applications have been rejected
+- Not a priority
+- Other (please specify)
+
+***
+
+**Did your company license any technology or intellectual property TO other companies in [year]?**
+
+- Yes
+- No
+
+***
+
+**Did your company license any technology or intellectual property FROM other companies in [year]?**
+
+- Yes
+- No
