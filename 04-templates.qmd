@@ -49,7 +49,7 @@ The RCT outcome repository provides a curated list of outcome indicators, organi
 - Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
   - Example: [Iacovone, Leonardo, Henry Aviomoh, Matias Belacin, Laurent Bossavie, Ana Cusolito, Rafael de Hoyos, Gianmarco Ottaviano, Fabian Scheifele, Iván Torre, and Yutaka Yoshino. 2025. &rdquo;TIDES of Change: Igniting Productivity Growth in Europe and Central Asia.&rdquo; Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)
 - Topic: [innovation and intellectual property](09.02-bank_survey_innov.qmd)
-    - Example: Romania (South-Muntenia)
+    - Example: [Romania (South-Muntenia)](03-examples.qmd#south-muntenia)
 - Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
   - Example: [Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf)
 - Topic: [digitalisation and technology adoption](09.05-bank_survey_digital.qmd)
