@@ -2,21 +2,3 @@
 title: "Topic: intellectual property"
 ---
 
-**Patent applications**
-
-- **Definition:** whether the firm filed for or obtained patents 
-- **Metric:** number of patent applications; number of patents granted; binary indicator
-
----
-
-**Trademark and design registration**
-
-- **Definition:** whether the firm registered trademarks or designs to protect its market position
-- **Metric:** number of trademarks or registered designs; binary indicator
-
----
-
-**Technology licensing**
-
-- **Definition:** whether the firm licenses technology to or from other companies – a measure of knowledge commercialisation
-- **Metric:** binary indicator (licensor / licensee); value of licensing agreements (€)
