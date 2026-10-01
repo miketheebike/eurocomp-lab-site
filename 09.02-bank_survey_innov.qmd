@@ -1,5 +1,5 @@
 ---
-title: "Topic: innovation outputs"
+title: "Topic: innovation and intellectual property"
 ---
 
 **Innovation activity**
@@ -56,3 +56,23 @@ title: "Topic: innovation outputs"
 - **Definition:** the maturity of the firm's main technology or product under development, assessed against the European Commission's nine-point TRL scale — from basic principles observed (TRL 1) to a fully proven operational system (TRL 9)
 - **Metric:** current TRL score (1–9); TRL advancement (number of levels gained from baseline to endline)
 
+***
+
+**Patent applications**
+
+- **Definition:** whether the firm filed for or obtained patents 
+- **Metric:** number of patent applications; number of patents granted; binary indicator
+
+---
+
+**Trademark and design registration**
+
+- **Definition:** whether the firm registered trademarks or designs to protect its market position
+- **Metric:** number of trademarks or registered designs; binary indicator
+
+---
+
+**Technology licensing**
+
+- **Definition:** whether the firm licenses technology to or from other companies – a measure of knowledge commercialisation
+- **Metric:** binary indicator (licensor / licensee); value of licensing agreements (€)
