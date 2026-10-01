@@ -14,7 +14,7 @@ The RCT outcome repository provides a curated list of outcome indicators, organi
 
 - Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
   - Example: [Iacovone, Leonardo, Henry Aviomoh, Matias Belacin, Laurent Bossavie, Ana Cusolito, Rafael de Hoyos, Gianmarco Ottaviano, Fabian Scheifele, Iván Torre, and Yutaka Yoshino. 2025. &rdquo;TIDES of Change: Igniting Productivity Growth in Europe and Central Asia.&rdquo; Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)
-- Topic: [innovation outputs](09.02-bank_survey_innov.qmd)
+- Topic: [innovation and intellectual property](09.02-bank_survey_innov.qmd)
     - Example: Romania (South-Muntenia)
 - Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
   - Example: [Cusolito, Ana Paula, Patricio Dalton, and Santiago Reyes Ortega. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf)
@@ -22,7 +22,6 @@ The RCT outcome repository provides a curated list of outcome indicators, organi
   - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
 - Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
   - Example: [Avdeenko, Alexandra, Francisco Campos, Rajesh Chandy, Leonardo Iacovone, and Namrata Kala. 2025. &ldquo;Connecting Minds, Creating Innovation: [Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf)
-- Topic: [intellectual property](09.07-bank_survey_ip.qmd)
 - Topic: [employment and human capital](09.08-bank_survey_employ.qmd)
   - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
 - Topic: [business finance](09.09-bank_outcome_finance.qmd)
