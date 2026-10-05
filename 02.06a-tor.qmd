@@ -29,6 +29,8 @@ An EoI should contain:
 
 The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the Managing Authority's website. Shortlisted candidates - typically three to six - are then invited to submit full proposals in response to the complete ToR.
 
+[Example EoI from 3ie](https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital)
+
 ### Step 2: issue the ToR and evaluate proposals
 
 With shortlisted candidates identified, the Managing Authority issues the full ToR. Proposals are evaluated against pre-defined, published criteria. For an RCT evaluation, technical quality should be weighted heavily:
@@ -139,12 +141,6 @@ The largest single cost driver is typically primary survey fieldwork. The ToR sh
 
 Jpal budgeting template: https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf
 
-Jpal call for proposals: https://drive.google.com/file/d/1LyJb7hFsGHor-GL2C5n2SaaM0QBTANEZ/view
-Jpal proposal guidelines: https://drive.google.com/file/d/1GmfosdMjv45qQnXaxpRqIxsMQnhW9B0W/view?pli=1
-
-template: https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations
-
-3ie example: https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital
 
 **Payment schedule.** Payments should be tied to approved deliverables, not to the passage of time:
 
@@ -157,6 +153,7 @@ template: https://www.iadb.org/en/results-and-effectiveness/development-effectiv
 | 5th | Approval of final report and policy brief | 15% |
 
 Specify clearly whether the budget is inclusive or exclusive of VAT, and whether travel and data access costs are included or reimbursable separately.
+
 
 
 ### 7. Data access and GDPR
@@ -179,6 +176,9 @@ Describe the reporting line, frequency of progress meetings, and the composition
 - **Starting too late.** An RCT must be designed before beneficiaries are selected. Procurement should begin at least six to twelve months before the first grant is awarded.
 - **Leaving the design entirely to the consultant.** The ToR must include a preliminary Theory of Change and evaluation questions - a consultant who receives no guidance will measure what is easy, not what matters.
 - **Setting an unrealistic budget.** A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.
+
+[Example for ToRs from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
+
 
 ---
 
