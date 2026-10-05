@@ -144,7 +144,7 @@ Jpal proposal guidelines: https://drive.google.com/file/d/1GmfosdMjv45qQnXaxpRqI
 
 template: https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations
 
-
+3ie example: https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital
 
 **Payment schedule.** Payments should be tied to approved deliverables, not to the passage of time:
 
