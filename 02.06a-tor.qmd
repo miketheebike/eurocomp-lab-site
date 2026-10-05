@@ -124,23 +124,37 @@ The methodology section is the technical core of the ToR. It should specify the 
 | Policy brief - 4-6 page non-technical summary | 10 working days |
 | Presentation of findings | As agreed |
 
-
 ### 6. Budget
 
-**Setting the envelope.** The budget should be set before the ToR is issued, not derived from what remains after other costs. As a rough guide:
+**Why a precise estimate is difficult.** The cost of an RCT depends on many design choices specific to each programme, so it is not possible to give an exact figure in advance. The table below shows the main variables that define the budget and how each one affects it.
+
+| Variable | How it affects the budget |
+|---|---|
+| **Sample size** | More firms mean higher survey costs, because each additional interview adds fieldwork cost. The required sample is larger when the expected effect is small, firms vary a lot on the main outcome, take-up is low, or high attrition is expected. |
+| **Design complexity** | Each additional treatment arm or planned subgroup comparison requires more firms. Randomising in clusters, such as regions or sectors, rather than individual firms also requires a larger sample to detect the same effect. |
+| **Number of survey rounds** | Each round adds a full fieldwork cycle: updating the questionnaire, training enumerators, conducting interviews, and cleaning data. Because data collection is usually the largest cost item, adding a midline or a second follow-up raises the total considerably. |
+| **Data collection mode** | Web surveys are the cheapest per interview, telephone interviews (CATI) cost more because of interviewer time, and face-to-face interviews (CAPI) cost the most because of travel and enumerator time. Cheaper modes may need extra follow-up to keep response rates up. |
+| **Questionnaire length and languages** | Longer questionnaires increase interviewer time per firm for CATI and CAPI, and can lower response rates. Each additional language adds translation, back-translation, and piloting costs. |
+| **Geographic spread** | A widely dispersed sample increases travel time and costs for face-to-face interviews. It makes little difference for web or telephone surveys. |
+| **Use of administrative data** | Lowers costs where tax, registry, or social security records can replace survey rounds, especially the follow-up. Some costs remain for negotiating access, data-sharing agreements, linking and cleaning the data, and sometimes access fees. |
+| **Duration of the evaluation** | A longer evaluation means more months of research team time and project management, and more effort to keep track of firms between rounds. RCTs often run three to four years from design to final report. |
+| **Team composition and national labour costs** | Senior researchers cost more per day than junior staff, and fees for enumerators and consultants vary widely across member states. |
+| **Reporting and dissemination** | Workshops, translated reports, policy briefs, and presentations add relatively modest costs, mainly staff time and travel. |
+
+
+**Indicative orders of magnitude.** International benchmarks give a sense of scale. In a sample of impact evaluations supported by the World Bank's Strategic Impact Evaluation Fund, costs ranged from about USD 130,000 to USD 2.8 million, with an average of around USD 1 million. A review of 89 impact evaluations funded by 3ie found an average budget of about USD 344,000, and about USD 374,000 for RCTs. In both cases, new data collection was the largest single cost, typically 60–65% of the total. Most of these evaluations took place in low- and middle-income countries. Fieldwork and staff costs in the EU are generally higher, although good administrative data can reduce the need for primary surveys.
+
+As a rough guide for EU competitiveness programmes:
 
 | Scope | Indicative range |
 |---|---|
-| Administrative data only; no primary survey | €30,000 - €80,000 |
-| Baseline and endline survey; 200-500 firms | €80,000 - €180,000 |
-| Multiple cohorts; primary survey and admin data | €180,000 - €350,000 |
+| Administrative data only; no primary survey | €100,000 – €250,000 |
+| Baseline and one follow-up survey; a few hundred firms | €250,000 – €600,000 |
+| Multiple survey rounds, cohorts, or treatment arms; larger samples | €600,000 – €1,000,000 or more |
 
-The largest single cost driver is typically primary survey fieldwork. The ToR should state explicitly whether fieldwork costs are included in the evaluation budget or procured separately.
+These ranges are indicative only. Use the responses to the EoI (Part 1) to check them against current market prices before setting the envelope. The budget should be set before the ToR is issued, not derived from what remains after other costs. The ToR should state explicitly whether fieldwork costs are included in the evaluation budget or procured separately.
 
-**Budget structure.** Ask applicants to break down their financial proposal by task: inception and design; baseline data collection; monitoring; endline data collection; analysis; reporting and dissemination; travel; and contingency (typically 5-10%).
-
-Jpal budgeting template: https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf
-
+**Budget structure.** Ask applicants to break down their financial proposal by task: inception and design; baseline data collection; monitoring; endline data collection; analysis; reporting and dissemination; travel; and contingency (typically 5–10%). J-PAL's [guide to budgeting for a randomised evaluation](https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf) provides a useful template.
 
 **Payment schedule.** Payments should be tied to approved deliverables, not to the passage of time:
 
@@ -153,7 +167,6 @@ Jpal budgeting template: https://www.povertyactionlab.org/sites/default/files/Bu
 | 5th | Approval of final report and policy brief | 15% |
 
 Specify clearly whether the budget is inclusive or exclusive of VAT, and whether travel and data access costs are included or reimbursable separately.
-
 
 
 ### 7. Data access and GDPR
