@@ -9,6 +9,8 @@ This page explains what informed consent means in the context of an European Uni
 
 Data collection for an RCT involves collecting personal and firm-level data from participants who have a right to know what that data will be used for, who will have access to it, and what their choices are. Informed consent is the mechanism through which those rights are exercised. Getting it right is a legal requirement under GDPR and a precondition for ethical evaluation practice.
 
+The GDPR is the central legal reference for any collection of personal data in the European Union (EU), and its requirements should be consulted carefully when designing the consent form and the wider data-handling arrangements. This page offers practical guidance, not legal advice. The applicable legal bases and national rules depend on the programme and the member state, so involve your Data Protection Officer from the start and consider bringing in legal consultants to review the consent form and any data-sharing agreements.
+
 This page covers what informed consent means in the context of firm-level RCTs under EU Cohesion Policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside a programme application.
 
 ---
@@ -22,7 +24,7 @@ Informed consent is a participant's freely given, specific, informed, and unambi
 **Evaluation data collection** - providing information for research purposes beyond what is required for the programme: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their programme eligibility.
 
 ::: {.caution}
-Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent - it is being coerced. GDPR Article 7(4) explicitly addresses this: consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
+Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent - it is being coerced. Under the GDPR, consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
 :::
 
 
@@ -111,17 +113,14 @@ Example:
   <div class="d"><div>
     <h4>Box 1 - Randomised programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
     <p>Covers participation in the evaluation study, acknowledgment of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
-    <p>Legal basis: Art. 6(1)(e) + Art. 89 GDPR for the randomisation and evaluation; Art. 6(1)(f) for data transfer to the World Bank.</p>
   </div></div>
   <div class="d"><div>
     <h4>Box 2 - Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h4>
     <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries - including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
-    <p>Legal basis: Art. 6(1)(a) GDPR - explicit consent.</p>
   </div></div>
   <div class="d"><div>
     <h4>Box 3 - Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h4>
     <p>Permits the use of secure AI tools to cross-check the consistency of submitted textual descriptions and financial statements (such as balance sheets). The AI tools do not retain or store data; all information remains under the sole control of the survey provider.</p>
-    <p>Legal basis: Art. 6(1)(a) GDPR - explicit consent.</p>
   </div></div>
 </div>
 ```
@@ -153,8 +152,8 @@ Annotated guide to writing informed consent documents for research with human su
 [povertyactionlab.org](https://www.povertyactionlab.org/media/file-research-resource/annotated-informed-consent-checklist)
 :::
 ::: {.card-e}
-#### GDPR Article 89 - Research safeguards
-The GDPR provision governing processing for scientific research, including the derogations and safeguards that apply.
+#### GDPR
+Full text of the EU regulation governing the processing of personal data, including the rules on consent, legal bases, and safeguards for scientific research.
 [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 :::
 
