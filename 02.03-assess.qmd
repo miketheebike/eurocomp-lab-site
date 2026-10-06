@@ -41,7 +41,7 @@ An RCT requires sustained commitment from the Managing Authority and any interme
 :::
 ::: {.card-e}
 #### 5. Can the outcomes actually be measured?
-The indicators selected in Step 3 must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
+The indicators selected in [Step 3](02.04-indicators) must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
 :::
 :::
 
@@ -152,7 +152,7 @@ On one hand, eligibility criteria should not be too restrictive to target a larg
 ::: {.example .case #digitrans}
 [Romania]{.tag}
 
-In South-Muntenia (Romania), World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.
+In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.
 ::::
 
 </details>
