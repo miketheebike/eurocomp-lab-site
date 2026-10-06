@@ -135,7 +135,7 @@ Standard outreach channels - newsletters, social media posts, agency websites - 
 Effective outreach requires direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. Experimenting with different outreach approaches - and measuring which ones work - can significantly expand the eligible pool and improve the quality of applications.
 
 
-::: {.example .case #digitrans}
+::: {.example .romania #digitrans}
 [North-East Romania]{.tag}
 
 In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. Cities that received road-trips produced 110 applications compared to 71 in cities that did not - a 55% increase. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into programme implementation.
