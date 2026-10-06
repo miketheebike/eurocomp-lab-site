@@ -4,7 +4,7 @@ title: "Pre-registration of an RCT"
 
 ## Pre-register the evaluation design before the lottery
 
-Before the lottery takes place – and before any data is collected – the evaluation design must be publicly committed to on a recognised registry. This is called **pre-registration**, and it is one of the most important quality controls in a rigorous RCT.
+Before the lottery takes place – and before any data is collected – the evaluation design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.
 
 Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results.
 
