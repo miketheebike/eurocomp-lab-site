@@ -1027,7 +1027,7 @@ The answer is already known from credible existing studies, or there is no gener
 :::
 :::
 
-If an RCT is the right tool in principle, [Step 4](02.03-assess.qmd) checks whether it is
+If an RCT is the right tool in principle, [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd) checks whether it is
 feasible in practice: oversubscription, timing, legal basis, institutional buy-in and
 measurable outcomes.
 
