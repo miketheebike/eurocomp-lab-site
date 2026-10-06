@@ -192,23 +192,23 @@ If the power calculation reveals that your eligible pool is too small, there are
   </div></div>
   <div class="d"><div>
     <h4>Expand eligibility</h4>
-    <p>Lowering the eligibility threshold adds more firms to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question — the expanded population should still be the one the programme is designed to serve.</p>
+    <p>Lowering the eligibility threshold adds more firms to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the programme is designed to serve.</p>
   </div></div>
   <div class="d"><div>
     <h4>Combine regions or cohorts</h4>
-    <p>If a single region or programme round does not produce enough firms, pooling two regions running similar programmes — or two consecutive cohorts — into a single evaluation can reach the required sample without changing the design.</p>
+    <p>If a single region or programme round does not produce enough firms, pooling two regions running similar programmes - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
   </div></div>
   <div class="d"><div>
     <h4>Run a phase-in</h4>
-    <p>Rather than running the programme to all eligible firms at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support — doubling the effective sample without needing more firms overall.</p>
+    <p>Rather than running the programme to all eligible firms at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more firms overall.</p>
   </div></div>
   <div class="d"><div>
     <h4>Focus on where effects are largest</h4>
-    <p>If the expected effect is larger among a specific subgroup — younger firms, firms in a particular sector, firms with no prior R&D experience — narrowing the focus raises the detectable effect and reduces the required sample. This only makes sense if the narrowed population remains policy-relevant.</p>
+    <p>If the expected effect is larger among a specific subgroup - younger firms, firms in a particular sector, firms with no prior R&D experience - narrowing the focus raises the detectable effect and reduces the required sample. This only makes sense if the narrowed population remains policy-relevant.</p>
   </div></div>
   <div class="d"><div>
     <h4>Invest in a strong baseline</h4>
-    <p>Collecting good baseline data on the primary outcome — before the intervention — and using it in the analysis significantly reduces the sample size needed. The evaluator can explain how much this helps in your specific context; the reduction is often substantial.</p>
+    <p>Collecting good baseline data on the primary outcome - before the intervention - and using it in the analysis significantly reduces the sample size needed. The evaluator can explain how much this helps in your specific context; the reduction is often substantial.</p>
   </div></div>
 </div>
 ```
