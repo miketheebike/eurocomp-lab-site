@@ -246,7 +246,7 @@ firms would have spent anyway.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">Cusolito, A. P., Dalton, P. and Ortega, S. R. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.</span>
+  <span class="fr-cite">Cusolito, A. P., Dalton, P., and Ortega, S. R. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.</span>
   <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099062725130024487">Read the report &rarr;</a>
   </div>
 </div>
@@ -447,7 +447,7 @@ AI Klub
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Campos, F., Spina, C. and Suhag, R. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
+  <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Campos, F., Spina, C., and Suhag, R. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
   <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
   </div>
   <div class="fr-entry">
@@ -594,7 +594,7 @@ pilot.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">Avdeenko, A., Campos, F., Chandy, R., Iacovone, L. and Kala, N. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.</span>
+  <span class="fr-cite">Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.</span>
   <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Read the report &rarr;</a>
   </div>
 </div>
@@ -766,7 +766,7 @@ performance.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J. and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
+  <span class="fr-cite">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
   <a href="assets/eenergy-2pager.pdf">Summary of findings (PDF) &rarr;</a>
   </div>
   <div class="fr-entry">
@@ -1718,7 +1718,7 @@ models.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">Iacovone, L., Maloney, W. F. and McKenzie, D. 2022. Improving management with individual and group-based consulting: Results from a randomized experiment in Colombia. <em>Review of Economic Studies</em>, 89(1), 346&ndash;371.</span>
+  <span class="fr-cite">Iacovone, L., Maloney, W. F., and McKenzie, D. 2022. Improving management with individual and group-based consulting: Results from a randomized experiment in Colombia. <em>Review of Economic Studies</em>, 89(1), 346&ndash;371.</span>
   <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/198461559921937913">Read the paper &rarr;</a>
   </div>
 </div>
@@ -1912,7 +1912,7 @@ equilibrium effect this study could not measure.
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
   <div class="fr-entry">
-  <span class="fr-cite">McKenzie, D., Assaf, N. and Cusolito, A. P. 2016. The demand for, and impact of, youth internships: Evidence from a randomized experiment in Yemen. <em>IZA Journal of Labor &amp; Development</em>, 5(1), 1&ndash;15.</span>
+  <span class="fr-cite">McKenzie, D., Assaf, N., and Cusolito, A. P. 2016. The demand for, and impact of, youth internships: Evidence from a randomized experiment in Yemen. <em>IZA Journal of Labor &amp; Development</em>, 5(1), 1&ndash;15.</span>
   <a href="https://izajold.springeropen.com/articles/10.1186/s40175-016-0048-8">Read the paper &rarr;</a>
   </div>
 </div>
