@@ -237,7 +237,7 @@ But which outcomes should one look at exactly? A programme can change many thing
 
 This chain is the foundation of a theory of change, and having thought it through helps
 in designing a strong impact evaluation. There is more on this in
-[Step 1: Develop a theory of change](02.01-toc.qmd). 
+[Step 1: develop a Theory of Change](02.01-toc.qmd). 
 
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
 
