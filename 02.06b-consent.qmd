@@ -150,12 +150,12 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 ::: {.card-e}
 #### J-PAL Informed Consent Checklist
 Annotated guide to writing informed consent documents for research with human subjects, based on the US OHRP checklist.
-[povertyactionlab.org →](https://www.povertyactionlab.org/media/file-research-resource/annotated-informed-consent-checklist)
+[povertyactionlab.org](https://www.povertyactionlab.org/media/file-research-resource/annotated-informed-consent-checklist)
 :::
 ::: {.card-e}
 #### GDPR Article 89 - Research safeguards
 The GDPR provision governing processing for scientific research, including the derogations and safeguards that apply.
-[eur-lex.europa.eu →](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
+[eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 :::
 
 :::
