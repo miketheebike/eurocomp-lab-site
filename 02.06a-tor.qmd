@@ -29,8 +29,6 @@ An EoI should contain:
 
 The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the Managing Authority's website. Shortlisted candidates - typically three to six - are then invited to submit full proposals in response to the complete ToR.
 
-[Example EoI from 3ie](https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital)
-
 ### Step 2: issue the ToR and evaluate proposals
 
 With shortlisted candidates identified, the Managing Authority issues the full ToR. Proposals are evaluated against pre-defined, published criteria. For an RCT evaluation, technical quality should be weighted heavily:
@@ -195,6 +193,7 @@ Describe the reporting line, frequency of progress meetings, and the composition
 ::: {.card-e}
 #### EoI
 [Template from Inter-American Developent Bank]()
+[Example from 3ie](https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital)
 :::
 ::: {.card-e}
 #### ToRs
