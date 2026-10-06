@@ -153,7 +153,7 @@ As a rough guide for EU competitiveness programmes:
 
 These ranges are indicative only. Use the responses to the EoI (Part 1) to check them against current market prices before setting the envelope. The budget should be set before the ToR is issued, not derived from what remains after other costs. The ToR should state explicitly whether fieldwork costs are included in the evaluation budget or procured separately.
 
-**Budget structure.** Ask applicants to break down their financial proposal by task: inception and design; baseline data collection; monitoring; endline data collection; analysis; reporting and dissemination; travel; and contingency (typically 5–10%). J-PAL's [guide to budgeting for a randomised evaluation](https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf) provides a useful template.
+**Budget structure.** Ask applicants to break down their financial proposal by task: inception and design; baseline data collection; monitoring; endline data collection; analysis; reporting and dissemination; travel; and contingency (typically 5–10%). 
 
 **Payment schedule.** Payments should be tied to approved deliverables, not to the passage of time:
 
@@ -183,15 +183,30 @@ For a full RCT evaluation, require: an advanced degree in economics, statistics,
 Describe the reporting line, frequency of progress meetings, and the composition of any evaluation steering committee. Specify the escalation procedure for methodological disagreements. State what applicants must submit - technical proposal length, CV format, number of reference evaluations, financial proposal format - and the submission deadline.
 
 
-## Common Mistakes to Avoid
+## Common mistakes to avoid
 
 - **Starting too late.** An RCT must be designed before beneficiaries are selected. Procurement should begin at least six to twelve months before the first grant is awarded.
 - **Leaving the design entirely to the consultant.** The ToR must include a preliminary Theory of Change and evaluation questions - a consultant who receives no guidance will measure what is easy, not what matters.
 - **Setting an unrealistic budget.** A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.
 
-[Example for ToRs from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
+## Examples and template
 
-
+::: {.cards}
+::: {.card-e}
+#### EoI
+[Template from Inter-American Developent Bank]()
+:::
+::: {.card-e}
+#### ToRs
+[Example from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
+[Template from Inter-American Developent Bank]()
+:::
+::: {.card-e}
+#### Budget
+[Template from J-PAL](https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf) 
+[Template from Inter-American Developent Bank]() 
+:::
+:::
 
 
 ---
