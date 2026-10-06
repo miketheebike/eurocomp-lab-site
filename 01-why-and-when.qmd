@@ -1014,7 +1014,7 @@ markets to serve do not exist.
 #### Statistically not feasible
 Too few units or too little money. Large indirect or spillover effects you cannot measure (Spillovers alone are not a
 reason to drop an RCT: if expected, they can be designed for and measured (see
-[Step 4](02.03-assess.qmd)))
+[Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd)))
 Setting too chaotic, for example disaster relief. Treatment assigned at too high a level,
 for example national policy.
 :::
