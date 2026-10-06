@@ -234,7 +234,7 @@ Not every programme fits the same shape. The right design depends on your progra
   </div></div>
   <div class="d"><div>
     <h4>Multiple treatment arms</h4>
-    <p><span class="lab">How:</span> randomly assign firms to different versions of the programme — for example, grant only vs. grant plus advisory support — with or without a comparison group receiving nothing.</p>
+    <p><span class="lab">How:</span> randomly assign firms to different versions of the programme - for example, grant only vs. grant plus advisory support - with or without a comparison group receiving nothing.</p>
     <p><span class="lab">Best when:</span> you want to know which design element drives results, not just whether the programme works at all.</p>
   </div></div>
   <div class="d"><div>
@@ -244,13 +244,13 @@ Not every programme fits the same shape. The right design depends on your progra
   </div></div>
   <div class="d"><div>
     <h4>Randomised intensities</h4>
-    <p><span class="lab">How:</span> vary the dose of the programme across firms — for example, 100%, 50%, or 0% of eligible employees receive training.</p>
+    <p><span class="lab">How:</span> vary the dose of the programme across firms - for example, 100%, 50%, or 0% of eligible employees receive training.</p>
     <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated workers within the same firm, and you want to measure that spread.</p>
   </div></div>
   <div class="d"><div>
     <h4>Encouragement design</h4>
     <p><span class="lab">How:</span> randomise who receives extra outreach or information encouraging take-up, rather than randomising access to the programme itself.</p>
-    <p><span class="lab">Best when:</span> the programme cannot legally be denied to anyone who qualifies — for example, an open voucher scheme — but take-up is voluntary and varies.</p>
+    <p><span class="lab">Best when:</span> the programme cannot legally be denied to anyone who qualifies - for example, an open voucher scheme - but take-up is voluntary and varies.</p>
   </div></div>
 </div>
 ```
