@@ -191,6 +191,12 @@ Describe the reporting line, frequency of progress meetings, and the composition
 
 [Example for ToRs from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
 
+::: {.example .case #digitrans}
+[North-East Romania]{.tag}
+
+
+::::
+
 
 ---
 
