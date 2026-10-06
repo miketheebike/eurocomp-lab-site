@@ -103,7 +103,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Sample size and power:** Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power, significance level , expected take-up and attrition rates, and baseline variance of the primary outcome.
 
-**Estimation:** Specify intention-to-treat (ITT) as the primary estimand. Where take-up is imperfect, require the Local Average Treatment Effect (LATE) to be reported alongside ITT. All primary estimates should control for baseline outcome values.
+**Estimation:** The main analysis should compare all firms offered the support with all firms in the comparison group, whether or not the offered firms actually took the support up. This keeps the comparison fair and shows the effect of offering the programme. If some firms did not take up the support, the consultant should also estimate the effect on the firms that actually received it. 
 
 **Pre-registration:** Require pre-registration on a recognised public registry - such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) - before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
 
@@ -163,12 +163,12 @@ These ranges are indicative only. Use the responses to the EoI (Part 1) to check
 | 4th | Approval of draft endline report | 30% |
 | 5th | Approval of final report and policy brief | 15% |
 
-Specify clearly whether the budget is inclusive or exclusive of VAT, and whether travel and data access costs are included or reimbursable separately.
+Specify clearly whether the budget is inclusive or exclusive of Value Added Tax, and whether travel and data access costs are included or reimbursable separately.
 
 
 ### 7. Data access and GDPR
 
-Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address GDPR compliance - lawful basis for processing, pseudonymisation, data security requirements, and retention obligations - and require a data processing agreement to be signed before any data transfer.
+Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address General Data Protection Regulation (GDPR) compliance - lawful basis for processing, pseudonymisation, data security requirements, and retention obligations - and require a data processing agreement to be signed before any data transfer.
 
 
 ### 8. Qualifications required
@@ -184,7 +184,7 @@ Describe the reporting line, frequency of progress meetings, and the composition
 ## Common mistakes to avoid
 
 - **Starting too late.** An RCT must be designed before beneficiaries are selected. Procurement should begin at least six to twelve months before the first grant is awarded.
-- **Leaving the design entirely to the consultant.** The ToR must include a preliminary Theory of Change and evaluation questions - a consultant who receives no guidance will measure what is easy, not what matters.
+- **Leaving the design entirely to the consultant.** The ToR must include a preliminary ToC and evaluation questions - a consultant who receives no guidance will measure what is easy, not what matters.
 - **Setting an unrealistic budget.** A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.
 
 ## Examples and template
