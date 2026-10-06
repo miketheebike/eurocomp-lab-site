@@ -1378,6 +1378,7 @@ models of innovation diffusion, an area where experimental evidence remains scar
 :::
 
 ***
+
 ## Earlier work by the EuroCOMP Lab team: Digitrans
 
 ::: {.cards}
@@ -1542,7 +1543,7 @@ businesses.
 
 ***
 
-## Examples from beyond the Lab
+## Examples beyond the Lab
 ### Colombia: Scaling up management consulting {#colombia-scaling-up-management-consulting}
 
 
