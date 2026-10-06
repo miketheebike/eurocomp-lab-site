@@ -1588,7 +1588,7 @@ management practices and performance?"
   <div><div class="k">The programme</div><div class="v">A diagnostic for every firm, followed by individual or group-based management consulting</div></div>
   <div><div class="k">Where</div><div class="v">Colombia &mdash; auto parts manufacturing sector</div></div>
   <div><div class="k">Who is randomised</div><div class="v">159 eligible firms (manufacturers, tier 1/2 suppliers, 2+ years old, 10+ workers), in 53 matched triplets</div></div>
-  <div><div class="k">The design</div><div class="v">Three-arm RCT: comparison, individual consulting (~US$28,950/firm), group consulting (~US$10,500/firm)</div></div>
+  <div><div class="k">The design</div><div class="v">Three-arm RCT: comparison, individual consulting (~USD28,950/firm), group consulting (~USD10,500/firm)</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Management practices; employment, sales, value-added and profits via administrative records</div></div>
   <div><div class="k">Starting point</div><div class="v">Baseline management scores ranged from 43 to 51 out of 100 across practice areas</div></div>
 </div>
@@ -1647,11 +1647,11 @@ individual consulting, or group consulting.
 
   <rect x="436" y="97" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="450" y="119" fill="#2B2724" font-size="12.5" font-weight="bold">53 individual consulting</text>
-  <text x="450" y="136" fill="#6B6455" font-size="10.5">~US$28,950/firm, over 6 months</text>
+  <text x="450" y="136" fill="#6B6455" font-size="10.5">~USD28,950/firm, over 6 months</text>
 
   <rect x="436" y="194" width="254" height="56" rx="6" fill="#F2C94C"/>
   <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">53 group consulting</text>
-  <text x="450" y="233" fill="#2B2724" font-size="10.5">~US$10,500/firm, in groups of 3&ndash;8</text>
+  <text x="450" y="233" fill="#2B2724" font-size="10.5">~USD10,500/firm, in groups of 3&ndash;8</text>
 </svg>
 <figcaption>Note: Firms were matched into triplets before randomisation, then randomly allocated within each triplet to a comparison group, individual consulting, or group consulting.</figcaption>
 </figure>
@@ -1688,11 +1688,11 @@ profits; the individual programme's effects on firm performance were smaller and
 statistically significant.
 :::
 ::: {.card-e}
-[US$273,000]{.num}
+[USD273,000]{.num}
 
 **Estimated average annual profit increase, group consulting**
 
-At a cost of about US$10,500 per firm, the estimated profit gains from group
+At a cost of about USD10,500 per firm, the estimated profit gains from group
 consulting paid back the programme's cost within about a month.
 :::
 :::
