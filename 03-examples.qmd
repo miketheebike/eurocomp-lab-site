@@ -1544,7 +1544,7 @@ businesses.
 ***
 
 ## Examples beyond the Lab
-### Colombia: Scaling up management consulting {#colombia-scaling-up-management-consulting}
+### Colombia: scaling up management consulting {#colombia-scaling-up-management-consulting}
 
 
 ::: {.cards}
@@ -1725,7 +1725,7 @@ models.
 </div>
 ```
 
-### Yemen: Testing whether internships help youth find work
+### Yemen: testing whether internships help youth find work
 
 
 ::: {.cards}
@@ -1741,6 +1741,7 @@ setting. Job opportunities for young graduates were also increasingly scarce
 following Yemen's 2011-12 political crisis.
 :::
 ::: {.card-e}
+
 **What was done**
 
 The Enterprise Revitalization and Employment Pilot (EREP) tested a
