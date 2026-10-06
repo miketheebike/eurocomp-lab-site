@@ -451,7 +451,7 @@ AI Klub
   <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
   </div>
   <div class="fr-entry">
-  <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Iacovone, L., Menzel, A., Münch, F. A., and Suhag, R. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC.>
+  <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Iacovone, L., Menzel, A., Münch, F. A., and Suhag, R. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
   <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
   </div>
 </div>
