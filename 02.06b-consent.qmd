@@ -71,7 +71,7 @@ Name every party that will have access to the data, in what capacity, and under 
 
 ### 5. How long data will be retained
 
-State the retention period for each category of data. Research data linked to Structural Funds programmes must be retained in line with CPR 2021/1060 audit requirements. For extended administrative data tracking - such as access to tax and registry records - the South-Muntenia questionnaire specifies a retention period of **up to ten years** from the date of submission.
+State the retention period for each category of data. For extended administrative data tracking - such as access to tax and registry records - the retention period specified from the date of submission should be long enough.
 
 ### 6. Confidentiality and anonymisation
 
@@ -88,7 +88,7 @@ State explicitly that:
 
 ### 8. Participant rights under GDPR
 
-Inform participants of their rights: access to stored data (including a free copy), rectification of inaccurate data, data portability, restriction of processing, and the right to lodge a complaint with the national supervisory authority. Provide the contact details of both the Managing Authority's DPO and the relevant national supervisory authority.
+Inform participants of their rights: access to stored data (including a free copy), rectification of inaccurate data, data portability, restriction of processing, and the right to lodge a complaint with the national supervisory authority. Provide the contact details of both the Managing Authority's Data Protection Officer and the relevant national supervisory authority.
 
 ### 9. Duration of participation and follow-up
 
@@ -96,7 +96,7 @@ State how long the initial form will take and whether participants may be contac
 
 ### 10. Signature and confirmation
 
-The form must be signed by an authorised representative of the firm - founder, owner, CEO, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
+The form must be signed by an authorised representative of the firm - founder, owner, Chief Executive Officer, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
 
 ***
 
@@ -109,7 +109,7 @@ Example:
 ```{=html}
 <div class="designs">
   <div class="d"><div>
-    <h4>Box 1 - Randomised pilot programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
+    <h4>Box 1 - Randomised programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
     <p>Covers participation in the evaluation study, acknowledgment of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
     <p>Legal basis: Art. 6(1)(e) + Art. 89 GDPR for the randomisation and evaluation; Art. 6(1)(f) for data transfer to the World Bank.</p>
   </div></div>
@@ -140,9 +140,9 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 **Control group consent.** Firms in the comparison group are also research subjects - they are surveyed, tracked in administrative data, and their outcomes are used in the analysis. They must receive the same information notice and consent form as treatment group firms. The only difference is that they are not invited to apply for the grant.
 
-**Plain language.** The consent form will be read by firm owners and managers, not lawyers. Legal citations (Article 6(1)(e), etc.) are required for completeness but must be accompanied by plain-language explanations. In the South-Muntenia questionnaire, each legal reference is preceded by a plain description of what the processing activity is and why it is necessary.
+**Plain language.** The consent form will be read by firm owners and managers, not lawyers. Legal citations are required for completeness but must be accompanied by plain-language explanations. 
 
-**Multilingual forms.** Where the programme operates in a non-English-speaking member state, the consent form should be available in the local language. The South-Muntenia questionnaire was available in both Romanian and English, with language selectable from the survey menu.
+**Multilingual forms.** Where the programme operates in a non-English-speaking member state, the consent form should be available in the local language. 
 
 ## Resources
 
