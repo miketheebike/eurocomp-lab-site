@@ -50,7 +50,7 @@ The indicators selected in Step 3 must be observable - through administrative re
 
 Before designing the lottery or scoring mechanism, confirm that your national legal framework - and the specific legislation governing your programme - either explicitly permits randomisation as a selection method or is flexible enough to accommodate it.
 
-Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page for country examples, key legal elements, and practical steps →](02.03c-legal.qmd)
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page for country examples, key legal elements, and practical steps](02.03c-legal.qmd)
 :::
 
 
@@ -121,7 +121,7 @@ North-East Romania combined three steps that are usually separate - application,
 
 To detect the impact of a programme, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible - ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?
 
-The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations →](02.03a-power.qmd)
+The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations](02.03a-power.qmd)
 
 Lessons learned from projects within the EuroCOMP Lab inform about potential ways for reaching large enough numbers.
 
@@ -460,7 +460,7 @@ Compliance is rarely perfect in either direction: some encouraged firms will nev
 
 ## Did randomisation lead to comparable firms in treatment and comparison group?
 
-Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the programme starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable →](02.03b-balance.qmd)
+Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the programme starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable](02.03b-balance.qmd)
 
 
 ## What are potential challenges?
@@ -510,12 +510,12 @@ For a Managing Authority, pre-registration also serves a protective function. It
 ::: {.card-e}
 #### AEA RCT Registry
 The most widely used registry for economic and policy evaluations. Free to register.
-[socialscienceregistry.org →](https://www.socialscienceregistry.org)
+[socialscienceregistry.org](https://www.socialscienceregistry.org)
 :::
 ::: {.card-e}
 #### RIDIE
 Registry for International Development Impact Evaluations, hosted by 3ie.
-[ridie.3ieimpact.org →](https://ridie.3ieimpact.org)
+[ridie.3ieimpact.org](https://ridie.3ieimpact.org)
 :::
 :::
 
