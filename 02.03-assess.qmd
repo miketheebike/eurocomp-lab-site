@@ -14,7 +14,7 @@ This page covers five feasibility conditions that must be in place before commit
 
 By this point you have mapped your programme's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
 
-A RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
+An RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
 
 ***
 
