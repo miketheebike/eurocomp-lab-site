@@ -539,7 +539,7 @@ on the last. That is how we expand our knowledge of what works, for whom, and un
 conditions, and use it to design better programmes. Exchange within a community of practice
 matters, so we can learn from each other, not just from our own results. 
 
-But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: Are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
+But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
 
 ```{=html}
 <figure class="fig-e">
@@ -574,14 +574,14 @@ But before adopting what worked elsewhere, questions of external validity need t
 ::: {.cards}
 ::: {.card-e}
 [Review]{.num}
-Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.01-toc.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
+Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.02-eval_questions.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
 Review lessons from other [settings and countries](03-examples.qmd) and adapt them.
 Identify baseline needs of potential beneficiaries in your region.
 :::
 ::: {.card-e}
 [Design]{.num}
 Choose a credible comparison group and set the [sample size](02.03a-power.qmd) needed to detect a meaningful effect.
-Turn the outcomes identified in Review into (measurable indicators)[02.04-indicators.qmd], and set out the [data collection](02.06-data_collect.qmd) plan, budget, and timeline in a [Terms of Reference](02.06a-tor.qmd).
+Turn the outcomes identified in Review into [measurable indicators](02.04-indicators.qmd) using [primary and secondary data](02.05-data_sources.qmd), and set out the [data collection](02.06-data_collect.qmd) plan, budget, and timeline in a [Terms of Reference](02.06a-tor.qmd).
 :::
 ::: {.card-e}
 [Test]{.num}
