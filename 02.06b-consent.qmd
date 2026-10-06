@@ -109,19 +109,19 @@ Example:
 ```{=html}
 <div class="designs">
   <div class="d"><div>
-    <h4>Box 1 — Randomised pilot programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
+    <h4>Box 1 - Randomised pilot programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
     <p>Covers participation in the evaluation study, acknowledgment of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
     <p>Legal basis: Art. 6(1)(e) + Art. 89 GDPR for the randomisation and evaluation; Art. 6(1)(f) for data transfer to the World Bank.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Box 2 — Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional — important for evaluation quality)</span></h4>
-    <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries — including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
-    <p>Legal basis: Art. 6(1)(a) GDPR — explicit consent.</p>
+    <h4>Box 2 - Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h4>
+    <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries - including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
+    <p>Legal basis: Art. 6(1)(a) GDPR - explicit consent.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Box 3 — Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional — important for evaluation quality)</span></h4>
+    <h4>Box 3 - Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h4>
     <p>Permits the use of secure AI tools to cross-check the consistency of submitted textual descriptions and financial statements (such as balance sheets). The AI tools do not retain or store data; all information remains under the sole control of the survey provider.</p>
-    <p>Legal basis: Art. 6(1)(a) GDPR — explicit consent.</p>
+    <p>Legal basis: Art. 6(1)(a) GDPR - explicit consent.</p>
   </div></div>
 </div>
 ```
