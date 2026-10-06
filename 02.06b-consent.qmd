@@ -17,7 +17,7 @@ This page covers what informed consent means in the context of firm-level RCTs u
 
 Informed consent is a participant's freely given, specific, informed, and unambiguous agreement to the processing of their data for a defined purpose. In the context of an RCT, it covers two distinct activities that must be kept clearly separate:
 
-**Programme participation** - applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the programme (typically Article 6(1)(e) GDPR - processing necessary for a task carried out in the public interest), not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the programme.
+**Programme participation** - applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the programme, not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the programme.
 
 **Evaluation data collection** - providing information for research purposes beyond what is required for the programme: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their programme eligibility.
 
