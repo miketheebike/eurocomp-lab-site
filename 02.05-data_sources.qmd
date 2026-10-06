@@ -24,7 +24,7 @@ For each indicator in your evaluation framework, you must decide whether to rely
 
 **Secondary data** draws on records that already exist - national business registries, tax authority data, customs records, patent office databases, or the programme's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
 
-In countries where administrative data sources - such as business registries, tax records, and social security data - are well established and reliable, as is generally the case across the EU, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
+In countries where administrative data sources - such as business registries, tax records, and social security data - are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
 ::: {.example .romania}
 [North-East Romania: data sources]{.tag}
@@ -82,7 +82,7 @@ North-East Romania used two administraive data sources: (i) publicly available f
 
 Access to administrative data rarely happens automatically. Tax records, social security data, and business registry microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time - in some countries, many months - and must be initiated well before the evaluation begins.
 
-A data-sharing agreement between the Managing Authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. GDPR compliance must be addressed explicitly in the agreement.
+A data-sharing agreement between the Managing Authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. General Data Protection Regulation compliance must be addressed explicitly in the agreement.
 
 ***
 
