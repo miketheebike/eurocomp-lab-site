@@ -519,7 +519,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#qualifications-required" id="toc-qualifications-required" class="nav-link" data-scroll-target="#qualifications-required">8. Qualifications required</a></li>
   <li><a href="#governance-and-proposal-requirements" id="toc-governance-and-proposal-requirements" class="nav-link" data-scroll-target="#governance-and-proposal-requirements">9. Governance and proposal requirements</a></li>
   </ul></li>
-  <li><a href="#common-mistakes-to-avoid" id="toc-common-mistakes-to-avoid" class="nav-link" data-scroll-target="#common-mistakes-to-avoid">Common Mistakes to Avoid</a></li>
+  <li><a href="#common-mistakes-to-avoid" id="toc-common-mistakes-to-avoid" class="nav-link" data-scroll-target="#common-mistakes-to-avoid">Common mistakes to avoid</a></li>
+  <li><a href="#examples-and-template" id="toc-examples-and-template" class="nav-link" data-scroll-target="#examples-and-template">Examples and template</a></li>
   </ul>
 </nav>
     </div>
@@ -547,10 +548,10 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level4 team-note">
 <h4 class="anchored" data-anchor-id="summary">Summary</h4>
-<p>This page covers the procurement process — Expression of Interest (EoI), proposal evaluation, and inception — and what the Terms of Reference (ToR) must contain: programme background, learning questions, scope of work, methodology, deliverables, budget, data access, required qualifications, and common mistakes to avoid.</p>
+<p>This page covers the procurement process - Expression of Interest (EoI), proposal evaluation, and inception - and what the Terms of Reference (ToR) must contain: programme background, learning questions, scope of work, methodology, deliverables, budget, data access, required qualifications, and common mistakes to avoid.</p>
 </section>
 <p>Managing Authorities bring deep knowledge of their programmes to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges - and having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted ToR: the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the Managing Authority’s most important contribution to the quality of the evaluation.</p>
-<p>In principle, a ToR can cover the entire evaluation - including evaluation design, Theory of Change (ToC)development, and selection of the methodological approach - leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that Managing Authorities have already completed the preparatory steps covered on the previous pages: the ToC is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs - one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork.</p>
+<p>In principle, a ToR can cover the entire evaluation - including evaluation design, Theory of Change (ToC) development, and selection of the methodological approach - leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that Managing Authorities have already completed the preparatory steps covered on the previous pages: the ToC is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs - one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork.</p>
 <section id="part-1-the-procurement-process" class="level2">
 <h2 class="anchored" data-anchor-id="part-1-the-procurement-process">Part 1: the procurement process</h2>
 <section id="step-1-issue-an-eoi" class="level3">
@@ -654,7 +655,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The methodology section is the technical core of the ToR. It should specify the evaluation design clearly enough that a qualified evaluator can assess whether the approach is appropriate, without being so prescriptive that it prevents the consultant from bringing their own expertise to bear.</p>
 <p><strong>Design:</strong> Specify that the evaluation will use an RCT, and define the unit of randomisation (typically the firm), the level of randomisation (individual or cluster), and whether there are multiple treatment arms.</p>
 <p><strong>Sample size and power:</strong> Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power, significance level , expected take-up and attrition rates, and baseline variance of the primary outcome.</p>
-<p><strong>Estimation:</strong> Specify intention-to-treat (ITT) as the primary estimand. Where take-up is imperfect, require the Local Average Treatment Effect (LATE) to be reported alongside ITT. All primary estimates should control for baseline outcome values.</p>
+<p><strong>Estimation:</strong> The main analysis should compare all firms offered the support with all firms in the comparison group, whether or not the offered firms actually took the support up. This keeps the comparison fair and shows the effect of offering the programme. If some firms did not take up the support, the consultant should also estimate the effect on the firms that actually received it.</p>
 <p><strong>Pre-registration:</strong> Require pre-registration on a recognised public registry - such as the <a href="https://www.socialscienceregistry.org/">AEA RCT Registry</a> - before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.</p>
 <p><strong>Data sources:</strong> Specify which administrative datasets will be provided by the Managing Authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.</p>
 </section>
@@ -705,7 +706,63 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="budget" class="level3">
 <h3 class="anchored" data-anchor-id="budget">6. Budget</h3>
-<p><strong>Setting the envelope.</strong> The budget should be set before the ToR is issued, not derived from what remains after other costs. As a rough guide:</p>
+<p><strong>Why a precise estimate is difficult.</strong> The cost of an RCT depends on many design choices specific to each programme. The table below shows the main variables that define the budget and how each one affects it.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Variable</th>
+<th>How it affects the budget</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Sample size</strong></td>
+<td>More firms mean higher survey costs, because each additional interview adds fieldwork cost.</td>
+</tr>
+<tr class="even">
+<td><strong>Design complexity</strong></td>
+<td>Each additional treatment arm or planned subgroup comparison requires more firms. Randomising in clusters, such as regions or sectors, rather than individual firms also requires a larger sample to detect the same effect.</td>
+</tr>
+<tr class="odd">
+<td><strong>Number of survey rounds</strong></td>
+<td>Each round adds a full fieldwork cycle: updating the questionnaire, training enumerators, conducting interviews, and cleaning data. Because data collection is usually the largest cost item, adding a midline or a second follow-up raises the total considerably.</td>
+</tr>
+<tr class="even">
+<td><strong>Data collection mode</strong></td>
+<td>Web surveys are the cheapest per interview, telephone interviews (CATI) cost more because of interviewer time, and face-to-face interviews (CAPI) cost the most because of travel and enumerator time. Cheaper modes may need extra follow-up to keep response rates up.</td>
+</tr>
+<tr class="odd">
+<td><strong>Questionnaire length and languages</strong></td>
+<td>Longer questionnaires increase interviewer time per firm for CATI and CAPI, and can lower response rates. Each additional language adds translation, back-translation, and piloting costs.</td>
+</tr>
+<tr class="even">
+<td><strong>Geographic spread</strong></td>
+<td>A widely dispersed sample increases travel time and costs for face-to-face interviews. It makes little difference for web or telephone surveys.</td>
+</tr>
+<tr class="odd">
+<td><strong>Use of administrative data</strong></td>
+<td>Lowers costs where tax, registry, or social security records can replace survey rounds, especially the follow-up. Some costs remain for negotiating access, data-sharing agreements, linking and cleaning the data, and sometimes access fees.</td>
+</tr>
+<tr class="even">
+<td><strong>Duration of the evaluation</strong></td>
+<td>A longer evaluation means more months of research team time and project management, and more effort to keep track of firms between rounds. RCTs often run several years from design to final report.</td>
+</tr>
+<tr class="odd">
+<td><strong>Team composition and national labour costs</strong></td>
+<td>Senior researchers cost more per day than junior staff, and fees for enumerators and consultants vary widely across countries.</td>
+</tr>
+<tr class="even">
+<td><strong>Reporting and dissemination</strong></td>
+<td>Workshops, translated reports, policy briefs, and presentations add relatively modest costs, mainly staff time and travel.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Indicative orders of magnitude.</strong> International benchmarks give a sense of scale. In a sample of impact evaluations supported by the World Bank’s Strategic Impact Evaluation Fund, costs ranged from about USD 130,000 to USD 2.8 million, with an average of around USD 1 million. A review of 89 impact evaluations funded by 3ie found an average budget of about USD 344,000, and about USD 374,000 for RCTs. In both cases, new data collection was the largest single cost, typically 60–65% of the total. Most of these evaluations took place in low- and middle-income countries. Fieldwork and staff costs in the EU are generally higher, although good administrative data can reduce the need for primary surveys.</p>
+<p>As a rough guide for EU competitiveness programmes:</p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -720,20 +777,20 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>Administrative data only; no primary survey</td>
-<td>€30,000 - €80,000</td>
+<td>€100,000 – €250,000</td>
 </tr>
 <tr class="even">
-<td>Baseline and endline survey; 200-500 firms</td>
-<td>€80,000 - €180,000</td>
+<td>Baseline and one follow-up survey; a few hundred firms</td>
+<td>€250,000 – €600,000</td>
 </tr>
 <tr class="odd">
-<td>Multiple cohorts; primary survey and admin data</td>
-<td>€180,000 - €350,000</td>
+<td>Multiple survey rounds, cohorts, or treatment arms; larger samples</td>
+<td>€600,000 – €1,000,000 or more</td>
 </tr>
 </tbody>
 </table>
-<p>The largest single cost driver is typically primary survey fieldwork. The ToR should state explicitly whether fieldwork costs are included in the evaluation budget or procured separately.</p>
-<p><strong>Budget structure.</strong> Ask applicants to break down their financial proposal by task: inception and design; baseline data collection; monitoring; endline data collection; analysis; reporting and dissemination; travel; and contingency (typically 5-10%).</p>
+<p>These ranges are indicative only. Use the responses to the EoI (Part 1) to check them against current market prices before setting the envelope. The budget should be set before the ToR is issued, not derived from what remains after other costs. The ToR should state explicitly whether fieldwork costs are included in the evaluation budget or procured separately.</p>
+<p><strong>Budget structure.</strong> Ask applicants to break down their financial proposal by task: inception and design; baseline data collection; monitoring; endline data collection; analysis; reporting and dissemination; travel; and contingency (typically 5–10%).</p>
 <p><strong>Payment schedule.</strong> Payments should be tied to approved deliverables, not to the passage of time:</p>
 <table class="caption-top table">
 <thead>
@@ -771,11 +828,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p>Specify clearly whether the budget is inclusive or exclusive of VAT, and whether travel and data access costs are included or reimbursable separately.</p>
+<p>Specify clearly whether the budget is inclusive or exclusive of Value Added Tax, and whether travel and data access costs are included or reimbursable separately.</p>
 </section>
 <section id="data-access-and-gdpr" class="level3">
 <h3 class="anchored" data-anchor-id="data-access-and-gdpr">7. Data access and GDPR</h3>
-<p>Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address GDPR compliance - lawful basis for processing, pseudonymisation, data security requirements, and retention obligations - and require a data processing agreement to be signed before any data transfer.</p>
+<p>Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address General Data Protection Regulation (GDPR) compliance - lawful basis for processing, pseudonymisation, data security requirements, and retention obligations - and require a data processing agreement to be signed before any data transfer.</p>
 </section>
 <section id="qualifications-required" class="level3">
 <h3 class="anchored" data-anchor-id="qualifications-required">8. Qualifications required</h3>
@@ -787,12 +844,29 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 <section id="common-mistakes-to-avoid" class="level2">
-<h2 class="anchored" data-anchor-id="common-mistakes-to-avoid">Common Mistakes to Avoid</h2>
+<h2 class="anchored" data-anchor-id="common-mistakes-to-avoid">Common mistakes to avoid</h2>
 <ul>
 <li><strong>Starting too late.</strong> An RCT must be designed before beneficiaries are selected. Procurement should begin at least six to twelve months before the first grant is awarded.</li>
-<li><strong>Leaving the design entirely to the consultant.</strong> The ToR must include a preliminary Theory of Change and evaluation questions - a consultant who receives no guidance will measure what is easy, not what matters.</li>
+<li><strong>Leaving the design entirely to the consultant.</strong> The ToR must include a preliminary ToC and evaluation questions - a consultant who receives no guidance will measure what is easy, not what matters.</li>
 <li><strong>Setting an unrealistic budget.</strong> A ToR with an insufficient budget envelope will either attract low-quality proposals or result in a scope reduction that compromises the evaluation.</li>
 </ul>
+</section>
+<section id="examples-and-template" class="level2">
+<h2 class="anchored" data-anchor-id="examples-and-template">Examples and template</h2>
+<div class="cards">
+<section id="eoi" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="eoi">EoI</h4>
+<p><a href="assets/EoI_template_Inter-American Development Bank.DOCX">Template from Inter-American Developent Bank</a> <a href="https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital">Example from 3ie</a></p>
+</section>
+<section id="tors" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="tors">ToRs</h4>
+<p><a href="https://evaluationreports.unicef.org/GetDocument?documentID=20405&amp;fileID=54164">Example from UNICEF</a> <a href="assets/Comprehensive TORs_template_Inter-American Development Bank.DOCX">Template (comprehensive ToRs) from Inter-American Developent Bank</a> <a href="assets/Data Collection Firm TORs_template_Inter-American Development Bank.DOCX">Template (data collection ToRs) from Inter-American Developent Bank</a></p>
+</section>
+<section id="budget-1" class="level4 card-e">
+<h4 class="anchored" data-anchor-id="budget-1">Budget</h4>
+<p><a href="https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf">Template from J-PAL</a> <a href="assets/Budget_template_Inter-American Development Bank.XLSX">Template from Inter-American Developent Bank</a></p>
+</section>
+</div>
 <hr>
 <div class="nav-buttons">
 <p><a href="./02.06-data_collect.html">← Back to - Step 6: collect data</a></p>
