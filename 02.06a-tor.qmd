@@ -192,19 +192,22 @@ Describe the reporting line, frequency of progress meetings, and the composition
 ::: {.cards}
 ::: {.card-e}
 #### EoI
-[Template from Inter-American Developent Bank](assets/EoI_template_Inter-American Development Bank.DOCX)
-[Example from 3ie](https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital)
+
+- [Template from Inter-American Developent Bank](assets/EoI_template_Inter-American Development Bank.DOCX)
+- [Example from 3ie](https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital)
 :::
 ::: {.card-e}
 #### ToRs
-[Example from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
-[Template (comprehensive ToRs) from Inter-American Developent Bank](assets/Comprehensive TORs_template_Inter-American Development Bank.DOCX)
-[Template (data collection ToRs) from Inter-American Developent Bank](assets/Data Collection Firm TORs_template_Inter-American Development Bank.DOCX)
+
+- [Example from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
+- [Template (comprehensive ToRs) from Inter-American Developent Bank](assets/Comprehensive TORs_template_Inter-American Development Bank.DOCX)
+- [Template (data collection ToRs) from Inter-American Developent Bank](assets/Data Collection Firm TORs_template_Inter-American Development Bank.DOCX)
 :::
 ::: {.card-e}
 #### Budget
-[Template from J-PAL](https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf) 
-[Template from Inter-American Developent Bank](assets/Budget_template_Inter-American Development Bank.XLSX) 
+
+- [Template from J-PAL](https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf) 
+- [Template from Inter-American Developent Bank](assets/Budget_template_Inter-American Development Bank.XLSX) 
 :::
 :::
 
